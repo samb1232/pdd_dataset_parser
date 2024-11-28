@@ -1,0 +1,81 @@
+Old dataset:
+[
+	{
+		done,
+		id,
+		body,
+		file,
+		role,
+		time,
+		email,
+		lines,
+		owner,
+		author,
+		issueNo,
+		estimate,
+		tickerNo,
+		issueLink,
+		title
+	},
+	...
+]
+	
+Addition fields:
+{
+	comments,
+	state,
+	closed_at,
+	created_at,
+	updated_at,
+	assignees: [],
+	locked,
+	labels,
+	milestone,
+	author_association,
+	code: {
+		changes,
+		additions,
+		deletions
+	},
+	all_commits: [
+		{
+			comment_count,
+			raw_stats: {
+				total,
+				additions,
+				deletions
+			},
+			files: [
+				{
+					additions,
+					changes,
+					deletions,
+					status,
+					filename
+				},
+				...
+			]
+		}
+	],
+}
+
+
+
+New dataset:
+[
+	{
+		project_name,
+		date_start,
+		date_end,
+		puzzles_len,
+		puzzles: [
+			{пазл из вехней таблицы},
+			{пазл из вехней таблицы},
+			{пазл из вехней таблицы},
+			{пазл из вехней таблицы}
+		],
+		chosen_puzzle_id
+	},
+	...
+]
+
