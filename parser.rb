@@ -1,16 +1,6 @@
-require "json"
 require "date"
+require_relative "utils/json_utils"
 
-
-def read_json_string(json_str)
-  return JSON.parse(json_str)
-end
-
-def write_json_array_to_file(json_array, file_path)
-  File.open(file_path, 'w') do |file|
-    file.write(JSON.pretty_generate(json_array))
-  end
-end
 
 def compare_dates(date1, date2)
   datetime1 = DateTime.parse(date1)
@@ -83,10 +73,43 @@ def group_puzzles_by_timestamps(puzzles_grouped_by_repos)
   grouped_puzzles
 end
 
+
+def remove_unnecessary_fields(dataset)
+  new_dataset = []
+  dataset.each do |puzzles_set|
+    new_puzzles_set = {}
+    new_puzzles_set['project_name'] = puzzles_set['project_name']
+    new_puzzles_set['data_start'] = puzzles_set['data_start']
+    new_puzzles_set['data_end'] = puzzles_set['data_end']
+    new_puzzles_set['chosen_puzzle_id'] = puzzles_set['chosen_puzzle_id']
+    new_puzzles_set['puzzles_len'] = puzzles_set['puzzles_len']
+
+    new_puzzles = [] 
+    puzzles_set['puzzles'].each do |puzzle|
+      new_puzzle = {
+        "id": puzzle["id"],
+        "referenced": puzzle["referenced"],
+        "mentioned": puzzle["mentioned"],
+        "time": puzzle["time"],
+        "lines": puzzle["lines"],
+        "ticketNo": puzzle["ticketNo"],
+        "issueLink": puzzle["issueLink"],
+        "title": puzzle["title"],
+      }
+      new_puzzles << new_puzzle
+    end
+    new_puzzles_set['puzzles'] = new_puzzles
+    new_dataset << new_puzzles_set
+  end
+  new_dataset
+end
+
+
 data = read_json_string(File.read("data.json"))
 
 filtered_puzzles = filter_puzzles_with_comments(data)
 grouped_by_repos = group_puzzles_by_repository(filtered_puzzles)
 grouped_by_timestamps = group_puzzles_by_timestamps(grouped_by_repos)
+cleared_puzles = remove_unnecessary_fields(grouped_by_timestamps)
 
-write_json_array_to_file(grouped_by_timestamps, "new_dataset2.json")
+write_json_array_to_file(cleared_puzles, "new_dataset_filtered.json")
