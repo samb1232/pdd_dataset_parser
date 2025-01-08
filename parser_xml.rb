@@ -1,7 +1,9 @@
 require 'find'
 require 'rexml/document'
+require 'date'
 require_relative "utils/json_utils"
 require_relative "utils/github_project_checker"
+require_relative "utils/date_utils"
 include REXML
 
 
@@ -10,15 +12,18 @@ DATASET_DIR = "0pdd-dataset"
 
 def main
     project_puzzles = []
+    counter = 1
+    target = Find.find(DATASET_DIR).count
     Find.find(DATASET_DIR) do |path|
         unless path_to_xml?(path) 
            next
         end
         new_puzzles = get_puzzles_from_xml_file(path)
         project_puzzles.concat(new_puzzles)
+        puts "Progress: #{counter}/#{target}"
+        counter += 1
     end
-    write_json_array_to_file(project_puzzles, "NEW_DATASETIK.json")
-    puts "DONE!"
+    write_json_array_to_file(project_puzzles, "NEW_DATASETIK_2.json")
 end
 
 
@@ -48,12 +53,8 @@ def convert_puzzles_to_hashes(puzzles)
     is_project_public = check_is_project_public(project_link)
 
     if !is_project_public
-        puts "Private found"
         return []
     end
-
-    puts "Public found"
-
 
     project = []
 
@@ -72,7 +73,7 @@ def convert_puzzles_to_hashes(puzzles)
         if issue.nil?
             closed_at = nil
         else
-            closed_at = issue.attributes["closed"]
+            closed_at = fix_date_format(issue.attributes["closed"])
         end
         
         children = p_elements["children"].elements
