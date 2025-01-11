@@ -1,6 +1,6 @@
 require "json"
 require "date"
-require_relative "utils/json_utils"
+require_relative "../utils/json_utils"
 
 def write_json_array_to_file(json_array, file_path)
   File.open(file_path, 'w') do |file|

@@ -1,9 +1,9 @@
 require 'find'
 require 'rexml/document'
 require 'date'
-require_relative "utils/json_utils"
-require_relative "utils/github_project_checker"
-require_relative "utils/date_utils"
+require_relative "../utils/json_utils"
+require_relative "../utils/github_project_checker"
+require_relative "../utils/date_utils"
 include REXML
 
 

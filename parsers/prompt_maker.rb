@@ -1,4 +1,4 @@
-require_relative "utils/json_utils"
+require_relative "../utils/json_utils"
 
 
 def main() 
@@ -29,7 +29,7 @@ def make_prompts(puzzles_collections)
             prompt += puzzle_info + ","
         end
 
-        prompt += ". I want you to chose one issue, that you think is the most priority than others. Write only id of chosen issue."
+        prompt += ". I want you to chose one issue, that you think is the most priority than others. Do not explain yourself, write only full id of chosen issue and nothing more."
         
         chosen_puzzle_id = puzzle_collection["chosen_puzzle_id"]
         prompts << {"prompt" => prompt, "answer" => chosen_puzzle_id}

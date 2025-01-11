@@ -1,5 +1,5 @@
 require "date"
-require_relative "utils/json_utils"
+require_relative "../utils/json_utils"
 
 
 
