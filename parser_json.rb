@@ -1,6 +1,12 @@
+require "json"
 require "date"
 require_relative "utils/json_utils"
 
+def write_json_array_to_file(json_array, file_path)
+  File.open(file_path, 'w') do |file|
+    file.write(JSON.pretty_generate(json_array))
+  end
+end
 
 def compare_dates(date1, date2)
   datetime1 = DateTime.parse(date1)
@@ -105,11 +111,11 @@ def remove_unnecessary_fields(dataset)
 end
 
 
-data = read_json_string(File.read("data.json"))
+data = json_string_to_hash_arr(File.read("data.json"))
 
 filtered_puzzles = filter_puzzles_with_comments(data)
 grouped_by_repos = group_puzzles_by_repository(filtered_puzzles)
 grouped_by_timestamps = group_puzzles_by_timestamps(grouped_by_repos)
 cleared_puzles = remove_unnecessary_fields(grouped_by_timestamps)
 
-write_json_array_to_file(cleared_puzles, "new_dataset_filtered.json")
+write_json_array_to_file(cleared_puzles, "new_dataset_2.json")

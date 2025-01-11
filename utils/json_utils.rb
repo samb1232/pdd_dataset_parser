@@ -2,7 +2,7 @@ require "json"
 require 'fileutils'
 
 
-def read_json_string(json_str)
+def json_string_to_hash_arr(json_str)
   return JSON.parse(json_str)
 end
 
