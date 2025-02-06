@@ -24,7 +24,7 @@ def group_puzzles_by_timestamps(puzzles_grouped_by_repos)
       
       puzzles_arr = []
       pzl_close_date = DateTime.parse(puzzle["closed_at"])
-      min_date_start = DateTime.parse(puzzle["created_at"])
+      pzl_create_date = DateTime.parse(puzzle["created_at"])
 
       puzzles_group.each do |sub_puzzle|
         sub_pzl_create_date = DateTime.parse(sub_puzzle["created_at"])
@@ -32,17 +32,16 @@ def group_puzzles_by_timestamps(puzzles_grouped_by_repos)
 
         if !sub_puzzle["closed_at"].nil?
           sub_pzl_close_date = DateTime.parse(sub_puzzle["closed_at"])
-          next if sub_pzl_close_date > pzl_close_date
+          next if sub_pzl_close_date < pzl_close_date
         end
+
         puzzles_arr << sub_puzzle
-        if sub_pzl_create_date < min_date_start
-          min_date_start = sub_pzl_create_date
-        end
+        
       end
 
       new_puzzles_set = {
         "project_name" => puzzle["project_link"],
-        "data_start" => min_date_start,
+        "data_start" => pzl_create_date,
         "data_end" => pzl_close_date,
         "chosen_puzzle_id" => puzzle["id"],
         "puzzles_len" => puzzles_arr.length,
@@ -91,4 +90,4 @@ data = json_string_to_hash_arr(File.read("results\\dataset_from_xml.json"))
 grouped_by_repos = group_puzzles_by_repository(data)
 grouped_by_timestamps = group_puzzles_by_timestamps(grouped_by_repos)
 
-write_json_array_to_file(grouped_by_timestamps, "data_xml_by_timestamps.json")
+write_json_array_to_file(grouped_by_timestamps, "data_xml_by_timestamps_v2.json")
