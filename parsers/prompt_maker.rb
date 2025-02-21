@@ -6,7 +6,7 @@ def main()
     data = json_string_to_hash_arr(File.read("data_xml_by_timestamps_v2.json"))
     prompts = make_prompts(data)
 
-    write_json_array_to_file(prompts, "prompts.json")
+    write_json_array_to_file(prompts, "prompts_for_long_explaining.json")
 end
 
 
