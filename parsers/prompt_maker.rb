@@ -1,5 +1,5 @@
-require "date"
 require_relative "../utils/json_utils"
+require_relative "../utils/prompt_utils"
 
 
 def main() 
@@ -37,16 +37,6 @@ def make_prompts(puzzles_collections)
     end
 
     return prompts
-end
-
-def get_project_name_from_link(project_link)
-    project_link.split("/").last
-end
-
-
-def prettify_date(date_str)
-    date = DateTime.parse(date_str)
-    return date.strftime("%d.%m.%Y")
 end
 
 
