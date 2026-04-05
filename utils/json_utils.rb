@@ -6,6 +6,10 @@ def json_string_to_hash_arr(json_str)
   return JSON.parse(json_str)
 end
 
+def load_json_file(file_path)
+  JSON.parse(File.read(file_path))
+end
+
 def write_json_array_to_file(json_array, file_path)
   ensure_directories_exist(file_path)
   File.open(file_path, 'w') do |file|

@@ -1,11 +1,10 @@
-require "date"
-
-def get_project_name_from_link(project_link)
-    project_link.split("/").last
-end
-
-
-def prettify_date(date_str)
-    date = DateTime.parse(date_str)
-    return date.strftime("%d.%m.%Y")
+def create_prompt_from_puzzles(puzzles)
+  prompt = ""
+  puzzles.each do |puzzle|
+    prompt += "Issue ID: #{puzzle["id"]}\n"
+    prompt += "Created: #{puzzle["created_at"]}\n"
+    prompt += "Body: #{puzzle["body"]}\n"
+    prompt += "File: #{puzzle["file"]}:#{puzzle["lines"]}\n\n"
+  end
+  prompt
 end
