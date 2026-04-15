@@ -1,0 +1,2656 @@
+{
+  "project_link": "https://github.com/llorllale/youtrack-api",
+  "issues_count": 26,
+  "issues": [
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/196",
+      "ticket": "166",
+      "done": true,
+      "id": "166-496efef5",
+      "closed_at": "2018-05-02T17:50:16Z",
+      "created_at": "2018-05-01T19:47:15Z",
+      "body": "Continue making all implementations accept a Login instead of a Session. Wrap the given login in the new CachedLogin implementation.",
+      "file": "src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java",
+      "lines": "25-26",
+      "labels": [],
+      "assignees": [],
+      "title": "DefaultYouTrack.java:25-26: Continue making all...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1606048887,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MDYwNDg4ODc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1606048887",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "40dfbe59f82f380f6ee16f2ab2c4909521b35ce5",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/40dfbe59f82f380f6ee16f2ab2c4909521b35ce5",
+          "created_at": "2018-05-02T17:42:56Z"
+        },
+        {
+          "id": 1606064718,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MDYwNjQ3MTg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1606064718",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "47c963cfe87d56c08feff687f9a0d56c5423a6c7",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/47c963cfe87d56c08feff687f9a0d56c5423a6c7",
+          "created_at": "2018-05-02T17:50:04Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.92,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "161-af52ca76",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/166",
+      "ticket": "161",
+      "done": true,
+      "id": "161-af52ca76",
+      "closed_at": "2018-05-01T19:47:21Z",
+      "created_at": "2018-03-31T14:32:01Z",
+      "body": "Modify ctor to accept the Login interface. This interface must be propagated to collaborators through their ctors. Wrap the given login in the new CachedLogin implementation.",
+      "file": "src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java",
+      "lines": "25-27",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "DefaultYouTrack.java:25-27: Modify ctor to accept the...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1550810396,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1NTA4MTAzOTY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550810396",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-31T17:26:44Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1550810403,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1NTA4MTA0MDM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550810403",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-31T17:26:46Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1603786430,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNjAzNzg2NDMw",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1603786430",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-01T17:32:16Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1603980447,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MDM5ODA0NDc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1603980447",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "52a5d3df64c8a8ba73dabfcf946fab5d25e633dc",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/52a5d3df64c8a8ba73dabfcf946fab5d25e633dc",
+          "created_at": "2018-05-01T19:19:00Z"
+        },
+        {
+          "id": 1604003215,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MDQwMDMyMTU=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1604003215",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "395b8217ff1487efdd5f5ba727e21c0904d93215",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/395b8217ff1487efdd5f5ba727e21c0904d93215",
+          "created_at": "2018-05-01T19:33:15Z"
+        },
+        {
+          "id": 1604013098,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MDQwMTMwOTg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1604013098",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d7d50225b8f7578068afbcafe8649ec139f629e5",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/d7d50225b8f7578068afbcafe8649ec139f629e5",
+          "created_at": "2018-05-01T19:38:34Z"
+        },
+        {
+          "id": 1604028120,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MDQwMjgxMjA=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1604028120",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6f25b358540cf5cad9c292b20e730eba9bf4d730",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/6f25b358540cf5cad9c292b20e730eba9bf4d730",
+          "created_at": "2018-05-01T19:47:17Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 31.22,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/192",
+      "ticket": "190",
+      "done": true,
+      "id": "190-ffcedfbe",
+      "closed_at": "2018-04-16T20:14:52Z",
+      "created_at": "2018-04-16T19:16:12Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "426-428",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:426-428: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1577178346,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzcxNzgzNDY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1577178346",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "86327ff139584e387c66a8cc40c5a7945cf73760",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/86327ff139584e387c66a8cc40c5a7945cf73760",
+          "created_at": "2018-04-16T20:04:20Z"
+        },
+        {
+          "id": 1577198538,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzcxOTg1Mzg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1577198538",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "85e0db497e611d586ce34874c3cb5a4688912315",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/85e0db497e611d586ce34874c3cb5a4688912315",
+          "created_at": "2018-04-16T20:14:47Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.04,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 11,
+      "parent_id": "188-ffcedfbe",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/190",
+      "ticket": "188",
+      "done": true,
+      "id": "188-ffcedfbe",
+      "closed_at": "2018-04-16T19:16:17Z",
+      "created_at": "2018-04-13T19:50:49Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "426-428",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:426-428: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1576937363,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzY5MzczNjM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1576937363",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1036ba2fc66698add3432da2f693340658f14d88",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/1036ba2fc66698add3432da2f693340658f14d88",
+          "created_at": "2018-04-16T18:00:13Z"
+        },
+        {
+          "id": 1577086108,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzcwODYxMDg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1577086108",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cc2cdc1833d82441c091b872746bfd9fba5b9e31",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/cc2cdc1833d82441c091b872746bfd9fba5b9e31",
+          "created_at": "2018-04-16T19:16:13Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2.98,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 10,
+      "parent_id": "186-ffcedfbe",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/188",
+      "ticket": "186",
+      "done": true,
+      "id": "186-ffcedfbe",
+      "closed_at": "2018-04-13T19:50:55Z",
+      "created_at": "2018-04-06T20:54:17Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "426-428",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:426-428: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1561762863,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NjE3NjI4NjM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1561762863",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "11f4302bb3d1c8c14150da4e72fb1a20408b31ab",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/11f4302bb3d1c8c14150da4e72fb1a20408b31ab",
+          "created_at": "2018-04-06T21:11:10Z"
+        },
+        {
+          "id": 1573450072,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzM0NTAwNzI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1573450072",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ca0c4e9e60dce1e2f43f5495602ef3760fa08e65",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/ca0c4e9e60dce1e2f43f5495602ef3760fa08e65",
+          "created_at": "2018-04-13T14:50:35Z"
+        },
+        {
+          "id": 1574026494,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzQwMjY0OTQ=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1574026494",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "efe0a677de692ac28cf488da218764fcd6ce1189",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/efe0a677de692ac28cf488da218764fcd6ce1189",
+          "created_at": "2018-04-13T19:50:51Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 6.96,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 9,
+      "parent_id": "183-ffcedfbe",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/186",
+      "ticket": "183",
+      "done": true,
+      "id": "183-ffcedfbe",
+      "closed_at": "2018-04-06T20:54:26Z",
+      "created_at": "2018-04-04T18:09:46Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "426-428",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "pom.xml:426-428: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1557110028,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1NTcxMTAwMjg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1557110028",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-04T18:10:03Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1557110081,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1NTcxMTAwODE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1557110081",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-04T18:10:04Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1561722558,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NjE3MjI1NTg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1561722558",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5b5379a516145dc2ef2bd16a18d90284e246df58",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/5b5379a516145dc2ef2bd16a18d90284e246df58",
+          "created_at": "2018-04-06T20:47:58Z"
+        },
+        {
+          "id": 1561733188,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NjE3MzMxODg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1561733188",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8cee80a6b7e85e73932a94eae025326f40591310",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/8cee80a6b7e85e73932a94eae025326f40591310",
+          "created_at": "2018-04-06T20:54:18Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 2.11,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 8,
+      "parent_id": "181-ffcedfbe",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/183",
+      "ticket": "181",
+      "done": true,
+      "id": "181-ffcedfbe",
+      "closed_at": "2018-04-04T18:09:52Z",
+      "created_at": "2018-04-01T19:20:29Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "426-428",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:426-428: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1557090524,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTcwOTA1MjQ=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1557090524",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "00059e1f23c2a5839ff49b0d297fbc7b9f5f1d59",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/00059e1f23c2a5839ff49b0d297fbc7b9f5f1d59",
+          "created_at": "2018-04-04T18:00:20Z"
+        },
+        {
+          "id": 1557109448,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTcxMDk0NDg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1557109448",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9ac0840014648d7007c18adb42fcc2940e7a0ad3",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/9ac0840014648d7007c18adb42fcc2940e7a0ad3",
+          "created_at": "2018-04-04T18:09:47Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2.95,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 7,
+      "parent_id": "179-ffcedfbe",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/181",
+      "ticket": "179",
+      "done": true,
+      "id": "179-ffcedfbe",
+      "closed_at": "2018-04-01T19:20:40Z",
+      "created_at": "2018-04-01T17:48:53Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "203-205",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:203-205: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1551209149,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTEyMDkxNDk=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551209149",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8c273398524dd059fd05eec57eb99e0f009a62fd",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/8c273398524dd059fd05eec57eb99e0f009a62fd",
+          "created_at": "2018-04-01T19:06:01Z"
+        },
+        {
+          "id": 1551213626,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTEyMTM2MjY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551213626",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b519c8a4e6a9eb1189379e853cf66909868fc519",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/b519c8a4e6a9eb1189379e853cf66909868fc519",
+          "created_at": "2018-04-01T19:20:31Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.06,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 6,
+      "parent_id": "177-ffcedfbe",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/179",
+      "ticket": "177",
+      "done": true,
+      "id": "177-ffcedfbe",
+      "closed_at": "2018-04-01T17:49:02Z",
+      "created_at": "2018-04-01T16:45:24Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "203-205",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:203-205: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1551182223,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTExODIyMjM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551182223",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "462b13e00172add7e53f177273075c60d8b273f3",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/462b13e00172add7e53f177273075c60d8b273f3",
+          "created_at": "2018-04-01T17:34:41Z"
+        },
+        {
+          "id": 1551183203,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTExODMyMDM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551183203",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "25114aec76e9b67acf9f6efa62d10918e42218b6",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/25114aec76e9b67acf9f6efa62d10918e42218b6",
+          "created_at": "2018-04-01T17:37:29Z"
+        },
+        {
+          "id": 1551183895,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTExODM4OTU=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551183895",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6ca2a422d51d40045ce0dec6c3306fbf0c7c9e12",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/6ca2a422d51d40045ce0dec6c3306fbf0c7c9e12",
+          "created_at": "2018-04-01T17:39:37Z"
+        },
+        {
+          "id": 1551186811,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTExODY4MTE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551186811",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1294f385004e78eee2a7ed5cc16f1c9825272e39",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/1294f385004e78eee2a7ed5cc16f1c9825272e39",
+          "created_at": "2018-04-01T17:48:55Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.04,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 5,
+      "parent_id": "175-ffcedfbe",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/177",
+      "ticket": "175",
+      "done": true,
+      "id": "175-ffcedfbe",
+      "closed_at": "2018-04-01T16:45:29Z",
+      "created_at": "2018-04-01T01:07:10Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "203-205",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "pom.xml:203-205: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1551154858,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTExNTQ4NTg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551154858",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "10a7dd1bfc2c871dd97fbc332b2e8fec981b7d34",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/10a7dd1bfc2c871dd97fbc332b2e8fec981b7d34",
+          "created_at": "2018-04-01T16:00:52Z"
+        },
+        {
+          "id": 1551155204,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNTUxMTU1MjA0",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551155204",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-01T16:02:00Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1551155211,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1NTExNTUyMTE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551155211",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-01T16:02:02Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1551155218,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1NTExNTUyMTg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551155218",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-01T16:02:04Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1551168141,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTExNjgxNDE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1551168141",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b591ffb90c4dea49ff2601603872b312c9f1b9ef",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/b591ffb90c4dea49ff2601603872b312c9f1b9ef",
+          "created_at": "2018-04-01T16:45:26Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.65,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 4,
+      "parent_id": "173-ffcedfbe",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/175",
+      "ticket": "173",
+      "done": true,
+      "id": "173-ffcedfbe",
+      "closed_at": "2018-04-01T01:07:16Z",
+      "created_at": "2018-03-31T23:51:06Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "203-205",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:203-205: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1550924097,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA5MjQwOTc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550924097",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7187afde4f78beab73115a6597de03da5b37142a",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/7187afde4f78beab73115a6597de03da5b37142a",
+          "created_at": "2018-04-01T00:21:59Z"
+        },
+        {
+          "id": 1550933319,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA5MzMzMTk=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550933319",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "56821620537ccf2c3cbecdf8a12e909eee163176",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/56821620537ccf2c3cbecdf8a12e909eee163176",
+          "created_at": "2018-04-01T01:07:11Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.05,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 3,
+      "parent_id": "171-ffcedfbe",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/173",
+      "ticket": "171",
+      "done": true,
+      "id": "171-ffcedfbe",
+      "closed_at": "2018-03-31T23:51:15Z",
+      "created_at": "2018-03-31T23:07:35Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.",
+      "file": "pom.xml",
+      "lines": "203-205",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "pom.xml:203-205: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1550917082,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA5MTcwODI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550917082",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d9ce88c1c58a97037cef773596da6bc127b01bb6",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/d9ce88c1c58a97037cef773596da6bc127b01bb6",
+          "created_at": "2018-03-31T23:45:22Z"
+        },
+        {
+          "id": 1550917575,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1NTA5MTc1NzU=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550917575",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-31T23:48:05Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1550917577,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1NTA5MTc1Nzc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550917577",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-31T23:48:06Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1550917583,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNTUwOTE3NTgz",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550917583",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-31T23:48:07Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1550918132,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA5MTgxMzI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550918132",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "961b74a5679a376c05637fa892466554860255de",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/961b74a5679a376c05637fa892466554860255de",
+          "created_at": "2018-03-31T23:51:08Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.03,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 2,
+      "parent_id": "168-5f0e7803",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/171",
+      "ticket": "168",
+      "done": true,
+      "id": "168-5f0e7803",
+      "closed_at": "2018-03-31T23:07:41Z",
+      "created_at": "2018-03-31T21:13:33Z",
+      "body": "Continued: <sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step.",
+      "file": "pom.xml",
+      "lines": "203-205",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:203-205: Continued: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1550906772,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA5MDY3NzI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550906772",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5e68e0d5ce2c9a3adbaa8dc8d5e1a6f18f5cc823",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/5e68e0d5ce2c9a3adbaa8dc8d5e1a6f18f5cc823",
+          "created_at": "2018-03-31T22:57:48Z"
+        },
+        {
+          "id": 1550909199,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA5MDkxOTk=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550909199",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "39c68b515ac22c8d775e27b90f7b8c808bf6e60f",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/39c68b515ac22c8d775e27b90f7b8c808bf6e60f",
+          "created_at": "2018-03-31T23:07:36Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.08,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "164-782b906d",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/168",
+      "ticket": "164",
+      "done": true,
+      "id": "164-782b906d",
+      "closed_at": "2018-03-31T21:13:38Z",
+      "created_at": "2018-03-31T17:15:00Z",
+      "body": "<sourceDirectory> should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step.",
+      "file": "pom.xml",
+      "lines": "203-205",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "pom.xml:203-205: <sourceDirectory> should be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1550806911,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1NTA4MDY5MTE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550806911",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-31T17:15:43Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1550806920,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1NTA4MDY5MjA=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550806920",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-31T17:15:45Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1550871904,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA4NzE5MDQ=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550871904",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "492f90b3aae430846fd2b499c4a8660926e4852c",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/492f90b3aae430846fd2b499c4a8660926e4852c",
+          "created_at": "2018-03-31T20:47:28Z"
+        },
+        {
+          "id": 1550877272,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA4NzcyNzI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550877272",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e368c8d55fdbaaf3751025aa33a28c8a61c883b0",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/e368c8d55fdbaaf3751025aa33a28c8a61c883b0",
+          "created_at": "2018-03-31T21:06:04Z"
+        },
+        {
+          "id": 1550879468,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NTA4Nzk0Njg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1550879468",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "999564a648936f95228853565b5264708278e20d",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/999564a648936f95228853565b5264708278e20d",
+          "created_at": "2018-03-31T21:13:35Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.17,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/206",
+      "ticket": "204",
+      "done": true,
+      "id": "204-33686010",
+      "closed_at": "2018-06-07T20:38:41Z",
+      "created_at": "2018-06-01T14:36:34Z",
+      "body": "Continue using llorllale/cactoos-matchers for tests where ever possible. Also, wherever possible, stop using static methods from Matcher and start using their object counterparts.",
+      "file": "src/test/java/org/llorllale/youtrack/api/DefaultIssueTimeTrackingTest.java",
+      "lines": "35-37",
+      "labels": [],
+      "assignees": [],
+      "title": "DefaultIssueTimeTrackingTest.java:35-37: Continue using...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1669488811,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2Njk0ODg4MTE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1669488811",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ad529b287f552ef45c25a3e180f6592555e9397e",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/ad529b287f552ef45c25a3e180f6592555e9397e",
+          "created_at": "2018-06-07T20:22:01Z"
+        },
+        {
+          "id": 1669505096,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2Njk1MDUwOTY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1669505096",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1166804c153c4702986e03a8d0566ec7e80bbf8f",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/1166804c153c4702986e03a8d0566ec7e80bbf8f",
+          "created_at": "2018-06-07T20:30:36Z"
+        },
+        {
+          "id": 1669520453,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2Njk1MjA0NTM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1669520453",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0cfb9a918e3f1817985d95781b2e6b616c93e036",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/0cfb9a918e3f1817985d95781b2e6b616c93e036",
+          "created_at": "2018-06-07T20:38:37Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 6.25,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "202-33686010",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/204",
+      "ticket": "202",
+      "done": true,
+      "id": "202-33686010",
+      "closed_at": "2018-06-01T14:36:40Z",
+      "created_at": "2018-05-31T21:12:23Z",
+      "body": "Continue using llorllale/cactoos-matchers for tests where ever possible. Also, wherever possible, stop using static methods from Matcher and start using their object counterparts.",
+      "file": "src/test/java/org/llorllale/youtrack/api/CachedLoginTest.java",
+      "lines": "35-37",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "title": "CachedLoginTest.java:35-37: Continue using...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1657015104,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE2NTcwMTUxMDQ=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1657015104",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-31T21:21:40Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1658427116,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NTg0MjcxMTY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1658427116",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fe099c59e75c996e87979dd986573162923398bb",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/fe099c59e75c996e87979dd986573162923398bb",
+          "created_at": "2018-06-01T14:21:50Z"
+        },
+        {
+          "id": 1658447562,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NTg0NDc1NjI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1658447562",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cf09f2af9b124559e93a0c6988139202da2593fe",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/cf09f2af9b124559e93a0c6988139202da2593fe",
+          "created_at": "2018-06-01T14:30:38Z"
+        },
+        {
+          "id": 1658461336,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NTg0NjEzMzY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1658461336",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bfbe36b5e4bee16d5b502ba5eaa0e651b6cecb01",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/bfbe36b5e4bee16d5b502ba5eaa0e651b6cecb01",
+          "created_at": "2018-06-01T14:36:35Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.73,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/240",
+      "ticket": "222",
+      "done": true,
+      "id": "222-dda41031",
+      "closed_at": "2018-11-16T21:19:11Z",
+      "created_at": "2018-09-21T21:51:38Z",
+      "body": "Now that all HTTPClients and HTTPResponses are closeable, we need to start making sure that the underlying connections are being released when we are done with the http responses. For reference, read: - https://stackoverflow.com/a/31659073/1623885 - Sections 1.1.5 and 1.1.6 of https://hc.apache.org/httpcomponents-client-4.5.x/tutorial/html/fundamentals.html",
+      "file": "src/main/java/org/llorllale/youtrack/api/http/Client.java",
+      "lines": "26-31",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "Client.java:26-31: Now that all HTTPClients and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1861238337,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4NjEyMzgzMzc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1861238337",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-09-21T21:54:46Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1861238408,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE4NjEyMzg0MDg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1861238408",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-09-21T21:54:49Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1972244650,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NzIyNDQ2NTA=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1972244650",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "18f92669bf66a6233f05a1a376f7de9a95070ff1",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/18f92669bf66a6233f05a1a376f7de9a95070ff1",
+          "created_at": "2018-11-16T21:09:23Z"
+        },
+        {
+          "id": 1972263436,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NzIyNjM0MzY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1972263436",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d9f9746da7810cb75831c07c32799cc523ece1da",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/d9f9746da7810cb75831c07c32799cc523ece1da",
+          "created_at": "2018-11-16T21:19:05Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 55.98,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 3,
+      "parent_id": "216-3cbd571f",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/222",
+      "ticket": "216",
+      "done": true,
+      "id": "216-3cbd571f",
+      "closed_at": "2018-09-21T21:51:43Z",
+      "created_at": "2018-07-09T17:42:41Z",
+      "body": "Even though DefaultHttpClient is pooling connections, we must take care to release each connection so that it can be reused. We should ensure that all Http entities are consumed and that all responses are closed, for example.",
+      "file": "src/main/java/org/llorllale/youtrack/api/DefaultClient.java",
+      "lines": "25-27",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "DefaultClient.java:25-27: Even though DefaultHttpClient...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1724537588,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE3MjQ1Mzc1ODg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724537588",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T03:16:22Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1724537609,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE3MjQ1Mzc2MDk=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724537609",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T03:16:23Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1861200763,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE4NjEyMDA3NjM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1861200763",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c0963e4a89710e31bb5fa1073faa47d46ba50177",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/c0963e4a89710e31bb5fa1073faa47d46ba50177",
+          "created_at": "2018-09-21T21:31:35Z"
+        },
+        {
+          "id": 1861232256,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE4NjEyMzIyNTY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1861232256",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ad8cbf01801aef6a62f3d204d3333ca92c4f376f",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/ad8cbf01801aef6a62f3d204d3333ca92c4f376f",
+          "created_at": "2018-09-21T21:51:39Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 74.17,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 2,
+      "parent_id": "208-edc51acf",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/233",
+      "ticket": "231",
+      "done": true,
+      "id": "231-5ca94c9b",
+      "closed_at": "2018-07-10T22:04:13Z",
+      "created_at": "2018-07-10T19:10:28Z",
+      "body": "Continue making all implementations accept an HttpClient in order to enable concurrency. Right now major parts of the API are hanging when multiple threads are accessing them.",
+      "file": "src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java",
+      "lines": "46-48",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "DefaultYouTrack.java:46-48: Continue making all...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1726329992,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE3MjYzMjk5OTI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1726329992",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T19:10:57Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1726330049,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE3MjYzMzAwNDk=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1726330049",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T19:10:59Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1726355882,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjYzNTU4ODI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1726355882",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "55764a70a097ad31b58ba0923b29feff54ea90f5",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/55764a70a097ad31b58ba0923b29feff54ea90f5",
+          "created_at": "2018-07-10T19:24:58Z"
+        },
+        {
+          "id": 1726645023,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjY2NDUwMjM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1726645023",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "da47a7b85ee4ca75564901751f89c8f2c83e8a12",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/da47a7b85ee4ca75564901751f89c8f2c83e8a12",
+          "created_at": "2018-07-10T22:04:09Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.12,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 5,
+      "parent_id": "228-5ca94c9b",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/231",
+      "ticket": "228",
+      "done": true,
+      "id": "228-5ca94c9b",
+      "closed_at": "2018-07-10T19:10:41Z",
+      "created_at": "2018-07-10T12:40:06Z",
+      "body": "Continue making all implementations accept an HttpClient in order to enable concurrency. Right now major parts of the API are hanging when multiple threads are accessing them.",
+      "file": "src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java",
+      "lines": "46-48",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "DefaultYouTrack.java:46-48: Continue making all...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1725711897,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE3MjU3MTE4OTc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1725711897",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T14:39:48Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1725712208,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE3MjU3MTIyMDg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1725712208",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T14:39:55Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1726314909,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjYzMTQ5MDk=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1726314909",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cde6e2d9d8c552aa2ba4a13447370de0aa7b76a9",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/cde6e2d9d8c552aa2ba4a13447370de0aa7b76a9",
+          "created_at": "2018-07-10T19:02:56Z"
+        },
+        {
+          "id": 1726329117,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjYzMjkxMTc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1726329117",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "56e20e714715e0cad47c9bb870cf86d6a22f71fa",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/56e20e714715e0cad47c9bb870cf86d6a22f71fa",
+          "created_at": "2018-07-10T19:10:29Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.27,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 4,
+      "parent_id": "223-5ca94c9b",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/228",
+      "ticket": "223",
+      "done": true,
+      "id": "223-5ca94c9b",
+      "closed_at": "2018-07-10T12:40:13Z",
+      "created_at": "2018-07-10T03:46:48Z",
+      "body": "Continue making all implementations accept an HttpClient in order to enable concurrency. Right now major parts of the API are hanging when multiple threads are accessing them.",
+      "file": "src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java",
+      "lines": "46-48",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "DefaultYouTrack.java:46-48: Continue making all...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1724564119,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE3MjQ1NjQxMTk=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724564119",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T03:47:15Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1724564147,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE3MjQ1NjQxNDc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724564147",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T03:47:17Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1724580199,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjQ1ODAxOTk=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724580199",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b7bd044e4109c5b1c7fb8aaf615c8c34035c502b",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/b7bd044e4109c5b1c7fb8aaf615c8c34035c502b",
+          "created_at": "2018-07-10T04:06:12Z"
+        },
+        {
+          "id": 1725406677,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjU0MDY2Nzc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1725406677",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bcf9dd08342942cc07f4eae86323ea603a1640f9",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/bcf9dd08342942cc07f4eae86323ea603a1640f9",
+          "created_at": "2018-07-10T12:40:08Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.37,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 3,
+      "parent_id": "216-2d921078",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/223",
+      "ticket": "216",
+      "done": true,
+      "id": "216-2d921078",
+      "closed_at": "2018-07-10T03:47:01Z",
+      "created_at": "2018-07-09T17:42:41Z",
+      "body": "DefaultYoutrack is now taking in an HttpClient as parameter, and this client is being passed to some parts of the API implementations. Finish making all implementations accept this client.",
+      "file": "src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java",
+      "lines": "46-48",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "DefaultYouTrack.java:46-48: DefaultYoutrack is now taking...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1724537411,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE3MjQ1Mzc0MTE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724537411",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T03:16:09Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1724539131,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE3MjQ1MzkxMzE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724539131",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-10T03:18:14Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1724555235,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjQ1NTUyMzU=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724555235",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d89c6daaef06fdbce28ebff11a08efa3ba726939",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/d89c6daaef06fdbce28ebff11a08efa3ba726939",
+          "created_at": "2018-07-10T03:36:54Z"
+        },
+        {
+          "id": 1724560743,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjQ1NjA3NDM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724560743",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c0f02d4e1f9da6fa3c3121a9e21fee95a3ce7407",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/c0f02d4e1f9da6fa3c3121a9e21fee95a3ce7407",
+          "created_at": "2018-07-10T03:43:18Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.42,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 2,
+      "parent_id": "208-edc51acf",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/216",
+      "ticket": "208",
+      "done": true,
+      "id": "208-edc51acf",
+      "closed_at": "2018-07-09T17:42:51Z",
+      "created_at": "2018-06-03T15:33:51Z",
+      "body": "The HTTP client configured for XmlIssue is the default one that only pools 2 connection that are not being released for reuse. Therefore the code hangs after a few calls to issue.attachments() and everything else accessible from there. This problem is probably present in the rest of the implementations.",
+      "file": "src/main/java/org/llorllale/youtrack/api/XmlIssue.java",
+      "lines": "34-37",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "XmlIssue.java:34-37: The HTTP client configured for...",
+      "comments": [
+        {
+          "author": "llorllale",
+          "created_at": "2018-07-09T13:55:54Z",
+          "updated_at": "2018-07-09T13:55:54Z",
+          "body": "References regarding release of HTTP connection resources:\r\n* https://stackoverflow.com/questions/30889984/whats-the-difference-between-closeablehttpresponse-close-and-httppost-release\r\n* \"Multithreaded request execution\"in https://hc.apache.org/httpcomponents-client-ga/tutorial/html/connmgmt.html",
+          "url": "https://github.com/llorllale/youtrack-api/issues/216#issuecomment-403487815",
+          "id": 403487815
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1660045823,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE2NjAwNDU4MjM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1660045823",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-03T15:34:30Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1660049207,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NjAwNDkyMDc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1660049207",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-03T15:45:21Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1660049215,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNjYwMDQ5MjE1",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1660049215",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-03T15:45:22Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1723710678,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjM3MTA2Nzg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1723710678",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "46262ce471f630a575498ac4903a5053c9b9d3dd",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/46262ce471f630a575498ac4903a5053c9b9d3dd",
+          "created_at": "2018-07-09T17:34:30Z"
+        },
+        {
+          "id": 1723727468,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjM3Mjc0Njg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1723727468",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dfa80a89eec6bad5aee08569ad486aa68cda7d85",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/dfa80a89eec6bad5aee08569ad486aa68cda7d85",
+          "created_at": "2018-07-09T17:42:43Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 36.09,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "71-9315671c",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/217",
+      "ticket": "208",
+      "done": true,
+      "id": "208-1962a091",
+      "closed_at": "2018-07-10T03:21:31Z",
+      "created_at": "2018-06-03T15:33:51Z",
+      "body": "The YouTrack API inside the test docker container is returning 'fileUrl/@url' without the mapped port number for the docker container. This is probably because the service inside uses port 80. Figure out a way to make it so that the returned '@url' is a URL that can be readily accessed from outside the container, and then un-ignore this test.",
+      "file": "src/test/java/org/llorllale/youtrack/api/XmlAttachmentIT.java",
+      "lines": "87-91",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "XmlAttachmentIT.java:87-91: The YouTrack API inside the...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1660045880,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE2NjAwNDU4ODA=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1660045880",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-03T15:34:41Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1660045925,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NjAwNDU5MjU=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1660045925",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-03T15:34:50Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1724254262,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNzI0MjU0MjYy",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724254262",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-07-09T22:28:41Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1724534688,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjQ1MzQ2ODg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724534688",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "968e243a6c9ee80d4552192a5df1bd733d9af6e5",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/968e243a6c9ee80d4552192a5df1bd733d9af6e5",
+          "created_at": "2018-07-10T03:13:14Z"
+        },
+        {
+          "id": 1724541808,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE3MjQ1NDE4MDg=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1724541808",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4e9a2194be2c3a3e382999d990586cb80d4b07a2",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/4e9a2194be2c3a3e382999d990586cb80d4b07a2",
+          "created_at": "2018-07-10T03:21:24Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 36.49,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "71-9315671c",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/208",
+      "ticket": "71",
+      "done": true,
+      "id": "71-9315671c",
+      "closed_at": "2018-06-03T15:33:57Z",
+      "created_at": "2018-06-01T15:25:53Z",
+      "body": "Add an attribute to Attachment for its contents. This would return an InputStream with the attachment's contents. Add another attribute for the attachment's content-type.",
+      "file": "src/main/java/org/llorllale/youtrack/api/Attachment.java",
+      "lines": "27-29",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "title": "Attachment.java:27-29: Add an attribute to Attachment for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1659647984,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NTk2NDc5ODQ=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1659647984",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-02T14:43:20Z",
+          "milestone": {
+            "title": "1.1.0"
+          }
+        },
+        {
+          "id": 1659647991,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE2NTk2NDc5OTE=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1659647991",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-02T14:43:23Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1660016573,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NjAwMTY1NzM=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1660016573",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "af6322e42a7efc2c8e27815007037e04b01e5f70",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/af6322e42a7efc2c8e27815007037e04b01e5f70",
+          "created_at": "2018-06-03T14:07:44Z"
+        },
+        {
+          "id": 1660043646,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NjAwNDM2NDY=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1660043646",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8feb8fdea24c67319bd70b649d2d85356a882c97",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/8feb8fdea24c67319bd70b649d2d85356a882c97",
+          "created_at": "2018-06-03T15:27:51Z"
+        },
+        {
+          "id": 1660045634,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NjAwNDU2MzQ=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1660045634",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "709f992129e76cb7b0a83b99ac0692f86889ad9a",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/709f992129e76cb7b0a83b99ac0692f86889ad9a",
+          "created_at": "2018-06-03T15:33:53Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 2.01,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/youtrack-api",
+      "issue_link": "https://github.com/llorllale/youtrack-api/issues/209",
+      "ticket": "71",
+      "done": true,
+      "id": "71-9c1a88dc",
+      "closed_at": "2018-06-01T17:07:46Z",
+      "created_at": "2018-06-01T15:25:53Z",
+      "body": "Implement Attachments interface. It is a stream (as anticipated in #200), and will in the future support creation of attachments.",
+      "file": "src/main/java/org/llorllale/youtrack/api/Attachments.java",
+      "lines": "25-26",
+      "labels": [],
+      "assignees": [],
+      "title": "Attachments.java:25-26: Implement Attachments interface....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1658761997,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NTg3NjE5OTc=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1658761997",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4a152add964b7fffb99e58ff8ec50982706fda85",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/4a152add964b7fffb99e58ff8ec50982706fda85",
+          "created_at": "2018-06-01T16:57:59Z"
+        },
+        {
+          "id": 1658780262,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NTg3ODAyNjI=",
+          "url": "https://api.github.com/repos/llorllale/youtrack-api/issues/events/1658780262",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7c6b0a8a40746bfea7e79165dc4d93f4375439d9",
+          "commit_url": "https://api.github.com/repos/llorllale/youtrack-api/commits/7c6b0a8a40746bfea7e79165dc4d93f4375439d9",
+          "created_at": "2018-06-01T17:07:41Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.07,
+      "estimate": "0",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 12,
+  "project_forks": 1,
+  "project_contributors_count": 2,
+  "first_issue_date": "2018-03-31T14:32:01Z",
+  "last_issue_date": "2018-09-21T21:51:38Z"
+}

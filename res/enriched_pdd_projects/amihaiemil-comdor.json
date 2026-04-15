@@ -1,0 +1,1922 @@
+{
+  "project_link": "https://github.com/amihaiemil/comdor",
+  "issues_count": 12,
+  "issues": [
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/12",
+      "ticket": "9",
+      "done": true,
+      "id": "9-a14ec7c0",
+      "closed_at": "2017-11-19T16:57:37Z",
+      "created_at": "2017-10-28T14:27:32Z",
+      "body": "Implement method scripts(), which extracts the code to run from the comment, and write some unit tests for it.",
+      "file": "src/main/java/co/comdor/github/JsonMention.java",
+      "lines": "40-41",
+      "labels": [
+        "enhancement",
+        "@amihaiemil",
+        "30min",
+        "0.0.3"
+      ],
+      "assignees": [],
+      "title": "JsonMention.java:40-41: Implement method scripts(), which...",
+      "comments": [
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-11-17T14:38:49Z",
+          "updated_at": "2017-11-17T14:38:49Z",
+          "body": "@comdor hello",
+          "url": "https://github.com/amihaiemil/comdor/issues/12#issuecomment-345260915",
+          "id": 345260915
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2017-11-17T14:38:50Z",
+          "updated_at": "2017-11-17T14:38:50Z",
+          "body": "@amihaiemil Hi there! I'm only version `0.0.2`, so I can't do much yet. Follow me and [my website](http://comdor.co) for updates on the next version.",
+          "url": "https://github.com/amihaiemil/comdor/issues/12#issuecomment-345260924",
+          "id": 345260924
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1321586879,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMjE1ODY4Nzk=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1321586879",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-01T18:38:32Z",
+          "label": {
+            "name": "0.0.2",
+            "color": "1cce0c"
+          }
+        },
+        {
+          "id": 1322337647,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyMjMzNzY0Nw==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322337647",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:48:13Z"
+        },
+        {
+          "id": 1322337648,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjIzMzc2NDg=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322337648",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:48:13Z"
+        },
+        {
+          "id": 1322341337,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyMjM0MTMzNw==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322341337",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:52:43Z"
+        },
+        {
+          "id": 1322341338,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjIzNDEzMzg=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322341338",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:52:43Z"
+        },
+        {
+          "id": 1322341354,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyMjM0MTM1NA==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322341354",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:52:44Z"
+        },
+        {
+          "id": 1322341355,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjIzNDEzNTU=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322341355",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:52:44Z"
+        },
+        {
+          "id": 1322341797,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyMjM0MTc5Nw==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322341797",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:53:16Z"
+        },
+        {
+          "id": 1322341798,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjIzNDE3OTg=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322341798",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:53:16Z"
+        },
+        {
+          "id": 1322341826,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyMjM0MTgyNg==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322341826",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:53:17Z"
+        },
+        {
+          "id": 1322341827,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjIzNDE4Mjc=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1322341827",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T05:53:17Z"
+        },
+        {
+          "id": 1334284651,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMzNDI4NDY1MQ==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334284651",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T16:10:48Z"
+        },
+        {
+          "id": 1334284653,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMzQyODQ2NTM=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334284653",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T16:10:48Z"
+        },
+        {
+          "id": 1334284707,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMzNDI4NDcwNw==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334284707",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T16:10:49Z"
+        },
+        {
+          "id": 1334284708,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMzQyODQ3MDg=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334284708",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T16:10:49Z"
+        },
+        {
+          "id": 1334285489,
+          "node_id": "MDE5OkNvbW1lbnREZWxldGVkRXZlbnQxMzM0Mjg1NDg5",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334285489",
+          "actor": {
+            "id": 10137,
+            "url": "https://api.github.com/users/ghost",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "comment_deleted",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T16:11:11Z"
+        },
+        {
+          "id": 1334285636,
+          "node_id": "MDE5OkNvbW1lbnREZWxldGVkRXZlbnQxMzM0Mjg1NjM2",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334285636",
+          "actor": {
+            "id": 10137,
+            "url": "https://api.github.com/users/ghost",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "comment_deleted",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T16:11:16Z"
+        },
+        {
+          "id": 1334285868,
+          "node_id": "MDE5OkNvbW1lbnREZWxldGVkRXZlbnQxMzM0Mjg1ODY4",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334285868",
+          "actor": {
+            "id": 10137,
+            "url": "https://api.github.com/users/ghost",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "comment_deleted",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T16:11:22Z"
+        },
+        {
+          "id": 1334687334,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMzNDY4NzMzNA==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334687334",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:25:44Z"
+        },
+        {
+          "id": 1334687337,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMzQ2ODczMzc=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334687337",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:25:44Z"
+        },
+        {
+          "id": 1334689143,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMzNDY4OTE0Mw==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334689143",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:26:31Z"
+        },
+        {
+          "id": 1334689144,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMzQ2ODkxNDQ=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334689144",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:26:31Z"
+        },
+        {
+          "id": 1334712549,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MTI1NDk=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334712549",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:38:39Z",
+          "label": {
+            "name": "0.0.3",
+            "color": "0a824a"
+          }
+        },
+        {
+          "id": 1334712554,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MTI1NTQ=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334712554",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:38:39Z",
+          "label": {
+            "name": "30min",
+            "color": "963ed1"
+          }
+        },
+        {
+          "id": 1334712558,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MTI1NTg=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334712558",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:38:39Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "098396"
+          }
+        },
+        {
+          "id": 1334712560,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MTI1NjA=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334712560",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:38:39Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1334712561,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTMzNDcxMjU2MQ==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334712561",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:38:39Z",
+          "label": {
+            "name": "0.0.2",
+            "color": "1cce0c"
+          }
+        },
+        {
+          "id": 1336750766,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMzNjc1MDc2Ng==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1336750766",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-10T20:28:06Z"
+        },
+        {
+          "id": 1336750767,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMzY3NTA3Njc=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1336750767",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-10T20:28:06Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 29,
+      "time_to_resolution_days": 22.1,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/32",
+      "ticket": "27",
+      "done": true,
+      "id": "27-316a9c24",
+      "closed_at": "2017-11-04T16:29:30Z",
+      "created_at": "2017-11-02T16:23:13Z",
+      "body": "Add an implementation based on camel library.",
+      "file": "src/main/java/co/comdor/github/ComdorYaml.java",
+      "lines": "39-39",
+      "labels": [
+        "enhancement",
+        "@amihaiemil",
+        "30min",
+        "0.0.2"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "ComdorYaml.java:39-39: Add an implementation based on camel...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1323426708,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzIzNDI2NzA4",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1323426708",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T16:41:35Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1323426850,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMjM0MjY4NTA=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1323426850",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T16:41:39Z",
+          "label": {
+            "name": "0.0.2",
+            "color": "1cce0c"
+          }
+        },
+        {
+          "id": 1323426851,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMjM0MjY4NTE=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1323426851",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T16:41:39Z",
+          "label": {
+            "name": "30min",
+            "color": "963ed1"
+          }
+        },
+        {
+          "id": 1323426854,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMjM0MjY4NTQ=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1323426854",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T16:41:39Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "098396"
+          }
+        },
+        {
+          "id": 1323426855,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMjM0MjY4NTU=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1323426855",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T16:41:39Z",
+          "label": {
+            "name": "duplicate",
+            "color": "cccccc"
+          }
+        },
+        {
+          "id": 1323426979,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMjM0MjY5Nzk=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1323426979",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T16:41:42Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1323426982,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTMyMzQyNjk4Mg==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1323426982",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-02T16:41:42Z",
+          "label": {
+            "name": "duplicate",
+            "color": "cccccc"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 2.0,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/43",
+      "ticket": "41",
+      "done": true,
+      "id": "41-08f637ac",
+      "closed_at": "2017-11-20T15:39:13Z",
+      "created_at": "2017-11-09T19:19:43Z",
+      "body": "Add CachedMention decorator, to cache certain things such as the .comdor.yml file (currently that is read from the Github repo at each call of .comdorYaml()).",
+      "file": "src/main/java/co/comdor/github/Mention.java",
+      "lines": "38-40",
+      "labels": [
+        "enhancement",
+        "@amihaiemil",
+        "15min",
+        "0.0.3"
+      ],
+      "assignees": [],
+      "title": "Mention.java:38-40: Add CachedMention decorator, to cache...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1334720011,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MjAwMTE=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334720011",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:42:49Z",
+          "label": {
+            "name": "0.0.3",
+            "color": "0a824a"
+          }
+        },
+        {
+          "id": 1334720013,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MjAwMTM=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334720013",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:42:49Z",
+          "label": {
+            "name": "15min",
+            "color": "ffd7cc"
+          }
+        },
+        {
+          "id": 1334720015,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MjAwMTU=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334720015",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:42:49Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "098396"
+          }
+        },
+        {
+          "id": 1334720017,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MjAwMTc=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334720017",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:42:49Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1334720228,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzQ3MjAyMjg=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334720228",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:42:54Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1334720230,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTMzNDcyMDIzMA==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334720230",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:42:54Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 10.85,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 1,
+      "parent_id": "39-77ad7f62",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/41",
+      "ticket": "39",
+      "done": true,
+      "id": "39-77ad7f62",
+      "closed_at": "2017-11-09T19:40:48Z",
+      "created_at": "2017-11-08T20:32:20Z",
+      "body": "Implement and unit test also a CommanderCheck, which checks if the author is a commander.",
+      "file": "src/main/java/co/comdor/github/ArchitectCheck.java",
+      "lines": "39-40",
+      "labels": [
+        "enhancement",
+        "@amihaiemil",
+        "30min",
+        "0.0.2"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "ArchitectCheck.java:39-40: Implement and unit test also a...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1332687591,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzMyNjg3NTkx",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1332687591",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-08T20:38:52Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1332687802,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzI2ODc4MDI=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1332687802",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-08T20:38:59Z",
+          "label": {
+            "name": "0.0.2",
+            "color": "1cce0c"
+          }
+        },
+        {
+          "id": 1332687803,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzI2ODc4MDM=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1332687803",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-08T20:38:59Z",
+          "label": {
+            "name": "30min",
+            "color": "963ed1"
+          }
+        },
+        {
+          "id": 1332687804,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzI2ODc4MDQ=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1332687804",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-08T20:38:59Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "098396"
+          }
+        },
+        {
+          "id": 1332687806,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzMzI2ODc4MDY=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1332687806",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-08T20:38:59Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1334716266,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTMzNDcxNjI2Ng==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1334716266",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-09T19:40:46Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 0.96,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/51",
+      "ticket": "49",
+      "done": true,
+      "id": "49-a23d7c2e",
+      "closed_at": "2017-11-18T17:26:30Z",
+      "created_at": "2017-11-16T14:08:26Z",
+      "body": "Continue implementing this class. It should use a Docker client which communicates with the Docker Host and starts a container, executes something and can close (terminate) the container.",
+      "file": "src/main/java/co/comdor/Docker.java",
+      "lines": "35-37",
+      "labels": [],
+      "assignees": [],
+      "title": "Docker.java:35-37: Continue implementing this class. It...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 2.14,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/57",
+      "ticket": "55",
+      "done": true,
+      "id": "55-c2e6a7b6",
+      "closed_at": "2017-11-19T15:55:31Z",
+      "created_at": "2017-11-18T17:21:34Z",
+      "body": "Continue implementing this class. It should take a DockerClient and a ContainerCreation, which holds the container's coordinates on the Docker host.",
+      "file": "src/main/java/co/comdor/Docker.java",
+      "lines": "35-37",
+      "labels": [],
+      "assignees": [],
+      "title": "Docker.java:35-37: Continue implementing this class. It...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 0.94,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/61",
+      "ticket": "58",
+      "done": true,
+      "id": "58-f5966b34",
+      "closed_at": "2017-11-30T17:36:20Z",
+      "created_at": "2017-11-19T15:47:46Z",
+      "body": "Continue implementation of execute and close methods.",
+      "file": "src/main/java/co/comdor/Docker.java",
+      "lines": "35-35",
+      "labels": [
+        "enhancement",
+        "@amihaiemil",
+        "30min",
+        "0.0.3"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "Docker.java:35-35: Continue implementation of execute...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1359362388,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzU5MzYyMzg4",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1359362388",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-27T14:41:36Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1359362554,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzNTkzNjI1NTQ=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1359362554",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-27T14:41:41Z",
+          "label": {
+            "name": "0.0.3",
+            "color": "0a824a"
+          }
+        },
+        {
+          "id": 1359362555,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzNTkzNjI1NTU=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1359362555",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-27T14:41:41Z",
+          "label": {
+            "name": "30min",
+            "color": "963ed1"
+          }
+        },
+        {
+          "id": 1359362556,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzNTkzNjI1NTY=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1359362556",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-27T14:41:41Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "098396"
+          }
+        },
+        {
+          "id": 1359362558,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzNTkzNjI1NTg=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1359362558",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-27T14:41:41Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1366144246,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTM2NjE0NDI0Ng==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1366144246",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-30T17:36:17Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 11.08,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 1,
+      "parent_id": "55-6975a469",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/62",
+      "ticket": "58",
+      "done": true,
+      "id": "58-d132ca5f",
+      "closed_at": "2017-11-27T14:41:14Z",
+      "created_at": "2017-11-19T15:47:46Z",
+      "body": "Add a Decorator which catches all the checked exceptions, logs them and throws a RuntimeException further.",
+      "file": "src/main/java/co/comdor/RtDockerHost.java",
+      "lines": "42-43",
+      "labels": [],
+      "assignees": [],
+      "title": "RtDockerHost.java:42-43: Add a Decorator which catches all the...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 7.95,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 1,
+      "parent_id": "55-6975a469",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/58",
+      "ticket": "55",
+      "done": true,
+      "id": "55-6975a469",
+      "closed_at": "2017-11-19T15:55:32Z",
+      "created_at": "2017-11-18T17:21:34Z",
+      "body": "Finish the implementation here. Connection to the remote host has to be fixed (now it connects to localhost all the time).",
+      "file": "src/main/java/co/comdor/RtDockerHost.java",
+      "lines": "40-41",
+      "labels": [
+        "bug",
+        "@amihaiemil",
+        "30min",
+        "0.0.3"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "RtDockerHost.java:40-41: Finish the implementation here....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1348756640,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzQ4NzU2NjQw",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1348756640",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-19T12:59:06Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1348756692,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzNDg3NTY2OTI=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1348756692",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-19T12:59:12Z",
+          "label": {
+            "name": "0.0.3",
+            "color": "0a824a"
+          }
+        },
+        {
+          "id": 1348756694,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzNDg3NTY2OTQ=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1348756694",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-19T12:59:12Z",
+          "label": {
+            "name": "30min",
+            "color": "963ed1"
+          }
+        },
+        {
+          "id": 1348756695,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzNDg3NTY2OTU=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1348756695",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-19T12:59:12Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "098396"
+          }
+        },
+        {
+          "id": 1348756696,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEzNDg3NTY2OTY=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1348756696",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-19T12:59:12Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        },
+        {
+          "id": 1348815121,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTM0ODgxNTEyMQ==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1348815121",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-19T15:55:28Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 0.94,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/73",
+      "ticket": "68",
+      "done": true,
+      "id": "68-99d22887",
+      "closed_at": "2017-11-27T14:41:15Z",
+      "created_at": "2017-11-24T22:04:42Z",
+      "body": "Command should return the name for the Docker container (e.g. repo/name#22). Right now the name is hardcoded to \"test\".",
+      "file": "src/main/java/co/comdor/FireUpDocker.java",
+      "lines": "37-38",
+      "labels": [],
+      "assignees": [],
+      "title": "FireUpDocker.java:37-38: Command should return the name for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1359361546,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTM1OTM2MTU0Ng==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1359361546",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-27T14:41:10Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 2.69,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/103",
+      "ticket": "99",
+      "done": true,
+      "id": "99-2f8461bb",
+      "closed_at": "2018-12-01T14:39:26Z",
+      "created_at": "2018-11-30T08:26:01Z",
+      "body": "Use the logs' Reader to write the Container's logs into our slf4J Logger.",
+      "file": "src/main/java/co/comdor/FireUpDocker.java",
+      "lines": "43-44",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "@amihaiemil",
+        "30min",
+        "15min",
+        "0.0.4"
+      ],
+      "assignees": [],
+      "title": "FireUpDocker.java:43-44: Use the logs' Reader to write...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1998260653,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTgyNjA2NTM=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1998260653",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-30T15:47:08Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1998260655,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTgyNjA2NTU=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1998260655",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-30T15:47:08Z",
+          "label": {
+            "name": "help wanted",
+            "color": "33aa3f"
+          }
+        },
+        {
+          "id": 1998260664,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTgyNjA2NjQ=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1998260664",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-30T15:47:08Z",
+          "label": {
+            "name": "good first issue",
+            "color": "7057ff"
+          }
+        },
+        {
+          "id": 1998260669,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTgyNjA2Njk=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1998260669",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-30T15:47:09Z",
+          "label": {
+            "name": "30min",
+            "color": "963ed1"
+          }
+        },
+        {
+          "id": 1999519385,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTk1MTkzODU=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1999519385",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-12-01T14:03:23Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "098396"
+          }
+        },
+        {
+          "id": 1999519386,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTk1MTkzODY=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1999519386",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-12-01T14:03:23Z",
+          "label": {
+            "name": "15min",
+            "color": "ffd7cc"
+          }
+        },
+        {
+          "id": 1999519387,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTk1MTkzODc=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1999519387",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-12-01T14:03:23Z",
+          "label": {
+            "name": "0.0.4",
+            "color": "1635af"
+          }
+        },
+        {
+          "id": 1999519388,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTk5OTUxOTM4OA==",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1999519388",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-12-01T14:03:23Z",
+          "label": {
+            "name": "help wanted",
+            "color": "33aa3f"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 1.26,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/amihaiemil/comdor",
+      "issue_link": "https://github.com/amihaiemil/comdor/issues/107",
+      "ticket": "105g",
+      "done": true,
+      "id": "105g-990a03f3",
+      "closed_at": "2018-12-03T14:45:16Z",
+      "created_at": "2018-12-01T16:29:57Z",
+      "body": "Write some unit tests for this class. For mocking, use MkGithub instead of mocking your own Github istance, it will be much easier.",
+      "file": "src/main/java/co/comdor/github/CreateLabels.java",
+      "lines": "110-112",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "30min",
+        "0.0.3"
+      ],
+      "assignees": [],
+      "title": "CreateLabels.java:110-112: Write some unit tests for this...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1999580314,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTk1ODAzMTQ=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1999580314",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-12-01T16:46:22Z",
+          "label": {
+            "name": "help wanted",
+            "color": "33aa3f"
+          }
+        },
+        {
+          "id": 1999580315,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTk1ODAzMTU=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1999580315",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-12-01T16:46:22Z",
+          "label": {
+            "name": "good first issue",
+            "color": "7057ff"
+          }
+        },
+        {
+          "id": 1999580316,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTk1ODAzMTY=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1999580316",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-12-01T16:46:23Z",
+          "label": {
+            "name": "30min",
+            "color": "963ed1"
+          }
+        },
+        {
+          "id": 1999580317,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE5OTk1ODAzMTc=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/1999580317",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-12-01T16:46:23Z",
+          "label": {
+            "name": "0.0.3",
+            "color": "0a824a"
+          }
+        },
+        {
+          "id": 2001577691,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwMDE1Nzc2OTE=",
+          "url": "https://api.github.com/repos/amihaiemil/comdor/issues/events/2001577691",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "776bbf42431690c85eb4ba9e8a139424a8666525",
+          "commit_url": "https://api.github.com/repos/amihaiemil/comdor/commits/776bbf42431690c85eb4ba9e8a139424a8666525",
+          "created_at": "2018-12-03T14:37:24Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 1.93,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 10,
+  "project_forks": 1,
+  "project_contributors_count": 3,
+  "first_issue_date": "2017-10-28T14:27:32Z",
+  "last_issue_date": "2018-12-01T16:29:57Z"
+}

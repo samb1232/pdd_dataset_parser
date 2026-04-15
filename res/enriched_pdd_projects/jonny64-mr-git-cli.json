@@ -1,0 +1,886 @@
+{
+  "project_link": "https://github.com/jonny64/mr-git-cli",
+  "issues_count": 11,
+  "issues": [
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/26",
+      "ticket": "0",
+      "done": true,
+      "id": "0-6d3c8164",
+      "closed_at": "2024-09-22T17:13:41Z",
+      "created_at": "2024-09-21T19:30:01Z",
+      "body": "fix npx eslint . cause 'Warning: React version not specified in eslint-plugin-react settings.'",
+      "file": "eslint.config.js",
+      "lines": "6-6",
+      "labels": [],
+      "assignees": [],
+      "title": "eslint.config.js:6: fix npx eslint . cause 'Warning:...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14350368068,
+          "node_id": "MEE_lADOMsVf-M6XbKfAzwAAAANXWT1E",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350368068",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T19:30:05Z"
+        },
+        {
+          "id": 14350368070,
+          "node_id": "SE_lADOMsVf-M6XbKfAzwAAAANXWT1G",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350368070",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T19:30:05Z"
+        },
+        {
+          "id": 14355124133,
+          "node_id": "REFE_lADOMsVf-M6XbKfAzwAAAANXoc-l",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14355124133",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "23067826cd57fa41a68f5abb20f90908a6d971da",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/23067826cd57fa41a68f5abb20f90908a6d971da",
+          "created_at": "2024-09-22T17:10:20Z"
+        },
+        {
+          "id": 14355124138,
+          "node_id": "REFE_lADOMsVf-M6XbKfAzwAAAANXoc-q",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14355124138",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cfc572582705ea3a20c54735e4d1dcae4b35c062",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/cfc572582705ea3a20c54735e4d1dcae4b35c062",
+          "created_at": "2024-09-22T17:10:21Z"
+        },
+        {
+          "id": 14355129203,
+          "node_id": "REFE_lADOMsVf-M6XbKfAzwAAAANXoeNz",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14355129203",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3572f3d53d1b232543bcb4b57503d027a635251b",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/3572f3d53d1b232543bcb4b57503d027a635251b",
+          "created_at": "2024-09-22T17:13:06Z"
+        },
+        {
+          "id": 14355130088,
+          "node_id": "REFE_lADOMsVf-M6XbKfAzwAAAANXoebo",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14355130088",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "10f40c2cc886253e11958ca8e1ff03073f3dbf66",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/10f40c2cc886253e11958ca8e1ff03073f3dbf66",
+          "created_at": "2024-09-22T17:13:38Z"
+        },
+        {
+          "id": 14523826087,
+          "node_id": "REFE_lADOMsVf-M6XbKfAzwAAAANhr_-n",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14523826087",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "de173fd5891b5c52a241122c0ce70f694e4c96dc",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/de173fd5891b5c52a241122c0ce70f694e4c96dc",
+          "created_at": "2024-10-04T19:16:41Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 0.91,
+      "estimate": "60",
+      "author": "@jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/27",
+      "ticket": "0",
+      "done": true,
+      "id": "0-0bd9a41c",
+      "closed_at": "2024-09-21T19:39:46Z",
+      "created_at": "2024-09-21T19:30:01Z",
+      "body": "rename to withName",
+      "file": "lib/GitBranch.js",
+      "lines": "6-6",
+      "labels": [],
+      "assignees": [],
+      "title": "GitBranch.js:6: rename to withName",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14350368098,
+          "node_id": "MEE_lADOMsVf-M6XbKfGzwAAAANXWT1i",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350368098",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T19:30:06Z"
+        },
+        {
+          "id": 14350368102,
+          "node_id": "SE_lADOMsVf-M6XbKfGzwAAAANXWT1m",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350368102",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T19:30:06Z"
+        },
+        {
+          "id": 14350378136,
+          "node_id": "REFE_lADOMsVf-M6XbKfGzwAAAANXWWSY",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350378136",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f56a7165f34482110fb6ed11d958730f2f59ec77",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/f56a7165f34482110fb6ed11d958730f2f59ec77",
+          "created_at": "2024-09-21T19:36:32Z"
+        },
+        {
+          "id": 14350379755,
+          "node_id": "REFE_lADOMsVf-M6XbKfGzwAAAANXWWrr",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350379755",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cf76cc65a2c60d915c3b7fc5fa3468c09c3f142f",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/cf76cc65a2c60d915c3b7fc5fa3468c09c3f142f",
+          "created_at": "2024-09-21T19:37:26Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.01,
+      "estimate": "30",
+      "author": "@jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/28",
+      "ticket": "0",
+      "done": true,
+      "id": "0-7340b3d0",
+      "closed_at": "2024-09-22T16:17:32Z",
+      "created_at": "2024-09-21T19:30:01Z",
+      "body": "decompose to separate SwitchCommand and CreateCommand then remove ugly fail fallback",
+      "file": "lib/SwitchCommand.js",
+      "lines": "19-20",
+      "labels": [],
+      "assignees": [],
+      "title": "SwitchCommand.js:19-20: decompose to separate...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14350368122,
+          "node_id": "MEE_lADOMsVf-M6XbKfMzwAAAANXWT16",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350368122",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T19:30:07Z"
+        },
+        {
+          "id": 14350368124,
+          "node_id": "SE_lADOMsVf-M6XbKfMzwAAAANXWT18",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350368124",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T19:30:07Z"
+        },
+        {
+          "id": 14355017668,
+          "node_id": "REFE_lADOMsVf-M6XbKfMzwAAAANXoC_E",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14355017668",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7c496bca72497cfe840f3ca98bd914deebccd81a",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/7c496bca72497cfe840f3ca98bd914deebccd81a",
+          "created_at": "2024-09-22T16:16:01Z"
+        },
+        {
+          "id": 14355020594,
+          "node_id": "CE_lADOMsVf-M6XbKfMzwAAAANXoDsy",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14355020594",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "8e60786b4dffb9c00f29072b490da20e32c4529f",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/8e60786b4dffb9c00f29072b490da20e32c4529f",
+          "created_at": "2024-09-22T16:17:30Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.87,
+      "estimate": "60",
+      "author": "@jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/32",
+      "ticket": "0",
+      "done": true,
+      "id": "0-33860e14",
+      "closed_at": "2024-10-05T10:09:20Z",
+      "created_at": "2024-09-21T19:30:01Z",
+      "body": "improve file coverage at least funcs % 70",
+      "file": "tests/GitBranch.js",
+      "lines": "5-5",
+      "labels": [],
+      "assignees": [],
+      "title": "GitBranch.js:5: improve file coverage at least funcs % 70",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14527402744,
+          "node_id": "REFE_lADOMsVf-M6XbKfpzwAAAANh5pL4",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14527402744",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ea77bea7f9c1f00e37e2214b2a48e1df31d96f69",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/ea77bea7f9c1f00e37e2214b2a48e1df31d96f69",
+          "created_at": "2024-10-05T10:07:03Z"
+        },
+        {
+          "id": 14527407002,
+          "node_id": "REFE_lADOMsVf-M6XbKfpzwAAAANh5qOa",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14527407002",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "18749fdfb9055a9dd92045451d2ca5bf51df1459",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/18749fdfb9055a9dd92045451d2ca5bf51df1459",
+          "created_at": "2024-10-05T10:09:17Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 13.61,
+      "estimate": "60",
+      "author": "jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/36",
+      "ticket": "0",
+      "done": true,
+      "id": "0-8194f58f",
+      "closed_at": "2024-09-24T16:45:24Z",
+      "created_at": "2024-09-21T20:02:07Z",
+      "body": "move to currentBranch.current ()",
+      "file": "lib/MergeCommand.js",
+      "lines": "17-17",
+      "labels": [],
+      "assignees": [],
+      "title": "MergeCommand.js:17: move to currentBranch.current ()",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14350418209,
+          "node_id": "MEE_lADOMsVf-M6XbM99zwAAAANXWgEh",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350418209",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T20:02:11Z"
+        },
+        {
+          "id": 14350418212,
+          "node_id": "SE_lADOMsVf-M6XbM99zwAAAANXWgEk",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350418212",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T20:02:11Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2.86,
+      "estimate": "30",
+      "author": "@jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/37",
+      "ticket": "0",
+      "done": true,
+      "id": "0-81ec3da8",
+      "closed_at": "2024-09-24T16:45:26Z",
+      "created_at": "2024-09-21T20:02:07Z",
+      "body": "implement branch dependency merge e.g. merge to main should cause merge to release also store branch dependency specific for project using 'git config' keys",
+      "file": "lib/MergeCommand.js",
+      "lines": "23-25",
+      "labels": [],
+      "assignees": [],
+      "title": "MergeCommand.js:23-25: implement branch dependency merge...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14350418243,
+          "node_id": "MEE_lADOMsVf-M6XbM-KzwAAAANXWgFD",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350418243",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T20:02:12Z"
+        },
+        {
+          "id": 14350418249,
+          "node_id": "SE_lADOMsVf-M6XbM-KzwAAAANXWgFJ",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350418249",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T20:02:12Z"
+        },
+        {
+          "id": 14384428777,
+          "node_id": "REFE_lADOMsVf-M6XbM-KzwAAAANZYPbp",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14384428777",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "73ba23286f99a742b9065d2b46233fb12907463d",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/73ba23286f99a742b9065d2b46233fb12907463d",
+          "created_at": "2024-09-24T16:04:44Z"
+        },
+        {
+          "id": 14384542812,
+          "node_id": "REFE_lADOMsVf-M6XbM-KzwAAAANZYrRc",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14384542812",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c19ca697697825806db192c60226cb1b0c7f002c",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/c19ca697697825806db192c60226cb1b0c7f002c",
+          "created_at": "2024-09-24T16:13:24Z"
+        },
+        {
+          "id": 14384933123,
+          "node_id": "REFE_lADOMsVf-M6XbM-KzwAAAANZaKkD",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14384933123",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5474eebf3a77ecfb553c8762b06f045857933145",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/5474eebf3a77ecfb553c8762b06f045857933145",
+          "created_at": "2024-09-24T16:44:56Z"
+        },
+        {
+          "id": 14384937676,
+          "node_id": "REFE_lADOMsVf-M6XbM-KzwAAAANZaLrM",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14384937676",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "43bbc6f421a4c438da48490bc4752276a1db945b",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/43bbc6f421a4c438da48490bc4752276a1db945b",
+          "created_at": "2024-09-24T16:45:20Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 2.86,
+      "estimate": "60",
+      "author": "@jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/38",
+      "ticket": "0",
+      "done": true,
+      "id": "0-a313dd59",
+      "closed_at": "2024-09-24T16:45:27Z",
+      "created_at": "2024-09-21T20:02:07Z",
+      "body": "use PushCommand instead",
+      "file": "lib/MergeCommand.js",
+      "lines": "61-61",
+      "labels": [],
+      "assignees": [],
+      "title": "MergeCommand.js:61: use PushCommand instead",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14350418287,
+          "node_id": "MEE_lADOMsVf-M6XbM-PzwAAAANXWgFv",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350418287",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T20:02:13Z"
+        },
+        {
+          "id": 14350418288,
+          "node_id": "SE_lADOMsVf-M6XbM-PzwAAAANXWgFw",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14350418288",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-21T20:02:13Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2.86,
+      "estimate": "30",
+      "author": "@jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/56",
+      "ticket": "40",
+      "done": true,
+      "id": "40-954d3423",
+      "closed_at": "2024-09-30T19:27:00Z",
+      "created_at": "2024-09-25T17:07:47Z",
+      "body": "remove typeof",
+      "file": "lib/RunCommand.js",
+      "lines": "29-29",
+      "labels": [],
+      "assignees": [],
+      "title": "RunCommand.js:29: remove typeof",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14402722708,
+          "node_id": "MEE_lADOMsVf-M6X54DczwAAAANaeBuU",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14402722708",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-25T17:07:57Z"
+        },
+        {
+          "id": 14402722722,
+          "node_id": "SE_lADOMsVf-M6X54DczwAAAANaeBui",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14402722722",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-25T17:07:57Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 5.1,
+      "estimate": "120",
+      "author": "@jonny64",
+      "hierarchy": 1,
+      "parent_id": "0-390e150c",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/40",
+      "ticket": "0",
+      "done": true,
+      "id": "0-390e150c",
+      "closed_at": "2024-09-25T17:07:55Z",
+      "created_at": "2024-09-21T20:02:07Z",
+      "body": "run npm test before push use 'git config' to specify project specific test command",
+      "file": "lib/PushCommand.js",
+      "lines": "10-11",
+      "labels": [],
+      "assignees": [],
+      "title": "PushCommand.js:10-11: run npm test before push use 'git...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14402913544,
+          "node_id": "REFE_lADOMsVf-M6XbM-gzwAAAANaewUI",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14402913544",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b20942769150a80beb942ed00d1414f499fababe",
+          "commit_url": "https://api.github.com/repos/jonny64/mr-git-cli/commits/b20942769150a80beb942ed00d1414f499fababe",
+          "created_at": "2024-09-25T17:19:45Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 3.88,
+      "estimate": "60",
+      "author": "jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/53",
+      "ticket": "0",
+      "done": true,
+      "id": "0-84268f00",
+      "closed_at": "2024-09-25T17:07:56Z",
+      "created_at": "2024-09-24T17:30:41Z",
+      "body": "run 'npm test' BEFORE push, set up by 'git config' as per #37",
+      "file": "lib/MergeCommand.js",
+      "lines": "59-59",
+      "labels": [],
+      "assignees": [],
+      "title": "MergeCommand.js:59: run 'npm test' BEFORE push, set up by...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14385502572,
+          "node_id": "MEE_lADOMsVf-M6XwGwezwAAAANZcVls",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14385502572",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-24T17:30:45Z"
+        },
+        {
+          "id": 14385502582,
+          "node_id": "SE_lADOMsVf-M6XwGwezwAAAANZcVl2",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14385502582",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-24T17:30:45Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.98,
+      "estimate": "60",
+      "author": "@jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jonny64/mr-git-cli",
+      "issue_link": "https://github.com/jonny64/mr-git-cli/issues/64",
+      "ticket": "62",
+      "done": true,
+      "id": "62-005a26b8",
+      "closed_at": "2024-09-30T19:27:02Z",
+      "created_at": "2024-09-26T17:43:15Z",
+      "body": "move to constructor",
+      "file": "lib/GitBranch.js",
+      "lines": "46-46",
+      "labels": [],
+      "assignees": [],
+      "title": "GitBranch.js:46: move to constructor",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 14420426208,
+          "node_id": "MEE_lADOMsVf-M6YEBfYzwAAAANbhj3g",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14420426208",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-26T17:43:19Z"
+        },
+        {
+          "id": 14420426225,
+          "node_id": "SE_lADOMsVf-M6YEBfYzwAAAANbhj3x",
+          "url": "https://api.github.com/repos/jonny64/mr-git-cli/issues/events/14420426225",
+          "actor": {
+            "id": 276717,
+            "url": "https://api.github.com/users/jonny64",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-09-26T17:43:19Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 4.07,
+      "estimate": "60",
+      "author": "@jonny64",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "JavaScript",
+  "project_stars": 3,
+  "project_forks": 0,
+  "project_contributors_count": 3,
+  "first_issue_date": "2024-09-21T19:30:01Z",
+  "last_issue_date": "2024-09-26T17:43:15Z"
+}

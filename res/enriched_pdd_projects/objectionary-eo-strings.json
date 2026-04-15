@@ -1,0 +1,4084 @@
+{
+  "project_link": "https://github.com/objectionary/eo-strings",
+  "issues_count": 16,
+  "issues": [
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/41",
+      "ticket": "18",
+      "done": true,
+      "id": "18-c333659d",
+      "closed_at": "2022-10-05T13:04:18Z",
+      "created_at": "2022-09-07T11:57:46Z",
+      "body": "Current implementation using Java. We should implement comparison only via EOLANG code. We can do it by using reduce method",
+      "file": "src/main/java/EOorg/EOeolang/EOtxt/EOtext$EOcompare.java",
+      "lines": "55-57",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "EOtext$EOcompare.java:55-57: Current implementation using...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-09-23T21:05:14Z",
+          "updated_at": "2022-09-23T21:05:14Z",
+          "body": "@Graur please assign it to me.",
+          "url": "https://github.com/objectionary/eo-strings/issues/41#issuecomment-1256678039",
+          "id": 1256678039
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-09-24T10:55:20Z",
+          "updated_at": "2022-09-24T10:55:20Z",
+          "body": "@EugeneDar sure, go ahead",
+          "url": "https://github.com/objectionary/eo-strings/issues/41#issuecomment-1256939320",
+          "id": 1256939320
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7338380577,
+          "node_id": "MEE_lADOHs0BFc5RVdFOzwAAAAG1Zs0h",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7338380577",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-07T12:18:54Z"
+        },
+        {
+          "id": 7338380584,
+          "node_id": "SE_lADOHs0BFc5RVdFOzwAAAAG1Zs0o",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7338380584",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-07T12:18:54Z"
+        },
+        {
+          "id": 7338380654,
+          "node_id": "MEE_lADOHs0BFc5RVdFOzwAAAAG1Zs1u",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7338380654",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-07T12:18:54Z"
+        },
+        {
+          "id": 7338380657,
+          "node_id": "SE_lADOHs0BFc5RVdFOzwAAAAG1Zs1x",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7338380657",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-07T12:18:54Z"
+        },
+        {
+          "id": 7450315256,
+          "node_id": "MEE_lADOHs0BFc5RVdFOzwAAAAG8Esn4",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450315256",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:05:14Z"
+        },
+        {
+          "id": 7450315259,
+          "node_id": "SE_lADOHs0BFc5RVdFOzwAAAAG8Esn7",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450315259",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:05:14Z"
+        },
+        {
+          "id": 7451837371,
+          "node_id": "AE_lADOHs0BFc5RVdFOzwAAAAG8KgO7",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451837371",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:55:03Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7451838582,
+          "node_id": "MEE_lADOHs0BFc5RVdFOzwAAAAG8Kgh2",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451838582",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:55:20Z"
+        },
+        {
+          "id": 7451838586,
+          "node_id": "SE_lADOHs0BFc5RVdFOzwAAAAG8Kgh6",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451838586",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:55:20Z"
+        },
+        {
+          "id": 7525035140,
+          "node_id": "MEE_lADOHs0BFc5RVdFOzwAAAAHAhuyE",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7525035140",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-05T13:04:15Z"
+        },
+        {
+          "id": 7525035148,
+          "node_id": "SE_lADOHs0BFc5RVdFOzwAAAAHAhuyM",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7525035148",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-05T13:04:15Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 28.05,
+      "estimate": "30",
+      "author": "@EugeneDar",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/48",
+      "ticket": "19",
+      "done": true,
+      "id": "19-e0d02db9",
+      "closed_at": "2022-09-28T05:36:11Z",
+      "created_at": "2022-09-07T14:23:32Z",
+      "body": "Current implementation using Java. We should implement checking that string is alphabetic only via EOLANG code. We can do it by using reduce method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "101-103",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:101-103: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-09-23T21:05:07Z",
+          "updated_at": "2022-09-23T21:05:07Z",
+          "body": "@Graur please assign it to me.",
+          "url": "https://github.com/objectionary/eo-strings/issues/48#issuecomment-1256677937",
+          "id": 1256677937
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-09-24T10:55:29Z",
+          "updated_at": "2022-09-24T10:55:29Z",
+          "body": "@EugeneDar sure, go ahead",
+          "url": "https://github.com/objectionary/eo-strings/issues/48#issuecomment-1256939498",
+          "id": 1256939498
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7339436663,
+          "node_id": "MEE_lADOHs0BFc5RWHU8zwAAAAG1dup3",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7339436663",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-07T14:25:44Z"
+        },
+        {
+          "id": 7339436673,
+          "node_id": "SE_lADOHs0BFc5RWHU8zwAAAAG1duqB",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7339436673",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-07T14:25:44Z"
+        },
+        {
+          "id": 7339436786,
+          "node_id": "MEE_lADOHs0BFc5RWHU8zwAAAAG1dury",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7339436786",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-07T14:25:45Z"
+        },
+        {
+          "id": 7339436797,
+          "node_id": "SE_lADOHs0BFc5RWHU8zwAAAAG1dur9",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7339436797",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-07T14:25:45Z"
+        },
+        {
+          "id": 7450314647,
+          "node_id": "MEE_lADOHs0BFc5RWHU8zwAAAAG8EseX",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450314647",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:05:07Z"
+        },
+        {
+          "id": 7450314656,
+          "node_id": "SE_lADOHs0BFc5RWHU8zwAAAAG8Eseg",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450314656",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:05:07Z"
+        },
+        {
+          "id": 7451838900,
+          "node_id": "MEE_lADOHs0BFc5RWHU8zwAAAAG8Kgm0",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451838900",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:55:29Z"
+        },
+        {
+          "id": 7451838903,
+          "node_id": "SE_lADOHs0BFc5RWHU8zwAAAAG8Kgm3",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451838903",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:55:29Z"
+        },
+        {
+          "id": 7451838982,
+          "node_id": "AE_lADOHs0BFc5RWHU8zwAAAAG8KgoG",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451838982",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:55:35Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7474365510,
+          "node_id": "MEE_lADOHs0BFc5RWHU8zwAAAAG9gcRG",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7474365510",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T05:36:08Z"
+        },
+        {
+          "id": 7474365514,
+          "node_id": "SE_lADOHs0BFc5RWHU8zwAAAAG9gcRK",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7474365514",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T05:36:08Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 20.63,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/76",
+      "ticket": "57",
+      "done": true,
+      "id": "57-63f5c386",
+      "closed_at": "2023-01-09T19:05:07Z",
+      "created_at": "2022-09-28T10:10:01Z",
+      "body": "Current implementation using Java. We should implement casting string to lower case only via EOLANG code. We can do it by using reduce method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "77-79",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:77-79: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "Graur",
+          "created_at": "2022-10-06T13:08:54Z",
+          "updated_at": "2022-10-06T13:08:54Z",
+          "body": "@ivan-egorov42 Try to help us here",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1270015618",
+          "id": 1270015618
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-20T10:10:20Z",
+          "updated_at": "2022-10-20T10:10:39Z",
+          "body": "@Graur what \"reduce\" method should we use? From the list.eo?",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1285278003",
+          "id": 1285278003
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-10-20T10:39:12Z",
+          "updated_at": "2022-10-20T10:39:12Z",
+          "body": "> @Graur what \"reduce\" method should we use? From the list.eo?\r\n\r\n@ivan-egorov42 I think so",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1285312362",
+          "id": 1285312362
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-20T11:18:35Z",
+          "updated_at": "2022-10-20T11:18:35Z",
+          "body": "@Graur How can I print string as bytes? When I use flag `%B`, it prints TRUE.\r\n```\r\n+alias org.eolang.txt.sprintf\r\n+alias org.eolang.io.stdout\r\n+alias org.eolang.string\r\n\r\n[] > app\r\n  \"Hello\" > string1\r\n  stdout > @\r\n    sprintf\r\n      \"The word as bytes is %B\\n\"\r\n      string1.as-bytes\r\n```\r\n```\r\nThe word as bytes is TRUE\r\n```",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1285352093",
+          "id": 1285352093
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-10-20T11:30:55Z",
+          "updated_at": "2022-10-20T11:31:18Z",
+          "body": "@ivan-egorov42 flag `%B` is a boolean. \r\nYou can check `bytes` object and find some useful objects to answer your question",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1285369904",
+          "id": 1285369904
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-20T12:50:50Z",
+          "updated_at": "2022-10-20T12:50:50Z",
+          "body": "@Graur How can I add hexadecimal numbers(bytes) via EO?",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1285488826",
+          "id": 1285488826
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-20T13:11:06Z",
+          "updated_at": "2022-10-20T17:43:12Z",
+          "body": "@Graur I have an idea how to implement it in EO. As I understand `string.as-bytes` gives byte representation of string in encoding UTF-8. So, for example, the word `HELLO` look like `48 45 4c 4c 4f`. We can convert it to `hello` according to the ASCII table by adding `20` to each byte of `HELLO`: `68 65 6c 6c 6f`  <-  this is `hello`. \r\n\r\nFirst, I want to hear your opinion about this. Perhaps some other implementation is implied. \r\nSecond, if this idea is good, how can we add bytes in EO in this way. If there aren't any methods for this mb I can create?",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1285515495",
+          "id": 1285515495
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-21T18:57:30Z",
+          "updated_at": "2022-10-21T18:57:30Z",
+          "body": "@Graur could you help me?\r\n",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1287331002",
+          "id": 1287331002
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-10-24T07:20:12Z",
+          "updated_at": "2022-10-24T07:20:12Z",
+          "body": "@ivan-egorov42 I think we can use `regex` here, e.g. for search: `^[a-z]+$/g` and for replacment: `\\l`. Or something similar. I believe you can find a better solution.\r\n",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1288531751",
+          "id": 1288531751
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-24T14:26:29Z",
+          "updated_at": "2022-10-24T14:26:29Z",
+          "body": "What do `\\l` and `/g` flags mean? I didn't find it in `regex` object",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1289121173",
+          "id": 1289121173
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-10-24T14:58:01Z",
+          "updated_at": "2022-10-24T14:58:11Z",
+          "body": "@ivan-egorov42 Now I understand what you mean. So, we can create a new `atom` and call it `switched-case`. And use it in lowered case object and in upped case object. Think a bit, maybe you can find a better solution.",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1289168302",
+          "id": 1289168302
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-24T15:00:51Z",
+          "updated_at": "2022-10-24T15:00:51Z",
+          "body": "But we want to get rid of atom, don't we?\r\n\r\n> Current implementation using Java. \r\n >  We should implement casting string to lower case \r\n > only via EOLANG code.",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1289172301",
+          "id": 1289172301
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-24T16:03:22Z",
+          "updated_at": "2022-10-24T16:03:22Z",
+          "body": "@Graur I think it won't change anything if we do one atom instead of two. ",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1289258401",
+          "id": 1289258401
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-10-25T05:10:56Z",
+          "updated_at": "2022-10-25T05:10:56Z",
+          "body": "@ivan-egorov42 So, let's implement your solution",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1289989891",
+          "id": 1289989891
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-25T14:41:33Z",
+          "updated_at": "2022-10-25T14:43:53Z",
+          "body": "@Graur I've explored the sources of java `string toLowerCase()` method and that's what I realized:\r\n1) First of all, if we want to support all languges as  java `string toLowerCase()` then we need to use Unicode and implement some kind of \"language\" object where we can define encoding of a particular language(its range of symbols) and etc.\r\n2) Second, we should work with characters, so we should be able to parse string for characters, then work with their hex representation.\r\n3) Finally, we can't work with hex due to the lack of necessary method, change it, add and etc. Also, immutability doesn't allow to change capitals in process, so we have to use recursion for each symbol and it greatly limits the size of the text we can transform.\r\n\r\nI don't think if we could have another implementation, this is how these methods are implemented in other languages. Here is [java example](https://www.javatpoint.com/java-string-tolowercase). For now, I see no reason to rewrite these methods via. EO as we don't have enough instruments for it. If somebody can give an idea for other solution, I will be very grateful. Also, I want to get feedback from you about my points of view. ",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1290666122",
+          "id": 1290666122
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-10-25T16:50:10Z",
+          "updated_at": "2022-10-25T16:50:10Z",
+          "body": "@ivan-egorov42 I think we can start with some simple solution and then use `pdd` to add new tickets that we can solve later. What do you think?",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1290858481",
+          "id": 1290858481
+        },
+        {
+          "author": "ivan-egorov42",
+          "created_at": "2022-10-25T17:07:49Z",
+          "updated_at": "2022-10-25T17:07:49Z",
+          "body": "@Graur sounds good, I'll try",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1290878196",
+          "id": 1290878196
+        },
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-12-30T17:07:35Z",
+          "updated_at": "2022-12-30T17:07:35Z",
+          "body": "@Graur @yegor256 as I understand it, this ticket is no longer moving forward, can you assign me?",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1368014993",
+          "id": 1368014993
+        },
+        {
+          "author": "Graur",
+          "created_at": "2023-01-05T10:19:33Z",
+          "updated_at": "2023-01-05T10:19:33Z",
+          "body": "@EugeneDar Sure, go ahead",
+          "url": "https://github.com/objectionary/eo-strings/issues/76#issuecomment-1372029933",
+          "id": 1372029933
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7476923996,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAG9qM5c",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476923996",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:22Z"
+        },
+        {
+          "id": 7476924002,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAG9qM5i",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476924002",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:22Z"
+        },
+        {
+          "id": 7476924097,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAG9qM7B",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476924097",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:23Z"
+        },
+        {
+          "id": 7476924102,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAG9qM7G",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476924102",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:23Z"
+        },
+        {
+          "id": 7534645199,
+          "node_id": "AE_lADOHs0BFc5SzVKQzwAAAAHBGY_P",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7534645199",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-06T13:08:36Z",
+          "assignee": {
+            "login": "ivan-egorov42",
+            "id": 104271817,
+            "node_id": "U_kgDOBjcPyQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/104271817?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "html_url": "https://github.com/ivan-egorov42",
+            "followers_url": "https://api.github.com/users/ivan-egorov42/followers",
+            "following_url": "https://api.github.com/users/ivan-egorov42/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ivan-egorov42/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ivan-egorov42/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ivan-egorov42/subscriptions",
+            "organizations_url": "https://api.github.com/users/ivan-egorov42/orgs",
+            "repos_url": "https://api.github.com/users/ivan-egorov42/repos",
+            "events_url": "https://api.github.com/users/ivan-egorov42/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ivan-egorov42/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7534648394,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHBGZxK",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7534648394",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-06T13:08:54Z"
+        },
+        {
+          "id": 7534648403,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHBGZxT",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7534648403",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-06T13:08:54Z"
+        },
+        {
+          "id": 7629539090,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHGwYcS",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7629539090",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T10:10:20Z"
+        },
+        {
+          "id": 7629539114,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHGwYcq",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7629539114",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T10:10:20Z"
+        },
+        {
+          "id": 7629785239,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHGxUiX",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7629785239",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T10:39:13Z"
+        },
+        {
+          "id": 7629785248,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHGxUig",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7629785248",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T10:39:13Z"
+        },
+        {
+          "id": 7629785257,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHGxUip",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7629785257",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T10:39:13Z"
+        },
+        {
+          "id": 7629785261,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHGxUit",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7629785261",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T10:39:13Z"
+        },
+        {
+          "id": 7630070458,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHGyaK6",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7630070458",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T11:18:35Z"
+        },
+        {
+          "id": 7630070462,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHGyaK-",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7630070462",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T11:18:36Z"
+        },
+        {
+          "id": 7630164072,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHGyxBo",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7630164072",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T11:30:56Z"
+        },
+        {
+          "id": 7630164078,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHGyxBu",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7630164078",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T11:30:56Z"
+        },
+        {
+          "id": 7630822677,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHG1R0V",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7630822677",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T12:50:50Z"
+        },
+        {
+          "id": 7630822686,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHG1R0e",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7630822686",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T12:50:50Z"
+        },
+        {
+          "id": 7631008452,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHG1_LE",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7631008452",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T13:11:07Z"
+        },
+        {
+          "id": 7631008465,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHG1_LR",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7631008465",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-20T13:11:07Z"
+        },
+        {
+          "id": 7643029457,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHHj1_R",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7643029457",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-21T18:57:31Z"
+        },
+        {
+          "id": 7643029464,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHHj1_Y",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7643029464",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-21T18:57:31Z"
+        },
+        {
+          "id": 7651068506,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHICgpa",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7651068506",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-24T07:20:13Z"
+        },
+        {
+          "id": 7651068510,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHICgpe",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7651068510",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-24T07:20:13Z"
+        },
+        {
+          "id": 7654875657,
+          "node_id": "MEE_lADOHs0BFc5SzVKQzwAAAAHIRCIJ",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7654875657",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-24T14:58:02Z"
+        },
+        {
+          "id": 7654875663,
+          "node_id": "SE_lADOHs0BFc5SzVKQzwAAAAHIRCIP",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7654875663",
+          "actor": {
+            "id": 104271817,
+            "url": "https://api.github.com/users/ivan-egorov42",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-24T14:58:02Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 19,
+      "issue_events_count": 27,
+      "time_to_resolution_days": 103.37,
+      "estimate": "30",
+      "author": "@EugeneDar",
+      "hierarchy": 1,
+      "parent_id": "22-fbf67ffc",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/77",
+      "ticket": "57",
+      "done": true,
+      "id": "57-d23c10e3",
+      "closed_at": "2022-10-15T14:35:43Z",
+      "created_at": "2022-09-28T10:10:01Z",
+      "body": "Current implementation using Java. We should implement casting string to upper case only via EOLANG code. We can do it by using reduce method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "90-92",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "levBagryansky"
+      ],
+      "title": "text.eo:90-92: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "levBagryansky",
+          "created_at": "2022-10-14T09:07:51Z",
+          "updated_at": "2022-10-14T09:07:51Z",
+          "body": "@Graur please assign me",
+          "url": "https://github.com/objectionary/eo-strings/issues/77#issuecomment-1278714860",
+          "id": 1278714860
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7476924800,
+          "node_id": "MEE_lADOHs0BFc5SzVMbzwAAAAG9qNGA",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476924800",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:28Z"
+        },
+        {
+          "id": 7476924802,
+          "node_id": "SE_lADOHs0BFc5SzVMbzwAAAAG9qNGC",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476924802",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:29Z"
+        },
+        {
+          "id": 7476924916,
+          "node_id": "MEE_lADOHs0BFc5SzVMbzwAAAAG9qNH0",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476924916",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:29Z"
+        },
+        {
+          "id": 7476924926,
+          "node_id": "SE_lADOHs0BFc5SzVMbzwAAAAG9qNH-",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476924926",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:29Z"
+        },
+        {
+          "id": 7588498382,
+          "node_id": "MEE_lADOHs0BFc5SzVMbzwAAAAHET0vO",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7588498382",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-14T09:07:51Z"
+        },
+        {
+          "id": 7588498389,
+          "node_id": "SE_lADOHs0BFc5SzVMbzwAAAAHET0vV",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7588498389",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-14T09:07:51Z"
+        },
+        {
+          "id": 7588557995,
+          "node_id": "AE_lADOHs0BFc5SzVMbzwAAAAHEUDSr",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7588557995",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-14T09:15:29Z",
+          "assignee": {
+            "login": "levBagryansky",
+            "id": 32939651,
+            "node_id": "MDQ6VXNlcjMyOTM5NjUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32939651?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/levBagryansky",
+            "html_url": "https://github.com/levBagryansky",
+            "followers_url": "https://api.github.com/users/levBagryansky/followers",
+            "following_url": "https://api.github.com/users/levBagryansky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/levBagryansky/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/levBagryansky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/levBagryansky/subscriptions",
+            "organizations_url": "https://api.github.com/users/levBagryansky/orgs",
+            "repos_url": "https://api.github.com/users/levBagryansky/repos",
+            "events_url": "https://api.github.com/users/levBagryansky/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/levBagryansky/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7595062132,
+          "node_id": "MEE_lADOHs0BFc5SzVMbzwAAAAHEs3N0",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7595062132",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-15T14:35:40Z"
+        },
+        {
+          "id": 7595062135,
+          "node_id": "SE_lADOHs0BFc5SzVMbzwAAAAHEs3N3",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7595062135",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-15T14:35:40Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 17.18,
+      "estimate": "30",
+      "author": "@EugeneDar",
+      "hierarchy": 1,
+      "parent_id": "22-fbf67ffc",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/57",
+      "ticket": "22",
+      "done": true,
+      "id": "22-fbf67ffc",
+      "closed_at": "2022-09-28T11:23:21Z",
+      "created_at": "2022-09-09T10:23:14Z",
+      "body": "Current version use incorrect names for methods. We should rename all methods names in text object via documentation. If you want to know more details read it https://github.com/objectionary/on-the-origin-of-objects/issues/15",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "31-34",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:31-34: Current version use incorrect names for...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-09-23T21:05:00Z",
+          "updated_at": "2022-09-23T21:05:00Z",
+          "body": "@Graur please assign it to me.",
+          "url": "https://github.com/objectionary/eo-strings/issues/57#issuecomment-1256677863",
+          "id": 1256677863
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-09-24T10:55:47Z",
+          "updated_at": "2022-09-24T10:55:47Z",
+          "body": "@EugeneDar sure, go ahead",
+          "url": "https://github.com/objectionary/eo-strings/issues/57#issuecomment-1256939544",
+          "id": 1256939544
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7355195451,
+          "node_id": "MEE_lADOHs0BFc5RhDHmzwAAAAG2Z2A7",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7355195451",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-09T10:25:24Z"
+        },
+        {
+          "id": 7355195460,
+          "node_id": "SE_lADOHs0BFc5RhDHmzwAAAAG2Z2BE",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7355195460",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-09T10:25:24Z"
+        },
+        {
+          "id": 7355195515,
+          "node_id": "MEE_lADOHs0BFc5RhDHmzwAAAAG2Z2B7",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7355195515",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-09T10:25:24Z"
+        },
+        {
+          "id": 7355195523,
+          "node_id": "SE_lADOHs0BFc5RhDHmzwAAAAG2Z2CD",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7355195523",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-09T10:25:24Z"
+        },
+        {
+          "id": 7450314080,
+          "node_id": "MEE_lADOHs0BFc5RhDHmzwAAAAG8EsVg",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450314080",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:05:01Z"
+        },
+        {
+          "id": 7450314083,
+          "node_id": "SE_lADOHs0BFc5RhDHmzwAAAAG8EsVj",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450314083",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:05:01Z"
+        },
+        {
+          "id": 7451839209,
+          "node_id": "MEE_lADOHs0BFc5RhDHmzwAAAAG8Kgrp",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451839209",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:55:47Z"
+        },
+        {
+          "id": 7451839211,
+          "node_id": "SE_lADOHs0BFc5RhDHmzwAAAAG8Kgrr",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451839211",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:55:47Z"
+        },
+        {
+          "id": 7451839814,
+          "node_id": "AE_lADOHs0BFc5RhDHmzwAAAAG8Kg1G",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451839814",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:56:05Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7476923423,
+          "node_id": "MEE_lADOHs0BFc5RhDHmzwAAAAG9qMwf",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476923423",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:17Z"
+        },
+        {
+          "id": 7476923432,
+          "node_id": "SE_lADOHs0BFc5RhDHmzwAAAAG9qMwo",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476923432",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:17Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 19.04,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/58",
+      "ticket": "22",
+      "done": true,
+      "id": "22-0c4eaff0",
+      "closed_at": "2023-03-01T09:24:36Z",
+      "created_at": "2022-09-09T10:23:14Z",
+      "body": "Current implementation using Java. We should implement splitting string to array of strings only via EOLANG code. We can do it by using reduce method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "105-107",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:105-107: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-09-23T21:00:38Z",
+          "updated_at": "2022-09-23T21:00:38Z",
+          "body": "@Graur, please assign it to me.",
+          "url": "https://github.com/objectionary/eo-strings/issues/58#issuecomment-1256674709",
+          "id": 1256674709
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-09-24T10:57:07Z",
+          "updated_at": "2022-09-24T10:57:07Z",
+          "body": "@EugeneDar sure, go ahead",
+          "url": "https://github.com/objectionary/eo-strings/issues/58#issuecomment-1256939740",
+          "id": 1256939740
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7355196164,
+          "node_id": "MEE_lADOHs0BFc5RhDJizwAAAAG2Z2ME",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7355196164",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-09T10:25:30Z"
+        },
+        {
+          "id": 7355196171,
+          "node_id": "SE_lADOHs0BFc5RhDJizwAAAAG2Z2ML",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7355196171",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-09T10:25:30Z"
+        },
+        {
+          "id": 7355196249,
+          "node_id": "MEE_lADOHs0BFc5RhDJizwAAAAG2Z2NZ",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7355196249",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-09T10:25:30Z"
+        },
+        {
+          "id": 7355196253,
+          "node_id": "SE_lADOHs0BFc5RhDJizwAAAAG2Z2Nd",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7355196253",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-09T10:25:30Z"
+        },
+        {
+          "id": 7450294170,
+          "node_id": "MEE_lADOHs0BFc5RhDJizwAAAAG8Enea",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450294170",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:00:38Z"
+        },
+        {
+          "id": 7450294175,
+          "node_id": "SE_lADOHs0BFc5RhDJizwAAAAG8Enef",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450294175",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:00:38Z"
+        },
+        {
+          "id": 7451840898,
+          "node_id": "MEE_lADOHs0BFc5RhDJizwAAAAG8KhGC",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451840898",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:07Z"
+        },
+        {
+          "id": 7451840900,
+          "node_id": "SE_lADOHs0BFc5RhDJizwAAAAG8KhGE",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451840900",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:07Z"
+        },
+        {
+          "id": 7451841382,
+          "node_id": "AE_lADOHs0BFc5RhDJizwAAAAG8KhNm",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451841382",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:13Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 8635832838,
+          "node_id": "MEE_lADOHs0BFc5RhDJizwAAAAICvFoG",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8635832838",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-03-01T09:24:33Z"
+        },
+        {
+          "id": 8635832859,
+          "node_id": "SE_lADOHs0BFc5RhDJizwAAAAICvFob",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8635832859",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-03-01T09:24:33Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 172.96,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/79",
+      "ticket": "65",
+      "done": true,
+      "id": "65-bbad65b3",
+      "closed_at": "2022-12-26T09:18:18Z",
+      "created_at": "2022-09-28T15:12:47Z",
+      "body": "Current implementation works only with short strings. We should have posibility to find substrings in bigger that 2-letter strings. Also we should unwrap test 'text-index-of-2' from nop object",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "96-98",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "text.eo:96-98: Current implementation works only with...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7479014498,
+          "node_id": "MEE_lADOHs0BFc5S0rgwzwAAAAG9yLRi",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7479014498",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T15:15:39Z"
+        },
+        {
+          "id": 7479014507,
+          "node_id": "SE_lADOHs0BFc5S0rgwzwAAAAG9yLRr",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7479014507",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T15:15:39Z"
+        },
+        {
+          "id": 7479014596,
+          "node_id": "MEE_lADOHs0BFc5S0rgwzwAAAAG9yLTE",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7479014596",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T15:15:39Z"
+        },
+        {
+          "id": 7479014605,
+          "node_id": "SE_lADOHs0BFc5S0rgwzwAAAAG9yLTN",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7479014605",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T15:15:39Z"
+        },
+        {
+          "id": 7486757513,
+          "node_id": "MEE_lADOHs0BFc5S0rgwzwAAAAG-PtqJ",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7486757513",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T13:23:27Z"
+        },
+        {
+          "id": 7486757523,
+          "node_id": "SE_lADOHs0BFc5S0rgwzwAAAAG-PtqT",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7486757523",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T13:23:27Z"
+        },
+        {
+          "id": 8110482083,
+          "node_id": "MEE_lADOHs0BFc5S0rgwzwAAAAHjbCKj",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8110482083",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-12-26T09:18:15Z"
+        },
+        {
+          "id": 8110482088,
+          "node_id": "SE_lADOHs0BFc5S0rgwzwAAAAHjbCKo",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8110482088",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-12-26T09:18:15Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 88.75,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "43-4fc55431",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/65",
+      "ticket": "43",
+      "done": true,
+      "id": "43-4fc55431",
+      "closed_at": "2022-09-28T15:15:38Z",
+      "created_at": "2022-09-15T09:51:09Z",
+      "body": "Current implementation using Java. We should implement finding of first position of substrings only via EOLANG code. We can do it by using reduce method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "67-69",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:67-69: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-09-23T20:59:53Z",
+          "updated_at": "2022-09-23T20:59:53Z",
+          "body": "@Graur, please assign it to me.",
+          "url": "https://github.com/objectionary/eo-strings/issues/65#issuecomment-1256674139",
+          "id": 1256674139
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-09-24T10:57:50Z",
+          "updated_at": "2022-09-24T10:57:50Z",
+          "body": "@EugeneDar sure, go ahead",
+          "url": "https://github.com/objectionary/eo-strings/issues/65#issuecomment-1256939868",
+          "id": 1256939868
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7393374768,
+          "node_id": "MEE_lADOHs0BFc5R6XSOzwAAAAG4rfIw",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7393374768",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T09:53:22Z"
+        },
+        {
+          "id": 7393374771,
+          "node_id": "SE_lADOHs0BFc5R6XSOzwAAAAG4rfIz",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7393374771",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T09:53:22Z"
+        },
+        {
+          "id": 7393374832,
+          "node_id": "MEE_lADOHs0BFc5R6XSOzwAAAAG4rfJw",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7393374832",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T09:53:22Z"
+        },
+        {
+          "id": 7393374839,
+          "node_id": "SE_lADOHs0BFc5R6XSOzwAAAAG4rfJ3",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7393374839",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T09:53:22Z"
+        },
+        {
+          "id": 7450290623,
+          "node_id": "MEE_lADOHs0BFc5R6XSOzwAAAAG8Emm_",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450290623",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T20:59:54Z"
+        },
+        {
+          "id": 7450290626,
+          "node_id": "SE_lADOHs0BFc5R6XSOzwAAAAG8EmnC",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450290626",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T20:59:54Z"
+        },
+        {
+          "id": 7451842034,
+          "node_id": "MEE_lADOHs0BFc5R6XSOzwAAAAG8KhXy",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451842034",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:50Z"
+        },
+        {
+          "id": 7451842036,
+          "node_id": "SE_lADOHs0BFc5R6XSOzwAAAAG8KhX0",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451842036",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:50Z"
+        },
+        {
+          "id": 7451842141,
+          "node_id": "AE_lADOHs0BFc5R6XSOzwAAAAG8KhZd",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451842141",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:56Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7479013913,
+          "node_id": "MEE_lADOHs0BFc5R6XSOzwAAAAG9yLIZ",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7479013913",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T15:15:35Z"
+        },
+        {
+          "id": 7479013920,
+          "node_id": "SE_lADOHs0BFc5R6XSOzwAAAAG9yLIg",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7479013920",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T15:15:35Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 13.23,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/93",
+      "ticket": "91",
+      "done": true,
+      "id": "91-ce24aa36",
+      "closed_at": "2022-11-02T10:04:20Z",
+      "created_at": "2022-11-01T14:36:04Z",
+      "body": "Current implementation using Java. We should implement checking if string contains given substring only via EOLANG code. We can do it by checkong result of index-of method",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "57-59",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:57-59: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-11-01T15:05:21Z",
+          "updated_at": "2022-11-01T15:05:21Z",
+          "body": "@Graur please assign it on me.",
+          "url": "https://github.com/objectionary/eo-strings/issues/93#issuecomment-1298650249",
+          "id": 1298650249
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-11-01T15:08:19Z",
+          "updated_at": "2022-11-01T15:08:19Z",
+          "body": "@EugeneDar Sure, go ahead",
+          "url": "https://github.com/objectionary/eo-strings/issues/93#issuecomment-1298658096",
+          "id": 1298658096
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7714203587,
+          "node_id": "MEE_lADOHs0BFc5VVDg6zwAAAAHLzWfD",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714203587",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:03:07Z"
+        },
+        {
+          "id": 7714203595,
+          "node_id": "SE_lADOHs0BFc5VVDg6zwAAAAHLzWfL",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714203595",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:03:07Z"
+        },
+        {
+          "id": 7714203697,
+          "node_id": "MEE_lADOHs0BFc5VVDg6zwAAAAHLzWgx",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714203697",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:03:08Z"
+        },
+        {
+          "id": 7714203704,
+          "node_id": "SE_lADOHs0BFc5VVDg6zwAAAAHLzWg4",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714203704",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:03:08Z"
+        },
+        {
+          "id": 7714226066,
+          "node_id": "MEE_lADOHs0BFc5VVDg6zwAAAAHLzb-S",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714226066",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:05:22Z"
+        },
+        {
+          "id": 7714226075,
+          "node_id": "SE_lADOHs0BFc5VVDg6zwAAAAHLzb-b",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714226075",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:05:22Z"
+        },
+        {
+          "id": 7714251564,
+          "node_id": "AE_lADOHs0BFc5VVDg6zwAAAAHLziMs",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714251564",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:08:07Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7714253388,
+          "node_id": "MEE_lADOHs0BFc5VVDg6zwAAAAHLzipM",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714253388",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:08:19Z"
+        },
+        {
+          "id": 7714253401,
+          "node_id": "SE_lADOHs0BFc5VVDg6zwAAAAHLzipZ",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714253401",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:08:19Z"
+        },
+        {
+          "id": 7721707058,
+          "node_id": "MEE_lADOHs0BFc5VVDg6zwAAAAHMP-Yy",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7721707058",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-02T10:04:16Z"
+        },
+        {
+          "id": 7721707067,
+          "node_id": "SE_lADOHs0BFc5VVDg6zwAAAAHMP-Y7",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7721707067",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-02T10:04:16Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 0.81,
+      "estimate": "30",
+      "author": "@EugeneDar",
+      "hierarchy": 2,
+      "parent_id": "66-ae85b287",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/91",
+      "ticket": "66",
+      "done": true,
+      "id": "66-ae85b287",
+      "closed_at": "2022-11-01T15:03:05Z",
+      "created_at": "2022-10-31T14:12:20Z",
+      "body": "Current implementation using Java. We should implement checking if string ends with given substring only via EOLANG code. We can do it by using reduce method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "60-62",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:60-62: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-10-31T14:24:59Z",
+          "updated_at": "2022-10-31T14:24:59Z",
+          "body": "@Graur, please assign it to me.",
+          "url": "https://github.com/objectionary/eo-strings/issues/91#issuecomment-1297170364",
+          "id": 1297170364
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7704741621,
+          "node_id": "MEE_lADOHs0BFc5VOuE3zwAAAAHLPQb1",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7704741621",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:15:51Z"
+        },
+        {
+          "id": 7704741629,
+          "node_id": "SE_lADOHs0BFc5VOuE3zwAAAAHLPQb9",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7704741629",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:15:51Z"
+        },
+        {
+          "id": 7704741723,
+          "node_id": "MEE_lADOHs0BFc5VOuE3zwAAAAHLPQdb",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7704741723",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:15:51Z"
+        },
+        {
+          "id": 7704741736,
+          "node_id": "SE_lADOHs0BFc5VOuE3zwAAAAHLPQdo",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7704741736",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:15:52Z"
+        },
+        {
+          "id": 7704827305,
+          "node_id": "MEE_lADOHs0BFc5VOuE3zwAAAAHLPlWp",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7704827305",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:25:00Z"
+        },
+        {
+          "id": 7704827317,
+          "node_id": "SE_lADOHs0BFc5VOuE3zwAAAAHLPlW1",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7704827317",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:25:00Z"
+        },
+        {
+          "id": 7705147999,
+          "node_id": "AE_lADOHs0BFc5VOuE3zwAAAAHLQzpf",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7705147999",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:58:25Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7714202910,
+          "node_id": "MEE_lADOHs0BFc5VOuE3zwAAAAHLzWUe",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714202910",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:03:02Z"
+        },
+        {
+          "id": 7714202917,
+          "node_id": "SE_lADOHs0BFc5VOuE3zwAAAAHLzWUl",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7714202917",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-01T15:03:03Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 1.04,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "43-78cbc625",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/66",
+      "ticket": "43",
+      "done": true,
+      "id": "43-78cbc625",
+      "closed_at": "2022-10-31T14:15:49Z",
+      "created_at": "2022-09-15T09:51:09Z",
+      "body": "Current implementation using Java. We should implement finding of last position of substrings only via EOLANG code. We can do it by using reduce method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "74-76",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:74-76: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-09-23T21:00:19Z",
+          "updated_at": "2022-09-23T21:00:19Z",
+          "body": "@Graur, please assign it to me.",
+          "url": "https://github.com/objectionary/eo-strings/issues/66#issuecomment-1256674467",
+          "id": 1256674467
+        },
+        {
+          "author": "Graur",
+          "created_at": "2022-09-24T10:57:29Z",
+          "updated_at": "2022-09-24T10:57:29Z",
+          "body": "@EugeneDar sure, go ahead",
+          "url": "https://github.com/objectionary/eo-strings/issues/66#issuecomment-1256939816",
+          "id": 1256939816
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7393375531,
+          "node_id": "MEE_lADOHs0BFc5R6XUEzwAAAAG4rfUr",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7393375531",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T09:53:28Z"
+        },
+        {
+          "id": 7393375540,
+          "node_id": "SE_lADOHs0BFc5R6XUEzwAAAAG4rfU0",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7393375540",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T09:53:28Z"
+        },
+        {
+          "id": 7393375600,
+          "node_id": "MEE_lADOHs0BFc5R6XUEzwAAAAG4rfVw",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7393375600",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T09:53:28Z"
+        },
+        {
+          "id": 7393375606,
+          "node_id": "SE_lADOHs0BFc5R6XUEzwAAAAG4rfV2",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7393375606",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T09:53:28Z"
+        },
+        {
+          "id": 7450292719,
+          "node_id": "MEE_lADOHs0BFc5R6XUEzwAAAAG8EnHv",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450292719",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:00:19Z"
+        },
+        {
+          "id": 7450292722,
+          "node_id": "SE_lADOHs0BFc5R6XUEzwAAAAG8EnHy",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7450292722",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T21:00:19Z"
+        },
+        {
+          "id": 7451841642,
+          "node_id": "MEE_lADOHs0BFc5R6XUEzwAAAAG8KhRq",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451841642",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:29Z"
+        },
+        {
+          "id": 7451841643,
+          "node_id": "SE_lADOHs0BFc5R6XUEzwAAAAG8KhRr",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451841643",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:29Z"
+        },
+        {
+          "id": 7451841861,
+          "node_id": "AE_lADOHs0BFc5R6XUEzwAAAAG8KhVF",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7451841861",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-24T10:57:39Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7704740831,
+          "node_id": "MEE_lADOHs0BFc5R6XUEzwAAAAHLPQPf",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7704740831",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:15:45Z"
+        },
+        {
+          "id": 7704740840,
+          "node_id": "SE_lADOHs0BFc5R6XUEzwAAAAHLPQPo",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7704740840",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-31T14:15:45Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 46.18,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/78",
+      "ticket": "43",
+      "done": true,
+      "id": "43-084e7161",
+      "closed_at": "2022-10-01T18:00:18Z",
+      "created_at": "2022-09-28T10:10:01Z",
+      "body": "Current implementation using Java. We should implement cheching if string starts with substring only via EOLANG code. We can do it by using reduce method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "64-66",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "levBagryansky"
+      ],
+      "title": "text.eo:64-66: Current implementation using Java. We...",
+      "comments": [
+        {
+          "author": "levBagryansky",
+          "created_at": "2022-09-29T14:01:32Z",
+          "updated_at": "2022-09-29T14:01:32Z",
+          "body": "@EugeneDar I can do it ",
+          "url": "https://github.com/objectionary/eo-strings/issues/78#issuecomment-1262329955",
+          "id": 1262329955
+        },
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-09-29T14:25:32Z",
+          "updated_at": "2022-09-29T14:25:32Z",
+          "body": "@levBagryansky I can't assign you",
+          "url": "https://github.com/objectionary/eo-strings/issues/78#issuecomment-1262361967",
+          "id": 1262361967
+        },
+        {
+          "author": "levBagryansky",
+          "created_at": "2022-09-29T14:41:11Z",
+          "updated_at": "2022-09-29T14:41:11Z",
+          "body": "@Graur please assign me",
+          "url": "https://github.com/objectionary/eo-strings/issues/78#issuecomment-1262382776",
+          "id": 1262382776
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7476925662,
+          "node_id": "MEE_lADOHs0BFc5SzVOnzwAAAAG9qNTe",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476925662",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:34Z"
+        },
+        {
+          "id": 7476925665,
+          "node_id": "SE_lADOHs0BFc5SzVOnzwAAAAG9qNTh",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476925665",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:34Z"
+        },
+        {
+          "id": 7476925747,
+          "node_id": "MEE_lADOHs0BFc5SzVOnzwAAAAG9qNUz",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476925747",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:35Z"
+        },
+        {
+          "id": 7476925751,
+          "node_id": "SE_lADOHs0BFc5SzVOnzwAAAAG9qNU3",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7476925751",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-28T11:23:35Z"
+        },
+        {
+          "id": 7487120664,
+          "node_id": "MEE_lADOHs0BFc5SzVOnzwAAAAG-RGUY",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7487120664",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T14:01:33Z"
+        },
+        {
+          "id": 7487120677,
+          "node_id": "SE_lADOHs0BFc5SzVOnzwAAAAG-RGUl",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7487120677",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T14:01:33Z"
+        },
+        {
+          "id": 7487354071,
+          "node_id": "MEE_lADOHs0BFc5SzVOnzwAAAAG-R_TX",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7487354071",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T14:25:32Z"
+        },
+        {
+          "id": 7487354076,
+          "node_id": "SE_lADOHs0BFc5SzVOnzwAAAAG-R_Tc",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7487354076",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T14:25:32Z"
+        },
+        {
+          "id": 7487502194,
+          "node_id": "MEE_lADOHs0BFc5SzVOnzwAAAAG-Sjdy",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7487502194",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T14:41:11Z"
+        },
+        {
+          "id": 7487502200,
+          "node_id": "SE_lADOHs0BFc5SzVOnzwAAAAG-Sjd4",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7487502200",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T14:41:11Z"
+        },
+        {
+          "id": 7487509279,
+          "node_id": "AE_lADOHs0BFc5SzVOnzwAAAAG-SlMf",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7487509279",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-29T14:41:59Z",
+          "assignee": {
+            "login": "levBagryansky",
+            "id": 32939651,
+            "node_id": "MDQ6VXNlcjMyOTM5NjUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32939651?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/levBagryansky",
+            "html_url": "https://github.com/levBagryansky",
+            "followers_url": "https://api.github.com/users/levBagryansky/followers",
+            "following_url": "https://api.github.com/users/levBagryansky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/levBagryansky/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/levBagryansky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/levBagryansky/subscriptions",
+            "organizations_url": "https://api.github.com/users/levBagryansky/orgs",
+            "repos_url": "https://api.github.com/users/levBagryansky/repos",
+            "events_url": "https://api.github.com/users/levBagryansky/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/levBagryansky/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7500821541,
+          "node_id": "MEE_lADOHs0BFc5SzVOnzwAAAAG_FXQl",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7500821541",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-01T18:00:15Z"
+        },
+        {
+          "id": 7500821542,
+          "node_id": "SE_lADOHs0BFc5SzVOnzwAAAAG_FXQm",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7500821542",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-01T18:00:15Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 3,
+      "issue_events_count": 13,
+      "time_to_resolution_days": 3.33,
+      "estimate": "30",
+      "author": "@EugeneDar",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/107",
+      "ticket": "97",
+      "done": true,
+      "id": "97-a8921fe6",
+      "closed_at": "2023-01-08T04:57:46Z",
+      "created_at": "2022-11-15T16:16:07Z",
+      "body": "Current implementation trims only left part of spaces in the given string. We should increase realization and trim right part of spaces also. After than we should unwrap disabled trim tests",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "41-43",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "EugeneDar"
+      ],
+      "title": "text.eo:41-43: Current implementation trims only left...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2022-11-15T18:14:28Z",
+          "updated_at": "2022-11-15T18:14:28Z",
+          "body": "@Graur please assign it on me",
+          "url": "https://github.com/objectionary/eo-strings/issues/107#issuecomment-1315694418",
+          "id": 1315694418
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7815570982,
+          "node_id": "MEE_lADOHs0BFc5WbfLJzwAAAAHR2CYm",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7815570982",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-15T16:19:55Z"
+        },
+        {
+          "id": 7815570988,
+          "node_id": "SE_lADOHs0BFc5WbfLJzwAAAAHR2CYs",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7815570988",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-15T16:19:55Z"
+        },
+        {
+          "id": 7815571080,
+          "node_id": "MEE_lADOHs0BFc5WbfLJzwAAAAHR2CaI",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7815571080",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-15T16:19:56Z"
+        },
+        {
+          "id": 7815571087,
+          "node_id": "SE_lADOHs0BFc5WbfLJzwAAAAHR2CaP",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7815571087",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-15T16:19:56Z"
+        },
+        {
+          "id": 7816457245,
+          "node_id": "MEE_lADOHs0BFc5WbfLJzwAAAAHR5awd",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7816457245",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-15T18:14:29Z"
+        },
+        {
+          "id": 7816457246,
+          "node_id": "SE_lADOHs0BFc5WbfLJzwAAAAHR5awe",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7816457246",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-15T18:14:29Z"
+        },
+        {
+          "id": 7821015353,
+          "node_id": "AE_lADOHs0BFc5WbfLJzwAAAAHSKzk5",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/7821015353",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-11-16T07:58:36Z",
+          "assignee": {
+            "login": "EugeneDar",
+            "id": 68021590,
+            "node_id": "MDQ6VXNlcjY4MDIxNTkw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68021590?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneDar",
+            "html_url": "https://github.com/EugeneDar",
+            "followers_url": "https://api.github.com/users/EugeneDar/followers",
+            "following_url": "https://api.github.com/users/EugeneDar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneDar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneDar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneDar/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneDar/orgs",
+            "repos_url": "https://api.github.com/users/EugeneDar/repos",
+            "events_url": "https://api.github.com/users/EugeneDar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneDar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 8175911864,
+          "node_id": "MEE_lADOHs0BFc5WbfLJzwAAAAHnUoO4",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8175911864",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-01-08T04:57:43Z"
+        },
+        {
+          "id": 8175911866,
+          "node_id": "SE_lADOHs0BFc5WbfLJzwAAAAHnUoO6",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8175911866",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-01-08T04:57:43Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 53.53,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/114",
+      "ticket": "108",
+      "done": true,
+      "id": "108-2328c970",
+      "closed_at": "2023-01-13T08:57:54Z",
+      "created_at": "2022-12-26T08:15:10Z",
+      "body": "Set failOnWarning to 'true'. It's not a good idea to allow deploy artifacts with warnings. We have to do it only because of failures in other repositories. -->",
+      "file": "pom.xml",
+      "lines": "130-130",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "pom.xml:130: Set failOnWarning to 'true'. It's not a good...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 8110482839,
+          "node_id": "MEE_lADOHs0BFc5aDKY_zwAAAAHjbCWX",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8110482839",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-12-26T09:18:25Z"
+        },
+        {
+          "id": 8110482844,
+          "node_id": "SE_lADOHs0BFc5aDKY_zwAAAAHjbCWc",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8110482844",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-12-26T09:18:25Z"
+        },
+        {
+          "id": 8110482878,
+          "node_id": "MEE_lADOHs0BFc5aDKY_zwAAAAHjbCW-",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8110482878",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-12-26T09:18:26Z"
+        },
+        {
+          "id": 8110482880,
+          "node_id": "SE_lADOHs0BFc5aDKY_zwAAAAHjbCXA",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8110482880",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-12-26T09:18:26Z"
+        },
+        {
+          "id": 8130664763,
+          "node_id": "REFE_lADOHs0BFc5aDKY_zwAAAAHkoBk7",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8130664763",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8754aac519af836b59ffb26cc7a818555b6bcd0e",
+          "commit_url": "https://api.github.com/repos/Graur/eo-strings/commits/8754aac519af836b59ffb26cc7a818555b6bcd0e",
+          "created_at": "2022-12-30T14:35:05Z"
+        },
+        {
+          "id": 8218692375,
+          "node_id": "MEE_lADOHs0BFc5aDKY_zwAAAAHp30sX",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8218692375",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-01-13T08:57:50Z"
+        },
+        {
+          "id": 8218692382,
+          "node_id": "SE_lADOHs0BFc5aDKY_zwAAAAHp30se",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/8218692382",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-01-13T08:57:50Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 18.03,
+      "estimate": "90",
+      "author": "@Graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/154",
+      "ticket": "140",
+      "done": true,
+      "id": "140-22c43e3a",
+      "closed_at": "2023-06-13T15:50:05Z",
+      "created_at": "2023-06-05T15:27:52Z",
+      "body": "We have to implement this method. It should return string repeated n times. We can do it by cheking current length in reduced method.",
+      "file": "src/main/eo/org/eolang/txt/text.eo",
+      "lines": "136-138",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "text.eo:136-138: We have to implement this method. It...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9439804203,
+          "node_id": "MEE_lADOHs0BFc5n4crjzwAAAAIyp_sr",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/9439804203",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-06-06T00:17:22Z"
+        },
+        {
+          "id": 9439804206,
+          "node_id": "SE_lADOHs0BFc5n4crjzwAAAAIyp_su",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/9439804206",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-06-06T00:17:22Z"
+        },
+        {
+          "id": 9439804263,
+          "node_id": "MEE_lADOHs0BFc5n4crjzwAAAAIyp_tn",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/9439804263",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-06-06T00:17:23Z"
+        },
+        {
+          "id": 9439804267,
+          "node_id": "SE_lADOHs0BFc5n4crjzwAAAAIyp_tr",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/9439804267",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-06-06T00:17:23Z"
+        },
+        {
+          "id": 9518163326,
+          "node_id": "CE_lADOHs0BFc5n4crjzwAAAAI3U6V-",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/9518163326",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-06-13T15:49:58Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 8.02,
+      "estimate": "30",
+      "author": "@EugeneDar",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-strings",
+      "issue_link": "https://github.com/objectionary/eo-strings/issues/167",
+      "ticket": "165",
+      "done": true,
+      "id": "165-265a52d9",
+      "closed_at": "2023-10-16T16:46:07Z",
+      "created_at": "2023-10-05T08:12:40Z",
+      "body": "Enable the tests when eo-collections 0.10.0 is in objectionary. Need to enable next tests that were disabled because of conflict with eo-collections 0.10.0: text-last-index-of-3, unicode-text-last-index-of, nested-joins, text-last-index-of-3, text-index-of-4, compare-strings, joins-tuple, joins-tuple-2, text-index-of-5, compare-similar-strings, text-index-of, compare-strings-2, text-last-index-of, text-last-index-of-2, joins-tuple-4, compare-strings-with-unicode, EOtextEOjoinedTest.joinStrings",
+      "file": "src/test/eo/org/eolang/txt/text-tests.eo",
+      "lines": "32-38",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "text-tests.eo:32-38: Enable the tests when eo-collections...",
+      "comments": [
+        {
+          "author": "EugeneDar",
+          "created_at": "2023-10-07T07:54:08Z",
+          "updated_at": "2023-10-07T07:54:08Z",
+          "body": "@rultor, Nah.",
+          "url": "https://github.com/objectionary/eo-strings/issues/167#issuecomment-1751642055",
+          "id": 1751642055
+        },
+        {
+          "author": "rultor",
+          "created_at": "2023-10-07T07:56:30Z",
+          "updated_at": "2023-10-07T07:56:30Z",
+          "body": "> @rultor, Nah.\n\n@eugenedar Unfortunately, either you or me don't have 'write' permissions to the repository, I can't do what you're asking. Try to add me as a collaborator with 'write' access.",
+          "url": "https://github.com/objectionary/eo-strings/issues/167#issuecomment-1751642518",
+          "id": 1751642518
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10560014368,
+          "node_id": "MEE_lADOHs0BFc5y5gqlzwAAAAJ1bQgg",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10560014368",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T08:20:01Z"
+        },
+        {
+          "id": 10560014383,
+          "node_id": "SE_lADOHs0BFc5y5gqlzwAAAAJ1bQgv",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10560014383",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T08:20:01Z"
+        },
+        {
+          "id": 10560014414,
+          "node_id": "MEE_lADOHs0BFc5y5gqlzwAAAAJ1bQhO",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10560014414",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T08:20:01Z"
+        },
+        {
+          "id": 10560014433,
+          "node_id": "SE_lADOHs0BFc5y5gqlzwAAAAJ1bQhh",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10560014433",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T08:20:01Z"
+        },
+        {
+          "id": 10581459227,
+          "node_id": "MEE_lADOHs0BFc5y5gqlzwAAAAJ2tEEb",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10581459227",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T07:54:08Z"
+        },
+        {
+          "id": 10581459230,
+          "node_id": "SE_lADOHs0BFc5y5gqlzwAAAAJ2tEEe",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10581459230",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T07:54:08Z"
+        },
+        {
+          "id": 10581462718,
+          "node_id": "MEE_lADOHs0BFc5y5gqlzwAAAAJ2tE6-",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10581462718",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T07:56:31Z"
+        },
+        {
+          "id": 10581462720,
+          "node_id": "SE_lADOHs0BFc5y5gqlzwAAAAJ2tE7A",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10581462720",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T07:56:31Z"
+        },
+        {
+          "id": 10581462723,
+          "node_id": "MEE_lADOHs0BFc5y5gqlzwAAAAJ2tE7D",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10581462723",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T07:56:31Z"
+        },
+        {
+          "id": 10581462725,
+          "node_id": "SE_lADOHs0BFc5y5gqlzwAAAAJ2tE7F",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10581462725",
+          "actor": {
+            "id": 68021590,
+            "url": "https://api.github.com/users/EugeneDar",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T07:56:31Z"
+        },
+        {
+          "id": 10668118319,
+          "node_id": "CE_lADOHs0BFc5y5gqlzwAAAAJ73pEv",
+          "url": "https://api.github.com/repos/objectionary/eo-strings/issues/events/10668118319",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-16T16:46:00Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 11.36,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 12,
+  "project_forks": 9,
+  "project_contributors_count": 15,
+  "first_issue_date": "2022-09-07T11:57:46Z",
+  "last_issue_date": "2023-10-05T08:12:40Z"
+}

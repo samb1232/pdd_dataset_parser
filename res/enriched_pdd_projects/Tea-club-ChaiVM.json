@@ -1,0 +1,3135 @@
+{
+  "project_link": "https://github.com/Tea-club/ChaiVM",
+  "issues_count": 16,
+  "issues": [
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/4",
+      "ticket": "2",
+      "done": true,
+      "id": "2-8395abd8",
+      "closed_at": "2023-10-05T18:29:32Z",
+      "created_at": "2023-10-05T16:07:21Z",
+      "body": "Add dummy test using gtest and run it on ci. - name: Test working-directory: ${{github.workspace}}/build run: ctest --test-dir ${{github.workspace}}/build/besm-666",
+      "file": ".github/workflows/cmake.yml",
+      "lines": "35-38",
+      "labels": [],
+      "assignees": [],
+      "title": "cmake.yml:35-38: Add dummy test using gtest and run it on...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10566977303,
+          "node_id": "MEE_lADOKaVmwM5y9yXjzwAAAAJ110cX",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10566977303",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:02:58Z"
+        },
+        {
+          "id": 10566977308,
+          "node_id": "SE_lADOKaVmwM5y9yXjzwAAAAJ110cc",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10566977308",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:02:58Z"
+        },
+        {
+          "id": 10566977371,
+          "node_id": "MEE_lADOKaVmwM5y9yXjzwAAAAJ110db",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10566977371",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:02:59Z"
+        },
+        {
+          "id": 10566977381,
+          "node_id": "SE_lADOKaVmwM5y9yXjzwAAAAJ110dl",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10566977381",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:02:59Z"
+        },
+        {
+          "id": 10566977403,
+          "node_id": "MEE_lADOKaVmwM5y9yXjzwAAAAJ110d7",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10566977403",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:02:59Z"
+        },
+        {
+          "id": 10566977416,
+          "node_id": "SE_lADOKaVmwM5y9yXjzwAAAAJ110eI",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10566977416",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:02:59Z"
+        },
+        {
+          "id": 10567203212,
+          "node_id": "MEE_lADOKaVmwM5y9yXjzwAAAAJ12rmM",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203212",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:29Z"
+        },
+        {
+          "id": 10567203223,
+          "node_id": "SE_lADOKaVmwM5y9yXjzwAAAAJ12rmX",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203223",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:29Z"
+        },
+        {
+          "id": 10567203239,
+          "node_id": "MEE_lADOKaVmwM5y9yXjzwAAAAJ12rmn",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203239",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:29Z"
+        },
+        {
+          "id": 10567203242,
+          "node_id": "SE_lADOKaVmwM5y9yXjzwAAAAJ12rmq",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203242",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:29Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 0.1,
+      "estimate": "0",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/6",
+      "ticket": "2",
+      "done": true,
+      "id": "2-d49e06eb",
+      "closed_at": "2023-10-18T11:40:05Z",
+      "created_at": "2023-10-05T18:29:21Z",
+      "body": "Add dummy test using gtest and run it on ci.",
+      "file": ".github/workflows/cmake.yml",
+      "lines": "35-35",
+      "labels": [],
+      "assignees": [],
+      "title": "cmake.yml:35: Add dummy test using gtest and run it on ci.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10567203836,
+          "node_id": "MEE_lADOKaVmwM5y97CpzwAAAAJ12rv8",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203836",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:34Z"
+        },
+        {
+          "id": 10567203844,
+          "node_id": "SE_lADOKaVmwM5y97CpzwAAAAJ12rwE",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203844",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:34Z"
+        },
+        {
+          "id": 10567203914,
+          "node_id": "MEE_lADOKaVmwM5y97CpzwAAAAJ12rxK",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203914",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:35Z"
+        },
+        {
+          "id": 10567203924,
+          "node_id": "SE_lADOKaVmwM5y97CpzwAAAAJ12rxU",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203924",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:35Z"
+        },
+        {
+          "id": 10567203939,
+          "node_id": "MEE_lADOKaVmwM5y97CpzwAAAAJ12rxj",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203939",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:35Z"
+        },
+        {
+          "id": 10567203950,
+          "node_id": "SE_lADOKaVmwM5y97CpzwAAAAJ12rxu",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10567203950",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T18:29:35Z"
+        },
+        {
+          "id": 10652753408,
+          "node_id": "CE_lADOKaVmwM5y97CpzwAAAAJ69B4A",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10652753408",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-14T09:47:53Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 12.72,
+      "estimate": "0",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/14",
+      "ticket": "8",
+      "done": true,
+      "id": "8-d77d3c08",
+      "closed_at": "2023-10-09T17:15:28Z",
+      "created_at": "2023-10-07T11:19:20Z",
+      "body": "Implement decode method. It should firstly fetch instruction and then parse it.",
+      "file": "src/ChaiVM/interpreter/decoder.cpp",
+      "lines": "16-17",
+      "labels": [],
+      "assignees": [],
+      "title": "decoder.cpp:16-17: Implement decode method. It should...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10581778875,
+          "node_id": "MEE_lADOKaVmwM5zHXjnzwAAAAJ2uSG7",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581778875",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:27Z"
+        },
+        {
+          "id": 10581778877,
+          "node_id": "SE_lADOKaVmwM5zHXjnzwAAAAJ2uSG9",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581778877",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:27Z"
+        },
+        {
+          "id": 10581778885,
+          "node_id": "MEE_lADOKaVmwM5zHXjnzwAAAAJ2uSHF",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581778885",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:28Z"
+        },
+        {
+          "id": 10581778886,
+          "node_id": "SE_lADOKaVmwM5zHXjnzwAAAAJ2uSHG",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581778886",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:28Z"
+        },
+        {
+          "id": 10581778887,
+          "node_id": "MEE_lADOKaVmwM5zHXjnzwAAAAJ2uSHH",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581778887",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:28Z"
+        },
+        {
+          "id": 10581778889,
+          "node_id": "SE_lADOKaVmwM5zHXjnzwAAAAJ2uSHJ",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581778889",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:28Z"
+        },
+        {
+          "id": 10593766088,
+          "node_id": "MEE_lADOKaVmwM5zHXjnzwAAAAJ3cArI",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766088",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:25Z"
+        },
+        {
+          "id": 10593766098,
+          "node_id": "SE_lADOKaVmwM5zHXjnzwAAAAJ3cArS",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766098",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:25Z"
+        },
+        {
+          "id": 10593766112,
+          "node_id": "MEE_lADOKaVmwM5zHXjnzwAAAAJ3cArg",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766112",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:26Z"
+        },
+        {
+          "id": 10593766123,
+          "node_id": "SE_lADOKaVmwM5zHXjnzwAAAAJ3cArr",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766123",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:26Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 2.25,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/15",
+      "ticket": "8",
+      "done": true,
+      "id": "8-7b1130e7",
+      "closed_at": "2023-10-31T10:43:26Z",
+      "created_at": "2023-10-07T11:19:20Z",
+      "body": "Finish this script and genereate operations.hpp via yml file",
+      "file": "tools/opcode2operation-generator.py",
+      "lines": "1-1",
+      "labels": [],
+      "assignees": [],
+      "title": "opcode2operation-generator.py:1: Finish this script and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10581779040,
+          "node_id": "MEE_lADOKaVmwM5zHXj9zwAAAAJ2uSJg",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581779040",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:34Z"
+        },
+        {
+          "id": 10581779042,
+          "node_id": "SE_lADOKaVmwM5zHXj9zwAAAAJ2uSJi",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581779042",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:34Z"
+        },
+        {
+          "id": 10581779057,
+          "node_id": "MEE_lADOKaVmwM5zHXj9zwAAAAJ2uSJx",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581779057",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:34Z"
+        },
+        {
+          "id": 10581779058,
+          "node_id": "SE_lADOKaVmwM5zHXj9zwAAAAJ2uSJy",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581779058",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:34Z"
+        },
+        {
+          "id": 10581779060,
+          "node_id": "MEE_lADOKaVmwM5zHXj9zwAAAAJ2uSJ0",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581779060",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:34Z"
+        },
+        {
+          "id": 10581779061,
+          "node_id": "SE_lADOKaVmwM5zHXj9zwAAAAJ2uSJ1",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10581779061",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-07T11:19:34Z"
+        },
+        {
+          "id": 10818961319,
+          "node_id": "CE_lADOKaVmwM5zHXj9zwAAAAKE3D-n",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10818961319",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-31T10:43:18Z",
+          "state_reason": null
+        },
+        {
+          "id": 10818961566,
+          "node_id": "REFE_lADOKaVmwM5zHXj9zwAAAAKE3ECe",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10818961566",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9922b985d6ca929d4e95c1a981b17f7a26e4783f",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/9922b985d6ca929d4e95c1a981b17f7a26e4783f",
+          "created_at": "2023-10-31T10:43:19Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 23.98,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/18",
+      "ticket": "8",
+      "done": true,
+      "id": "8-cc9cbab0",
+      "closed_at": "2023-10-15T12:14:38Z",
+      "created_at": "2023-10-09T17:15:16Z",
+      "body": "Implement the method below.",
+      "file": "include/ChaiVM/interpreter/code-manager.hpp",
+      "lines": "24-24",
+      "labels": [],
+      "assignees": [],
+      "title": "code-manager.hpp:24: Implement the method below.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10593766644,
+          "node_id": "MEE_lADOKaVmwM5zPrM7zwAAAAJ3cAz0",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766644",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:30Z"
+        },
+        {
+          "id": 10593766651,
+          "node_id": "SE_lADOKaVmwM5zPrM7zwAAAAJ3cAz7",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766651",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:30Z"
+        },
+        {
+          "id": 10593766708,
+          "node_id": "MEE_lADOKaVmwM5zPrM7zwAAAAJ3cA00",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766708",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:31Z"
+        },
+        {
+          "id": 10593766715,
+          "node_id": "SE_lADOKaVmwM5zPrM7zwAAAAJ3cA07",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766715",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:31Z"
+        },
+        {
+          "id": 10593766730,
+          "node_id": "MEE_lADOKaVmwM5zPrM7zwAAAAJ3cA1K",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766730",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:31Z"
+        },
+        {
+          "id": 10593766732,
+          "node_id": "SE_lADOKaVmwM5zPrM7zwAAAAJ3cA1M",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593766732",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:31Z"
+        },
+        {
+          "id": 10633938690,
+          "node_id": "REFE_lADOKaVmwM5zPrM7zwAAAAJ51QcC",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10633938690",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2c223b97614bc7722b039664907cb790551dd22d",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/2c223b97614bc7722b039664907cb790551dd22d",
+          "created_at": "2023-10-12T16:28:08Z"
+        },
+        {
+          "id": 10633938717,
+          "node_id": "REFE_lADOKaVmwM5zPrM7zwAAAAJ51Qcd",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10633938717",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e125f5bc173fa37bbe23b55f931d821d5d52a59b",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/e125f5bc173fa37bbe23b55f931d821d5d52a59b",
+          "created_at": "2023-10-12T16:28:08Z"
+        },
+        {
+          "id": 10633948155,
+          "node_id": "REFE_lADOKaVmwM5zPrM7zwAAAAJ51Sv7",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10633948155",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3b116d10bfd49c3dc06b11601f0e8dcda1f9be1f",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/3b116d10bfd49c3dc06b11601f0e8dcda1f9be1f",
+          "created_at": "2023-10-12T16:29:11Z"
+        },
+        {
+          "id": 10634095374,
+          "node_id": "REFE_lADOKaVmwM5zPrM7zwAAAAJ512sO",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10634095374",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "50a2eaaa1eb5796136feb99b4b033feeefc3c4d7",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/50a2eaaa1eb5796136feb99b4b033feeefc3c4d7",
+          "created_at": "2023-10-12T16:40:17Z"
+        },
+        {
+          "id": 10635621645,
+          "node_id": "REFE_lADOKaVmwM5zPrM7zwAAAAJ57rUN",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10635621645",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c7f105605406d410659c2b31740c0d27b9536d19",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/c7f105605406d410659c2b31740c0d27b9536d19",
+          "created_at": "2023-10-12T18:47:09Z"
+        },
+        {
+          "id": 10635652823,
+          "node_id": "CE_lADOKaVmwM5zPrM7zwAAAAJ57y7X",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10635652823",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-12T18:50:01Z",
+          "state_reason": null
+        },
+        {
+          "id": 10635652969,
+          "node_id": "REFE_lADOKaVmwM5zPrM7zwAAAAJ57y9p",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10635652969",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a8782c09daf6f6e9d181102be0a9ad6090577275",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/a8782c09daf6f6e9d181102be0a9ad6090577275",
+          "created_at": "2023-10-12T18:50:02Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 13,
+      "time_to_resolution_days": 5.79,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/20",
+      "ticket": "8",
+      "done": true,
+      "id": "8-d09df369",
+      "closed_at": "2023-10-15T19:13:15Z",
+      "created_at": "2023-10-09T17:15:16Z",
+      "body": "Now this method processes R and RR formats only. It should also work with I type. We need smth like Instr2Format for it.",
+      "file": "test/ChaiVM/interpreter/executor_test.cpp",
+      "lines": "13-15",
+      "labels": [],
+      "assignees": [],
+      "title": "executor_test.cpp:13-15: Now this method processes R and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10593768338,
+          "node_id": "MEE_lADOKaVmwM5zPrRPzwAAAAJ3cBOS",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593768338",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:43Z"
+        },
+        {
+          "id": 10593768343,
+          "node_id": "SE_lADOKaVmwM5zPrRPzwAAAAJ3cBOX",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593768343",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:43Z"
+        },
+        {
+          "id": 10593768421,
+          "node_id": "MEE_lADOKaVmwM5zPrRPzwAAAAJ3cBPl",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593768421",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:44Z"
+        },
+        {
+          "id": 10593768436,
+          "node_id": "SE_lADOKaVmwM5zPrRPzwAAAAJ3cBP0",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593768436",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:44Z"
+        },
+        {
+          "id": 10593768455,
+          "node_id": "MEE_lADOKaVmwM5zPrRPzwAAAAJ3cBQH",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593768455",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:44Z"
+        },
+        {
+          "id": 10593768464,
+          "node_id": "SE_lADOKaVmwM5zPrRPzwAAAAJ3cBQQ",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593768464",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:44Z"
+        },
+        {
+          "id": 10658285859,
+          "node_id": "MEE_lADOKaVmwM5zPrRPzwAAAAJ7SIkj",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658285859",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:12Z"
+        },
+        {
+          "id": 10658285861,
+          "node_id": "SE_lADOKaVmwM5zPrRPzwAAAAJ7SIkl",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658285861",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:12Z"
+        },
+        {
+          "id": 10658285865,
+          "node_id": "MEE_lADOKaVmwM5zPrRPzwAAAAJ7SIkp",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658285865",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:12Z"
+        },
+        {
+          "id": 10658285867,
+          "node_id": "SE_lADOKaVmwM5zPrRPzwAAAAJ7SIkr",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658285867",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:12Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 6.08,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/21",
+      "ticket": "8",
+      "done": true,
+      "id": "8-58f17781",
+      "closed_at": "2023-10-15T19:13:19Z",
+      "created_at": "2023-10-09T17:15:16Z",
+      "body": "Implement this method clearer. Now it use the trick that opcodes and enum values of corresponding operations are the same.",
+      "file": "test/ChaiVM/interpreter/executor_test.cpp",
+      "lines": "36-37",
+      "labels": [],
+      "assignees": [],
+      "title": "executor_test.cpp:36-37: Implement this method clearer....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10593769168,
+          "node_id": "MEE_lADOKaVmwM5zPrTBzwAAAAJ3cBbQ",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593769168",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:50Z"
+        },
+        {
+          "id": 10593769192,
+          "node_id": "SE_lADOKaVmwM5zPrTBzwAAAAJ3cBbo",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593769192",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:50Z"
+        },
+        {
+          "id": 10593769259,
+          "node_id": "MEE_lADOKaVmwM5zPrTBzwAAAAJ3cBcr",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593769259",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:50Z"
+        },
+        {
+          "id": 10593769269,
+          "node_id": "SE_lADOKaVmwM5zPrTBzwAAAAJ3cBc1",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593769269",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:50Z"
+        },
+        {
+          "id": 10593769279,
+          "node_id": "MEE_lADOKaVmwM5zPrTBzwAAAAJ3cBc_",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593769279",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:50Z"
+        },
+        {
+          "id": 10593769283,
+          "node_id": "SE_lADOKaVmwM5zPrTBzwAAAAJ3cBdD",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10593769283",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-09T17:15:50Z"
+        },
+        {
+          "id": 10658286009,
+          "node_id": "MEE_lADOKaVmwM5zPrTBzwAAAAJ7SIm5",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658286009",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:17Z"
+        },
+        {
+          "id": 10658286013,
+          "node_id": "SE_lADOKaVmwM5zPrTBzwAAAAJ7SIm9",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658286013",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:17Z"
+        },
+        {
+          "id": 10658286018,
+          "node_id": "MEE_lADOKaVmwM5zPrTBzwAAAAJ7SInC",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658286018",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:17Z"
+        },
+        {
+          "id": 10658286022,
+          "node_id": "SE_lADOKaVmwM5zPrTBzwAAAAJ7SInG",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658286022",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:17Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 6.08,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/34",
+      "ticket": "32",
+      "done": true,
+      "id": "32-cab74994",
+      "closed_at": "2023-10-15T19:13:24Z",
+      "created_at": "2023-10-15T12:14:27Z",
+      "body": "Make the methods \"instr2Raw\" implemented only once. For example in utils.",
+      "file": "bench/codeman-wrapper.hpp",
+      "lines": "10-11",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "codeman-wrapper.hpp:10-11: Make the methods \"instr2Raw\"...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10657543084,
+          "node_id": "MEE_lADOKaVmwM5z3QcNzwAAAAJ7PTOs",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10657543084",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T12:14:39Z"
+        },
+        {
+          "id": 10657543088,
+          "node_id": "SE_lADOKaVmwM5z3QcNzwAAAAJ7PTOw",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10657543088",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T12:14:39Z"
+        },
+        {
+          "id": 10657543105,
+          "node_id": "MEE_lADOKaVmwM5z3QcNzwAAAAJ7PTPB",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10657543105",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T12:14:39Z"
+        },
+        {
+          "id": 10657543110,
+          "node_id": "SE_lADOKaVmwM5z3QcNzwAAAAJ7PTPG",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10657543110",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T12:14:39Z"
+        },
+        {
+          "id": 10657543117,
+          "node_id": "MEE_lADOKaVmwM5z3QcNzwAAAAJ7PTPN",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10657543117",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T12:14:40Z"
+        },
+        {
+          "id": 10657543119,
+          "node_id": "SE_lADOKaVmwM5z3QcNzwAAAAJ7PTPP",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10657543119",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T12:14:40Z"
+        },
+        {
+          "id": 10658286124,
+          "node_id": "MEE_lADOKaVmwM5z3QcNzwAAAAJ7SIos",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658286124",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:21Z"
+        },
+        {
+          "id": 10658286125,
+          "node_id": "SE_lADOKaVmwM5z3QcNzwAAAAJ7SIot",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658286125",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:22Z"
+        },
+        {
+          "id": 10658286128,
+          "node_id": "MEE_lADOKaVmwM5z3QcNzwAAAAJ7SIow",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658286128",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:22Z"
+        },
+        {
+          "id": 10658286134,
+          "node_id": "SE_lADOKaVmwM5z3QcNzwAAAAJ7SIo2",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10658286134",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-15T19:13:22Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 0.29,
+      "estimate": "60",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/39",
+      "ticket": "37",
+      "done": true,
+      "id": "37-0019e1f7",
+      "closed_at": "2023-10-28T14:41:53Z",
+      "created_at": "2023-10-18T11:39:52Z",
+      "body": "Make address sanitizer work on MacOS with ARM",
+      "file": "test/CMakeLists.txt",
+      "lines": "18-18",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [
+        "c71n93"
+      ],
+      "title": "CMakeLists.txt:18: Make address sanitizer work on MacOS...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10691690155,
+          "node_id": "MEE_lADOKaVmwM50M5bgzwAAAAJ9Rj6r",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10691690155",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-18T11:40:08Z"
+        },
+        {
+          "id": 10691690164,
+          "node_id": "SE_lADOKaVmwM50M5bgzwAAAAJ9Rj60",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10691690164",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-18T11:40:08Z"
+        },
+        {
+          "id": 10691690234,
+          "node_id": "MEE_lADOKaVmwM50M5bgzwAAAAJ9Rj76",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10691690234",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-18T11:40:08Z"
+        },
+        {
+          "id": 10691690242,
+          "node_id": "SE_lADOKaVmwM50M5bgzwAAAAJ9Rj8C",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10691690242",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-18T11:40:08Z"
+        },
+        {
+          "id": 10691690256,
+          "node_id": "MEE_lADOKaVmwM50M5bgzwAAAAJ9Rj8Q",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10691690256",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-18T11:40:09Z"
+        },
+        {
+          "id": 10691690263,
+          "node_id": "SE_lADOKaVmwM50M5bgzwAAAAJ9Rj8X",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10691690263",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-18T11:40:09Z"
+        },
+        {
+          "id": 10691903919,
+          "node_id": "AE_lADOKaVmwM50M5bgzwAAAAJ9SYGv",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10691903919",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-18T12:00:27Z",
+          "assignee": {
+            "login": "c71n93",
+            "id": 70313618,
+            "node_id": "MDQ6VXNlcjcwMzEzNjE4",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70313618?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/c71n93",
+            "html_url": "https://github.com/c71n93",
+            "followers_url": "https://api.github.com/users/c71n93/followers",
+            "following_url": "https://api.github.com/users/c71n93/following{/other_user}",
+            "gists_url": "https://api.github.com/users/c71n93/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/c71n93/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/c71n93/subscriptions",
+            "organizations_url": "https://api.github.com/users/c71n93/orgs",
+            "repos_url": "https://api.github.com/users/c71n93/repos",
+            "events_url": "https://api.github.com/users/c71n93/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/c71n93/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "levBagryansky",
+            "id": 32939651,
+            "node_id": "MDQ6VXNlcjMyOTM5NjUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32939651?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/levBagryansky",
+            "html_url": "https://github.com/levBagryansky",
+            "followers_url": "https://api.github.com/users/levBagryansky/followers",
+            "following_url": "https://api.github.com/users/levBagryansky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/levBagryansky/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/levBagryansky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/levBagryansky/subscriptions",
+            "organizations_url": "https://api.github.com/users/levBagryansky/orgs",
+            "repos_url": "https://api.github.com/users/levBagryansky/repos",
+            "events_url": "https://api.github.com/users/levBagryansky/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/levBagryansky/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10797980817,
+          "node_id": "MEE_lADOKaVmwM50M5bgzwAAAAKDnByR",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10797980817",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-28T14:41:50Z"
+        },
+        {
+          "id": 10797980821,
+          "node_id": "SE_lADOKaVmwM50M5bgzwAAAAKDnByV",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10797980821",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-28T14:41:50Z"
+        },
+        {
+          "id": 10797980824,
+          "node_id": "MEE_lADOKaVmwM50M5bgzwAAAAKDnByY",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10797980824",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-28T14:41:50Z"
+        },
+        {
+          "id": 10797980826,
+          "node_id": "SE_lADOKaVmwM50M5bgzwAAAAKDnBya",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10797980826",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-28T14:41:50Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 10.13,
+      "estimate": "60",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/54",
+      "ticket": "42",
+      "done": true,
+      "id": "42-1789e504",
+      "closed_at": "2024-02-19T17:15:05Z",
+      "created_at": "2023-11-01T10:38:08Z",
+      "body": "Rename all load methods to more appropriate names.",
+      "file": "test/ChaiVM/interpreter/executor_test.cpp",
+      "lines": "31-31",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [
+        "levBagryansky"
+      ],
+      "title": "executor_test.cpp:31: Rename all load methods to more...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10830861463,
+          "node_id": "MEE_lADOKaVmwM51jBnSzwAAAAKFkdSX",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10830861463",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-01T10:38:26Z"
+        },
+        {
+          "id": 10830861476,
+          "node_id": "SE_lADOKaVmwM51jBnSzwAAAAKFkdSk",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10830861476",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-01T10:38:26Z"
+        },
+        {
+          "id": 10830861486,
+          "node_id": "MEE_lADOKaVmwM51jBnSzwAAAAKFkdSu",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10830861486",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-01T10:38:26Z"
+        },
+        {
+          "id": 10830861493,
+          "node_id": "SE_lADOKaVmwM51jBnSzwAAAAKFkdS1",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10830861493",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-01T10:38:27Z"
+        },
+        {
+          "id": 11831659747,
+          "node_id": "AE_lADOKaVmwM51jBnSzwAAAALBOMzj",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11831659747",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-16T17:29:24Z",
+          "assignee": {
+            "login": "levBagryansky",
+            "id": 32939651,
+            "node_id": "MDQ6VXNlcjMyOTM5NjUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32939651?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/levBagryansky",
+            "html_url": "https://github.com/levBagryansky",
+            "followers_url": "https://api.github.com/users/levBagryansky/followers",
+            "following_url": "https://api.github.com/users/levBagryansky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/levBagryansky/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/levBagryansky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/levBagryansky/subscriptions",
+            "organizations_url": "https://api.github.com/users/levBagryansky/orgs",
+            "repos_url": "https://api.github.com/users/levBagryansky/repos",
+            "events_url": "https://api.github.com/users/levBagryansky/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/levBagryansky/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "levBagryansky",
+            "id": 32939651,
+            "node_id": "MDQ6VXNlcjMyOTM5NjUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32939651?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/levBagryansky",
+            "html_url": "https://github.com/levBagryansky",
+            "followers_url": "https://api.github.com/users/levBagryansky/followers",
+            "following_url": "https://api.github.com/users/levBagryansky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/levBagryansky/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/levBagryansky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/levBagryansky/subscriptions",
+            "organizations_url": "https://api.github.com/users/levBagryansky/orgs",
+            "repos_url": "https://api.github.com/users/levBagryansky/repos",
+            "events_url": "https://api.github.com/users/levBagryansky/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/levBagryansky/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 11841786337,
+          "node_id": "REFE_lADOKaVmwM51jBnSzwAAAALB01Hh",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11841786337",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b5adc504fa2f173ead6c88b97b4e43e374ba06bc",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/b5adc504fa2f173ead6c88b97b4e43e374ba06bc",
+          "created_at": "2024-02-18T20:56:18Z"
+        },
+        {
+          "id": 11841786342,
+          "node_id": "REFE_lADOKaVmwM51jBnSzwAAAALB01Hm",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11841786342",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "359e40f83dfe53dd99c3c2dffc53e7d86d5f33f4",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/359e40f83dfe53dd99c3c2dffc53e7d86d5f33f4",
+          "created_at": "2024-02-18T20:56:18Z"
+        },
+        {
+          "id": 11841786347,
+          "node_id": "REFE_lADOKaVmwM51jBnSzwAAAALB01Hr",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11841786347",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "766e5c3d58cd5b01cba44f2389c41e38742000ae",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/766e5c3d58cd5b01cba44f2389c41e38742000ae",
+          "created_at": "2024-02-18T20:56:18Z"
+        },
+        {
+          "id": 11852517963,
+          "node_id": "REFE_lADOKaVmwM51jBnSzwAAAALCdxJL",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11852517963",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ab749c9673e274296a6ad0415c0758628fd1ae43",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/ab749c9673e274296a6ad0415c0758628fd1ae43",
+          "created_at": "2024-02-19T17:10:33Z"
+        },
+        {
+          "id": 11852558710,
+          "node_id": "REFE_lADOKaVmwM51jBnSzwAAAALCd7F2",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11852558710",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fb013fba8e396144f245be94b4d64d205f0b866d",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/fb013fba8e396144f245be94b4d64d205f0b866d",
+          "created_at": "2024-02-19T17:15:00Z"
+        },
+        {
+          "id": 11852559525,
+          "node_id": "MEE_lADOKaVmwM51jBnSzwAAAALCd7Sl",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11852559525",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-19T17:15:06Z"
+        },
+        {
+          "id": 11852559530,
+          "node_id": "SE_lADOKaVmwM51jBnSzwAAAALCd7Sq",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11852559530",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-19T17:15:06Z"
+        },
+        {
+          "id": 11852559547,
+          "node_id": "MEE_lADOKaVmwM51jBnSzwAAAALCd7S7",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11852559547",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-19T17:15:06Z"
+        },
+        {
+          "id": 11852559556,
+          "node_id": "SE_lADOKaVmwM51jBnSzwAAAALCd7TE",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11852559556",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-19T17:15:06Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 14,
+      "time_to_resolution_days": 110.28,
+      "estimate": "60",
+      "author": "Lev Bagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/63",
+      "ticket": "1",
+      "done": true,
+      "id": "1-083ca17e",
+      "closed_at": "2024-06-10T11:09:20Z",
+      "created_at": "2023-11-09T16:03:20Z",
+      "body": "We can avoid using dispatch_ anywhere via inheritance.",
+      "file": "include/ChaiVM/interpreter/code-manager/code-manager.hpp",
+      "lines": "70-70",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "code-manager.hpp:70: We can avoid using dispatch_...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10915153878,
+          "node_id": "MEE_lADOKaVmwM52Xy5ezwAAAAKKmAfW",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10915153878",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-09T16:03:29Z"
+        },
+        {
+          "id": 10915153888,
+          "node_id": "SE_lADOKaVmwM52Xy5ezwAAAAKKmAfg",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10915153888",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-09T16:03:29Z"
+        },
+        {
+          "id": 10915153948,
+          "node_id": "MEE_lADOKaVmwM52Xy5ezwAAAAKKmAgc",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10915153948",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-09T16:03:29Z"
+        },
+        {
+          "id": 10915153969,
+          "node_id": "SE_lADOKaVmwM52Xy5ezwAAAAKKmAgx",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10915153969",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-09T16:03:29Z"
+        },
+        {
+          "id": 10915153985,
+          "node_id": "MEE_lADOKaVmwM52Xy5ezwAAAAKKmAhB",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10915153985",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-09T16:03:29Z"
+        },
+        {
+          "id": 10915154004,
+          "node_id": "SE_lADOKaVmwM52Xy5ezwAAAAKKmAhU",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/10915154004",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-09T16:03:29Z"
+        },
+        {
+          "id": 13099642110,
+          "node_id": "MEE_lADOKaVmwM52Xy5ezwAAAAMMzKz-",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13099642110",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-10T11:09:20Z"
+        },
+        {
+          "id": 13099642124,
+          "node_id": "SE_lADOKaVmwM52Xy5ezwAAAAMMzK0M",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13099642124",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-10T11:09:20Z"
+        },
+        {
+          "id": 13099642152,
+          "node_id": "MEE_lADOKaVmwM52Xy5ezwAAAAMMzK0o",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13099642152",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-10T11:09:20Z"
+        },
+        {
+          "id": 13099642164,
+          "node_id": "SE_lADOKaVmwM52Xy5ezwAAAAMMzK00",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13099642164",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-10T11:09:20Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 213.8,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/71",
+      "ticket": "41",
+      "done": true,
+      "id": "41-4dc1c56c",
+      "closed_at": "2024-06-10T11:09:22Z",
+      "created_at": "2023-12-19T08:35:33Z",
+      "body": "Refactor this function. Or maybe it is better to kill myself?",
+      "file": "include/frontend/assembler/assembler.hpp",
+      "lines": "43-44",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "assembler.hpp:43-44: Refactor this function. Or maybe it...",
+      "comments": [
+        {
+          "author": "levBagryansky",
+          "created_at": "2024-05-16T14:36:52Z",
+          "updated_at": "2024-05-16T14:36:52Z",
+          "body": "@c71n93 What's up with this issue",
+          "url": "https://github.com/Tea-club/ChaiVM/issues/71#issuecomment-2115428948",
+          "id": 2115428948
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 11286426593,
+          "node_id": "MEE_lADOKaVmwM56FLekzwAAAAKguTPh",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286426593",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:48Z"
+        },
+        {
+          "id": 11286426601,
+          "node_id": "SE_lADOKaVmwM56FLekzwAAAAKguTPp",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286426601",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:48Z"
+        },
+        {
+          "id": 11286426613,
+          "node_id": "MEE_lADOKaVmwM56FLekzwAAAAKguTP1",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286426613",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:48Z"
+        },
+        {
+          "id": 11286426623,
+          "node_id": "SE_lADOKaVmwM56FLekzwAAAAKguTP_",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286426623",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:48Z"
+        },
+        {
+          "id": 12835121043,
+          "node_id": "MEE_lADOKaVmwM56FLekzwAAAAL9CGeT",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12835121043",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-16T14:36:53Z"
+        },
+        {
+          "id": 12835121057,
+          "node_id": "SE_lADOKaVmwM56FLekzwAAAAL9CGeh",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12835121057",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-16T14:36:53Z"
+        },
+        {
+          "id": 13099642583,
+          "node_id": "MEE_lADOKaVmwM56FLekzwAAAAMMzK7X",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13099642583",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-10T11:09:22Z"
+        },
+        {
+          "id": 13099642595,
+          "node_id": "SE_lADOKaVmwM56FLekzwAAAAMMzK7j",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13099642595",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-10T11:09:22Z"
+        },
+        {
+          "id": 13099642603,
+          "node_id": "MEE_lADOKaVmwM56FLekzwAAAAMMzK7r",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13099642603",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-10T11:09:22Z"
+        },
+        {
+          "id": 13099642618,
+          "node_id": "SE_lADOKaVmwM56FLekzwAAAAMMzK76",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13099642618",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-10T11:09:22Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 174.11,
+      "estimate": "90",
+      "author": "Roman Korostinskiy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/72",
+      "ticket": "41",
+      "done": true,
+      "id": "41-a25bae73",
+      "closed_at": "2024-03-28T21:07:43Z",
+      "created_at": "2023-12-19T08:35:33Z",
+      "body": "Implement it in OpString class. Also rename OpString class",
+      "file": "include/frontend/assembler/assembler.hpp",
+      "lines": "176-177",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "assembler.hpp:176-177: Implement it in OpString class....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11286427778,
+          "node_id": "MEE_lADOKaVmwM56FLg2zwAAAAKguTiC",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286427778",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:54Z"
+        },
+        {
+          "id": 11286427796,
+          "node_id": "SE_lADOKaVmwM56FLg2zwAAAAKguTiU",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286427796",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:54Z"
+        },
+        {
+          "id": 11286427814,
+          "node_id": "MEE_lADOKaVmwM56FLg2zwAAAAKguTim",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286427814",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:54Z"
+        },
+        {
+          "id": 11286427821,
+          "node_id": "SE_lADOKaVmwM56FLg2zwAAAAKguTit",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286427821",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:54Z"
+        },
+        {
+          "id": 12273320150,
+          "node_id": "REFE_lADOKaVmwM56FLg2zwAAAALbjADW",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12273320150",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "45cb796879fe268651efaea7010e50df45798190",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/45cb796879fe268651efaea7010e50df45798190",
+          "created_at": "2024-03-27T21:17:02Z"
+        },
+        {
+          "id": 12287601485,
+          "node_id": "CE_lADOKaVmwM56FLg2zwAAAALcZetN",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12287601485",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-03-28T21:07:39Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 100.52,
+      "estimate": "90",
+      "author": "Roman Korostinskiy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/73",
+      "ticket": "41",
+      "done": true,
+      "id": "41-1dc4ad84",
+      "closed_at": "2024-03-28T21:07:45Z",
+      "created_at": "2023-12-19T08:35:33Z",
+      "body": "Rename this class",
+      "file": "include/frontend/assembler/op-string.hpp",
+      "lines": "9-9",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "op-string.hpp:9: Rename this class",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11286428740,
+          "node_id": "MEE_lADOKaVmwM56FLjKzwAAAAKguTxE",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286428740",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:59Z"
+        },
+        {
+          "id": 11286428755,
+          "node_id": "SE_lADOKaVmwM56FLjKzwAAAAKguTxT",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286428755",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:59Z"
+        },
+        {
+          "id": 11286428761,
+          "node_id": "MEE_lADOKaVmwM56FLjKzwAAAAKguTxZ",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286428761",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:59Z"
+        },
+        {
+          "id": 11286428765,
+          "node_id": "SE_lADOKaVmwM56FLjKzwAAAAKguTxd",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/11286428765",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-19T08:35:59Z"
+        },
+        {
+          "id": 12273320123,
+          "node_id": "REFE_lADOKaVmwM56FLjKzwAAAALbjAC7",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12273320123",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "45cb796879fe268651efaea7010e50df45798190",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/45cb796879fe268651efaea7010e50df45798190",
+          "created_at": "2024-03-27T21:17:02Z"
+        },
+        {
+          "id": 12287602584,
+          "node_id": "MEE_lADOKaVmwM56FLjKzwAAAALcZe-Y",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12287602584",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-03-28T21:07:45Z"
+        },
+        {
+          "id": 12287602589,
+          "node_id": "SE_lADOKaVmwM56FLjKzwAAAALcZe-d",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12287602589",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-03-28T21:07:45Z"
+        },
+        {
+          "id": 12287602606,
+          "node_id": "MEE_lADOKaVmwM56FLjKzwAAAALcZe-u",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12287602606",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-03-28T21:07:45Z"
+        },
+        {
+          "id": 12287602613,
+          "node_id": "SE_lADOKaVmwM56FLjKzwAAAALcZe-1",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/12287602613",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-03-28T21:07:45Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 100.52,
+      "estimate": "90",
+      "author": "Roman Korostinskiy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/100",
+      "ticket": "97",
+      "done": true,
+      "id": "97-491954b0",
+      "closed_at": "2024-06-13T13:15:58Z",
+      "created_at": "2024-06-12T18:17:13Z",
+      "body": "Implement array of objects.",
+      "file": "include/ChaiVM/interpreter/executor.hpp",
+      "lines": "84-84",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "executor.hpp:84: Implement array of objects.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 13135755547,
+          "node_id": "MEE_lADOKaVmwM6MCWG-zwAAAAMO87kb",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135755547",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:18Z"
+        },
+        {
+          "id": 13135755566,
+          "node_id": "SE_lADOKaVmwM6MCWG-zwAAAAMO87ku",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135755566",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:18Z"
+        },
+        {
+          "id": 13135755849,
+          "node_id": "MEE_lADOKaVmwM6MCWG-zwAAAAMO87pJ",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135755849",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:19Z"
+        },
+        {
+          "id": 13135755859,
+          "node_id": "SE_lADOKaVmwM6MCWG-zwAAAAMO87pT",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135755859",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:19Z"
+        },
+        {
+          "id": 13135755898,
+          "node_id": "MEE_lADOKaVmwM6MCWG-zwAAAAMO87p6",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135755898",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:19Z"
+        },
+        {
+          "id": 13135755913,
+          "node_id": "SE_lADOKaVmwM6MCWG-zwAAAAMO87qJ",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135755913",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:19Z"
+        },
+        {
+          "id": 13137150310,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPCQFm",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13137150310",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bf431fe025c0c48b800914a6c432f90c5d524991",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/bf431fe025c0c48b800914a6c432f90c5d524991",
+          "created_at": "2024-06-12T20:40:17Z"
+        },
+        {
+          "id": 13137997190,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPFe2G",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13137997190",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9736d0e9de498e73075f28680b0252c76f84bc97",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/9736d0e9de498e73075f28680b0252c76f84bc97",
+          "created_at": "2024-06-12T22:22:48Z"
+        },
+        {
+          "id": 13144800075,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPfbtL",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13144800075",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6c4496c72c20088783274930652a699be01af81e",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/6c4496c72c20088783274930652a699be01af81e",
+          "created_at": "2024-06-13T10:58:56Z"
+        },
+        {
+          "id": 13145176633,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPg3o5",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13145176633",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "915658a314c7fb775a7be55f1ef97355c44b8d9f",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/915658a314c7fb775a7be55f1ef97355c44b8d9f",
+          "created_at": "2024-06-13T11:28:13Z"
+        },
+        {
+          "id": 13145372540,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPhnd8",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13145372540",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d38e135254610f8e9c02da9a16e90886a6c0a235",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/d38e135254610f8e9c02da9a16e90886a6c0a235",
+          "created_at": "2024-06-13T11:43:28Z"
+        },
+        {
+          "id": 13146491942,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPl4wm",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146491942",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "99f173f7175a10440ed7f9d142094df4ed9e57a8",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/99f173f7175a10440ed7f9d142094df4ed9e57a8",
+          "created_at": "2024-06-13T13:03:22Z"
+        },
+        {
+          "id": 13146491983,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPl4xP",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146491983",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c663e019a1c45c4a46393669fbfd34b116560358",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/c663e019a1c45c4a46393669fbfd34b116560358",
+          "created_at": "2024-06-13T13:03:22Z"
+        },
+        {
+          "id": 13146498565,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPl6YF",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146498565",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8e33699d2683363060b7d4323fdbfb5bfa3f96dd",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/8e33699d2683363060b7d4323fdbfb5bfa3f96dd",
+          "created_at": "2024-06-13T13:03:48Z"
+        },
+        {
+          "id": 13146537192,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPmDzo",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146537192",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dc0f65146855959277fced104cd129976c870ccd",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/dc0f65146855959277fced104cd129976c870ccd",
+          "created_at": "2024-06-13T13:06:20Z"
+        },
+        {
+          "id": 13146683580,
+          "node_id": "REFE_lADOKaVmwM6MCWG-zwAAAAMPmni8",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146683580",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "15c4a03f9fb8e6e7f23db290cb047a6c73deaaa3",
+          "commit_url": "https://api.github.com/repos/Tea-club/ChaiVM/commits/15c4a03f9fb8e6e7f23db290cb047a6c73deaaa3",
+          "created_at": "2024-06-13T13:15:55Z"
+        },
+        {
+          "id": 13146683612,
+          "node_id": "CE_lADOKaVmwM6MCWG-zwAAAAMPmnjc",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146683612",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-13T13:15:55Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 17,
+      "time_to_resolution_days": 0.79,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/Tea-club/ChaiVM",
+      "issue_link": "https://github.com/Tea-club/ChaiVM/issues/101",
+      "ticket": "97",
+      "done": true,
+      "id": "97-0dcc99de",
+      "closed_at": "2024-06-13T13:16:00Z",
+      "created_at": "2024-06-12T18:17:13Z",
+      "body": "Add allocator here.",
+      "file": "include/ChaiVM/interpreter/objects.hpp",
+      "lines": "10-10",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "objects.hpp:10: Add allocator here.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 13135756095,
+          "node_id": "MEE_lADOKaVmwM6MCWH9zwAAAAMO87s_",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135756095",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:20Z"
+        },
+        {
+          "id": 13135756105,
+          "node_id": "SE_lADOKaVmwM6MCWH9zwAAAAMO87tJ",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135756105",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:20Z"
+        },
+        {
+          "id": 13135756259,
+          "node_id": "MEE_lADOKaVmwM6MCWH9zwAAAAMO87vj",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135756259",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:21Z"
+        },
+        {
+          "id": 13135756288,
+          "node_id": "SE_lADOKaVmwM6MCWH9zwAAAAMO87wA",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135756288",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:21Z"
+        },
+        {
+          "id": 13135756336,
+          "node_id": "MEE_lADOKaVmwM6MCWH9zwAAAAMO87ww",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135756336",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:21Z"
+        },
+        {
+          "id": 13135756365,
+          "node_id": "SE_lADOKaVmwM6MCWH9zwAAAAMO87xN",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13135756365",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-12T18:17:22Z"
+        },
+        {
+          "id": 13146685295,
+          "node_id": "MEE_lADOKaVmwM6MCWH9zwAAAAMPmn9v",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146685295",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-13T13:16:01Z"
+        },
+        {
+          "id": 13146685310,
+          "node_id": "SE_lADOKaVmwM6MCWH9zwAAAAMPmn9-",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146685310",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-13T13:16:01Z"
+        },
+        {
+          "id": 13146685336,
+          "node_id": "MEE_lADOKaVmwM6MCWH9zwAAAAMPmn-Y",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146685336",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-13T13:16:01Z"
+        },
+        {
+          "id": 13146685351,
+          "node_id": "SE_lADOKaVmwM6MCWH9zwAAAAMPmn-n",
+          "url": "https://api.github.com/repos/Tea-club/ChaiVM/issues/events/13146685351",
+          "actor": {
+            "id": 70313618,
+            "url": "https://api.github.com/users/c71n93",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-13T13:16:01Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 0.79,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "C++",
+  "project_stars": 4,
+  "project_forks": 0,
+  "project_contributors_count": 2,
+  "first_issue_date": "2023-10-05T16:07:21Z",
+  "last_issue_date": "2024-06-12T18:17:13Z"
+}

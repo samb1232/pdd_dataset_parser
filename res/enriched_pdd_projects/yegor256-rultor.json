@@ -1,0 +1,1780 @@
+{
+  "project_link": "https://github.com/yegor256/rultor",
+  "issues_count": 10,
+  "issues": [
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/633",
+      "ticket": "594",
+      "done": true,
+      "id": "594-7fd8c4ec",
+      "closed_at": "2017-10-27T16:34:55Z",
+      "created_at": "2016-12-13T19:08:18Z",
+      "body": "Add a test for case where dockerfile is specified instead of image in configuration (docker: directory some/directory).",
+      "file": "src/test/java/com/rultor/agents/req/StartsRequestTest.java",
+      "lines": "60-61",
+      "labels": [],
+      "assignees": [],
+      "title": "StartsRequestTest.java:60-61: Add a test for case...",
+      "comments": [
+        {
+          "author": "alex-palevsky",
+          "created_at": "2014-10-29T14:50:12Z",
+          "updated_at": "2014-10-29T14:50:12Z",
+          "body": "@yegor256 please proceed, it's yours\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-60936967",
+          "id": 60936967
+        },
+        {
+          "author": "yegor256",
+          "created_at": "2014-10-29T15:05:10Z",
+          "updated_at": "2014-10-29T15:05:10Z",
+          "body": "@alex-palevsky please assign @krzyk to this task\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-60939809",
+          "id": 60939809
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2014-10-29T16:09:56Z",
+          "updated_at": "2014-10-29T16:09:56Z",
+          "body": "> @alex-palevsky please assign @krzyk to this task\n\n@yegor256 yes, done, @krzyk is at the task, please start! whoever worked with this task before, please stop immediately\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-60952536",
+          "id": 60952536
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2014-11-09T12:10:44Z",
+          "updated_at": "2014-11-09T12:10:44Z",
+          "body": "@krzyk you're holding this task for 10 days already\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-62301203",
+          "id": 62301203
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2014-11-11T17:09:36Z",
+          "updated_at": "2014-11-11T17:09:36Z",
+          "body": "these puzzles in progress: `633-705a6074`\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-62580188",
+          "id": 62580188
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2014-11-11T17:49:38Z",
+          "updated_at": "2014-11-11T17:49:38Z",
+          "body": "these puzzles in progress: `633-705a6074`/#648\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-62586905",
+          "id": 62586905
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2014-11-12T17:48:45Z",
+          "updated_at": "2014-11-12T17:48:45Z",
+          "body": "Thanks all, I'm closing\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-62760485",
+          "id": 62760485
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2014-11-12T17:48:52Z",
+          "updated_at": "2014-11-12T17:48:52Z",
+          "body": "I don't see any messages from @krzyk above, not sure if there was actual contribution (correct me if I'm wrong)\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-62760503",
+          "id": 62760503
+        },
+        {
+          "author": "krzyk",
+          "created_at": "2014-11-12T19:03:42Z",
+          "updated_at": "2014-11-12T19:03:42Z",
+          "body": "@alex-palevsky PR #644 \n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-62773896",
+          "id": 62773896
+        },
+        {
+          "author": "yegor256",
+          "created_at": "2014-11-12T19:08:49Z",
+          "updated_at": "2014-11-12T19:08:49Z",
+          "body": "@alex-palevsky looks like it's a mistake, please add extra 30 mins to @krzyk \n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-62774727",
+          "id": 62774727
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2014-11-13T14:49:30Z",
+          "updated_at": "2014-11-13T14:49:30Z",
+          "body": "> @alex-palevsky looks like it's a mistake, please add extra 30 mins to @krzyk \n\n@yegor256 30 mins extra was just paid to @krzyk, transaction `47454781`\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-62900517",
+          "id": 62900517
+        },
+        {
+          "author": "caarlos0",
+          "created_at": "2014-12-03T16:56:49Z",
+          "updated_at": "2014-12-03T16:56:49Z",
+          "body": "@alex-palevsky done.\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-65445648",
+          "id": 65445648
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2015-01-23T16:25:50Z",
+          "updated_at": "2015-01-23T16:25:50Z",
+          "body": "the last puzzle `633-705a6074`/#648 solved\n",
+          "url": "https://github.com/yegor256/rultor/issues/633#issuecomment-71219358",
+          "id": 71219358
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 185297633,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4NTI5NzYzMw==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185297633",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T13:29:56Z",
+          "label": {
+            "name": "TS/PDD",
+            "color": "d4c5f9"
+          }
+        },
+        {
+          "id": 185297782,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4NTI5Nzc4Mg==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185297782",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T13:30:11Z",
+          "label": {
+            "name": "IMP",
+            "color": "bfd4f3"
+          }
+        },
+        {
+          "id": 185297861,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4NTI5Nzg2MQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185297861",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T13:30:20Z",
+          "label": {
+            "name": "@yegor256",
+            "color": "009801"
+          }
+        },
+        {
+          "id": 185297958,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4NTI5Nzk1OA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185297958",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T13:30:28Z",
+          "label": {
+            "name": "30 mins",
+            "color": "eb6421"
+          }
+        },
+        {
+          "id": 185347583,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTg1MzQ3NTgz",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185347583",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T14:50:12Z"
+        },
+        {
+          "id": 185347585,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE4NTM0NzU4NQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185347585",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T14:50:12Z"
+        },
+        {
+          "id": 185358206,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTg1MzU4MjA2",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185358206",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T15:05:10Z"
+        },
+        {
+          "id": 185358207,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE4NTM1ODIwNw==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185358207",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T15:05:10Z"
+        },
+        {
+          "id": 185358209,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTg1MzU4MjA5",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185358209",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T15:05:10Z"
+        },
+        {
+          "id": 185358210,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE4NTM1ODIxMA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185358210",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T15:05:10Z"
+        },
+        {
+          "id": 185406989,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTg1NDA2OTg5",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185406989",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T16:09:56Z"
+        },
+        {
+          "id": 185406990,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE4NTQwNjk5MA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185406990",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T16:09:56Z"
+        },
+        {
+          "id": 185406991,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTg1NDA2OTkx",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185406991",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T16:09:56Z"
+        },
+        {
+          "id": 185406992,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE4NTQwNjk5Mg==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185406992",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T16:09:56Z"
+        },
+        {
+          "id": 185406993,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTg1NDA2OTkz",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185406993",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T16:09:56Z"
+        },
+        {
+          "id": 185406994,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE4NTQwNjk5NA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185406994",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T16:09:56Z"
+        },
+        {
+          "id": 185407505,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4NTQwNzUwNQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185407505",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T16:10:38Z",
+          "label": {
+            "name": "@krzyk",
+            "color": "009801"
+          }
+        },
+        {
+          "id": 185407535,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTg1NDA3NTM1",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/185407535",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-10-29T16:10:40Z",
+          "label": {
+            "name": "@yegor256",
+            "color": "009801"
+          }
+        },
+        {
+          "id": 190443435,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5MDQ0MzQzNQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/190443435",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "322f460d160e4b5a72925a2a9621cddf28aa219a",
+          "commit_url": "https://api.github.com/repos/krzyk/rultor/commits/322f460d160e4b5a72925a2a9621cddf28aa219a",
+          "created_at": "2014-11-09T09:40:22Z"
+        },
+        {
+          "id": 190455043,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTkwNDU1MDQz",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/190455043",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-09T12:10:44Z"
+        },
+        {
+          "id": 190455045,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE5MDQ1NTA0NQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/190455045",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-09T12:10:44Z"
+        },
+        {
+          "id": 192185902,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTkyMTg1OTAy",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192185902",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T17:48:45Z",
+          "state_reason": null
+        },
+        {
+          "id": 192185969,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTkyMTg1OTY5",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192185969",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T17:48:52Z"
+        },
+        {
+          "id": 192185970,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE5MjE4NTk3MA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192185970",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T17:48:52Z"
+        },
+        {
+          "id": 192234325,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTkyMjM0MzI1",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192234325",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T19:03:42Z"
+        },
+        {
+          "id": 192234326,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE5MjIzNDMyNg==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192234326",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T19:03:42Z"
+        },
+        {
+          "id": 192237291,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTkyMjM3Mjkx",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192237291",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T19:08:49Z"
+        },
+        {
+          "id": 192237292,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE5MjIzNzI5Mg==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192237292",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T19:08:49Z"
+        },
+        {
+          "id": 192237293,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTkyMjM3Mjkz",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192237293",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T19:08:49Z"
+        },
+        {
+          "id": 192237296,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE5MjIzNzI5Ng==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/192237296",
+          "actor": {
+            "id": 105730,
+            "url": "https://api.github.com/users/krzyk",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2014-11-12T19:08:49Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 13,
+      "issue_events_count": 30,
+      "time_to_resolution_days": 317.89,
+      "estimate": "30",
+      "author": "unknown",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1161",
+      "ticket": "1053",
+      "done": true,
+      "id": "1053-dc86a5cc",
+      "closed_at": "2024-02-14T07:08:08Z",
+      "created_at": "2016-03-22T23:26:36Z",
+      "body": "Reduce the data abstraction coupling of EndsDaemon in order to get rid of the checkstyle suppression of ClassDataAbstractionCouplingCheck",
+      "file": "src/main/java/com/rultor/agents/daemons/EndsDaemon.java",
+      "lines": "64-66",
+      "labels": [],
+      "assignees": [],
+      "title": "EndsDaemon.java:64-66: Reduce the data abstraction coupling...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2017-04-21T14:43:49Z",
+          "updated_at": "2017-04-21T14:43:49Z",
+          "body": "@yegor256 please, pay attention to this issue",
+          "url": "https://github.com/yegor256/rultor/issues/1161#issuecomment-296210393",
+          "id": 296210393
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1052558610,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA1MjU1ODYxMA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558610",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:49Z"
+        },
+        {
+          "id": 1052558611,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNTI1NTg2MTE=",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558611",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:49Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2884.32,
+      "estimate": "30",
+      "author": "Nicolas Filotto",
+      "hierarchy": 1,
+      "parent_id": "1018-15a5404e",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1053",
+      "ticket": "1018",
+      "done": true,
+      "id": "1018-15a5404e",
+      "closed_at": "2017-10-27T16:34:56Z",
+      "created_at": "2016-03-10T07:09:23Z",
+      "body": "Implement a deprecation message at the start and end of the process if the project is using the default image 'yegor256/rultor'. Fix the issue using the xpath available in com.rultor.agents.daemons.StartsDaemon and com.rultor.agents.daemons.EndsDaemon.",
+      "file": "src/test/java/com/rultor/agents/daemons/StartsDaemonITCase.java",
+      "lines": "121-125",
+      "labels": [],
+      "assignees": [],
+      "title": "StartsDaemonITCase.java:121-125: Implement a deprecation message at...",
+      "comments": [
+        {
+          "author": "original-brownbear",
+          "created_at": "2016-03-12T21:07:36Z",
+          "updated_at": "2016-03-12T21:07:36Z",
+          "body": "@alex-palevsky this depends on #1055\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-195808868",
+          "id": 195808868
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-13T12:07:05Z",
+          "updated_at": "2016-03-13T12:07:05Z",
+          "body": "@original-brownbear since the ticket has no milestone I set it to 2.0\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-195946339",
+          "id": 195946339
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-13T14:13:51Z",
+          "updated_at": "2016-03-13T14:13:51Z",
+          "body": "> @alex-palevsky this depends on #1055\n\n@original-brownbear yes, of course, we'll wait for #1055\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-195962778",
+          "id": 195962778
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-15T12:39:54Z",
+          "updated_at": "2016-03-15T12:39:54Z",
+          "body": "@essobedo you may proceed,it's yours\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-196801537",
+          "id": 196801537
+        },
+        {
+          "author": "essobedo",
+          "created_at": "2016-03-15T17:02:29Z",
+          "updated_at": "2016-03-15T17:02:29Z",
+          "body": "@alex-palevsky waiting for #1058 \n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-196923723",
+          "id": 196923723
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-15T19:22:47Z",
+          "updated_at": "2016-03-15T19:22:47Z",
+          "body": "> @alex-palevsky waiting for #1058 \n\n@essobedo yes, of course, we'll wait for #1058\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-196983572",
+          "id": 196983572
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-16T13:38:32Z",
+          "updated_at": "2016-03-16T13:38:32Z",
+          "body": "@original-brownbear FYI, issue #1058 is already closed, and we were waiting for it..\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-197334410",
+          "id": 197334410
+        },
+        {
+          "author": "essobedo",
+          "created_at": "2016-03-16T19:30:50Z",
+          "updated_at": "2016-03-16T19:30:50Z",
+          "body": "@alex-palevsky @original-brownbear I had to reopen #1058 to have the answer of a new question\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-197504664",
+          "id": 197504664
+        },
+        {
+          "author": "essobedo",
+          "created_at": "2016-03-17T11:12:41Z",
+          "updated_at": "2016-03-17T11:12:41Z",
+          "body": "@alex-palevsky here is my PR #1062, please find a reviewer\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-197827428",
+          "id": 197827428
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-17T13:43:38Z",
+          "updated_at": "2016-03-17T13:43:38Z",
+          "body": "> @alex-palevsky here is my PR #1062, please find a reviewer\n\n@essobedo OK\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-197884664",
+          "id": 197884664
+        },
+        {
+          "author": "essobedo",
+          "created_at": "2016-03-24T06:43:02Z",
+          "updated_at": "2016-03-24T06:43:02Z",
+          "body": "@alex-palevsky The PR has been merged, could you please proceed, thank you in advance\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-200696823",
+          "id": 200696823
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-24T12:54:22Z",
+          "updated_at": "2016-03-24T12:54:22Z",
+          "body": "@original-brownbear the code made here contains a puzzle `1053-dc86a5cc`/#1069, which will be resolved soon\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-200819877",
+          "id": 200819877
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-25T13:34:38Z",
+          "updated_at": "2016-03-25T13:34:38Z",
+          "body": "@original-brownbear Thanks all, closed\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-201278229",
+          "id": 201278229
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2016-03-25T13:37:53Z",
+          "updated_at": "2016-03-25T13:37:53Z",
+          "body": "@essobedo thanks, paid, **30 mins** to your account, payment ID is `81394688`, task took 191 hours and 13 mins to complete; +30 added to your rating, at the moment it is: [+375](http://www.netbout.com/b/36421?open=rating)\n",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-201280656",
+          "id": 201280656
+        },
+        {
+          "author": "alex-palevsky",
+          "created_at": "2017-01-30T15:40:24Z",
+          "updated_at": "2017-01-30T15:40:24Z",
+          "body": "@original-brownbear the last puzzle `1053-dc86a5cc`/#1069 originated from here solved",
+          "url": "https://github.com/yegor256/rultor/issues/1053#issuecomment-276096048",
+          "id": 276096048
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 586898985,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDU4Njg5ODk4NQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/586898985",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-11T20:07:50Z",
+          "label": {
+            "name": "IMP",
+            "color": "bfd4f3"
+          }
+        },
+        {
+          "id": 586899273,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDU4Njg5OTI3Mw==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/586899273",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-11T20:08:03Z",
+          "label": {
+            "name": "30 mins",
+            "color": "eb6421"
+          }
+        },
+        {
+          "id": 587536677,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTg3NTM2Njc3",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587536677",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-12T21:07:36Z"
+        },
+        {
+          "id": 587536678,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU4NzUzNjY3OA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587536678",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-12T21:07:36Z"
+        },
+        {
+          "id": 587777988,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDU4Nzc3Nzk4OA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587777988",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-13T12:07:01Z",
+          "label": {
+            "name": "urgent",
+            "color": "fbca04"
+          }
+        },
+        {
+          "id": 587778016,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDU4Nzc3ODAxNg==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587778016",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-13T12:07:05Z",
+          "milestone": {
+            "title": "2.0"
+          }
+        },
+        {
+          "id": 587778017,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTg3Nzc4MDE3",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587778017",
+          "actor": {
+            "id": 6490959,
+            "url": "https://api.github.com/users/original-brownbear",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-13T12:07:05Z"
+        },
+        {
+          "id": 587778018,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU4Nzc3ODAxOA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587778018",
+          "actor": {
+            "id": 6490959,
+            "url": "https://api.github.com/users/original-brownbear",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-13T12:07:05Z"
+        },
+        {
+          "id": 587814573,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTg3ODE0NTcz",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587814573",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-13T14:13:51Z"
+        },
+        {
+          "id": 587814574,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU4NzgxNDU3NA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587814574",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-13T14:13:51Z"
+        },
+        {
+          "id": 587814575,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTg3ODE0NTc1",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587814575",
+          "actor": {
+            "id": 6490959,
+            "url": "https://api.github.com/users/original-brownbear",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-13T14:13:51Z"
+        },
+        {
+          "id": 587814576,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU4NzgxNDU3Ng==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/587814576",
+          "actor": {
+            "id": 6490959,
+            "url": "https://api.github.com/users/original-brownbear",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-13T14:13:51Z"
+        },
+        {
+          "id": 590203355,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkwMjAzMzU1",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590203355",
+          "actor": {
+            "id": 1618116,
+            "url": "https://api.github.com/users/essobedo",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T12:39:54Z"
+        },
+        {
+          "id": 590203356,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU5MDIwMzM1Ng==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590203356",
+          "actor": {
+            "id": 1618116,
+            "url": "https://api.github.com/users/essobedo",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T12:39:54Z"
+        },
+        {
+          "id": 590203601,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDU5MDIwMzYwMQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590203601",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T12:40:15Z",
+          "label": {
+            "name": "@essobedo",
+            "color": "009801"
+          }
+        },
+        {
+          "id": 590613365,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkwNjEzMzY1",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590613365",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T17:02:29Z"
+        },
+        {
+          "id": 590613366,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU5MDYxMzM2Ng==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590613366",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T17:02:29Z"
+        },
+        {
+          "id": 590813931,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkwODEzOTMx",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590813931",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T19:22:47Z"
+        },
+        {
+          "id": 590813932,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU5MDgxMzkzMg==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590813932",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T19:22:47Z"
+        },
+        {
+          "id": 590813933,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkwODEzOTMz",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590813933",
+          "actor": {
+            "id": 1618116,
+            "url": "https://api.github.com/users/essobedo",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T19:22:47Z"
+        },
+        {
+          "id": 590813934,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU5MDgxMzkzNA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/590813934",
+          "actor": {
+            "id": 1618116,
+            "url": "https://api.github.com/users/essobedo",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-15T19:22:47Z"
+        },
+        {
+          "id": 591838511,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkxODM4NTEx",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/591838511",
+          "actor": {
+            "id": 6490959,
+            "url": "https://api.github.com/users/original-brownbear",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-16T13:38:32Z"
+        },
+        {
+          "id": 591838512,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU5MTgzODUxMg==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/591838512",
+          "actor": {
+            "id": 6490959,
+            "url": "https://api.github.com/users/original-brownbear",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-16T13:38:32Z"
+        },
+        {
+          "id": 592213947,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkyMjEzOTQ3",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/592213947",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-16T17:39:15Z"
+        },
+        {
+          "id": 592213948,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU5MjIxMzk0OA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/592213948",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-16T17:39:15Z"
+        },
+        {
+          "id": 592377358,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkyMzc3MzU4",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/592377358",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-16T19:30:50Z"
+        },
+        {
+          "id": 592377359,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU5MjM3NzM1OQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/592377359",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-16T19:30:50Z"
+        },
+        {
+          "id": 592377360,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkyMzc3MzYw",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/592377360",
+          "actor": {
+            "id": 6490959,
+            "url": "https://api.github.com/users/original-brownbear",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-16T19:30:50Z"
+        },
+        {
+          "id": 592377361,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU5MjM3NzM2MQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/592377361",
+          "actor": {
+            "id": 6490959,
+            "url": "https://api.github.com/users/original-brownbear",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-16T19:30:50Z"
+        },
+        {
+          "id": 593249785,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTkzMjQ5Nzg1",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/593249785",
+          "actor": {
+            "id": 4267913,
+            "url": "https://api.github.com/users/alex-palevsky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-03-17T11:12:41Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 15,
+      "issue_events_count": 30,
+      "time_to_resolution_days": 596.39,
+      "estimate": "30",
+      "author": "Sebin George",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1165",
+      "ticket": "629",
+      "done": true,
+      "id": "629-3b4a7478",
+      "closed_at": "2022-06-28T04:38:46Z",
+      "created_at": "2016-04-02T20:11:10Z",
+      "body": "Add implementation for com.rultor.agents.ecs.Amazon. It must create com.amazonaws.services.ecs.AmazonECSClient with config params \"credentials\", \"zone\", \"type\", \"key\". Method runOnDemand must finally wait for started container and check if start was successful.",
+      "file": "src/main/java/com/rultor/agents/ecs/Amazon.java",
+      "lines": "42-45",
+      "labels": [],
+      "assignees": [],
+      "title": "Amazon.java:42-45: Add implementation for...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2017-04-21T14:43:52Z",
+          "updated_at": "2017-04-21T14:43:52Z",
+          "body": "@yegor256 please, pay attention to this issue",
+          "url": "https://github.com/yegor256/rultor/issues/1165#issuecomment-296210408",
+          "id": 296210408
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1052558683,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA1MjU1ODY4Mw==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558683",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:52Z"
+        },
+        {
+          "id": 1052558685,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNTI1NTg2ODU=",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558685",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:52Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2277.35,
+      "estimate": "30",
+      "author": "Maksimenko Vladimir",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1166",
+      "ticket": "629",
+      "done": true,
+      "id": "629-97e18362",
+      "closed_at": "2022-06-28T04:38:50Z",
+      "created_at": "2016-04-02T20:11:10Z",
+      "body": "Implement com.rultor.agents.ecs.StopsECS agent. It must stop ECS on-demand container if it was started at StartsECS agent. StopsECS must use container ARN from /talk/ec2/[@id] to stop it.",
+      "file": "src/main/java/com/rultor/agents/ecs/StartsECS.java",
+      "lines": "51-53",
+      "labels": [],
+      "assignees": [],
+      "title": "StartsECS.java:51-53: Implement...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2017-04-21T14:43:54Z",
+          "updated_at": "2017-04-21T14:43:54Z",
+          "body": "@yegor256 please, pay attention to this issue",
+          "url": "https://github.com/yegor256/rultor/issues/1166#issuecomment-296210426",
+          "id": 296210426
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1052558477,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA1MjU1ODQ3Nw==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558477",
+          "actor": {
+            "id": 138221,
+            "url": "https://api.github.com/users/id",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:44Z"
+        },
+        {
+          "id": 1052558478,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNTI1NTg0Nzg=",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558478",
+          "actor": {
+            "id": 138221,
+            "url": "https://api.github.com/users/id",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:44Z"
+        },
+        {
+          "id": 1052558771,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA1MjU1ODc3MQ==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558771",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:54Z"
+        },
+        {
+          "id": 1052558772,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNTI1NTg3NzI=",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558772",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:54Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 2277.35,
+      "estimate": "30",
+      "author": "Maksimenko Vladimir",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1167",
+      "ticket": "629",
+      "done": true,
+      "id": "629-efc8aa9c",
+      "closed_at": "2022-06-28T04:38:54Z",
+      "created_at": "2016-04-05T20:20:57Z",
+      "body": "Add new container creation classes for StartsECS and StopsECS to com.rultor.agents.Agents. StartsECS must be invoked before RegistersShell agent. StopsECS must be invoked after RemovesShell agent.",
+      "file": "src/main/java/com/rultor/agents/ecs/StartsECS.java",
+      "lines": "58-60",
+      "labels": [],
+      "assignees": [],
+      "title": "StartsECS.java:58-60: Add new container creation classes...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2017-04-21T14:43:54Z",
+          "updated_at": "2017-04-21T14:43:54Z",
+          "body": "@yegor256 please, pay attention to this issue",
+          "url": "https://github.com/yegor256/rultor/issues/1167#issuecomment-296210429",
+          "id": 296210429
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1052558784,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA1MjU1ODc4NA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558784",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:54Z"
+        },
+        {
+          "id": 1052558785,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNTI1NTg3ODU=",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558785",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:54Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2274.35,
+      "estimate": "30",
+      "author": "Maksimenko Vladimir",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1168",
+      "ticket": "629",
+      "done": true,
+      "id": "629-bb1a14ed",
+      "closed_at": "2022-06-28T04:38:59Z",
+      "created_at": "2016-04-07T18:09:50Z",
+      "body": "Implement the ability to use Rultor with any AWS account, by providing the credentials to it via the encrypted assets and a respective configuration setting in the .rultor.yml. Document the implementation properly in the Rultor documentation.",
+      "file": "src/main/java/com/rultor/agents/ecs/StartsECS.java",
+      "lines": "61-64",
+      "labels": [],
+      "assignees": [],
+      "title": "StartsECS.java:61-64: Implement the ability to use Rultor...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2017-04-21T14:43:55Z",
+          "updated_at": "2017-04-21T14:43:55Z",
+          "body": "@yegor256 please, pay attention to this issue",
+          "url": "https://github.com/yegor256/rultor/issues/1168#issuecomment-296210430",
+          "id": 296210430
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1052558793,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA1MjU1ODc5Mw==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558793",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:55Z"
+        },
+        {
+          "id": 1052558794,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNTI1NTg3OTQ=",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1052558794",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-21T14:43:55Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2272.44,
+      "estimate": "30",
+      "author": "Maksimenko Vladimir",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1232",
+      "ticket": "629",
+      "done": true,
+      "id": "629-ebd8dabe",
+      "closed_at": "2022-06-28T04:39:03Z",
+      "created_at": "2017-12-21T12:38:43Z",
+      "body": "Add Container params to Directive, for example publicIpAddress Let's fix this when possible. The ticket will be in GitHub.",
+      "file": "src/main/java/com/rultor/agents/ecs/StartsECS.java",
+      "lines": "81-82",
+      "labels": [],
+      "assignees": [],
+      "title": "StartsECS.java:81-82: <body>Add Container params to...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2017-12-21T21:47:10Z",
+          "updated_at": "2017-12-21T21:47:10Z",
+          "body": "@yegor256 please, pay attention to this issue",
+          "url": "https://github.com/yegor256/rultor/issues/1232#issuecomment-353465825",
+          "id": 353465825
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1398749274,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTM5ODc0OTI3NA==",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1398749274",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-21T21:47:10Z"
+        },
+        {
+          "id": 1398749275,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzOTg3NDkyNzU=",
+          "url": "https://api.github.com/repos/yegor256/rultor/issues/events/1398749275",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-21T21:47:10Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 1649.67,
+      "estimate": "0",
+      "author": "Yegor Bugayenko",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1843",
+      "ticket": "1",
+      "done": true,
+      "id": "1-e3409bbe",
+      "closed_at": "2024-03-18T03:12:47Z",
+      "created_at": "2024-02-05T02:32:33Z",
+      "body": "Improve assertion for correct start release request Test should have an assertion, so it is the fastest way to add it. Comments are prohibited in methods by current stylechecker.",
+      "file": "src/test/java/com/rultor/agents/req/StartsRequestTest.java",
+      "lines": "188-191",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "StartsRequestTest.java:188-191: Improve assertion for...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 42.03,
+      "estimate": "0",
+      "author": "Natalia Pozhidaeva",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/rultor",
+      "issue_link": "https://github.com/yegor256/rultor/issues/1844",
+      "ticket": "1",
+      "done": true,
+      "id": "1-0304c8cf",
+      "closed_at": "2024-03-18T03:12:49Z",
+      "created_at": "2024-02-05T02:32:33Z",
+      "body": "Improve assertion for correct start merge request Test should have an assertion, so it is the fastest way to add it. Comments are prohibited in methods by current stylechecker.",
+      "file": "src/test/java/com/rultor/agents/req/StartsRequestTest.java",
+      "lines": "232-235",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "StartsRequestTest.java:232-235: Improve assertion for...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 42.03,
+      "estimate": "0",
+      "author": "Natalia Pozhidaeva",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 575,
+  "project_forks": 161,
+  "project_contributors_count": 67,
+  "first_issue_date": "2016-03-10T07:09:23Z",
+  "last_issue_date": "2024-02-05T02:32:33Z"
+}

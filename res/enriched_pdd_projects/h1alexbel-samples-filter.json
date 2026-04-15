@@ -1,0 +1,3705 @@
+{
+  "project_link": "https://github.com/h1alexbel/samples-filter",
+  "issues_count": 28,
+  "issues": [
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/9",
+      "ticket": "1",
+      "done": true,
+      "id": "1-46ce8519",
+      "closed_at": "2024-04-23T11:10:31Z",
+      "created_at": "2024-04-16T16:41:35Z",
+      "body": "Remove dummy test. This one is a dummy test in order to not fail the build. Let's remove it, when we will have tests for real code. Don't forget to remove this puzzle.",
+      "file": "tests/test_cli.py",
+      "lines": "28-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "test_cli.py:28-31: Remove dummy test. This one is a dummy...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12493168679,
+          "node_id": "MEE_lADOLuV7j86F5p4tzwAAAALopqAn",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12493168679",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-16T16:41:41Z"
+        },
+        {
+          "id": 12493168689,
+          "node_id": "SE_lADOLuV7j86F5p4tzwAAAALopqAx",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12493168689",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-16T16:41:41Z"
+        },
+        {
+          "id": 12573493431,
+          "node_id": "REFE_lADOLuV7j86F5p4tzwAAAALtcEi3",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12573493431",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c956103f649a4e02a405dc3603037d6d4ad47ee9",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/c956103f649a4e02a405dc3603037d6d4ad47ee9",
+          "created_at": "2024-04-23T10:47:56Z"
+        },
+        {
+          "id": 12573777344,
+          "node_id": "CE_lADOLuV7j86F5p4tzwAAAALtdJ3A",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12573777344",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T11:10:30Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 6.77,
+      "estimate": "30",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/43",
+      "ticket": "18",
+      "done": true,
+      "id": "18-2d5b9487",
+      "closed_at": "2024-04-24T14:08:21Z",
+      "created_at": "2024-04-23T08:39:09Z",
+      "body": "Give the ability to provide input_text in the request. We should give ability to pass input_text in the request, I suggest to refactor this script into object that we can call and it will respond us like here. Don't forget to remove this puzzle.",
+      "file": "model/predict.py",
+      "lines": "45-48",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "predict.py:45-48: Give the ability to provide input_text...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12571845970,
+          "node_id": "MEE_lADOLuV7j86GmxiJzwAAAALtVyVS",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571845970",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:49:58Z"
+        },
+        {
+          "id": 12571845989,
+          "node_id": "SE_lADOLuV7j86GmxiJzwAAAALtVyVl",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571845989",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:49:58Z"
+        },
+        {
+          "id": 12591977204,
+          "node_id": "REFE_lADOLuV7j86GmxiJzwAAAALuilL0",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12591977204",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ef690f5792322d99cd660dd124d16df93070763b",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/ef690f5792322d99cd660dd124d16df93070763b",
+          "created_at": "2024-04-24T13:26:45Z"
+        },
+        {
+          "id": 12592707694,
+          "node_id": "CE_lADOLuV7j86GmxiJzwAAAALulXhu",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592707694",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-24T14:08:20Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 1.23,
+      "estimate": "25",
+      "author": "@rultor",
+      "hierarchy": 2,
+      "parent_id": "10-1fb8be50",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/62",
+      "ticket": "18",
+      "done": true,
+      "id": "18-d3f80dfc",
+      "closed_at": "2024-05-10T07:47:27Z",
+      "created_at": "2024-04-26T11:55:11Z",
+      "body": "Find effective way for processing readme. For now we are not processing readme because of <a href=\"https://github.com/h1alexbel/samples-filter/issues/39\">this</a>. We need to find actual way to process readme too since it can be crucial data as model input. Let's study papers, outlined <a href=\"https://github.com/yegor256/cam/issues/227#issue-2200080559\">here</a> first, rethink it and try to implement here.",
+      "file": "objects/cli.py",
+      "lines": "58-64",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "cli.py:58-64: Find effective way for processing readme....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12622991719,
+          "node_id": "MEE_lADOLuV7j86HCwQRzwAAAALwY5Fn",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12622991719",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-26T12:06:30Z"
+        },
+        {
+          "id": 12622991722,
+          "node_id": "SE_lADOLuV7j86HCwQRzwAAAALwY5Fq",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12622991722",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-26T12:06:30Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 13.83,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 2,
+      "parent_id": "10-1fb8be50",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/18",
+      "ticket": "10",
+      "done": true,
+      "id": "10-1fb8be50",
+      "closed_at": "2024-04-26T12:06:27Z",
+      "created_at": "2024-04-17T13:32:42Z",
+      "body": "Filter the repositories using general-like interface. We should execute filtering here using some general interface, so it would easy to use either LLM or ML filters.",
+      "file": "objects/cli.py",
+      "lines": "48-50",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "cli.py:48-50: Filter the repositories using general-like...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12508427833,
+          "node_id": "MEE_lADOLuV7j86GArqpzwAAAALpj3Y5",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508427833",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T13:38:48Z"
+        },
+        {
+          "id": 12508427851,
+          "node_id": "SE_lADOLuV7j86GArqpzwAAAALpj3ZL",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508427851",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T13:38:48Z"
+        },
+        {
+          "id": 12571568787,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALtUuqT",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571568787",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "28c75588f36c38ad69991dd25a2ad349c7b82026",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/28c75588f36c38ad69991dd25a2ad349c7b82026",
+          "created_at": "2024-04-23T08:30:11Z"
+        },
+        {
+          "id": 12605903266,
+          "node_id": "AE_lADOLuV7j86GArqpzwAAAALvXtGi",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12605903266",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-25T10:24:42Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 12607671574,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALvec0W",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12607671574",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2487289ba8e831b38cd95cf74d7ade20ff1639be",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/2487289ba8e831b38cd95cf74d7ade20ff1639be",
+          "created_at": "2024-04-25T12:30:54Z"
+        },
+        {
+          "id": 12607845241,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALvfHN5",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12607845241",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1f707ae410a739fa8a855db027562d38f4ccf8a6",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/1f707ae410a739fa8a855db027562d38f4ccf8a6",
+          "created_at": "2024-04-25T12:42:26Z"
+        },
+        {
+          "id": 12607874668,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALvfOZs",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12607874668",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "54c70bc84600a5f7f76e535084966740b50794c1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/54c70bc84600a5f7f76e535084966740b50794c1",
+          "created_at": "2024-04-25T12:44:26Z"
+        },
+        {
+          "id": 12607974783,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALvfm1_",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12607974783",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "470a508edf85401c950f4b4589d359eec98b76d5",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/470a508edf85401c950f4b4589d359eec98b76d5",
+          "created_at": "2024-04-25T12:50:53Z"
+        },
+        {
+          "id": 12607984570,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALvfpO6",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12607984570",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "12aa9890910522ca396a4a40cb6bfb58e6f47794",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/12aa9890910522ca396a4a40cb6bfb58e6f47794",
+          "created_at": "2024-04-25T12:51:32Z"
+        },
+        {
+          "id": 12608205094,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALvgfEm",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12608205094",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d92ffcef8597a98c7f8b8c57373f17323c2c8b24",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/d92ffcef8597a98c7f8b8c57373f17323c2c8b24",
+          "created_at": "2024-04-25T13:05:16Z"
+        },
+        {
+          "id": 12608219490,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALvgili",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12608219490",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "152696fcd8ca09d7f3c8d94d634918896c884f13",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/152696fcd8ca09d7f3c8d94d634918896c884f13",
+          "created_at": "2024-04-25T13:06:10Z"
+        },
+        {
+          "id": 12608276769,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALvgwkh",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12608276769",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "03e3752dfe64ad4c668154bd2f6d4dd85c2b4b1d",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/03e3752dfe64ad4c668154bd2f6d4dd85c2b4b1d",
+          "created_at": "2024-04-25T13:09:47Z"
+        },
+        {
+          "id": 12622759344,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALwYAWw",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12622759344",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ba22a63ef5e981ca73129b87a4d1b6534e578792",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/ba22a63ef5e981ca73129b87a4d1b6534e578792",
+          "created_at": "2024-04-26T11:43:27Z"
+        },
+        {
+          "id": 12622777985,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALwYE6B",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12622777985",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b31b81e6d5e7d4bf99d33cf844e51efc31edd215",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/b31b81e6d5e7d4bf99d33cf844e51efc31edd215",
+          "created_at": "2024-04-26T11:45:23Z"
+        },
+        {
+          "id": 12622785434,
+          "node_id": "REFE_lADOLuV7j86GArqpzwAAAALwYGua",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12622785434",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4cab8ddda9723c0287293274ba5b2c9b7b36b2b2",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/4cab8ddda9723c0287293274ba5b2c9b7b36b2b2",
+          "created_at": "2024-04-26T11:46:12Z"
+        },
+        {
+          "id": 12622991014,
+          "node_id": "CE_lADOLuV7j86GArqpzwAAAALwY46m",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12622991014",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-26T12:06:26Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 16,
+      "time_to_resolution_days": 8.94,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "1-5b932efb",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/22",
+      "ticket": "19",
+      "done": true,
+      "id": "19-b3973cba",
+      "closed_at": "2024-04-26T12:06:29Z",
+      "created_at": "2024-04-17T15:28:50Z",
+      "body": "Implement chain of csv transformation. We should implement a transformation chain of csv files. For now we are just adding separate objects to this script. Let's create a class (let's call it `train` or `pipeline`) that would execute all transformation one by one.",
+      "file": "objects/cli.py",
+      "lines": "59-63",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "cli.py:59-63: Implement chain of csv transformation. We...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12510285154,
+          "node_id": "MEE_lADOLuV7j86GBtO2zwAAAALpq81i",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12510285154",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T15:35:16Z"
+        },
+        {
+          "id": 12510285172,
+          "node_id": "SE_lADOLuV7j86GBtO2zwAAAALpq810",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12510285172",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T15:35:16Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 8.86,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 2,
+      "parent_id": "10-3a34afdb",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/23",
+      "ticket": "19",
+      "done": true,
+      "id": "19-a9982129",
+      "closed_at": "2024-04-18T13:22:22Z",
+      "created_at": "2024-04-17T15:28:50Z",
+      "body": "Prepare files in /pipeline directory. We should create them before running actual processing. For now we need to manually create files. Don't forget to remove this puzzle.",
+      "file": "objects/input.py",
+      "lines": "36-39",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "input.py:36-39: Prepare files in /pipeline directory. We...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12510285655,
+          "node_id": "MEE_lADOLuV7j86GBtQQzwAAAALpq89X",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12510285655",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T15:35:18Z"
+        },
+        {
+          "id": 12510285664,
+          "node_id": "SE_lADOLuV7j86GBtQQzwAAAALpq89g",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12510285664",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T15:35:18Z"
+        },
+        {
+          "id": 12523161317,
+          "node_id": "REFE_lADOLuV7j86GBtQQzwAAAALqcEbl",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12523161317",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c1e341ea7ac4cc56ef9a900e46dae2ebacc9e34d",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/c1e341ea7ac4cc56ef9a900e46dae2ebacc9e34d",
+          "created_at": "2024-04-18T13:02:20Z"
+        },
+        {
+          "id": 12523271976,
+          "node_id": "REFE_lADOLuV7j86GBtQQzwAAAALqcfco",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12523271976",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f84fdf42a7012ac5f093a43b2b5263188f9d55a0",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/f84fdf42a7012ac5f093a43b2b5263188f9d55a0",
+          "created_at": "2024-04-18T13:10:08Z"
+        },
+        {
+          "id": 12523452698,
+          "node_id": "CE_lADOLuV7j86GBtQQzwAAAALqdLka",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12523452698",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-18T13:22:20Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.91,
+      "estimate": "25",
+      "author": "@rultor",
+      "hierarchy": 2,
+      "parent_id": "10-3a34afdb",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/24",
+      "ticket": "19",
+      "done": true,
+      "id": "19-03ce99ad",
+      "closed_at": "2024-04-18T14:37:42Z",
+      "created_at": "2024-04-17T15:28:50Z",
+      "body": "Use raw.githubusercontent.com instead of api.github.com. We should use static GitHub content hosting instead of their API in order to prevent problems with rate limits. Don't forget to remove this puzzle.",
+      "file": "objects/readme.py",
+      "lines": "35-38",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "readme.py:35-38: Use raw.githubusercontent.com instead of...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12510286092,
+          "node_id": "MEE_lADOLuV7j86GBtRWzwAAAALpq9EM",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12510286092",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T15:35:20Z"
+        },
+        {
+          "id": 12510286111,
+          "node_id": "SE_lADOLuV7j86GBtRWzwAAAALpq9Ef",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12510286111",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T15:35:20Z"
+        },
+        {
+          "id": 12524424118,
+          "node_id": "REFE_lADOLuV7j86GBtRWzwAAAALqg4u2",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12524424118",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f1cc599a20d82f83e178eecfa39fd30d0a38f0b1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/f1cc599a20d82f83e178eecfa39fd30d0a38f0b1",
+          "created_at": "2024-04-18T14:26:05Z"
+        },
+        {
+          "id": 12524608998,
+          "node_id": "CE_lADOLuV7j86GBtRWzwAAAALqhl3m",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12524608998",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-18T14:37:40Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.96,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 2,
+      "parent_id": "10-3a34afdb",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/19",
+      "ticket": "10",
+      "done": true,
+      "id": "10-3a34afdb",
+      "closed_at": "2024-04-17T15:35:15Z",
+      "created_at": "2024-04-17T13:32:42Z",
+      "body": "Create {out} file with output result. We should create file with provided name for {out}. Don't forget to remove this puzzle.",
+      "file": "objects/cli.py",
+      "lines": "51-53",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "cli.py:51-53: Create {out} file with output result. We...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12508428239,
+          "node_id": "MEE_lADOLuV7j86GArrkzwAAAALpj3fP",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508428239",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T13:38:49Z"
+        },
+        {
+          "id": 12508428251,
+          "node_id": "SE_lADOLuV7j86GArrkzwAAAALpj3fb",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508428251",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T13:38:49Z"
+        },
+        {
+          "id": 12510071173,
+          "node_id": "REFE_lADOLuV7j86GArrkzwAAAALpqImF",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12510071173",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5a10c8a29369d46eef791c72a26a638eb968a965",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/5a10c8a29369d46eef791c72a26a638eb968a965",
+          "created_at": "2024-04-17T15:21:17Z"
+        },
+        {
+          "id": 12510284303,
+          "node_id": "CE_lADOLuV7j86GArrkzwAAAALpq8oP",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12510284303",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T15:35:13Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.09,
+      "estimate": "35",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "1-5b932efb",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/10",
+      "ticket": "1",
+      "done": true,
+      "id": "1-5b932efb",
+      "closed_at": "2024-04-17T13:38:46Z",
+      "created_at": "2024-04-16T16:47:42Z",
+      "body": "Add support for --repositories and --out parameter. We should add support to our cli to handle two options: --repositories, and --out. Both indicate the name of the file to read/create.",
+      "file": "objects/cli.py",
+      "lines": "31-33",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "cli.py:31-33: Add support for --repositories and --out...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12493255655,
+          "node_id": "MEE_lADOLuV7j86F5sVOzwAAAALop_Pn",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12493255655",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-16T16:47:48Z"
+        },
+        {
+          "id": 12493255664,
+          "node_id": "SE_lADOLuV7j86F5sVOzwAAAALop_Pw",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12493255664",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-16T16:47:48Z"
+        },
+        {
+          "id": 12508184154,
+          "node_id": "REFE_lADOLuV7j86F5sVOzwAAAALpi75a",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508184154",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fad671e448e89465efbae1c6906d701b29a74a92",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/fad671e448e89465efbae1c6906d701b29a74a92",
+          "created_at": "2024-04-17T13:23:23Z"
+        },
+        {
+          "id": 12508243983,
+          "node_id": "REFE_lADOLuV7j86F5sVOzwAAAALpjKgP",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508243983",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a45b77ea9e89db0599a43a6e75c477be1263b964",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/a45b77ea9e89db0599a43a6e75c477be1263b964",
+          "created_at": "2024-04-17T13:27:15Z"
+        },
+        {
+          "id": 12508427131,
+          "node_id": "CE_lADOLuV7j86F5sVOzwAAAALpj3N7",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508427131",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T13:38:45Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.87,
+      "estimate": "45",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/11",
+      "ticket": "1",
+      "done": true,
+      "id": "1-ce00ea3a",
+      "closed_at": "2024-04-17T13:38:47Z",
+      "created_at": "2024-04-16T16:47:42Z",
+      "body": "Clean parameters that we don't need. Let's remove parameters that we don't really need in this cli. Less parameters we will have, the better. Don't forget to remove this puzzle.",
+      "file": "objects/cli.py",
+      "lines": "34-37",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "cli.py:34-37: Clean parameters that we don't need. Let's...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12493256142,
+          "node_id": "MEE_lADOLuV7j86F5sV2zwAAAALop_XO",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12493256142",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-16T16:47:50Z"
+        },
+        {
+          "id": 12493256153,
+          "node_id": "SE_lADOLuV7j86F5sV2zwAAAALop_XZ",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12493256153",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-16T16:47:50Z"
+        },
+        {
+          "id": 12508244010,
+          "node_id": "REFE_lADOLuV7j86F5sV2zwAAAALpjKgq",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508244010",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a45b77ea9e89db0599a43a6e75c477be1263b964",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/a45b77ea9e89db0599a43a6e75c477be1263b964",
+          "created_at": "2024-04-17T13:27:15Z"
+        },
+        {
+          "id": 12508427220,
+          "node_id": "CE_lADOLuV7j86F5sV2zwAAAALpj3PU",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12508427220",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T13:38:45Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.87,
+      "estimate": "25",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/14",
+      "ticket": "1",
+      "done": true,
+      "id": "1-85705910",
+      "closed_at": "2024-04-17T11:05:19Z",
+      "created_at": "2024-04-17T08:32:10Z",
+      "body": "Create merge script for rultor. We should create merge script for rultor to invoke it on a pull requests. Let's take .github/workflows/py.yml as a basis and do something similar. See also https://github.com/h1alexbel/samples-filter/issues/13.",
+      "file": ".rultor.yml",
+      "lines": "8-11",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".rultor.yml:8-11: Create merge script for rultor. We...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12503863774,
+          "node_id": "MEE_lADOLuV7j86F-UF6zwAAAALpSdHe",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12503863774",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T08:32:17Z"
+        },
+        {
+          "id": 12503863781,
+          "node_id": "SE_lADOLuV7j86F-UF6zwAAAALpSdHl",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12503863781",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-17T08:32:17Z"
+        },
+        {
+          "id": 12506207285,
+          "node_id": "REFE_lADOLuV7j86F-UF6zwAAAALpbZQ1",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12506207285",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7d3ad57f93beb80f003b86cb6aa035faf70208d5",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/7d3ad57f93beb80f003b86cb6aa035faf70208d5",
+          "created_at": "2024-04-17T11:05:15Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.11,
+      "estimate": "30",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/38",
+      "ticket": "34",
+      "done": true,
+      "id": "34-c3c562de",
+      "closed_at": "2024-04-23T08:49:57Z",
+      "created_at": "2024-04-19T14:59:26Z",
+      "body": "Load dataset file from huggingface dataset repository. We should load dataset from huggingface dataset repo. It's located <a href=\"https://huggingface.co/datasets/h1alexbel/github-samples\">here</a>. Let's pull it and use it.",
+      "file": "model/load.py",
+      "lines": "29-32",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "load.py:29-32: Load dataset file from huggingface dataset...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12540777850,
+          "node_id": "MEE_lADOLuV7j86GTc_wzwAAAALrfRV6",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540777850",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-19T15:10:38Z"
+        },
+        {
+          "id": 12540777858,
+          "node_id": "SE_lADOLuV7j86GTc_wzwAAAALrfRWC",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540777858",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-19T15:10:38Z"
+        },
+        {
+          "id": 12571568775,
+          "node_id": "REFE_lADOLuV7j86GTc_wzwAAAALtUuqH",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571568775",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "28c75588f36c38ad69991dd25a2ad349c7b82026",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/28c75588f36c38ad69991dd25a2ad349c7b82026",
+          "created_at": "2024-04-23T08:30:11Z"
+        },
+        {
+          "id": 12571845379,
+          "node_id": "CE_lADOLuV7j86GTc_wzwAAAALtVyMD",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571845379",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:49:56Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 3.74,
+      "estimate": "60",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "30-28a95c17",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/39",
+      "ticket": "34",
+      "done": true,
+      "id": "34-c96d2341",
+      "closed_at": "2024-05-12T10:14:06Z",
+      "created_at": "2024-04-19T14:59:26Z",
+      "body": "CSV column 'readme' is too big to read with reader. Column that contains readme in some cases is over the limit, which is `131072`. It this problem causes exception and terminates next row processing. Let's try to compress + decompress readme when writing/reading it. Another option can be to present the whole dataset in other format, for instance JSON. Don't forget to remove this puzzle.",
+      "file": "objects/dataset.py",
+      "lines": "51-57",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "dataset.py:51-57: CSV column 'readme' is too big to read...",
+      "comments": [
+        {
+          "author": "h1alexbel",
+          "created_at": "2024-05-08T07:15:46Z",
+          "updated_at": "2024-05-08T07:16:08Z",
+          "body": "Let's try [pandas dataframes](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)",
+          "url": "https://github.com/h1alexbel/samples-filter/issues/39#issuecomment-2099903751",
+          "id": 2099903751
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 12540778299,
+          "node_id": "MEE_lADOLuV7j86GTdAbzwAAAALrfRc7",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540778299",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-19T15:10:40Z"
+        },
+        {
+          "id": 12540778314,
+          "node_id": "SE_lADOLuV7j86GTdAbzwAAAALrfRdK",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540778314",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-19T15:10:40Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 22.8,
+      "estimate": "60",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "30-28a95c17",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/34",
+      "ticket": "30",
+      "done": true,
+      "id": "30-28a95c17",
+      "closed_at": "2024-04-19T15:10:36Z",
+      "created_at": "2024-04-18T17:24:49Z",
+      "body": "Prepare labels and encodings for model training. We should collect and label dataset for model training. Besides that we need to split dataset into 80% of train data, 10% of validation data and 10% test sets.",
+      "file": "model/train.py",
+      "lines": "31-34",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "train.py:31-34: Prepare labels and encodings for model...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12526985411,
+          "node_id": "MEE_lADOLuV7j86GLyDpzwAAAALqqqDD",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12526985411",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-18T17:44:47Z"
+        },
+        {
+          "id": 12526985417,
+          "node_id": "SE_lADOLuV7j86GLyDpzwAAAALqqqDJ",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12526985417",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-18T17:44:47Z"
+        },
+        {
+          "id": 12540272343,
+          "node_id": "REFE_lADOLuV7j86GLyDpzwAAAALrdV7X",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540272343",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "41a61bfcaa98aff16cc66a4aecde690894d872e6",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/41a61bfcaa98aff16cc66a4aecde690894d872e6",
+          "created_at": "2024-04-19T14:38:15Z"
+        },
+        {
+          "id": 12540322170,
+          "node_id": "REFE_lADOLuV7j86GLyDpzwAAAALrdiF6",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540322170",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "264d7bf21919ae57d197b86d7a1870cf0057d71b",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/264d7bf21919ae57d197b86d7a1870cf0057d71b",
+          "created_at": "2024-04-19T14:41:13Z"
+        },
+        {
+          "id": 12540776850,
+          "node_id": "CE_lADOLuV7j86GLyDpzwAAAALrfRGS",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540776850",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-19T15:10:33Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.91,
+      "estimate": "90",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/35",
+      "ticket": "30",
+      "done": true,
+      "id": "30-60d34e7c",
+      "closed_at": "2024-04-19T15:10:37Z",
+      "created_at": "2024-04-18T17:24:49Z",
+      "body": "Document model training in model/README.md. We should document our model, what is it, how we train it, and how to re-train it. Let's create README.md in the `model` directory with this info.",
+      "file": "model/train.py",
+      "lines": "35-38",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "train.py:35-38: Document model training in...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12526985743,
+          "node_id": "MEE_lADOLuV7j86GLyETzwAAAALqqqIP",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12526985743",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-18T17:44:48Z"
+        },
+        {
+          "id": 12526985755,
+          "node_id": "SE_lADOLuV7j86GLyETzwAAAALqqqIb",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12526985755",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-18T17:44:48Z"
+        },
+        {
+          "id": 12540272389,
+          "node_id": "REFE_lADOLuV7j86GLyETzwAAAALrdV8F",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540272389",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "41a61bfcaa98aff16cc66a4aecde690894d872e6",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/41a61bfcaa98aff16cc66a4aecde690894d872e6",
+          "created_at": "2024-04-19T14:38:15Z"
+        },
+        {
+          "id": 12540322189,
+          "node_id": "REFE_lADOLuV7j86GLyETzwAAAALrdiGN",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540322189",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "264d7bf21919ae57d197b86d7a1870cf0057d71b",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/264d7bf21919ae57d197b86d7a1870cf0057d71b",
+          "created_at": "2024-04-19T14:41:13Z"
+        },
+        {
+          "id": 12540776929,
+          "node_id": "CE_lADOLuV7j86GLyETzwAAAALrfRHh",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12540776929",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-19T15:10:34Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.91,
+      "estimate": "35",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/44",
+      "ticket": "41",
+      "done": true,
+      "id": "41-fd32bc04",
+      "closed_at": "2024-05-03T12:57:21Z",
+      "created_at": "2024-04-23T08:39:09Z",
+      "body": "Combine all the csv files into merge.csv. We should combine all 4 files: default.csv, examples.csv, samples.csv, and tutorials.csv (all should have readme, use input.py for this) into one big file named merge.csv. Don't forget to remove this puzzle.",
+      "file": "model/combine.py",
+      "lines": "34-37",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "combine.py:34-37: Combine all the csv files into...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12571846356,
+          "node_id": "MEE_lADOLuV7j86GmxjHzwAAAALtVybU",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571846356",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:50:00Z"
+        },
+        {
+          "id": 12571846370,
+          "node_id": "SE_lADOLuV7j86GmxjHzwAAAALtVybi",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571846370",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:50:00Z"
+        },
+        {
+          "id": 12695299630,
+          "node_id": "REFE_lADOLuV7j86GmxjHzwAAAAL0suYu",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12695299630",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "44f206a043c87b4be5596f89d0e40002c08816d9",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/44f206a043c87b4be5596f89d0e40002c08816d9",
+          "created_at": "2024-05-03T11:33:06Z"
+        },
+        {
+          "id": 12695624738,
+          "node_id": "REFE_lADOLuV7j86GmxjHzwAAAAL0t9wi",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12695624738",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6cdad17707dce73d61ffbcb75ca3e0ead5c1432f",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/6cdad17707dce73d61ffbcb75ca3e0ead5c1432f",
+          "created_at": "2024-05-03T12:07:43Z"
+        },
+        {
+          "id": 12695644788,
+          "node_id": "REFE_lADOLuV7j86GmxjHzwAAAAL0uCp0",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12695644788",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e258d51008fe1e607f2c540c41e0785c448a164e",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/e258d51008fe1e607f2c540c41e0785c448a164e",
+          "created_at": "2024-05-03T12:09:50Z"
+        },
+        {
+          "id": 12696127770,
+          "node_id": "CE_lADOLuV7j86GmxjHzwAAAAL0v4ka",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12696127770",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-03T12:57:20Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 10.18,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/52",
+      "ticket": "45",
+      "done": true,
+      "id": "45-34bf1ac1",
+      "closed_at": "2024-05-07T17:32:21Z",
+      "created_at": "2024-04-24T13:56:55Z",
+      "body": "Train model on target columns instead just full_name. We should re-train model probably on description, topics and readme too. Let's try to standardize the input: first go full_name and description, than topics. README's content can be very big and can break the model. For readme we can use some summarization model that would provide limited-type response.",
+      "file": "model/train.py",
+      "lines": "44-49",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "train.py:44-49: Train model on target columns instead...",
+      "comments": [
+        {
+          "author": "h1alexbel",
+          "created_at": "2024-04-30T06:36:16Z",
+          "updated_at": "2024-04-30T06:36:16Z",
+          "body": "Let's try these strategies:\r\n\r\n* build single text input from all column values and feed it to the model: `input=repo is  $full_name, description: $description, topics:  $topics`;\r\n* train model on multiple columns: `full_name`, `description`, `topics` and probably `readme`",
+          "url": "https://github.com/h1alexbel/samples-filter/issues/52#issuecomment-2084484580",
+          "id": 2084484580
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 12592708481,
+          "node_id": "MEE_lADOLuV7j86GyjKVzwAAAALulXuB",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592708481",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-24T14:08:23Z"
+        },
+        {
+          "id": 12592708497,
+          "node_id": "SE_lADOLuV7j86GyjKVzwAAAALulXuR",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592708497",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-24T14:08:23Z"
+        },
+        {
+          "id": 12603485069,
+          "node_id": "AE_lADOLuV7j86GyjKVzwAAAALvOeuN",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12603485069",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-25T07:43:13Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 12652914164,
+          "node_id": "MIE_lADOLuV7j86GyjKVzwAAAALyLCX0",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12652914164",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-30T06:33:07Z",
+          "milestone": {
+            "title": "Paper"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 13.15,
+      "estimate": "60",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "30-025c8878",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/45",
+      "ticket": "30",
+      "done": true,
+      "id": "30-025c8878",
+      "closed_at": "2024-04-24T14:08:22Z",
+      "created_at": "2024-04-23T08:39:09Z",
+      "body": "Resolve issue with all-time negative prediction. We should resolve issue with negative prediction that performed all the time after model has been trained. Probably issue is inside train.py, where we probably ignore or mismatch some crucial for training parameters.",
+      "file": "model/predict.py",
+      "lines": "25-28",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "predict.py:25-28: Resolve issue with all-time negative...",
+      "comments": [
+        {
+          "author": "h1alexbel",
+          "created_at": "2024-04-23T14:08:26Z",
+          "updated_at": "2024-04-23T14:10:18Z",
+          "body": "we probably need to look at the `outputs` in `predict.py`",
+          "url": "https://github.com/h1alexbel/samples-filter/issues/45#issuecomment-2072415869",
+          "id": 2072415869
+        },
+        {
+          "author": "h1alexbel",
+          "created_at": "2024-04-23T18:58:01Z",
+          "updated_at": "2024-04-23T18:58:08Z",
+          "body": "optimizing learning rate: `learning_rate=2e-5,` and reduced batched sizes: `per_device_train_batch_size=8` and `per_device_eval_batch_size=32` showcased this result:\r\n\r\n```text\r\nRaw logits: tensor([[ 3.3061, -3.8666]], grad_fn=<AddmmBackward0>)\r\nProbabilities: tensor([[9.9923e-01, 7.6663e-04]], grad_fn=<SoftmaxBackward0>)\r\nPredicted label: negative\r\n```\r\n\r\nwe should check the result of the model inference on a list of examples.",
+          "url": "https://github.com/h1alexbel/samples-filter/issues/45#issuecomment-2073203686",
+          "id": 2073203686
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 12571846666,
+          "node_id": "MEE_lADOLuV7j86Gmxj0zwAAAALtVygK",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571846666",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:50:02Z"
+        },
+        {
+          "id": 12571846678,
+          "node_id": "SE_lADOLuV7j86Gmxj0zwAAAALtVygW",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571846678",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:50:02Z"
+        },
+        {
+          "id": 12574121763,
+          "node_id": "AE_lADOLuV7j86Gmxj0zwAAAALted8j",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12574121763",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T11:37:41Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 12581064600,
+          "node_id": "REFE_lADOLuV7j86Gmxj0zwAAAALt48-Y",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12581064600",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "84329cb2b1725a04b23e2c0e11c98143fa1110d1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/84329cb2b1725a04b23e2c0e11c98143fa1110d1",
+          "created_at": "2024-04-23T20:04:58Z"
+        },
+        {
+          "id": 12591977141,
+          "node_id": "REFE_lADOLuV7j86Gmxj0zwAAAALuilK1",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12591977141",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ef690f5792322d99cd660dd124d16df93070763b",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/ef690f5792322d99cd660dd124d16df93070763b",
+          "created_at": "2024-04-24T13:26:45Z"
+        },
+        {
+          "id": 12592011808,
+          "node_id": "REFE_lADOLuV7j86Gmxj0zwAAAALuitog",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592011808",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8a7789e3f8d31bb71de99af2d80e52f98cdc4868",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/8a7789e3f8d31bb71de99af2d80e52f98cdc4868",
+          "created_at": "2024-04-24T13:28:59Z"
+        },
+        {
+          "id": 12592083000,
+          "node_id": "REFE_lADOLuV7j86Gmxj0zwAAAALui_A4",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592083000",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5ce22203eecb6cae86199355b850a0774ee32bda",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/5ce22203eecb6cae86199355b850a0774ee32bda",
+          "created_at": "2024-04-24T13:33:30Z"
+        },
+        {
+          "id": 12592115373,
+          "node_id": "REFE_lADOLuV7j86Gmxj0zwAAAALujG6t",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592115373",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "84a1f27b752f918102fbdad6aa931ae311949df1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/84a1f27b752f918102fbdad6aa931ae311949df1",
+          "created_at": "2024-04-24T13:35:43Z"
+        },
+        {
+          "id": 12592210206,
+          "node_id": "REFE_lADOLuV7j86Gmxj0zwAAAALujeEe",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592210206",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "42c06ee5f0ddd74b3190e9db992387407f6072c4",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/42c06ee5f0ddd74b3190e9db992387407f6072c4",
+          "created_at": "2024-04-24T13:41:30Z"
+        },
+        {
+          "id": 12592336928,
+          "node_id": "REFE_lADOLuV7j86Gmxj0zwAAAALuj9Ag",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592336928",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "458d9a9202ba7f030bdb34d558b1f4b3f6d03a2e",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/458d9a9202ba7f030bdb34d558b1f4b3f6d03a2e",
+          "created_at": "2024-04-24T13:47:45Z"
+        },
+        {
+          "id": 12592707511,
+          "node_id": "CE_lADOLuV7j86Gmxj0zwAAAALulXe3",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12592707511",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-24T14:08:19Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 1.23,
+      "estimate": "90",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/46",
+      "ticket": "30",
+      "done": true,
+      "id": "30-56532a3d",
+      "closed_at": "2024-04-24T16:45:20Z",
+      "created_at": "2024-04-23T08:39:09Z",
+      "body": "Fetch pretrained model saved in HuggingFace. Let's fetch and download pretrained model from hugging face model hub. When model is trained, we should pack it and deploy into hugging face repository and it should legal to use it here. Don't forget to remove this puzzle.",
+      "file": "model/predict.py",
+      "lines": "33-37",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "predict.py:33-37: Fetch pretrained model saved in...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12571847127,
+          "node_id": "MEE_lADOLuV7j86GmxkwzwAAAALtVynX",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571847127",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:50:03Z"
+        },
+        {
+          "id": 12571847138,
+          "node_id": "SE_lADOLuV7j86GmxkwzwAAAALtVyni",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12571847138",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-23T08:50:03Z"
+        },
+        {
+          "id": 12594349043,
+          "node_id": "REFE_lADOLuV7j86GmxkwzwAAAALuroPz",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12594349043",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c7fded249add8ca9cd3794757ee0ee96d92536c9",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/c7fded249add8ca9cd3794757ee0ee96d92536c9",
+          "created_at": "2024-04-24T15:52:17Z"
+        },
+        {
+          "id": 12594438165,
+          "node_id": "REFE_lADOLuV7j86GmxkwzwAAAALur-AV",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12594438165",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "eb93cb741b340dd7e7f0753e2d7962ff747990f6",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/eb93cb741b340dd7e7f0753e2d7962ff747990f6",
+          "created_at": "2024-04-24T15:58:19Z"
+        },
+        {
+          "id": 12594491023,
+          "node_id": "REFE_lADOLuV7j86GmxkwzwAAAALusK6P",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12594491023",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b080eb2e65c8b4acdc7a41117bd51665a224acad",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/b080eb2e65c8b4acdc7a41117bd51665a224acad",
+          "created_at": "2024-04-24T16:02:13Z"
+        },
+        {
+          "id": 12595139393,
+          "node_id": "CE_lADOLuV7j86GmxkwzwAAAALuupNB",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12595139393",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-04-24T16:45:20Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 1.34,
+      "estimate": "60",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/81",
+      "ticket": "75",
+      "done": true,
+      "id": "75-fdce32da",
+      "closed_at": "2024-05-31T15:43:37Z",
+      "created_at": "2024-05-03T16:34:49Z",
+      "body": "Find a way to fetch date of last commit without using API. GitHub API usage has quite soft rate limits. Even with authentication, it can't process whole dataset (approx 1k) rows. Moreover, we can't let to pass the credentials in the CLI package. Let's investigate the ways to parse last commit date without API.",
+      "file": "model/data/last_commit.py",
+      "lines": "25-29",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "last_commit.py:25-29: Find a way to fetch date of last...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12698753250,
+          "node_id": "MEE_lADOLuV7j86HyHX1zwAAAAL055ji",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12698753250",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-03T16:45:54Z"
+        },
+        {
+          "id": 12698753259,
+          "node_id": "SE_lADOLuV7j86HyHX1zwAAAAL055jr",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12698753259",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-03T16:45:54Z"
+        },
+        {
+          "id": 12766866396,
+          "node_id": "AE_lADOLuV7j86HyHX1zwAAAAL49uvc",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12766866396",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-10T08:31:02Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 27.96,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/82",
+      "ticket": "75",
+      "done": true,
+      "id": "75-2238b4fc",
+      "closed_at": "2024-05-31T15:43:39Z",
+      "created_at": "2024-05-03T16:34:49Z",
+      "body": "Remove code duplication in matches_keywords.py. Let's make it more generic or decorate the logic in #matches. The only difference in both this functions is that we don't need extra processing in case of repository name before put it #any matcher.",
+      "file": "model/data/matches_keywords.py",
+      "lines": "47-50",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "matches_keywords.py:47-50: Remove code duplication in...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12698753562,
+          "node_id": "MEE_lADOLuV7j86HyHYpzwAAAAL055oa",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12698753562",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-03T16:45:56Z"
+        },
+        {
+          "id": 12698753571,
+          "node_id": "SE_lADOLuV7j86HyHYpzwAAAAL055oj",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12698753571",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-03T16:45:56Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 27.96,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/88",
+      "ticket": "75",
+      "done": true,
+      "id": "75-e67d119b",
+      "closed_at": "2024-05-06T17:59:15Z",
+      "created_at": "2024-05-06T11:43:07Z",
+      "body": "Commands `trainrf` and `transformer` won't work without switching directories. For now commands `trainrf` and `transformer` won't work without switching directories before execution. Let's move this Makefile's commands to the root Makefile, since it probably will be more convenient to execute one command without switching directories. To make it happen, we should make all commands directory contexted inside the command.",
+      "file": "model/data/Makefile",
+      "lines": "46-51",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Makefile:46-51: Commands `trainrf` and `transformer`...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12713934296,
+          "node_id": "MEE_lADOLuV7j86H8MihzwAAAAL1zz3Y",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12713934296",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-06T11:54:37Z"
+        },
+        {
+          "id": 12713934306,
+          "node_id": "SE_lADOLuV7j86H8MihzwAAAAL1zz3i",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12713934306",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-06T11:54:37Z"
+        },
+        {
+          "id": 12717962987,
+          "node_id": "REFE_lADOLuV7j86H8MihzwAAAAL2DLbr",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12717962987",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "aff00406cbe73bac0180c823aab4c864760d5bb1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/aff00406cbe73bac0180c823aab4c864760d5bb1",
+          "created_at": "2024-05-06T17:15:59Z"
+        },
+        {
+          "id": 12718062018,
+          "node_id": "REFE_lADOLuV7j86H8MihzwAAAAL2DjnC",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12718062018",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7b757000e987f18b58ba9d1861724596ee329ae5",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/7b757000e987f18b58ba9d1861724596ee329ae5",
+          "created_at": "2024-05-06T17:24:48Z"
+        },
+        {
+          "id": 12718075155,
+          "node_id": "REFE_lADOLuV7j86H8MihzwAAAAL2Dm0T",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12718075155",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4ace5819aaf211f00ff38e0926d6f75a950057f7",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/4ace5819aaf211f00ff38e0926d6f75a950057f7",
+          "created_at": "2024-05-06T17:25:56Z"
+        },
+        {
+          "id": 12718174707,
+          "node_id": "REFE_lADOLuV7j86H8MihzwAAAAL2D_Hz",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12718174707",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b4435cefbb2d75219b642fae4f6447ddf09f81c9",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/b4435cefbb2d75219b642fae4f6447ddf09f81c9",
+          "created_at": "2024-05-06T17:34:39Z"
+        },
+        {
+          "id": 12718465193,
+          "node_id": "CE_lADOLuV7j86H8MihzwAAAAL2FGCp",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12718465193",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-06T17:59:14Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 0.26,
+      "estimate": "25",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/89",
+      "ticket": "75",
+      "done": true,
+      "id": "75-51f268ee",
+      "closed_at": "2024-05-07T10:52:06Z",
+      "created_at": "2024-05-06T11:43:07Z",
+      "body": "Read CSV file from HuggingFace. We should fetch the whole CSV file uploaded to HuggingFace. This will help us to use the dataset without building it each time.",
+      "file": "model/rf/random-forest.py",
+      "lines": "35-37",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "random-forest.py:35-37: Read CSV file from HuggingFace....",
+      "comments": [
+        {
+          "author": "h1alexbel",
+          "created_at": "2024-05-06T17:21:44Z",
+          "updated_at": "2024-05-06T17:21:44Z",
+          "body": "Let's upload csv file into S3 or Git. And read it via HTTP request.",
+          "url": "https://github.com/h1alexbel/samples-filter/issues/89#issuecomment-2096540081",
+          "id": 2096540081
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 12713934751,
+          "node_id": "MEE_lADOLuV7j86H8MjgzwAAAAL1zz-f",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12713934751",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-06T11:54:39Z"
+        },
+        {
+          "id": 12713934760,
+          "node_id": "SE_lADOLuV7j86H8MjgzwAAAAL1zz-o",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12713934760",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-06T11:54:39Z"
+        },
+        {
+          "id": 12725462860,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2fydM",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12725462860",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "22d331cf94351b94491d39489ab2346e655279f8",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/22d331cf94351b94491d39489ab2346e655279f8",
+          "created_at": "2024-05-07T08:28:56Z"
+        },
+        {
+          "id": 12725490848,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2f5Sg",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12725490848",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ba9541e5b799d2e967271311c8923c0152a80412",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/ba9541e5b799d2e967271311c8923c0152a80412",
+          "created_at": "2024-05-07T08:31:09Z"
+        },
+        {
+          "id": 12725567889,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2gMGR",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12725567889",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c3e667be80ff81b41ff76451ff0326cbc9f00de9",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/c3e667be80ff81b41ff76451ff0326cbc9f00de9",
+          "created_at": "2024-05-07T08:36:45Z"
+        },
+        {
+          "id": 12725767618,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2g83C",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12725767618",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e5d0789cea8de1a721d31f167f33e0762d849d60",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/e5d0789cea8de1a721d31f167f33e0762d849d60",
+          "created_at": "2024-05-07T08:51:50Z"
+        },
+        {
+          "id": 12725778134,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2g_bW",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12725778134",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c929fd0894b5a76f514411998cb413c9994dacea",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/c929fd0894b5a76f514411998cb413c9994dacea",
+          "created_at": "2024-05-07T08:52:37Z"
+        },
+        {
+          "id": 12725886231,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2hZ0X",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12725886231",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "611189558cace4445fc3201b478fdd7ea217dc89",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/611189558cace4445fc3201b478fdd7ea217dc89",
+          "created_at": "2024-05-07T09:00:49Z"
+        },
+        {
+          "id": 12725898692,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2hc3E",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12725898692",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4d41cf73a4b07440545b85bb62223666421c1e29",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/4d41cf73a4b07440545b85bb62223666421c1e29",
+          "created_at": "2024-05-07T09:01:46Z"
+        },
+        {
+          "id": 12726050570,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2iB8K",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12726050570",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d208e3bcb5bce16d8e53f661557a9bded64a2dfd",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/d208e3bcb5bce16d8e53f661557a9bded64a2dfd",
+          "created_at": "2024-05-07T09:13:24Z"
+        },
+        {
+          "id": 12726054820,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2iC-k",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12726054820",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2eb6765d435020716259f4f04d0cffd0f8dc3dbb",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/2eb6765d435020716259f4f04d0cffd0f8dc3dbb",
+          "created_at": "2024-05-07T09:13:43Z"
+        },
+        {
+          "id": 12726172162,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2ifoC",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12726172162",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "71a67eed82e44ff6ec935bb3da8ae0a73284d490",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/71a67eed82e44ff6ec935bb3da8ae0a73284d490",
+          "created_at": "2024-05-07T09:22:35Z"
+        },
+        {
+          "id": 12726179897,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2ihg5",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12726179897",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c7b196384d0ad5d0738659bf056781a578734c57",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/c7b196384d0ad5d0738659bf056781a578734c57",
+          "created_at": "2024-05-07T09:23:11Z"
+        },
+        {
+          "id": 12726286356,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2i7gU",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12726286356",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c66d8626f6946acc1012f9f12ef0bc1e90d7c335",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/c66d8626f6946acc1012f9f12ef0bc1e90d7c335",
+          "created_at": "2024-05-07T09:31:10Z"
+        },
+        {
+          "id": 12726294644,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2i9h0",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12726294644",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f13b23d19b87abea2633eb3037574fbe85758c59",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/f13b23d19b87abea2633eb3037574fbe85758c59",
+          "created_at": "2024-05-07T09:31:49Z"
+        },
+        {
+          "id": 12727185755,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2mXFb",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12727185755",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7191d583e94c6b333f5cfbaf70e6c00a9ac87650",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/7191d583e94c6b333f5cfbaf70e6c00a9ac87650",
+          "created_at": "2024-05-07T10:30:56Z"
+        },
+        {
+          "id": 12727231524,
+          "node_id": "REFE_lADOLuV7j86H8MjgzwAAAAL2miQk",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12727231524",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "44abc9583710ac9bb728d938bb463964fafe27ba",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/44abc9583710ac9bb728d938bb463964fafe27ba",
+          "created_at": "2024-05-07T10:34:05Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 17,
+      "time_to_resolution_days": 0.96,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/90",
+      "ticket": "75",
+      "done": true,
+      "id": "75-e88026eb",
+      "closed_at": "2024-05-07T10:52:08Z",
+      "created_at": "2024-05-06T11:43:07Z",
+      "body": "Upload model and vectorizer as .joblib files to some file storage. In order to reuse already trained model, we should upload those files to file storage, or maybe even to HuggingFace. After it's uploaded we can fetch it and use #load function.",
+      "file": "model/rf/random-forest.py",
+      "lines": "80-83",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "random-forest.py:80-83: Upload model and vectorizer as...",
+      "comments": [
+        {
+          "author": "h1alexbel",
+          "created_at": "2024-05-06T17:47:03Z",
+          "updated_at": "2024-05-06T17:47:03Z",
+          "body": "HuggingFace does not support `.joblib` files. We can't upload it there, let's try S3 or `gh-pages` branch in this repo",
+          "url": "https://github.com/h1alexbel/samples-filter/issues/90#issuecomment-2096585936",
+          "id": 2096585936
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 12713935119,
+          "node_id": "MEE_lADOLuV7j86H8MkPzwAAAAL1z0EP",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12713935119",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-06T11:54:41Z"
+        },
+        {
+          "id": 12713935126,
+          "node_id": "SE_lADOLuV7j86H8MkPzwAAAAL1z0EW",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12713935126",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-06T11:54:41Z"
+        },
+        {
+          "id": 12727185778,
+          "node_id": "REFE_lADOLuV7j86H8MkPzwAAAAL2mXFy",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12727185778",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7191d583e94c6b333f5cfbaf70e6c00a9ac87650",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/7191d583e94c6b333f5cfbaf70e6c00a9ac87650",
+          "created_at": "2024-05-07T10:30:56Z"
+        },
+        {
+          "id": 12727231570,
+          "node_id": "REFE_lADOLuV7j86H8MkPzwAAAAL2miRS",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12727231570",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "44abc9583710ac9bb728d938bb463964fafe27ba",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/44abc9583710ac9bb728d938bb463964fafe27ba",
+          "created_at": "2024-05-07T10:34:05Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.96,
+      "estimate": "40",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/119",
+      "ticket": "104",
+      "done": true,
+      "id": "104-39f3530d",
+      "closed_at": "2024-05-31T15:43:40Z",
+      "created_at": "2024-05-12T11:03:07Z",
+      "body": "Split README.md into important segments. We should split README.md file into segments that are important for processing. For now the problem is in the README.md size. If file is reasonably big, than model will interpret it like negative, while README is taken from example repository. Let's fix it by splitting README.md file into segments and then picking the segment that represents this repository in most accurate way. Let's find out techniques that will help us in README splitting from this paper: https://www.researchgate.net/publication/317489055_Cataloging_GitHub_Repositories",
+      "file": "model/data/compose.py",
+      "lines": "32-39",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "compose.py:32-39: Split README.md into important...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12778398427,
+          "node_id": "MEE_lADOLuV7j86IkkLUzwAAAAL5puLb",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778398427",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-12T11:14:43Z"
+        },
+        {
+          "id": 12778398429,
+          "node_id": "SE_lADOLuV7j86IkkLUzwAAAAL5puLd",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778398429",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-12T11:14:43Z"
+        },
+        {
+          "id": 12778674474,
+          "node_id": "MIE_lADOLuV7j86IkkLUzwAAAAL5qxkq",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778674474",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-12T13:45:46Z",
+          "milestone": {
+            "title": "Paper"
+          }
+        },
+        {
+          "id": 12834167529,
+          "node_id": "DEME_lADOLuV7j86IkkLUzwAAAAL8-drp",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12834167529",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "demilestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-16T13:45:02Z",
+          "milestone": {
+            "title": "Paper"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 19.19,
+      "estimate": "90",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "75-676fe262",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/104",
+      "ticket": "75",
+      "done": true,
+      "id": "75-676fe262",
+      "closed_at": "2024-05-12T11:14:42Z",
+      "created_at": "2024-05-07T17:21:14Z",
+      "body": "Compose train.csv data as input text. We should compose data in one string like described <a href=\"https://github.com/h1alexbel/samples-filter/issues/75#issuecomment-2094153280\">here</a>. Before training, let's concat strings and embed them into some string template, like this: \"Description: {description}, created at: {created}, ...\".",
+      "file": "model/transformer.py",
+      "lines": "36-40",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "transformer.py:36-40: Compose train.csv data as input...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12733036032,
+          "node_id": "MEE_lADOLuV7j86IIVUSzwAAAAL28rYA",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12733036032",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-07T17:32:22Z"
+        },
+        {
+          "id": 12733036045,
+          "node_id": "SE_lADOLuV7j86IIVUSzwAAAAL28rYN",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12733036045",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-07T17:32:22Z"
+        },
+        {
+          "id": 12766713680,
+          "node_id": "AE_lADOLuV7j86IIVUSzwAAAAL49JdQ",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12766713680",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-10T08:17:40Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 12778098254,
+          "node_id": "REFE_lADOLuV7j86IIVUSzwAAAAL5ok5O",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778098254",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7fdaac0ae4de8c410f930a04d6aecbccfa9bbb6c",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/7fdaac0ae4de8c410f930a04d6aecbccfa9bbb6c",
+          "created_at": "2024-05-12T09:01:45Z"
+        },
+        {
+          "id": 12778267036,
+          "node_id": "REFE_lADOLuV7j86IIVUSzwAAAAL5pOGc",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778267036",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "52a51f084bb07264500bd2400d667197e0427d9d",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/52a51f084bb07264500bd2400d667197e0427d9d",
+          "created_at": "2024-05-12T09:57:27Z"
+        },
+        {
+          "id": 12778362099,
+          "node_id": "REFE_lADOLuV7j86IIVUSzwAAAAL5plTz",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778362099",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "de4470cdb5d066f2dba3d1024e7e883933c70205",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/de4470cdb5d066f2dba3d1024e7e883933c70205",
+          "created_at": "2024-05-12T10:52:51Z"
+        },
+        {
+          "id": 12778367018,
+          "node_id": "REFE_lADOLuV7j86IIVUSzwAAAAL5pmgq",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778367018",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "845a8daf20c33bfcd235e5c94401b69a31e006e5",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/845a8daf20c33bfcd235e5c94401b69a31e006e5",
+          "created_at": "2024-05-12T10:56:03Z"
+        },
+        {
+          "id": 12778398379,
+          "node_id": "CE_lADOLuV7j86IIVUSzwAAAAL5puKr",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778398379",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-12T11:14:41Z",
+          "state_reason": null
+        },
+        {
+          "id": 12778463300,
+          "node_id": "REFE_lADOLuV7j86IIVUSzwAAAAL5p-BE",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778463300",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "028b086b09ef07af8c021aa917d2012df131d9da",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/028b086b09ef07af8c021aa917d2012df131d9da",
+          "created_at": "2024-05-12T11:52:18Z"
+        },
+        {
+          "id": 12778464379,
+          "node_id": "REFE_lADOLuV7j86IIVUSzwAAAAL5p-R7",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778464379",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a0ab1e95ba1cd7ac27f3e6c57576d13e777b0702",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/a0ab1e95ba1cd7ac27f3e6c57576d13e777b0702",
+          "created_at": "2024-05-12T11:52:51Z"
+        },
+        {
+          "id": 12778487701,
+          "node_id": "REFE_lADOLuV7j86IIVUSzwAAAAL5qD-V",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778487701",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "01e1000da716f8fe136f861be470076408dbd3e1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/01e1000da716f8fe136f861be470076408dbd3e1",
+          "created_at": "2024-05-12T12:05:25Z"
+        },
+        {
+          "id": 12778488452,
+          "node_id": "REFE_lADOLuV7j86IIVUSzwAAAAL5qEKE",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12778488452",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a3eb28a4d3be8f17956eddac08760458589e1ec5",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/a3eb28a4d3be8f17956eddac08760458589e1ec5",
+          "created_at": "2024-05-12T12:05:48Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 4.75,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/109",
+      "ticket": "105",
+      "done": true,
+      "id": "105-16a41eb4",
+      "closed_at": "2024-05-10T07:47:27Z",
+      "created_at": "2024-05-08T09:28:46Z",
+      "body": "Process all fields required as inputs. We should process all fields required as inputs: full_name, readme, created_at, last_commit. In case of transformer we should do it in a prompt way, like repository advanced description. Check <a href=\"https://github.com/h1alexbel/samples-filter/issues/75#issuecomment-2094153280\">this</a>.",
+      "file": "src/feed.py",
+      "lines": "33-37",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "feed.py:33-37: Process all fields required as inputs. We...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 12741065682,
+          "node_id": "MEE_lADOLuV7j86INGN9zwAAAAL3bTvS",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12741065682",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-08T09:28:51Z"
+        },
+        {
+          "id": 12741065696,
+          "node_id": "SE_lADOLuV7j86INGN9zwAAAAL3bTvg",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12741065696",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-08T09:28:51Z"
+        },
+        {
+          "id": 12766221678,
+          "node_id": "REFE_lADOLuV7j86INGN9zwAAAAL47RVu",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12766221678",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d0709e33effdb71ab0133f86020813cdd837d0d1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/d0709e33effdb71ab0133f86020813cdd837d0d1",
+          "created_at": "2024-05-10T07:32:42Z"
+        },
+        {
+          "id": 12766327650,
+          "node_id": "REFE_lADOLuV7j86INGN9zwAAAAL47rNi",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12766327650",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a0fa08ddb9e47465db3fff6e35d217bbbdb456c3",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/a0fa08ddb9e47465db3fff6e35d217bbbdb456c3",
+          "created_at": "2024-05-10T07:43:12Z"
+        },
+        {
+          "id": 12766373212,
+          "node_id": "CE_lADOLuV7j86INGN9zwAAAAL472Vc",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12766373212",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-05-10T07:47:23Z",
+          "state_reason": null
+        },
+        {
+          "id": 12766373218,
+          "node_id": "REFE_lADOLuV7j86INGN9zwAAAAL472Vi",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/12766373218",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fef56029382c4ee0cadaed1146d4696ad28b3ee5",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/fef56029382c4ee0cadaed1146d4696ad28b3ee5",
+          "created_at": "2024-05-10T07:47:23Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 1.93,
+      "estimate": "60",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/samples-filter",
+      "issue_link": "https://github.com/h1alexbel/samples-filter/issues/153",
+      "ticket": "143",
+      "done": true,
+      "id": "143-2cf5479a",
+      "closed_at": "2024-06-06T15:42:02Z",
+      "created_at": "2024-06-06T06:09:57Z",
+      "body": "We generate embeddings for each token instead of the whole unit. For now, we generate embeddings for each token. We probably should generate embeddings for joined tokens as one unit. In this case we can try to replace preprocessing steps with a huggingface tokenizers. Let's validate this assumption.",
+      "file": "models/model/pre/embeddings.py",
+      "lines": "42-46",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "embeddings.py:42-46: We generate embeddings for each...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 13061502492,
+          "node_id": "MEE_lADOLuV7j86LUgKwzwAAAAMKhrYc",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/13061502492",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-06T06:21:46Z"
+        },
+        {
+          "id": 13061502498,
+          "node_id": "SE_lADOLuV7j86LUgKwzwAAAAMKhrYi",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/13061502498",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-06T06:21:46Z"
+        },
+        {
+          "id": 13064495564,
+          "node_id": "REFE_lADOLuV7j86LUgKwzwAAAAMKtGHM",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/13064495564",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "678ca1e1eaf47ac085fef316015c26763cb93f82",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/678ca1e1eaf47ac085fef316015c26763cb93f82",
+          "created_at": "2024-06-06T10:26:34Z"
+        },
+        {
+          "id": 13066931218,
+          "node_id": "REFE_lADOLuV7j86LUgKwzwAAAAMK2YwS",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/13066931218",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0ce617fa2306e72edd4a65c1e9ae73984e480c3f",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/0ce617fa2306e72edd4a65c1e9ae73984e480c3f",
+          "created_at": "2024-06-06T13:37:17Z"
+        },
+        {
+          "id": 13068223593,
+          "node_id": "REFE_lADOLuV7j86LUgKwzwAAAAMK7URp",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/13068223593",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "77b1e97edef56d8ec0f2459cb76055854df13ad8",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/77b1e97edef56d8ec0f2459cb76055854df13ad8",
+          "created_at": "2024-06-06T14:58:47Z"
+        },
+        {
+          "id": 13068223655,
+          "node_id": "REFE_lADOLuV7j86LUgKwzwAAAAMK7USn",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/13068223655",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5c90ff7f1b90ed566a432b81f7709dc063125b82",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/5c90ff7f1b90ed566a432b81f7709dc063125b82",
+          "created_at": "2024-06-06T14:58:48Z"
+        },
+        {
+          "id": 13068575923,
+          "node_id": "REFE_lADOLuV7j86LUgKwzwAAAAMK8qSz",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/13068575923",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "269346e1036d032aceacfc8459c2da496da62805",
+          "commit_url": "https://api.github.com/repos/h1alexbel/samples-filter/commits/269346e1036d032aceacfc8459c2da496da62805",
+          "created_at": "2024-06-06T15:23:49Z"
+        },
+        {
+          "id": 13068817353,
+          "node_id": "CE_lADOLuV7j86LUgKwzwAAAAMK9lPJ",
+          "url": "https://api.github.com/repos/h1alexbel/samples-filter/issues/events/13068817353",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-06-06T15:42:01Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 0.4,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Python",
+  "project_stars": 7,
+  "project_forks": 0,
+  "project_contributors_count": 7,
+  "first_issue_date": "2024-04-16T16:41:35Z",
+  "last_issue_date": "2024-06-06T06:09:57Z"
+}

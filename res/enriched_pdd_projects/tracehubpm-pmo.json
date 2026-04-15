@@ -1,0 +1,809 @@
+{
+  "project_link": "https://github.com/tracehubpm/pmo",
+  "issues_count": 8,
+  "issues": [
+    {
+      "project_link": "https://github.com/tracehubpm/pmo",
+      "issue_link": "https://github.com/tracehubpm/pmo/issues/5",
+      "ticket": "2",
+      "done": true,
+      "id": "2-24aad16a",
+      "closed_at": "2024-02-05T13:53:33Z",
+      "created_at": "2024-01-15T12:41:11Z",
+      "body": "Create release script to rultor configuration. We should create release script that will be executed by Rultor.com. Probably it can be a release inside the GitHub with a new tag, and build+push Docker image to the private Docker registry.",
+      "file": ".rultor.yml",
+      "lines": "8-11",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".rultor.yml:8-11: Create release script to rultor...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11487790580,
+          "node_id": "MEE_lADOLEWZCc58GCjRzwAAAAKsucX0",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11487790580",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-15T12:41:23Z"
+        },
+        {
+          "id": 11487790593,
+          "node_id": "SE_lADOLEWZCc58GCjRzwAAAAKsucYB",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11487790593",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-15T12:41:23Z"
+        },
+        {
+          "id": 11571509669,
+          "node_id": "LE_lADOLEWZCc58GCjRzwAAAAKxtzml",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571509669",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:58:30Z",
+          "label": {
+            "name": "pdd",
+            "color": "F74219"
+          }
+        },
+        {
+          "id": 11695411734,
+          "node_id": "REFE_lADOLEWZCc58GCjRzwAAAAK5GdIW",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11695411734",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4e452e084a0c549abcd1935b355350847810e8be",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/4e452e084a0c549abcd1935b355350847810e8be",
+          "created_at": "2024-02-04T12:54:40Z"
+        },
+        {
+          "id": 11704512004,
+          "node_id": "CE_lADOLEWZCc58GCjRzwAAAAK5pK4E",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11704512004",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-05T13:53:25Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 21.05,
+      "estimate": "60",
+      "author": "@hizmailovich",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/tracehubpm/pmo",
+      "issue_link": "https://github.com/tracehubpm/pmo/issues/14",
+      "ticket": "1",
+      "done": true,
+      "id": "1-ed8090c3",
+      "closed_at": "2024-01-25T12:33:37Z",
+      "created_at": "2024-01-23T14:17:41Z",
+      "body": "check if authenticated user can access the Project. we need create security checks that will made a statement does authenticated user can access the project or not: if project is public, every one can see it; otherwise user must be individual performer or team member.",
+      "file": "src/main/java/git/tracehub/pmo/controller/ProjectController.java",
+      "lines": "81-85",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "ProjectController.java:81-85: check if authenticated user...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11571018510,
+          "node_id": "MEE_lADOLEWZCc588XuxzwAAAAKxr7sO",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571018510",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:22:18Z"
+        },
+        {
+          "id": 11571018518,
+          "node_id": "SE_lADOLEWZCc588XuxzwAAAAKxr7sW",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571018518",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:22:18Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 1.93,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/tracehubpm/pmo",
+      "issue_link": "https://github.com/tracehubpm/pmo/issues/15",
+      "ticket": "1",
+      "done": true,
+      "id": "1-bb3b3f26",
+      "closed_at": "2024-01-25T12:33:40Z",
+      "created_at": "2024-01-23T14:17:41Z",
+      "body": "check if authenticated user can create a new project. We need to create security checks that will make a statement does authenticated user can create a new project or not: if project is public, every one can create it; otherwise we need to request a payment from the user.",
+      "file": "src/main/java/git/tracehub/pmo/controller/ProjectController.java",
+      "lines": "101-105",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "ProjectController.java:101-105: check if authenticated...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11571019907,
+          "node_id": "MEE_lADOLEWZCc588Xx_zwAAAAKxr8CD",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571019907",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:22:23Z"
+        },
+        {
+          "id": 11571019922,
+          "node_id": "SE_lADOLEWZCc588Xx_zwAAAAKxr8CS",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571019922",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:22:24Z"
+        },
+        {
+          "id": 11582199107,
+          "node_id": "CE_lADOLEWZCc588Xx_zwAAAAKyWlVD",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11582199107",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-24T10:11:53Z",
+          "state_reason": "not_planned"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 1.93,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/tracehubpm/pmo",
+      "issue_link": "https://github.com/tracehubpm/pmo/issues/16",
+      "ticket": "1",
+      "done": true,
+      "id": "1-da767492",
+      "closed_at": "2024-02-15T12:35:47Z",
+      "created_at": "2024-01-23T14:17:41Z",
+      "body": "define appropriate agent according to location of the project. We need to define appropriate agent and call corresponding implementation to invite collaborators here.",
+      "file": "src/main/java/git/tracehub/pmo/controller/ProjectController.java",
+      "lines": "114-116",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "ProjectController.java:114-116: define appropriate agent...",
+      "comments": [
+        {
+          "author": "h1alexbel",
+          "created_at": "2024-02-12T10:03:46Z",
+          "updated_at": "2024-02-12T10:03:46Z",
+          "body": "@hizmailovich whats is the progress on this?",
+          "url": "https://github.com/tracehubpm/pmo/issues/16#issuecomment-1938363729",
+          "id": 1938363729
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 11571020857,
+          "node_id": "MEE_lADOLEWZCc588X0czwAAAAKxr8Q5",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571020857",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:22:28Z"
+        },
+        {
+          "id": 11571020864,
+          "node_id": "SE_lADOLEWZCc588X0czwAAAAKxr8RA",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571020864",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:22:28Z"
+        },
+        {
+          "id": 11732414154,
+          "node_id": "MIE_lADOLEWZCc588X0czwAAAAK7Tm7K",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11732414154",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-07T13:25:46Z",
+          "milestone": {
+            "title": "Important"
+          }
+        },
+        {
+          "id": 11772325009,
+          "node_id": "MEE_lADOLEWZCc588X0czwAAAAK9r2yR",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11772325009",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-12T10:03:46Z"
+        },
+        {
+          "id": 11772325017,
+          "node_id": "SE_lADOLEWZCc588X0czwAAAAK9r2yZ",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11772325017",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-12T10:03:46Z"
+        },
+        {
+          "id": 11789448187,
+          "node_id": "REFE_lADOLEWZCc588X0czwAAAAK-tLP7",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11789448187",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "33f221347c22498302446b16173276d5f0b24108",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/33f221347c22498302446b16173276d5f0b24108",
+          "created_at": "2024-02-13T14:20:16Z"
+        },
+        {
+          "id": 11814846061,
+          "node_id": "CE_lADOLEWZCc588X0czwAAAALAOD5t",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11814846061",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "33f221347c22498302446b16173276d5f0b24108",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/33f221347c22498302446b16173276d5f0b24108",
+          "created_at": "2024-02-15T12:33:43Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 22.93,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/tracehubpm/pmo",
+      "issue_link": "https://github.com/tracehubpm/pmo/issues/17",
+      "ticket": "1",
+      "done": true,
+      "id": "1-ecd686dc",
+      "closed_at": "2024-01-31T13:58:39Z",
+      "created_at": "2024-01-23T14:17:41Z",
+      "body": "fix 403 Forbidden error when trying to get token from IDP. It seems that the user hasn't enough permissions to get the token from IDP. We need to configure Keycloak to allow the user to read the token. See the following link for more info: https://www.keycloak.org/docs/latest/server_admin/#retrieving-external-idp-tokens",
+      "file": "src/main/java/git/tracehub/pmo/security/IdpToken.java",
+      "lines": "58-62",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "IdpToken.java:58-62: fix 403 Forbidden error when trying...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11571021810,
+          "node_id": "MEE_lADOLEWZCc588X2lzwAAAAKxr8fy",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571021810",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:22:32Z"
+        },
+        {
+          "id": 11571021824,
+          "node_id": "SE_lADOLEWZCc588X2lzwAAAAKxr8gA",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11571021824",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-01-23T14:22:32Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 7.99,
+      "estimate": "45",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/tracehubpm/pmo",
+      "issue_link": "https://github.com/tracehubpm/pmo/issues/49",
+      "ticket": "44",
+      "done": true,
+      "id": "44-ef410327",
+      "closed_at": "2024-02-23T15:52:50Z",
+      "created_at": "2024-02-20T12:15:37Z",
+      "body": "create an endpoint to list all keys from the project. This endpoint should return a list of keys using project id.",
+      "file": "src/main/java/git/tracehub/pmo/controller/SecretController.java",
+      "lines": "39-40",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "SecretController.java:39-40: create an endpoint to list...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11862086486,
+          "node_id": "MEE_lADOLEWZCc5_0XIrzwAAAALDCRNW",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11862086486",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-20T13:51:53Z"
+        },
+        {
+          "id": 11862086498,
+          "node_id": "SE_lADOLEWZCc5_0XIrzwAAAALDCRNi",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11862086498",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-20T13:51:53Z"
+        },
+        {
+          "id": 11865400145,
+          "node_id": "REFE_lADOLEWZCc5_0XIrzwAAAALDO6NR",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11865400145",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cdc7f4ac013e8f940ec0653269ee6f01cf4bb54a",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/cdc7f4ac013e8f940ec0653269ee6f01cf4bb54a",
+          "created_at": "2024-02-20T17:54:04Z"
+        },
+        {
+          "id": 11905395303,
+          "node_id": "CE_lADOLEWZCc5_0XIrzwAAAALFnepn",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11905395303",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "cdc7f4ac013e8f940ec0653269ee6f01cf4bb54a",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/cdc7f4ac013e8f940ec0653269ee6f01cf4bb54a",
+          "created_at": "2024-02-23T15:52:38Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 3.15,
+      "estimate": "30",
+      "author": "@hizmailovich",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/tracehubpm/pmo",
+      "issue_link": "https://github.com/tracehubpm/pmo/issues/50",
+      "ticket": "44",
+      "done": true,
+      "id": "44-57fcb942",
+      "closed_at": "2024-02-23T15:52:51Z",
+      "created_at": "2024-02-20T12:15:37Z",
+      "body": "create an endpoint to update a secret. This endpoint should receive a secret id and a new value to update the secret. @since 0.0.0",
+      "file": "src/main/java/git/tracehub/pmo/controller/SecretController.java",
+      "lines": "41-43",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "SecretController.java:41-43: create an endpoint to update...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11862086844,
+          "node_id": "MEE_lADOLEWZCc5_0XJnzwAAAALDCRS8",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11862086844",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-20T13:51:54Z"
+        },
+        {
+          "id": 11862086859,
+          "node_id": "SE_lADOLEWZCc5_0XJnzwAAAALDCRTL",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11862086859",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-20T13:51:54Z"
+        },
+        {
+          "id": 11865400118,
+          "node_id": "REFE_lADOLEWZCc5_0XJnzwAAAALDO6M2",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11865400118",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "429df28a119761d46f74054cffcbdec89c482abd",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/429df28a119761d46f74054cffcbdec89c482abd",
+          "created_at": "2024-02-20T17:54:04Z"
+        },
+        {
+          "id": 11905395253,
+          "node_id": "CE_lADOLEWZCc5_0XJnzwAAAALFneo1",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11905395253",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "429df28a119761d46f74054cffcbdec89c482abd",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/429df28a119761d46f74054cffcbdec89c482abd",
+          "created_at": "2024-02-23T15:52:37Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 3.15,
+      "estimate": "30",
+      "author": "@hizmailovich",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/tracehubpm/pmo",
+      "issue_link": "https://github.com/tracehubpm/pmo/issues/51",
+      "ticket": "44",
+      "done": true,
+      "id": "44-48bf6f8b",
+      "closed_at": "2024-02-23T15:52:52Z",
+      "created_at": "2024-02-20T12:15:37Z",
+      "body": "encrypt the secret value before saving it in the database. @checkstyle DesignForExtensionCheck (70 lines) @since 0.0.0",
+      "file": "src/main/java/git/tracehub/pmo/secret/DefaultSecrets.java",
+      "lines": "34-36",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "DefaultSecrets.java:34-36: encrypt the secret value...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11862087248,
+          "node_id": "MEE_lADOLEWZCc5_0XKYzwAAAALDCRZQ",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11862087248",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-20T13:51:56Z"
+        },
+        {
+          "id": 11862087257,
+          "node_id": "SE_lADOLEWZCc5_0XKYzwAAAALDCRZZ",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11862087257",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-20T13:51:56Z"
+        },
+        {
+          "id": 11865400169,
+          "node_id": "REFE_lADOLEWZCc5_0XKYzwAAAALDO6Np",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11865400169",
+          "actor": {
+            "id": 70943235,
+            "url": "https://api.github.com/users/dukris",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1b7b7b7e6674b760bab88fab32d7f5040d6a92ae",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/1b7b7b7e6674b760bab88fab32d7f5040d6a92ae",
+          "created_at": "2024-02-20T17:54:04Z"
+        },
+        {
+          "id": 11903281197,
+          "node_id": "REFE_lADOLEWZCc5_0XKYzwAAAALFfagt",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11903281197",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2a78a40bea1a1cb3c61bc29e842fc9e9d72749be",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/2a78a40bea1a1cb3c61bc29e842fc9e9d72749be",
+          "created_at": "2024-02-23T12:48:55Z"
+        },
+        {
+          "id": 11905148724,
+          "node_id": "REFE_lADOLEWZCc5_0XKYzwAAAALFmic0",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11905148724",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4878aa16909766996a81cf8ed628e0aa1e8c819a",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/4878aa16909766996a81cf8ed628e0aa1e8c819a",
+          "created_at": "2024-02-23T15:30:26Z"
+        },
+        {
+          "id": 11905395363,
+          "node_id": "CE_lADOLEWZCc5_0XKYzwAAAALFneqj",
+          "url": "https://api.github.com/repos/tracehubpm/pmo/issues/events/11905395363",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "1b7b7b7e6674b760bab88fab32d7f5040d6a92ae",
+          "commit_url": "https://api.github.com/repos/tracehubpm/pmo/commits/1b7b7b7e6674b760bab88fab32d7f5040d6a92ae",
+          "created_at": "2024-02-23T15:52:38Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 3.15,
+      "estimate": "30",
+      "author": "@hizmailovich",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 4,
+  "project_forks": 0,
+  "project_contributors_count": 4,
+  "first_issue_date": "2024-01-15T12:41:11Z",
+  "last_issue_date": "2024-02-20T12:15:37Z"
+}

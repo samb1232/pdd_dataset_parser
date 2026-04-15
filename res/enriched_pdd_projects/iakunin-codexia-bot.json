@@ -1,0 +1,3763 @@
+{
+  "project_link": "https://github.com/iakunin/codexia-bot",
+  "issues_count": 30,
+  "issues": [
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/15",
+      "ticket": "0",
+      "done": true,
+      "id": "0-7ae6cd57",
+      "closed_at": "2020-04-25T16:39:16Z",
+      "created_at": "2020-04-13T09:00:25Z",
+      "body": "extract these `Running` and `Exiting` logs to some scheduled decorator",
+      "file": "src/main/java/dev/iakunin/codexiabot/codexia/cron/ProjectsHealthCheck.java",
+      "lines": "26-26",
+      "labels": [],
+      "assignees": [],
+      "title": "ProjectsHealthCheck.java:26: extract these `Running` and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3264473392,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjY0NDczMzky",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3264473392",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T10:40:44Z",
+          "project_card": {
+            "id": 36864976,
+            "url": "https://api.github.com/projects/columns/cards/36864976",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3272027635,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzI3MjAyNzYzNQ==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272027635",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-25T15:35:55Z",
+          "project_card": {
+            "id": 36864976,
+            "url": "https://api.github.com/projects/columns/cards/36864976",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3272073200,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMDA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073200",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "001cdad6aa454d65f0b554b843ebdb2ebbb66251",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/001cdad6aa454d65f0b554b843ebdb2ebbb66251",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073203,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMDM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073203",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f68fc1e1c285e1967d184a3c33e5990a34481d75",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/f68fc1e1c285e1967d184a3c33e5990a34481d75",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073206,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMDY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073206",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a0fe4335b1427d3d958334d2b5aa4bf7f945e6b7",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/a0fe4335b1427d3d958334d2b5aa4bf7f945e6b7",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073209,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMDk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073209",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6afc903c70922f86522f79585a910541ba19f9ff",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/6afc903c70922f86522f79585a910541ba19f9ff",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073210,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMTA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073210",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8728d52ab8f43fdeb5bdde5d53e3d5b272cee9e8",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/8728d52ab8f43fdeb5bdde5d53e3d5b272cee9e8",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073211,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMTE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073211",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6ac60941eed923dc55eff5d8c6f529781dee3139",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/6ac60941eed923dc55eff5d8c6f529781dee3139",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073217,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMTc=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073217",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6bcb3a72d1c4a5bc3615a0f60eef5e36a2bf1305",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/6bcb3a72d1c4a5bc3615a0f60eef5e36a2bf1305",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073220,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMjA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073220",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c063b2eeffde2e9929b3b9cdbe9931b47e3664d7",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/c063b2eeffde2e9929b3b9cdbe9931b47e3664d7",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073221,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMjE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073221",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2eeb1ce0b9e9a71c252f5cb5a68ba3be0b17297a",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/2eeb1ce0b9e9a71c252f5cb5a68ba3be0b17297a",
+          "created_at": "2020-04-25T16:29:00Z"
+        },
+        {
+          "id": 3272073225,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMjU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073225",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "190c5a730706c0d2a98bcc3dfdc56d82739ef52c",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/190c5a730706c0d2a98bcc3dfdc56d82739ef52c",
+          "created_at": "2020-04-25T16:29:01Z"
+        },
+        {
+          "id": 3272073228,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMjg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073228",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fbf6a2b59caacbde54f1170ccf5fb98c4a9cd3fb",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/fbf6a2b59caacbde54f1170ccf5fb98c4a9cd3fb",
+          "created_at": "2020-04-25T16:29:01Z"
+        },
+        {
+          "id": 3272073230,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwNzMyMzA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272073230",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3cdb0b0303da3bfd36279624c58444645e487520",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/3cdb0b0303da3bfd36279624c58444645e487520",
+          "created_at": "2020-04-25T16:29:01Z"
+        },
+        {
+          "id": 3272081466,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNzIwODE0NjY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3272081466",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e68448fa594aeb0cf0929eb16a155d4efe778eb9",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/e68448fa594aeb0cf0929eb16a155d4efe778eb9",
+          "created_at": "2020-04-25T16:39:03Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 15,
+      "time_to_resolution_days": 12.32,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/19",
+      "ticket": "6",
+      "done": true,
+      "id": "6-02060b89",
+      "closed_at": "2020-04-17T09:18:20Z",
+      "created_at": "2020-04-13T17:07:44Z",
+      "body": "split codexiaModule.sendReview() to codexiaModule.createReview() and codexiaModule.sendReview() - codexiaModule.createReview() - just a saving to DB. - codexiaModule.sendReview() - real sending review to Codexia api. - codexiaModule.sendReview() must be used ONLY inside a cron-job. - In other code there should be only a codexiaModule.createReview() calls. - All the codexiaModule.createReview() calls MUST be inside a transaction/",
+      "file": "src/main/java/dev/iakunin/codexiabot/codexia/CodexiaModule.java",
+      "lines": "11-16",
+      "labels": [],
+      "assignees": [],
+      "title": "CodexiaModule.java:11-16: split...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3240026021,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNDAwMjYwMjE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3240026021",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "42f1bc55749e1bf79321a8d80559ffaa608360f8",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/42f1bc55749e1bf79321a8d80559ffaa608360f8",
+          "created_at": "2020-04-16T13:52:41Z"
+        },
+        {
+          "id": 3240051765,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNDAwNTE3NjU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3240051765",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d3e293a16f2a407be4b3e759db425bc22b5341c0",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/d3e293a16f2a407be4b3e759db425bc22b5341c0",
+          "created_at": "2020-04-16T13:58:15Z"
+        },
+        {
+          "id": 3240061896,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNDAwNjE4OTY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3240061896",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "34778463fc5ef61e1f2e2519e86008a36fbe7473",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/34778463fc5ef61e1f2e2519e86008a36fbe7473",
+          "created_at": "2020-04-16T14:00:25Z"
+        },
+        {
+          "id": 3243316691,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNDMzMTY2OTE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3243316691",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "02f52c28d5efa9067d988770419163785c61416e",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/02f52c28d5efa9067d988770419163785c61416e",
+          "created_at": "2020-04-17T08:14:17Z"
+        },
+        {
+          "id": 3243316693,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNDMzMTY2OTM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3243316693",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f80fe0db7a9624e9f2b50226b6adad5164a6f6b5",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/f80fe0db7a9624e9f2b50226b6adad5164a6f6b5",
+          "created_at": "2020-04-17T08:14:17Z"
+        },
+        {
+          "id": 3243316698,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNDMzMTY2OTg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3243316698",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7e621ff0c6832ac452b1a5dc78cef69df1653de1",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/7e621ff0c6832ac452b1a5dc78cef69df1653de1",
+          "created_at": "2020-04-17T08:14:17Z"
+        },
+        {
+          "id": 3243316705,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNDMzMTY3MDU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3243316705",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "61d65bf2368894f88d3b2335b349bc421874c0c1",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/61d65bf2368894f88d3b2335b349bc421874c0c1",
+          "created_at": "2020-04-17T08:14:17Z"
+        },
+        {
+          "id": 3243541792,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyNDM1NDE3OTI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3243541792",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c7436796074368e48ee3bbaf6138d19770ddea09",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/c7436796074368e48ee3bbaf6138d19770ddea09",
+          "created_at": "2020-04-17T09:18:08Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 3.67,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/23",
+      "ticket": "6",
+      "done": true,
+      "id": "6-57333c2d",
+      "closed_at": "2020-04-23T10:35:38Z",
+      "created_at": "2020-04-13T17:07:44Z",
+      "body": "get rid of FoundOnReddit.TmpDto using `org.javatuples.Pair`",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/FoundOnReddit.java",
+      "lines": "97-97",
+      "labels": [],
+      "assignees": [],
+      "title": "FoundOnReddit.java:97: get rid of FoundOnReddit.TmpDto...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263724722,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzI0NzIy",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263724722",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:42Z",
+          "project_card": {
+            "id": 36853003,
+            "url": "https://api.github.com/projects/columns/cards/36853003",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 9.73,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/24",
+      "ticket": "6",
+      "done": true,
+      "id": "6-cae02d85",
+      "closed_at": "2020-04-23T10:35:45Z",
+      "created_at": "2020-04-13T17:07:44Z",
+      "body": "get rid of FoundOnHackernews.TmpDto using `org.javatuples.Pair`",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/FoundOnHackernews.java",
+      "lines": "113-113",
+      "labels": [],
+      "assignees": [],
+      "title": "FoundOnHackernews.java:113: get rid of...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263724601,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzI0NjAx",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263724601",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:40Z",
+          "project_card": {
+            "id": 36853000,
+            "url": "https://api.github.com/projects/columns/cards/36853000",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 9.73,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/25",
+      "ticket": "6",
+      "done": true,
+      "id": "6-4d9a1ad5",
+      "closed_at": "2020-05-06T21:35:18Z",
+      "created_at": "2020-04-13T17:07:44Z",
+      "body": "add test case with transaction rollback",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/StarsUp.java",
+      "lines": "73-73",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "StarsUp.java:73: add test case with transaction rollback",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263724386,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzI0Mzg2",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263724386",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:35Z",
+          "project_card": {
+            "id": 36852994,
+            "url": "https://api.github.com/projects/columns/cards/36852994",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283557336,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NTczMzY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283557336",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:33:50Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3310382087,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTAzODIwODc=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310382087",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "717a95ff18c19e61007551ac4283591e2d59c890",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/717a95ff18c19e61007551ac4283591e2d59c890",
+          "created_at": "2020-05-06T21:35:05Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 23.19,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/26",
+      "ticket": "6",
+      "done": true,
+      "id": "6-facd1e77",
+      "closed_at": "2020-04-26T17:02:59Z",
+      "created_at": "2020-04-13T17:07:44Z",
+      "body": "extract to json-file",
+      "file": "src/test/java/dev/iakunin/codexiabot/codexia/cron/ProjectsHealthCheckIntegrationTest.java",
+      "lines": "52-52",
+      "labels": [],
+      "assignees": [],
+      "title": "ProjectsHealthCheckIntegrationTest.java:52: extract to...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263724205,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzI0MjA1",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263724205",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:32Z",
+          "project_card": {
+            "id": 36852993,
+            "url": "https://api.github.com/projects/columns/cards/36852993",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 13.0,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/52",
+      "ticket": "50",
+      "done": true,
+      "id": "50-620293b3",
+      "closed_at": "2020-05-06T20:57:08Z",
+      "created_at": "2020-04-20T17:06:49Z",
+      "body": "TooManyStars: add test case with transaction rollback",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/TooManyStars.java",
+      "lines": "69-69",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "TooManyStars.java:69: TooManyStars: add test case with...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263723683,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIzNjgz",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263723683",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:20Z",
+          "project_card": {
+            "id": 36852983,
+            "url": "https://api.github.com/projects/columns/cards/36852983",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283552899,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NTI4OTk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283552899",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:32:37Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3310223159,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTAyMjMxNTk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310223159",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d5483cb261a45a6454c987f8ea346349e2166d4a",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/d5483cb261a45a6454c987f8ea346349e2166d4a",
+          "created_at": "2020-05-06T20:44:10Z"
+        },
+        {
+          "id": 3310266163,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTAyNjYxNjM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310266163",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8e6a74930bf076253f68907e0524a29d392ea62e",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/8e6a74930bf076253f68907e0524a29d392ea62e",
+          "created_at": "2020-05-06T20:56:55Z"
+        },
+        {
+          "id": 3310317606,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTAzMTc2MDY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310317606",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "40a31f726ff90fa470fe9ddf3c0135bc51ab6f18",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/40a31f726ff90fa470fe9ddf3c0135bc51ab6f18",
+          "created_at": "2020-05-06T21:13:25Z"
+        },
+        {
+          "id": 3310317611,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTAzMTc2MTE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310317611",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6eb2c7bbbacdc156fa2cb8665f1f2443b9d4d9d0",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/6eb2c7bbbacdc156fa2cb8665f1f2443b9d4d9d0",
+          "created_at": "2020-05-06T21:13:25Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 16.16,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/55",
+      "ticket": "10",
+      "done": true,
+      "id": "10-5ffba3e0",
+      "closed_at": "2020-05-14T16:15:20Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement MissingFillerIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/codexia/cron/MissingFillerIntegrationTest.java",
+      "lines": "18-18",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "MissingFillerIntegrationTest.java:18: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263723194,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIzMTk0",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263723194",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:11Z",
+          "project_card": {
+            "id": 36852969,
+            "url": "https://api.github.com/projects/columns/cards/36852969",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283552143,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NTIxNDM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283552143",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:32:26Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3332502588,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMzMjUwMjU4OA==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332502588",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-13T14:57:54Z",
+          "project_card": {
+            "id": 36852969,
+            "url": "https://api.github.com/projects/columns/cards/36852969",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3337323426,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzczMjM0MjY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3337323426",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8f4a7532cf99af9b4054e12a967ed5f07be20b50",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/8f4a7532cf99af9b4054e12a967ed5f07be20b50",
+          "created_at": "2020-05-14T16:03:23Z"
+        },
+        {
+          "id": 3337323434,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzczMjM0MzQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3337323434",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e4119cb50c8911ff68f8e9276dd5f9538eb05e65",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/e4119cb50c8911ff68f8e9276dd5f9538eb05e65",
+          "created_at": "2020-05-14T16:03:23Z"
+        },
+        {
+          "id": 3337323450,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzczMjM0NTA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3337323450",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2ae095d8bf07fd1bc5947daff07c39f6c22a2fce",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/2ae095d8bf07fd1bc5947daff07c39f6c22a2fce",
+          "created_at": "2020-05-14T16:03:24Z"
+        },
+        {
+          "id": 3337323455,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzczMjM0NTU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3337323455",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "66bdff3731ec71e3efcbd645ef118cab83f0e620",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/66bdff3731ec71e3efcbd645ef118cab83f0e620",
+          "created_at": "2020-05-14T16:03:24Z"
+        },
+        {
+          "id": 3337323464,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzczMjM0NjQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3337323464",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1dc72e4ceb8cc4c4227d3d5b03fce4d0f9107c62",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/1dc72e4ceb8cc4c4227d3d5b03fce4d0f9107c62",
+          "created_at": "2020-05-14T16:03:24Z"
+        },
+        {
+          "id": 3337323480,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzczMjM0ODA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3337323480",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f362f49ae4a917b04e5f0b466eb17b267c93c497",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/f362f49ae4a917b04e5f0b466eb17b267c93c497",
+          "created_at": "2020-05-14T16:03:24Z"
+        },
+        {
+          "id": 3337323488,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzczMjM0ODg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3337323488",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5ab14a18dcc505d7c605f2a57d131f624115ed51",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/5ab14a18dcc505d7c605f2a57d131f624115ed51",
+          "created_at": "2020-05-14T16:03:24Z"
+        },
+        {
+          "id": 3337373541,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzczNzM1NDE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3337373541",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4187d38b468c933bd302fa5c0b26680da21746eb",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/4187d38b468c933bd302fa5c0b26680da21746eb",
+          "created_at": "2020-05-14T16:14:58Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 11,
+      "time_to_resolution_days": 23.9,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/56",
+      "ticket": "10",
+      "done": true,
+      "id": "10-c5423926",
+      "closed_at": "2020-05-14T16:15:26Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement ResendErroneousReviewsIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/codexia/cron/ResendErroneousReviewsIntegrationTest.java",
+      "lines": "18-18",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "ResendErroneousReviewsIntegrationTest.java:18: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263723056,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIzMDU2",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263723056",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:08Z",
+          "project_card": {
+            "id": 36852966,
+            "url": "https://api.github.com/projects/columns/cards/36852966",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283551810,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NTE4MTA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283551810",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:32:20Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3332503040,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMzMjUwMzA0MA==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332503040",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-13T14:58:00Z",
+          "project_card": {
+            "id": 36852966,
+            "url": "https://api.github.com/projects/columns/cards/36852966",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 23.9,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/57",
+      "ticket": "10",
+      "done": true,
+      "id": "10-137a4b3c",
+      "closed_at": "2020-05-06T00:22:13Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement CodexiaParserIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/codexia/cron/CodexiaParserIntegrationTest.java",
+      "lines": "18-18",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "CodexiaParserIntegrationTest.java:18: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263722968,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIyOTY4",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263722968",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:06Z",
+          "project_card": {
+            "id": 36852961,
+            "url": "https://api.github.com/projects/columns/cards/36852961",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283551532,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NTE1MzI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283551532",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:32:16Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3304572801,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMwNDU3MjgwMQ==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3304572801",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-05T14:44:29Z",
+          "project_card": {
+            "id": 36852961,
+            "url": "https://api.github.com/projects/columns/cards/36852961",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3305239839,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDUyMzk4Mzk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3305239839",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e38f4e9d729e198ca2c705738837fc55f700b5b0",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/e38f4e9d729e198ca2c705738837fc55f700b5b0",
+          "created_at": "2020-05-05T17:21:47Z"
+        },
+        {
+          "id": 3305239846,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDUyMzk4NDY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3305239846",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "da8fad244d2d40911709c628316887d0cf577c00",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/da8fad244d2d40911709c628316887d0cf577c00",
+          "created_at": "2020-05-05T17:21:47Z"
+        },
+        {
+          "id": 3305310676,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDUzMTA2NzY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3305310676",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "87c0c1a2cd9e1ae9c1f8219cc17151f7577b46e4",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/87c0c1a2cd9e1ae9c1f8219cc17151f7577b46e4",
+          "created_at": "2020-05-05T17:41:15Z"
+        },
+        {
+          "id": 3305310685,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDUzMTA2ODU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3305310685",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9f47584ed596bcd2025e766bcb02e291f641d160",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/9f47584ed596bcd2025e766bcb02e291f641d160",
+          "created_at": "2020-05-05T17:41:15Z"
+        },
+        {
+          "id": 3305316586,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDUzMTY1ODY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3305316586",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8bd1e1ddcc4d00a21a24a6b204083a40606d51f1",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/8bd1e1ddcc4d00a21a24a6b204083a40606d51f1",
+          "created_at": "2020-05-05T17:42:53Z"
+        },
+        {
+          "id": 3306310908,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDYzMTA5MDg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306310908",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1f88445b60032254671faca0bea4f2c5f2abe110",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/1f88445b60032254671faca0bea4f2c5f2abe110",
+          "created_at": "2020-05-05T22:57:41Z"
+        },
+        {
+          "id": 3306310910,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDYzMTA5MTA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306310910",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "25b743508f1bb7620be47f4d6a43fe70c2a7bda0",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/25b743508f1bb7620be47f4d6a43fe70c2a7bda0",
+          "created_at": "2020-05-05T22:57:41Z"
+        },
+        {
+          "id": 3306310914,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDYzMTA5MTQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306310914",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c76116e3d645c154ed94310a1338aab26c2590b1",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/c76116e3d645c154ed94310a1338aab26c2590b1",
+          "created_at": "2020-05-05T22:57:41Z"
+        },
+        {
+          "id": 3306310918,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDYzMTA5MTg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306310918",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3d607cd1bb4084461a9a21d9401bc06e7c820aea",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/3d607cd1bb4084461a9a21d9401bc06e7c820aea",
+          "created_at": "2020-05-05T22:57:41Z"
+        },
+        {
+          "id": 3306354944,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDYzNTQ5NDQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306354944",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a6e1d419e75bc4f9d19a19868d54ca51cd6e4c00",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/a6e1d419e75bc4f9d19a19868d54ca51cd6e4c00",
+          "created_at": "2020-05-05T23:19:03Z"
+        },
+        {
+          "id": 3306398519,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDYzOTg1MTk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306398519",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a153673260b4f0c3e1870e235e670479353348be",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/a153673260b4f0c3e1870e235e670479353348be",
+          "created_at": "2020-05-05T23:40:47Z"
+        },
+        {
+          "id": 3306398522,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDYzOTg1MjI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306398522",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "80fe873f15bfbbf57016021c8b4a6f37fef7e322",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/80fe873f15bfbbf57016021c8b4a6f37fef7e322",
+          "created_at": "2020-05-05T23:40:47Z"
+        },
+        {
+          "id": 3306458610,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDY0NTg2MTA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306458610",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d02470dd040b940dad2618f7a736ca8c2c849c6d",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/d02470dd040b940dad2618f7a736ca8c2c849c6d",
+          "created_at": "2020-05-06T00:12:12Z"
+        },
+        {
+          "id": 3306475811,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDY0NzU4MTE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3306475811",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a8d664dd390ee0cf1a9c924aeed83ba90a126a55",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/a8d664dd390ee0cf1a9c924aeed83ba90a126a55",
+          "created_at": "2020-05-06T00:22:00Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 17,
+      "time_to_resolution_days": 15.24,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/58",
+      "ticket": "10",
+      "done": true,
+      "id": "10-6d9090eb",
+      "closed_at": "2020-05-04T07:39:33Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement LinesOfCodeIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/github/cron/stat/LinesOfCodeIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "LinesOfCodeIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263722766,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIyNzY2",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263722766",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:19:02Z",
+          "project_card": {
+            "id": 36852957,
+            "url": "https://api.github.com/projects/columns/cards/36852957",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283551139,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NTExMzk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283551139",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:32:10Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3297798061,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTc3OTgwNjE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3297798061",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9210b97cf8220bfc26c6ab0a6236c538607dc0ee",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/9210b97cf8220bfc26c6ab0a6236c538607dc0ee",
+          "created_at": "2020-05-03T20:20:31Z"
+        },
+        {
+          "id": 3297798062,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTc3OTgwNjI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3297798062",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c01b932db479f49684c940c9a28f5dd040f5ffa4",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/c01b932db479f49684c940c9a28f5dd040f5ffa4",
+          "created_at": "2020-05-03T20:20:31Z"
+        },
+        {
+          "id": 3297847228,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTc4NDcyMjg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3297847228",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9b0c6378d5921972479c37dabc2d6e1600c5e6d9",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/9b0c6378d5921972479c37dabc2d6e1600c5e6d9",
+          "created_at": "2020-05-03T21:16:30Z"
+        },
+        {
+          "id": 3298605114,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTg2MDUxMTQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3298605114",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3946e031ed81e2cc03176210753629fcb5544755",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/3946e031ed81e2cc03176210753629fcb5544755",
+          "created_at": "2020-05-04T07:28:29Z"
+        },
+        {
+          "id": 3298642024,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTg2NDIwMjQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3298642024",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9aa5350ddd793c59a17e8c351e950372b71d8541",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/9aa5350ddd793c59a17e8c351e950372b71d8541",
+          "created_at": "2020-05-04T07:39:20Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 13.54,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/59",
+      "ticket": "10",
+      "done": true,
+      "id": "10-e69f73e3",
+      "closed_at": "2020-05-14T16:15:34Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement GithubIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/github/cron/stat/GithubIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "GithubIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263722610,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIyNjEw",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263722610",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:18:59Z",
+          "project_card": {
+            "id": 36852953,
+            "url": "https://api.github.com/projects/columns/cards/36852953",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283550812,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NTA4MTI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283550812",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:32:05Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 23.9,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/60",
+      "ticket": "10",
+      "done": true,
+      "id": "10-d5175438",
+      "closed_at": "2020-05-14T16:15:44Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement ParserIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/reddit/cron/ParserIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "ParserIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263722442,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIyNDQy",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263722442",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:18:56Z",
+          "project_card": {
+            "id": 36852952,
+            "url": "https://api.github.com/projects/columns/cards/36852952",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283546993,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NDY5OTM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283546993",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:31:06Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 23.9,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/61",
+      "ticket": "10",
+      "done": true,
+      "id": "10-f8a4ea3e",
+      "closed_at": "2020-05-13T14:55:56Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement RetryErroneousIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/hackernews/cron/RetryErroneousIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "RetryErroneousIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263722350,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIyMzUw",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263722350",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:18:53Z",
+          "project_card": {
+            "id": 36852948,
+            "url": "https://api.github.com/projects/columns/cards/36852948",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283545825,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NDU4MjU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283545825",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:30:50Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3332167145,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMzMjE2NzE0NQ==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332167145",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-13T13:48:52Z",
+          "project_card": {
+            "id": 36852948,
+            "url": "https://api.github.com/projects/columns/cards/36852948",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3332431714,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzI0MzE3MTQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332431714",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0a28f84364c2c86f76a03e6832d94f9146641f36",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/0a28f84364c2c86f76a03e6832d94f9146641f36",
+          "created_at": "2020-05-13T14:43:44Z"
+        },
+        {
+          "id": 3332490972,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzI0OTA5NzI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332490972",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8b8a6e04f318593a72c44764e1620475147edd00",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/8b8a6e04f318593a72c44764e1620475147edd00",
+          "created_at": "2020-05-13T14:55:34Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 22.85,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/62",
+      "ticket": "10",
+      "done": true,
+      "id": "10-a0a04470",
+      "closed_at": "2020-05-13T14:07:54Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement GapsFillerIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/hackernews/cron/GapsFillerIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "GapsFillerIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263722254,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIyMjU0",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263722254",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:18:52Z",
+          "project_card": {
+            "id": 36852947,
+            "url": "https://api.github.com/projects/columns/cards/36852947",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283545489,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NDU0ODk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283545489",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:30:45Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3331883136,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMzMTg4MzEzNg==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3331883136",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-13T12:44:40Z",
+          "project_card": {
+            "id": 36852947,
+            "url": "https://api.github.com/projects/columns/cards/36852947",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3332157887,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzIxNTc4ODc=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332157887",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "49410579d5c295ba802e94b9aec3ade0b2fd8fcd",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/49410579d5c295ba802e94b9aec3ade0b2fd8fcd",
+          "created_at": "2020-05-13T13:46:49Z"
+        },
+        {
+          "id": 3332157891,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzIxNTc4OTE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332157891",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6b0fdd7c7522d900a08022e9ab2eaa16ba92d788",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/6b0fdd7c7522d900a08022e9ab2eaa16ba92d788",
+          "created_at": "2020-05-13T13:46:49Z"
+        },
+        {
+          "id": 3332195761,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzIxOTU3NjE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332195761",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0992f6ea556fe682da522f756b1a510c85609b7e",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/0992f6ea556fe682da522f756b1a510c85609b7e",
+          "created_at": "2020-05-13T13:55:02Z"
+        },
+        {
+          "id": 3332254744,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzIyNTQ3NDQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332254744",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "913957c0cfa01fe7e27ae0391e4b18ef18ac5443",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/913957c0cfa01fe7e27ae0391e4b18ef18ac5443",
+          "created_at": "2020-05-13T14:07:38Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 22.81,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/63",
+      "ticket": "10",
+      "done": true,
+      "id": "10-3ebb1a8d",
+      "closed_at": "2020-04-23T10:35:51Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement ItemsHealthCheckIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/hackernews/cron/ItemsHealthCheckIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [],
+      "assignees": [],
+      "title": "ItemsHealthCheckIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263722120,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIyMTIw",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263722120",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:18:49Z",
+          "project_card": {
+            "id": 36852945,
+            "url": "https://api.github.com/projects/columns/cards/36852945",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 2.67,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/64",
+      "ticket": "10",
+      "done": true,
+      "id": "10-2ff894fd",
+      "closed_at": "2020-05-13T13:44:40Z",
+      "created_at": "2020-04-20T18:35:04Z",
+      "body": "Implement IncrementedParserIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/hackernews/cron/IncrementedParserIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "IncrementedParserIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3263721124,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjYzNzIxMTI0",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3263721124",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T07:18:32Z",
+          "project_card": {
+            "id": 36852928,
+            "url": "https://api.github.com/projects/columns/cards/36852928",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283542736,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1NDI3MzY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283542736",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:30:10Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3320710101,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMyMDcxMDEwMQ==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3320710101",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-10T21:25:03Z",
+          "project_card": {
+            "id": 36852928,
+            "url": "https://api.github.com/projects/columns/cards/36852928",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3331881548,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzE4ODE1NDg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3331881548",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "75801cb4f8d630ef5779a7441de6bde448c3f49d",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/75801cb4f8d630ef5779a7441de6bde448c3f49d",
+          "created_at": "2020-05-13T12:44:15Z"
+        },
+        {
+          "id": 3331881554,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzE4ODE1NTQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3331881554",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "245f400e8d32a5e726f0782a138d71c9de2b0dd2",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/245f400e8d32a5e726f0782a138d71c9de2b0dd2",
+          "created_at": "2020-05-13T12:44:15Z"
+        },
+        {
+          "id": 3332087715,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzIwODc3MTU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332087715",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1e6cd6bb253fcb09270de19b400a29c87d397deb",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/1e6cd6bb253fcb09270de19b400a29c87d397deb",
+          "created_at": "2020-05-13T13:31:23Z"
+        },
+        {
+          "id": 3332146997,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMzIxNDY5OTc=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3332146997",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b2df59c8b55fe8081b3438f93a8549a0cd1a1420",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/b2df59c8b55fe8081b3438f93a8549a0cd1a1420",
+          "created_at": "2020-05-13T13:44:26Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 22.8,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/167",
+      "ticket": "74",
+      "done": true,
+      "id": "74-721dfe5c",
+      "closed_at": "2020-05-17T16:22:28Z",
+      "created_at": "2020-05-07T09:47:14Z",
+      "body": "AllItems: get rid of this @Transactional spike to do so it's necessary to get rid of Stream<> in repository",
+      "file": "src/main/java/dev/iakunin/codexiabot/hackernews/cron/healthcheck/AllItems.java",
+      "lines": "23-24",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "AllItems.java:23-24: AllItems: get rid of this...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3312151054,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMzMTIxNTEwNTQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312151054",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-07T10:01:47Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3312151415,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMzEyMTUxNDE1",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312151415",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-07T10:01:52Z",
+          "project_card": {
+            "id": 37755528,
+            "url": "https://api.github.com/projects/columns/cards/37755528",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 10.27,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 1,
+      "parent_id": "66-1eb62372",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/168",
+      "ticket": "74",
+      "done": true,
+      "id": "74-fdc38b44",
+      "closed_at": "2020-05-17T16:22:33Z",
+      "created_at": "2020-05-07T09:47:14Z",
+      "body": "GapsFiller: get rid of this @Transactional spike to do so it's necessary to get rid of Stream<> in repository",
+      "file": "src/main/java/dev/iakunin/codexiabot/hackernews/cron/GapsFiller.java",
+      "lines": "26-27",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "GapsFiller.java:26-27: GapsFiller: get rid of this...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3312152010,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMzMTIxNTIwMTA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312152010",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-07T10:01:58Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3312152284,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMzEyMTUyMjg0",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312152284",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-07T10:02:00Z",
+          "project_card": {
+            "id": 37755540,
+            "url": "https://api.github.com/projects/columns/cards/37755540",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 10.27,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 1,
+      "parent_id": "66-1eb62372",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/74",
+      "ticket": "66",
+      "done": true,
+      "id": "66-1eb62372",
+      "closed_at": "2020-05-07T10:01:10Z",
+      "created_at": "2020-04-23T10:35:24Z",
+      "body": "Implement AllItemsIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/hackernews/cron/healthcheck/AllItemsIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "AllItemsIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3264471662,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjY0NDcxNjYy",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3264471662",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T10:40:12Z",
+          "project_card": {
+            "id": 36864945,
+            "url": "https://api.github.com/projects/columns/cards/36864945",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283534662,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1MzQ2NjI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283534662",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:28:43Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3310409723,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMxMDQwOTcyMw==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310409723",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-06T21:44:44Z",
+          "project_card": {
+            "id": 36864945,
+            "url": "https://api.github.com/projects/columns/cards/36864945",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3312098735,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTIwOTg3MzU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312098735",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9a6ef3b84c3cbfadf12201cfc4aa5a1ad6566af7",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/9a6ef3b84c3cbfadf12201cfc4aa5a1ad6566af7",
+          "created_at": "2020-05-07T09:47:43Z"
+        },
+        {
+          "id": 3312098738,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTIwOTg3Mzg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312098738",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5e0a84226070003d43162c5845ad615139dd98d0",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/5e0a84226070003d43162c5845ad615139dd98d0",
+          "created_at": "2020-05-07T09:47:43Z"
+        },
+        {
+          "id": 3312147668,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTIxNDc2Njg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312147668",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "497e15b048f64f0b33f05ce00988b12af82a899c",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/497e15b048f64f0b33f05ce00988b12af82a899c",
+          "created_at": "2020-05-07T10:00:55Z"
+        },
+        {
+          "id": 3312239246,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTIyMzkyNDY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312239246",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1ea24c7b32a0b0c1fe95fde06ec3e1fd919c0987",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/1ea24c7b32a0b0c1fe95fde06ec3e1fd919c0987",
+          "created_at": "2020-05-07T10:25:58Z"
+        },
+        {
+          "id": 3312273336,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTIyNzMzMzY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3312273336",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ef19e4f8417f5c9eaa803608d9e5c60666f481e7",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/ef19e4f8417f5c9eaa803608d9e5c60666f481e7",
+          "created_at": "2020-05-07T10:36:14Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 13.98,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/75",
+      "ticket": "66",
+      "done": true,
+      "id": "66-331f2e6f",
+      "closed_at": "2020-05-10T21:21:49Z",
+      "created_at": "2020-04-23T10:35:24Z",
+      "body": "Implement CodexiaItemsIntegrationTest",
+      "file": "src/test/java/dev/iakunin/codexiabot/hackernews/cron/healthcheck/CodexiaItemsIntegrationTest.java",
+      "lines": "11-11",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "CodexiaItemsIntegrationTest.java:11: Implement...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3264471547,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjY0NDcxNTQ3",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3264471547",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-23T10:40:09Z",
+          "project_card": {
+            "id": 36864944,
+            "url": "https://api.github.com/projects/columns/cards/36864944",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3283533186,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyODM1MzMxODY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3283533186",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-04-29T08:28:21Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3310409190,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMxMDQwOTE5MA==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310409190",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-06T21:44:31Z",
+          "project_card": {
+            "id": 36864944,
+            "url": "https://api.github.com/projects/columns/cards/36864944",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3320699036,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMjA2OTkwMzY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3320699036",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "605d4aab9c907891f5f3298a7807ad65559f1504",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/605d4aab9c907891f5f3298a7807ad65559f1504",
+          "created_at": "2020-05-10T21:10:34Z"
+        },
+        {
+          "id": 3320699039,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMjA2OTkwMzk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3320699039",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7d80600beed41a875a38f5743c3a52751e678981",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/7d80600beed41a875a38f5743c3a52751e678981",
+          "created_at": "2020-05-10T21:10:34Z"
+        },
+        {
+          "id": 3320707348,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMjA3MDczNDg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3320707348",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "390e354f7bb3308aa64a1cfd09b9288b36f9ea6f",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/390e354f7bb3308aa64a1cfd09b9288b36f9ea6f",
+          "created_at": "2020-05-10T21:21:29Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 17.45,
+      "estimate": "0",
+      "author": "Maksim Iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/130",
+      "ticket": "92",
+      "done": true,
+      "id": "92-3a978031",
+      "closed_at": "2020-05-03T15:58:54Z",
+      "created_at": "2020-04-30T12:08:20Z",
+      "body": "make this class generic `<T extends AbstractStat>`",
+      "file": "src/main/java/dev/iakunin/codexiabot/github/entity/GithubRepoStat.java",
+      "lines": "26-26",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "GithubRepoStat.java:26: make this class generic `<T...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3293636807,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyOTM2MzY4MDc=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3293636807",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-01T16:07:31Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3297557976,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTc1NTc5NzY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3297557976",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "20bec22a5725f00b5dbfafc526ab279cd94b7080",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/20bec22a5725f00b5dbfafc526ab279cd94b7080",
+          "created_at": "2020-05-03T15:58:18Z"
+        },
+        {
+          "id": 3297558374,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTc1NTgzNzQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3297558374",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6a637e6a95f0017a79b836fcf3446b2c24a42e07",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/6a637e6a95f0017a79b836fcf3446b2c24a42e07",
+          "created_at": "2020-05-03T15:58:41Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 3.16,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/131",
+      "ticket": "92",
+      "done": true,
+      "id": "92-312fe964",
+      "closed_at": "2020-05-06T17:11:59Z",
+      "created_at": "2020-04-30T16:52:49Z",
+      "body": "replace with FirstOf with 2-arg-ctor when it's merged to cactoos",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/toosmall/ExactItem.java",
+      "lines": "41-41",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "ExactItem.java:41: replace with FirstOf with 2-arg-ctor...",
+      "comments": [
+        {
+          "author": "iakunin",
+          "created_at": "2020-05-01T11:55:37Z",
+          "updated_at": "2020-05-01T11:55:37Z",
+          "body": "This issue is blocked by https://github.com/yegor256/cactoos/pull/1365",
+          "url": "https://github.com/iakunin/codexia-bot/issues/131#issuecomment-622359286",
+          "id": 622359286
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3293639070,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyOTM2MzkwNzA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3293639070",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-01T16:08:15Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 6.01,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/132",
+      "ticket": "92",
+      "done": true,
+      "id": "92-160d1a52",
+      "closed_at": "2020-05-06T17:12:06Z",
+      "created_at": "2020-04-30T16:52:49Z",
+      "body": "extract this class to cactoos and replace when it's merged",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/toosmall/ExactItem.java",
+      "lines": "85-85",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "ExactItem.java:85: extract this class to cactoos and...",
+      "comments": [
+        {
+          "author": "iakunin",
+          "created_at": "2020-05-01T11:55:19Z",
+          "updated_at": "2020-05-01T11:55:19Z",
+          "body": "This issue is blocked by https://github.com/yegor256/cactoos/pull/1366",
+          "url": "https://github.com/iakunin/codexia-bot/issues/132#issuecomment-622359221",
+          "id": 622359221
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3293639086,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyOTM2MzkwODY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3293639086",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-01T16:08:16Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 6.01,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/133",
+      "ticket": "92",
+      "done": true,
+      "id": "92-2cd03fd8",
+      "closed_at": "2020-05-02T12:51:21Z",
+      "created_at": "2020-04-30T17:48:12Z",
+      "body": "collapse all *CronConfig classes into as inner class of *",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/config/TooSmallCronConfig.java",
+      "lines": "13-13",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "TooSmallCronConfig.java:13: collapse all *CronConfig...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3293053499,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMjkzMDUzNDk5",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3293053499",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-01T12:30:41Z",
+          "project_card": {
+            "id": 37373202,
+            "url": "https://api.github.com/projects/columns/cards/37373202",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3293053632,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzI5MzA1MzYzMg==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3293053632",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-01T12:30:44Z",
+          "project_card": {
+            "id": 37373202,
+            "url": "https://api.github.com/projects/columns/cards/37373202",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3293639101,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyOTM2MzkxMDE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3293639101",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-01T16:08:16Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3295652949,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTU2NTI5NDk=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3295652949",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "79401b136f40118a032421a740fef7dd2541cc20",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/79401b136f40118a032421a740fef7dd2541cc20",
+          "created_at": "2020-05-02T12:08:20Z"
+        },
+        {
+          "id": 3295747644,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTU3NDc2NDQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3295747644",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "eb455118f3741578fb3ad583fceb61d804d04cba",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/eb455118f3741578fb3ad583fceb61d804d04cba",
+          "created_at": "2020-05-02T12:34:30Z"
+        },
+        {
+          "id": 3295808540,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMyOTU4MDg1NDA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3295808540",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "60fd4b203b0774eda100fe86616e5f3511b59c3f",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/60fd4b203b0774eda100fe86616e5f3511b59c3f",
+          "created_at": "2020-05-02T12:51:08Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 1.79,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/134",
+      "ticket": "92",
+      "done": true,
+      "id": "92-4d3ad9b9",
+      "closed_at": "2020-05-06T19:46:09Z",
+      "created_at": "2020-05-01T10:54:29Z",
+      "body": "Small: add test case with transaction rollback",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/Small.java",
+      "lines": "98-98",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "Small.java:98: Small: add test case with transaction...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3293639116,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyOTM2MzkxMTY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3293639116",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-01T16:08:16Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3309491494,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMzA5NDkxNDk0",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3309491494",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-06T17:19:13Z",
+          "project_card": {
+            "id": 37705904,
+            "url": "https://api.github.com/projects/columns/cards/37705904",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3309491681,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzMwOTQ5MTY4MQ==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3309491681",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-06T17:19:16Z",
+          "project_card": {
+            "id": 37705904,
+            "url": "https://api.github.com/projects/columns/cards/37705904",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3309885094,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMDk4ODUwOTQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3309885094",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0ef58b3ae13a7872548af82be6212b3a44990b47",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/0ef58b3ae13a7872548af82be6212b3a44990b47",
+          "created_at": "2020-05-06T19:03:55Z"
+        },
+        {
+          "id": 3310025954,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTAwMjU5NTQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310025954",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5fceffc6ef4b7d4eafd5099518d44c9427b031f1",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/5fceffc6ef4b7d4eafd5099518d44c9427b031f1",
+          "created_at": "2020-05-06T19:45:40Z"
+        },
+        {
+          "id": 3310026763,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzMTAwMjY3NjM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3310026763",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "aebeae22275801f99cbf0f40c1ad6872c9e38ec8",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/aebeae22275801f99cbf0f40c1ad6872c9e38ec8",
+          "created_at": "2020-05-06T19:45:56Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 5.37,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/140",
+      "ticket": "136",
+      "done": true,
+      "id": "136-5f5351ff",
+      "closed_at": "2020-05-06T17:12:12Z",
+      "created_at": "2020-05-02T10:30:11Z",
+      "body": "replace this class with just ScalarWithFallback when `cactoos` new version is released",
+      "file": "src/main/java/dev/iakunin/codexiabot/bot/toosmall/FallbackFromNull.java",
+      "lines": "8-9",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "FallbackFromNull.java:8-9: replace this class with just...",
+      "comments": [
+        {
+          "author": "iakunin",
+          "created_at": "2020-05-02T10:58:45Z",
+          "updated_at": "2020-05-02T10:58:45Z",
+          "body": "Is blocked by https://github.com/yegor256/cactoos/pull/1369",
+          "url": "https://github.com/iakunin/codexia-bot/issues/140#issuecomment-622935308",
+          "id": 622935308
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3295559592,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMyOTU1NTk1OTI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3295559592",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-02T11:42:09Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 4.28,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/198",
+      "ticket": "186",
+      "done": true,
+      "id": "186-f76ca369",
+      "closed_at": "2020-05-17T14:27:05Z",
+      "created_at": "2020-05-17T09:51:37Z",
+      "body": "CodexiaReviewRepository: Get rid of this query completely",
+      "file": "src/main/java/dev/iakunin/codexiabot/codexia/repository/CodexiaReviewRepository.java",
+      "lines": "24-24",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "CodexiaReviewRepository.java:24: CodexiaReviewRepository:...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3344503479,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMzQ0NTAzNDc5",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344503479",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-17T12:37:32Z",
+          "project_card": {
+            "id": 38373159,
+            "url": "https://api.github.com/projects/columns/cards/38373159",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3344503540,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzM0NDUwMzU0MA==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344503540",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-17T12:37:35Z",
+          "project_card": {
+            "id": 38373159,
+            "url": "https://api.github.com/projects/columns/cards/38373159",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3344503891,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMzNDQ1MDM4OTE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344503891",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-17T12:38:02Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3344580656,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ1ODA2NTY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344580656",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "932fab196634ac3a12e2974812216fb2712f8b45",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/932fab196634ac3a12e2974812216fb2712f8b45",
+          "created_at": "2020-05-17T14:04:32Z"
+        },
+        {
+          "id": 3344580658,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ1ODA2NTg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344580658",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "83e0143c4a15c13222cb5acee83091aaceec4582",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/83e0143c4a15c13222cb5acee83091aaceec4582",
+          "created_at": "2020-05-17T14:04:32Z"
+        },
+        {
+          "id": 3344582036,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ1ODIwMzY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344582036",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "925e08c5a987531887316093cd37ba133513974b",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/925e08c5a987531887316093cd37ba133513974b",
+          "created_at": "2020-05-17T14:05:59Z"
+        },
+        {
+          "id": 3344601418,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ2MDE0MTg=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344601418",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "79b4418a9227f8c84b445ff3870b1486ade9d459",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/79b4418a9227f8c84b445ff3870b1486ade9d459",
+          "created_at": "2020-05-17T14:26:53Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 0.19,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/199",
+      "ticket": "186",
+      "done": true,
+      "id": "186-4b57b47d",
+      "closed_at": "2020-05-17T16:22:39Z",
+      "created_at": "2020-05-17T09:51:37Z",
+      "body": "GapsFiller get rid of this heavy SQL",
+      "file": "src/main/java/dev/iakunin/codexiabot/hackernews/cron/GapsFiller.java",
+      "lines": "31-31",
+      "labels": [
+        "tech-debt"
+      ],
+      "assignees": [],
+      "title": "GapsFiller.java:31: GapsFiller get rid of this heavy SQL",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 3344503663,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMzQ0NTAzNjYz",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344503663",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-17T12:37:45Z",
+          "project_card": {
+            "id": 38373166,
+            "url": "https://api.github.com/projects/columns/cards/38373166",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3344503775,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzM0NDUwMzc3NQ==",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344503775",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-17T12:37:54Z",
+          "project_card": {
+            "id": 38373166,
+            "url": "https://api.github.com/projects/columns/cards/38373166",
+            "project_id": 4371623,
+            "project_url": "https://api.github.com/projects/4371623",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3344503933,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMzNDQ1MDM5MzM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344503933",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-05-17T12:38:04Z",
+          "label": {
+            "name": "tech-debt",
+            "color": "fce40c"
+          }
+        },
+        {
+          "id": 3344695991,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ2OTU5OTE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344695991",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "eb9f621e97caf1c47b8805c9e58946782cf093ff",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/eb9f621e97caf1c47b8805c9e58946782cf093ff",
+          "created_at": "2020-05-17T16:06:59Z"
+        },
+        {
+          "id": 3344695993,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ2OTU5OTM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344695993",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "90411c36757256567ef381d26ede1ddf30a3d232",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/90411c36757256567ef381d26ede1ddf30a3d232",
+          "created_at": "2020-05-17T16:06:59Z"
+        },
+        {
+          "id": 3344700507,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ3MDA1MDc=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344700507",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7df979fd2f1822307547acbf12b06acae7646466",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/7df979fd2f1822307547acbf12b06acae7646466",
+          "created_at": "2020-05-17T16:11:48Z"
+        },
+        {
+          "id": 3344710605,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ3MTA2MDU=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344710605",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dfc5afdd792d3d0d2f5f0ee21e4e7aea0634693d",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/dfc5afdd792d3d0d2f5f0ee21e4e7aea0634693d",
+          "created_at": "2020-05-17T16:22:15Z"
+        },
+        {
+          "id": 3344811546,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ4MTE1NDY=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344811546",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "37b7560378cbdb80a1c69e18adf1d5ccf293ba6b",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/37b7560378cbdb80a1c69e18adf1d5ccf293ba6b",
+          "created_at": "2020-05-17T18:29:40Z"
+        },
+        {
+          "id": 3344811550,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ4MTE1NTA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344811550",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a1016d8ee39a5ddf61598be50de49397607ed321",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/a1016d8ee39a5ddf61598be50de49397607ed321",
+          "created_at": "2020-05-17T18:29:40Z"
+        },
+        {
+          "id": 3344811552,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ4MTE1NTI=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344811552",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "caf7144ed4d2a17bdd4e83af59da6e673d810a30",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/caf7144ed4d2a17bdd4e83af59da6e673d810a30",
+          "created_at": "2020-05-17T18:29:40Z"
+        },
+        {
+          "id": 3344811554,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ4MTE1NTQ=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344811554",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "547cd823638e193f5cbb4a0169cd5d02a7576681",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/547cd823638e193f5cbb4a0169cd5d02a7576681",
+          "created_at": "2020-05-17T18:29:40Z"
+        },
+        {
+          "id": 3344811557,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ4MTE1NTc=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344811557",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2a74982d12ab3948f2d145c78fab1f538315d657",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/2a74982d12ab3948f2d145c78fab1f538315d657",
+          "created_at": "2020-05-17T18:29:40Z"
+        },
+        {
+          "id": 3344811560,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ4MTE1NjA=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344811560",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9e5cdff80152c60d4e07a081880f5f5a2523910d",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/9e5cdff80152c60d4e07a081880f5f5a2523910d",
+          "created_at": "2020-05-17T18:29:41Z"
+        },
+        {
+          "id": 3344811561,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ4MTE1NjE=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344811561",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "80d48f328ec75f6f7b137b789455c2987c17555e",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/80d48f328ec75f6f7b137b789455c2987c17555e",
+          "created_at": "2020-05-17T18:29:41Z"
+        },
+        {
+          "id": 3344811563,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMzNDQ4MTE1NjM=",
+          "url": "https://api.github.com/repos/iakunin/codexia-bot/issues/events/3344811563",
+          "actor": {
+            "id": 10430347,
+            "url": "https://api.github.com/users/iakunin",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4cdbb30bc6529b7d0a8d72a43dd29eb0046eba2e",
+          "commit_url": "https://api.github.com/repos/iakunin/codexia-bot/commits/4cdbb30bc6529b7d0a8d72a43dd29eb0046eba2e",
+          "created_at": "2020-05-17T18:29:41Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 15,
+      "time_to_resolution_days": 0.27,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/iakunin/codexia-bot",
+      "issue_link": "https://github.com/iakunin/codexia-bot/issues/205",
+      "ticket": "150",
+      "done": true,
+      "id": "150-f69aa10e",
+      "closed_at": "2020-05-18T19:57:22Z",
+      "created_at": "2020-05-17T17:53:54Z",
+      "body": "writer should be fault tolerant",
+      "file": "src/main/java/dev/iakunin/codexiabot/codexia/cron/CodexiaParser.java",
+      "lines": "39-39",
+      "labels": [],
+      "assignees": [],
+      "title": "CodexiaParser.java:39: writer should be fault tolerant",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 1.09,
+      "estimate": "0",
+      "author": "iakunin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 16,
+  "project_forks": 2,
+  "project_contributors_count": 4,
+  "first_issue_date": "2020-04-13T09:00:25Z",
+  "last_issue_date": "2020-05-17T17:53:54Z"
+}

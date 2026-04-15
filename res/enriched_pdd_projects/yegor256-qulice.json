@@ -1,0 +1,533 @@
+{
+  "project_link": "https://github.com/yegor256/qulice",
+  "issues_count": 9,
+  "issues": [
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1116",
+      "ticket": "544",
+      "done": true,
+      "id": "544-c37b2cc3",
+      "closed_at": "2023-01-10T07:52:21Z",
+      "created_at": "2022-08-03T14:32:17Z",
+      "body": "Tests below pass only when run sequentially, when they are run in parallel some of them start to fail. Please fix the tests below and remove override of maven-surefire-plugin configuration in qulice-pmd pom.xml",
+      "file": "qulice-pmd/src/test/java/com/qulice/pmd/PmdEmptyTest.java",
+      "lines": "38-40",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "PmdEmptyTest.java:38-40: Tests below pass only when run...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7119754581,
+          "node_id": "MEE_lADOAJIuiM5PHsjQzwAAAAGoXtVV",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/7119754581",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-08-03T15:33:19Z"
+        },
+        {
+          "id": 7119754587,
+          "node_id": "SE_lADOAJIuiM5PHsjQzwAAAAGoXtVb",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/7119754587",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-08-03T15:33:19Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 159.72,
+      "estimate": "30",
+      "author": "@Graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1119",
+      "ticket": "123",
+      "done": true,
+      "id": "123-1f09aa3b",
+      "closed_at": "2023-12-12T12:49:03Z",
+      "created_at": "2022-08-03T14:32:17Z",
+      "body": "Make this better in multiple lines but different.",
+      "file": "qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Brackets.java",
+      "lines": "41-42",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "Brackets.java:41-42: Make this better in multiple lines...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11223100647,
+          "node_id": "CE_lADOAJIuiM5PHsqezwAAAAKc8uzn",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/11223100647",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-12-12T12:48:30Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 495.93,
+      "estimate": "0",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1120",
+      "ticket": "123",
+      "done": true,
+      "id": "123-b644cf22",
+      "closed_at": "2023-12-12T12:49:08Z",
+      "created_at": "2022-08-03T14:32:17Z",
+      "body": "Make this better in multiple lines.",
+      "file": "qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Brackets.java",
+      "lines": "64-65",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "Brackets.java:64-65: Make this better in multiple lines.",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 495.93,
+      "estimate": "0",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1121",
+      "ticket": "123",
+      "done": true,
+      "id": "123-cfed8d02",
+      "closed_at": "2023-12-12T12:49:13Z",
+      "created_at": "2022-08-03T14:32:17Z",
+      "body": "This is also valid.",
+      "file": "qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Pdd.java",
+      "lines": "7-7",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "Pdd.java:7: This is also valid.",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 495.93,
+      "estimate": "120",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1122",
+      "ticket": "123",
+      "done": true,
+      "id": "123-5357374c",
+      "closed_at": "2023-12-12T12:49:17Z",
+      "created_at": "2022-08-03T14:32:17Z",
+      "body": "Here we should capture also another line.",
+      "file": "qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Pdd.java",
+      "lines": "24-25",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "Pdd.java:24-25: Here we should capture also another line.",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 495.93,
+      "estimate": "0",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1128",
+      "ticket": "411",
+      "done": true,
+      "id": "411-71c8871e",
+      "closed_at": "2022-12-20T03:26:24Z",
+      "created_at": "2022-08-03T14:32:17Z",
+      "body": "Sample code provided in #411 should be considered as invalid. Find a way how to do that by either custom check, or updating Checkstyle whenever IndentationCheck there will be more reliable. As for Checkstyle 6.15 there's no ready solution for that. Right now Qulice allows both correct and incorrect code from #411.",
+      "file": "qulice-checkstyle/src/test/java/com/qulice/checkstyle/CheckstyleValidatorTest.java",
+      "lines": "459-463",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "CheckstyleValidatorTest.java:459-463: Sample code...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 8074613613,
+          "node_id": "CE_lADOAJIuiM5PHt6WzwAAAAHhSNNt",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/8074613613",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-12-20T03:26:17Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 138.54,
+      "estimate": "30",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1180",
+      "ticket": "1148",
+      "done": true,
+      "id": "1148-d8923598",
+      "closed_at": "2023-11-29T22:13:57Z",
+      "created_at": "2023-06-25T14:36:32Z",
+      "body": "Avoid branchContains usages in checks and delete this class",
+      "file": "qulice-checkstyle/src/main/java/com/qulice/checkstyle/BranchContains.java",
+      "lines": "44-44",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "BranchContains.java:44: Avoid branchContains usages in...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10479402152,
+          "node_id": "MEE_lADOAJIuiM5yGCjVzwAAAAJwnvyo",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/10479402152",
+          "actor": {
+            "id": 45946541,
+            "url": "https://api.github.com/users/blablatdinov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-09-26T19:42:53Z"
+        },
+        {
+          "id": 10479402160,
+          "node_id": "SE_lADOAJIuiM5yGCjVzwAAAAJwnvyw",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/10479402160",
+          "actor": {
+            "id": 45946541,
+            "url": "https://api.github.com/users/blablatdinov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-09-26T19:42:53Z"
+        },
+        {
+          "id": 11086190869,
+          "node_id": "CE_lADOAJIuiM5yGCjVzwAAAAKUydkV",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/11086190869",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-28T16:45:38Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 157.32,
+      "estimate": "0",
+      "author": "@blablatdinov",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1181",
+      "ticket": "1148",
+      "done": true,
+      "id": "1148-0feabb8c",
+      "closed_at": "2023-11-21T11:58:46Z",
+      "created_at": "2023-06-25T14:36:32Z",
+      "body": "Avoid equalsTree usages in checks and delete this class",
+      "file": "qulice-checkstyle/src/main/java/com/qulice/checkstyle/EqualsTree.java",
+      "lines": "46-46",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "EqualsTree.java:46: Avoid equalsTree usages in checks and...",
+      "comments": [
+        {
+          "author": "k3p7i3",
+          "created_at": "2023-11-14T12:03:45Z",
+          "updated_at": "2023-11-14T12:03:45Z",
+          "body": "@blablatdinov Please, could you explain, do we really need to delete EqualsTree class? Can't think of better alternative for recursive tree comparison.",
+          "url": "https://github.com/yegor256/qulice/issues/1181#issuecomment-1810078233",
+          "id": 1810078233
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10479402954,
+          "node_id": "MEE_lADOAJIuiM5yGCldzwAAAAJwnv_K",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/10479402954",
+          "actor": {
+            "id": 45946541,
+            "url": "https://api.github.com/users/blablatdinov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-09-26T19:42:58Z"
+        },
+        {
+          "id": 10479402963,
+          "node_id": "SE_lADOAJIuiM5yGCldzwAAAAJwnv_T",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/10479402963",
+          "actor": {
+            "id": 45946541,
+            "url": "https://api.github.com/users/blablatdinov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-09-26T19:42:58Z"
+        },
+        {
+          "id": 10953779760,
+          "node_id": "MEE_lADOAJIuiM5yGCldzwAAAAKM5Wow",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/10953779760",
+          "actor": {
+            "id": 45946541,
+            "url": "https://api.github.com/users/blablatdinov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-14T12:03:45Z"
+        },
+        {
+          "id": 10953779772,
+          "node_id": "SE_lADOAJIuiM5yGCldzwAAAAKM5Wo8",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/10953779772",
+          "actor": {
+            "id": 45946541,
+            "url": "https://api.github.com/users/blablatdinov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-14T12:03:45Z"
+        },
+        {
+          "id": 11023419956,
+          "node_id": "CE_lADOAJIuiM5yGCldzwAAAAKRDAo0",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/11023419956",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-11-21T11:58:19Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 148.89,
+      "estimate": "0",
+      "author": "@blablatdinov",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/yegor256/qulice",
+      "issue_link": "https://github.com/yegor256/qulice/issues/1193",
+      "ticket": "1129",
+      "done": true,
+      "id": "1129-a60b2495",
+      "closed_at": "2024-02-01T03:16:34Z",
+      "created_at": "2024-01-16T01:17:41Z",
+      "body": "Replace not+empty() with more precise containsInAnyOrder @throws Exception If something wrong happens inside.",
+      "file": "qulice-pmd/src/test/java/com/qulice/pmd/PmdValidatorTest.java",
+      "lines": "130-131",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "PmdValidatorTest.java:130-131: Replace not+empty() with...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 11663974935,
+          "node_id": "CE_lADOAJIuiM58JgfbzwAAAAK3OiIX",
+          "url": "https://api.github.com/repos/yegor256/qulice/issues/events/11663974935",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-02-01T03:16:18Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 16.08,
+      "estimate": "0",
+      "author": "Yegor Bugayenko",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 314,
+  "project_forks": 119,
+  "project_contributors_count": 71,
+  "first_issue_date": "2022-08-03T14:32:17Z",
+  "last_issue_date": "2024-01-16T01:17:41Z"
+}

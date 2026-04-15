@@ -1,0 +1,3002 @@
+{
+  "project_link": "https://github.com/dgroup/arch4u-pmd",
+  "issues_count": 21,
+  "issues": [
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/6",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-8084d74e",
+      "closed_at": "2022-01-22T11:47:31Z",
+      "created_at": "2022-01-07T12:37:05Z",
+      "body": "Configure the deployment to dev maven repository in Github in order to work with RC and snapshots. The dev repo should be Github for master branch + bugfix branches if needed. As a plan B, we can consider promoting using Nexus+OSSRH: https://help.sonatype.com/repomanager2/staging-releases/staging-overview https://help.sonatype.com/repomanager2/staging-releases/configuring-your-project-for-deployment https://nvie.com/posts/a-successful-git-branching-model https://github.com/nvie/gitflow https://gist.github.com/lemiorhan/97b4f827c08aed58a9d8 https://github.com/jgitver/jgitver https://danielkummer.github.io/git-flow-cheatsheet/index.html",
+      "file": ".rultor.yml",
+      "lines": "9-18",
+      "labels": [],
+      "assignees": [],
+      "title": "Configure the deployment to dev maven repository in Github in order to work with RC and snapshots. The dev repo should be Github for master branch + bugfix branches if needed. As a plan B, we can consider promoting using Nexus+OSSRH:...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5857646672,
+          "node_id": "MEE_lADOGn93Lc5BV-2WzwAAAAFdJJhQ",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857646672",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:37:17Z"
+        },
+        {
+          "id": 5857646674,
+          "node_id": "SE_lADOGn93Lc5BV-2WzwAAAAFdJJhS",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857646674",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:37:17Z"
+        },
+        {
+          "id": 5937009095,
+          "node_id": "MIE_lADOGn93Lc5BV-2WzwAAAAFh35HH",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937009095",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T14:53:51Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 14.97,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/7",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-138e429d",
+      "closed_at": "2022-01-22T11:47:35Z",
+      "created_at": "2022-01-07T12:37:05Z",
+      "body": "Replace key by real one, generated for arch4u-pmd project",
+      "file": ".rultor.yml",
+      "lines": "20-20",
+      "labels": [],
+      "assignees": [],
+      "title": "Replace key by real one, generated for arch4u-pmd project",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5857647139,
+          "node_id": "MEE_lADOGn93Lc5BV-4FzwAAAAFdJJoj",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857647139",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:37:24Z"
+        },
+        {
+          "id": 5857647143,
+          "node_id": "SE_lADOGn93Lc5BV-4FzwAAAAFdJJon",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857647143",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:37:24Z"
+        },
+        {
+          "id": 5936654247,
+          "node_id": "MIE_lADOGn93Lc5BV-4FzwAAAAFh2ien",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5936654247",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T11:37:31Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 5936678625,
+          "node_id": "REFE_lADOGn93Lc5BV-4FzwAAAAFh2obh",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5936678625",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bbec3819dd3cc3ecd650f307ebabe2b5e9d75a5e",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/bbec3819dd3cc3ecd650f307ebabe2b5e9d75a5e",
+          "created_at": "2022-01-22T11:47:17Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 14.97,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/8",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-0529dd2e",
+      "closed_at": "2022-01-22T15:02:29Z",
+      "created_at": "2022-01-07T12:37:05Z",
+      "body": "Setup code code quality 3rd-party services and add badge to the readme.md -->",
+      "file": "pom.xml",
+      "lines": "32-32",
+      "labels": [],
+      "assignees": [],
+      "title": "Setup code code quality 3rd-party services and add badge to the readme.md -->",
+      "comments": [
+        {
+          "author": "dgroup",
+          "created_at": "2022-01-22T12:42:41Z",
+          "updated_at": "2022-01-22T12:42:41Z",
+          "body": "All services are activated.",
+          "url": "https://github.com/dgroup/arch4u-pmd/issues/8#issuecomment-1019240329",
+          "id": 1019240329
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 5857647487,
+          "node_id": "MEE_lADOGn93Lc5BV-5BzwAAAAFdJJt_",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857647487",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:37:29Z"
+        },
+        {
+          "id": 5857647491,
+          "node_id": "SE_lADOGn93Lc5BV-5BzwAAAAFdJJuD",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857647491",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:37:29Z"
+        },
+        {
+          "id": 5860548702,
+          "node_id": "REFE_lADOGn93Lc5BV-5BzwAAAAFdUOBe",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5860548702",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bfa7d27aa823c7bb192a77ae62a07b043b0f4f44",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/bfa7d27aa823c7bb192a77ae62a07b043b0f4f44",
+          "created_at": "2022-01-08T00:24:44Z"
+        },
+        {
+          "id": 5860561996,
+          "node_id": "REFE_lADOGn93Lc5BV-5BzwAAAAFdURRM",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5860561996",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5fba048759ca09cfd6ac052f14a153cb0f184a3e",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/5fba048759ca09cfd6ac052f14a153cb0f184a3e",
+          "created_at": "2022-01-08T00:32:08Z"
+        },
+        {
+          "id": 5868259040,
+          "node_id": "REFE_lADOGn93Lc5BV-5BzwAAAAFdxobg",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5868259040",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "128b0d1b528d353b387b5e02b5cc9c0704855153",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/128b0d1b528d353b387b5e02b5cc9c0704855153",
+          "created_at": "2022-01-10T19:20:55Z"
+        },
+        {
+          "id": 5937004089,
+          "node_id": "REFE_lADOGn93Lc5BV-5BzwAAAAFh3345",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937004089",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6962a57460d7fbee22136f95bbd95b0fdfcaf827",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/6962a57460d7fbee22136f95bbd95b0fdfcaf827",
+          "created_at": "2022-01-22T14:49:09Z"
+        },
+        {
+          "id": 5937008556,
+          "node_id": "MIE_lADOGn93Lc5BV-5BzwAAAAFh34-s",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937008556",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T14:53:18Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 15.1,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/12",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-293e89ed",
+      "closed_at": "2022-01-08T00:19:56Z",
+      "created_at": "2022-01-07T12:37:05Z",
+      "body": "Set up jdk 1.8 for CI/CD",
+      "file": ".github/workflows/build.yml",
+      "lines": "15-15",
+      "labels": [],
+      "assignees": [],
+      "title": "Set up jdk 1.8 for CI/CD",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5857648876,
+          "node_id": "MEE_lADOGn93Lc5BV-9RzwAAAAFdJKDs",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857648876",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:37:52Z"
+        },
+        {
+          "id": 5857648882,
+          "node_id": "SE_lADOGn93Lc5BV-9RzwAAAAFdJKDy",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857648882",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:37:52Z"
+        },
+        {
+          "id": 5857676442,
+          "node_id": "REFE_lADOGn93Lc5BV-9RzwAAAAFdJQya",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857676442",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6bda61ed17304cf26d98198aeb1367ea13865f4a",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/6bda61ed17304cf26d98198aeb1367ea13865f4a",
+          "created_at": "2022-01-07T12:45:08Z"
+        },
+        {
+          "id": 5857688621,
+          "node_id": "REFE_lADOGn93Lc5BV-9RzwAAAAFdJTwt",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857688621",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a115fa4cb386e442edc61f262eba7b341afb5466",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/a115fa4cb386e442edc61f262eba7b341afb5466",
+          "created_at": "2022-01-07T12:48:07Z"
+        },
+        {
+          "id": 5857715803,
+          "node_id": "REFE_lADOGn93Lc5BV-9RzwAAAAFdJaZb",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857715803",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0f1eca0963361f3d2dce81b4fcdf75423f164a6a",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/0f1eca0963361f3d2dce81b4fcdf75423f164a6a",
+          "created_at": "2022-01-07T12:55:13Z"
+        },
+        {
+          "id": 5860572365,
+          "node_id": "MIE_lADOGn93Lc5BV-9RzwAAAAFdUTzN",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5860572365",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-08T00:38:27Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 0.49,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/13",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-508fa6be",
+      "closed_at": "2022-02-08T21:12:52Z",
+      "created_at": "2022-01-07T12:45:05Z",
+      "body": "Write minimalistic/laconic project overview in readme.md -->",
+      "file": "pom.xml",
+      "lines": "31-31",
+      "labels": [],
+      "assignees": [
+        "dgroup"
+      ],
+      "title": "Write minimalistic/laconic project overview in readme.md -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5857676818,
+          "node_id": "MEE_lADOGn93Lc5BWALNzwAAAAFdJQ4S",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857676818",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:45:14Z"
+        },
+        {
+          "id": 5857676822,
+          "node_id": "SE_lADOGn93Lc5BWALNzwAAAAFdJQ4W",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857676822",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:45:14Z"
+        },
+        {
+          "id": 5937008565,
+          "node_id": "MIE_lADOGn93Lc5BWALNzwAAAAFh34-1",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937008565",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T14:53:18Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6015604745,
+          "node_id": "AE_lADOGn93Lc5BWALNzwAAAAFmjtgJ",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6015604745",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-06T22:06:00Z",
+          "assignee": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 32.35,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/35",
+      "ticket": "14",
+      "done": true,
+      "id": "14-0acc3693",
+      "closed_at": "2022-01-30T13:15:26Z",
+      "created_at": "2022-01-22T15:10:26Z",
+      "body": "Include this file into 'arch4u-ruleset.xml' once task #14 is done -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-thirdpary-ruleset.xml",
+      "lines": "35-35",
+      "labels": [],
+      "assignees": [],
+      "title": "arch4u-recommended-thirdpary-ruleset.xml:35: Include this file into 'arch4u-ruleset.xml' once task #14 is done -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5937028707,
+          "node_id": "MEE_lADOGn93Lc5CQZBYzwAAAAFh395j",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937028707",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T15:10:36Z"
+        },
+        {
+          "id": 5937028711,
+          "node_id": "SE_lADOGn93Lc5CQZBYzwAAAAFh395n",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937028711",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T15:10:36Z"
+        },
+        {
+          "id": 5937028915,
+          "node_id": "MIE_lADOGn93Lc5CQZBYzwAAAAFh398z",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937028915",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T15:10:47Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 5976304656,
+          "node_id": "COE_lADOGn93Lc5CQZBYzwAAAAFkNywQ",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5976304656",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "connected",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-30T13:11:53Z"
+        },
+        {
+          "id": 5976307843,
+          "node_id": "CE_lADOGn93Lc5CQZBYzwAAAAFkNziD",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5976307843",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-30T13:15:06Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 7.92,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 1,
+      "parent_id": "DEV-187cd84d",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/14",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-187cd84d",
+      "closed_at": "2022-02-03T22:42:58Z",
+      "created_at": "2022-01-07T12:48:02Z",
+      "body": "Define ruleset with third-party basic PMD rules -->",
+      "file": "pom.xml",
+      "lines": "28-28",
+      "labels": [],
+      "assignees": [],
+      "title": "Define ruleset with third-party basic PMD rules -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5857689004,
+          "node_id": "MEE_lADOGn93Lc5BWAqszwAAAAFdJT2s",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857689004",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:48:13Z"
+        },
+        {
+          "id": 5857689005,
+          "node_id": "SE_lADOGn93Lc5BWAqszwAAAAFdJT2t",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857689005",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:48:13Z"
+        },
+        {
+          "id": 5937007693,
+          "node_id": "MIE_lADOGn93Lc5BWAqszwAAAAFh34xN",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937007693",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T14:52:26Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 5976304025,
+          "node_id": "REFE_lADOGn93Lc5BWAqszwAAAAFkNymZ",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5976304025",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "28c7ba5198875d3ced27a943b9d7862b2f3f37eb",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/28c7ba5198875d3ced27a943b9d7862b2f3f37eb",
+          "created_at": "2022-01-30T13:11:16Z"
+        },
+        {
+          "id": 5976304651,
+          "node_id": "COE_lADOGn93Lc5BWAqszwAAAAFkNywL",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5976304651",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "connected",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-30T13:11:53Z"
+        },
+        {
+          "id": 5976307837,
+          "node_id": "CE_lADOGn93Lc5BWAqszwAAAAFkNzh9",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5976307837",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-30T13:15:06Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 27.41,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/15",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-61e86f59",
+      "closed_at": "2022-02-03T22:43:01Z",
+      "created_at": "2022-01-07T12:48:02Z",
+      "body": "Define arch4u-pmd ruleset that includes third-party rules and new rules -->",
+      "file": "pom.xml",
+      "lines": "30-30",
+      "labels": [],
+      "assignees": [],
+      "title": "Define arch4u-pmd ruleset that includes third-party rules and new rules -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5857689400,
+          "node_id": "MEE_lADOGn93Lc5BWAr1zwAAAAFdJT84",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857689400",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:48:20Z"
+        },
+        {
+          "id": 5857689403,
+          "node_id": "SE_lADOGn93Lc5BWAr1zwAAAAFdJT87",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5857689403",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-07T12:48:20Z"
+        },
+        {
+          "id": 6006123601,
+          "node_id": "MIE_lADOGn93Lc5BWAr1zwAAAAFl_ixR",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6006123601",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T22:43:16Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 27.41,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/33",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-e6044bbd",
+      "closed_at": "2022-01-25T21:08:36Z",
+      "created_at": "2022-01-22T14:43:30Z",
+      "body": "Remove this class once any API class added to the classpath.",
+      "file": "src/main/java/io/github/dgroup/arch4u/pmd/ToString.java",
+      "lines": "34-34",
+      "labels": [],
+      "assignees": [],
+      "title": "ToString.java:34: Remove this class once any API class added to the classpath.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5937018845,
+          "node_id": "MEE_lADOGn93Lc5CQYddzwAAAAFh37fd",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937018845",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T15:02:32Z"
+        },
+        {
+          "id": 5937018846,
+          "node_id": "SE_lADOGn93Lc5CQYddzwAAAAFh37fe",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937018846",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T15:02:32Z"
+        },
+        {
+          "id": 5952842757,
+          "node_id": "MIE_lADOGn93Lc5CQYddzwAAAAFi0SwF",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5952842757",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-25T21:09:09Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 3.27,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/36",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-70551f03",
+      "closed_at": "2022-02-07T21:45:12Z",
+      "created_at": "2022-01-22T15:10:26Z",
+      "body": "Write an instruction how to add arch4u rules to your gradle and maven projects -->",
+      "file": "pom.xml",
+      "lines": "32-32",
+      "labels": [],
+      "assignees": [],
+      "title": "pom.xml:32: Write an instruction how to add arch4u rules to your gradle and maven projects -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5937028860,
+          "node_id": "MEE_lADOGn93Lc5CQZB8zwAAAAFh3978",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937028860",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T15:10:45Z"
+        },
+        {
+          "id": 5937028862,
+          "node_id": "SE_lADOGn93Lc5CQZB8zwAAAAFh397-",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5937028862",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-22T15:10:45Z"
+        },
+        {
+          "id": 6022289724,
+          "node_id": "MIE_lADOGn93Lc5CQZB8zwAAAAFm9Nk8",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6022289724",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-07T21:03:42Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6022508047,
+          "node_id": "REFE_lADOGn93Lc5CQZB8zwAAAAFm-C4P",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6022508047",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "19b716cf17d6598a241da448e407f22c1ba068f7",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/19b716cf17d6598a241da448e407f22c1ba068f7",
+          "created_at": "2022-02-07T21:45:02Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 16.27,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/48",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-f166bfda",
+      "closed_at": "2022-02-08T20:38:27Z",
+      "created_at": "2022-01-30T13:11:06Z",
+      "body": "JUnitAssertionsShouldIncludeMessage: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml",
+      "lines": "36-36",
+      "labels": [],
+      "assignees": [
+        "smithros"
+      ],
+      "title": "arch4u-recommended-third-party-ruleset.xml:36: JUnitAssertionsShouldIncludeMessage: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 5976308311,
+          "node_id": "MEE_lADOGn93Lc5Cq3LBzwAAAAFkNzpX",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5976308311",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-30T13:15:33Z"
+        },
+        {
+          "id": 5976308312,
+          "node_id": "SE_lADOGn93Lc5Cq3LBzwAAAAFkNzpY",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/5976308312",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-01-30T13:15:33Z"
+        },
+        {
+          "id": 6022372416,
+          "node_id": "MIE_lADOGn93Lc5Cq3LBzwAAAAFm9hxA",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6022372416",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-07T21:18:56Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6022391400,
+          "node_id": "REFE_lADOGn93Lc5Cq3LBzwAAAAFm9mZo",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6022391400",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3fb539515659b15f57fdf6069977db2689eaff75",
+          "commit_url": "https://api.github.com/repos/smithros/arch4u-pmd/commits/3fb539515659b15f57fdf6069977db2689eaff75",
+          "created_at": "2022-02-07T21:22:27Z"
+        },
+        {
+          "id": 6022397502,
+          "node_id": "REFE_lADOGn93Lc5Cq3LBzwAAAAFm9n4-",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6022397502",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2e4449bf2c58ff14705cd28cfcd5fba48224f167",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/2e4449bf2c58ff14705cd28cfcd5fba48224f167",
+          "created_at": "2022-02-07T21:23:38Z"
+        },
+        {
+          "id": 6022428928,
+          "node_id": "AE_lADOGn93Lc5Cq3LBzwAAAAFm9vkA",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6022428928",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-07T21:29:43Z",
+          "assignee": {
+            "login": "smithros",
+            "id": 37598766,
+            "node_id": "MDQ6VXNlcjM3NTk4NzY2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37598766?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smithros",
+            "html_url": "https://github.com/smithros",
+            "followers_url": "https://api.github.com/users/smithros/followers",
+            "following_url": "https://api.github.com/users/smithros/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smithros/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smithros/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smithros/subscriptions",
+            "organizations_url": "https://api.github.com/users/smithros/orgs",
+            "repos_url": "https://api.github.com/users/smithros/repos",
+            "events_url": "https://api.github.com/users/smithros/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smithros/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6028636339,
+          "node_id": "REFE_lADOGn93Lc5Cq3LBzwAAAAFnVbCz",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6028636339",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2370ec794ec6396fff5546e327a7912132d12737",
+          "commit_url": "https://api.github.com/repos/smithros/arch4u-pmd/commits/2370ec794ec6396fff5546e327a7912132d12737",
+          "created_at": "2022-02-08T17:31:32Z"
+        },
+        {
+          "id": 6029487377,
+          "node_id": "REFE_lADOGn93Lc5Cq3LBzwAAAAFnYq0R",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029487377",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1133b33cb9920b61e9e5536742b8e91164d32456",
+          "commit_url": "https://api.github.com/repos/smithros/arch4u-pmd/commits/1133b33cb9920b61e9e5536742b8e91164d32456",
+          "created_at": "2022-02-08T19:56:47Z"
+        },
+        {
+          "id": 6029699296,
+          "node_id": "COE_lADOGn93Lc5Cq3LBzwAAAAFnZejg",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029699296",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "connected",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T20:35:52Z"
+        },
+        {
+          "id": 6029711882,
+          "node_id": "CE_lADOGn93Lc5Cq3LBzwAAAAFnZhoK",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029711882",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T20:38:20Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 9.31,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/61",
+      "ticket": "28",
+      "done": true,
+      "id": "28-822008ce",
+      "closed_at": "2022-02-04T20:06:13Z",
+      "created_at": "2022-01-30T14:01:53Z",
+      "body": "Define the rule related to @Timed annotation here. -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/monitoring/arch4u-micrometer-ruleset.xml",
+      "lines": "8-8",
+      "labels": [
+        "new rule",
+        "monitoring"
+      ],
+      "assignees": [],
+      "title": "arch4u-micrometer-ruleset.xml:8: Define the rule related to @Timed annotation here. -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6005622861,
+          "node_id": "MEE_lADOGn93Lc5C9_M4zwAAAAFl9ohN",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005622861",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T20:57:38Z"
+        },
+        {
+          "id": 6005622867,
+          "node_id": "SE_lADOGn93Lc5C9_M4zwAAAAFl9ohT",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005622867",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T20:57:38Z"
+        },
+        {
+          "id": 6005884748,
+          "node_id": "MIE_lADOGn93Lc5C9_M4zwAAAAFl-odM",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005884748",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T21:48:20Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6005885301,
+          "node_id": "LE_lADOGn93Lc5C9_M4zwAAAAFl-ol1",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005885301",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T21:48:28Z",
+          "label": {
+            "name": "new rule",
+            "color": "0C0632"
+          }
+        },
+        {
+          "id": 6005885731,
+          "node_id": "LE_lADOGn93Lc5C9_M4zwAAAAFl-osj",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005885731",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T21:48:34Z",
+          "label": {
+            "name": "monitoring",
+            "color": "006b75"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 5.25,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/62",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-b245d2b6",
+      "closed_at": "2022-02-07T19:05:57Z",
+      "created_at": "2022-01-30T14:01:53Z",
+      "body": "io.micrometer.core.annotation.Timed should receive metric name as a string constant, not a string literal",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/monitoring/arch4u-micrometer-ruleset.xml",
+      "lines": "10-10",
+      "labels": [
+        "new rule",
+        "monitoring"
+      ],
+      "assignees": [
+        "dykov"
+      ],
+      "title": "arch4u-micrometer-ruleset.xml:10: io.micrometer.core.annotation.Timed should receive metric name as a string constant, not a string literal",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6005623252,
+          "node_id": "MEE_lADOGn93Lc5C9_NtzwAAAAFl9onU",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005623252",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T20:57:43Z"
+        },
+        {
+          "id": 6005623258,
+          "node_id": "SE_lADOGn93Lc5C9_NtzwAAAAFl9ona",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005623258",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T20:57:43Z"
+        },
+        {
+          "id": 6005881126,
+          "node_id": "MIE_lADOGn93Lc5C9_NtzwAAAAFl-nkm",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005881126",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T21:47:30Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6005881959,
+          "node_id": "LE_lADOGn93Lc5C9_NtzwAAAAFl-nxn",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005881959",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T21:47:42Z",
+          "label": {
+            "name": "monitoring",
+            "color": "006b75"
+          }
+        },
+        {
+          "id": 6005881963,
+          "node_id": "LE_lADOGn93Lc5C9_NtzwAAAAFl-nxr",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6005881963",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T21:47:42Z",
+          "label": {
+            "name": "new rule",
+            "color": "0C0632"
+          }
+        },
+        {
+          "id": 6015603570,
+          "node_id": "AE_lADOGn93Lc5C9_NtzwAAAAFmjtNy",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6015603570",
+          "actor": {
+            "id": 36415196,
+            "url": "https://api.github.com/users/dykov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-06T22:05:12Z",
+          "assignee": {
+            "login": "dykov",
+            "id": 36415196,
+            "node_id": "MDQ6VXNlcjM2NDE1MTk2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36415196?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dykov",
+            "html_url": "https://github.com/dykov",
+            "followers_url": "https://api.github.com/users/dykov/followers",
+            "following_url": "https://api.github.com/users/dykov/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dykov/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dykov/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dykov/subscriptions",
+            "organizations_url": "https://api.github.com/users/dykov/orgs",
+            "repos_url": "https://api.github.com/users/dykov/repos",
+            "events_url": "https://api.github.com/users/dykov/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dykov/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6019292667,
+          "node_id": "COE_lADOGn93Lc5C9_NtzwAAAAFmxx37",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6019292667",
+          "actor": {
+            "id": 36415196,
+            "url": "https://api.github.com/users/dykov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "connected",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-07T13:27:41Z"
+        },
+        {
+          "id": 6021640953,
+          "node_id": "CE_lADOGn93Lc5C9_NtzwAAAAFm6vL5",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6021640953",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-07T19:05:49Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 8.21,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/66",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-94d5ff38",
+      "closed_at": "2022-02-03T22:46:26Z",
+      "created_at": "2022-02-03T22:42:45Z",
+      "body": "Check 'since' attribute, it should be 0.1.0 (not 0.4.0) everywhere before we release 0.1.0 -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/api/arch4u-rest-ruleset.xml",
+      "lines": "33-33",
+      "labels": [],
+      "assignees": [],
+      "title": "arch4u-rest-ruleset.xml:33: Check 'since' attribute, it should be 0.1.0 (not 0.4.0) everywhere before we release 0.1.0 -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6006122875,
+          "node_id": "MEE_lADOGn93Lc5C-TZ3zwAAAAFl_il7",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6006122875",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T22:43:03Z"
+        },
+        {
+          "id": 6006122877,
+          "node_id": "SE_lADOGn93Lc5C-TZ3zwAAAAFl_il9",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6006122877",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T22:43:03Z"
+        },
+        {
+          "id": 6006135008,
+          "node_id": "REFE_lADOGn93Lc5C-TZ3zwAAAAFl_ljg",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6006135008",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a2efeca1d7eec10e7a612fc723bdf1447bb970d8",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/a2efeca1d7eec10e7a612fc723bdf1447bb970d8",
+          "created_at": "2022-02-03T22:46:16Z"
+        },
+        {
+          "id": 6006135681,
+          "node_id": "MIE_lADOGn93Lc5C-TZ3zwAAAAFl_luB",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6006135681",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-03T22:46:28Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.0,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/89",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-7da84a11",
+      "closed_at": "2022-02-11T00:11:51Z",
+      "created_at": "2022-02-08T21:12:36Z",
+      "body": "Define format for all GitHub discussion items and change all existing in order to follow defined standard. -->",
+      "file": "pom.xml",
+      "lines": "28-28",
+      "labels": [],
+      "assignees": [
+        "dgroup"
+      ],
+      "title": "pom.xml:28: Define format for all GitHub discussion items and change all existing in order to follow defined standard. -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6029889226,
+          "node_id": "MEE_lADOGn93Lc5DOE7GzwAAAAFnaM7K",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029889226",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:12:55Z"
+        },
+        {
+          "id": 6029889232,
+          "node_id": "SE_lADOGn93Lc5DOE7GzwAAAAFnaM7Q",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029889232",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:12:55Z"
+        },
+        {
+          "id": 6029975421,
+          "node_id": "MIE_lADOGn93Lc5DOE7GzwAAAAFnah99",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029975421",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:30:09Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6029993790,
+          "node_id": "AE_lADOGn93Lc5DOE7GzwAAAAFnamc-",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029993790",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:33:56Z",
+          "assignee": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6046931016,
+          "node_id": "REFE_lADOGn93Lc5DOE7GzwAAAAFobNhI",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6046931016",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2b47126d07c2efecc8dfe651f81d2911b02a2251",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/2b47126d07c2efecc8dfe651f81d2911b02a2251",
+          "created_at": "2022-02-11T00:11:40Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 2.12,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/91",
+      "ticket": "27",
+      "done": true,
+      "id": "27-2eac4826",
+      "closed_at": "2022-02-10T21:31:33Z",
+      "created_at": "2022-02-08T21:12:36Z",
+      "body": "category/java/design.xml - add rules details in table defined in readme.md -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml",
+      "lines": "58-58",
+      "labels": [],
+      "assignees": [
+        "dgroup"
+      ],
+      "title": "arch4u-recommended-third-party-ruleset.xml:58: category/java/design.xml - add rules details in table defined in readme.md -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6029890267,
+          "node_id": "MEE_lADOGn93Lc5DOE93zwAAAAFnaNLb",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029890267",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:13:05Z"
+        },
+        {
+          "id": 6029890271,
+          "node_id": "SE_lADOGn93Lc5DOE93zwAAAAFnaNLf",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029890271",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:13:05Z"
+        },
+        {
+          "id": 6029975475,
+          "node_id": "MIE_lADOGn93Lc5DOE93zwAAAAFnah-z",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029975475",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:30:10Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6029991809,
+          "node_id": "AE_lADOGn93Lc5DOE93zwAAAAFnal-B",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029991809",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:33:32Z",
+          "assignee": {
+            "login": "smithros",
+            "id": 37598766,
+            "node_id": "MDQ6VXNlcjM3NTk4NzY2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37598766?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smithros",
+            "html_url": "https://github.com/smithros",
+            "followers_url": "https://api.github.com/users/smithros/followers",
+            "following_url": "https://api.github.com/users/smithros/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smithros/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smithros/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smithros/subscriptions",
+            "organizations_url": "https://api.github.com/users/smithros/orgs",
+            "repos_url": "https://api.github.com/users/smithros/repos",
+            "events_url": "https://api.github.com/users/smithros/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smithros/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6045791098,
+          "node_id": "UNE_lADOGn93Lc5DOE93zwAAAAFoW3N6",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045791098",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-10T20:50:31Z",
+          "assignee": {
+            "login": "smithros",
+            "id": 37598766,
+            "node_id": "MDQ6VXNlcjM3NTk4NzY2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37598766?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smithros",
+            "html_url": "https://github.com/smithros",
+            "followers_url": "https://api.github.com/users/smithros/followers",
+            "following_url": "https://api.github.com/users/smithros/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smithros/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smithros/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smithros/subscriptions",
+            "organizations_url": "https://api.github.com/users/smithros/orgs",
+            "repos_url": "https://api.github.com/users/smithros/repos",
+            "events_url": "https://api.github.com/users/smithros/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smithros/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6045791127,
+          "node_id": "AE_lADOGn93Lc5DOE93zwAAAAFoW3OX",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045791127",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-10T20:50:31Z",
+          "assignee": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6046055316,
+          "node_id": "REFE_lADOGn93Lc5DOE93zwAAAAFoX3uU",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6046055316",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8fdc606384aa361397b2b3651f85e5610866ef71",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/8fdc606384aa361397b2b3651f85e5610866ef71",
+          "created_at": "2022-02-10T21:31:23Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 2.01,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/92",
+      "ticket": "27",
+      "done": true,
+      "id": "27-723e5b53",
+      "closed_at": "2022-02-10T20:49:10Z",
+      "created_at": "2022-02-08T21:12:36Z",
+      "body": "category/java/documentation.xml - add rules details in table defined in readme.md -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml",
+      "lines": "83-83",
+      "labels": [],
+      "assignees": [
+        "smithros"
+      ],
+      "title": "arch4u-recommended-third-party-ruleset.xml:83: category/java/documentation.xml - add rules details in table defined in readme.md -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6029975498,
+          "node_id": "MIE_lADOGn93Lc5DOE_LzwAAAAFnah_K",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029975498",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:30:10Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6029991855,
+          "node_id": "AE_lADOGn93Lc5DOE_LzwAAAAFnal-v",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029991855",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:33:33Z",
+          "assignee": {
+            "login": "smithros",
+            "id": 37598766,
+            "node_id": "MDQ6VXNlcjM3NTk4NzY2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37598766?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smithros",
+            "html_url": "https://github.com/smithros",
+            "followers_url": "https://api.github.com/users/smithros/followers",
+            "following_url": "https://api.github.com/users/smithros/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smithros/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smithros/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smithros/subscriptions",
+            "organizations_url": "https://api.github.com/users/smithros/orgs",
+            "repos_url": "https://api.github.com/users/smithros/repos",
+            "events_url": "https://api.github.com/users/smithros/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smithros/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6045780311,
+          "node_id": "REFE_lADOGn93Lc5DOE_LzwAAAAFoW0lX",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045780311",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bb74e31f8dcc50cfcd8b9c0a5b5f9a6f1c088ddd",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/bb74e31f8dcc50cfcd8b9c0a5b5f9a6f1c088ddd",
+          "created_at": "2022-02-10T20:49:00Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 1.98,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/93",
+      "ticket": "27",
+      "done": true,
+      "id": "27-b019badb",
+      "closed_at": "2022-02-10T20:32:57Z",
+      "created_at": "2022-02-08T21:12:36Z",
+      "body": "category/java/multithreading.xml - add rules details in table defined in readme.md -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml",
+      "lines": "95-95",
+      "labels": [],
+      "assignees": [
+        "dgroup"
+      ],
+      "title": "arch4u-recommended-third-party-ruleset.xml:95: category/java/multithreading.xml - add rules details in table defined in readme.md -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6029975523,
+          "node_id": "MIE_lADOGn93Lc5DOFApzwAAAAFnah_j",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029975523",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:30:11Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6029991894,
+          "node_id": "AE_lADOGn93Lc5DOFApzwAAAAFnal_W",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029991894",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:33:33Z",
+          "assignee": {
+            "login": "smithros",
+            "id": 37598766,
+            "node_id": "MDQ6VXNlcjM3NTk4NzY2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37598766?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smithros",
+            "html_url": "https://github.com/smithros",
+            "followers_url": "https://api.github.com/users/smithros/followers",
+            "following_url": "https://api.github.com/users/smithros/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smithros/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smithros/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smithros/subscriptions",
+            "organizations_url": "https://api.github.com/users/smithros/orgs",
+            "repos_url": "https://api.github.com/users/smithros/repos",
+            "events_url": "https://api.github.com/users/smithros/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smithros/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6045413142,
+          "node_id": "UNE_lADOGn93Lc5DOFApzwAAAAFoVa8W",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045413142",
+          "actor": {
+            "id": 37598766,
+            "url": "https://api.github.com/users/smithros",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-10T19:59:03Z",
+          "assignee": {
+            "login": "smithros",
+            "id": 37598766,
+            "node_id": "MDQ6VXNlcjM3NTk4NzY2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37598766?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smithros",
+            "html_url": "https://github.com/smithros",
+            "followers_url": "https://api.github.com/users/smithros/followers",
+            "following_url": "https://api.github.com/users/smithros/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smithros/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smithros/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smithros/subscriptions",
+            "organizations_url": "https://api.github.com/users/smithros/orgs",
+            "repos_url": "https://api.github.com/users/smithros/repos",
+            "events_url": "https://api.github.com/users/smithros/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smithros/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6045413165,
+          "node_id": "AE_lADOGn93Lc5DOFApzwAAAAFoVa8t",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045413165",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-10T19:59:04Z",
+          "assignee": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6045661875,
+          "node_id": "REFE_lADOGn93Lc5DOFApzwAAAAFoWXqz",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045661875",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c9b18ef95c734bd249b98d286b223f207e9f7a20",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/c9b18ef95c734bd249b98d286b223f207e9f7a20",
+          "created_at": "2022-02-10T20:32:48Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 1.97,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/94",
+      "ticket": "27",
+      "done": true,
+      "id": "27-9f14fd6e",
+      "closed_at": "2022-02-10T20:21:07Z",
+      "created_at": "2022-02-08T21:12:36Z",
+      "body": "category/java/performance.xml - add rules details in table defined in readme.md -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml",
+      "lines": "100-100",
+      "labels": [],
+      "assignees": [
+        "dykov"
+      ],
+      "title": "arch4u-recommended-third-party-ruleset.xml:100: category/java/performance.xml - add rules details in table defined in readme.md -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6029975547,
+          "node_id": "MIE_lADOGn93Lc5DOFB6zwAAAAFnah_7",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029975547",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:30:11Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6029990455,
+          "node_id": "AE_lADOGn93Lc5DOFB6zwAAAAFnalo3",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029990455",
+          "actor": {
+            "id": 36415196,
+            "url": "https://api.github.com/users/dykov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:33:15Z",
+          "assignee": {
+            "login": "dykov",
+            "id": 36415196,
+            "node_id": "MDQ6VXNlcjM2NDE1MTk2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36415196?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dykov",
+            "html_url": "https://github.com/dykov",
+            "followers_url": "https://api.github.com/users/dykov/followers",
+            "following_url": "https://api.github.com/users/dykov/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dykov/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dykov/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dykov/subscriptions",
+            "organizations_url": "https://api.github.com/users/dykov/orgs",
+            "repos_url": "https://api.github.com/users/dykov/repos",
+            "events_url": "https://api.github.com/users/dykov/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dykov/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6045432913,
+          "node_id": "COE_lADOGn93Lc5DOFB6zwAAAAFoVfxR",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045432913",
+          "actor": {
+            "id": 36415196,
+            "url": "https://api.github.com/users/dykov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "connected",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-10T20:01:44Z"
+        },
+        {
+          "id": 6045572525,
+          "node_id": "CE_lADOGn93Lc5DOFB6zwAAAAFoWB2t",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045572525",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-10T20:20:58Z",
+          "state_reason": null
+        },
+        {
+          "id": 6045572671,
+          "node_id": "REFE_lADOGn93Lc5DOFB6zwAAAAFoWB4_",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045572671",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c58ad58fa8a3921d5f1e7865341b6081c6bbdc04",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/c58ad58fa8a3921d5f1e7865341b6081c6bbdc04",
+          "created_at": "2022-02-10T20:20:59Z"
+        },
+        {
+          "id": 6045840303,
+          "node_id": "COE_lADOGn93Lc5DOFB6zwAAAAFoXDOv",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6045840303",
+          "actor": {
+            "id": 36415196,
+            "url": "https://api.github.com/users/dykov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "connected",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-10T20:57:59Z"
+        },
+        {
+          "id": 6053921901,
+          "node_id": "REFE_lADOGn93Lc5DOFB6zwAAAAFo14Rt",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6053921901",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "67bd22dc748a6e4abd9c517ab4278e5301ce66e4",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/67bd22dc748a6e4abd9c517ab4278e5301ce66e4",
+          "created_at": "2022-02-11T20:57:38Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 1.96,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/95",
+      "ticket": "27",
+      "done": true,
+      "id": "27-17080526",
+      "closed_at": "2022-02-11T20:56:14Z",
+      "created_at": "2022-02-08T21:12:36Z",
+      "body": "category/java/security.xml - add rules details in table defined in readme.md -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml",
+      "lines": "103-103",
+      "labels": [],
+      "assignees": [
+        "dykov"
+      ],
+      "title": "arch4u-recommended-third-party-ruleset.xml:103: category/java/security.xml - add rules details in table defined in readme.md -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6029975585,
+          "node_id": "MIE_lADOGn93Lc5DOFDFzwAAAAFnaiAh",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029975585",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:30:11Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6029990492,
+          "node_id": "AE_lADOGn93Lc5DOFDFzwAAAAFnalpc",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029990492",
+          "actor": {
+            "id": 36415196,
+            "url": "https://api.github.com/users/dykov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:33:16Z",
+          "assignee": {
+            "login": "dykov",
+            "id": 36415196,
+            "node_id": "MDQ6VXNlcjM2NDE1MTk2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36415196?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dykov",
+            "html_url": "https://github.com/dykov",
+            "followers_url": "https://api.github.com/users/dykov/followers",
+            "following_url": "https://api.github.com/users/dykov/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dykov/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dykov/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dykov/subscriptions",
+            "organizations_url": "https://api.github.com/users/dykov/orgs",
+            "repos_url": "https://api.github.com/users/dykov/repos",
+            "events_url": "https://api.github.com/users/dykov/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dykov/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6053915060,
+          "node_id": "REFE_lADOGn93Lc5DOFDFzwAAAAFo12m0",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6053915060",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b3a98730282071dd43b7e52a8a4973342b4597fb",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/b3a98730282071dd43b7e52a8a4973342b4597fb",
+          "created_at": "2022-02-11T20:56:04Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 2.99,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/arch4u-pmd",
+      "issue_link": "https://github.com/dgroup/arch4u-pmd/issues/96",
+      "ticket": "27",
+      "done": true,
+      "id": "27-cce94152",
+      "closed_at": "2022-02-11T22:34:09Z",
+      "created_at": "2022-02-08T21:12:36Z",
+      "body": "category/java/errorprone.xml - add rules details in table defined in readme.md -->",
+      "file": "src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml",
+      "lines": "106-106",
+      "labels": [],
+      "assignees": [
+        "dykov"
+      ],
+      "title": "arch4u-recommended-third-party-ruleset.xml:106: category/java/errorprone.xml - add rules details in table defined in readme.md -->",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6029975613,
+          "node_id": "MIE_lADOGn93Lc5DOFEKzwAAAAFnaiA9",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029975613",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:30:12Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 6029990533,
+          "node_id": "AE_lADOGn93Lc5DOFEKzwAAAAFnalqF",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6029990533",
+          "actor": {
+            "id": 36415196,
+            "url": "https://api.github.com/users/dykov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-02-08T21:33:16Z",
+          "assignee": {
+            "login": "dykov",
+            "id": 36415196,
+            "node_id": "MDQ6VXNlcjM2NDE1MTk2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36415196?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dykov",
+            "html_url": "https://github.com/dykov",
+            "followers_url": "https://api.github.com/users/dykov/followers",
+            "following_url": "https://api.github.com/users/dykov/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dykov/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dykov/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dykov/subscriptions",
+            "organizations_url": "https://api.github.com/users/dykov/orgs",
+            "repos_url": "https://api.github.com/users/dykov/repos",
+            "events_url": "https://api.github.com/users/dykov/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dykov/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dgroup",
+            "id": 1651114,
+            "node_id": "MDQ6VXNlcjE2NTExMTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1651114?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dgroup",
+            "html_url": "https://github.com/dgroup",
+            "followers_url": "https://api.github.com/users/dgroup/followers",
+            "following_url": "https://api.github.com/users/dgroup/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dgroup/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dgroup/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dgroup/subscriptions",
+            "organizations_url": "https://api.github.com/users/dgroup/orgs",
+            "repos_url": "https://api.github.com/users/dgroup/repos",
+            "events_url": "https://api.github.com/users/dgroup/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dgroup/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 6054437931,
+          "node_id": "REFE_lADOGn93Lc5DOFEKzwAAAAFo32Qr",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6054437931",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3a7038bd40d38abc41360a93c91ff6d15a43afa8",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/3a7038bd40d38abc41360a93c91ff6d15a43afa8",
+          "created_at": "2022-02-11T22:33:59Z"
+        },
+        {
+          "id": 6070519643,
+          "node_id": "REFE_lADOGn93Lc5DOFEKzwAAAAFp1Mdb",
+          "url": "https://api.github.com/repos/dgroup/arch4u-pmd/issues/events/6070519643",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2529809092474e7c2263eca1f979bb1b4b391c0e",
+          "commit_url": "https://api.github.com/repos/dgroup/arch4u-pmd/commits/2529809092474e7c2263eca1f979bb1b4b391c0e",
+          "created_at": "2022-02-14T22:03:32Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 3.06,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 28,
+  "project_forks": 3,
+  "project_contributors_count": 8,
+  "first_issue_date": "2022-01-07T12:37:05Z",
+  "last_issue_date": "2022-02-08T21:12:36Z"
+}

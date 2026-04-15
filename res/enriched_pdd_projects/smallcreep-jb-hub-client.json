@@ -1,0 +1,1064 @@
+{
+  "project_link": "https://github.com/smallcreep/jb-hub-client",
+  "issues_count": 8,
+  "issues": [
+    {
+      "project_link": "https://github.com/smallcreep/jb-hub-client",
+      "issue_link": "https://github.com/smallcreep/jb-hub-client/issues/23",
+      "ticket": "6",
+      "done": true,
+      "id": "6-b6fff8c8",
+      "closed_at": "2017-11-11T15:42:33Z",
+      "created_at": "2017-11-11T12:46:47Z",
+      "body": "Delete DefaultSort in favor of com.github.smallcreep.jb.hub.api.Field, please delete it from all *Sort classes.",
+      "file": "src/main/java/com/github/smallcreep/jb/hub/api/sort/DefaultSort.java",
+      "lines": "36-38",
+      "labels": [],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "DefaultSort.java:36-38: Delete DefaultSort in favor of...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1337257996,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDEzMzcyNTc5OTY=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1337257996",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-11T15:04:10Z",
+          "milestone": {
+            "title": "Release 1.0"
+          }
+        },
+        {
+          "id": 1337267389,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzMzcyNjczODk=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1337267389",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ab3bcad35195ab5113d611c9495a82d0e1680de3",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/ab3bcad35195ab5113d611c9495a82d0e1680de3",
+          "created_at": "2017-11-11T15:35:50Z"
+        },
+        {
+          "id": 1338896618,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzM4ODk2NjE4",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1338896618",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-13T15:11:39Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.12,
+      "estimate": "15",
+      "author": "smallcreep",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/jb-hub-client",
+      "issue_link": "https://github.com/smallcreep/jb-hub-client/issues/26",
+      "ticket": "6",
+      "done": true,
+      "id": "6-fcc5bbea",
+      "closed_at": "2017-11-13T15:39:56Z",
+      "created_at": "2017-11-11T16:08:46Z",
+      "body": "Implements class for any nested field. Use wildcards in field selections, if needed. For example a/* to select all fields object a. For example items/pagemap/*\\/title For each element in the items array, returns only the title field (if present) of all objects that are children of pagemap.",
+      "file": "src/main/java/com/github/smallcreep/jb/hub/api/fields/AnyNestedFields.java",
+      "lines": "34-39",
+      "labels": [],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "AnyNestedFields.java:34-39: Implements class for any nested...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1337278837,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDEzMzcyNzg4Mzc=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1337278837",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-11T16:16:48Z",
+          "milestone": {
+            "title": "Release 1.0"
+          }
+        },
+        {
+          "id": 1338895915,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzM4ODk1OTE1",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1338895915",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-13T15:11:19Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1338916273,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzMzg5MTYyNzM=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1338916273",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f3dec2aaa15ab329517c6fceeccf8ee468be9d1c",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/f3dec2aaa15ab329517c6fceeccf8ee468be9d1c",
+          "created_at": "2017-11-13T15:20:33Z"
+        },
+        {
+          "id": 1346945060,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNDY5NDUwNjA=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1346945060",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3f406f122e6f008d52c62b926493066906cd4695",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/3f406f122e6f008d52c62b926493066906cd4695",
+          "created_at": "2017-11-17T11:02:40Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 1.98,
+      "estimate": "15",
+      "author": "smallcreep",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/jb-hub-client",
+      "issue_link": "https://github.com/smallcreep/jb-hub-client/issues/27",
+      "ticket": "6",
+      "done": true,
+      "id": "6-9e31355b",
+      "closed_at": "2017-11-13T14:50:17Z",
+      "created_at": "2017-11-11T16:08:46Z",
+      "body": "Implements class for nested field. Use a/b to select a field b that is nested within field a; use a/b/c to select a field c nested within b.",
+      "file": "src/main/java/com/github/smallcreep/jb/hub/api/fields/NestedFields.java",
+      "lines": "34-36",
+      "labels": [],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "NestedFields.java:34-36: Implements class for nested field....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1337278840,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDEzMzcyNzg4NDA=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1337278840",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-11T16:16:48Z",
+          "milestone": {
+            "title": "Release 1.0"
+          }
+        },
+        {
+          "id": 1338009841,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzMzgwMDk4NDE=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1338009841",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3452347f9c0a7c4dfc0cb44cf8036bcd5b2ee0d6",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/3452347f9c0a7c4dfc0cb44cf8036bcd5b2ee0d6",
+          "created_at": "2017-11-13T05:19:23Z"
+        },
+        {
+          "id": 1338833200,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzMzg4MzMyMDA=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1338833200",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "18efd67ddea71ac06ef9fbb1a35ac24ee2345a07",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/18efd67ddea71ac06ef9fbb1a35ac24ee2345a07",
+          "created_at": "2017-11-13T14:42:35Z"
+        },
+        {
+          "id": 1338896509,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzM4ODk2NTA5",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1338896509",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-13T15:11:36Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 1.95,
+      "estimate": "15",
+      "author": "smallcreep",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/jb-hub-client",
+      "issue_link": "https://github.com/smallcreep/jb-hub-client/issues/28",
+      "ticket": "6",
+      "done": true,
+      "id": "6-70a37ec0",
+      "closed_at": "2017-11-11T16:52:57Z",
+      "created_at": "2017-11-11T16:08:46Z",
+      "body": "Implements class for sub objects. Use a sub-selector to request a set of specific sub-fields of arrays or objects by placing expressions in parentheses \"( )\".",
+      "file": "src/main/java/com/github/smallcreep/jb/hub/api/fields/SubFields.java",
+      "lines": "34-36",
+      "labels": [],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "SubFields.java:34-36: Implements class for sub objects. Use...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1337278842,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDEzMzcyNzg4NDI=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1337278842",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-11T16:16:48Z",
+          "milestone": {
+            "title": "Release 1.0"
+          }
+        },
+        {
+          "id": 1337278893,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzM3Mjc4ODkz",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1337278893",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-11T16:17:00Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1337286314,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzMzcyODYzMTQ=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1337286314",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0e092daced6e46fd6ffd8fe4ec930e696d72fda2",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/0e092daced6e46fd6ffd8fe4ec930e696d72fda2",
+          "created_at": "2017-11-11T16:40:48Z"
+        },
+        {
+          "id": 1337287954,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzMzcyODc5NTQ=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1337287954",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e4eb16455236f1e70ccf0937159a9583a6c1b2ab",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/e4eb16455236f1e70ccf0937159a9583a6c1b2ab",
+          "created_at": "2017-11-11T16:46:29Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.03,
+      "estimate": "15",
+      "author": "smallcreep",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/jb-hub-client",
+      "issue_link": "https://github.com/smallcreep/jb-hub-client/issues/33",
+      "ticket": "9",
+      "done": true,
+      "id": "9-44e5f0f2",
+      "closed_at": "2017-12-03T20:38:30Z",
+      "created_at": "2017-11-13T21:33:23Z",
+      "body": "Create class RtProjects which will be simple implementation for Project interface. You can see request by url https://www.jetbrains.com/help/hub/HUB-REST-API_Projects.html.",
+      "file": "src/main/java/com/github/smallcreep/jb/hub/api/Projects.java",
+      "lines": "35-37",
+      "labels": [],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "Projects.java:35-37: Create class RtProjects which will be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1339657768,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDEzMzk2NTc3Njg=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1339657768",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-13T21:39:26Z",
+          "milestone": {
+            "title": "Release 1.0"
+          }
+        },
+        {
+          "id": 1353427751,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzUzNDI3NzUx",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1353427751",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-22T06:28:37Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1366476077,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjY0NzYwNzc=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1366476077",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ae9307a1aa64e605c7d4cc37d6cb179ef41320ea",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/ae9307a1aa64e605c7d4cc37d6cb179ef41320ea",
+          "created_at": "2017-11-30T20:41:51Z"
+        },
+        {
+          "id": 1369481932,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjk0ODE5MzI=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1369481932",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c2c9cd744ba671bdce42a1a157e606b5f7b868d2",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/c2c9cd744ba671bdce42a1a157e606b5f7b868d2",
+          "created_at": "2017-12-03T20:11:22Z"
+        },
+        {
+          "id": 1369490372,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjk0OTAzNzI=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1369490372",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6057854cb1575a156b8dd7d6cf110dd4dbe300fc",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/6057854cb1575a156b8dd7d6cf110dd4dbe300fc",
+          "created_at": "2017-12-03T20:32:45Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 19.96,
+      "estimate": "20",
+      "author": "smallcreep",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/jb-hub-client",
+      "issue_link": "https://github.com/smallcreep/jb-hub-client/issues/36",
+      "ticket": "34",
+      "done": true,
+      "id": "34-520c215a",
+      "closed_at": "2017-11-21T17:11:46Z",
+      "created_at": "2017-11-20T15:32:39Z",
+      "body": "Implement this Matcher. Matcher should encapsulate expected json. Matcher return true if encapsulate json equals returned json from {@link JsonReadable} item.",
+      "file": "src/main/java/com/github/smallcreep/json/ObjectHasJson.java",
+      "lines": "14-17",
+      "labels": [],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "ObjectHasJson.java:14-17: Implement this Matcher. Matcher...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1350128316,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTM1MDEyODMxNg==",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1350128316",
+          "actor": {
+            "id": 22477715,
+            "url": "https://api.github.com/users/link",
+            "site_admin": false,
+            "type": "Organization"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-20T15:42:46Z"
+        },
+        {
+          "id": 1350129122,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzUwMTI5MTIy",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1350129122",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-20T15:43:07Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1350129209,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDEzNTAxMjkyMDk=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1350129209",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-20T15:43:10Z",
+          "milestone": {
+            "title": "Release 1.0"
+          }
+        },
+        {
+          "id": 1352439140,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNTI0MzkxNDA=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1352439140",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6ddb4e30069463b0ff5c02bd38d2d28a12302ac1",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/6ddb4e30069463b0ff5c02bd38d2d28a12302ac1",
+          "created_at": "2017-11-21T17:04:33Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 1.07,
+      "estimate": "15",
+      "author": "Ilia",
+      "hierarchy": 1,
+      "parent_id": "9-2c947e12",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/jb-hub-client",
+      "issue_link": "https://github.com/smallcreep/jb-hub-client/issues/34",
+      "ticket": "9",
+      "done": true,
+      "id": "9-2c947e12",
+      "closed_at": "2017-11-20T15:42:46Z",
+      "created_at": "2017-11-13T21:33:23Z",
+      "body": "Create some integration testcase for check all features Projects implementation. Need check sort syntax, fields syntax, partial request.",
+      "file": "src/main/java/com/github/smallcreep/jb/hub/api/Projects.java",
+      "lines": "39-41",
+      "labels": [],
+      "assignees": [],
+      "title": "Projects.java:39-41: Create some integration testcase for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1339657776,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDEzMzk2NTc3NzY=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1339657776",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-13T21:39:26Z",
+          "milestone": {
+            "title": "Release 1.0"
+          }
+        },
+        {
+          "id": 1350105383,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNTAxMDUzODM=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1350105383",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "afbd84feaa14068ed2e26a9a37b8fdf921d13332",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/afbd84feaa14068ed2e26a9a37b8fdf921d13332",
+          "created_at": "2017-11-20T15:32:50Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 6.76,
+      "estimate": "20",
+      "author": "smallcreep",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/smallcreep/jb-hub-client",
+      "issue_link": "https://github.com/smallcreep/jb-hub-client/issues/76",
+      "ticket": "45",
+      "done": true,
+      "id": "45-577610cc",
+      "closed_at": "2017-12-24T19:46:44Z",
+      "created_at": "2017-12-19T20:59:31Z",
+      "body": "Implement Permissions class. Add class RtPermissions with all methods and JsPermission with all methods.",
+      "file": "src/main/java/com/github/smallcreep/jb/hub/api/RtHub.java",
+      "lines": "126-128",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RtHub.java:126-128: <body>Implement Permissions class....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1400699048,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE0MDA2OTkwNDg=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1400699048",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-24T18:32:19Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1400699049,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDAwNjk5MDQ5",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1400699049",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-24T18:32:19Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1400699072,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE0MDA2OTkwNzI=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1400699072",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-24T18:32:24Z",
+          "milestone": {
+            "title": "Release 1.0"
+          }
+        },
+        {
+          "id": 1400708507,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MDA3MDg1MDc=",
+          "url": "https://api.github.com/repos/smallcreep/jb-hub-client/issues/events/1400708507",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "793653310d5e01f6bb6ea32f96d0385d77020860",
+          "commit_url": "https://api.github.com/repos/smallcreep/jb-hub-client/commits/793653310d5e01f6bb6ea32f96d0385d77020860",
+          "created_at": "2017-12-24T19:34:03Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 4.95,
+      "estimate": "30",
+      "author": "smallcreep",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 3,
+  "project_forks": 0,
+  "project_contributors_count": 3,
+  "first_issue_date": "2017-11-11T12:46:47Z",
+  "last_issue_date": "2017-12-19T20:59:31Z"
+}

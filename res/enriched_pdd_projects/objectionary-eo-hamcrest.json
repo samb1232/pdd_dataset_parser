@@ -1,0 +1,1495 @@
+{
+  "project_link": "https://github.com/objectionary/eo-hamcrest",
+  "issues_count": 9,
+  "issues": [
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/60",
+      "ticket": "17",
+      "done": true,
+      "id": "17-30c88f18",
+      "closed_at": "2022-08-01T07:40:12Z",
+      "created_at": "2022-06-12T23:30:13Z",
+      "body": "Here we got an object printed instead of data. The .map [i] i.as-string didn't work. We need to convert varargs to data[] somehow.",
+      "file": "src/main/eo/org/eolang/hamcrest/assert-that.eo",
+      "lines": "253-255",
+      "labels": [],
+      "assignees": [],
+      "title": "assert-that.eo:253-255: Here we got an object printed...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 6792093518,
+          "node_id": "MEE_lADOHNT3zs5Ln03tzwAAAAGU1x9O",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/6792093518",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-06-12T23:30:22Z"
+        },
+        {
+          "id": 6792093519,
+          "node_id": "SE_lADOHNT3zs5Ln03tzwAAAAGU1x9P",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/6792093519",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-06-12T23:30:22Z"
+        },
+        {
+          "id": 7009707126,
+          "node_id": "CE_lADOHNT3zs5Ln03tzwAAAAGhz6R2",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7009707126",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-07-18T07:56:37Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 49.34,
+      "estimate": "45",
+      "author": "Graur Andrew",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/101",
+      "ticket": "41",
+      "done": true,
+      "id": "41-cc70864f",
+      "closed_at": "2022-09-23T15:50:13Z",
+      "created_at": "2022-09-14T08:06:32Z",
+      "body": "To add several tests for checking anything matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.",
+      "file": "src/test/eo/org/eolang/hamcrest/failed-output/anything-failed-output.eo",
+      "lines": "28-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "anything-failed-output.eo:28-31: To add several tests for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7383385796,
+          "node_id": "MEE_lADOHNT3zs5Rz7PlzwAAAAG4FYbE",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383385796",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:22:49Z"
+        },
+        {
+          "id": 7383385805,
+          "node_id": "SE_lADOHNT3zs5Rz7PlzwAAAAG4FYbN",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383385805",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:22:49Z"
+        },
+        {
+          "id": 7383385871,
+          "node_id": "MEE_lADOHNT3zs5Rz7PlzwAAAAG4FYcP",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383385871",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:22:50Z"
+        },
+        {
+          "id": 7383385878,
+          "node_id": "SE_lADOHNT3zs5Rz7PlzwAAAAG4FYcW",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383385878",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:22:50Z"
+        },
+        {
+          "id": 7448453676,
+          "node_id": "REFE_lADOHNT3zs5Rz7PlzwAAAAG79mIs",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7448453676",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d54f06b579def0c7fe2e476765caa563a8dfea92",
+          "commit_url": "https://api.github.com/repos/objectionary/eo-hamcrest/commits/d54f06b579def0c7fe2e476765caa563a8dfea92",
+          "created_at": "2022-09-23T15:42:37Z"
+        },
+        {
+          "id": 7448504876,
+          "node_id": "MEE_lADOHNT3zs5Rz7PlzwAAAAG79yos",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7448504876",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T15:50:10Z"
+        },
+        {
+          "id": 7448504881,
+          "node_id": "SE_lADOHNT3zs5Rz7PlzwAAAAG79yox",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7448504881",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T15:50:10Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 9.32,
+      "estimate": "30",
+      "author": "@Graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/102",
+      "ticket": "41",
+      "done": true,
+      "id": "41-e26c967d",
+      "closed_at": "2022-09-23T13:49:53Z",
+      "created_at": "2022-09-14T08:06:32Z",
+      "body": "To add several tests for checking any-of matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.",
+      "file": "src/test/eo/org/eolang/hamcrest/failed-output/any-of-failed-output.eo",
+      "lines": "28-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "any-of-failed-output.eo:28-31: To add several tests for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7383386654,
+          "node_id": "MEE_lADOHNT3zs5Rz7RuzwAAAAG4FYoe",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383386654",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:22:55Z"
+        },
+        {
+          "id": 7383386663,
+          "node_id": "SE_lADOHNT3zs5Rz7RuzwAAAAG4FYon",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383386663",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:22:55Z"
+        },
+        {
+          "id": 7383386754,
+          "node_id": "MEE_lADOHNT3zs5Rz7RuzwAAAAG4FYqC",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383386754",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:22:56Z"
+        },
+        {
+          "id": 7383386765,
+          "node_id": "SE_lADOHNT3zs5Rz7RuzwAAAAG4FYqN",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383386765",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:22:56Z"
+        },
+        {
+          "id": 7447526048,
+          "node_id": "REFE_lADOHNT3zs5Rz7RuzwAAAAG76Dqg",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447526048",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1ab368c7c0bcc5833d8aaae51b4d8792e131d4ea",
+          "commit_url": "https://api.github.com/repos/objectionary/eo-hamcrest/commits/1ab368c7c0bcc5833d8aaae51b4d8792e131d4ea",
+          "created_at": "2022-09-23T13:42:55Z"
+        },
+        {
+          "id": 7447580992,
+          "node_id": "MEE_lADOHNT3zs5Rz7RuzwAAAAG76RFA",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447580992",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T13:49:50Z"
+        },
+        {
+          "id": 7447580999,
+          "node_id": "SE_lADOHNT3zs5Rz7RuzwAAAAG76RFH",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447580999",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T13:49:50Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 9.24,
+      "estimate": "30",
+      "author": "@Graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/103",
+      "ticket": "41",
+      "done": true,
+      "id": "41-fa7f45be",
+      "closed_at": "2022-09-23T14:03:37Z",
+      "created_at": "2022-09-14T08:06:32Z",
+      "body": "To add several tests for checking is matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.",
+      "file": "src/test/eo/org/eolang/hamcrest/failed-output/is-failed-output.eo",
+      "lines": "28-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "is-failed-output.eo:28-31: To add several tests for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7383387440,
+          "node_id": "MEE_lADOHNT3zs5Rz7TtzwAAAAG4FY0w",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383387440",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:01Z"
+        },
+        {
+          "id": 7383387446,
+          "node_id": "SE_lADOHNT3zs5Rz7TtzwAAAAG4FY02",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383387446",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:01Z"
+        },
+        {
+          "id": 7383387565,
+          "node_id": "MEE_lADOHNT3zs5Rz7TtzwAAAAG4FY2t",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383387565",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:02Z"
+        },
+        {
+          "id": 7383387574,
+          "node_id": "SE_lADOHNT3zs5Rz7TtzwAAAAG4FY22",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383387574",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:02Z"
+        },
+        {
+          "id": 7447599722,
+          "node_id": "REFE_lADOHNT3zs5Rz7TtzwAAAAG76Vpq",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447599722",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "12e968bc3386461851cddd0520e4260bac3ca72c",
+          "commit_url": "https://api.github.com/repos/objectionary/eo-hamcrest/commits/12e968bc3386461851cddd0520e4260bac3ca72c",
+          "created_at": "2022-09-23T13:52:12Z"
+        },
+        {
+          "id": 7447689077,
+          "node_id": "MEE_lADOHNT3zs5Rz7TtzwAAAAG76rd1",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447689077",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T14:03:34Z"
+        },
+        {
+          "id": 7447689088,
+          "node_id": "SE_lADOHNT3zs5Rz7TtzwAAAAG76reA",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447689088",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T14:03:34Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 9.25,
+      "estimate": "30",
+      "author": "@Graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/104",
+      "ticket": "41",
+      "done": true,
+      "id": "41-bf856ca9",
+      "closed_at": "2022-09-23T14:20:27Z",
+      "created_at": "2022-09-14T08:06:32Z",
+      "body": "To add several tests for checking not matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.",
+      "file": "src/test/eo/org/eolang/hamcrest/failed-output/not-failed-output.eo",
+      "lines": "28-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "not-failed-output.eo:28-31: To add several tests for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7383388280,
+          "node_id": "MEE_lADOHNT3zs5Rz7VvzwAAAAG4FZB4",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383388280",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:08Z"
+        },
+        {
+          "id": 7383388286,
+          "node_id": "SE_lADOHNT3zs5Rz7VvzwAAAAG4FZB-",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383388286",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:08Z"
+        },
+        {
+          "id": 7447766968,
+          "node_id": "REFE_lADOHNT3zs5Rz7VvzwAAAAG76-e4",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447766968",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "54b2a32ec63eeda818b5d7b07b2c8e8bcf6e7ff2",
+          "commit_url": "https://api.github.com/repos/objectionary/eo-hamcrest/commits/54b2a32ec63eeda818b5d7b07b2c8e8bcf6e7ff2",
+          "created_at": "2022-09-23T14:13:17Z"
+        },
+        {
+          "id": 7447823710,
+          "node_id": "MEE_lADOHNT3zs5Rz7VvzwAAAAG77MVe",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447823710",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T14:20:24Z"
+        },
+        {
+          "id": 7447823715,
+          "node_id": "SE_lADOHNT3zs5Rz7VvzwAAAAG77MVj",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7447823715",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-23T14:20:24Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 9.26,
+      "estimate": "30",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/105",
+      "ticket": "41",
+      "done": true,
+      "id": "41-17873f95",
+      "closed_at": "2022-09-22T13:32:43Z",
+      "created_at": "2022-09-14T08:06:32Z",
+      "body": "To add several tests for checking close-to matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.",
+      "file": "src/test/eo/org/eolang/hamcrest/failed-output/close-to-failed-output.eo",
+      "lines": "28-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "includealex"
+      ],
+      "title": "close-to-failed-output.eo:28-31: To add several tests for...",
+      "comments": [
+        {
+          "author": "Graur",
+          "created_at": "2022-09-21T10:12:22Z",
+          "updated_at": "2022-09-21T10:12:22Z",
+          "body": "@includealex please, help us here",
+          "url": "https://github.com/objectionary/eo-hamcrest/issues/105#issuecomment-1253493940",
+          "id": 1253493940
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7383389069,
+          "node_id": "MEE_lADOHNT3zs5Rz7X2zwAAAAG4FZON",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383389069",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:14Z"
+        },
+        {
+          "id": 7383389083,
+          "node_id": "SE_lADOHNT3zs5Rz7X2zwAAAAG4FZOb",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383389083",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:14Z"
+        },
+        {
+          "id": 7429470423,
+          "node_id": "AE_lADOHNT3zs5Rz7X2zwAAAAG61LjX",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7429470423",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-21T10:12:18Z",
+          "assignee": {
+            "login": "includealex",
+            "id": 70340829,
+            "node_id": "MDQ6VXNlcjcwMzQwODI5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70340829?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/includealex",
+            "html_url": "https://github.com/includealex",
+            "followers_url": "https://api.github.com/users/includealex/followers",
+            "following_url": "https://api.github.com/users/includealex/following{/other_user}",
+            "gists_url": "https://api.github.com/users/includealex/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/includealex/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/includealex/subscriptions",
+            "organizations_url": "https://api.github.com/users/includealex/orgs",
+            "repos_url": "https://api.github.com/users/includealex/repos",
+            "events_url": "https://api.github.com/users/includealex/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/includealex/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7429470812,
+          "node_id": "MEE_lADOHNT3zs5Rz7X2zwAAAAG61Lpc",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7429470812",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-21T10:12:22Z"
+        },
+        {
+          "id": 7429470818,
+          "node_id": "SE_lADOHNT3zs5Rz7X2zwAAAAG61Lpi",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7429470818",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-21T10:12:22Z"
+        },
+        {
+          "id": 7436923002,
+          "node_id": "REFE_lADOHNT3zs5Rz7X2zwAAAAG7RnB6",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7436923002",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8a64f1539a5411295774c008de49e38c793b3c87",
+          "commit_url": "https://api.github.com/repos/includealex/eo-hamcrest/commits/8a64f1539a5411295774c008de49e38c793b3c87",
+          "created_at": "2022-09-22T07:40:40Z"
+        },
+        {
+          "id": 7437205497,
+          "node_id": "REFE_lADOHNT3zs5Rz7X2zwAAAAG7Sr_5",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7437205497",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "790e917fa4ad9711f4d3bb33f75f8b6d0cff27fc",
+          "commit_url": "https://api.github.com/repos/includealex/eo-hamcrest/commits/790e917fa4ad9711f4d3bb33f75f8b6d0cff27fc",
+          "created_at": "2022-09-22T08:17:43Z"
+        },
+        {
+          "id": 7439052688,
+          "node_id": "REFE_lADOHNT3zs5Rz7X2zwAAAAG7Zu-Q",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7439052688",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0764009dcccb33a2709b05542b0b8852c4b202db",
+          "commit_url": "https://api.github.com/repos/includealex/eo-hamcrest/commits/0764009dcccb33a2709b05542b0b8852c4b202db",
+          "created_at": "2022-09-22T12:17:56Z"
+        },
+        {
+          "id": 7439679363,
+          "node_id": "CE_lADOHNT3zs5Rz7X2zwAAAAG7cH-D",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7439679363",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-22T13:32:08Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 8.23,
+      "estimate": "30",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/106",
+      "ticket": "41",
+      "done": true,
+      "id": "41-0f42b54c",
+      "closed_at": "2022-09-15T11:10:01Z",
+      "created_at": "2022-09-14T08:06:32Z",
+      "body": "To add several tests for checking less-than matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.",
+      "file": "src/test/eo/org/eolang/hamcrest/failed-output/less-than-failed-output.eo",
+      "lines": "28-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "includealex"
+      ],
+      "title": "less-than-failed-output.eo:28-31: To add several tests...",
+      "comments": [
+        {
+          "author": "Graur",
+          "created_at": "2022-09-14T11:24:19Z",
+          "updated_at": "2022-09-14T11:24:19Z",
+          "body": "@includealex please, take this task",
+          "url": "https://github.com/objectionary/eo-hamcrest/issues/106#issuecomment-1246623703",
+          "id": 1246623703
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7383390079,
+          "node_id": "MEE_lADOHNT3zs5Rz7aNzwAAAAG4FZd_",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383390079",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:21Z"
+        },
+        {
+          "id": 7383390085,
+          "node_id": "SE_lADOHNT3zs5Rz7aNzwAAAAG4FZeF",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383390085",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:21Z"
+        },
+        {
+          "id": 7384855966,
+          "node_id": "AE_lADOHNT3zs5Rz7aNzwAAAAG4K_We",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7384855966",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T11:23:58Z",
+          "assignee": {
+            "login": "includealex",
+            "id": 70340829,
+            "node_id": "MDQ6VXNlcjcwMzQwODI5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70340829?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/includealex",
+            "html_url": "https://github.com/includealex",
+            "followers_url": "https://api.github.com/users/includealex/followers",
+            "following_url": "https://api.github.com/users/includealex/following{/other_user}",
+            "gists_url": "https://api.github.com/users/includealex/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/includealex/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/includealex/subscriptions",
+            "organizations_url": "https://api.github.com/users/includealex/orgs",
+            "repos_url": "https://api.github.com/users/includealex/repos",
+            "events_url": "https://api.github.com/users/includealex/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/includealex/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7384858471,
+          "node_id": "MEE_lADOHNT3zs5Rz7aNzwAAAAG4K_9n",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7384858471",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T11:24:19Z"
+        },
+        {
+          "id": 7384858478,
+          "node_id": "SE_lADOHNT3zs5Rz7aNzwAAAAG4K_9u",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7384858478",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T11:24:19Z"
+        },
+        {
+          "id": 7392417028,
+          "node_id": "REFE_lADOHNT3zs5Rz7aNzwAAAAG4n1UE",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7392417028",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "965ee38841803f4e209e5f9f010af565277e861a",
+          "commit_url": "https://api.github.com/repos/includealex/eo-hamcrest/commits/965ee38841803f4e209e5f9f010af565277e861a",
+          "created_at": "2022-09-15T07:55:00Z"
+        },
+        {
+          "id": 7393236881,
+          "node_id": "REFE_lADOHNT3zs5Rz7aNzwAAAAG4q9eR",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7393236881",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1714f30292a9c0671ac03551be1cb7f3f9ad0806",
+          "commit_url": "https://api.github.com/repos/includealex/eo-hamcrest/commits/1714f30292a9c0671ac03551be1cb7f3f9ad0806",
+          "created_at": "2022-09-15T09:35:59Z"
+        },
+        {
+          "id": 7393941393,
+          "node_id": "MEE_lADOHNT3zs5Rz7aNzwAAAAG4tpeR",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7393941393",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T11:09:58Z"
+        },
+        {
+          "id": 7393941402,
+          "node_id": "SE_lADOHNT3zs5Rz7aNzwAAAAG4tpea",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7393941402",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T11:09:58Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 1.13,
+      "estimate": "30",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/107",
+      "ticket": "41",
+      "done": true,
+      "id": "41-3b9d114c",
+      "closed_at": "2022-09-22T10:49:28Z",
+      "created_at": "2022-09-14T08:06:32Z",
+      "body": "To add several tests for checking described-as matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.",
+      "file": "src/test/eo/org/eolang/hamcrest/failed-output/described-as-failed-output.eo",
+      "lines": "28-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "includealex"
+      ],
+      "title": "described-as-failed-output.eo:28-31: To add several tests...",
+      "comments": [
+        {
+          "author": "Graur",
+          "created_at": "2022-09-21T10:11:40Z",
+          "updated_at": "2022-09-21T10:11:40Z",
+          "body": "@includealex please, help us here",
+          "url": "https://github.com/objectionary/eo-hamcrest/issues/107#issuecomment-1253492933",
+          "id": 1253492933
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 7383390758,
+          "node_id": "MEE_lADOHNT3zs5Rz7cGzwAAAAG4FZom",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383390758",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:26Z"
+        },
+        {
+          "id": 7383390768,
+          "node_id": "SE_lADOHNT3zs5Rz7cGzwAAAAG4FZow",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7383390768",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-14T08:23:26Z"
+        },
+        {
+          "id": 7429465907,
+          "node_id": "MEE_lADOHNT3zs5Rz7cGzwAAAAG61Kcz",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7429465907",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-21T10:11:40Z"
+        },
+        {
+          "id": 7429465914,
+          "node_id": "SE_lADOHNT3zs5Rz7cGzwAAAAG61Kc6",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7429465914",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-21T10:11:40Z"
+        },
+        {
+          "id": 7429466435,
+          "node_id": "AE_lADOHNT3zs5Rz7cGzwAAAAG61KlD",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7429466435",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-21T10:11:45Z",
+          "assignee": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7429467226,
+          "node_id": "AE_lADOHNT3zs5Rz7cGzwAAAAG61Kxa",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7429467226",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-21T10:11:51Z",
+          "assignee": {
+            "login": "includealex",
+            "id": 70340829,
+            "node_id": "MDQ6VXNlcjcwMzQwODI5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70340829?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/includealex",
+            "html_url": "https://github.com/includealex",
+            "followers_url": "https://api.github.com/users/includealex/followers",
+            "following_url": "https://api.github.com/users/includealex/following{/other_user}",
+            "gists_url": "https://api.github.com/users/includealex/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/includealex/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/includealex/subscriptions",
+            "organizations_url": "https://api.github.com/users/includealex/orgs",
+            "repos_url": "https://api.github.com/users/includealex/repos",
+            "events_url": "https://api.github.com/users/includealex/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/includealex/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7429468279,
+          "node_id": "UNE_lADOHNT3zs5Rz7cGzwAAAAG61LB3",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7429468279",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-21T10:12:00Z",
+          "assignee": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "Graur",
+            "id": 33455325,
+            "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Graur",
+            "html_url": "https://github.com/Graur",
+            "followers_url": "https://api.github.com/users/Graur/followers",
+            "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+            "organizations_url": "https://api.github.com/users/Graur/orgs",
+            "repos_url": "https://api.github.com/users/Graur/repos",
+            "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Graur/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 7437521847,
+          "node_id": "REFE_lADOHNT3zs5Rz7cGzwAAAAG7T5O3",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7437521847",
+          "actor": {
+            "id": 70340829,
+            "url": "https://api.github.com/users/includealex",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0ed3e689436213291d8ad088dda10c99a707c925",
+          "commit_url": "https://api.github.com/repos/includealex/eo-hamcrest/commits/0ed3e689436213291d8ad088dda10c99a707c925",
+          "created_at": "2022-09-22T08:55:18Z"
+        },
+        {
+          "id": 7438415314,
+          "node_id": "CE_lADOHNT3zs5Rz7cGzwAAAAG7XTXS",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/7438415314",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-22T10:49:22Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 8.11,
+      "estimate": "30",
+      "author": "graur",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-hamcrest",
+      "issue_link": "https://github.com/objectionary/eo-hamcrest/issues/215",
+      "ticket": "212",
+      "done": true,
+      "id": "212-87d9b1ce",
+      "closed_at": "2023-10-16T16:41:54Z",
+      "created_at": "2023-10-04T13:37:49Z",
+      "body": "Enable the tests when eo-collections 0.10.0 is in objectionary. Need to enable next tests that were disabled because of conflict with eo-collections 0.10.0: has-items-int-test, contains-all-of-string-failed, contains-any-of-string-failed, starts-with-any-of-string-failed, all-of-close-to-failed-output, any-of-number-test-failed-output, all-of-several-failed-output, starts-with-all-of-string-failed, ends-with-all-of-string-failed, all-of-number-test-failed-output, ends-with-any-of-string-failed, arrays-failed-output, any-of-several-failed-output, nested-has-items, arrays-each-items, arrays-each-items-complex-case, has-item-string-test, has-item-float-test",
+      "file": "src/test/eo/org/eolang/hamcrest/arrays-matchers-tests.eo",
+      "lines": "30-37",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "arrays-matchers-tests.eo:30-37: Enable the tests when...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 10559970800,
+          "node_id": "MEE_lADOHNT3zs5y5fAHzwAAAAJ1bF3w",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/10559970800",
+          "actor": {
+            "id": 37025995,
+            "url": "https://api.github.com/users/maxonfjvipon",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T08:15:58Z"
+        },
+        {
+          "id": 10559970811,
+          "node_id": "SE_lADOHNT3zs5y5fAHzwAAAAJ1bF37",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/10559970811",
+          "actor": {
+            "id": 37025995,
+            "url": "https://api.github.com/users/maxonfjvipon",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T08:15:58Z"
+        },
+        {
+          "id": 10559970835,
+          "node_id": "MEE_lADOHNT3zs5y5fAHzwAAAAJ1bF4T",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/10559970835",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T08:15:59Z"
+        },
+        {
+          "id": 10559970847,
+          "node_id": "SE_lADOHNT3zs5y5fAHzwAAAAJ1bF4f",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/10559970847",
+          "actor": {
+            "id": 33455325,
+            "url": "https://api.github.com/users/Graur",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-05T08:15:59Z"
+        },
+        {
+          "id": 10668077098,
+          "node_id": "CE_lADOHNT3zs5y5fAHzwAAAAJ73fAq",
+          "url": "https://api.github.com/repos/objectionary/eo-hamcrest/issues/events/10668077098",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-10-16T16:41:47Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 12.13,
+      "estimate": "30",
+      "author": "@maxonfjvipon",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 17,
+  "project_forks": 6,
+  "project_contributors_count": 12,
+  "first_issue_date": "2022-06-12T23:30:13Z",
+  "last_issue_date": "2023-10-04T13:37:49Z"
+}

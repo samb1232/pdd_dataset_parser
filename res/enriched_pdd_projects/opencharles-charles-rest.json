@@ -1,0 +1,2231 @@
+{
+  "project_link": "https://github.com/opencharles/charles-rest",
+  "issues_count": 15,
+  "issues": [
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/157",
+      "ticket": "150",
+      "done": true,
+      "id": "150-f4a028a1",
+      "closed_at": "2017-10-27T07:45:04Z",
+      "created_at": "2016-12-14T07:18:40Z",
+      "body": "We might have to implement mappings and indexing of suggestions. Waiting for a clarification here: https://discuss.elastic.co/t/simple-way-to-implement-autocomplete-functionality/68979",
+      "file": "src/main/java/com/amihaiemil/charles/aws/AmazonEsRepository.java",
+      "lines": "45-47",
+      "labels": [
+        "@amihaiemil",
+        "v1.0.0",
+        "ARCH"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "AmazonEsRepository.java:45-47: We might have to implement mappings and ...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 893213856,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQ4OTMyMTM4NTY=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213856",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:48Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 893213992,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzk5Mg==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213992",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:58Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "1d76db"
+          }
+        },
+        {
+          "id": 893213993,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzk5Mw==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213993",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:58Z",
+          "label": {
+            "name": "ARCH",
+            "color": "fbca04"
+          }
+        },
+        {
+          "id": 893213995,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzk5NQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213995",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:58Z",
+          "label": {
+            "name": "v1.0.0",
+            "color": "d4c5f9"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 317.02,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/158",
+      "ticket": "150",
+      "done": true,
+      "id": "150-d3633346",
+      "closed_at": "2017-10-27T07:45:04Z",
+      "created_at": "2016-12-14T07:18:40Z",
+      "body": "When the autocomplete topic is clear and the handler implemented write unit tests for AmazonEsSuggest.",
+      "file": "src/main/java/com/amihaiemil/charles/aws/AmazonEsSuggest.java",
+      "lines": "63-64",
+      "labels": [
+        "@amihaiemil",
+        "v1.0.0",
+        "ARCH"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "AmazonEsSuggest.java:63-64: When the autocomplete topic is clear and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 893213571,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQ4OTMyMTM1NzE=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213571",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:28Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 893213636,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzYzNg==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213636",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:33Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "1d76db"
+          }
+        },
+        {
+          "id": 893213637,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzYzNw==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213637",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:33Z",
+          "label": {
+            "name": "ARCH",
+            "color": "fbca04"
+          }
+        },
+        {
+          "id": 893213638,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzYzOA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213638",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:33Z",
+          "label": {
+            "name": "v1.0.0",
+            "color": "d4c5f9"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 317.02,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/159",
+      "ticket": "150",
+      "done": true,
+      "id": "150-54535ee7",
+      "closed_at": "2017-10-27T07:45:05Z",
+      "created_at": "2016-12-14T07:18:40Z",
+      "body": "This implementation might have to be changed. Currently it's using bare Suggester which does word correction rather than actual autocomplete. Waiting for an answer here: https://discuss.elastic.co/t/simple-way-to-implement-autocomplete-functionality/68979",
+      "file": "src/main/java/com/amihaiemil/charles/aws/SuggestQuery.java",
+      "lines": "85-88",
+      "labels": [
+        "@amihaiemil",
+        "v1.0.0",
+        "ARCH"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "SuggestQuery.java:85-88: This implementation might have to be cha...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 893213409,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQ4OTMyMTM0MDk=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213409",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:15Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 893213468,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzQ2OA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213468",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:20Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "1d76db"
+          }
+        },
+        {
+          "id": 893213469,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzQ2OQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213469",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:20Z",
+          "label": {
+            "name": "ARCH",
+            "color": "fbca04"
+          }
+        },
+        {
+          "id": 893213470,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzQ3MA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213470",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:20Z",
+          "label": {
+            "name": "v1.0.0",
+            "color": "d4c5f9"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 317.02,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/160",
+      "ticket": "150",
+      "done": true,
+      "id": "150-47fee5a9",
+      "closed_at": "2017-10-27T07:45:06Z",
+      "created_at": "2016-12-14T07:18:40Z",
+      "body": "Once the autocomplete topic is clear and we have the final response layout, implement and unit test this method.",
+      "file": "src/main/java/com/amihaiemil/charles/aws/SuggestionsResponseHandler.java",
+      "lines": "59-60",
+      "labels": [
+        "@amihaiemil",
+        "v1.0.0",
+        "ARCH"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "SuggestionsResponseHandler.java:59-60: Once the autocomplete topic is clear and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 893213230,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzIzMA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213230",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:00Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "1d76db"
+          }
+        },
+        {
+          "id": 893213231,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzIzMQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213231",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:00Z",
+          "label": {
+            "name": "ARCH",
+            "color": "fbca04"
+          }
+        },
+        {
+          "id": 893213232,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDg5MzIxMzIzMg==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213232",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:00Z",
+          "label": {
+            "name": "v1.0.0",
+            "color": "d4c5f9"
+          }
+        },
+        {
+          "id": 893213285,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQ4OTMyMTMyODU=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/893213285",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-12-14T07:39:06Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 317.02,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/184",
+      "ticket": "181",
+      "done": true,
+      "id": "181-ca416da0",
+      "closed_at": "2017-10-27T07:45:07Z",
+      "created_at": "2017-01-19T18:21:12Z",
+      "body": "After Russian language is done and tested, let's start using it. It should be added bellow, right after English and everything should work after that.",
+      "file": "src/main/java/com/amihaiemil/charles/github/Brain.java",
+      "lines": "61-63",
+      "labels": [
+        "wontfix"
+      ],
+      "assignees": [],
+      "title": "Brain.java:61-63: After Russian language is done and teste...",
+      "comments": [
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-03-05T18:47:45Z",
+          "updated_at": "2017-03-05T18:48:36Z",
+          "body": "This issue is obsolete now, as we will refactor the brain. It will only speak english, and it won't work with regexes anymore as they are hard to mantain and explain. We'll keep it simple: english and containing words instead or regex...",
+          "url": "https://github.com/opencharles/charles-rest/issues/184#issuecomment-284250731",
+          "id": 284250731
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 940624958,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDk0MDYyNDk1OA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/940624958",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-01-29T18:54:47Z",
+          "label": {
+            "name": "1.1.0",
+            "color": "e99695"
+          }
+        },
+        {
+          "id": 940624959,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDk0MDYyNDk1OQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/940624959",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-01-29T18:54:47Z",
+          "label": {
+            "name": "30 min",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 940624960,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDk0MDYyNDk2MA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/940624960",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-01-29T18:54:47Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 986873038,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDk4Njg3MzAzOA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/986873038",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-05T18:47:40Z",
+          "label": {
+            "name": "wontfix",
+            "color": "ffffff"
+          }
+        },
+        {
+          "id": 986873039,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50OTg2ODczMDM5",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/986873039",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-05T18:47:40Z",
+          "label": {
+            "name": "1.1.0",
+            "color": "e99695"
+          }
+        },
+        {
+          "id": 986873040,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50OTg2ODczMDQw",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/986873040",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-05T18:47:40Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 986873074,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50OTg2ODczMDc0",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/986873074",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-05T18:47:49Z",
+          "label": {
+            "name": "30 min",
+            "color": "5319e7"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 280.56,
+      "estimate": "30",
+      "author": "Mihai Emil Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/185",
+      "ticket": "176",
+      "done": true,
+      "id": "176-a617e601",
+      "closed_at": "2017-10-27T07:45:08Z",
+      "created_at": "2017-01-19T18:21:12Z",
+      "body": "Test puzzle to test if 0pdd works for this repository? Last puzzle didn't generate any Github issue, seems to be a bug asdasdew.",
+      "file": "src/main/java/com/amihaiemil/charles/github/Command.java",
+      "lines": "44-46",
+      "labels": [],
+      "assignees": [],
+      "title": "Command.java:44-46: Test puzzle to test if 0pdd works for th...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 280.56,
+      "estimate": "60",
+      "author": "Mihai Emil Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/186",
+      "ticket": "174",
+      "done": true,
+      "id": "174-2ae6a13d",
+      "closed_at": "2017-10-27T07:45:09Z",
+      "created_at": "2017-01-19T18:21:12Z",
+      "body": "Implement and unit test Language class Russian, following the model of this class and its unit tests. The class should use the commands_ru and responses_ru properties files.",
+      "file": "src/main/java/com/amihaiemil/charles/github/English.java",
+      "lines": "33-35",
+      "labels": [
+        "wontfix"
+      ],
+      "assignees": [],
+      "title": "English.java:33-35: Implement and unit test Language class R...",
+      "comments": [
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-03-05T18:47:26Z",
+          "updated_at": "2017-03-05T18:48:24Z",
+          "body": "This issue is obsolete now, as we will refactor the brain. It will only speak english, and it won't work with regexes anymore as they are hard to mantain and explain. We'll keep it simple: english and containing words instead or regex...",
+          "url": "https://github.com/opencharles/charles-rest/issues/186#issuecomment-284250711",
+          "id": 284250711
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 940267383,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDk0MDI2NzM4Mw==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/940267383",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-01-28T13:28:32Z",
+          "label": {
+            "name": "30 min",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 940267384,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDk0MDI2NzM4NA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/940267384",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-01-28T13:28:32Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 940624993,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDk0MDYyNDk5Mw==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/940624993",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-01-29T18:54:56Z",
+          "label": {
+            "name": "1.1.0",
+            "color": "e99695"
+          }
+        },
+        {
+          "id": 986872601,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDk4Njg3MjYwMQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/986872601",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-05T18:46:15Z",
+          "label": {
+            "name": "wontfix",
+            "color": "ffffff"
+          }
+        },
+        {
+          "id": 986872602,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50OTg2ODcyNjAy",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/986872602",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-05T18:46:15Z",
+          "label": {
+            "name": "1.1.0",
+            "color": "e99695"
+          }
+        },
+        {
+          "id": 986872604,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50OTg2ODcyNjA0",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/986872604",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-05T18:46:15Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 986873134,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50OTg2ODczMTM0",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/986873134",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-05T18:48:00Z",
+          "label": {
+            "name": "30 min",
+            "color": "5319e7"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 280.56,
+      "estimate": "30",
+      "author": "Mihai Emil Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/205",
+      "ticket": "201",
+      "done": true,
+      "id": "201-af20c932",
+      "closed_at": "2017-10-27T07:45:11Z",
+      "created_at": "2017-03-29T12:50:51Z",
+      "body": "Add fake implementation for the 4 SystemProperty interfaces to use them in testing.",
+      "file": "src/main/java/com/amihaiemil/charles/aws/AbstractSystemProperty.java",
+      "lines": "34-35",
+      "labels": [
+        "enhancement",
+        "15min"
+      ],
+      "assignees": [],
+      "title": "AbstractSystemProperty.java:34-35: Add fake implementation for the 4...",
+      "comments": [
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-04-12T10:21:19Z",
+          "updated_at": "2017-04-12T10:21:19Z",
+          "body": "@charlesmike hello",
+          "url": "https://github.com/opencharles/charles-rest/issues/205#issuecomment-293535597",
+          "id": 293535597
+        },
+        {
+          "author": "charlesmike",
+          "created_at": "2017-04-12T17:30:09Z",
+          "updated_at": "2017-04-12T17:30:09Z",
+          "body": "> @charlesmike hello\n\nHi @amihaiemil! I can help you index your Github-hosted website, provided that the repository name respects the format ``owner.github.io`` (or has a ``gh-pages`` branch) and the command is given by the repo's owner.\n\nMore on commands [here](http://charles.amihaiemil.com/doc.html#commands).",
+          "url": "https://github.com/opencharles/charles-rest/issues/205#issuecomment-293651036",
+          "id": 293651036
+        },
+        {
+          "author": "missourpro",
+          "created_at": "2017-04-17T18:23:59Z",
+          "updated_at": "2017-04-17T18:23:59Z",
+          "body": "@charlesmike hello there!",
+          "url": "https://github.com/opencharles/charles-rest/issues/205#issuecomment-294550937",
+          "id": 294550937
+        },
+        {
+          "author": "charlesmike",
+          "created_at": "2017-04-17T18:24:05Z",
+          "updated_at": "2017-04-17T18:24:05Z",
+          "body": "> @charlesmike hello there!\n\nHi @missourpro! I can help you index your Github-hosted website, provided that the repository name respects the format ``owner.github.io`` (or has a ``gh-pages`` branch) and the command is given by the repo's owner.\n\nMore on commands [here](http://charles.amihaiemil.com/doc.html#commands).",
+          "url": "https://github.com/opencharles/charles-rest/issues/205#issuecomment-294550967",
+          "id": 294550967
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1020378694,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEwMjAzNzg2OTQ=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1020378694",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-29T13:01:45Z",
+          "label": {
+            "name": "15min",
+            "color": "b942f4"
+          }
+        },
+        {
+          "id": 1020378697,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEwMjAzNzg2OTc=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1020378697",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-29T13:01:45Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1039878134,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTAzOTg3ODEzNA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1039878134",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-12T10:21:19Z"
+        },
+        {
+          "id": 1039878135,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwMzk4NzgxMzU=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1039878135",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-12T10:21:19Z"
+        },
+        {
+          "id": 1040579877,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA0MDU3OTg3Nw==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1040579877",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-12T17:30:09Z"
+        },
+        {
+          "id": 1040579878,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNDA1Nzk4Nzg=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1040579878",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-12T17:30:09Z"
+        },
+        {
+          "id": 1040579879,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA0MDU3OTg3OQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1040579879",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-12T17:30:09Z"
+        },
+        {
+          "id": 1040579881,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNDA1Nzk4ODE=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1040579881",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-12T17:30:09Z"
+        },
+        {
+          "id": 1045348279,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA0NTM0ODI3OQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1045348279",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-17T18:23:59Z"
+        },
+        {
+          "id": 1045348280,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNDUzNDgyODA=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1045348280",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-17T18:23:59Z"
+        },
+        {
+          "id": 1045348443,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA0NTM0ODQ0Mw==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1045348443",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-17T18:24:05Z"
+        },
+        {
+          "id": 1045348444,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNDUzNDg0NDQ=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1045348444",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-17T18:24:05Z"
+        },
+        {
+          "id": 1045348445,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA0NTM0ODQ0NQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1045348445",
+          "actor": {
+            "id": 25850181,
+            "url": "https://api.github.com/users/missourpro",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-17T18:24:05Z"
+        },
+        {
+          "id": 1045348446,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNDUzNDg0NDY=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1045348446",
+          "actor": {
+            "id": 25850181,
+            "url": "https://api.github.com/users/missourpro",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-17T18:24:05Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 14,
+      "time_to_resolution_days": 211.79,
+      "estimate": "15",
+      "author": "sherif",
+      "hierarchy": 1,
+      "parent_id": "199-aff84e88",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/201",
+      "ticket": "199",
+      "done": true,
+      "id": "199-aff84e88",
+      "closed_at": "2017-10-27T07:45:10Z",
+      "created_at": "2017-03-19T16:44:23Z",
+      "body": "Implement and Unit test 4 system properties SecretKey, Region, EsEndPoint and AccessKeyId. Also add fake implementation for the interfaces to use them in testing.",
+      "file": "src/main/java/com/amihaiemil/charles/aws/SystemProperty.java",
+      "lines": "33-35",
+      "labels": [
+        "enhancement",
+        "30 min"
+      ],
+      "assignees": [],
+      "title": "SystemProperty.java:33-35: Implement and Unit test 4 system...",
+      "comments": [
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-03-28T10:55:57Z",
+          "updated_at": "2017-03-28T10:57:01Z",
+          "body": "@SherifWaly Want to do this? I would do as follows: \r\n\r\n* class ``AbstractSystemProperty`` implements ``SystemProperty``, which has a String attribute, ``name``.\r\n In the ``read()`` method you simply have ``System.getProperty(this.name)``\r\n* the classes for each of the 4 interfaces implement the respective interface and extend ``AbstractSystemProperty``\r\n\r\ne.g. for ``Region``:\r\n\r\n```\r\n/**\r\n * Region as a system property.\r\n */\r\npublic final class StRegion implements Region extends AbstractSystemProperty {\r\n    public StRegion(final String name) {\r\n        super(name);\r\n    }\r\n}\r\n```\r\n\r\nAs I explained in the [article](http://www.amihaiemil.com/2017/02/24/each-system-property-a-class.html) these classes cannot really be unit tested, since we end up with the same problem we're trying to avoid :) \r\n\r\nAnd I would add a puzzle, with ``15min`` estimation, for adding of the ``Fake`` implementations in each of the 4 interfaces.\r\n\r\nWhat do you think? :D ",
+          "url": "https://github.com/opencharles/charles-rest/issues/201#issuecomment-289734221",
+          "id": 289734221
+        },
+        {
+          "author": "SherifWaly",
+          "created_at": "2017-03-28T16:34:33Z",
+          "updated_at": "2017-03-28T16:34:33Z",
+          "body": "@amihaiemil Ok, I will try to do it :D \r\nJust to make sure the unit testing would be made for the `Fake` implementations not the real ones, is that right :D?",
+          "url": "https://github.com/opencharles/charles-rest/issues/201#issuecomment-289828419",
+          "id": 289828419
+        },
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-03-28T16:35:36Z",
+          "updated_at": "2017-03-28T16:35:36Z",
+          "body": "@SherifWaly yes :D",
+          "url": "https://github.com/opencharles/charles-rest/issues/201#issuecomment-289828717",
+          "id": 289828717
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1006595488,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEwMDY1OTU0ODg=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1006595488",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-20T12:33:12Z",
+          "label": {
+            "name": "30 min",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 1006595489,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEwMDY1OTU0ODk=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1006595489",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-20T12:33:12Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1018315321,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTAxODMxNTMyMQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1018315321",
+          "actor": {
+            "id": 20197861,
+            "url": "https://api.github.com/users/SherifWaly",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-28T10:55:57Z"
+        },
+        {
+          "id": 1018315322,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwMTgzMTUzMjI=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1018315322",
+          "actor": {
+            "id": 20197861,
+            "url": "https://api.github.com/users/SherifWaly",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-28T10:55:57Z"
+        },
+        {
+          "id": 1018904513,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTAxODkwNDUxMw==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1018904513",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-28T16:34:34Z"
+        },
+        {
+          "id": 1018904514,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwMTg5MDQ1MTQ=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1018904514",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-28T16:34:34Z"
+        },
+        {
+          "id": 1018906191,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTAxODkwNjE5MQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1018906191",
+          "actor": {
+            "id": 20197861,
+            "url": "https://api.github.com/users/SherifWaly",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-28T16:35:36Z"
+        },
+        {
+          "id": 1018906193,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwMTg5MDYxOTM=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1018906193",
+          "actor": {
+            "id": 20197861,
+            "url": "https://api.github.com/users/SherifWaly",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-03-28T16:35:36Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 3,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 221.63,
+      "estimate": "30",
+      "author": "sherif",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/237",
+      "ticket": "222",
+      "done": true,
+      "id": "222-903f585c",
+      "closed_at": "2017-10-27T07:45:12Z",
+      "created_at": "2017-08-15T12:22:06Z",
+      "body": "Hello was added, to handle hello commands. Continue with further Knowledges for the other commands (index site, index page etc).",
+      "file": "src/main/java/com/amihaiemil/charles/github/Conversation.java",
+      "lines": "35-36",
+      "labels": [],
+      "assignees": [],
+      "title": "Conversation.java:35-36: Hello was added, to handle hello...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 72.81,
+      "estimate": "30",
+      "author": "Mihai Andronache",
+      "hierarchy": 1,
+      "parent_id": "220-20b595ff",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/222",
+      "ticket": "220",
+      "done": true,
+      "id": "220-20b595ff",
+      "closed_at": "2017-10-27T07:45:11Z",
+      "created_at": "2017-07-20T07:49:01Z",
+      "body": "Add further Knowledge implementations, to replace the Brain class entirely.",
+      "file": "src/main/java/com/amihaiemil/charles/github/Conversation.java",
+      "lines": "35-36",
+      "labels": [
+        "enhancement",
+        "@amihaiemil",
+        "30 min",
+        "waiting release"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "Conversation.java:35-36: Add further Knowledge...",
+      "comments": [
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-08-10T05:58:36Z",
+          "updated_at": "2017-08-10T05:58:36Z",
+          "body": "@0crat my skills are Java and JavaEE",
+          "url": "https://github.com/opencharles/charles-rest/issues/222#issuecomment-321458519",
+          "id": 321458519
+        },
+        {
+          "author": "0crat",
+          "created_at": "2017-08-10T06:08:57Z",
+          "updated_at": "2017-08-10T06:08:57Z",
+          "body": "There is an unrecoverable failure on my side. Please, submit it [here](https://github.com/zerocracy/datum):\n\n```\njava.lang.IllegalStateException: Can't find anything with links/link[@rel='github' and @href='opencharles/charles-rest']\n\tat com.zerocracy.farm.S3Farm.force(S3Farm.java:107)\n\tat com.zerocracy.farm.S3Farm.find(S3Farm.java:87)\n\tat com.zerocracy.farm.sync.SyncFarm.find(SyncFarm.java:60)\n\tat com.zerocracy.farm.SmartFarm.lambda$value$1(SmartFarm.java:83)\n\tat com.zerocracy.farm.reactive.RvFarm.find(RvFarm.java:67)\n\tat com.zerocracy.radars.github.GhProject.project(GhProject.java:90)\n\tat com.zerocracy.radars.github.GhProject.acq(GhProject.java:78)\n\tat com.zerocracy.pm.Claims.lock(Claims.java:65)\n\tat com.zerocracy.pm.ClaimOut.postTo(ClaimOut.java:75)\n\tat com.zerocracy.radars.github.ReQuestion.react(ReQuestion.java:60)\n\tat com.zerocracy.radars.github.ReIfAddressed.react(ReIfAddressed.java:58)\n\tat com.zerocracy.radars.github.ReNotMine.react(ReNotMine.java:55)\n\tat com.zerocracy.radars.github.ReSafe.lambda$react$0(ReSafe.java:61)\n\tat org.cactoos.func.FuncWithFallback.apply(FuncWithFallback.java:...\n```",
+          "url": "https://github.com/opencharles/charles-rest/issues/222#issuecomment-321460028",
+          "id": 321460028
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1171596159,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMTcxNTk2MTU5",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1171596159",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T07:49:47Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1171596282,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDExNzE1OTYyODI=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1171596282",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T07:49:51Z",
+          "label": {
+            "name": "30 min",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 1171596283,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDExNzE1OTYyODM=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1171596283",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T07:49:51Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "1d76db"
+          }
+        },
+        {
+          "id": 1172780651,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDExNzI3ODA2NTE=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1172780651",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T19:51:38Z",
+          "label": {
+            "name": "enhancement",
+            "color": "84b6eb"
+          }
+        },
+        {
+          "id": 1172780652,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDExNzI3ODA2NTI=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1172780652",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T19:51:38Z",
+          "label": {
+            "name": "waiting release",
+            "color": "d93f0b"
+          }
+        },
+        {
+          "id": 1200320974,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTIwMDMyMDk3NA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1200320974",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-10T05:58:36Z"
+        },
+        {
+          "id": 1200320978,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyMDAzMjA5Nzg=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1200320978",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-10T05:58:36Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 99.0,
+      "estimate": "30",
+      "author": "Mihai Emil Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/223",
+      "ticket": "220",
+      "done": true,
+      "id": "220-27beec2c",
+      "closed_at": "2017-10-27T07:45:13Z",
+      "created_at": "2017-07-20T07:49:01Z",
+      "body": "Add CachedCommand class, which would handle caching of values that are currently handled here.",
+      "file": "src/main/java/com/amihaiemil/charles/github/Command.java",
+      "lines": "44-45",
+      "labels": [
+        "@amihaiemil",
+        "ARCH",
+        "30 min"
+      ],
+      "assignees": [
+        "amihaiemil"
+      ],
+      "title": "Command.java:44-45: Add CachedCommand class, which would...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1171595915,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMTcxNTk1OTE1",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1171595915",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T07:49:35Z",
+          "assignee": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "amihaiemil",
+            "id": 6305156,
+            "node_id": "MDQ6VXNlcjYzMDUxNTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6305156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amihaiemil",
+            "html_url": "https://github.com/amihaiemil",
+            "followers_url": "https://api.github.com/users/amihaiemil/followers",
+            "following_url": "https://api.github.com/users/amihaiemil/following{/other_user}",
+            "gists_url": "https://api.github.com/users/amihaiemil/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/amihaiemil/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/amihaiemil/subscriptions",
+            "organizations_url": "https://api.github.com/users/amihaiemil/orgs",
+            "repos_url": "https://api.github.com/users/amihaiemil/repos",
+            "events_url": "https://api.github.com/users/amihaiemil/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/amihaiemil/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1171595997,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDExNzE1OTU5OTc=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1171595997",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T07:49:39Z",
+          "label": {
+            "name": "30 min",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 1171595998,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDExNzE1OTU5OTg=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1171595998",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T07:49:39Z",
+          "label": {
+            "name": "@amihaiemil",
+            "color": "1d76db"
+          }
+        },
+        {
+          "id": 1171595999,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDExNzE1OTU5OTk=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1171595999",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-07-20T07:49:39Z",
+          "label": {
+            "name": "ARCH",
+            "color": "fbca04"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 99.0,
+      "estimate": "30",
+      "author": "Mihai Emil Andronache",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/243",
+      "ticket": "241",
+      "done": true,
+      "id": "241-12bd8c89",
+      "closed_at": "2018-10-10T17:16:17Z",
+      "created_at": "2017-08-17T12:04:54Z",
+      "body": "Pull out the system proerties, same as was done in the aws layer, to simplify the unit tests.",
+      "file": "src/main/java/com/amihaiemil/charles/github/Tweet.java",
+      "lines": "39-40",
+      "labels": [],
+      "assignees": [],
+      "title": "Tweet.java:39-40: Pull out the system proerties, same...",
+      "comments": [
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-08-17T12:49:44Z",
+          "updated_at": "2017-08-17T12:49:44Z",
+          "body": "@charlesmike index [this](http://opencharles.github.io/charles-rest/config.html) new page please",
+          "url": "https://github.com/opencharles/charles-rest/issues/243#issuecomment-323063667",
+          "id": 323063667
+        },
+        {
+          "author": "charlesmike",
+          "created_at": "2017-08-17T12:49:47Z",
+          "updated_at": "2017-08-17T12:49:47Z",
+          "body": "> @charlesmike index [this](http://opencharles.github.io/charles-rest/config.html) new page please\n\n@amihaiemil thank you for the command, the indexing process started just now. I will let you know of the outcome shortly. In the meantime, you can check the logs [here](http://charles.amihaiemil.com/logs.html?log=/180c9c64-3d98-4d57-804e-b03331f1196c.log).",
+          "url": "https://github.com/opencharles/charles-rest/issues/243#issuecomment-323063678",
+          "id": 323063678
+        },
+        {
+          "author": "charlesmike",
+          "created_at": "2017-08-17T12:49:52Z",
+          "updated_at": "2017-08-17T12:49:52Z",
+          "body": "> @charlesmike index [this](http://opencharles.github.io/charles-rest/config.html) new page please\n\n@amihaiemil Index command executed successfully! \n Add the widget [script](https://github.com/opencharles/charles-search-box#reactjs-search-box-component) to the website in order to make the search functionality available.\n\n See [logs](http://charles.amihaiemil.com/logs.html?log=/180c9c64-3d98-4d57-804e-b03331f1196c.log) for more details. \n If you notice any inexplicable errors, please open an issue [here](https://github.com/opencharles/charles-rest/issues/new)",
+          "url": "https://github.com/opencharles/charles-rest/issues/243#issuecomment-323063692",
+          "id": 323063692
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1210070686,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTIxMDA3MDY4Ng==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070686",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:44Z"
+        },
+        {
+          "id": 1210070688,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyMTAwNzA2ODg=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070688",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:44Z"
+        },
+        {
+          "id": 1210070798,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTIxMDA3MDc5OA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070798",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:47Z"
+        },
+        {
+          "id": 1210070801,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyMTAwNzA4MDE=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070801",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:47Z"
+        },
+        {
+          "id": 1210070802,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTIxMDA3MDgwMg==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070802",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:47Z"
+        },
+        {
+          "id": 1210070804,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyMTAwNzA4MDQ=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070804",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:47Z"
+        },
+        {
+          "id": 1210070918,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTIxMDA3MDkxOA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070918",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:52Z"
+        },
+        {
+          "id": 1210070922,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyMTAwNzA5MjI=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070922",
+          "actor": {
+            "id": 19765212,
+            "url": "https://api.github.com/users/charlesmike",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:52Z"
+        },
+        {
+          "id": 1210070924,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTIxMDA3MDkyNA==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070924",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:52Z"
+        },
+        {
+          "id": 1210070925,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyMTAwNzA5MjU=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1210070925",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-08-17T12:49:52Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 3,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 419.22,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/258",
+      "ticket": "255",
+      "done": true,
+      "id": "255-54364d10",
+      "closed_at": "2017-10-27T07:45:14Z",
+      "created_at": "2017-09-05T08:15:27Z",
+      "body": "Get rid of this POJO and turn it into a smart class, same as it was done with SearchResult. Update and unignore tests in CharlesResourceTestCase when its done.",
+      "file": "src/main/java/com/amihaiemil/charles/rest/model/SearchResultsPage.java",
+      "lines": "36-38",
+      "labels": [
+        "bug",
+        "30 min"
+      ],
+      "assignees": [],
+      "title": "SearchResultsPage.java:36-38: Get rid of this POJO and turn it into...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1234398153,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEyMzQzOTgxNTM=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1234398153",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-09-05T08:22:19Z",
+          "label": {
+            "name": "30 min",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 1234398155,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDEyMzQzOTgxNTU=",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1234398155",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-09-05T08:22:19Z",
+          "label": {
+            "name": "bug",
+            "color": "ee0701"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 51.98,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/opencharles/charles-rest",
+      "issue_link": "https://github.com/opencharles/charles-rest/issues/261",
+      "ticket": "250",
+      "done": true,
+      "id": "250-d7d97575",
+      "closed_at": "2017-10-27T07:45:15Z",
+      "created_at": "2017-09-05T13:55:04Z",
+      "body": "Rename this class to Index (since that's what it is), and remove AmazonEsSearch class, moving the search method here",
+      "file": "src/main/java/com/amihaiemil/charles/aws/AmazonEsRepository.java",
+      "lines": "59-60",
+      "labels": [],
+      "assignees": [],
+      "title": "AmazonEsRepository.java:59-60: Rename this class to Index (since...",
+      "comments": [
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-09-06T09:04:16Z",
+          "updated_at": "2017-09-06T09:04:16Z",
+          "body": "Renamed to ElasticSearch and AmazonElasticSearch, instead of Index",
+          "url": "https://github.com/opencharles/charles-rest/issues/261#issuecomment-327422344",
+          "id": 327422344
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1236454609,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTIzNjQ1NDYwOQ==",
+          "url": "https://api.github.com/repos/opencharles/charles-rest/issues/events/1236454609",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-09-06T09:26:33Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 51.74,
+      "estimate": "30",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 25,
+  "project_forks": 10,
+  "project_contributors_count": 6,
+  "first_issue_date": "2016-12-14T07:18:40Z",
+  "last_issue_date": "2017-09-05T13:55:04Z"
+}

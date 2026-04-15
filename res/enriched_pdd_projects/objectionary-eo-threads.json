@@ -1,0 +1,717 @@
+{
+  "project_link": "https://github.com/objectionary/eo-threads",
+  "issues_count": 8,
+  "issues": [
+    {
+      "project_link": "https://github.com/objectionary/eo-threads",
+      "issue_link": "https://github.com/objectionary/eo-threads/issues/24",
+      "ticket": "14",
+      "done": true,
+      "id": "14-d4ce4bb2",
+      "closed_at": "2022-09-26T16:59:21Z",
+      "created_at": "2022-09-08T16:45:16Z",
+      "body": "Implement handling of Interrupted Exaption when the get method will throw it. We need to wait for changes in eo repository to do that.",
+      "file": "src/main/java/EOorg/EOeolang/EOthreads/DataizingThread.java",
+      "lines": "69-72",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "levBagryansky"
+      ],
+      "title": "DataizingThread.java:69-72: Implement handling of...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7349605390,
+          "node_id": "MEE_lADOHmeKF85RdcmBzwAAAAG2EhQO",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7349605390",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-08T16:47:43Z"
+        },
+        {
+          "id": 7349605396,
+          "node_id": "SE_lADOHmeKF85RdcmBzwAAAAG2EhQU",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7349605396",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-08T16:47:43Z"
+        },
+        {
+          "id": 7394481309,
+          "node_id": "AE_lADOHmeKF85RdcmBzwAAAAG4vtSd",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7394481309",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T12:24:01Z",
+          "assignee": {
+            "login": "levBagryansky",
+            "id": 32939651,
+            "node_id": "MDQ6VXNlcjMyOTM5NjUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32939651?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/levBagryansky",
+            "html_url": "https://github.com/levBagryansky",
+            "followers_url": "https://api.github.com/users/levBagryansky/followers",
+            "following_url": "https://api.github.com/users/levBagryansky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/levBagryansky/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/levBagryansky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/levBagryansky/subscriptions",
+            "organizations_url": "https://api.github.com/users/levBagryansky/orgs",
+            "repos_url": "https://api.github.com/users/levBagryansky/repos",
+            "events_url": "https://api.github.com/users/levBagryansky/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/levBagryansky/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "yegor256",
+            "id": 526301,
+            "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yegor256",
+            "html_url": "https://github.com/yegor256",
+            "followers_url": "https://api.github.com/users/yegor256/followers",
+            "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+            "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+            "organizations_url": "https://api.github.com/users/yegor256/orgs",
+            "repos_url": "https://api.github.com/users/yegor256/repos",
+            "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/yegor256/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 18.01,
+      "estimate": "90",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-threads",
+      "issue_link": "https://github.com/objectionary/eo-threads/issues/51",
+      "ticket": "33",
+      "done": true,
+      "id": "33-42a5749e",
+      "closed_at": "2022-10-06T02:26:16Z",
+      "created_at": "2022-10-01T10:45:40Z",
+      "body": "Implement test with numerous threads that will acquire and releasse mutex in parallel We need to wait for solving a problem with different hashcodes.",
+      "file": "src/test/eo/org/eolang/threads/mutex-test.eo",
+      "lines": "106-110",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "mutex-test.eo:106-110: Implement test with numerous...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7509211689,
+          "node_id": "MEE_lADOHmeKF85TJrfWzwAAAAG_lXop",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7509211689",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-03T17:01:34Z"
+        },
+        {
+          "id": 7509211697,
+          "node_id": "SE_lADOHmeKF85TJrfWzwAAAAG_lXox",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7509211697",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-03T17:01:34Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 4.65,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 1,
+      "parent_id": "12-aaf1d833",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-threads",
+      "issue_link": "https://github.com/objectionary/eo-threads/issues/52",
+      "ticket": "33",
+      "done": true,
+      "id": "33-016de260",
+      "closed_at": "2022-10-12T17:52:27Z",
+      "created_at": "2022-10-01T10:45:40Z",
+      "body": "Uncomment this test when problem of the of same hashcodes in parallel threads will be solved. This test proves new Phi objects created in parallel threads can have repeated hashcodes",
+      "file": "src/test/java/EOorg/EOeolang/EOthreads/EOmutexTest.java",
+      "lines": "78-82",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "EOmutexTest.java:78-82: Uncomment this test when problem...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7509212255,
+          "node_id": "MEE_lADOHmeKF85TJrgrzwAAAAG_lXxf",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7509212255",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-03T17:01:38Z"
+        },
+        {
+          "id": 7509212257,
+          "node_id": "SE_lADOHmeKF85TJrgrzwAAAAG_lXxh",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7509212257",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-03T17:01:38Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 11.3,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 1,
+      "parent_id": "12-aaf1d833",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-threads",
+      "issue_link": "https://github.com/objectionary/eo-threads/issues/53",
+      "ticket": "33",
+      "done": true,
+      "id": "33-5c60b9c8",
+      "closed_at": "2022-10-06T14:44:33Z",
+      "created_at": "2022-10-01T10:45:40Z",
+      "body": "Implement test like the test below where new Phi objects are created in parallel instead of one thread. We need to wait for the solving of hashcode problem",
+      "file": "src/test/java/EOorg/EOeolang/EOthreads/EOmutexTest.java",
+      "lines": "112-115",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "EOmutexTest.java:112-115: Implement test like the test...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7509212802,
+          "node_id": "MEE_lADOHmeKF85TJriAzwAAAAG_lX6C",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7509212802",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-03T17:01:43Z"
+        },
+        {
+          "id": 7509212814,
+          "node_id": "SE_lADOHmeKF85TJriAzwAAAAG_lX6O",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7509212814",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-03T17:01:43Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 5.17,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 1,
+      "parent_id": "12-aaf1d833",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-threads",
+      "issue_link": "https://github.com/objectionary/eo-threads/issues/33",
+      "ticket": "12",
+      "done": true,
+      "id": "12-aaf1d833",
+      "closed_at": "2022-10-17T11:39:27Z",
+      "created_at": "2022-09-15T08:12:51Z",
+      "body": "We need to count numbers of locks and releases in order to throw exceptions if there were more releases then locks",
+      "file": "src/main/eo/org/eolang/threads/mutex.eo",
+      "lines": "33-35",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "levBagryansky"
+      ],
+      "title": "mutex.eo:33-35: We need to count numbers of locks and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7394049292,
+          "node_id": "MEE_lADOHmeKF85R6z2MzwAAAAG4uD0M",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7394049292",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T11:25:21Z"
+        },
+        {
+          "id": 7394049297,
+          "node_id": "SE_lADOHmeKF85R6z2MzwAAAAG4uD0R",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7394049297",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T11:25:21Z"
+        },
+        {
+          "id": 7394481383,
+          "node_id": "AE_lADOHmeKF85R6z2MzwAAAAG4vtTn",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7394481383",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T12:24:01Z",
+          "assignee": {
+            "login": "levBagryansky",
+            "id": 32939651,
+            "node_id": "MDQ6VXNlcjMyOTM5NjUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32939651?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/levBagryansky",
+            "html_url": "https://github.com/levBagryansky",
+            "followers_url": "https://api.github.com/users/levBagryansky/followers",
+            "following_url": "https://api.github.com/users/levBagryansky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/levBagryansky/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/levBagryansky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/levBagryansky/subscriptions",
+            "organizations_url": "https://api.github.com/users/levBagryansky/orgs",
+            "repos_url": "https://api.github.com/users/levBagryansky/repos",
+            "events_url": "https://api.github.com/users/levBagryansky/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/levBagryansky/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "yegor256",
+            "id": 526301,
+            "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yegor256",
+            "html_url": "https://github.com/yegor256",
+            "followers_url": "https://api.github.com/users/yegor256/followers",
+            "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+            "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+            "organizations_url": "https://api.github.com/users/yegor256/orgs",
+            "repos_url": "https://api.github.com/users/yegor256/repos",
+            "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/yegor256/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 32.14,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-threads",
+      "issue_link": "https://github.com/objectionary/eo-threads/issues/34",
+      "ticket": "12",
+      "done": true,
+      "id": "12-c377ed5d",
+      "closed_at": "2022-10-07T08:09:49Z",
+      "created_at": "2022-09-15T08:12:51Z",
+      "body": "Implement test of mutex with 2 threads that acquires mutex, sleep and then releas. So in fact they must sleep in series, not parallely. You can do it when sys-call will be released.",
+      "file": "src/test/eo/org/eolang/threads/mutex-test.eo",
+      "lines": "85-89",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "levBagryansky"
+      ],
+      "title": "mutex-test.eo:85-89: Implement test of mutex with 2...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7394049989,
+          "node_id": "MEE_lADOHmeKF85R6z3-zwAAAAG4uD_F",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7394049989",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T11:25:27Z"
+        },
+        {
+          "id": 7394049998,
+          "node_id": "SE_lADOHmeKF85R6z3-zwAAAAG4uD_O",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7394049998",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T11:25:27Z"
+        },
+        {
+          "id": 7394481632,
+          "node_id": "AE_lADOHmeKF85R6z3-zwAAAAG4vtXg",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7394481632",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-15T12:24:03Z",
+          "assignee": {
+            "login": "levBagryansky",
+            "id": 32939651,
+            "node_id": "MDQ6VXNlcjMyOTM5NjUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32939651?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/levBagryansky",
+            "html_url": "https://github.com/levBagryansky",
+            "followers_url": "https://api.github.com/users/levBagryansky/followers",
+            "following_url": "https://api.github.com/users/levBagryansky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/levBagryansky/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/levBagryansky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/levBagryansky/subscriptions",
+            "organizations_url": "https://api.github.com/users/levBagryansky/orgs",
+            "repos_url": "https://api.github.com/users/levBagryansky/repos",
+            "events_url": "https://api.github.com/users/levBagryansky/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/levBagryansky/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "yegor256",
+            "id": 526301,
+            "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yegor256",
+            "html_url": "https://github.com/yegor256",
+            "followers_url": "https://api.github.com/users/yegor256/followers",
+            "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+            "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+            "organizations_url": "https://api.github.com/users/yegor256/orgs",
+            "repos_url": "https://api.github.com/users/yegor256/repos",
+            "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/yegor256/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 22.0,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-threads",
+      "issue_link": "https://github.com/objectionary/eo-threads/issues/45",
+      "ticket": "14",
+      "done": true,
+      "id": "14-371bfc16",
+      "closed_at": "2022-09-26T16:59:26Z",
+      "created_at": "2022-09-25T13:33:34Z",
+      "body": "Impplement test that stops a thread and checks if the thread is running. We need is-running attribute to use it",
+      "file": "src/test/eo/org/eolang/threads/thread-test.eo",
+      "lines": "160-163",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "thread-test.eo:160-163: Impplement test that stops a...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7453467650,
+          "node_id": "MEE_lADOHmeKF85SjejIzwAAAAG8QuQC",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7453467650",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-25T13:47:38Z"
+        },
+        {
+          "id": 7453467651,
+          "node_id": "SE_lADOHmeKF85SjejIzwAAAAG8QuQD",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7453467651",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-09-25T13:47:38Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 1.14,
+      "estimate": "60",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/objectionary/eo-threads",
+      "issue_link": "https://github.com/objectionary/eo-threads/issues/67",
+      "ticket": "61",
+      "done": true,
+      "id": "61-0d624b73",
+      "closed_at": "2022-10-20T13:46:11Z",
+      "created_at": "2022-10-16T16:41:45Z",
+      "body": "Implement this test with using list and reduced of the list. So we need to create the list of threads and start them in list.reduced",
+      "file": "src/test/eo/org/eolang/threads/mutex-test.eo",
+      "lines": "108-111",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "mutex-test.eo:108-111: Implement this test with using...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 7601275991,
+          "node_id": "MEE_lADOHmeKF85UIJRlzwAAAAHFEkRX",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7601275991",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-17T11:39:28Z"
+        },
+        {
+          "id": 7601275995,
+          "node_id": "SE_lADOHmeKF85UIJRlzwAAAAHFEkRb",
+          "url": "https://api.github.com/repos/objectionary/eo-threads/issues/events/7601275995",
+          "actor": {
+            "id": 32939651,
+            "url": "https://api.github.com/users/levBagryansky",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2022-10-17T11:39:28Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 3.88,
+      "estimate": "90",
+      "author": "@levBagryansky",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 14,
+  "project_forks": 5,
+  "project_contributors_count": 5,
+  "first_issue_date": "2022-09-08T16:45:16Z",
+  "last_issue_date": "2022-10-16T16:41:45Z"
+}

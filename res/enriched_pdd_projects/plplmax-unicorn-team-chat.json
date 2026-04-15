@@ -1,0 +1,674 @@
+{
+  "project_link": "https://github.com/plplmax/unicorn-team-chat",
+  "issues_count": 11,
+  "issues": [
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/30",
+      "ticket": "5",
+      "done": true,
+      "id": "5-2ddb3c6a",
+      "closed_at": "2023-04-19T16:46:25Z",
+      "created_at": "2023-04-19T16:40:11Z",
+      "body": "Implement authentication route. Should be ability to log in with username and password. The raw password that passed from a user should be hashed and compared with the hashed password from the database. If the hashed passwords are equal than we should provide the user some token/session identifier to authenticate the following requests.",
+      "file": "backend/src/main/kotlin/com/github/plplmax/chat/auth/AuthRoutes.kt",
+      "lines": "6-11",
+      "labels": [],
+      "assignees": [],
+      "title": "AuthRoutes.kt:6-11: Implement authentication route....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9048773357,
+          "node_id": "MEE_lADOJMEolM5j2nRpzwAAAAIbWVLt",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9048773357",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-19T16:41:18Z"
+        },
+        {
+          "id": 9048773372,
+          "node_id": "SE_lADOJMEolM5j2nRpzwAAAAIbWVL8",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9048773372",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-19T16:41:18Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.0,
+      "estimate": "30",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/31",
+      "ticket": "5",
+      "done": true,
+      "id": "5-9202692c",
+      "closed_at": "2023-04-20T15:42:17Z",
+      "created_at": "2023-04-19T16:45:59Z",
+      "body": "Implement the user repository.",
+      "file": "backend/src/main/kotlin/com/github/plplmax/chat/user/UserRepository.kt",
+      "lines": "4-4",
+      "labels": [],
+      "assignees": [],
+      "title": "UserRepository.kt:4: Implement the user repository.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9048817990,
+          "node_id": "MEE_lADOJMEolM5j2oxmzwAAAAIbWgFG",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9048817990",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-19T16:46:26Z"
+        },
+        {
+          "id": 9048818002,
+          "node_id": "SE_lADOJMEolM5j2oxmzwAAAAIbWgFS",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9048818002",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-19T16:46:26Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.96,
+      "estimate": "15",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/32",
+      "ticket": "5",
+      "done": true,
+      "id": "5-a0fca80e",
+      "closed_at": "2023-04-20T15:42:22Z",
+      "created_at": "2023-04-19T16:45:59Z",
+      "body": "Implement authentication routes. Should be ability to log in with username and password. The raw password that passed from a user should be hashed and compared with the hashed password from the database. If the hashed passwords are equal than we should provide the user some token/session identifier to authenticate the following requests.",
+      "file": "backend/src/main/kotlin/com/github/plplmax/chat/auth/AuthRoutes.kt",
+      "lines": "6-11",
+      "labels": [],
+      "assignees": [],
+      "title": "AuthRoutes.kt:6-11: Implement authentication routes....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9048818501,
+          "node_id": "MEE_lADOJMEolM5j2oyrzwAAAAIbWgNF",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9048818501",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-19T16:46:30Z"
+        },
+        {
+          "id": 9048818517,
+          "node_id": "SE_lADOJMEolM5j2oyrzwAAAAIbWgNV",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9048818517",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-19T16:46:30Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.96,
+      "estimate": "30",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/34",
+      "ticket": "5",
+      "done": true,
+      "id": "5-393da341",
+      "closed_at": "2023-04-20T22:59:17Z",
+      "created_at": "2023-04-20T15:40:46Z",
+      "body": "Implement the user repository. Use the Exposed library.",
+      "file": "backend/src/main/kotlin/com/github/plplmax/chat/user/UserRepositoryImpl.kt",
+      "lines": "4-4",
+      "labels": [],
+      "assignees": [],
+      "title": "UserRepositoryImpl.kt:4: Implement the user repository....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9058943629,
+          "node_id": "MEE_lADOJMEolM5j9LGszwAAAAIb9IKN",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9058943629",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-20T15:42:23Z"
+        },
+        {
+          "id": 9058943650,
+          "node_id": "SE_lADOJMEolM5j9LGszwAAAAIb9IKi",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9058943650",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-20T15:42:23Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.3,
+      "estimate": "15",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/35",
+      "ticket": "5",
+      "done": true,
+      "id": "5-34d5b4df",
+      "closed_at": "2023-04-21T19:06:04Z",
+      "created_at": "2023-04-20T15:40:46Z",
+      "body": "Should be returned UserIdPrincipal or something like.",
+      "file": "backend/src/main/kotlin/com/github/plplmax/chat/auth/AuthRoutes.kt",
+      "lines": "17-17",
+      "labels": [],
+      "assignees": [],
+      "title": "AuthRoutes.kt:17: Should be returned UserIdPrincipal or...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9058944345,
+          "node_id": "MEE_lADOJMEolM5j9LIHzwAAAAIb9IVZ",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9058944345",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-20T15:42:27Z"
+        },
+        {
+          "id": 9058944359,
+          "node_id": "SE_lADOJMEolM5j9LIHzwAAAAIb9IVn",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9058944359",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-20T15:42:27Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 1.14,
+      "estimate": "15",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/36",
+      "ticket": "5",
+      "done": true,
+      "id": "5-dcd2653b",
+      "closed_at": "2023-04-21T15:35:31Z",
+      "created_at": "2023-04-20T15:40:46Z",
+      "body": "Implement encoding password and matching encoded passwords. It's recommended to use some cutting-edge library for this.",
+      "file": "backend/src/main/kotlin/com/github/plplmax/chat/auth/EncodedPasswordOf.kt",
+      "lines": "4-5",
+      "labels": [],
+      "assignees": [],
+      "title": "EncodedPasswordOf.kt:4-5: Implement encoding password and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9058944929,
+          "node_id": "MEE_lADOJMEolM5j9LJnzwAAAAIb9Ieh",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9058944929",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-20T15:42:30Z"
+        },
+        {
+          "id": 9058944941,
+          "node_id": "SE_lADOJMEolM5j9LJnzwAAAAIb9Iet",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9058944941",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-20T15:42:30Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 1.0,
+      "estimate": "15",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/41",
+      "ticket": "4",
+      "done": true,
+      "id": "4-6a15c6c0",
+      "closed_at": "2023-05-12T02:04:24Z",
+      "created_at": "2023-04-22T00:35:20Z",
+      "body": "Implement handling 401 error when token has expired (e.g. navigate to the '/').",
+      "file": "frontend/src/axios.js",
+      "lines": "5-5",
+      "labels": [],
+      "assignees": [],
+      "title": "axios.js:5: Implement handling 401 error when token has...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9071738822,
+          "node_id": "MEE_lADOJMEolM5kFzjnzwAAAAIct7_G",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9071738822",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-22T00:35:28Z"
+        },
+        {
+          "id": 9071738825,
+          "node_id": "SE_lADOJMEolM5kFzjnzwAAAAIct7_J",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9071738825",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-22T00:35:28Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 20.06,
+      "estimate": "15",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/42",
+      "ticket": "4",
+      "done": true,
+      "id": "4-49fef48b",
+      "closed_at": "2023-05-01T09:29:08Z",
+      "created_at": "2023-04-22T00:35:20Z",
+      "body": "Redirect to the chat screen.",
+      "file": "frontend/src/views/LoginView.vue",
+      "lines": "27-27",
+      "labels": [],
+      "assignees": [],
+      "title": "LoginView.vue:27: Redirect to the chat screen.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9071738936,
+          "node_id": "MEE_lADOJMEolM5kFzkEzwAAAAIct8A4",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9071738936",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-22T00:35:32Z"
+        },
+        {
+          "id": 9071738938,
+          "node_id": "SE_lADOJMEolM5kFzkEzwAAAAIct8A6",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9071738938",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-22T00:35:32Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 9.37,
+      "estimate": "15",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/43",
+      "ticket": "4",
+      "done": true,
+      "id": "4-14c32943",
+      "closed_at": "2023-05-01T09:29:13Z",
+      "created_at": "2023-04-22T00:35:20Z",
+      "body": "Show an error message when authentication failed.",
+      "file": "frontend/src/views/LoginView.vue",
+      "lines": "30-30",
+      "labels": [],
+      "assignees": [],
+      "title": "LoginView.vue:30: Show an error message when...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9071739011,
+          "node_id": "MEE_lADOJMEolM5kFzkczwAAAAIct8CD",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9071739011",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-22T00:35:35Z"
+        },
+        {
+          "id": 9071739014,
+          "node_id": "SE_lADOJMEolM5kFzkczwAAAAIct8CG",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9071739014",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-22T00:35:35Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 9.37,
+      "estimate": "15",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/51",
+      "ticket": "45",
+      "done": true,
+      "id": "45-b7d950f8",
+      "closed_at": "2023-05-12T02:34:19Z",
+      "created_at": "2023-04-23T16:49:34Z",
+      "body": "Increase font-size value on the high-density screens */",
+      "file": "frontend/src/assets/base.css",
+      "lines": "77-77",
+      "labels": [],
+      "assignees": [],
+      "title": "base.css:77: Increase font-size value on the high-density...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 9075202491,
+          "node_id": "MEE_lADOJMEolM5kJCjNzwAAAAIc7Jm7",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9075202491",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-23T16:49:42Z"
+        },
+        {
+          "id": 9075202492,
+          "node_id": "SE_lADOJMEolM5kJCjNzwAAAAIc7Jm8",
+          "url": "https://api.github.com/repos/plplmax/unicorn-team-chat/issues/events/9075202492",
+          "actor": {
+            "id": 50287455,
+            "url": "https://api.github.com/users/plplmax",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-04-23T16:49:42Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 18.41,
+      "estimate": "15",
+      "author": "@plplmax",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/plplmax/unicorn-team-chat",
+      "issue_link": "https://github.com/plplmax/unicorn-team-chat/issues/55",
+      "ticket": "46",
+      "done": true,
+      "id": "46-8a3ae704",
+      "closed_at": "2023-05-01T09:29:17Z",
+      "created_at": "2023-04-24T01:48:06Z",
+      "body": "Implement error handling when the fetching messages failed. It's recommended to add the ability to retry request by the user.",
+      "file": "frontend/src/views/ChatView.vue",
+      "lines": "8-9",
+      "labels": [],
+      "assignees": [],
+      "title": "ChatView.vue:8-9: Implement error handling when the...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 7.32,
+      "estimate": "15",
+      "author": "Maksim Ploski",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Vue",
+  "project_stars": 1,
+  "project_forks": 0,
+  "project_contributors_count": 1,
+  "first_issue_date": "2023-04-19T16:40:11Z",
+  "last_issue_date": "2023-04-24T01:48:06Z"
+}

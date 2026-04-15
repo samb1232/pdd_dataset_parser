@@ -1,0 +1,3565 @@
+{
+  "project_link": "https://github.com/DronMDF/manabot",
+  "issues_count": 32,
+  "issues": [
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/7",
+      "ticket": "48",
+      "done": true,
+      "id": "48-e2948c7e",
+      "closed_at": "2017-11-29T20:38:08Z",
+      "created_at": "2017-11-29T11:51:02Z",
+      "body": "Что-то я немного сомневаюсь, что SoJoin работает корректно. И это удобное место, чтобы попробовать написать тест. Примеры оформления тестов можно посмотреть в других файлах.",
+      "file": "tb/sources/utility.py",
+      "lines": "14-16",
+      "labels": [],
+      "assignees": [],
+      "title": "utility.py:14-16: Что-то я немного сомневаюсь, что...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 0.37,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/27",
+      "ticket": "12",
+      "done": true,
+      "id": "12-042d74c4",
+      "closed_at": "2017-12-02T20:42:54Z",
+      "created_at": "2017-12-02T19:30:09Z",
+      "body": "Хранилище у нас абстрактное и не знает, что эту информацию нужно класть в БД геррита. Может быть нам сделать некий токен первым параметром у insert и у set? Или наоборот, пусть БД представляется, когда сейвит action? Это проще.",
+      "file": "tb/sources/gerrit.py",
+      "lines": "15-18",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:15-18: Хранилище у нас абстрактное и не...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1369001907,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzY5MDAxOTA3",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1369001907",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-02T20:24:41Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1369007452,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjkwMDc0NTI=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1369007452",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "494e0493bda1aec507305dfe8a37f9a2ac90f221",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/494e0493bda1aec507305dfe8a37f9a2ac90f221",
+          "created_at": "2017-12-02T20:40:16Z"
+        },
+        {
+          "id": 1369008403,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjkwMDg0MDM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1369008403",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a17f1523cf46ab1ed11cb3e8ee764820bd874618",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/a17f1523cf46ab1ed11cb3e8ee764820bd874618",
+          "created_at": "2017-12-02T20:42:51Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.05,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 1,
+      "parent_id": "1-41188b94",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/12",
+      "ticket": "1",
+      "done": true,
+      "id": "1-41188b94",
+      "closed_at": "2017-12-02T19:36:38Z",
+      "created_at": "2017-11-29T20:34:47Z",
+      "body": "Формат Action для создания новых ревью в БД Новый ревью должен создаваться неинициализированным, чтобы попасть под очередной анализ",
+      "file": "tb/sources/gerrit.py",
+      "lines": "1-3",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:1-3: Формат Action для создания новых...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1368978485,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzY4OTc4NDg1",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368978485",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-02T19:08:35Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1368984707,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjg5ODQ3MDc=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368984707",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a5eb516c26326d6ef2d873201c6f7ede04d8520c",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/a5eb516c26326d6ef2d873201c6f7ede04d8520c",
+          "created_at": "2017-12-02T19:30:26Z"
+        },
+        {
+          "id": 1368985638,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjg5ODU2Mzg=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368985638",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7e81f9984d2b86172343b4d61a0d6cb1e4d077af",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/7e81f9984d2b86172343b4d61a0d6cb1e4d077af",
+          "created_at": "2017-12-02T19:34:08Z"
+        },
+        {
+          "id": 1368986371,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjg5ODYzNzE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368986371",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ced9dab66125759c0aa55a2bf483c3330c39d6ad",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/ced9dab66125759c0aa55a2bf483c3330c39d6ad",
+          "created_at": "2017-12-02T19:36:35Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 2.96,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/16",
+      "ticket": "13",
+      "done": true,
+      "id": "13-2f0c6e17",
+      "closed_at": "2017-12-02T19:01:48Z",
+      "created_at": "2017-11-30T20:37:11Z",
+      "body": "Найти на сервере (self.remote_ids) что-то такое, чего нет в списке контролируемых. (self.controlled_ids) И на эти ревью создать Action",
+      "file": "tb/sources/gerrit.py",
+      "lines": "42-44",
+      "labels": [],
+      "assignees": [],
+      "title": "gerrit.py:42-44: Найти на сервере (self.remote_ids)...",
+      "comments": [
+        {
+          "author": "DronMDF",
+          "created_at": "2017-12-02T17:40:33Z",
+          "updated_at": "2017-12-02T17:40:33Z",
+          "body": "Для тестов можно использовать публичные сервера..\r\nТипа этот:\r\nhttps://dev.vaadin.com/review/\r\nОн пускает анонимно.",
+          "url": "https://github.com/DronMDF/manabot/issues/16#issuecomment-348707433",
+          "id": 348707433
+        }
+      ],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 1.93,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 1,
+      "parent_id": "1-ef110dd4",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/17",
+      "ticket": "13",
+      "done": true,
+      "id": "13-1c0e23e9",
+      "closed_at": "2017-12-01T17:01:11Z",
+      "created_at": "2017-11-30T20:37:11Z",
+      "body": "Написать тест на создание элементов, если база пуста. Класс пока не очень тестируемый.",
+      "file": "tb/sources/gerrit.py",
+      "lines": "50-51",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:50-51: Написать тест на создание элементов,...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1367724117,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzY3NzI0MTE3",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1367724117",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-01T14:20:49Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1367784503,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjc3ODQ1MDM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1367784503",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1390dd71b51859773c99e8a8cc871069df20e886",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/1390dd71b51859773c99e8a8cc871069df20e886",
+          "created_at": "2017-12-01T14:54:36Z"
+        },
+        {
+          "id": 1368026921,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjgwMjY5MjE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368026921",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ca2566986de1dd7e2b439d58358820a39cf48bd7",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/ca2566986de1dd7e2b439d58358820a39cf48bd7",
+          "created_at": "2017-12-01T17:01:06Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.85,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 1,
+      "parent_id": "1-ef110dd4",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/18",
+      "ticket": "13",
+      "done": true,
+      "id": "13-eabf9424",
+      "closed_at": "2017-12-02T19:01:50Z",
+      "created_at": "2017-11-30T20:37:11Z",
+      "body": "Написать тест на создание элементов, если в базе что-то есть",
+      "file": "tb/sources/gerrit.py",
+      "lines": "55-55",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:55-55: Написать тест на создание элементов,...",
+      "comments": [
+        {
+          "author": "DronMDF",
+          "created_at": "2017-12-02T18:19:17Z",
+          "updated_at": "2017-12-02T18:19:17Z",
+          "body": "Заблокирована #20",
+          "url": "https://github.com/DronMDF/manabot/issues/18#issuecomment-348710033",
+          "id": 348710033
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1368956546,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzY4OTU2NTQ2",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368956546",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-02T17:54:39Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1368960526,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjg5NjA1MjY=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368960526",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "56d42de65ddb8d9e15e48fe1fd992fa81514b2bc",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/56d42de65ddb8d9e15e48fe1fd992fa81514b2bc",
+          "created_at": "2017-12-02T18:07:57Z"
+        },
+        {
+          "id": 1368971203,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjg5NzEyMDM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368971203",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ef103d6881a6b9b4dfb116c1fda3e7c627bd4ffa",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/ef103d6881a6b9b4dfb116c1fda3e7c627bd4ffa",
+          "created_at": "2017-12-02T18:43:56Z"
+        },
+        {
+          "id": 1368974990,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjg5NzQ5OTA=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1368974990",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "60ed08969776e127a1221862a50d45b40f63829b",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/60ed08969776e127a1221862a50d45b40f63829b",
+          "created_at": "2017-12-02T18:56:39Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 1.93,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 1,
+      "parent_id": "1-ef110dd4",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/13",
+      "ticket": "1",
+      "done": true,
+      "id": "1-ef110dd4",
+      "closed_at": "2017-11-30T21:01:54Z",
+      "created_at": "2017-11-29T20:34:47Z",
+      "body": "На вход SoNewReview должно подаваться два \"Списка\" Список имеющихся в БД идентикаторов и список Идентификаторов с геррита, я думаю, что мы можем сделать конструктор по умолчанию с kwargs, и если объекты не указаны - создавать их самостоятельно. Это стоит сделать для того, чтобы не тащить настройку этих зависимостей в application",
+      "file": "tb/sources/gerrit.py",
+      "lines": "5-10",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:5-10: На вход SoNewReview должно подаваться...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1366411367,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzY2NDExMzY3",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1366411367",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-11-30T20:03:53Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1366472140,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjY0NzIxNDA=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1366472140",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "60d5e7337996d22feb0725cc5ca1245de94a2107",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/60d5e7337996d22feb0725cc5ca1245de94a2107",
+          "created_at": "2017-11-30T20:39:18Z"
+        },
+        {
+          "id": 1366477180,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNjY0NzcxODA=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1366477180",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d73cce6dabc4919d38be5eae97b43d838cf59b51",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/d73cce6dabc4919d38be5eae97b43d838cf59b51",
+          "created_at": "2017-11-30T20:42:31Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 1.02,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/33",
+      "ticket": "30",
+      "done": true,
+      "id": "30-7f40ceb8",
+      "closed_at": "2017-12-05T14:53:35Z",
+      "created_at": "2017-12-04T20:08:57Z",
+      "body": "Этот код стал слишком толстым... Вероятно надо его выносить из конструкторов, и передавать сюда конкретную зависимость. В пользу такого подхода говорит еще то, что геррит должен уйти в место, доступное другим компонентам, помимо sources.",
+      "file": "tb/sources/gerrit.py",
+      "lines": "101-106",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:101-106: Этот код стал слишком толстым......",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1372781199,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzcyNzgxMTk5",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1372781199",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-05T14:48:32Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1372783147,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNzI3ODMxNDc=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1372783147",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d7e7720b6eb3f301c57fe6969e0f4458315f8fc7",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/d7e7720b6eb3f301c57fe6969e0f4458315f8fc7",
+          "created_at": "2017-12-05T14:49:27Z"
+        },
+        {
+          "id": 1372792171,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNzI3OTIxNzE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1372792171",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7ad297393f558c4a799f7292d011f7cb4e0bd15e",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/7ad297393f558c4a799f7292d011f7cb4e0bd15e",
+          "created_at": "2017-12-05T14:53:30Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.78,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/6",
+      "ticket": "40",
+      "done": true,
+      "id": "40-5225b520",
+      "closed_at": "2018-01-10T14:26:33Z",
+      "created_at": "2017-11-29T11:51:02Z",
+      "body": "Необходимо определить загрузку системы за последнюю минуту. Если загрузка превышает указанный предел - сгенерировать событие.",
+      "file": "tb/sources/cpu.py",
+      "lines": "3-4",
+      "labels": [],
+      "assignees": [],
+      "title": "cpu.py:3-4: Необходимо определить загрузку...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 42.11,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 2,
+      "parent_id": "38-dd4a464c",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/45",
+      "ticket": "40",
+      "done": true,
+      "id": "40-a3df064f",
+      "closed_at": "2017-12-13T20:36:41Z",
+      "created_at": "2017-12-11T20:35:10Z",
+      "body": "Необходимо проверять, что ревью, который назначен на админа все еще ждет его реакции. Он может быть уже закрыт, или потерял статус верификации",
+      "file": "tb/application.py",
+      "lines": "31-33",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "application.py:31-33: Необходимо проверять, что ревью,...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1386380538,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzg2MzgwNTM4",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1386380538",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-13T20:03:50Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1386425213,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzODY0MjUyMTM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1386425213",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fc1daec12d05f6ef55345b2aac06a72618aa9264",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/fc1daec12d05f6ef55345b2aac06a72618aa9264",
+          "created_at": "2017-12-13T20:32:07Z"
+        },
+        {
+          "id": 1386432141,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzODY0MzIxNDE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1386432141",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fec1b36831f2d03629f3b52a0964b8e5bae81d42",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/fec1b36831f2d03629f3b52a0964b8e5bae81d42",
+          "created_at": "2017-12-13T20:36:37Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 2.0,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 2,
+      "parent_id": "38-dd4a464c",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/73",
+      "ticket": "71",
+      "done": true,
+      "id": "71-ba973616",
+      "closed_at": "2018-01-11T12:42:40Z",
+      "created_at": "2018-01-05T21:11:19Z",
+      "body": "Тесты считаются странно, удалил два теста, и их стало меньше на 8... Возможно это из за звездочных импортов",
+      "file": "setup.py",
+      "lines": "90-92",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "setup.py:90-92: Тесты считаются странно, удалил два...",
+      "comments": [
+        {
+          "author": "DronMDF",
+          "created_at": "2018-01-10T20:41:13Z",
+          "updated_at": "2018-01-10T20:41:13Z",
+          "body": "Эту надо закрывать...",
+          "url": "https://github.com/DronMDF/manabot/issues/73#issuecomment-356729830",
+          "id": 356729830
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1419668087,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDE5NjY4MDg3",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1419668087",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-11T12:28:28Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1419671190,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTk2NzExOTA=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1419671190",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "68e893ac04080c5a0f4629ba40dbe44b791bafdc",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/68e893ac04080c5a0f4629ba40dbe44b791bafdc",
+          "created_at": "2018-01-11T12:29:46Z"
+        },
+        {
+          "id": 1419680300,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTk2ODAzMDA=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1419680300",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "640a32607f49e28a2ace643382a440812eba213e",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/640a32607f49e28a2ace643382a440812eba213e",
+          "created_at": "2018-01-11T12:35:34Z"
+        },
+        {
+          "id": 1419690816,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTk2OTA4MTY=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1419690816",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1f8c1fe83f509c6ef9080d265547742bf4ac0536",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/1f8c1fe83f509c6ef9080d265547742bf4ac0536",
+          "created_at": "2018-01-11T12:42:35Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 5.65,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 9,
+      "parent_id": "66-65a20ff8",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/71",
+      "ticket": "66",
+      "done": true,
+      "id": "66-65a20ff8",
+      "closed_at": "2018-01-05T21:14:19Z",
+      "created_at": "2018-01-05T21:01:47Z",
+      "body": "Здесь так же необходимо использовать ReviewDifference Этот класс не должен выполнять функции построения списка различий между двумя наборами.",
+      "file": "tb/application.py",
+      "lines": "30-32",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "application.py:30-32: Здесь так же необходимо...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1411977445,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDExOTc3NDQ1",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1411977445",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-05T21:03:19Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1411988445,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTE5ODg0NDU=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1411988445",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2164bdc40c5426353932a58d5f07a2db1b573f47",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/2164bdc40c5426353932a58d5f07a2db1b573f47",
+          "created_at": "2018-01-05T21:11:32Z"
+        },
+        {
+          "id": 1411991891,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTE5OTE4OTE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1411991891",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e13badb2e2c3a59aa4646e0f8d484576df5603bc",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/e13badb2e2c3a59aa4646e0f8d484576df5603bc",
+          "created_at": "2018-01-05T21:14:16Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.01,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 8,
+      "parent_id": "63-60cec72b",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/66",
+      "ticket": "63",
+      "done": true,
+      "id": "63-60cec72b",
+      "closed_at": "2018-01-05T21:01:51Z",
+      "created_at": "2018-01-04T20:14:52Z",
+      "body": "Создавать здесь классы - не самая хорошая идея. Особенно учитывая тот факт, что на вход мы получили полный список контролируемых идентификаторов, нелогично как-то. Может быть стоит на вход подать список удаляемых ревью?",
+      "file": "tb/sources/gerrit.py",
+      "lines": "103-106",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:103-106: Создавать здесь классы - не самая...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1411940903,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDExOTQwOTAz",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1411940903",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-05T20:36:57Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1411969984,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTE5Njk5ODQ=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1411969984",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5bd54e8e8302a90fe7c386b46a0fc29e5d7b3963",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/5bd54e8e8302a90fe7c386b46a0fc29e5d7b3963",
+          "created_at": "2018-01-05T20:58:03Z"
+        },
+        {
+          "id": 1411975408,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTE5NzU0MDg=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1411975408",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5e262492eb015ffeb92e36e8c3eca4d0030300b9",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/5e262492eb015ffeb92e36e8c3eca4d0030300b9",
+          "created_at": "2018-01-05T21:01:48Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 1.03,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 7,
+      "parent_id": "57-a946df2c",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/69",
+      "ticket": "67",
+      "done": true,
+      "id": "67-8840c36d",
+      "closed_at": "2018-01-07T20:41:50Z",
+      "created_at": "2018-01-04T20:33:45Z",
+      "body": "Здесь на вход необходимо подавать умный список ревью, Элементы которого будут иметь идентифкатор БД и данные для обновления",
+      "file": "tb/sources/gerrit.py",
+      "lines": "151-152",
+      "labels": [],
+      "assignees": [],
+      "title": "gerrit.py:151-152: Здесь на вход необходимо подавать...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1412860607,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTI4NjA2MDc=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1412860607",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0cc0c44e037a79b6d7342cee18c540da634ee33b",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/0cc0c44e037a79b6d7342cee18c540da634ee33b",
+          "created_at": "2018-01-07T20:30:49Z"
+        },
+        {
+          "id": 1412862575,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTI4NjI1NzU=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1412862575",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9e8e49df9307e9ef43a1134adf8b16e65e41ffb5",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/9e8e49df9307e9ef43a1134adf8b16e65e41ffb5",
+          "created_at": "2018-01-07T20:37:17Z"
+        },
+        {
+          "id": 1412864106,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTI4NjQxMDY=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1412864106",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e2d1eeaf86cb1ca47e802b648c59b02fc17fcb32",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/e2d1eeaf86cb1ca47e802b648c59b02fc17fcb32",
+          "created_at": "2018-01-07T20:41:47Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 3.01,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 8,
+      "parent_id": "63-803d6bf1",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/67",
+      "ticket": "63",
+      "done": true,
+      "id": "63-803d6bf1",
+      "closed_at": "2018-01-04T20:57:07Z",
+      "created_at": "2018-01-04T20:14:52Z",
+      "body": "Для идентификации элементов при обновлении стоит использовать doc_id",
+      "file": "tb/storage/tinydb.py",
+      "lines": "43-44",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "tinydb.py:43-44: Для идентификации элементов при...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1410229391,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDEwMjI5Mzkx",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1410229391",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-04T20:21:33Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1410247609,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTAyNDc2MDk=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1410247609",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9af8f5a7493f5e9d099c1d9fc113b3e59fdc5ef8",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/9af8f5a7493f5e9d099c1d9fc113b3e59fdc5ef8",
+          "created_at": "2018-01-04T20:34:04Z"
+        },
+        {
+          "id": 1410280543,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTAyODA1NDM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1410280543",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "658d4647851321e724d49d71eafd12cc6d8a2506",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/658d4647851321e724d49d71eafd12cc6d8a2506",
+          "created_at": "2018-01-04T20:57:04Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.03,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 7,
+      "parent_id": "57-a946df2c",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/63",
+      "ticket": "57",
+      "done": true,
+      "id": "57-a946df2c",
+      "closed_at": "2018-01-04T20:14:56Z",
+      "created_at": "2017-12-27T20:37:50Z",
+      "body": "Для идентификации элементов стоит использовать doc_id",
+      "file": "tb/storage/tinydb.py",
+      "lines": "46-46",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "tinydb.py:46: Для идентификации элементов стоит...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1410141615,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDEwMTQxNjE1",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1410141615",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-04T19:23:25Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1410210895,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTAyMTA4OTU=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1410210895",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "59516b52046a1c12a63123e83b4561cea13ac786",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/59516b52046a1c12a63123e83b4561cea13ac786",
+          "created_at": "2018-01-04T20:08:37Z"
+        },
+        {
+          "id": 1410219299,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTAyMTkyOTk=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1410219299",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3cce31aec344b012ec5872448bdc12e0f330ea6c",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/3cce31aec344b012ec5872448bdc12e0f330ea6c",
+          "created_at": "2018-01-04T20:14:53Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 7.98,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 6,
+      "parent_id": "55-95504f55",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/76",
+      "ticket": "64",
+      "done": true,
+      "id": "64-809ab42d",
+      "closed_at": "2018-01-10T19:30:22Z",
+      "created_at": "2018-01-08T21:28:00Z",
+      "body": "Необходимо использовать идентификатор записи ревью в БД, для этого необходимо отфильтровать список ревью на основании команды Или просто все команды странслировать в ревью. Может быть мне стоит делать два независимых экшина, чтобы не смешивать два дела в одном? возможно я могу прикопать идентификатор записи при создании команды?",
+      "file": "tb/sources/admin.py",
+      "lines": "125-129",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "admin.py:125-129: Необходимо использовать идентификатор...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1418344524,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDE4MzQ0NTI0",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1418344524",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-10T19:11:28Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1418368252,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTgzNjgyNTI=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1418368252",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "aa4e8357b001041bac402ed14e511344c44c51ae",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/aa4e8357b001041bac402ed14e511344c44c51ae",
+          "created_at": "2018-01-10T19:25:17Z"
+        },
+        {
+          "id": 1418377199,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTgzNzcxOTk=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1418377199",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6ea0693cd2866dd6484a18581aca25cc84eb2e26",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/6ea0693cd2866dd6484a18581aca25cc84eb2e26",
+          "created_at": "2018-01-10T19:30:18Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 1.92,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 7,
+      "parent_id": "57-cc64ca11",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/64",
+      "ticket": "57",
+      "done": true,
+      "id": "57-cc64ca11",
+      "closed_at": "2018-01-08T21:28:06Z",
+      "created_at": "2017-12-27T20:37:50Z",
+      "body": "Админу показываем только те ревью, которые не отмечены как игнорированные Если ревью отмечено как игнорированное, оно должно уйти с ревью и освободить место для других ревью",
+      "file": "tb/application.py",
+      "lines": "42-45",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "application.py:42-45: Админу показываем только те ревью,...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1414338915,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDE0MzM4OTE1",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1414338915",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-08T19:59:14Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1414405230,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTQ0MDUyMzA=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1414405230",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e2136830e1289ae78be7f71b8d45b838dd806c33",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/e2136830e1289ae78be7f71b8d45b838dd806c33",
+          "created_at": "2018-01-08T20:40:32Z"
+        },
+        {
+          "id": 1414450754,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTQ0NTA3NTQ=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1414450754",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e494d447dd45f6a33a654d458322d591dc70880f",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/e494d447dd45f6a33a654d458322d591dc70880f",
+          "created_at": "2018-01-08T21:06:25Z"
+        },
+        {
+          "id": 1414485093,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTQ0ODUwOTM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1414485093",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d4100f6cec159b05030edadf476feed355606d6f",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/d4100f6cec159b05030edadf476feed355606d6f",
+          "created_at": "2018-01-08T21:28:01Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 12.03,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 6,
+      "parent_id": "55-95504f55",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/57",
+      "ticket": "55",
+      "done": true,
+      "id": "55-95504f55",
+      "closed_at": "2017-12-27T20:37:57Z",
+      "created_at": "2017-12-21T20:38:38Z",
+      "body": "Источник событий по игнорированию ревью Команды админа хранятся в БД админа, в отдельной таблице задач.",
+      "file": "tb/application.py",
+      "lines": "64-65",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "application.py:64-65:...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1402855548,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDAyODU1NTQ4",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1402855548",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-27T19:46:06Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1402889698,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MDI4ODk2OTg=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1402889698",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "565f12c8db81599a3e9b58f961cf86c43c2b13d0",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/565f12c8db81599a3e9b58f961cf86c43c2b13d0",
+          "created_at": "2017-12-27T20:28:26Z"
+        },
+        {
+          "id": 1402896768,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MDI4OTY3Njg=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1402896768",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "061327d0b9cca99028636b88db09a3e94035b086",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/061327d0b9cca99028636b88db09a3e94035b086",
+          "created_at": "2017-12-27T20:37:52Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 6.0,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 5,
+      "parent_id": "49-490e21b5",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/59",
+      "ticket": "55",
+      "done": true,
+      "id": "55-615727f2",
+      "closed_at": "2018-01-17T07:19:34Z",
+      "created_at": "2017-12-21T20:38:38Z",
+      "body": "Источник событий по аппруву ревью Команды админа хранятся в БД админа, в отдельной таблице задач.",
+      "file": "tb/application.py",
+      "lines": "68-69",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "application.py:68-69:...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1426888067,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDI2ODg4MDY3",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1426888067",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-16T19:39:46Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1426941967,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjY5NDE5Njc=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1426941967",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "192e5bb29e595ecf22fac0a84396cd3b169ad8d1",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/192e5bb29e595ecf22fac0a84396cd3b169ad8d1",
+          "created_at": "2018-01-16T20:09:27Z"
+        },
+        {
+          "id": 1427677763,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0Mjc2Nzc3NjM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1427677763",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2ee537de8c03c03f9fd5443d19b0d5486169b099",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/2ee537de8c03c03f9fd5443d19b0d5486169b099",
+          "created_at": "2018-01-17T07:19:31Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 26.45,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 5,
+      "parent_id": "49-490e21b5",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/60",
+      "ticket": "55",
+      "done": true,
+      "id": "55-9a950c48",
+      "closed_at": "2017-12-24T20:49:31Z",
+      "created_at": "2017-12-21T20:38:38Z",
+      "body": "Необходима поддержка таблиц. Иначе в admin.json у нас будут перемешиваться команды и параметры.",
+      "file": "tb/storage/tinydb.py",
+      "lines": "3-4",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "tinydb.py:3-4:...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1400709975,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDAwNzA5OTc1",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1400709975",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-24T19:44:20Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1400712363,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MDA3MTIzNjM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1400712363",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ad9fe29a125c44a684f846885048f7c23e41aa4e",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/ad9fe29a125c44a684f846885048f7c23e41aa4e",
+          "created_at": "2017-12-24T19:59:51Z"
+        },
+        {
+          "id": 1400719527,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MDA3MTk1Mjc=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1400719527",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "074ac97583b3b246947a9f35a74bbebb38399dd5",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/074ac97583b3b246947a9f35a74bbebb38399dd5",
+          "created_at": "2017-12-24T20:49:29Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 3.01,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 5,
+      "parent_id": "49-490e21b5",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/55",
+      "ticket": "49",
+      "done": true,
+      "id": "49-490e21b5",
+      "closed_at": "2017-12-21T20:38:42Z",
+      "created_at": "2017-12-20T21:31:13Z",
+      "body": "Эта информация нам не интересна, сейчас она возвращается для теста. Необходимо предпринять меры, которые пожелал сделать админ. Режектим или сабмитим геррит, это раз. Если админ сказал Игнорировать - то надо прикопать в БД, что этот ревью нам не интересен",
+      "file": "tb/sources/reaction.py",
+      "lines": "99-104",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "reaction.py:99-104: <body>&#x42D;&#x442;&#x430;...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1398607211,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzk4NjA3MjEx",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1398607211",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-21T20:01:03Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1398646796,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzOTg2NDY3OTY=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1398646796",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c9f5469bd1a678ca92465985e981c25a1b9491c1",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/c9f5469bd1a678ca92465985e981c25a1b9491c1",
+          "created_at": "2017-12-21T20:30:42Z"
+        },
+        {
+          "id": 1398652025,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzOTg2NTIwMjU=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1398652025",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "941a1474cd48e98f8b1a976c5378161644fa6f98",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/941a1474cd48e98f8b1a976c5378161644fa6f98",
+          "created_at": "2017-12-21T20:34:41Z"
+        },
+        {
+          "id": 1398657377,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzOTg2NTczNzc=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1398657377",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d22a4c67d6ecc10d2943bb6115a57e8510c7a8e3",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/d22a4c67d6ecc10d2943bb6115a57e8510c7a8e3",
+          "created_at": "2017-12-21T20:38:39Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.96,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 4,
+      "parent_id": "46-6ae01fcf",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/49",
+      "ticket": "46",
+      "done": true,
+      "id": "46-6ae01fcf",
+      "closed_at": "2017-12-20T21:31:18Z",
+      "created_at": "2017-12-14T20:39:28Z",
+      "body": "Когда мы нажимаем на кнопку - мы получаем событие с коллбеком сейчас оно никак не парсится. а нужно связать с герритом и отправить вердикт туда.",
+      "file": "tb/application.py",
+      "lines": "16-18",
+      "labels": [],
+      "assignees": [],
+      "title": "application.py:16-18:...",
+      "comments": [
+        {
+          "author": "DronMDF",
+          "created_at": "2017-12-14T20:41:32Z",
+          "updated_at": "2017-12-14T20:41:45Z",
+          "body": "```\r\nTraceback (most recent call last):\r\n  File \"./manabot\", line 20, in <module>\r\n    app.run()\r\n  File \"/home/dron/Projects/manabot/tb/application.py\", line 73, in run\r\n    self.storage.save(a)\r\n  File \"/home/dron/Projects/manabot/tb/storage/utility.py\", line 7, in save\r\n    storage.save(action)\r\n  File \"/home/dron/Projects/manabot/tb/storage/telegram.py\", line 16, in save\r\n    action.send(bot)\r\n  File \"/home/dron/Projects/manabot/tb/sources/reaction.py\", line 10, in send\r\n    chat_id=self.update.message.chat.id,\r\nAttributeError: 'NoneType' object has no attribute 'chat'\r\n```",
+          "url": "https://github.com/DronMDF/manabot/issues/49#issuecomment-351829861",
+          "id": 351829861
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1396819905,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzOTY4MTk5MDU=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1396819905",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3fa99226c4709307957bd0878a295323873894a8",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/3fa99226c4709307957bd0878a295323873894a8",
+          "created_at": "2017-12-20T20:15:34Z"
+        },
+        {
+          "id": 1396888830,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzOTY4ODg4MzA=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1396888830",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c02b2e102f8014a9813d98b86aaf1d6ef16f0648",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/c02b2e102f8014a9813d98b86aaf1d6ef16f0648",
+          "created_at": "2017-12-20T21:03:08Z"
+        },
+        {
+          "id": 1396900749,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzOTY5MDA3NDk=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1396900749",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4e0bc90e5a17fc05016860348d5f78c3b854d0a4",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/4e0bc90e5a17fc05016860348d5f78c3b854d0a4",
+          "created_at": "2017-12-20T21:11:44Z"
+        },
+        {
+          "id": 1396929615,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzOTY5Mjk2MTU=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1396929615",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7234ccb8f0b6d2a8dd5ebda15886d812ad37e4c8",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/7234ccb8f0b6d2a8dd5ebda15886d812ad37e4c8",
+          "created_at": "2017-12-20T21:31:14Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 6.04,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 3,
+      "parent_id": "40-9f1b1218",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/50",
+      "ticket": "46",
+      "done": true,
+      "id": "46-9453f95d",
+      "closed_at": "2018-01-14T17:21:27Z",
+      "created_at": "2017-12-14T20:39:28Z",
+      "body": "Сейчас сообщение о ревью не достаточно информативно. Нужно дополнить его текстом из сабжекта вместо этой абракадабры",
+      "file": "tb/sources/admin.py",
+      "lines": "46-47",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "admin.py:46-47:...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1423100081,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDIzMTAwMDgx",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1423100081",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-13T20:40:46Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1423107292,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjMxMDcyOTI=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1423107292",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b109fb440f4ddb4f76a55d176660aa27904d3005",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/b109fb440f4ddb4f76a55d176660aa27904d3005",
+          "created_at": "2018-01-13T21:06:47Z"
+        },
+        {
+          "id": 1423372209,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjMzNzIyMDk=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1423372209",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "571c0227b207002a6beaef47467bb1d7c99b087c",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/571c0227b207002a6beaef47467bb1d7c99b087c",
+          "created_at": "2018-01-14T16:53:20Z"
+        },
+        {
+          "id": 1423372761,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjMzNzI3NjE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1423372761",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9729743b55dcf624e58cc064b0589241aa833712",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/9729743b55dcf624e58cc064b0589241aa833712",
+          "created_at": "2018-01-14T16:55:18Z"
+        },
+        {
+          "id": 1423373244,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjMzNzMyNDQ=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1423373244",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "79fd2b64e4c6424a2dc99eac89cf9864e67c3098",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/79fd2b64e4c6424a2dc99eac89cf9864e67c3098",
+          "created_at": "2018-01-14T16:56:50Z"
+        },
+        {
+          "id": 1423376621,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjMzNzY2MjE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1423376621",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b1d0fc27f98f530856767541a1528f0181d908f2",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/b1d0fc27f98f530856767541a1528f0181d908f2",
+          "created_at": "2018-01-14T17:08:06Z"
+        },
+        {
+          "id": 1423380418,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjMzODA0MTg=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1423380418",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7643d5223f6a488892e489ef84a26126187fe189",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/7643d5223f6a488892e489ef84a26126187fe189",
+          "created_at": "2018-01-14T17:21:24Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 30.86,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 3,
+      "parent_id": "40-9f1b1218",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/46",
+      "ticket": "40",
+      "done": true,
+      "id": "40-9f1b1218",
+      "closed_at": "2017-12-14T20:39:34Z",
+      "created_at": "2017-12-11T20:35:10Z",
+      "body": "Нужно предоставить администратору основную информацию title, коммит, патчсет, статус верификации и ревью. И выдать список доступных действий в виде экранных кнопок.",
+      "file": "tb/sources/admin.py",
+      "lines": "15-17",
+      "labels": [],
+      "assignees": [],
+      "title": "admin.py:15-17: Нужно предоставить администратору...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1388465465,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzODg0NjU0NjU=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1388465465",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d6d92f15fca62a29f114930a118acef2071047ad",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/d6d92f15fca62a29f114930a118acef2071047ad",
+          "created_at": "2017-12-14T20:33:16Z"
+        },
+        {
+          "id": 1388475203,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzODg0NzUyMDM=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1388475203",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bed91bbbe6b27f84071ceca232fa08938fec7fce",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/bed91bbbe6b27f84071ceca232fa08938fec7fce",
+          "created_at": "2017-12-14T20:39:29Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 3.0,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 2,
+      "parent_id": "38-dd4a464c",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/40",
+      "ticket": "38",
+      "done": true,
+      "id": "38-dd4a464c",
+      "closed_at": "2017-12-11T20:35:15Z",
+      "created_at": "2017-12-06T20:26:22Z",
+      "body": "Нет необходимости на каждое изменение слать уведомления. Нужно выбрать одно из них и начать диалог с овнером о том, что с ним делать. И пока овнер в диалоге - новых уведомлений не городить (таймаут) И вероятно это должен быть отдельный соурс, который будет работать постфактом",
+      "file": "tb/sources/gerrit.py",
+      "lines": "135-140",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:135-140: Нет необходимости на каждое изменение...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1382139917,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzgyMTM5OTE3",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1382139917",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-11T19:27:26Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1382174866,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzODIxNzQ4NjY=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1382174866",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d730e37e80241cf537be7f176a42bfc07c92fc31",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/d730e37e80241cf537be7f176a42bfc07c92fc31",
+          "created_at": "2017-12-11T19:46:49Z"
+        },
+        {
+          "id": 1382234108,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzODIyMzQxMDg=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1382234108",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4d08934e1bc7f83c3b7314fe952c517f7881c416",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/4d08934e1bc7f83c3b7314fe952c517f7881c416",
+          "created_at": "2017-12-11T20:20:11Z"
+        },
+        {
+          "id": 1382254328,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzODIyNTQzMjg=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1382254328",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3a1492e3dd385594816bf0cd332feeeb50e22a96",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/3a1492e3dd385594816bf0cd332feeeb50e22a96",
+          "created_at": "2017-12-11T20:32:09Z"
+        },
+        {
+          "id": 1382259692,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzODIyNTk2OTI=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1382259692",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bb500d9ff1618ddcafa6231f1954f9f8c4ee5788",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/bb500d9ff1618ddcafa6231f1954f9f8c4ee5788",
+          "created_at": "2017-12-11T20:35:11Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 5.01,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 1,
+      "parent_id": "31-16fb7de5",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/5",
+      "ticket": "41",
+      "done": true,
+      "id": "41-96ac84d5",
+      "closed_at": "2018-01-10T14:26:35Z",
+      "created_at": "2017-11-29T11:51:02Z",
+      "body": "Сформировать Action, который доставит админу уведомление о том, что на диске кончилось место",
+      "file": "tb/sources/hdd.py",
+      "lines": "7-8",
+      "labels": [],
+      "assignees": [],
+      "title": "hdd.py:7-8: Сформировать Action, который доставит...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 42.11,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 2,
+      "parent_id": "38-a8c60de7",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/41",
+      "ticket": "38",
+      "done": true,
+      "id": "38-a8c60de7",
+      "closed_at": "2018-01-10T15:35:01Z",
+      "created_at": "2017-12-06T20:26:22Z",
+      "body": "Нужно сделать класс, который будет игнорировать таймауты в этом классе. Там возникает исключение telegram.error.TimedOut",
+      "file": "tb/sources/telegram.py",
+      "lines": "36-38",
+      "labels": [],
+      "assignees": [],
+      "title": "telegram.py:36-38: Нужно сделать класс, который будет...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 34.8,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 1,
+      "parent_id": "31-16fb7de5",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/38",
+      "ticket": "31",
+      "done": true,
+      "id": "31-16fb7de5",
+      "closed_at": "2017-12-06T20:26:26Z",
+      "created_at": "2017-12-05T20:46:39Z",
+      "body": "Нужно уведомить меня о том, что появился ревью, достойный моего внимания. Но я пока не придумал как подсунуть сюда информацию из конфигурации. Нам нужно имя PO",
+      "file": "tb/sources/gerrit.py",
+      "lines": "134-136",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:134-136: Нужно уведомить меня о том, что...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1375507433,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMzc1NTA3NDMz",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1375507433",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-12-06T19:37:45Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1375586619,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNzU1ODY2MTk=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1375586619",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "03848da97a87e19b9e2c2a1fbac3692e96f2946f",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/03848da97a87e19b9e2c2a1fbac3692e96f2946f",
+          "created_at": "2017-12-06T20:22:18Z"
+        },
+        {
+          "id": 1375593461,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzNzU1OTM0NjE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1375593461",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1f9a7f8ed6e3aa9c367fa205954a54a86db25a52",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/1f9a7f8ed6e3aa9c367fa205954a54a86db25a52",
+          "created_at": "2017-12-06T20:26:24Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.99,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/82",
+      "ticket": "80",
+      "done": true,
+      "id": "80-3e8fad47",
+      "closed_at": "2018-01-10T15:35:03Z",
+      "created_at": "2018-01-09T20:54:24Z",
+      "body": "Вынести тестовые классы в test/",
+      "file": "tb/config_file.py",
+      "lines": "39-39",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "config_file.py:39: Вынести тестовые классы в test/",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1417816281,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDE3ODE2Mjgx",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1417816281",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-10T14:48:48Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1417840251,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTc4NDAyNTE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1417840251",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e94284d6a5332ab64ab83e70662dd69e1e56160c",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/e94284d6a5332ab64ab83e70662dd69e1e56160c",
+          "created_at": "2018-01-10T14:59:53Z"
+        },
+        {
+          "id": 1417916524,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MTc5MTY1MjQ=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1417916524",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "de5d5cc110b91ac2010fee7f5e4271e5b60e65c0",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/de5d5cc110b91ac2010fee7f5e4271e5b60e65c0",
+          "created_at": "2018-01-10T15:34:56Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.78,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/97",
+      "ticket": "91",
+      "done": true,
+      "id": "91-c372249e",
+      "closed_at": "2018-01-17T07:19:35Z",
+      "created_at": "2018-01-15T19:48:50Z",
+      "body": "Не обновляются ревью, где-то с сопоставлением видимо косяк",
+      "file": "tb/sources/gerrit.py",
+      "lines": "120-120",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "gerrit.py:120: Не обновляются ревью, где-то с...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1424956754,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDI0OTU2NzU0",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1424956754",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-15T19:49:12Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1424986240,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjQ5ODYyNDA=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1424986240",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "69528586fda8b1845f45bad55e100bbb6cf8b1d6",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/69528586fda8b1845f45bad55e100bbb6cf8b1d6",
+          "created_at": "2018-01-15T20:12:20Z"
+        },
+        {
+          "id": 1424990178,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MjQ5OTAxNzg=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1424990178",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0d62d71506962c88be394538ec1b5644bd054aa1",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/0d62d71506962c88be394538ec1b5644bd054aa1",
+          "created_at": "2018-01-15T20:15:02Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 1.48,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/DronMDF/manabot",
+      "issue_link": "https://github.com/DronMDF/manabot/issues/105",
+      "ticket": "102",
+      "done": true,
+      "id": "102-827c8b5e",
+      "closed_at": "2018-01-23T20:48:45Z",
+      "created_at": "2018-01-21T20:19:49Z",
+      "body": "Вычистить wildcards-import",
+      "file": "setup.py",
+      "lines": "56-56",
+      "labels": [],
+      "assignees": [
+        "DronMDF"
+      ],
+      "title": "setup.py:56: Вычистить wildcards-import",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1438099986,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNDM4MDk5OTg2",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1438099986",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-01-23T19:50:56Z",
+          "assignee": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "DronMDF",
+            "id": 2982959,
+            "node_id": "MDQ6VXNlcjI5ODI5NTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2982959?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DronMDF",
+            "html_url": "https://github.com/DronMDF",
+            "followers_url": "https://api.github.com/users/DronMDF/followers",
+            "following_url": "https://api.github.com/users/DronMDF/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DronMDF/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/DronMDF/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DronMDF/subscriptions",
+            "organizations_url": "https://api.github.com/users/DronMDF/orgs",
+            "repos_url": "https://api.github.com/users/DronMDF/repos",
+            "events_url": "https://api.github.com/users/DronMDF/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/DronMDF/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1438137869,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MzgxMzc4Njk=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1438137869",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2744f0dc20de8ded98d80fe1ccdfc4e1a6a9747a",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/2744f0dc20de8ded98d80fe1ccdfc4e1a6a9747a",
+          "created_at": "2018-01-23T20:12:00Z"
+        },
+        {
+          "id": 1438144234,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MzgxNDQyMzQ=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1438144234",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3558e93fadc08282e363262303f81989180e069c",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/3558e93fadc08282e363262303f81989180e069c",
+          "created_at": "2018-01-23T20:15:14Z"
+        },
+        {
+          "id": 1438162261,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MzgxNjIyNjE=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1438162261",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "82802a07f4cba03301c02b7431845a07efbecf84",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/82802a07f4cba03301c02b7431845a07efbecf84",
+          "created_at": "2018-01-23T20:25:17Z"
+        },
+        {
+          "id": 1438203575,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MzgyMDM1NzU=",
+          "url": "https://api.github.com/repos/DronMDF/manabot/issues/events/1438203575",
+          "actor": {
+            "id": 2982959,
+            "url": "https://api.github.com/users/DronMDF",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b412e8cb9b5247f05487bed4cbf4967f7b58327f",
+          "commit_url": "https://api.github.com/repos/DronMDF/manabot/commits/b412e8cb9b5247f05487bed4cbf4967f7b58327f",
+          "created_at": "2018-01-23T20:48:40Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 2.02,
+      "estimate": "0",
+      "author": "Andrey Valyaev",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    }
+  ],
+  "project_language": "Python",
+  "project_stars": 1,
+  "project_forks": 0,
+  "project_contributors_count": 11,
+  "first_issue_date": "2017-11-29T11:51:02Z",
+  "last_issue_date": "2018-01-21T20:19:49Z"
+}

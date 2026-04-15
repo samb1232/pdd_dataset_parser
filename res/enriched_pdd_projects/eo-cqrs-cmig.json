@@ -1,0 +1,3103 @@
+{
+  "project_link": "https://github.com/eo-cqrs/cmig",
+  "issues_count": 8,
+  "issues": [
+    {
+      "project_link": "https://github.com/eo-cqrs/cmig",
+      "issue_link": "https://github.com/eo-cqrs/cmig/issues/23",
+      "ticket": "1",
+      "done": true,
+      "id": "1-9e6bd2c8",
+      "closed_at": "2023-08-16T07:23:18Z",
+      "created_at": "2023-08-10T13:45:59Z",
+      "body": "back limits to 0.65, 0.61, 0.55, 0.55 -->",
+      "file": "pom.xml",
+      "lines": "234-234",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "pom.xml:234: back limits to 0.65, 0.61, 0.55, 0.55 -->",
+      "comments": [
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-10T13:46:11Z",
+          "updated_at": "2023-08-10T13:46:11Z",
+          "body": "@0pdd thank you for reporting this. I'll assign someone to take care of it soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/23#issuecomment-1673256709",
+          "id": 1673256709
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-10T13:48:05Z",
+          "updated_at": "2023-08-10T13:48:05Z",
+          "body": "@h1alexbel this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-08-20T13:39:07.087093``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/23#issuecomment-1673259835",
+          "id": 1673259835
+        },
+        {
+          "author": "h1alexbel",
+          "created_at": "2023-08-10T16:45:31Z",
+          "updated_at": "2023-08-10T16:45:31Z",
+          "body": "@zoeself deregister",
+          "url": "https://github.com/eo-cqrs/cmig/issues/23#issuecomment-1673566059",
+          "id": 1673566059
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-10T16:45:34Z",
+          "updated_at": "2023-08-10T16:45:34Z",
+          "body": "> @zoeself deregister\n\n@h1alexbel ok, I've removed this task from scope. I'm not managing it anymore.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/23#issuecomment-1673566131",
+          "id": 1673566131
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10059706532,
+          "node_id": "MEE_lADOKFjJeM5t--2YzwAAAAJXmvCk",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059706532",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:46:08Z"
+        },
+        {
+          "id": 10059706554,
+          "node_id": "SE_lADOKFjJeM5t--2YzwAAAAJXmvC6",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059706554",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:46:08Z"
+        },
+        {
+          "id": 10059728246,
+          "node_id": "AE_lADOKFjJeM5t--2YzwAAAAJXm0V2",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059728246",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:02Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10059728487,
+          "node_id": "LE_lADOKFjJeM5t--2YzwAAAAJXm0Zn",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059728487",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:04Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10059728768,
+          "node_id": "MEE_lADOKFjJeM5t--2YzwAAAAJXm0eA",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059728768",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:05Z"
+        },
+        {
+          "id": 10059728788,
+          "node_id": "SE_lADOKFjJeM5t--2YzwAAAAJXm0eU",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059728788",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:05Z"
+        },
+        {
+          "id": 10061714453,
+          "node_id": "MEE_lADOKFjJeM5t--2YzwAAAAJXuZQV",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10061714453",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T16:45:32Z"
+        },
+        {
+          "id": 10061714471,
+          "node_id": "SE_lADOKFjJeM5t--2YzwAAAAJXuZQn",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10061714471",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T16:45:32Z"
+        },
+        {
+          "id": 10061714698,
+          "node_id": "UNE_lADOKFjJeM5t--2YzwAAAAJXuZUK",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10061714698",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T16:45:33Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10061714800,
+          "node_id": "UNLE_lADOKFjJeM5t--2YzwAAAAJXuZVw",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10061714800",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T16:45:33Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10061714977,
+          "node_id": "MEE_lADOKFjJeM5t--2YzwAAAAJXuZYh",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10061714977",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T16:45:35Z"
+        },
+        {
+          "id": 10061714981,
+          "node_id": "SE_lADOKFjJeM5t--2YzwAAAAJXuZYl",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10061714981",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T16:45:35Z"
+        },
+        {
+          "id": 10061714993,
+          "node_id": "MEE_lADOKFjJeM5t--2YzwAAAAJXuZYx",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10061714993",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T16:45:35Z"
+        },
+        {
+          "id": 10061715001,
+          "node_id": "SE_lADOKFjJeM5t--2YzwAAAAJXuZY5",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10061715001",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T16:45:35Z"
+        },
+        {
+          "id": 10104635890,
+          "node_id": "REFE_lADOKFjJeM5t--2YzwAAAAJaSIHy",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104635890",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cff080896f5f3d55b4e726eb937e5b5dda22b8a8",
+          "commit_url": "https://api.github.com/repos/eo-cqrs/cmig/commits/cff080896f5f3d55b4e726eb937e5b5dda22b8a8",
+          "created_at": "2023-08-16T07:13:34Z"
+        },
+        {
+          "id": 10104903605,
+          "node_id": "CE_lADOKFjJeM5t--2YzwAAAAJaTJe1",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104903605",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:23:11Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 16,
+      "time_to_resolution_days": 5.73,
+      "estimate": "15",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/eo-cqrs/cmig",
+      "issue_link": "https://github.com/eo-cqrs/cmig/issues/24",
+      "ticket": "11",
+      "done": true,
+      "id": "11-6586cbb4",
+      "closed_at": "2023-08-15T14:18:13Z",
+      "created_at": "2023-08-10T13:45:59Z",
+      "body": "generate SHA based on commit result",
+      "file": "src/test/java/io/github/eocqrs/cmig/MasterTest.java",
+      "lines": "49-49",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "MasterTest.java:49: generate SHA based on commit result",
+      "comments": [
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-10T13:46:17Z",
+          "updated_at": "2023-08-10T13:46:17Z",
+          "body": "@0pdd thank you for reporting this. I'll assign someone to take care of it soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/24#issuecomment-1673256898",
+          "id": 1673256898
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-10T13:48:08Z",
+          "updated_at": "2023-08-10T13:48:08Z",
+          "body": "@h1alexbel this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-08-20T13:39:10.855150``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/24#issuecomment-1673259934",
+          "id": 1673259934
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-15T00:38:15Z",
+          "updated_at": "2023-08-15T00:38:15Z",
+          "body": "@h1alexbel Don't forget to close this ticket before the deadline (2023-08-20T13:39:11). You are past the first half of the allowed period.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/24#issuecomment-1678270648",
+          "id": 1678270648
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-15T14:38:19Z",
+          "updated_at": "2023-08-15T14:38:19Z",
+          "body": "@h1alexbel thank you for resolving this ticket. I've just added it to your active invoice. You can always check all your invoices and more on the [Contributor Dashboard](https://self-xdsd.com).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/24#issuecomment-1679045648",
+          "id": 1679045648
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10059707584,
+          "node_id": "MEE_lADOKFjJeM5t--4-zwAAAAJXmvTA",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059707584",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:46:15Z"
+        },
+        {
+          "id": 10059707598,
+          "node_id": "SE_lADOKFjJeM5t--4-zwAAAAJXmvTO",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059707598",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:46:15Z"
+        },
+        {
+          "id": 10059728940,
+          "node_id": "AE_lADOKFjJeM5t--4-zwAAAAJXm0gs",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059728940",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:06Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10059729102,
+          "node_id": "LE_lADOKFjJeM5t--4-zwAAAAJXm0jO",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059729102",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:07Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10059729344,
+          "node_id": "MEE_lADOKFjJeM5t--4-zwAAAAJXm0nA",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059729344",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:09Z"
+        },
+        {
+          "id": 10059729363,
+          "node_id": "SE_lADOKFjJeM5t--4-zwAAAAJXm0nT",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059729363",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:09Z"
+        },
+        {
+          "id": 10092810212,
+          "node_id": "MEE_lADOKFjJeM5t--4-zwAAAAJZlA_k",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10092810212",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T00:38:16Z"
+        },
+        {
+          "id": 10092810217,
+          "node_id": "SE_lADOKFjJeM5t--4-zwAAAAJZlA_p",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10092810217",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T00:38:16Z"
+        },
+        {
+          "id": 10097778980,
+          "node_id": "MEE_lADOKFjJeM5t--4-zwAAAAJZ3-Ek",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097778980",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:38:20Z"
+        },
+        {
+          "id": 10097778995,
+          "node_id": "SE_lADOKFjJeM5t--4-zwAAAAJZ3-Ez",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097778995",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:38:20Z"
+        },
+        {
+          "id": 10097779028,
+          "node_id": "UNE_lADOKFjJeM5t--4-zwAAAAJZ3-FU",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097779028",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:38:20Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10097779165,
+          "node_id": "UNLE_lADOKFjJeM5t--4-zwAAAAJZ3-Hd",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097779165",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:38:21Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 5.02,
+      "estimate": "90",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/eo-cqrs/cmig",
+      "issue_link": "https://github.com/eo-cqrs/cmig/issues/25",
+      "ticket": "11",
+      "done": true,
+      "id": "11-44949247",
+      "closed_at": "2023-08-15T14:18:17Z",
+      "created_at": "2023-08-10T13:45:59Z",
+      "body": "cassandra instance in tests",
+      "file": "src/test/java/io/github/eocqrs/cmig/MasterTest.java",
+      "lines": "57-57",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "MasterTest.java:57: cassandra instance in tests",
+      "comments": [
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-10T13:46:21Z",
+          "updated_at": "2023-08-10T13:46:21Z",
+          "body": "@0pdd thank you for reporting this. I'll assign someone to take care of it soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/25#issuecomment-1673257042",
+          "id": 1673257042
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-10T13:48:12Z",
+          "updated_at": "2023-08-10T13:48:12Z",
+          "body": "@h1alexbel this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-08-20T13:39:14.222265``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/25#issuecomment-1673260034",
+          "id": 1673260034
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-15T00:38:16Z",
+          "updated_at": "2023-08-15T00:38:16Z",
+          "body": "@h1alexbel Don't forget to close this ticket before the deadline (2023-08-20T13:39:14). You are past the first half of the allowed period.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/25#issuecomment-1678270655",
+          "id": 1678270655
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-15T14:38:22Z",
+          "updated_at": "2023-08-15T14:38:22Z",
+          "body": "@h1alexbel thank you for resolving this ticket. I've just added it to your active invoice. You can always check all your invoices and more on the [Contributor Dashboard](https://self-xdsd.com).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/25#issuecomment-1679045770",
+          "id": 1679045770
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10059708526,
+          "node_id": "MEE_lADOKFjJeM5t--7XzwAAAAJXmvhu",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059708526",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:46:19Z"
+        },
+        {
+          "id": 10059708548,
+          "node_id": "SE_lADOKFjJeM5t--7XzwAAAAJXmviE",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059708548",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:46:19Z"
+        },
+        {
+          "id": 10059729556,
+          "node_id": "AE_lADOKFjJeM5t--7XzwAAAAJXm0qU",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059729556",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:10Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10059729750,
+          "node_id": "LE_lADOKFjJeM5t--7XzwAAAAJXm0tW",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059729750",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:11Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10059730021,
+          "node_id": "MEE_lADOKFjJeM5t--7XzwAAAAJXm0xl",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059730021",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:12Z"
+        },
+        {
+          "id": 10059730038,
+          "node_id": "SE_lADOKFjJeM5t--7XzwAAAAJXm0x2",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10059730038",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-10T13:48:12Z"
+        },
+        {
+          "id": 10092810276,
+          "node_id": "MEE_lADOKFjJeM5t--7XzwAAAAJZlBAk",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10092810276",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T00:38:17Z"
+        },
+        {
+          "id": 10092810281,
+          "node_id": "SE_lADOKFjJeM5t--7XzwAAAAJZlBAp",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10092810281",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T00:38:17Z"
+        },
+        {
+          "id": 10097779357,
+          "node_id": "MEE_lADOKFjJeM5t--7XzwAAAAJZ3-Kd",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097779357",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:38:23Z"
+        },
+        {
+          "id": 10097779369,
+          "node_id": "SE_lADOKFjJeM5t--7XzwAAAAJZ3-Kp",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097779369",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:38:23Z"
+        },
+        {
+          "id": 10097779438,
+          "node_id": "UNE_lADOKFjJeM5t--7XzwAAAAJZ3-Lu",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097779438",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:38:23Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10097779521,
+          "node_id": "UNLE_lADOKFjJeM5t--7XzwAAAAJZ3-NB",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097779521",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:38:24Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 5.02,
+      "estimate": "60",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/eo-cqrs/cmig",
+      "issue_link": "https://github.com/eo-cqrs/cmig/issues/47",
+      "ticket": "36",
+      "done": true,
+      "id": "36-b04b7b08",
+      "closed_at": "2023-08-22T08:33:12Z",
+      "created_at": "2023-08-15T14:17:09Z",
+      "body": "Tests for master",
+      "file": "src/test/java/io/github/eocqrs/cmig/MasterTest.java",
+      "lines": "41-41",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "MasterTest.java:41: Tests for master",
+      "comments": [
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-15T14:18:21Z",
+          "updated_at": "2023-08-15T14:18:21Z",
+          "body": "@0pdd thank you for reporting this. I'll assign someone to take care of it soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/47#issuecomment-1679012196",
+          "id": 1679012196
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-15T14:18:44Z",
+          "updated_at": "2023-08-15T14:18:44Z",
+          "body": "@h1alexbel this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-08-25T14:09:09.491481``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/47#issuecomment-1679012818",
+          "id": 1679012818
+        },
+        {
+          "author": "h1alexbel",
+          "created_at": "2023-08-16T07:05:27Z",
+          "updated_at": "2023-08-16T07:05:27Z",
+          "body": "@zoeself deregister",
+          "url": "https://github.com/eo-cqrs/cmig/issues/47#issuecomment-1680074913",
+          "id": 1680074913
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-16T07:05:30Z",
+          "updated_at": "2023-08-16T07:05:30Z",
+          "body": "> @zoeself deregister\n\n@h1alexbel ok, I've removed this task from scope. I'm not managing it anymore.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/47#issuecomment-1680074965",
+          "id": 1680074965
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10097571629,
+          "node_id": "MEE_lADOKFjJeM5uXAZzzwAAAAJZ3Lct",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097571629",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:19Z"
+        },
+        {
+          "id": 10097571641,
+          "node_id": "SE_lADOKFjJeM5uXAZzzwAAAAJZ3Lc5",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097571641",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:19Z"
+        },
+        {
+          "id": 10097575966,
+          "node_id": "AE_lADOKFjJeM5uXAZzzwAAAAJZ3Mge",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097575966",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:43Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10097576161,
+          "node_id": "LE_lADOKFjJeM5uXAZzzwAAAAJZ3Mjh",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097576161",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:43Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10097576493,
+          "node_id": "MEE_lADOKFjJeM5uXAZzzwAAAAJZ3Mot",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097576493",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:45Z"
+        },
+        {
+          "id": 10097576517,
+          "node_id": "SE_lADOKFjJeM5uXAZzzwAAAAJZ3MpF",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097576517",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:45Z"
+        },
+        {
+          "id": 10104537733,
+          "node_id": "MEE_lADOKFjJeM5uXAZzzwAAAAJaRwKF",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104537733",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:27Z"
+        },
+        {
+          "id": 10104537740,
+          "node_id": "SE_lADOKFjJeM5uXAZzzwAAAAJaRwKM",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104537740",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:27Z"
+        },
+        {
+          "id": 10104537900,
+          "node_id": "UNE_lADOKFjJeM5uXAZzzwAAAAJaRwMs",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104537900",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:28Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10104537992,
+          "node_id": "UNLE_lADOKFjJeM5uXAZzzwAAAAJaRwOI",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104537992",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:29Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10104538182,
+          "node_id": "MEE_lADOKFjJeM5uXAZzzwAAAAJaRwRG",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104538182",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:30Z"
+        },
+        {
+          "id": 10104538192,
+          "node_id": "SE_lADOKFjJeM5uXAZzzwAAAAJaRwRQ",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104538192",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:30Z"
+        },
+        {
+          "id": 10104538207,
+          "node_id": "MEE_lADOKFjJeM5uXAZzzwAAAAJaRwRf",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104538207",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:30Z"
+        },
+        {
+          "id": 10104538214,
+          "node_id": "SE_lADOKFjJeM5uXAZzzwAAAAJaRwRm",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104538214",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:30Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 14,
+      "time_to_resolution_days": 6.76,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "32-ae85e224",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/eo-cqrs/cmig",
+      "issue_link": "https://github.com/eo-cqrs/cmig/issues/48",
+      "ticket": "36",
+      "done": true,
+      "id": "36-fd704288",
+      "closed_at": "2023-08-22T08:33:17Z",
+      "created_at": "2023-08-15T14:17:09Z",
+      "body": "Master Cassandra Test",
+      "file": "src/test/java/io/github/eocqrs/cmig/MasterTest.java",
+      "lines": "59-59",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "MasterTest.java:59: Master Cassandra Test",
+      "comments": [
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-15T14:18:25Z",
+          "updated_at": "2023-08-15T14:18:25Z",
+          "body": "@0pdd thank you for reporting this. I'll assign someone to take care of it soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/48#issuecomment-1679012296",
+          "id": 1679012296
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-15T14:18:47Z",
+          "updated_at": "2023-08-15T14:18:47Z",
+          "body": "@h1alexbel this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-08-25T14:09:12.118148``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/48#issuecomment-1679012882",
+          "id": 1679012882
+        },
+        {
+          "author": "h1alexbel",
+          "created_at": "2023-08-16T07:07:15Z",
+          "updated_at": "2023-08-16T07:07:15Z",
+          "body": "@zoeself deregister",
+          "url": "https://github.com/eo-cqrs/cmig/issues/48#issuecomment-1680076946",
+          "id": 1680076946
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-16T07:07:18Z",
+          "updated_at": "2023-08-16T07:07:18Z",
+          "body": "> @zoeself deregister\n\n@h1alexbel ok, I've removed this task from scope. I'm not managing it anymore.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/48#issuecomment-1680077011",
+          "id": 1680077011
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10097572379,
+          "node_id": "MEE_lADOKFjJeM5uXAbjzwAAAAJZ3Lob",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097572379",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:23Z"
+        },
+        {
+          "id": 10097572392,
+          "node_id": "SE_lADOKFjJeM5uXAbjzwAAAAJZ3Loo",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097572392",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:23Z"
+        },
+        {
+          "id": 10097576608,
+          "node_id": "AE_lADOKFjJeM5uXAbjzwAAAAJZ3Mqg",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097576608",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:45Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10097576814,
+          "node_id": "LE_lADOKFjJeM5uXAbjzwAAAAJZ3Mtu",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097576814",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:46Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10097577152,
+          "node_id": "MEE_lADOKFjJeM5uXAbjzwAAAAJZ3MzA",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097577152",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:47Z"
+        },
+        {
+          "id": 10097577173,
+          "node_id": "SE_lADOKFjJeM5uXAbjzwAAAAJZ3MzV",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10097577173",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-15T14:18:48Z"
+        },
+        {
+          "id": 10104558763,
+          "node_id": "MEE_lADOKFjJeM5uXAbjzwAAAAJaR1Sr",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104558763",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:07:16Z"
+        },
+        {
+          "id": 10104558773,
+          "node_id": "SE_lADOKFjJeM5uXAbjzwAAAAJaR1S1",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104558773",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:07:16Z"
+        },
+        {
+          "id": 10104558980,
+          "node_id": "UNE_lADOKFjJeM5uXAbjzwAAAAJaR1WE",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104558980",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:07:17Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10104559129,
+          "node_id": "UNLE_lADOKFjJeM5uXAbjzwAAAAJaR1YZ",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104559129",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:07:18Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10104559369,
+          "node_id": "MEE_lADOKFjJeM5uXAbjzwAAAAJaR1cJ",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104559369",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:07:19Z"
+        },
+        {
+          "id": 10104559390,
+          "node_id": "SE_lADOKFjJeM5uXAbjzwAAAAJaR1ce",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104559390",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:07:19Z"
+        },
+        {
+          "id": 10104559414,
+          "node_id": "MEE_lADOKFjJeM5uXAbjzwAAAAJaR1c2",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104559414",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:07:19Z"
+        },
+        {
+          "id": 10104559424,
+          "node_id": "SE_lADOKFjJeM5uXAbjzwAAAAJaR1dA",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104559424",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:07:19Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 14,
+      "time_to_resolution_days": 6.76,
+      "estimate": "60",
+      "author": "@rultor",
+      "hierarchy": 1,
+      "parent_id": "32-ae85e224",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/eo-cqrs/cmig",
+      "issue_link": "https://github.com/eo-cqrs/cmig/issues/65",
+      "ticket": "36",
+      "done": true,
+      "id": "36-9288a325",
+      "closed_at": "2024-01-26T14:54:05Z",
+      "created_at": "2023-08-22T08:32:59Z",
+      "body": "Implement PreparedCql to avoid cql injection.",
+      "file": "src/main/java/io/github/eocqrs/cmig/Master.java",
+      "lines": "113-113",
+      "labels": [
+        "bug",
+        "DEV",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Master.java:113: Implement PreparedCql to avoid cql...",
+      "comments": [
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-22T08:33:24Z",
+          "updated_at": "2023-08-22T08:33:24Z",
+          "body": "@0pdd thank you for reporting this. I'll assign someone to take care of it soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1687727957",
+          "id": 1687727957
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-22T08:39:45Z",
+          "updated_at": "2023-08-22T08:39:45Z",
+          "body": "@l3r8yJ this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-09-01T08:29:25.235226``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1687738266",
+          "id": 1687738266
+        },
+        {
+          "author": "h1alexbel",
+          "created_at": "2023-08-22T10:33:32Z",
+          "updated_at": "2023-08-22T10:33:32Z",
+          "body": "@zoeself deregister",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1687931546",
+          "id": 1687931546
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-22T10:33:35Z",
+          "updated_at": "2023-08-22T10:33:35Z",
+          "body": "> @zoeself deregister\n\n@h1alexbel ok, I've removed this task from scope. I'm not managing it anymore.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1687931631",
+          "id": 1687931631
+        },
+        {
+          "author": "h1alexbel",
+          "created_at": "2023-08-22T10:33:49Z",
+          "updated_at": "2023-08-22T10:33:49Z",
+          "body": "@zoeself register",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1687932002",
+          "id": 1687932002
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-22T10:33:51Z",
+          "updated_at": "2023-08-22T10:33:51Z",
+          "body": "> @zoeself register\n\n@h1alexbel I've just registered this ticket as a task and will assign it to someone soon. Thanks!",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1687932058",
+          "id": 1687932058
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-22T10:39:34Z",
+          "updated_at": "2023-08-22T10:39:34Z",
+          "body": "@h1alexbel this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-09-01T10:29:13.656118``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1687940142",
+          "id": 1687940142
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-27T00:39:37Z",
+          "updated_at": "2023-08-27T00:39:37Z",
+          "body": "@h1alexbel Don't forget to close this ticket before the deadline (2023-09-01T10:29:14). You are past the first half of the allowed period.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1694532881",
+          "id": 1694532881
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-09-01T11:10:07Z",
+          "updated_at": "2023-09-01T11:10:07Z",
+          "body": "@h1alexbel Looks like you've missed the task deadline (2023-09-01T10:29:14). You are now resigned from this task.\n\nPlease stop working on it, you will not be paid. I will assign it to someone else soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1702580032",
+          "id": 1702580032
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-09-01T11:10:33Z",
+          "updated_at": "2023-09-01T11:10:33Z",
+          "body": "@l3r8yJ this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-09-11T10:59:11.917403``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1702580439",
+          "id": 1702580439
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-09-06T00:40:35Z",
+          "updated_at": "2023-09-06T00:40:35Z",
+          "body": "@l3r8yJ Don't forget to close this ticket before the deadline (2023-09-11T10:59:12). You are past the first half of the allowed period.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1707485237",
+          "id": 1707485237
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-09-11T11:41:18Z",
+          "updated_at": "2023-09-11T11:41:18Z",
+          "body": "@l3r8yJ Looks like you've missed the task deadline (2023-09-11T10:59:12). You are now resigned from this task.\n\nPlease stop working on it, you will not be paid. I will assign it to someone else soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1713709803",
+          "id": 1713709803
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-09-11T11:41:41Z",
+          "updated_at": "2023-09-11T11:41:41Z",
+          "body": "@h1alexbel I couldn't find any assignee for this task. This is either because there are no contributors with role ``DEV`` available or because the project does not have enough funds.\n\nPlease, make sure there is at least one available contributor with the required role and the project can afford to pay them.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/65#issuecomment-1713710372",
+          "id": 1713710372
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10155258300,
+          "node_id": "MEE_lADOKFjJeM5u61_5zwAAAAJdTPG8",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10155258300",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T08:33:22Z"
+        },
+        {
+          "id": 10155258312,
+          "node_id": "SE_lADOKFjJeM5u61_5zwAAAAJdTPHI",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10155258312",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T08:33:22Z"
+        },
+        {
+          "id": 10155356259,
+          "node_id": "AE_lADOKFjJeM5u61_5zwAAAAJdTnBj",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10155356259",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T08:39:44Z",
+          "assignee": {
+            "login": "l3r8yJ",
+            "id": 46355873,
+            "node_id": "MDQ6VXNlcjQ2MzU1ODcz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46355873?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/l3r8yJ",
+            "html_url": "https://github.com/l3r8yJ",
+            "followers_url": "https://api.github.com/users/l3r8yJ/followers",
+            "following_url": "https://api.github.com/users/l3r8yJ/following{/other_user}",
+            "gists_url": "https://api.github.com/users/l3r8yJ/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/l3r8yJ/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/l3r8yJ/subscriptions",
+            "organizations_url": "https://api.github.com/users/l3r8yJ/orgs",
+            "repos_url": "https://api.github.com/users/l3r8yJ/repos",
+            "events_url": "https://api.github.com/users/l3r8yJ/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/l3r8yJ/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10155356421,
+          "node_id": "LE_lADOKFjJeM5u61_5zwAAAAJdTnEF",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10155356421",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T08:39:44Z",
+          "label": {
+            "name": "@l3r8yJ",
+            "color": "b56b3a"
+          }
+        },
+        {
+          "id": 10155356661,
+          "node_id": "MEE_lADOKFjJeM5u61_5zwAAAAJdTnH1",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10155356661",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T08:39:45Z"
+        },
+        {
+          "id": 10155356677,
+          "node_id": "SE_lADOKFjJeM5u61_5zwAAAAJdTnIF",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10155356677",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T08:39:45Z"
+        },
+        {
+          "id": 10156789572,
+          "node_id": "MIE_lADOKFjJeM5u61_5zwAAAAJdZE9E",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156789572",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:32:35Z",
+          "milestone": {
+            "title": "0.1.1"
+          }
+        },
+        {
+          "id": 10156801120,
+          "node_id": "MEE_lADOKFjJeM5u61_5zwAAAAJdZHxg",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156801120",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:32Z"
+        },
+        {
+          "id": 10156801131,
+          "node_id": "SE_lADOKFjJeM5u61_5zwAAAAJdZHxr",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156801131",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:32Z"
+        },
+        {
+          "id": 10156801314,
+          "node_id": "UNE_lADOKFjJeM5u61_5zwAAAAJdZH0i",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156801314",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:34Z",
+          "assignee": {
+            "login": "l3r8yJ",
+            "id": 46355873,
+            "node_id": "MDQ6VXNlcjQ2MzU1ODcz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46355873?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/l3r8yJ",
+            "html_url": "https://github.com/l3r8yJ",
+            "followers_url": "https://api.github.com/users/l3r8yJ/followers",
+            "following_url": "https://api.github.com/users/l3r8yJ/following{/other_user}",
+            "gists_url": "https://api.github.com/users/l3r8yJ/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/l3r8yJ/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/l3r8yJ/subscriptions",
+            "organizations_url": "https://api.github.com/users/l3r8yJ/orgs",
+            "repos_url": "https://api.github.com/users/l3r8yJ/repos",
+            "events_url": "https://api.github.com/users/l3r8yJ/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/l3r8yJ/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10156801418,
+          "node_id": "UNLE_lADOKFjJeM5u61_5zwAAAAJdZH2K",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156801418",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:34Z",
+          "label": {
+            "name": "@l3r8yJ",
+            "color": "b56b3a"
+          }
+        },
+        {
+          "id": 10156801627,
+          "node_id": "MEE_lADOKFjJeM5u61_5zwAAAAJdZH5b",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156801627",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:35Z"
+        },
+        {
+          "id": 10156801638,
+          "node_id": "SE_lADOKFjJeM5u61_5zwAAAAJdZH5m",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156801638",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:35Z"
+        },
+        {
+          "id": 10156801652,
+          "node_id": "MEE_lADOKFjJeM5u61_5zwAAAAJdZH50",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156801652",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:35Z"
+        },
+        {
+          "id": 10156801662,
+          "node_id": "SE_lADOKFjJeM5u61_5zwAAAAJdZH5-",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156801662",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:36Z"
+        },
+        {
+          "id": 10156803244,
+          "node_id": "LE_lADOKFjJeM5u61_5zwAAAAJdZISs",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156803244",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:44Z",
+          "label": {
+            "name": "DEV",
+            "color": "9a1007"
+          }
+        },
+        {
+          "id": 10156803250,
+          "node_id": "LE_lADOKFjJeM5u61_5zwAAAAJdZISy",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156803250",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:44Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10156804106,
+          "node_id": "MEE_lADOKFjJeM5u61_5zwAAAAJdZIgK",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156804106",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:49Z"
+        },
+        {
+          "id": 10156804113,
+          "node_id": "SE_lADOKFjJeM5u61_5zwAAAAJdZIgR",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156804113",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:50Z"
+        },
+        {
+          "id": 10156804464,
+          "node_id": "MEE_lADOKFjJeM5u61_5zwAAAAJdZIlw",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156804464",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:52Z"
+        },
+        {
+          "id": 10156804479,
+          "node_id": "SE_lADOKFjJeM5u61_5zwAAAAJdZIl_",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156804479",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:52Z"
+        },
+        {
+          "id": 10156804504,
+          "node_id": "MEE_lADOKFjJeM5u61_5zwAAAAJdZImY",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156804504",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:52Z"
+        },
+        {
+          "id": 10156804521,
+          "node_id": "SE_lADOKFjJeM5u61_5zwAAAAJdZImp",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10156804521",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-22T10:33:52Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 13,
+      "issue_events_count": 23,
+      "time_to_resolution_days": 157.26,
+      "estimate": "60",
+      "author": "@h1alexbel",
+      "hierarchy": 1,
+      "parent_id": "32-ae85e224",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/eo-cqrs/cmig",
+      "issue_link": "https://github.com/eo-cqrs/cmig/issues/50",
+      "ticket": "37",
+      "done": true,
+      "id": "37-abe81894",
+      "closed_at": "2023-08-16T22:26:36Z",
+      "created_at": "2023-08-16T07:04:55Z",
+      "body": "Move to separate class Create class ContentOf with tests. This puzzle might be moved into unixized library.",
+      "file": "src/main/java/io/github/eocqrs/cmig/sha/StateChanges.java",
+      "lines": "70-72",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "StateChanges.java:70-72: Move to separate class Create...",
+      "comments": [
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-16T07:05:16Z",
+          "updated_at": "2023-08-16T07:05:16Z",
+          "body": "@0pdd thank you for reporting this. I'll assign someone to take care of it soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/50#issuecomment-1680074733",
+          "id": 1680074733
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-16T07:08:57Z",
+          "updated_at": "2023-08-16T07:08:57Z",
+          "body": "@h1alexbel this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-08-26T06:59:16.929998``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/50#issuecomment-1680079035",
+          "id": 1680079035
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-16T22:38:30Z",
+          "updated_at": "2023-08-16T22:38:30Z",
+          "body": "@h1alexbel thank you for resolving this ticket. I've just added it to your active invoice. You can always check all your invoices and more on the [Contributor Dashboard](https://self-xdsd.com).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/50#issuecomment-1681358307",
+          "id": 1681358307
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10104535936,
+          "node_id": "MEE_lADOKFjJeM5ubQi3zwAAAAJaRvuA",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104535936",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:14Z"
+        },
+        {
+          "id": 10104535943,
+          "node_id": "SE_lADOKFjJeM5ubQi3zwAAAAJaRvuH",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104535943",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:05:14Z"
+        },
+        {
+          "id": 10104578171,
+          "node_id": "AE_lADOKFjJeM5ubQi3zwAAAAJaR6B7",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104578171",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:08:55Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10104578319,
+          "node_id": "LE_lADOKFjJeM5ubQi3zwAAAAJaR6EP",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104578319",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:08:56Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        },
+        {
+          "id": 10104578595,
+          "node_id": "MEE_lADOKFjJeM5ubQi3zwAAAAJaR6Ij",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104578595",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:08:57Z"
+        },
+        {
+          "id": 10104578609,
+          "node_id": "SE_lADOKFjJeM5ubQi3zwAAAAJaR6Ix",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104578609",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:08:57Z"
+        },
+        {
+          "id": 10105666547,
+          "node_id": "REFE_lADOKFjJeM5ubQi3zwAAAAJaWDvz",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10105666547",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "eabfefa1a5bc6e140f886fea2d73af2a4e5308fa",
+          "commit_url": "https://api.github.com/repos/eo-cqrs/cmig/commits/eabfefa1a5bc6e140f886fea2d73af2a4e5308fa",
+          "created_at": "2023-08-16T08:41:12Z"
+        },
+        {
+          "id": 10113206966,
+          "node_id": "CE_lADOKFjJeM5ubQi3zwAAAAJay0q2",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10113206966",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T22:26:30Z",
+          "state_reason": null
+        },
+        {
+          "id": 10113270530,
+          "node_id": "MEE_lADOKFjJeM5ubQi3zwAAAAJazEMC",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10113270530",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T22:38:30Z"
+        },
+        {
+          "id": 10113270536,
+          "node_id": "SE_lADOKFjJeM5ubQi3zwAAAAJazEMI",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10113270536",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T22:38:30Z"
+        },
+        {
+          "id": 10113270553,
+          "node_id": "UNE_lADOKFjJeM5ubQi3zwAAAAJazEMZ",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10113270553",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T22:38:31Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10113270604,
+          "node_id": "UNLE_lADOKFjJeM5ubQi3zwAAAAJazENM",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10113270604",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T22:38:31Z",
+          "label": {
+            "name": "@h1alexbel",
+            "color": "9882c8"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 3,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 0.64,
+      "estimate": "30",
+      "author": "@h1alexbel",
+      "hierarchy": 1,
+      "parent_id": "32-b32bc0c2",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/eo-cqrs/cmig",
+      "issue_link": "https://github.com/eo-cqrs/cmig/issues/37",
+      "ticket": "32",
+      "done": true,
+      "id": "32-b32bc0c2",
+      "closed_at": "2023-08-16T07:05:08Z",
+      "created_at": "2023-08-11T10:30:04Z",
+      "body": "design State interface",
+      "file": "src/main/java/io/github/eocqrs/cmig/State.java",
+      "lines": "27-27",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "State.java:27: design State interface",
+      "comments": [
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-11T10:31:03Z",
+          "updated_at": "2023-08-11T10:31:03Z",
+          "body": "@0pdd thank you for reporting this. I'll assign someone to take care of it soon.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/37#issuecomment-1674537728",
+          "id": 1674537728
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-11T10:38:26Z",
+          "updated_at": "2023-08-11T10:38:26Z",
+          "body": "@l3r8yJ this is your task now, please go ahead. Deadline (when this ticket should be closed) is ``2023-08-21T10:29:21.394172``.\n\nEstimation here is ``60 minutes``, that's how much you will be paid.\n\nRemember, you don't have to solve everything in this ticket - you can solve it [partially](https://docs.self-xdsd.com/microtasking.html) and leave ``todo`` markers in the code, which will become future tasks.\n\nIf you have any questions don't ask me, I'm not a technical person. Open new tickets instead.\n\nIf you don't have time or simply don't want to work on this, you can always [resign](https://docs.self-xdsd.com/projectmanager.html#commands).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/37#issuecomment-1674545377",
+          "id": 1674545377
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-16T00:38:25Z",
+          "updated_at": "2023-08-16T00:38:25Z",
+          "body": "@l3r8yJ Don't forget to close this ticket before the deadline (2023-08-21T10:29:21). You are past the first half of the allowed period.",
+          "url": "https://github.com/eo-cqrs/cmig/issues/37#issuecomment-1679804035",
+          "id": 1679804035
+        },
+        {
+          "author": "zoeself",
+          "created_at": "2023-08-16T07:08:25Z",
+          "updated_at": "2023-08-16T07:08:25Z",
+          "body": "@l3r8yJ thank you for resolving this ticket. I've just added it to your active invoice. You can always check all your invoices and more on the [Contributor Dashboard](https://self-xdsd.com).",
+          "url": "https://github.com/eo-cqrs/cmig/issues/37#issuecomment-1680078326",
+          "id": 1680078326
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 10068235797,
+          "node_id": "MEE_lADOKFjJeM5uEKoozwAAAAJYHRYV",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10068235797",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-11T10:31:01Z"
+        },
+        {
+          "id": 10068235801,
+          "node_id": "SE_lADOKFjJeM5uEKoozwAAAAJYHRYZ",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10068235801",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-11T10:31:01Z"
+        },
+        {
+          "id": 10068292006,
+          "node_id": "AE_lADOKFjJeM5uEKoozwAAAAJYHfGm",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10068292006",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-11T10:38:24Z",
+          "assignee": {
+            "login": "l3r8yJ",
+            "id": 46355873,
+            "node_id": "MDQ6VXNlcjQ2MzU1ODcz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46355873?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/l3r8yJ",
+            "html_url": "https://github.com/l3r8yJ",
+            "followers_url": "https://api.github.com/users/l3r8yJ/followers",
+            "following_url": "https://api.github.com/users/l3r8yJ/following{/other_user}",
+            "gists_url": "https://api.github.com/users/l3r8yJ/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/l3r8yJ/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/l3r8yJ/subscriptions",
+            "organizations_url": "https://api.github.com/users/l3r8yJ/orgs",
+            "repos_url": "https://api.github.com/users/l3r8yJ/repos",
+            "events_url": "https://api.github.com/users/l3r8yJ/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/l3r8yJ/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10068292173,
+          "node_id": "LE_lADOKFjJeM5uEKoozwAAAAJYHfJN",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10068292173",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-11T10:38:25Z",
+          "label": {
+            "name": "@l3r8yJ",
+            "color": "b56b3a"
+          }
+        },
+        {
+          "id": 10068292344,
+          "node_id": "MEE_lADOKFjJeM5uEKoozwAAAAJYHfL4",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10068292344",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-11T10:38:26Z"
+        },
+        {
+          "id": 10068292361,
+          "node_id": "SE_lADOKFjJeM5uEKoozwAAAAJYHfMJ",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10068292361",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-11T10:38:26Z"
+        },
+        {
+          "id": 10102680856,
+          "node_id": "MEE_lADOKFjJeM5uEKoozwAAAAJaKq0Y",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10102680856",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T00:38:25Z"
+        },
+        {
+          "id": 10102680862,
+          "node_id": "SE_lADOKFjJeM5uEKoozwAAAAJaKq0e",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10102680862",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T00:38:25Z"
+        },
+        {
+          "id": 10104572757,
+          "node_id": "MEE_lADOKFjJeM5uEKoozwAAAAJaR4tV",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104572757",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:08:26Z"
+        },
+        {
+          "id": 10104572779,
+          "node_id": "SE_lADOKFjJeM5uEKoozwAAAAJaR4tr",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104572779",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:08:26Z"
+        },
+        {
+          "id": 10104572838,
+          "node_id": "UNE_lADOKFjJeM5uEKoozwAAAAJaR4um",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104572838",
+          "actor": {
+            "id": 46355873,
+            "url": "https://api.github.com/users/l3r8yJ",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:08:26Z",
+          "assignee": {
+            "login": "l3r8yJ",
+            "id": 46355873,
+            "node_id": "MDQ6VXNlcjQ2MzU1ODcz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46355873?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/l3r8yJ",
+            "html_url": "https://github.com/l3r8yJ",
+            "followers_url": "https://api.github.com/users/l3r8yJ/followers",
+            "following_url": "https://api.github.com/users/l3r8yJ/following{/other_user}",
+            "gists_url": "https://api.github.com/users/l3r8yJ/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/l3r8yJ/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/l3r8yJ/subscriptions",
+            "organizations_url": "https://api.github.com/users/l3r8yJ/orgs",
+            "repos_url": "https://api.github.com/users/l3r8yJ/repos",
+            "events_url": "https://api.github.com/users/l3r8yJ/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/l3r8yJ/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "zoeself",
+            "id": 33162107,
+            "node_id": "MDQ6VXNlcjMzMTYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33162107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zoeself",
+            "html_url": "https://github.com/zoeself",
+            "followers_url": "https://api.github.com/users/zoeself/followers",
+            "following_url": "https://api.github.com/users/zoeself/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zoeself/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zoeself/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zoeself/subscriptions",
+            "organizations_url": "https://api.github.com/users/zoeself/orgs",
+            "repos_url": "https://api.github.com/users/zoeself/repos",
+            "events_url": "https://api.github.com/users/zoeself/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zoeself/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 10104572950,
+          "node_id": "UNLE_lADOKFjJeM5uEKoozwAAAAJaR4wW",
+          "url": "https://api.github.com/repos/eo-cqrs/cmig/issues/events/10104572950",
+          "actor": {
+            "id": 33162107,
+            "url": "https://api.github.com/users/zoeself",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2023-08-16T07:08:27Z",
+          "label": {
+            "name": "@l3r8yJ",
+            "color": "b56b3a"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 4.86,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 5,
+  "project_forks": 2,
+  "project_contributors_count": 5,
+  "first_issue_date": "2023-08-10T13:45:59Z",
+  "last_issue_date": "2023-08-22T08:32:59Z"
+}

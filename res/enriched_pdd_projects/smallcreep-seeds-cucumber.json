@@ -1,0 +1,1935 @@
+{
+  "project_link": "https://github.com/smallcreep/seeds-cucumber",
+  "issues_count": 12,
+  "issues": [
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/119",
+      "ticket": "101",
+      "done": true,
+      "id": "101-74486c02",
+      "closed_at": "2018-11-19T08:04:32Z",
+      "created_at": "2018-11-01T08:41:07Z",
+      "body": "Add assertion to correct inserted values after implemented method insert into table(#117) and added info of inserted rows to properties(#116).",
+      "file": "seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java",
+      "lines": "50-52",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RwDefaultItCase.java:50-52: Add assertion to correct...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1940167776,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NDAxNjc3NzY=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1940167776",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-01T10:31:39Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1967805797,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTY3ODA1Nzk3",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1967805797",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-15T06:43:21Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1969067795,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjkwNjc3OTU=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1969067795",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a2bfab83e12d6b5d0f4283f695055865a9c0a85c",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/a2bfab83e12d6b5d0f4283f695055865a9c0a85c",
+          "created_at": "2018-11-15T16:06:18Z"
+        },
+        {
+          "id": 1973890928,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NzM4OTA5Mjg=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1973890928",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8ad3615334306ff322262f9f8725368c04be8ca8",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/8ad3615334306ff322262f9f8725368c04be8ca8",
+          "created_at": "2018-11-19T07:47:05Z"
+        },
+        {
+          "id": 1973890929,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NzM4OTA5Mjk=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1973890929",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "36bb107ac43e99a533ce095afce751e684b9f0ca",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/36bb107ac43e99a533ce095afce751e684b9f0ca",
+          "created_at": "2018-11-19T07:47:06Z"
+        },
+        {
+          "id": 1973918634,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk3MzkxODYzNA==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1973918634",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-19T08:04:29Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 17.97,
+      "estimate": "15",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 1,
+      "parent_id": "63-19a2d4ae",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/101",
+      "ticket": "63",
+      "done": true,
+      "id": "63-19a2d4ae",
+      "closed_at": "2018-11-06T13:39:44Z",
+      "created_at": "2018-10-26T06:28:53Z",
+      "body": "Add integration test to this method. For example this test must insert to exist database table. To create table can use liquibase, see for example usage https://www.yegor256.com/2014/07/20/liquibase-in-maven.html",
+      "file": "seeds-db/src/main/java/com/github/smallcreep/cucumber/seeds/rows/RwDefault.java",
+      "lines": "62-65",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RwDefault.java:62-65: Add integration test to this...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1928040316,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5MjgwNDAzMTY=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1928040316",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-10-26T06:51:52Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1938445632,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5Mzg0NDU2MzI=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1938445632",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e24dcd51e9fade0295b99e74f5e100130570b970",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/e24dcd51e9fade0295b99e74f5e100130570b970",
+          "created_at": "2018-10-31T16:42:16Z"
+        },
+        {
+          "id": 1939861576,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5Mzk4NjE1NzY=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1939861576",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "efc1aff6883e97709be9546256f5a10e08a1e16c",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/efc1aff6883e97709be9546256f5a10e08a1e16c",
+          "created_at": "2018-11-01T07:37:34Z"
+        },
+        {
+          "id": 1939960067,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5Mzk5NjAwNjc=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1939960067",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bc3f4a5f5e2e6642be9bfcade09be6aea8b083fa",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/bc3f4a5f5e2e6642be9bfcade09be6aea8b083fa",
+          "created_at": "2018-11-01T08:41:13Z"
+        },
+        {
+          "id": 1939981357,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTkzOTk4MTM1Nw==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1939981357",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-01T08:53:47Z",
+          "state_reason": null
+        },
+        {
+          "id": 1979802440,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTc5ODAyNDQw",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1979802440",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-21T11:31:14Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 11.3,
+      "estimate": "30",
+      "author": "Ilia",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/114",
+      "ticket": "94",
+      "done": true,
+      "id": "94-befb72b3",
+      "closed_at": "2018-10-31T09:06:44Z",
+      "created_at": "2018-10-30T16:26:44Z",
+      "body": "Move the same code with PlaceholderEncryptionMd5 and PlaceholderRandomStringLength. Method apply has many duplicate codes. Move this code to new class.",
+      "file": "seeds-generator/src/main/java/com/github/smallcreep/cucumber/seeds/generator/placeholders/PlaceholderEncryptionMd5.java",
+      "lines": "124-126",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "PlaceholderEncryptionMd5.java:124-126: Move the same code...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1937127613,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTM3MTI3NjEz",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1937127613",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-10-31T07:53:40Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1937127725,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5MzcxMjc3MjU=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1937127725",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-10-31T07:53:45Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1937203163,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5MzcyMDMxNjM=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1937203163",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "087befc708b706d292908ee988dbd8c13813a102",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/087befc708b706d292908ee988dbd8c13813a102",
+          "created_at": "2018-10-31T08:36:10Z"
+        },
+        {
+          "id": 1937224924,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5MzcyMjQ5MjQ=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1937224924",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "97a54fa495a4404422bfc4c551ce3a9fb3b68f66",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/97a54fa495a4404422bfc4c551ce3a9fb3b68f66",
+          "created_at": "2018-10-31T08:46:46Z"
+        },
+        {
+          "id": 1937266928,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTkzNzI2NjkyOA==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1937266928",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-10-31T09:06:38Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.69,
+      "estimate": "15",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/128",
+      "ticket": "122",
+      "done": true,
+      "id": "122-78c12a67",
+      "closed_at": "2018-11-13T16:39:26Z",
+      "created_at": "2018-11-13T16:03:27Z",
+      "body": "DEV change xpath for finding table. table name should be a value in tag table not a parameter. Need change xpath and test data.",
+      "file": "seeds-db/src/main/java/com/github/smallcreep/cucumber/seeds/schema/SchemaXml.java",
+      "lines": "105-107",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "SchemaXml.java:105-107: DEV change xpath for finding...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1963454845,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NjM0NTQ4NDU=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963454845",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-13T16:03:48Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1963504329,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTYzNTA0MzI5",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963504329",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-13T16:20:09Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1963526488,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjM1MjY0ODg=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963526488",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "05bff8066729f7ce128271e1ad666b14aeb99397",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/05bff8066729f7ce128271e1ad666b14aeb99397",
+          "created_at": "2018-11-13T16:26:59Z"
+        },
+        {
+          "id": 1963574539,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2MzU3NDUzOQ==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963574539",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-13T16:39:22Z",
+          "state_reason": null
+        },
+        {
+          "id": 1963574591,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjM1NzQ1OTE=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963574591",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "64e2a19dc68f4de4369f18dfc38a08ae41b6d977",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/64e2a19dc68f4de4369f18dfc38a08ae41b6d977",
+          "created_at": "2018-11-13T16:39:23Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.02,
+      "estimate": "15",
+      "author": "Ilia",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/129",
+      "ticket": "122",
+      "done": true,
+      "id": "122-e3790f96",
+      "closed_at": "2018-11-13T16:39:27Z",
+      "created_at": "2018-11-13T16:03:27Z",
+      "body": "DEV change xpath for finding column. column name should be a value in tag column not a parameter. Need change xpath and test data.",
+      "file": "seeds-db/src/main/java/com/github/smallcreep/cucumber/seeds/table/TableXml.java",
+      "lines": "92-94",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "TableXml.java:92-94: DEV change xpath for finding column....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1963454857,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NjM0NTQ4NTc=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963454857",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-13T16:03:48Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1963455502,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTYzNDU1NTAy",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963455502",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-13T16:03:58Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1963500178,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjM1MDAxNzg=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963500178",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c545ebd1650e7fc3c5681f246d35f2641aedd24f",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/c545ebd1650e7fc3c5681f246d35f2641aedd24f",
+          "created_at": "2018-11-13T16:18:45Z"
+        },
+        {
+          "id": 1963541833,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2MzU0MTgzMw==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963541833",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-13T16:30:48Z",
+          "state_reason": null
+        },
+        {
+          "id": 1963541877,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjM1NDE4Nzc=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1963541877",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bc2cc9a146f02554673f5ff83fd12d53080e1e3a",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/bc2cc9a146f02554673f5ff83fd12d53080e1e3a",
+          "created_at": "2018-11-13T16:30:49Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.03,
+      "estimate": "15",
+      "author": "Ilia",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/135",
+      "ticket": "133",
+      "done": true,
+      "id": "133-bee01bce",
+      "closed_at": "2018-11-14T06:46:08Z",
+      "created_at": "2018-11-14T05:59:21Z",
+      "body": "Add type Serial to sql value. Serial is pseudo-type. for more information read this docs http://www.postgresqltutorial.com/postgresql-tutorial/postgresql-serial/ This is the same Integer types.",
+      "file": "seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java",
+      "lines": "56-59",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RwDefaultItCase.java:56-59: Add type Serial to sql value....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1964999841,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NjQ5OTk4NDE=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1964999841",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T06:20:39Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1965000039,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTY1MDAwMDM5",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965000039",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T06:20:47Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1965026095,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUwMjYwOTU=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965026095",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "aa4e3b5d1e9adefca7514b3a21459424f2b9334b",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/aa4e3b5d1e9adefca7514b3a21459424f2b9334b",
+          "created_at": "2018-11-14T06:41:18Z"
+        },
+        {
+          "id": 1965032113,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2NTAzMjExMw==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965032113",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T06:46:02Z",
+          "state_reason": null
+        },
+        {
+          "id": 1965032129,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUwMzIxMjk=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965032129",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dfd7d3888cc227b3b00e3b853e138d92b58e0de7",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/dfd7d3888cc227b3b00e3b853e138d92b58e0de7",
+          "created_at": "2018-11-14T06:46:03Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.03,
+      "estimate": "15",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/136",
+      "ticket": "133",
+      "done": true,
+      "id": "133-ad63dee7",
+      "closed_at": "2018-11-14T07:12:54Z",
+      "created_at": "2018-11-14T05:59:21Z",
+      "body": "Add type Text to sql value. The text data type can store a string with unlimited length. for more information read this docs http://www.postgresqltutorial.com/postgresql-char-varchar-text/",
+      "file": "seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java",
+      "lines": "60-63",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RwDefaultItCase.java:60-63: Add type Text to sql value....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1964999847,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NjQ5OTk4NDc=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1964999847",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T06:20:39Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1965032447,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTY1MDMyNDQ3",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965032447",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T06:46:15Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1965059021,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUwNTkwMjE=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965059021",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d31ec9cf6c8532f5e18a969961a239516ef5a1c1",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/d31ec9cf6c8532f5e18a969961a239516ef5a1c1",
+          "created_at": "2018-11-14T07:05:45Z"
+        },
+        {
+          "id": 1965069620,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2NTA2OTYyMA==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965069620",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T07:12:50Z",
+          "state_reason": null
+        },
+        {
+          "id": 1965069635,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUwNjk2MzU=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965069635",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6784e6b374ac61367015686634c7a7116baa1367",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/6784e6b374ac61367015686634c7a7116baa1367",
+          "created_at": "2018-11-14T07:12:50Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.05,
+      "estimate": "15",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/137",
+      "ticket": "133",
+      "done": true,
+      "id": "133-7a2239c0",
+      "closed_at": "2018-11-14T07:44:12Z",
+      "created_at": "2018-11-14T05:59:21Z",
+      "body": "Add type Bytea to sql value. The bytea data type allows storage of binary strings. for more information read this docs https://www.postgresql.org/docs/9.6/datatype-binary.html",
+      "file": "seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java",
+      "lines": "64-67",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RwDefaultItCase.java:64-67: Add type Bytea to sql value....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1964999850,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NjQ5OTk4NTA=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1964999850",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T06:20:40Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1965070495,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTY1MDcwNDk1",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965070495",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T07:13:18Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1965104525,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUxMDQ1MjU=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965104525",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "896e9e682c30adb1ca0a0706dc7cb2514f1536da",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/896e9e682c30adb1ca0a0706dc7cb2514f1536da",
+          "created_at": "2018-11-14T07:35:39Z"
+        },
+        {
+          "id": 1965117959,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2NTExNzk1OQ==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965117959",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T07:44:07Z",
+          "state_reason": null
+        },
+        {
+          "id": 1965117978,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUxMTc5Nzg=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965117978",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fdd7148897ecefbf40393d5c6e6302ea8e6804f7",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/fdd7148897ecefbf40393d5c6e6302ea8e6804f7",
+          "created_at": "2018-11-14T07:44:08Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.07,
+      "estimate": "15",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/138",
+      "ticket": "133",
+      "done": true,
+      "id": "133-a3da16f6",
+      "closed_at": "2018-11-14T08:33:18Z",
+      "created_at": "2018-11-14T05:59:21Z",
+      "body": "add correct exception if not found in this.value value, because now threw java.lang.NullPointerException with next stacktrace: at com.github.smallcreep.cucumber.seeds.table.TableXml .lambda$null$0(TableXml.java:107) at org.cactoos.map.MapOf.lambda$new$0(MapOf.java:83) at org.cactoos.func.UncheckedFunc.lambda$apply$0(UncheckedFunc.java:56) at org.cactoos.scalar.CheckedScalar.value(CheckedScalar.java:76) at org.cactoos.scalar.IoCheckedScalar.value(IoCheckedScalar.java:63)",
+      "file": "seeds-db/src/main/java/com/github/smallcreep/cucumber/seeds/table/TableXml.java",
+      "lines": "92-100",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "TableXml.java:92-100: add correct exception if not found...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1964999857,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NjQ5OTk4NTc=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1964999857",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T06:20:40Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1965105559,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTY1MTA1NTU5",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965105559",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T07:36:22Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1965145466,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUxNDU0NjY=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965145466",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7dc297b144436d57101bb2297c73d085be6c3767",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/7dc297b144436d57101bb2297c73d085be6c3767",
+          "created_at": "2018-11-14T08:00:48Z"
+        },
+        {
+          "id": 1965182214,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUxODIyMTQ=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965182214",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e659304507038ff95e87934dd459554b5547af06",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/e659304507038ff95e87934dd459554b5547af06",
+          "created_at": "2018-11-14T08:22:10Z"
+        },
+        {
+          "id": 1965202750,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2NTIwMjc1MA==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965202750",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T08:33:14Z",
+          "state_reason": null
+        },
+        {
+          "id": 1965202787,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjUyMDI3ODc=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1965202787",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c8772ce57150d088675086b6191875c376592fec",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/c8772ce57150d088675086b6191875c376592fec",
+          "created_at": "2018-11-14T08:33:15Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 0.11,
+      "estimate": "15",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/151",
+      "ticket": "149",
+      "done": true,
+      "id": "149-bee5465d",
+      "closed_at": "2018-11-15T06:55:24Z",
+      "created_at": "2018-11-15T06:04:00Z",
+      "body": "Placeholders with parameters not correct replaced. If text in parameter have close bracket then string after this bracket not use in function. This is big problem.",
+      "file": "seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java",
+      "lines": "57-59",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RwDefaultItCase.java:57-59: Placeholders with parameters...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1967793668,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTY3NzkzNjY4",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1967793668",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-15T06:34:05Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1967793698,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5Njc3OTM2OTg=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1967793698",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-15T06:34:06Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1967799277,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5Njc3OTkyNzc=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1967799277",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "51b6993eaf2d2c4b1afa6db9e39b131556d0c719",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/51b6993eaf2d2c4b1afa6db9e39b131556d0c719",
+          "created_at": "2018-11-15T06:38:19Z"
+        },
+        {
+          "id": 1967822877,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2NzgyMjg3Nw==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1967822877",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-15T06:55:21Z",
+          "state_reason": null
+        },
+        {
+          "id": 1969067791,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjkwNjc3OTE=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1969067791",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b83bd1b057b86968b472dbe5deda7a0d7c07a9c6",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/b83bd1b057b86968b472dbe5deda7a0d7c07a9c6",
+          "created_at": "2018-11-15T16:06:18Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.04,
+      "estimate": "15",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 2,
+      "parent_id": "147-9b75008c",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/149",
+      "ticket": "147",
+      "done": true,
+      "id": "147-9b75008c",
+      "closed_at": "2018-11-15T06:25:43Z",
+      "created_at": "2018-11-14T16:06:09Z",
+      "body": "Add escaping to single quotes in sql, because generated sql not valid. For example Varchar column with value 'not'escaped value' threw org.postgresql.util.PSQLException: Unterminated identifier started at position.",
+      "file": "seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java",
+      "lines": "56-59",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RwDefaultItCase.java:56-59: Add escaping to single quotes...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1966393275,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NjYzOTMyNzU=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1966393275",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T16:39:47Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1966393330,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTY2MzkzMzMw",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1966393330",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T16:39:49Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1967756331,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5Njc3NTYzMzE=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1967756331",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "13a268827f1426fb93d456119f5a5f0cc809bd01",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/13a268827f1426fb93d456119f5a5f0cc809bd01",
+          "created_at": "2018-11-15T06:04:08Z"
+        },
+        {
+          "id": 1967782935,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2Nzc4MjkzNQ==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1967782935",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-15T06:25:39Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.6,
+      "estimate": "15",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 1,
+      "parent_id": "142-9e40c68c",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/smallcreep/seeds-cucumber",
+      "issue_link": "https://github.com/smallcreep/seeds-cucumber/issues/147",
+      "ticket": "142",
+      "done": true,
+      "id": "142-9e40c68c",
+      "closed_at": "2018-11-14T16:35:13Z",
+      "created_at": "2018-11-14T11:01:59Z",
+      "body": "Placeholders with parameters may brake regexp. For example #Encryption#Md5(').*) need escape string before replace. Need change PlaceholderWithParams. This is very big problem.",
+      "file": "seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java",
+      "lines": "56-58",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "smallcreep"
+      ],
+      "title": "RwDefaultItCase.java:56-58: Placeholders with parameters...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1966138510,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NjYxMzg1MTA=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1966138510",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T15:14:33Z",
+          "milestone": {
+            "title": "1.0"
+          }
+        },
+        {
+          "id": 1966138962,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTY2MTM4OTYy",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1966138962",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T15:14:42Z",
+          "assignee": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "smallcreep",
+            "id": 5305846,
+            "node_id": "MDQ6VXNlcjUzMDU4NDY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5305846?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smallcreep",
+            "html_url": "https://github.com/smallcreep",
+            "followers_url": "https://api.github.com/users/smallcreep/followers",
+            "following_url": "https://api.github.com/users/smallcreep/following{/other_user}",
+            "gists_url": "https://api.github.com/users/smallcreep/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/smallcreep/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/smallcreep/subscriptions",
+            "organizations_url": "https://api.github.com/users/smallcreep/orgs",
+            "repos_url": "https://api.github.com/users/smallcreep/repos",
+            "events_url": "https://api.github.com/users/smallcreep/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/smallcreep/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1966294279,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NjYyOTQyNzk=",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1966294279",
+          "actor": {
+            "id": 5305846,
+            "url": "https://api.github.com/users/smallcreep",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ebbfc8abbf580ea73390aa10f13a664980704803",
+          "commit_url": "https://api.github.com/repos/smallcreep/seeds-cucumber/commits/ebbfc8abbf580ea73390aa10f13a664980704803",
+          "created_at": "2018-11-14T16:06:15Z"
+        },
+        {
+          "id": 1966379586,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTk2NjM3OTU4Ng==",
+          "url": "https://api.github.com/repos/smallcreep/seeds-cucumber/issues/events/1966379586",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-11-14T16:35:06Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.23,
+      "estimate": "20",
+      "author": "Ilia Rogozhin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 3,
+  "project_forks": 0,
+  "project_contributors_count": 3,
+  "first_issue_date": "2018-10-26T06:28:53Z",
+  "last_issue_date": "2018-11-15T06:04:00Z"
+}

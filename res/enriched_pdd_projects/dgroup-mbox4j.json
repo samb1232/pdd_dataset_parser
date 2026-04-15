@@ -1,0 +1,1062 @@
+{
+  "project_link": "https://github.com/dgroup/mbox4j",
+  "issues_count": 12,
+  "issues": [
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/3",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-d53592c5",
+      "closed_at": "2019-04-02T00:39:58Z",
+      "created_at": "2019-03-27T21:06:03Z",
+      "body": "Add the support of attachments. For now all emails are text-based thus we need to define a way how to send the files. For now <em>Collections.emptySet</em> is used as a stub and should be removed later.",
+      "file": "src/main/java/io/github/dgroup/mbox4j/inbox/func/javax/ToMsg.java",
+      "lines": "43-46",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "ToMsg.java:43-46: Add the support of attachments. For now...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2234533519,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjIzNDUzMzUxOQ==",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533519",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:40Z"
+        },
+        {
+          "id": 2234533523,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyMzQ1MzM1MjM=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533523",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:40Z"
+        },
+        {
+          "id": 2240839575,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDA4Mzk1NzU=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839575",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T04:53:23Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 5.15,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/4",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-eca9a629",
+      "closed_at": "2019-04-05T15:41:37Z",
+      "created_at": "2019-03-27T21:06:03Z",
+      "body": "Implement search to the javax instead of fetching all messages. The search should be based on {@link Query}.",
+      "file": "src/main/java/io/github/dgroup/mbox4j/inbox/func/javax/JavaxMailInbox.java",
+      "lines": "53-54",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "JavaxMailInbox.java:53-54: Implement search to the javax...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2234533608,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjIzNDUzMzYwOA==",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533608",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:43Z"
+        },
+        {
+          "id": 2234533609,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyMzQ1MzM2MDk=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533609",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:43Z"
+        },
+        {
+          "id": 2240839576,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDA4Mzk1NzY=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839576",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T04:53:23Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 2256193613,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNTYxOTM2MTM=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2256193613",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "83f816c2f6aee4eb2f83dfd4b8e111fdc400f986",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/83f816c2f6aee4eb2f83dfd4b8e111fdc400f986",
+          "created_at": "2019-04-05T15:38:29Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 8.77,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/6",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-8dc15908",
+      "closed_at": "2019-03-30T04:53:30Z",
+      "created_at": "2019-03-27T21:06:03Z",
+      "body": "Add envelope with equals, hashCode and toString methods.",
+      "file": "src/main/java/io/github/dgroup/mbox4j/query/QueryOf.java",
+      "lines": "33-33",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "QueryOf.java:33: Add envelope with equals, hashCode and...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2234533751,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjIzNDUzMzc1MQ==",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533751",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:46Z"
+        },
+        {
+          "id": 2234533752,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyMzQ1MzM3NTI=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533752",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:46Z"
+        },
+        {
+          "id": 2240839579,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDA4Mzk1Nzk=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839579",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T04:53:24Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 2.32,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/7",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-b58c31ec",
+      "closed_at": "2019-03-30T04:53:32Z",
+      "created_at": "2019-03-27T21:06:03Z",
+      "body": "Compare two ways of the design: 1) Using func to build an inbox/outbox like {code final Inbox inbox = new InboxOf(new JavaxMailInbox(properties)); } 2) Using object directly like {code final Outbox outbox = new JavaxMailOutbox(properties); } and use the only 1.",
+      "file": "src/main/java/io/github/dgroup/mbox4j/outbox/javax/JavaxMailOutbox.java",
+      "lines": "42-51",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "JavaxMailOutbox.java:42-51: Compare two ways of the...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2234533840,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjIzNDUzMzg0MA==",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533840",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:48Z"
+        },
+        {
+          "id": 2234533841,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyMzQ1MzM4NDE=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533841",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:48Z"
+        },
+        {
+          "id": 2240839460,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNDA4Mzk0NjA=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839460",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "97b268b02b0f28256598d868db23423846cc4d5c",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/97b268b02b0f28256598d868db23423846cc4d5c",
+          "created_at": "2019-03-30T04:53:03Z"
+        },
+        {
+          "id": 2240839580,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDA4Mzk1ODA=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839580",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T04:53:24Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 2.32,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/9",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-ffe8d0bb",
+      "closed_at": "2019-04-13T09:54:29Z",
+      "created_at": "2019-03-27T21:06:03Z",
+      "body": "Clarify the types of supported connection protocols for {@link this#protocol()}",
+      "file": "src/main/java/io/github/dgroup/mbox4j/Query.java",
+      "lines": "33-34",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Query.java:33-34: Clarify the types of supported...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2234533978,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjIzNDUzMzk3OA==",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533978",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:52Z"
+        },
+        {
+          "id": 2234533979,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyMzQ1MzM5Nzk=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234533979",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:52Z"
+        },
+        {
+          "id": 2240839582,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDA4Mzk1ODI=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839582",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T04:53:24Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 2274031526,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNzQwMzE1MjY=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2274031526",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1a2c8cc10519e36a1cdf067ea81a114735a3c465",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/1a2c8cc10519e36a1cdf067ea81a114735a3c465",
+          "created_at": "2019-04-13T09:51:41Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 16.53,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/10",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-efdb30e4",
+      "closed_at": "2019-03-31T05:34:27Z",
+      "created_at": "2019-03-27T21:06:03Z",
+      "body": "Enable test once the SMTP server is UP and available for reading.",
+      "file": "src/test/java/io/github/dgroup/mbox4j/inbox/func/javax/JavaxMailInboxTest.java",
+      "lines": "37-37",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "JavaxMailInboxTest.java:37: Enable test once the SMTP...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2234534052,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjIzNDUzNDA1Mg==",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234534052",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:54Z"
+        },
+        {
+          "id": 2234534053,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyMzQ1MzQwNTM=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234534053",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:54Z"
+        },
+        {
+          "id": 2240839584,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDA4Mzk1ODQ=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839584",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T04:53:24Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 2240882843,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNDA4ODI4NDM=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240882843",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dd908495fb4e490a66e1272c894109d5707cd06d",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/dd908495fb4e490a66e1272c894109d5707cd06d",
+          "created_at": "2019-03-30T07:02:18Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 3.35,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/12",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-87e0cae5",
+      "closed_at": "2019-03-30T14:28:17Z",
+      "created_at": "2019-03-27T21:06:03Z",
+      "body": "Enable test once the SMTP server is UP and available for sending.",
+      "file": "src/test/java/io/github/dgroup/mbox4j/outbox/javax/JavaxMailOutboxTest.java",
+      "lines": "49-49",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "JavaxMailOutboxTest.java:49: Enable test once the SMTP...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2234534204,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjIzNDUzNDIwNA==",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234534204",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:57Z"
+        },
+        {
+          "id": 2234534206,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyMzQ1MzQyMDY=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2234534206",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-27T21:17:57Z"
+        },
+        {
+          "id": 2240839586,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDA4Mzk1ODY=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839586",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T04:53:24Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 2.72,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/13",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-f2339a91",
+      "closed_at": "2019-04-09T17:23:15Z",
+      "created_at": "2019-03-27T21:06:03Z",
+      "body": "Generate the pubring.gpg and secring.gpg for rultor. Define a new mvn profile `ossrh-mbox4j` for integration with mvn central.",
+      "file": ".rultor.yml",
+      "lines": "7-8",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".rultor.yml:7-8: Generate the pubring.gpg and secring.gpg...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2240839587,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDA4Mzk1ODc=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2240839587",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T04:53:25Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 2263564167,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNjM1NjQxNjc=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2263564167",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8e21f4a941dcd89ead6f2cfcdb9ceb6bb4ebcbb8",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/8e21f4a941dcd89ead6f2cfcdb9ceb6bb4ebcbb8",
+          "created_at": "2019-04-09T17:19:37Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 12.85,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/16",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-8299728c",
+      "closed_at": "2019-03-30T14:28:18Z",
+      "created_at": "2019-03-30T04:52:55Z",
+      "body": "Enable profile for the integration tests The expected configuration is `mvn -X -P integration-tests,qulice clean install -DLL.gmail.user=${GMAIL_USER} -DLL.gmail.pass=${GMAIL_PASS} -DLL.gmail.to.user=${GMAIL_TO}`",
+      "file": ".circleci/config.yml",
+      "lines": "7-9",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "config.yml:7-9: Enable profile for the integration tests...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2241060184,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNDEwNjAxODQ=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241060184",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "72a86c219449d5afbc6e992ba9e447a18ea83bd5",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/72a86c219449d5afbc6e992ba9e447a18ea83bd5",
+          "created_at": "2019-03-30T14:28:13Z"
+        },
+        {
+          "id": 2241381341,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDEzODEzNDE=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241381341",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-31T05:38:38Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.4,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/17",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-c3045043",
+      "closed_at": "2019-03-31T17:01:59Z",
+      "created_at": "2019-03-30T04:52:55Z",
+      "body": "Message content: transform MimeMultipart to String For now the body content <em> msg.getContent().toString() </em> looks as <em>... body=javax.mail.internet.MimeMultipart@35a50a4c ...</em>.",
+      "file": "src/main/java/io/github/dgroup/mbox4j/inbox/javax/ToMsg.java",
+      "lines": "46-48",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "ToMsg.java:46-48: Message content: transform...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2241060506,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDEwNjA1MDY=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241060506",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-30T14:29:01Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 2241651276,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNDE2NTEyNzY=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241651276",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "54c89a960181ecdd847ff0fa252f57e5611dc0a8",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/54c89a960181ecdd847ff0fa252f57e5611dc0a8",
+          "created_at": "2019-03-31T17:01:16Z"
+        },
+        {
+          "id": 2241651544,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNDE2NTE1NDQ=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241651544",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8016aa908c555a1069686c44a2b2cdbe6c6ead58",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/8016aa908c555a1069686c44a2b2cdbe6c6ead58",
+          "created_at": "2019-03-31T17:01:55Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 1.51,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/18",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-b732933e",
+      "closed_at": "2019-03-31T12:48:53Z",
+      "created_at": "2019-03-31T05:34:16Z",
+      "body": "Add attachments to the {@link javax.mail.Message}. For now it sends the 'body' only thus files are skipped.",
+      "file": "src/main/java/io/github/dgroup/mbox4j/outbox/javax/MimeMsg.java",
+      "lines": "39-40",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "MimeMsg.java:39-40: Add attachments to the {@link...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2241380216,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjI0MTM4MDIxNg==",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241380216",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-31T05:34:28Z"
+        },
+        {
+          "id": 2241380217,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyNDEzODAyMTc=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241380217",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-31T05:34:28Z"
+        },
+        {
+          "id": 2241526502,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNDE1MjY1MDI=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241526502",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6b04890d3385828ecb1a699c7a343e8111db75f2",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/6b04890d3385828ecb1a699c7a343e8111db75f2",
+          "created_at": "2019-03-31T12:36:13Z"
+        },
+        {
+          "id": 2241651671,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDE2NTE2NzE=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2241651671",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-03-31T17:02:09Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 0.3,
+      "estimate": "0",
+      "author": "@dgroup",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/dgroup/mbox4j",
+      "issue_link": "https://github.com/dgroup/mbox4j/issues/22",
+      "ticket": "DEV",
+      "done": true,
+      "id": "DEV-630ec172",
+      "closed_at": "2019-04-01T23:18:14Z",
+      "created_at": "2019-03-31T17:01:10Z",
+      "body": "Enable `qulice` plugin once https://github.com/teamed/qulice/issues/1035 is resolved.",
+      "file": ".circleci/config.yml",
+      "lines": "7-7",
+      "labels": [
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "config.yml:7: Enable `qulice` plugin once...",
+      "comments": [
+        {
+          "author": "dgroup",
+          "created_at": "2019-03-31T17:03:09Z",
+          "updated_at": "2019-03-31T17:03:09Z",
+          "body": "The root cause is https://github.com/teamed/qulice/issues/1035",
+          "url": "https://github.com/dgroup/mbox4j/issues/22#issuecomment-478359242",
+          "id": 478359242
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 2244874202,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNDQ4NzQyMDI=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2244874202",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d13a32cca16f4e0e0f8f54543ac401c0fff3fe7f",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/d13a32cca16f4e0e0f8f54543ac401c0fff3fe7f",
+          "created_at": "2019-04-01T23:15:01Z"
+        },
+        {
+          "id": 2244884595,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIyNDQ4ODQ1OTU=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2244884595",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-04-01T23:21:51Z",
+          "milestone": {
+            "title": "0.1.0"
+          }
+        },
+        {
+          "id": 2244982483,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIyNDQ5ODI0ODM=",
+          "url": "https://api.github.com/repos/dgroup/mbox4j/issues/events/2244982483",
+          "actor": {
+            "id": 1651114,
+            "url": "https://api.github.com/users/dgroup",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4748cab2ab574758f698b43c4ccf89336c912bec",
+          "commit_url": "https://api.github.com/repos/dgroup/mbox4j/commits/4748cab2ab574758f698b43c4ccf89336c912bec",
+          "created_at": "2019-04-02T00:37:14Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 1.26,
+      "estimate": "0",
+      "author": "Yurii Dubinka",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 2,
+  "project_forks": 0,
+  "project_contributors_count": 2,
+  "first_issue_date": "2019-03-27T21:06:03Z",
+  "last_issue_date": "2019-03-31T17:01:10Z"
+}

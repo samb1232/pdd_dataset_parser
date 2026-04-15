@@ -1,0 +1,1254 @@
+{
+  "project_link": "https://github.com/skapral/puzzlerbot",
+  "issues_count": 9,
+  "issues": [
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/15",
+      "ticket": "7",
+      "done": true,
+      "id": "7-788393cd",
+      "closed_at": "2018-06-05T20:49:26Z",
+      "created_at": "2018-05-25T19:55:10Z",
+      "body": "Split this object to two: one for splitting text to paragraphs, another for trimming empty paragraphs in the beginning and end.",
+      "file": "puzzler-core/src/main/java/com/github/skapral/puzzler/core/text/threepars/TxtStandard.java",
+      "lines": "42-43",
+      "labels": [],
+      "assignees": [],
+      "title": "TxtStandard.java:42-43: Split this object to two: one for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1647391753,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0NzM5MTc1Mw==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647391753",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:05:32Z"
+        },
+        {
+          "id": 1647391754,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDczOTE3NTQ=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647391754",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:05:32Z"
+        },
+        {
+          "id": 1664029244,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NjQwMjkyNDQ=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1664029244",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-05T15:31:01Z",
+          "milestone": {
+            "title": "0.0.3"
+          }
+        },
+        {
+          "id": 1664665723,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NjQ2NjU3MjM=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1664665723",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9b6a8ae9622fa11721a12dc1783249e8df3b076b",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/9b6a8ae9622fa11721a12dc1783249e8df3b076b",
+          "created_at": "2018-06-05T20:33:12Z"
+        },
+        {
+          "id": 1664697387,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NjQ2OTczODc=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1664697387",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "012e182928cc48ef0eae9205931b7261f83bc15c",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/012e182928cc48ef0eae9205931b7261f83bc15c",
+          "created_at": "2018-06-05T20:49:22Z"
+        },
+        {
+          "id": 1664697465,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY2NDY5NzQ2NQ==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1664697465",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-05T20:49:24Z"
+        },
+        {
+          "id": 1664697466,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NjQ2OTc0NjY=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1664697466",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-06-05T20:49:24Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 7,
+      "time_to_resolution_days": 11.04,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 1,
+      "parent_id": "1-f350542a",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/7",
+      "ticket": "1",
+      "done": true,
+      "id": "1-f350542a",
+      "closed_at": "2018-05-24T18:42:12Z",
+      "created_at": "2018-05-24T18:09:50Z",
+      "body": "Implement three-paragraphs approach according the provided documentation.",
+      "file": "puzzler-core/src/main/java/com/github/skapral/puzzler/core/text/threepars/package-info.java",
+      "lines": "46-46",
+      "labels": [],
+      "assignees": [],
+      "title": "package-info.java:46: Implement three-paragraphs approach...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1644935309,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0NDkzNTMwOQ==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644935309",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T18:09:56Z"
+        },
+        {
+          "id": 1644935310,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDQ5MzUzMTA=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644935310",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T18:09:56Z"
+        },
+        {
+          "id": 1644957698,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NDQ5NTc2OTg=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644957698",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T18:21:03Z",
+          "milestone": {
+            "title": "0.0.1"
+          }
+        },
+        {
+          "id": 1644960664,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDQ5NjA2NjQ=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644960664",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fdb592774bd8f621ee5c0fa3aec068c00ff60a47",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/fdb592774bd8f621ee5c0fa3aec068c00ff60a47",
+          "created_at": "2018-05-24T18:22:30Z"
+        },
+        {
+          "id": 1644970407,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDQ5NzA0MDc=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644970407",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e574ddf78e4468f4c361fa00ab3e12d6f23627a5",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/e574ddf78e4468f4c361fa00ab3e12d6f23627a5",
+          "created_at": "2018-05-24T18:26:53Z"
+        },
+        {
+          "id": 1644974778,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDQ5NzQ3Nzg=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644974778",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fafee1c4853fa71ace8a3277ada98dec9e1965f6",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/fafee1c4853fa71ace8a3277ada98dec9e1965f6",
+          "created_at": "2018-05-24T18:29:02Z"
+        },
+        {
+          "id": 1644997778,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDQ5OTc3Nzg=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644997778",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "12c520dc9723d7b35b074e73611e62a5e1c6318a",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/12c520dc9723d7b35b074e73611e62a5e1c6318a",
+          "created_at": "2018-05-24T18:37:03Z"
+        },
+        {
+          "id": 1645008770,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTY0NTAwODc3MA==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645008770",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T18:42:07Z",
+          "state_reason": null
+        },
+        {
+          "id": 1645008810,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDUwMDg4MTA=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645008810",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ed90098a36746c68c63c991b14eff4993d194cb6",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/ed90098a36746c68c63c991b14eff4993d194cb6",
+          "created_at": "2018-05-24T18:42:08Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 0.02,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/11",
+      "ticket": "8",
+      "done": true,
+      "id": "8-e08839fd",
+      "closed_at": "2018-05-28T16:27:15Z",
+      "created_at": "2018-05-24T22:44:48Z",
+      "body": "Unstub PsrcFromGithubIssueEvent.",
+      "file": "puzzler-web/src/main/java/com/github/skapral/puzzler/github/source/PsrcFromGithubIssueEvent.java",
+      "lines": "36-36",
+      "labels": [],
+      "assignees": [],
+      "title": "PsrcFromGithubIssueEvent.java:36: Unstub...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1645488374,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0NTQ4ODM3NA==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645488374",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T22:53:32Z"
+        },
+        {
+          "id": 1645488375,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDU0ODgzNzU=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645488375",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T22:53:32Z"
+        },
+        {
+          "id": 1647379071,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NDczNzkwNzE=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647379071",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T19:57:09Z",
+          "milestone": {
+            "title": "0.0.1"
+          }
+        },
+        {
+          "id": 1649593184,
+          "node_id": "MDE3OkRlbWlsZXN0b25lZEV2ZW50MTY0OTU5MzE4NA==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649593184",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "demilestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T15:24:45Z",
+          "milestone": {
+            "title": "0.0.1"
+          }
+        },
+        {
+          "id": 1649669751,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0OTY2OTc1MQ==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649669751",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T16:27:14Z"
+        },
+        {
+          "id": 1649669752,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDk2Njk3NTI=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649669752",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T16:27:14Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 3.74,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 1,
+      "parent_id": "1-4e85bc48",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/16",
+      "ticket": "8",
+      "done": true,
+      "id": "8-79a8e3d7",
+      "closed_at": "2018-05-28T16:27:17Z",
+      "created_at": "2018-05-25T19:55:10Z",
+      "body": "Unstub PsrcFromGithubPullRequestEvent.",
+      "file": "puzzler-web/src/main/java/com/github/skapral/puzzler/github/source/PsrcFromGithubPullRequestEvent.java",
+      "lines": "36-36",
+      "labels": [],
+      "assignees": [],
+      "title": "PsrcFromGithubPullRequestEvent.java:36: Unstub...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1647391811,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0NzM5MTgxMQ==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647391811",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:05:35Z"
+        },
+        {
+          "id": 1647391812,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDczOTE4MTI=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647391812",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:05:35Z"
+        },
+        {
+          "id": 1649669793,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0OTY2OTc5Mw==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649669793",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T16:27:16Z"
+        },
+        {
+          "id": 1649669794,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDk2Njk3OTQ=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649669794",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T16:27:16Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 2.86,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 1,
+      "parent_id": "1-4e85bc48",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/8",
+      "ticket": "1",
+      "done": true,
+      "id": "1-4e85bc48",
+      "closed_at": "2018-05-24T22:53:31Z",
+      "created_at": "2018-05-24T18:09:50Z",
+      "body": "Unstab the {@link PsrcFromGithubComments#puzzles()} method. It must go through the comment's list, parse them using threepars approach (see {@link com.github.skapral.puzzler.core.text.threepars}), extract puzzles from there and return to the client.",
+      "file": "puzzler-web/src/main/java/com/github/skapral/puzzler/github/source/PsrcFromGithubComments.java",
+      "lines": "37-40",
+      "labels": [],
+      "assignees": [],
+      "title": "PsrcFromGithubComments.java:37-40: Unstab the {@link...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1644935394,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0NDkzNTM5NA==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644935394",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T18:09:58Z"
+        },
+        {
+          "id": 1644935395,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDQ5MzUzOTU=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644935395",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T18:09:58Z"
+        },
+        {
+          "id": 1644959634,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NDQ5NTk2MzQ=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1644959634",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T18:22:02Z",
+          "milestone": {
+            "title": "0.0.1"
+          }
+        },
+        {
+          "id": 1645414447,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDU0MTQ0NDc=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645414447",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "243044e4328901eef0d1c7045bcf2461c9b9cba3",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/243044e4328901eef0d1c7045bcf2461c9b9cba3",
+          "created_at": "2018-05-24T21:58:00Z"
+        },
+        {
+          "id": 1645477976,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDU0Nzc5NzY=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645477976",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "059ba1a11b172f1eb815cdc9aee8bd3fb5b82fd3",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/059ba1a11b172f1eb815cdc9aee8bd3fb5b82fd3",
+          "created_at": "2018-05-24T22:44:58Z"
+        },
+        {
+          "id": 1645488176,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTY0NTQ4ODE3Ng==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645488176",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-24T22:53:23Z",
+          "state_reason": null
+        },
+        {
+          "id": 1645488197,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDU0ODgxOTc=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645488197",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b0af3956c64ff1e07259302f2b59a0a6cd30db7d",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/b0af3956c64ff1e07259302f2b59a0a6cd30db7d",
+          "created_at": "2018-05-24T22:53:24Z"
+        },
+        {
+          "id": 1645488199,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDU0ODgxOTk=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1645488199",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "85b53dd36b08d38ce1f5567ec0978b09e3b4ecfd",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/85b53dd36b08d38ce1f5567ec0978b09e3b4ecfd",
+          "created_at": "2018-05-24T22:53:24Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 0.2,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/17",
+      "ticket": "2",
+      "done": true,
+      "id": "2-56968fea",
+      "closed_at": "2018-05-27T00:31:57Z",
+      "created_at": "2018-05-25T19:55:10Z",
+      "body": "Replace {@link PsrcStubbedFromGithubEvent} with {@link com.github.skapral.puzzler.github.source.PsrcFromGithubEvent}.",
+      "file": "puzzler-web/src/main/java/com/github/skapral/puzzler/web/jersey/GithubHookEndpoint.java",
+      "lines": "52-52",
+      "labels": [],
+      "assignees": [],
+      "title": "GithubHookEndpoint.java:52: Replace {@link...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1647391869,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0NzM5MTg2OQ==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647391869",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:05:37Z"
+        },
+        {
+          "id": 1647391870,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDczOTE4NzA=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647391870",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:05:37Z"
+        },
+        {
+          "id": 1648047649,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDgwNDc2NDk=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1648047649",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "63d79a41e4e1c2395d10ebb2a11eacf87c8064cc",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/63d79a41e4e1c2395d10ebb2a11eacf87c8064cc",
+          "created_at": "2018-05-27T00:08:56Z"
+        },
+        {
+          "id": 1648051569,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTY0ODA1MTU2OQ==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1648051569",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-27T00:31:51Z",
+          "state_reason": null
+        },
+        {
+          "id": 1648051572,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDgwNTE1NzI=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1648051572",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7b585bfcab5102b52fbdd27c43f8fedf66df003f",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/7b585bfcab5102b52fbdd27c43f8fedf66df003f",
+          "created_at": "2018-05-27T00:31:52Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 1.19,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/20",
+      "ticket": "18",
+      "done": true,
+      "id": "18-99bd3ed6",
+      "closed_at": "2018-05-26T00:05:07Z",
+      "created_at": "2018-05-25T20:31:16Z",
+      "body": "Implement {@link GithubMockServer} and cover objects which access Github API with tests.",
+      "file": "puzzler-web/src/main/java/com/github/skapral/puzzler/github/mock/GithubMockServer.java",
+      "lines": "34-35",
+      "labels": [],
+      "assignees": [],
+      "title": "GithubMockServer.java:34-35: Implement {@link...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1647480990,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0NzQ4MDk5MA==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647480990",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:57:48Z"
+        },
+        {
+          "id": 1647480992,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDc0ODA5OTI=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647480992",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:57:48Z"
+        },
+        {
+          "id": 1647484161,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NDc0ODQxNjE=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647484161",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T21:00:02Z",
+          "milestone": {
+            "title": "0.0.1"
+          }
+        },
+        {
+          "id": 1647651073,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDc2NTEwNzM=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647651073",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "828b9138635cea9d3f8886592b733274d92c0a90",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/828b9138635cea9d3f8886592b733274d92c0a90",
+          "created_at": "2018-05-25T23:43:52Z"
+        },
+        {
+          "id": 1647651074,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDc2NTEwNzQ=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647651074",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fdb8aa0f726d77d059bd1e4a8c8d82abaf69e0b1",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/fdb8aa0f726d77d059bd1e4a8c8d82abaf69e0b1",
+          "created_at": "2018-05-25T23:43:52Z"
+        },
+        {
+          "id": 1647661200,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDc2NjEyMDA=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647661200",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0bedb6b5b5b886dd23bb2b6b5c403d59ba459e5d",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/0bedb6b5b5b886dd23bb2b6b5c403d59ba459e5d",
+          "created_at": "2018-05-26T00:00:58Z"
+        },
+        {
+          "id": 1647663810,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTY0NzY2MzgxMA==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647663810",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-26T00:05:01Z",
+          "state_reason": null
+        },
+        {
+          "id": 1647663815,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDc2NjM4MTU=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647663815",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ea57ecc07496c13a7e675b4c657a684046f0d35b",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/ea57ecc07496c13a7e675b4c657a684046f0d35b",
+          "created_at": "2018-05-26T00:05:02Z"
+        },
+        {
+          "id": 1647663816,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDc2NjM4MTY=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647663816",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e5f9acc88967b66fc559a1f676f69e16baa74ebd",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/e5f9acc88967b66fc559a1f676f69e16baa74ebd",
+          "created_at": "2018-05-26T00:05:02Z"
+        },
+        {
+          "id": 1647663817,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDc2NjM4MTc=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647663817",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a018ecd8d6426c1f5bb808677d9fe9add41ee802",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/a018ecd8d6426c1f5bb808677d9fe9add41ee802",
+          "created_at": "2018-05-26T00:05:02Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 0.15,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 1,
+      "parent_id": "2-8b88148b",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/18",
+      "ticket": "2",
+      "done": true,
+      "id": "2-8b88148b",
+      "closed_at": "2018-05-25T20:57:47Z",
+      "created_at": "2018-05-25T19:55:10Z",
+      "body": "refactor all objects, which work with Github API, to encapsulate and use {@link GithubAPI}.",
+      "file": "puzzler-web/src/main/java/com/github/skapral/puzzler/github/location/GithubAPI.java",
+      "lines": "32-33",
+      "labels": [],
+      "assignees": [],
+      "title": "GithubAPI.java:32-33: refactor all objects, which work...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1647391914,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0NzM5MTkxNA==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647391914",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:05:39Z"
+        },
+        {
+          "id": 1647391915,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDczOTE5MTU=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647391915",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:05:39Z"
+        },
+        {
+          "id": 1647397550,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NDczOTc1NTA=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647397550",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:08:48Z",
+          "milestone": {
+            "title": "0.0.1"
+          }
+        },
+        {
+          "id": 1647470357,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDc0NzAzNTc=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647470357",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fe4bcb0695a917d91222503e39abdfef9e4a9f40",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/fe4bcb0695a917d91222503e39abdfef9e4a9f40",
+          "created_at": "2018-05-25T20:50:59Z"
+        },
+        {
+          "id": 1647480853,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTY0NzQ4MDg1Mw==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647480853",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-25T20:57:43Z",
+          "state_reason": null
+        },
+        {
+          "id": 1647480875,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDc0ODA4NzU=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1647480875",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "42b1ce392b5f05dc8395f742b577463dbe0af5f9",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/42b1ce392b5f05dc8395f742b577463dbe0af5f9",
+          "created_at": "2018-05-25T20:57:44Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 0.04,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/skapral/puzzlerbot",
+      "issue_link": "https://github.com/skapral/puzzlerbot/issues/34",
+      "ticket": "31",
+      "done": true,
+      "id": "31-5122b7e8",
+      "closed_at": "2018-05-28T21:26:37Z",
+      "created_at": "2018-05-28T17:03:15Z",
+      "body": "Define how to quickly set up the puzzler bot on the GitHub project.",
+      "file": "README.md",
+      "lines": "51-51",
+      "labels": [],
+      "assignees": [],
+      "title": "README.md:51: Define how to quickly set up the puzzler...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1649726656,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTY0OTcyNjY1Ng==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649726656",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T17:26:55Z"
+        },
+        {
+          "id": 1649726657,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE2NDk3MjY2NTc=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649726657",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T17:26:55Z"
+        },
+        {
+          "id": 1649912750,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE2NDk5MTI3NTA=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649912750",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T21:12:15Z",
+          "milestone": {
+            "title": "0.0.1"
+          }
+        },
+        {
+          "id": 1649917629,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDk5MTc2Mjk=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649917629",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "102f8a805c589d6a8ce47ea7b14ae324e0676357",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/102f8a805c589d6a8ce47ea7b14ae324e0676357",
+          "created_at": "2018-05-28T21:19:33Z"
+        },
+        {
+          "id": 1649923420,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTY0OTkyMzQyMA==",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649923420",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-28T21:26:33Z",
+          "state_reason": null
+        },
+        {
+          "id": 1649923431,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2NDk5MjM0MzE=",
+          "url": "https://api.github.com/repos/skapral/puzzlerbot/issues/events/1649923431",
+          "actor": {
+            "id": 1714171,
+            "url": "https://api.github.com/users/skapral",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b206e15f633b3dd4aeb65d7123934bd5f5027471",
+          "commit_url": "https://api.github.com/repos/skapral/puzzlerbot/commits/b206e15f633b3dd4aeb65d7123934bd5f5027471",
+          "created_at": "2018-05-28T21:26:34Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 0.18,
+      "estimate": "0",
+      "author": "Kapralov Sergey",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 21,
+  "project_forks": 3,
+  "project_contributors_count": 4,
+  "first_issue_date": "2018-05-24T18:09:50Z",
+  "last_issue_date": "2018-05-28T17:03:15Z"
+}

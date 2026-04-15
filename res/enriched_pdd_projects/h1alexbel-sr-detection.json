@@ -1,0 +1,1914 @@
+{
+  "project_link": "https://github.com/h1alexbel/sr-detection",
+  "issues_count": 10,
+  "issues": [
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/6",
+      "ticket": "5",
+      "done": true,
+      "id": "5-ef5f22b3",
+      "closed_at": "2024-09-03T06:23:54Z",
+      "created_at": "2024-07-04T10:21:42Z",
+      "body": "Make rultor merge script more strict. Let's incorporate more serious and strict build procedures. We should make test execution as well as static analysis (pylint, flake8, mypy) mandatory here and in the .github/workflows/poetry.yml.",
+      "file": ".rultor.yml",
+      "lines": "32-35",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".rultor.yml:32-35: Make rultor merge script more strict....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 13392787825,
+          "node_id": "MEE_lADOMRlWwM6OfEddzwAAAAMeRblx",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13392787825",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-04T10:21:48Z"
+        },
+        {
+          "id": 13392787832,
+          "node_id": "SE_lADOMRlWwM6OfEddzwAAAAMeRbl4",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13392787832",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-04T10:21:48Z"
+        },
+        {
+          "id": 14061836837,
+          "node_id": "REFE_lADOMRlWwM6OfEddzwAAAANGJpol",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14061836837",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "db04f25c0124596c389f3fd92b2bc25c97003e4e",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/db04f25c0124596c389f3fd92b2bc25c97003e4e",
+          "created_at": "2024-08-29T13:23:38Z"
+        },
+        {
+          "id": 14061877046,
+          "node_id": "REFE_lADOMRlWwM6OfEddzwAAAANGJzc2",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14061877046",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d0bf3548435c08e89ac30ae1eba0b230363a7314",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/d0bf3548435c08e89ac30ae1eba0b230363a7314",
+          "created_at": "2024-08-29T13:25:57Z"
+        },
+        {
+          "id": 14062221729,
+          "node_id": "CE_lADOMRlWwM6OfEddzwAAAANGLHmh",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14062221729",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-08-29T13:44:28Z",
+          "state_reason": null
+        },
+        {
+          "id": 14062221797,
+          "node_id": "REFE_lADOMRlWwM6OfEddzwAAAANGLHnl",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14062221797",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6307650ed4c4b3869fc027d01348f88aed84ce99",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/6307650ed4c4b3869fc027d01348f88aed84ce99",
+          "created_at": "2024-08-29T13:44:28Z"
+        },
+        {
+          "id": 14539146820,
+          "node_id": "REFE_lADOMRlWwM6OfEddzwAAAANimcZE",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539146820",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4837917d45c22ddffe748b27f41d21bb805b6637",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/4837917d45c22ddffe748b27f41d21bb805b6637",
+          "created_at": "2024-10-07T11:45:23Z"
+        },
+        {
+          "id": 14539146850,
+          "node_id": "REFE_lADOMRlWwM6OfEddzwAAAANimcZi",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539146850",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4299465511bb71a894bc3a86d0c9080a59926c46",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/4299465511bb71a894bc3a86d0c9080a59926c46",
+          "created_at": "2024-10-07T11:45:23Z"
+        },
+        {
+          "id": 14539146875,
+          "node_id": "REFE_lADOMRlWwM6OfEddzwAAAANimcZ7",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539146875",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "db0eb11f0d3a8d138a9f858482d24495facdad45",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/db0eb11f0d3a8d138a9f858482d24495facdad45",
+          "created_at": "2024-10-07T11:45:23Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 60.83,
+      "estimate": "30",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/7",
+      "ticket": "5",
+      "done": true,
+      "id": "5-1c14f85c",
+      "closed_at": "2024-10-07T12:05:55Z",
+      "created_at": "2024-07-04T10:21:42Z",
+      "body": "Create release script for whole project. Let's create a one for the whole project, including all modules. We should release all the modules: `sr-data|train|detector` to the PyPI. By doing so, we should ensure that `sr-detector` is available to be installed as standalone CLI tool. For `sr-data` and `sr-train` we should output some prominent files like CSV files and model files. Let's skip sr-paper for now.",
+      "file": ".rultor.yml",
+      "lines": "40-45",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".rultor.yml:40-45: Create release script for whole...",
+      "comments": [
+        {
+          "author": "h1alexbel",
+          "created_at": "2024-09-25T10:26:53Z",
+          "updated_at": "2024-09-25T10:32:17Z",
+          "body": "Let's create two-step release pipeline. First, we release our collected repositories: we will create `collect.yml` GitHub workflow, and trigger it. It will execute `just collect`, do minimal filtering, (and maybe preprocessing), and push output files to the `collected` branch. Then, we should prepare `Dockerfile` for training container. This container should be started by `rultor`, and during the build, we will train the model on data, pushed by `collected.yml`, right inside docker container, and finally, we should save model, and push it to the releases (**together with all collected files!**).\r\n",
+          "url": "https://github.com/h1alexbel/sr-detection/issues/7#issuecomment-2373691684",
+          "id": 2373691684
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 13392788277,
+          "node_id": "MEE_lADOMRlWwM6OfEefzwAAAAMeRbs1",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13392788277",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-04T10:21:50Z"
+        },
+        {
+          "id": 13392788287,
+          "node_id": "SE_lADOMRlWwM6OfEefzwAAAAMeRbs_",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13392788287",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-04T10:21:50Z"
+        },
+        {
+          "id": 14539335097,
+          "node_id": "REFE_lADOMRlWwM6OfEefzwAAAANinKW5",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539335097",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "122adf4da3ee2508f3f16965bbf2f47132477dbd",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/122adf4da3ee2508f3f16965bbf2f47132477dbd",
+          "created_at": "2024-10-07T11:59:27Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 95.07,
+      "estimate": "30",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/19",
+      "ticket": "9",
+      "done": true,
+      "id": "9-92736c7b",
+      "closed_at": "2024-08-26T14:23:49Z",
+      "created_at": "2024-07-09T15:48:01Z",
+      "body": "Develop a prompt for README annotation. We should create a prompt that will help the model annotate repositories with <SR> and <non> tokens. Let's start with one that we specified in paper draft.",
+      "file": "sr-data/src/sr_data/tasks/highlight.py",
+      "lines": "47-50",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "highlight.py:47-50: Develop a prompt for README...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 13442826245,
+          "node_id": "MEE_lADOMRlWwM6O9-_mzwAAAAMhQUAF",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13442826245",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-09T16:05:52Z"
+        },
+        {
+          "id": 13442826259,
+          "node_id": "SE_lADOMRlWwM6O9-_mzwAAAAMhQUAT",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13442826259",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-09T16:05:52Z"
+        },
+        {
+          "id": 14013946282,
+          "node_id": "REFE_lADOMRlWwM6O9-_mzwAAAANDS9mq",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14013946282",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ed5987570f3674d36f39e3af525daf7896ecd120",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/ed5987570f3674d36f39e3af525daf7896ecd120",
+          "created_at": "2024-08-26T13:52:22Z"
+        },
+        {
+          "id": 14013954912,
+          "node_id": "REFE_lADOMRlWwM6O9-_mzwAAAANDS_tg",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14013954912",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ec18cb4d8f84ba0bba24654bcc8b34933c690999",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/ec18cb4d8f84ba0bba24654bcc8b34933c690999",
+          "created_at": "2024-08-26T13:52:59Z"
+        },
+        {
+          "id": 14013976894,
+          "node_id": "REFE_lADOMRlWwM6O9-_mzwAAAANDTFE-",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14013976894",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0d39344fa2c052f803b30219db714eaf5d027088",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/0d39344fa2c052f803b30219db714eaf5d027088",
+          "created_at": "2024-08-26T13:54:30Z"
+        },
+        {
+          "id": 14014408400,
+          "node_id": "CE_lADOMRlWwM6O9-_mzwAAAANDUubQ",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14014408400",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-08-26T14:23:47Z",
+          "state_reason": null
+        },
+        {
+          "id": 14539146748,
+          "node_id": "REFE_lADOMRlWwM6O9-_mzwAAAANimcX8",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539146748",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "795324c79e1d646b3958c8f69306000f9ccdf0a1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/795324c79e1d646b3958c8f69306000f9ccdf0a1",
+          "created_at": "2024-10-07T11:45:23Z"
+        },
+        {
+          "id": 14539146767,
+          "node_id": "REFE_lADOMRlWwM6O9-_mzwAAAANimcYP",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539146767",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "66d1609aca0234be6d5d371d109d254350f914ea",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/66d1609aca0234be6d5d371d109d254350f914ea",
+          "created_at": "2024-10-07T11:45:23Z"
+        },
+        {
+          "id": 14539146791,
+          "node_id": "REFE_lADOMRlWwM6O9-_mzwAAAANimcYn",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539146791",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "67045f2d9e68f3f5b7b8461b3a7b11dfbc26d874",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/67045f2d9e68f3f5b7b8461b3a7b11dfbc26d874",
+          "created_at": "2024-10-07T11:45:23Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 47.94,
+      "estimate": "35",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/23",
+      "ticket": "9",
+      "done": true,
+      "id": "9-856f4873",
+      "closed_at": "2024-09-10T10:00:21Z",
+      "created_at": "2024-07-12T14:17:49Z",
+      "body": "JSONDecodeError Expecting value: line 1 column 1 (char 0) on some records in the CSV. When sending records to the endpoint, some READMEs get rejected with that error. We should identify that rows and possibly remove/recover them.",
+      "file": "sr-data/src/sr_data/tasks/embed.py",
+      "lines": "29-32",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "embed.py:29-32: JSONDecodeError Expecting value: line 1...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 13488067480,
+          "node_id": "MEE_lADOMRlWwM6PZFXjzwAAAAMj85OY",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13488067480",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-12T14:17:52Z"
+        },
+        {
+          "id": 13488067493,
+          "node_id": "SE_lADOMRlWwM6PZFXjzwAAAAMj85Ol",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13488067493",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-12T14:17:52Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 59.82,
+      "estimate": "45",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/24",
+      "ticket": "9",
+      "done": true,
+      "id": "9-c9e75cb4",
+      "closed_at": "2024-09-27T10:28:35Z",
+      "created_at": "2024-07-12T14:17:49Z",
+      "body": "Use ExtendsWith analogue or some temp directory for 'out'. We shouldn't manage removal of output files directly, instead, let's use more elegant solution - temp directory or something like extensions from JUnit. We should fix the same problem in test_filter.py as well.",
+      "file": "sr-data/src/tests/test_embed.py",
+      "lines": "65-68",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "test_embed.py:65-68: Use ExtendsWith analogue or some...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 13488067949,
+          "node_id": "MEE_lADOMRlWwM6PZFYSzwAAAAMj85Vt",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13488067949",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-12T14:17:54Z"
+        },
+        {
+          "id": 13488067960,
+          "node_id": "SE_lADOMRlWwM6PZFYSzwAAAAMj85V4",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/13488067960",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-07-12T14:17:54Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 76.84,
+      "estimate": "30",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/117",
+      "ticket": "74",
+      "done": true,
+      "id": "74-2e746059",
+      "closed_at": "2024-10-04T10:57:40Z",
+      "created_at": "2024-10-03T14:58:50Z",
+      "body": "Exclude repositories that don't have any maven projects. We need to exclude all repositories that don't contain any 'pom.xml' inside. Don't forget to create a unit test for this.",
+      "file": "sr-data/src/sr_data/steps/maven.py",
+      "lines": "33-35",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "maven.py:33-35: Exclude repositories that don't have any...",
+      "comments": [
+        {
+          "author": "github-actions[bot]",
+          "created_at": "2024-10-03T15:01:04Z",
+          "updated_at": "2024-10-03T15:01:04Z",
+          "body": "@0pdd\n Main quality problem: Lack of clear description of the issue.\nSuggestion: Provide a concise summary of the problem and expected behavior.",
+          "url": "https://github.com/h1alexbel/sr-detection/issues/117#issuecomment-2391649989",
+          "id": 2391649989
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 14505965025,
+          "node_id": "MEE_lADOMRlWwM6Y1_VhzwAAAANgn3Xh",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14505965025",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-03T14:58:57Z"
+        },
+        {
+          "id": 14505965036,
+          "node_id": "SE_lADOMRlWwM6Y1_VhzwAAAANgn3Xs",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14505965036",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-03T14:58:57Z"
+        },
+        {
+          "id": 14505971941,
+          "node_id": "AE_lADOMRlWwM6Y1_VhzwAAAANgn5Dl",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14505971941",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-03T14:59:21Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 14517191219,
+          "node_id": "REFE_lADOMRlWwM6Y1_VhzwAAAANhSsIz",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14517191219",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e0c90bdf0134c49bf25f628e5a7c17682dd436ad",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/e0c90bdf0134c49bf25f628e5a7c17682dd436ad",
+          "created_at": "2024-10-04T10:35:19Z"
+        },
+        {
+          "id": 14517300452,
+          "node_id": "REFE_lADOMRlWwM6Y1_VhzwAAAANhTGzk",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14517300452",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dbda8de1f105cbf03aadc1a48f20709266d3236d",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/dbda8de1f105cbf03aadc1a48f20709266d3236d",
+          "created_at": "2024-10-04T10:45:19Z"
+        },
+        {
+          "id": 14517381593,
+          "node_id": "REFE_lADOMRlWwM6Y1_VhzwAAAANhTanZ",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14517381593",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a750f9132dd32c1e2da22531acfb458b21cf9887",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/a750f9132dd32c1e2da22531acfb458b21cf9887",
+          "created_at": "2024-10-04T10:52:04Z"
+        },
+        {
+          "id": 14517441412,
+          "node_id": "REFE_lADOMRlWwM6Y1_VhzwAAAANhTpOE",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14517441412",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "56bd8486a1fc40eb40fc0d03630efa448507cecc",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/56bd8486a1fc40eb40fc0d03630efa448507cecc",
+          "created_at": "2024-10-04T10:57:37Z"
+        },
+        {
+          "id": 14517441442,
+          "node_id": "CE_lADOMRlWwM6Y1_VhzwAAAANhTpOi",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14517441442",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-04T10:57:37Z",
+          "state_reason": null
+        },
+        {
+          "id": 14539152040,
+          "node_id": "REFE_lADOMRlWwM6Y1_VhzwAAAANimdqo",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152040",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "27f87243a42158322a2b860e7ad47b35e5b9a1a1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/27f87243a42158322a2b860e7ad47b35e5b9a1a1",
+          "created_at": "2024-10-07T11:45:46Z"
+        },
+        {
+          "id": 14539152058,
+          "node_id": "REFE_lADOMRlWwM6Y1_VhzwAAAANimdq6",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152058",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d6b727b4e1a62ff5813c3d851181c1bd13e29289",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/d6b727b4e1a62ff5813c3d851181c1bd13e29289",
+          "created_at": "2024-10-07T11:45:46Z"
+        },
+        {
+          "id": 14539152078,
+          "node_id": "REFE_lADOMRlWwM6Y1_VhzwAAAANimdrO",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152078",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "12590e697c8a8482324b5082d392fe0db52941b9",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/12590e697c8a8482324b5082d392fe0db52941b9",
+          "created_at": "2024-10-07T11:45:46Z"
+        },
+        {
+          "id": 14539152120,
+          "node_id": "REFE_lADOMRlWwM6Y1_VhzwAAAANimdr4",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152120",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "46d2f694e9b850a64f0762161410bde9fbd9ee97",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/46d2f694e9b850a64f0762161410bde9fbd9ee97",
+          "created_at": "2024-10-07T11:45:46Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 0.83,
+      "estimate": "45",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/118",
+      "ticket": "74",
+      "done": true,
+      "id": "74-d4549137",
+      "closed_at": "2024-10-04T15:15:18Z",
+      "created_at": "2024-10-03T14:58:50Z",
+      "body": "Parse 'build' JSON array of maven projects into most valuable information for embedding step. We should parse all maven projects from JSON array, extract some useful information from each, and merge into single input. For pom.xml parsing we can use XPATH, and XSLT for merging.",
+      "file": "sr-data/src/sr_data/steps/maven.py",
+      "lines": "36-39",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "maven.py:36-39: Parse 'build' JSON array of maven...",
+      "comments": [
+        {
+          "author": "github-actions[bot]",
+          "created_at": "2024-10-03T15:01:07Z",
+          "updated_at": "2024-10-03T15:01:07Z",
+          "body": "@0pdd\n Main quality problem: Lack of clear problem description.\nSuggestion: Provide a concise summary of the issue instead of just stating that a puzzle needs to be resolved.",
+          "url": "https://github.com/h1alexbel/sr-detection/issues/118#issuecomment-2391650144",
+          "id": 2391650144
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 14505965480,
+          "node_id": "MEE_lADOMRlWwM6Y1_WbzwAAAANgn3eo",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14505965480",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-03T14:58:59Z"
+        },
+        {
+          "id": 14505965493,
+          "node_id": "SE_lADOMRlWwM6Y1_WbzwAAAANgn3e1",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14505965493",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-03T14:58:59Z"
+        },
+        {
+          "id": 14505974368,
+          "node_id": "AE_lADOMRlWwM6Y1_WbzwAAAANgn5pg",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14505974368",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-03T14:59:31Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 14518859273,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANhZDYJ",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14518859273",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2b6e3e59ae2dd62b109ac91067876b9f1e50fc24",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/2b6e3e59ae2dd62b109ac91067876b9f1e50fc24",
+          "created_at": "2024-10-04T12:55:53Z"
+        },
+        {
+          "id": 14519088370,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANhZ7Ty",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14519088370",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4eb7f1534f82a465bcf97bb16d3ad0b2a5dbec4f",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/4eb7f1534f82a465bcf97bb16d3ad0b2a5dbec4f",
+          "created_at": "2024-10-04T13:13:23Z"
+        },
+        {
+          "id": 14520306109,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANhekm9",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14520306109",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "06959279ccfd30564eefe9dbd058245756d917c6",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/06959279ccfd30564eefe9dbd058245756d917c6",
+          "created_at": "2024-10-04T14:36:25Z"
+        },
+        {
+          "id": 14520331679,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANheq2f",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14520331679",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f9cfad1ac1561d7949f5ba92a3134946d3903d23",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/f9cfad1ac1561d7949f5ba92a3134946d3903d23",
+          "created_at": "2024-10-04T14:38:21Z"
+        },
+        {
+          "id": 14520588387,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANhfphj",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14520588387",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "318a278759ac1f78b7b8a2353a4285874ca0d343",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/318a278759ac1f78b7b8a2353a4285874ca0d343",
+          "created_at": "2024-10-04T14:57:25Z"
+        },
+        {
+          "id": 14520686825,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANhgBjp",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14520686825",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "40a739c5bc3e0e4bda268287630070eab5e24898",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/40a739c5bc3e0e4bda268287630070eab5e24898",
+          "created_at": "2024-10-04T15:04:59Z"
+        },
+        {
+          "id": 14520732898,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANhgMzi",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14520732898",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ed8bedd09efa46cea75b533f280a5a711e2af168",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/ed8bedd09efa46cea75b533f280a5a711e2af168",
+          "created_at": "2024-10-04T15:08:31Z"
+        },
+        {
+          "id": 14520819161,
+          "node_id": "CE_lADOMRlWwM6Y1_WbzwAAAANhgh3Z",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14520819161",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-04T15:15:15Z",
+          "state_reason": null
+        },
+        {
+          "id": 14520819194,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANhgh36",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14520819194",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5fdccc89f340e3c491247bac3dbafd695ce29d65",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/5fdccc89f340e3c491247bac3dbafd695ce29d65",
+          "created_at": "2024-10-04T15:15:16Z"
+        },
+        {
+          "id": 14539152138,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANimdsK",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152138",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ddb11ed828249a06cbcf7086309c46fc98ac2ef4",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/ddb11ed828249a06cbcf7086309c46fc98ac2ef4",
+          "created_at": "2024-10-07T11:45:47Z"
+        },
+        {
+          "id": 14539152154,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANimdsa",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152154",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b625450b4beea5b08733a6f64da9a0293435a02e",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/b625450b4beea5b08733a6f64da9a0293435a02e",
+          "created_at": "2024-10-07T11:45:47Z"
+        },
+        {
+          "id": 14539152171,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANimdsr",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152171",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "47bf8f9a89a77234aeed79ae491e92ef2db106d6",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/47bf8f9a89a77234aeed79ae491e92ef2db106d6",
+          "created_at": "2024-10-07T11:45:47Z"
+        },
+        {
+          "id": 14539152197,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANimdtF",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152197",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7886936cecbd4a10d89333dba7244b6feccc0eea",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/7886936cecbd4a10d89333dba7244b6feccc0eea",
+          "created_at": "2024-10-07T11:45:47Z"
+        },
+        {
+          "id": 14539152218,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANimdta",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152218",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a32432df72bc24c17317333ceedccb5509c20046",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/a32432df72bc24c17317333ceedccb5509c20046",
+          "created_at": "2024-10-07T11:45:47Z"
+        },
+        {
+          "id": 14539152237,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANimdtt",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152237",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "53d027c99d5be199579b9430473630de006b94b3",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/53d027c99d5be199579b9430473630de006b94b3",
+          "created_at": "2024-10-07T11:45:47Z"
+        },
+        {
+          "id": 14539152254,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANimdt-",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152254",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cc2377581416265c1d6fa59c015f1978c839446f",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/cc2377581416265c1d6fa59c015f1978c839446f",
+          "created_at": "2024-10-07T11:45:47Z"
+        },
+        {
+          "id": 14539152302,
+          "node_id": "REFE_lADOMRlWwM6Y1_WbzwAAAANimduu",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14539152302",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b43ee7e92dec26d257f0d61c8c06accd9e1a69a3",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/b43ee7e92dec26d257f0d61c8c06accd9e1a69a3",
+          "created_at": "2024-10-07T11:45:47Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 20,
+      "time_to_resolution_days": 1.01,
+      "estimate": "60",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/143",
+      "ticket": "137",
+      "done": true,
+      "id": "137-9eb7df67",
+      "closed_at": "2024-10-16T08:36:04Z",
+      "created_at": "2024-10-15T10:01:30Z",
+      "body": "Stop words filtering is weak. method remove_stop_words doesn't remove such words as: ['the', 'to', 'and', 'you', 'a'] and etc. We should remove such words too. Don't forget to create unit tests.",
+      "file": "sr-data/src/sr_data/steps/mcw.py",
+      "lines": "40-43",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "mcw.py:40-43: Stop words filtering is weak. method...",
+      "comments": [
+        {
+          "author": "github-actions[bot]",
+          "created_at": "2024-10-15T10:20:27Z",
+          "updated_at": "2024-10-15T10:20:27Z",
+          "body": "@0pdd\n **Summary**\nMain quality problem: Lack of clear problem description.\nSuggestion: Provide a concise description of the puzzle issue, expected behavior, and actual behavior.",
+          "url": "https://github.com/h1alexbel/sr-detection/issues/143#issuecomment-2413489790",
+          "id": 2413489790
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 14654823073,
+          "node_id": "MEE_lADOMRlWwM6aRnlPzwAAAANpftqh",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14654823073",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-15T10:18:07Z"
+        },
+        {
+          "id": 14654823098,
+          "node_id": "SE_lADOMRlWwM6aRnlPzwAAAANpftq6",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14654823098",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-15T10:18:07Z"
+        },
+        {
+          "id": 14654851016,
+          "node_id": "AE_lADOMRlWwM6aRnlPzwAAAANpf0fI",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14654851016",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-15T10:20:02Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 14670240903,
+          "node_id": "REFE_lADOMRlWwM6aRnlPzwAAAANqahyH",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14670240903",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ad17f8453aaca50e9c327d4efe5ed40041d4ff26",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/ad17f8453aaca50e9c327d4efe5ed40041d4ff26",
+          "created_at": "2024-10-16T07:57:24Z"
+        },
+        {
+          "id": 14670277917,
+          "node_id": "REFE_lADOMRlWwM6aRnlPzwAAAANqaq0d",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14670277917",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7a3411d3f14aa5590603895a765571a520315f96",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/7a3411d3f14aa5590603895a765571a520315f96",
+          "created_at": "2024-10-16T07:58:41Z"
+        },
+        {
+          "id": 14670288186,
+          "node_id": "REFE_lADOMRlWwM6aRnlPzwAAAANqatU6",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14670288186",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1c1d7c3456255aefd18a332189aadddcfd3639f4",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/1c1d7c3456255aefd18a332189aadddcfd3639f4",
+          "created_at": "2024-10-16T07:59:22Z"
+        },
+        {
+          "id": 14670443220,
+          "node_id": "REFE_lADOMRlWwM6aRnlPzwAAAANqbTLU",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14670443220",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f77ec60e3e4b28d45818f51ddeaba961cdfd53b4",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/f77ec60e3e4b28d45818f51ddeaba961cdfd53b4",
+          "created_at": "2024-10-16T08:08:16Z"
+        },
+        {
+          "id": 14670575238,
+          "node_id": "REFE_lADOMRlWwM6aRnlPzwAAAANqbzaG",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14670575238",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "966b8bdbf457d0d2c0634a8bee55133cc45abaa1",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/966b8bdbf457d0d2c0634a8bee55133cc45abaa1",
+          "created_at": "2024-10-16T08:16:13Z"
+        },
+        {
+          "id": 14671052522,
+          "node_id": "CE_lADOMRlWwM6aRnlPzwAAAANqdn7q",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/14671052522",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-10-16T08:36:02Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 0.94,
+      "estimate": "45",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/226",
+      "ticket": "75",
+      "done": true,
+      "id": "75-c94dc9cc",
+      "closed_at": "2024-11-21T10:28:57Z",
+      "created_at": "2024-11-21T08:26:16Z",
+      "body": "Parse fetched YAML files, and calculate their complexity/strictness. We should retrieve the following information from fetched workflow: 1) number of jobs, 2) number of OSs, 3) number of steps in each job, 4) number of versions in ${{ matrix }}.",
+      "file": "sr-data/src/sr_data/steps/workflows.py",
+      "lines": "57-60",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "h1alexbel"
+      ],
+      "title": "workflows.py:57-60: Parse fetched YAML files, and...",
+      "comments": [
+        {
+          "author": "github-actions[bot]",
+          "created_at": "2024-11-21T08:28:24Z",
+          "updated_at": "2024-11-21T08:28:24Z",
+          "body": "@0pdd\n Main quality problem: Lack of clear problem description.\nSuggestion: Provide a concise summary of the issue instead of just referencing a puzzle.",
+          "url": "https://github.com/h1alexbel/sr-detection/issues/226#issuecomment-2490366609",
+          "id": 2490366609
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 15377705198,
+          "node_id": "MEE_lADOMRlWwM6fprXbzwAAAAOUlSju",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15377705198",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-11-21T08:26:21Z"
+        },
+        {
+          "id": 15377705214,
+          "node_id": "SE_lADOMRlWwM6fprXbzwAAAAOUlSj-",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15377705214",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-11-21T08:26:21Z"
+        },
+        {
+          "id": 15377707360,
+          "node_id": "AE_lADOMRlWwM6fprXbzwAAAAOUlTFg",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15377707360",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-11-21T08:26:33Z",
+          "assignee": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "h1alexbel",
+            "id": 83453843,
+            "node_id": "MDQ6VXNlcjgzNDUzODQz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83453843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/h1alexbel",
+            "html_url": "https://github.com/h1alexbel",
+            "followers_url": "https://api.github.com/users/h1alexbel/followers",
+            "following_url": "https://api.github.com/users/h1alexbel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/h1alexbel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/h1alexbel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/h1alexbel/subscriptions",
+            "organizations_url": "https://api.github.com/users/h1alexbel/orgs",
+            "repos_url": "https://api.github.com/users/h1alexbel/repos",
+            "events_url": "https://api.github.com/users/h1alexbel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/h1alexbel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 15377783895,
+          "node_id": "REFE_lADOMRlWwM6fprXbzwAAAAOUllxX",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15377783895",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "94a61f2f556ed8999e6c5718ddb13970bc44496b",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/94a61f2f556ed8999e6c5718ddb13970bc44496b",
+          "created_at": "2024-11-21T08:33:15Z"
+        },
+        {
+          "id": 15378227919,
+          "node_id": "REFE_lADOMRlWwM6fprXbzwAAAAOUnSLP",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15378227919",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "922bd6c868f5b668ac7c24cba4859a76fc42796e",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/922bd6c868f5b668ac7c24cba4859a76fc42796e",
+          "created_at": "2024-11-21T09:07:49Z"
+        },
+        {
+          "id": 15378240989,
+          "node_id": "REFE_lADOMRlWwM6fprXbzwAAAAOUnVXd",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15378240989",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3a921a9d32ab1a6215f23ad38caa900482489880",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/3a921a9d32ab1a6215f23ad38caa900482489880",
+          "created_at": "2024-11-21T09:08:42Z"
+        },
+        {
+          "id": 15378696301,
+          "node_id": "REFE_lADOMRlWwM6fprXbzwAAAAOUpEht",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15378696301",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6123c0d8ffbdd0a32f073e2caac6b3ba018d395d",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/6123c0d8ffbdd0a32f073e2caac6b3ba018d395d",
+          "created_at": "2024-11-21T09:38:56Z"
+        },
+        {
+          "id": 15378795239,
+          "node_id": "REFE_lADOMRlWwM6fprXbzwAAAAOUpcrn",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15378795239",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "87f6c0cc67ca5448a2c4fa9ddc3cff02578b1ce2",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/87f6c0cc67ca5448a2c4fa9ddc3cff02578b1ce2",
+          "created_at": "2024-11-21T09:45:21Z"
+        },
+        {
+          "id": 15379078534,
+          "node_id": "REFE_lADOMRlWwM6fprXbzwAAAAOUqh2G",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15379078534",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e8004fb1af6a9c8cbddd6b91db6e5e238b7a8b34",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/e8004fb1af6a9c8cbddd6b91db6e5e238b7a8b34",
+          "created_at": "2024-11-21T10:04:20Z"
+        },
+        {
+          "id": 15379367812,
+          "node_id": "REFE_lADOMRlWwM6fprXbzwAAAAOUroeE",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15379367812",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ce2bedf7ec16d009db06cf1aa1257672e79ef81c",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/ce2bedf7ec16d009db06cf1aa1257672e79ef81c",
+          "created_at": "2024-11-21T10:17:02Z"
+        },
+        {
+          "id": 15379593565,
+          "node_id": "REFE_lADOMRlWwM6fprXbzwAAAAOUsfld",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15379593565",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9edebcf6f4972699af133228044aa20e61fe0004",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/9edebcf6f4972699af133228044aa20e61fe0004",
+          "created_at": "2024-11-21T10:28:55Z"
+        },
+        {
+          "id": 15379593566,
+          "node_id": "CE_lADOMRlWwM6fprXbzwAAAAOUsfle",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15379593566",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-11-21T10:28:55Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 0.09,
+      "estimate": "60",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/h1alexbel/sr-detection",
+      "issue_link": "https://github.com/h1alexbel/sr-detection/issues/227",
+      "ticket": "75",
+      "done": true,
+      "id": "75-378d74a3",
+      "closed_at": "2024-11-21T14:53:27Z",
+      "created_at": "2024-11-21T08:26:16Z",
+      "body": "Find release workflow from collected workflows. We should find workflow that releases the repo artifacts to some target platform. After we got parsed workflows, we can try to find one that makes releases. Probably, it can be one, that uses on:push:tags. For instance: <a href=\"https://github.com/objectionary/eo/blob/master/.github/workflows/telegram.yml\">telegram.yml</a>.",
+      "file": "sr-data/src/sr_data/steps/workflows.py",
+      "lines": "61-64",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "workflows.py:61-64: Find release workflow from collected...",
+      "comments": [
+        {
+          "author": "github-actions[bot]",
+          "created_at": "2024-11-21T08:28:27Z",
+          "updated_at": "2024-11-21T08:28:27Z",
+          "body": "@0pdd\n **Summary:** Quality problem: Lack of clear problem description. Suggestion: Provide a concise summary of the issue, e.g., what is the puzzle and how it's broken.",
+          "url": "https://github.com/h1alexbel/sr-detection/issues/227#issuecomment-2490366698",
+          "id": 2490366698
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 15377705513,
+          "node_id": "MEE_lADOMRlWwM6fprYXzwAAAAOUlSop",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15377705513",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-11-21T08:26:22Z"
+        },
+        {
+          "id": 15377705523,
+          "node_id": "SE_lADOMRlWwM6fprYXzwAAAAOUlSoz",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15377705523",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-11-21T08:26:22Z"
+        },
+        {
+          "id": 15381461022,
+          "node_id": "REFE_lADOMRlWwM6fprYXzwAAAAOUznge",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15381461022",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b1d9119bd619654699d404818c9ed85aeabbba2c",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/b1d9119bd619654699d404818c9ed85aeabbba2c",
+          "created_at": "2024-11-21T12:53:59Z"
+        },
+        {
+          "id": 15381538821,
+          "node_id": "REFE_lADOMRlWwM6fprYXzwAAAAOUz6gF",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15381538821",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6e8aab43a2d6eae033808b229a40e577356915d7",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/6e8aab43a2d6eae033808b229a40e577356915d7",
+          "created_at": "2024-11-21T13:00:12Z"
+        },
+        {
+          "id": 15381687403,
+          "node_id": "REFE_lADOMRlWwM6fprYXzwAAAAOU0exr",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15381687403",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dcbc1dca4726531354ef33a714ea3c3618242fc3",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/dcbc1dca4726531354ef33a714ea3c3618242fc3",
+          "created_at": "2024-11-21T13:11:08Z"
+        },
+        {
+          "id": 15381750454,
+          "node_id": "REFE_lADOMRlWwM6fprYXzwAAAAOU0uK2",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15381750454",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cb0737f0bf4a185676424da733f6c0dbb834b980",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/cb0737f0bf4a185676424da733f6c0dbb834b980",
+          "created_at": "2024-11-21T13:15:42Z"
+        },
+        {
+          "id": 15381811401,
+          "node_id": "REFE_lADOMRlWwM6fprYXzwAAAAOU09DJ",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15381811401",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "51f5d75a8fed9342b8fc540ab72de3ce062bd2f0",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/51f5d75a8fed9342b8fc540ab72de3ce062bd2f0",
+          "created_at": "2024-11-21T13:20:30Z"
+        },
+        {
+          "id": 15383492036,
+          "node_id": "CE_lADOMRlWwM6fprYXzwAAAAOU7XXE",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15383492036",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2024-11-21T14:53:16Z",
+          "state_reason": null
+        },
+        {
+          "id": 15383492209,
+          "node_id": "REFE_lADOMRlWwM6fprYXzwAAAAOU7XZx",
+          "url": "https://api.github.com/repos/h1alexbel/sr-detection/issues/events/15383492209",
+          "actor": {
+            "id": 83453843,
+            "url": "https://api.github.com/users/h1alexbel",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b4dd3481186f89cefa3960a42a6748f313107bfe",
+          "commit_url": "https://api.github.com/repos/h1alexbel/sr-detection/commits/b4dd3481186f89cefa3960a42a6748f313107bfe",
+          "created_at": "2024-11-21T14:53:17Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 0.27,
+      "estimate": "60",
+      "author": "@h1alexbel",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Python",
+  "project_stars": 7,
+  "project_forks": 0,
+  "project_contributors_count": 5,
+  "first_issue_date": "2024-07-04T10:21:42Z",
+  "last_issue_date": "2024-11-21T08:26:16Z"
+}

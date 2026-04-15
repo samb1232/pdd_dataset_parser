@@ -1,0 +1,1337 @@
+{
+  "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+  "issues_count": 10,
+  "issues": [
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/9",
+      "ticket": "1",
+      "done": true,
+      "id": "1-670914b7",
+      "closed_at": "2019-07-20T19:33:25Z",
+      "created_at": "2019-07-12T10:48:45Z",
+      "body": "Needs to add a qulice library to keep the quality high.",
+      "file": "build.gradle",
+      "lines": "29-29",
+      "labels": [],
+      "assignees": [],
+      "title": "build.gradle:29: Needs to add a qulice library to keep...",
+      "comments": [
+        {
+          "author": "aivinog1",
+          "created_at": "2019-07-20T13:40:39Z",
+          "updated_at": "2019-07-20T13:40:39Z",
+          "body": "After #26 I think we need to use detekt: https://github.com/arturbosch/detekt",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/9#issuecomment-513468532",
+          "id": 513468532
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 2515695976,
+          "node_id": "MDEzOlJlb3BlbmVkRXZlbnQyNTE1Njk1OTc2",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2515695976",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "reopened",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-29T08:31:21Z",
+          "state_reason": null
+        },
+        {
+          "id": 2525346908,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MjUzNDY5MDg=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2525346908",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "edf4633d91b55e06e40f18c56ceeba86692190b3",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/edf4633d91b55e06e40f18c56ceeba86692190b3",
+          "created_at": "2019-08-01T06:03:57Z"
+        },
+        {
+          "id": 2525407538,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjUyNTQwNzUzOA==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2525407538",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-08-01T06:36:20Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 8.36,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/35",
+      "ticket": "20",
+      "done": true,
+      "id": "20-ab278203",
+      "closed_at": "2019-11-02T09:39:35Z",
+      "created_at": "2019-08-03T12:56:18Z",
+      "body": "This is a dummy test that verify that report working. Needs to remove this or add some cases.",
+      "file": "src/test/kotlin/com/aivinog1/pdd/plugin/TestTaskTest.kt",
+      "lines": "7-7",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "TestTaskTest.kt:7: This is a dummy test that verify that...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 90.86,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 2,
+      "parent_id": "10-83287a3b",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/20",
+      "ticket": "10",
+      "done": true,
+      "id": "10-83287a3b",
+      "closed_at": "2019-08-01T08:01:40Z",
+      "created_at": "2019-07-13T11:15:29Z",
+      "body": "Needs to implement a proper caching for some artifacts. That will speed up builds.",
+      "file": ".travis.yml",
+      "lines": "3-3",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".travis.yml:3: Needs to implement a proper caching for...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2525471302,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MjU0NzEzMDI=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2525471302",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "198cc3575cc0e093624c4734cc5f5e19f9413db5",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/198cc3575cc0e093624c4734cc5f5e19f9413db5",
+          "created_at": "2019-08-01T07:04:52Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 18.87,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 1,
+      "parent_id": "1-40a331b4",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/21",
+      "ticket": "10",
+      "done": true,
+      "id": "10-bf398516",
+      "closed_at": "2019-08-03T13:12:10Z",
+      "created_at": "2019-07-13T11:15:29Z",
+      "body": "Add another check after creating some tests. That will be needed to codecov.",
+      "file": ".travis.yml",
+      "lines": "10-10",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".travis.yml:10: Add another check after creating some...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 21.08,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 1,
+      "parent_id": "1-40a331b4",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/22",
+      "ticket": "10",
+      "done": true,
+      "id": "10-7b53f0b8",
+      "closed_at": "2019-08-03T13:12:11Z",
+      "created_at": "2019-07-13T11:15:29Z",
+      "body": "Needs to integrate with codecov. That will enable coverage report for this project.",
+      "file": ".travis.yml",
+      "lines": "17-17",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".travis.yml:17: Needs to integrate with codecov. That...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2531256587,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzEyNTY1ODc=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2531256587",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "483a2a2a0a05383273f306f14348620e452960df",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/483a2a2a0a05383273f306f14348620e452960df",
+          "created_at": "2019-08-03T10:41:01Z"
+        },
+        {
+          "id": 2531266054,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzEyNjYwNTQ=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2531266054",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8b9b9632ee02da1af82d32fa3366005821c01c9e",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/8b9b9632ee02da1af82d32fa3366005821c01c9e",
+          "created_at": "2019-08-03T11:11:38Z"
+        },
+        {
+          "id": 2531268612,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzEyNjg2MTI=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2531268612",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ef897defe689b7686d2981da9b236c7e923cb8c6",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/ef897defe689b7686d2981da9b236c7e923cb8c6",
+          "created_at": "2019-08-03T11:19:26Z"
+        },
+        {
+          "id": 2531276946,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzEyNzY5NDY=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2531276946",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "100fd60cd0e8657e7e4b677c3a91d9a1cd83d95c",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/100fd60cd0e8657e7e4b677c3a91d9a1cd83d95c",
+          "created_at": "2019-08-03T11:45:58Z"
+        },
+        {
+          "id": 2531284126,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzEyODQxMjY=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2531284126",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "07ebf8d64da420765de27beba3c60dcb14ae9eac",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/07ebf8d64da420765de27beba3c60dcb14ae9eac",
+          "created_at": "2019-08-03T12:08:00Z"
+        },
+        {
+          "id": 2531296603,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzEyOTY2MDM=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2531296603",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "92a70705dd6f66ad9720512a686007346a7f7535",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/92a70705dd6f66ad9720512a686007346a7f7535",
+          "created_at": "2019-08-03T12:44:49Z"
+        },
+        {
+          "id": 2531298073,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzEyOTgwNzM=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2531298073",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d763d7ce4aacdde904632b01ca7a866530aa2430",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/d763d7ce4aacdde904632b01ca7a866530aa2430",
+          "created_at": "2019-08-03T12:49:01Z"
+        },
+        {
+          "id": 2531302080,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzEzMDIwODA=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2531302080",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b59868877f22d8c436cbe08cfacadc3fe76b622d",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/b59868877f22d8c436cbe08cfacadc3fe76b622d",
+          "created_at": "2019-08-03T12:59:26Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 21.08,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 1,
+      "parent_id": "1-40a331b4",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/10",
+      "ticket": "1",
+      "done": true,
+      "id": "1-40a331b4",
+      "closed_at": "2019-07-13T11:19:02Z",
+      "created_at": "2019-07-12T10:38:29Z",
+      "body": "Needs to set up proper CI/CD pipeline with Travis CI to the strict policy.",
+      "file": ".travis.yml",
+      "lines": "1-1",
+      "labels": [],
+      "assignees": [
+        "aivinog1"
+      ],
+      "title": ".travis.yml:1: Needs to set up proper CI/CD pipeline with...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2480704979,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyNDgwNzA0OTc5",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480704979",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-13T10:50:11Z",
+          "assignee": {
+            "login": "aivinog1",
+            "id": 25925932,
+            "node_id": "MDQ6VXNlcjI1OTI1OTMy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25925932?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aivinog1",
+            "html_url": "https://github.com/aivinog1",
+            "followers_url": "https://api.github.com/users/aivinog1/followers",
+            "following_url": "https://api.github.com/users/aivinog1/following{/other_user}",
+            "gists_url": "https://api.github.com/users/aivinog1/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/aivinog1/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/aivinog1/subscriptions",
+            "organizations_url": "https://api.github.com/users/aivinog1/orgs",
+            "repos_url": "https://api.github.com/users/aivinog1/repos",
+            "events_url": "https://api.github.com/users/aivinog1/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/aivinog1/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "aivinog1",
+            "id": 25925932,
+            "node_id": "MDQ6VXNlcjI1OTI1OTMy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25925932?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aivinog1",
+            "html_url": "https://github.com/aivinog1",
+            "followers_url": "https://api.github.com/users/aivinog1/followers",
+            "following_url": "https://api.github.com/users/aivinog1/following{/other_user}",
+            "gists_url": "https://api.github.com/users/aivinog1/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/aivinog1/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/aivinog1/subscriptions",
+            "organizations_url": "https://api.github.com/users/aivinog1/orgs",
+            "repos_url": "https://api.github.com/users/aivinog1/repos",
+            "events_url": "https://api.github.com/users/aivinog1/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/aivinog1/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2480709823,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MDk4MjM=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480709823",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "84b5f40d22554681640a34b04acd8199639b419d",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/84b5f40d22554681640a34b04acd8199639b419d",
+          "created_at": "2019-07-13T11:02:10Z"
+        },
+        {
+          "id": 2480711894,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTE4OTQ=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480711894",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "80bea09b358c9ffecf6bc6905bc8a2bdc45d8b0c",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/80bea09b358c9ffecf6bc6905bc8a2bdc45d8b0c",
+          "created_at": "2019-07-13T11:08:03Z"
+        },
+        {
+          "id": 2480712737,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTI3Mzc=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480712737",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "630ca85f77569c1bdfcdfcce669a29e857c725c9",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/630ca85f77569c1bdfcdfcce669a29e857c725c9",
+          "created_at": "2019-07-13T11:10:17Z"
+        },
+        {
+          "id": 2480713850,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTM4NTA=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480713850",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a7dc2ec4a8970cf15675d1d6a871941472125381",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/a7dc2ec4a8970cf15675d1d6a871941472125381",
+          "created_at": "2019-07-13T11:13:20Z"
+        },
+        {
+          "id": 2480714973,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTQ5NzM=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480714973",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "132ad5e99a6dafe137bc6e5f3b001d49f3a4af32",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/132ad5e99a6dafe137bc6e5f3b001d49f3a4af32",
+          "created_at": "2019-07-13T11:15:34Z"
+        },
+        {
+          "id": 2480716196,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjQ4MDcxNjE5Ng==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480716196",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-13T11:18:56Z",
+          "state_reason": null
+        },
+        {
+          "id": 2480716205,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTYyMDU=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480716205",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "63eb11976c1a6b0af07ab00b6ddbc4510f6f320d",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/63eb11976c1a6b0af07ab00b6ddbc4510f6f320d",
+          "created_at": "2019-07-13T11:18:57Z"
+        },
+        {
+          "id": 2480716206,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTYyMDY=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480716206",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "133b2ae2b12fcb6f310670e013000864a4f15c2a",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/133b2ae2b12fcb6f310670e013000864a4f15c2a",
+          "created_at": "2019-07-13T11:18:57Z"
+        },
+        {
+          "id": 2480716207,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTYyMDc=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480716207",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9aea173b9ef7f5ca93ba83a66fc25a4fffd7206d",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/9aea173b9ef7f5ca93ba83a66fc25a4fffd7206d",
+          "created_at": "2019-07-13T11:18:57Z"
+        },
+        {
+          "id": 2480716208,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTYyMDg=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480716208",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "196fed8ccbeaa76e4c9021689911c106246713b7",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/196fed8ccbeaa76e4c9021689911c106246713b7",
+          "created_at": "2019-07-13T11:18:57Z"
+        },
+        {
+          "id": 2480716209,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODA3MTYyMDk=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2480716209",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8877f8d53aa8980f3de2ceed23dd83e05d05a6c1",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/8877f8d53aa8980f3de2ceed23dd83e05d05a6c1",
+          "created_at": "2019-07-13T11:18:57Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 1.03,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/24",
+      "ticket": "14",
+      "done": true,
+      "id": "14-9448838b",
+      "closed_at": "2019-08-07T09:36:47Z",
+      "created_at": "2019-07-17T07:10:45Z",
+      "body": "Add another check after creating some tests. For now, as I understand tests aren't executed.",
+      "file": ".rultor.yml",
+      "lines": "12-13",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": ".rultor.yml:12-13: Add another check after creating some...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2539328927,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1MzkzMjg5Mjc=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2539328927",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a178cfc51919b6409aeab4c6568ceeab7b0585cf",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/a178cfc51919b6409aeab4c6568ceeab7b0585cf",
+          "created_at": "2019-08-07T09:02:32Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 21.1,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 1,
+      "parent_id": "1-789f7728",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14",
+      "ticket": "1",
+      "done": true,
+      "id": "1-789f7728",
+      "closed_at": "2019-07-17T07:16:47Z",
+      "created_at": "2019-07-12T10:38:29Z",
+      "body": "Needs to integrate with Rultor to merge requests properly after CI/CD passed.",
+      "file": ".rultor.yml",
+      "lines": "1-1",
+      "labels": [],
+      "assignees": [],
+      "title": ".rultor.yml:1: Needs to integrate with Rultor to merge...",
+      "comments": [
+        {
+          "author": "aivinog1",
+          "created_at": "2019-07-17T04:54:53Z",
+          "updated_at": "2019-07-17T04:54:53Z",
+          "body": "@rultor hello",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512101671",
+          "id": 512101671
+        },
+        {
+          "author": "rultor",
+          "created_at": "2019-07-17T04:55:34Z",
+          "updated_at": "2019-07-17T04:55:34Z",
+          "body": "> @rultor hello\n\n@aivinog1 Hi there! I understand a few simple commands: \"merge\", \"deploy\", etc. [This page](http://doc.rultor.com/basics.html) explains them briefly. Any questions or bug reports are [welcome](https://github.com/yegor256/rultor/issues). Have fun :)",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512101774",
+          "id": 512101774
+        },
+        {
+          "author": "aivinog1",
+          "created_at": "2019-07-17T04:57:51Z",
+          "updated_at": "2019-07-17T04:57:51Z",
+          "body": "@rultor config",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512102152",
+          "id": 512102152
+        },
+        {
+          "author": "rultor",
+          "created_at": "2019-07-17T04:58:12Z",
+          "updated_at": "2019-07-17T04:58:12Z",
+          "body": "> @rultor config\n\n@aivinog1 This is how I understand the `.rultor.yml` file in the root directory of your base branch:\n\n```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<p/>\n```\n\n [This page](http://doc.rultor.com/reference.html) explains how to configure it.",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512102222",
+          "id": 512102222
+        },
+        {
+          "author": "aivinog1",
+          "created_at": "2019-07-17T05:43:56Z",
+          "updated_at": "2019-07-17T05:43:56Z",
+          "body": "@rultor status",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512111100",
+          "id": 512111100
+        },
+        {
+          "author": "rultor",
+          "created_at": "2019-07-17T05:44:30Z",
+          "updated_at": "2019-07-17T05:44:30Z",
+          "body": "> @rultor status\n\n@aivinog1 This is what's going on here:\n\n * no new requests registered\n * build is not running\n[]\n\nMore information about Rultor commands you can get [here](http://doc.rultor.com/commands.html).",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512111227",
+          "id": 512111227
+        },
+        {
+          "author": "aivinog1",
+          "created_at": "2019-07-17T07:22:41Z",
+          "updated_at": "2019-07-17T07:22:41Z",
+          "body": "@rultor status",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512135870",
+          "id": 512135870
+        },
+        {
+          "author": "rultor",
+          "created_at": "2019-07-17T07:23:54Z",
+          "updated_at": "2019-07-17T07:23:54Z",
+          "body": "> @rultor status\n\n@aivinog1 This is what's going on here:\n\n * no new requests registered\n * build is not running\n[]\n\nMore information about Rultor commands you can get [here](http://doc.rultor.com/commands.html).",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512136227",
+          "id": 512136227
+        },
+        {
+          "author": "aivinog1",
+          "created_at": "2019-07-17T07:30:25Z",
+          "updated_at": "2019-07-17T07:30:25Z",
+          "body": "@rultor config",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512138148",
+          "id": 512138148
+        },
+        {
+          "author": "rultor",
+          "created_at": "2019-07-17T07:30:49Z",
+          "updated_at": "2019-07-17T07:30:49Z",
+          "body": "> @rultor config\n\n@aivinog1 This is how I understand the `.rultor.yml` file in the root directory of your base branch:\n\n```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<p>\n   <entry key=\"architect\">\n      <item>aivinog1</item>\n   </entry>\n   <entry key=\"docker\">\n      <entry key=\"image\">yegor256/java8</entry>\n   </entry>\n   <entry key=\"install\">\n      <item>sudo gem install --no-rdoc --no-ri pdd</item>\n      <item>sudo gem install --no-rdoc --no-ri xcop</item>\n   </entry>\n   <entry key=\"merge\">\n      <entry key=\"script\">\n         <item>pdd --file=/dev/null</item>\n         <item>./gradlew buildPlugin</item>\n      </entry>\n   </entry>\n</p>\n```\n\n [This page](http://doc.rultor.com/reference.html) explains how to configure it.",
+          "url": "https://github.com/aivinog1/0pdd-idea-plugin/issues/14#issuecomment-512138280",
+          "id": 512138280
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 2488184713,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODE4NDcxMw==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488184713",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:54:54Z"
+        },
+        {
+          "id": 2488184714,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgxODQ3MTQ=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488184714",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:54:54Z"
+        },
+        {
+          "id": 2488185562,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODE4NTU2Mg==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488185562",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:55:34Z"
+        },
+        {
+          "id": 2488185563,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgxODU1NjM=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488185563",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:55:34Z"
+        },
+        {
+          "id": 2488185564,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODE4NTU2NA==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488185564",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:55:34Z"
+        },
+        {
+          "id": 2488185565,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgxODU1NjU=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488185565",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:55:34Z"
+        },
+        {
+          "id": 2488188153,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODE4ODE1Mw==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488188153",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:57:51Z"
+        },
+        {
+          "id": 2488188154,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgxODgxNTQ=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488188154",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:57:51Z"
+        },
+        {
+          "id": 2488188655,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODE4ODY1NQ==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488188655",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:58:12Z"
+        },
+        {
+          "id": 2488188657,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgxODg2NTc=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488188657",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:58:12Z"
+        },
+        {
+          "id": 2488188661,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODE4ODY2MQ==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488188661",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:58:12Z"
+        },
+        {
+          "id": 2488188662,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgxODg2NjI=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488188662",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T04:58:12Z"
+        },
+        {
+          "id": 2488253412,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODI1MzQxMg==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488253412",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T05:43:56Z"
+        },
+        {
+          "id": 2488253414,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgyNTM0MTQ=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488253414",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T05:43:56Z"
+        },
+        {
+          "id": 2488254301,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODI1NDMwMQ==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488254301",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T05:44:30Z"
+        },
+        {
+          "id": 2488254303,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgyNTQzMDM=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488254303",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T05:44:30Z"
+        },
+        {
+          "id": 2488254310,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODI1NDMxMA==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488254310",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T05:44:30Z"
+        },
+        {
+          "id": 2488254314,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODgyNTQzMTQ=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488254314",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T05:44:30Z"
+        },
+        {
+          "id": 2488416688,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI0ODg0MTY2ODg=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488416688",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "13010cb84deb2d38e5af9a69888cb9429b33b532",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/13010cb84deb2d38e5af9a69888cb9429b33b532",
+          "created_at": "2019-07-17T07:10:52Z"
+        },
+        {
+          "id": 2488442523,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODQ0MjUyMw==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488442523",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T07:22:42Z"
+        },
+        {
+          "id": 2488442524,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODg0NDI1MjQ=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488442524",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T07:22:42Z"
+        },
+        {
+          "id": 2488445368,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODQ0NTM2OA==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488445368",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T07:23:56Z"
+        },
+        {
+          "id": 2488445371,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0ODg0NDUzNzE=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488445371",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T07:23:56Z"
+        },
+        {
+          "id": 2488445375,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ4ODQ0NTM3NQ==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2488445375",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-17T07:23:56Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 10,
+      "issue_events_count": 24,
+      "time_to_resolution_days": 4.86,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/29",
+      "ticket": "26",
+      "done": true,
+      "id": "26-6daa7be9",
+      "closed_at": "2019-11-02T09:39:40Z",
+      "created_at": "2019-07-20T16:12:29Z",
+      "body": "It is a simple task that does nothing. Created for a testing purpose (verifying that a Kotlin code is compiled). Needs to remove this.",
+      "file": "src/main/kotlin/com/aivinog1/pdd/plugin/TestTask.kt",
+      "lines": "8-8",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "TestTask.kt:8: It is a simple task that does nothing....",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2497708115,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ5NzcwODExNQ==",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2497708115",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-20T19:33:29Z"
+        },
+        {
+          "id": 2497708116,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI0OTc3MDgxMTY=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2497708116",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-07-20T19:33:29Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 104.73,
+      "estimate": "30",
+      "author": "@aivinog1",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/aivinog1/0pdd-idea-plugin",
+      "issue_link": "https://github.com/aivinog1/0pdd-idea-plugin/issues/38",
+      "ticket": "15",
+      "done": true,
+      "id": "15-e5aa706c",
+      "closed_at": "2019-08-09T10:06:11Z",
+      "created_at": "2019-08-07T07:33:17Z",
+      "body": "For now, this method did nothing but only logging the language and the comment symbol. Needs to implement inserting a todo.",
+      "file": "src/main/kotlin/com/aivinog1/pdd/plugin/template/CreateNewPddAction.kt",
+      "lines": "20-21",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "aivinog1"
+      ],
+      "title": "CreateNewPddAction.kt:20-21: For now, this method did...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2545949202,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyNTQ1OTQ5MjAy",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2545949202",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-08-09T09:47:18Z",
+          "assignee": {
+            "login": "aivinog1",
+            "id": 25925932,
+            "node_id": "MDQ6VXNlcjI1OTI1OTMy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25925932?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aivinog1",
+            "html_url": "https://github.com/aivinog1",
+            "followers_url": "https://api.github.com/users/aivinog1/followers",
+            "following_url": "https://api.github.com/users/aivinog1/following{/other_user}",
+            "gists_url": "https://api.github.com/users/aivinog1/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/aivinog1/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/aivinog1/subscriptions",
+            "organizations_url": "https://api.github.com/users/aivinog1/orgs",
+            "repos_url": "https://api.github.com/users/aivinog1/repos",
+            "events_url": "https://api.github.com/users/aivinog1/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/aivinog1/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "aivinog1",
+            "id": 25925932,
+            "node_id": "MDQ6VXNlcjI1OTI1OTMy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25925932?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aivinog1",
+            "html_url": "https://github.com/aivinog1",
+            "followers_url": "https://api.github.com/users/aivinog1/followers",
+            "following_url": "https://api.github.com/users/aivinog1/following{/other_user}",
+            "gists_url": "https://api.github.com/users/aivinog1/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/aivinog1/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/aivinog1/subscriptions",
+            "organizations_url": "https://api.github.com/users/aivinog1/orgs",
+            "repos_url": "https://api.github.com/users/aivinog1/repos",
+            "events_url": "https://api.github.com/users/aivinog1/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/aivinog1/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2545959775,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI1NDU5NTk3NzU=",
+          "url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/issues/events/2545959775",
+          "actor": {
+            "id": 25925932,
+            "url": "https://api.github.com/users/aivinog1",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3ab9320b6672db4e19f9c975a7e2b5141b470e2a",
+          "commit_url": "https://api.github.com/repos/aivinog1/0pdd-idea-plugin/commits/3ab9320b6672db4e19f9c975a7e2b5141b470e2a",
+          "created_at": "2019-08-09T09:51:31Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2.11,
+      "estimate": "30",
+      "author": "Alexey Vinogradov",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    }
+  ],
+  "project_language": "Kotlin",
+  "project_stars": 6,
+  "project_forks": 0,
+  "project_contributors_count": 2,
+  "first_issue_date": "2019-07-12T10:38:29Z",
+  "last_issue_date": "2019-08-07T07:33:17Z"
+}

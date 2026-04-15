@@ -1,0 +1,2869 @@
+{
+  "project_link": "https://github.com/zorko-io/zorko-designer",
+  "issues_count": 32,
+  "issues": [
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/65",
+      "ticket": "31",
+      "done": true,
+      "id": "31-388dbfd8",
+      "closed_at": "2019-12-28T18:03:38Z",
+      "created_at": "2019-12-28T17:29:22Z",
+      "body": "Integrate WebPack with dotenv configure webpack to inject env variable during build just calling config() doesn't enough",
+      "file": "src/index.tsx",
+      "lines": "16-18",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "index.tsx:16-18: Integrate WebPack with dotenv configure...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912054141,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTEyMDU0MTQx",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2912054141",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-28T17:49:50Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2912054349,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDI5MTIwNTQzNDk=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2912054349",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-28T17:50:09Z",
+          "label": {
+            "name": "inprogress",
+            "color": "b2ffbf"
+          }
+        },
+        {
+          "id": 2912060135,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MjkxMjA2MDEzNQ==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2912060135",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-28T18:03:50Z",
+          "label": {
+            "name": "inprogress",
+            "color": "b2ffbf"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.02,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 1,
+      "parent_id": "30-878dfd28",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/31",
+      "ticket": "30",
+      "done": true,
+      "id": "30-878dfd28",
+      "closed_at": "2019-12-28T17:42:48Z",
+      "created_at": "2019-12-24T19:03:20Z",
+      "body": "move keys to env vars I assume that keys provided by deployment env, we no need keys for dev environment committed in VCS",
+      "file": "firebase.config.js",
+      "lines": "3-5",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "firebase.config.js:3-5: move keys to env vars I assume...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2908095482,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA4MDk1NDgy",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908095482",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T16:30:41Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2912040150,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjkxMjA0MDE1MA==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2912040150",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-28T17:30:25Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 3.94,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/58",
+      "ticket": "32",
+      "done": true,
+      "id": "32-fc173e23",
+      "closed_at": "2019-12-26T16:29:41Z",
+      "created_at": "2019-12-26T15:23:15Z",
+      "body": "Move to channel fixtures it makes sence to move it to features/channels/__mocks__",
+      "file": "src/features/analyticBoard/selectAnalyticBoardTest.ts",
+      "lines": "38-39",
+      "labels": [],
+      "assignees": [],
+      "title": "selectAnalyticBoardTest.ts:38-39: Move to channel...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 0.05,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 1,
+      "parent_id": "30-2206e0d6",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/60",
+      "ticket": "32",
+      "done": true,
+      "id": "32-b21e1cd1",
+      "closed_at": "2019-12-27T11:44:23Z",
+      "created_at": "2019-12-26T16:29:02Z",
+      "body": "Rewrite with rootReducer move to mocks for channel it makes sence to move it to features/channels/__mocks__",
+      "file": "src/features/analyticBoard/selectAnalyticBoardTest.ts",
+      "lines": "42-43",
+      "labels": [],
+      "assignees": [],
+      "title": "selectAnalyticBoardTest.ts:42-43: Rewrite with...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 0.8,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 1,
+      "parent_id": "30-2206e0d6",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/32",
+      "ticket": "30",
+      "done": true,
+      "id": "30-2206e0d6",
+      "closed_at": "2019-12-26T16:32:07Z",
+      "created_at": "2019-12-24T19:03:20Z",
+      "body": "Cover with unit tests AnalyticBoard selector Prepare a mock data of app state, I assume it would be a top level fixture which may combine all other state's fixtures, put it in `src/__mocks__`. Test may include case with empty app state and then with one spec chosen (use simple one)",
+      "file": "src/features/analyticBoard/selectors.ts",
+      "lines": "19-22",
+      "labels": [],
+      "assignees": [],
+      "title": "selectors.ts:19-22: Cover with unit tests AnalyticBoard...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2909322825,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDkzMjI4MjU=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2909322825",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4f9187fbdbe90b5cbf73c125bfa4f50526e53ad1",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/4f9187fbdbe90b5cbf73c125bfa4f50526e53ad1",
+          "created_at": "2019-12-26T16:26:40Z"
+        },
+        {
+          "id": 2909322828,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDkzMjI4Mjg=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2909322828",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7ca0f8a9b8d24a88e70739ea5aa9b71de9cbdfb7",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/7ca0f8a9b8d24a88e70739ea5aa9b71de9cbdfb7",
+          "created_at": "2019-12-26T16:26:40Z"
+        },
+        {
+          "id": 2909326042,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDkzMjYwNDI=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2909326042",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "9f27c0b81618320763b03e7086650aa43fcae9d5",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/9f27c0b81618320763b03e7086650aa43fcae9d5",
+          "created_at": "2019-12-26T16:29:26Z"
+        },
+        {
+          "id": 2909328700,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDkzMjg3MDA=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2909328700",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "36f95e4fb7d1be70257d9ff5358e0a822af0be97",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/36f95e4fb7d1be70257d9ff5358e0a822af0be97",
+          "created_at": "2019-12-26T16:31:50Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 1.89,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/33",
+      "ticket": "30",
+      "done": true,
+      "id": "30-7d830fce",
+      "closed_at": "2019-12-28T16:49:53Z",
+      "created_at": "2019-12-24T19:03:20Z",
+      "body": "Store list of channels in board state Extend appropriate reducer/presenter, unit tests off course",
+      "file": "src/features/analyticBoard/selectors.ts",
+      "lines": "30-31",
+      "labels": [],
+      "assignees": [],
+      "title": "selectors.ts:30-31: Store list of channels in board state...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2910606478,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MTA2MDY0Nzg=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2910606478",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6704fadd772957bef98cb22736e6fb576f85c988",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/6704fadd772957bef98cb22736e6fb576f85c988",
+          "created_at": "2019-12-27T11:44:08Z"
+        },
+        {
+          "id": 2910606479,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MTA2MDY0Nzk=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2910606479",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ad6324df9bd73dd6e3d3ff5d75c0020354069ff4",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/ad6324df9bd73dd6e3d3ff5d75c0020354069ff4",
+          "created_at": "2019-12-27T11:44:08Z"
+        },
+        {
+          "id": 2910606480,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MTA2MDY0ODA=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2910606480",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0297e0fb736a9d02f777da93b83e8eeac52f4bfa",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/0297e0fb736a9d02f777da93b83e8eeac52f4bfa",
+          "created_at": "2019-12-27T11:44:08Z"
+        },
+        {
+          "id": 2910606484,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MTA2MDY0ODQ=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2910606484",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "853ca52271d0448fb72565776c6d36980d124176",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/853ca52271d0448fb72565776c6d36980d124176",
+          "created_at": "2019-12-27T11:44:08Z"
+        },
+        {
+          "id": 2912009044,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MTIwMDkwNDQ=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2912009044",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1c7beb1bcd2ea973cd33b33133cfb133829f0c83",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/1c7beb1bcd2ea973cd33b33133cfb133829f0c83",
+          "created_at": "2019-12-28T16:49:38Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 3.91,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/34",
+      "ticket": "30",
+      "done": true,
+      "id": "30-09570e62",
+      "closed_at": "2019-12-25T16:29:33Z",
+      "created_at": "2019-12-24T19:03:20Z",
+      "body": "Extract to method 'selectContent' Make as method of firebase analytic class like 'firebaseAnalytic.selectContent({ id, type})'",
+      "file": "src/analytic/firebaseAnalyticMiddleware.ts",
+      "lines": "14-16",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "firebaseAnalyticMiddleware.ts:14-16: Extract to method...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2908090391,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA4MDkwMzkx",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908090391",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T16:18:02Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2908094964,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDgwOTQ5NjQ=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908094964",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a9ca3dad693a6a5fba96040414c589a19984ebc0",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/a9ca3dad693a6a5fba96040414c589a19984ebc0",
+          "created_at": "2019-12-25T16:29:17Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.89,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/35",
+      "ticket": "30",
+      "done": true,
+      "id": "30-8b3568ec",
+      "closed_at": "2019-12-25T16:16:43Z",
+      "created_at": "2019-12-24T19:03:20Z",
+      "body": "Extract to method 'viewSpecsCategory' Make as method of firebase analytic class like 'firebaseAnalytic.viewList({ category})'",
+      "file": "src/analytic/firebaseAnalyticMiddleware.ts",
+      "lines": "28-30",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "firebaseAnalyticMiddleware.ts:28-30: Extract to method...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2908076959,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA4MDc2OTU5",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908076959",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T15:48:59Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2908089747,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDgwODk3NDc=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908089747",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6e022ea9f07bf96a5822e591d04746862dff6087",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/6e022ea9f07bf96a5822e591d04746862dff6087",
+          "created_at": "2019-12-25T16:16:28Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.88,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/56",
+      "ticket": "52",
+      "done": true,
+      "id": "52-42548d9b",
+      "closed_at": "2020-01-11T13:54:17Z",
+      "created_at": "2019-12-26T07:10:27Z",
+      "body": "Integrate with CI with trigger for push start with simple test and linters run on pull req creation",
+      "file": ".circleci/config.yml",
+      "lines": "2-3",
+      "labels": [
+        "CI"
+      ],
+      "assignees": [],
+      "title": "config.yml:2-3: Integrate with CI with trigger for push...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2921980062,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDI5MjE5ODAwNjI=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2921980062",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-04T18:27:37Z",
+          "label": {
+            "name": "CI",
+            "color": "e99695"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 16.28,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 3,
+      "parent_id": "41-8700a553",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/52",
+      "ticket": "41",
+      "done": true,
+      "id": "41-8700a553",
+      "closed_at": "2019-12-25T17:16:10Z",
+      "created_at": "2019-12-25T16:48:29Z",
+      "body": "Cover firebaseAnalyticMiddleware with unit tests create testfile, provide by one testcase pare event",
+      "file": "src/analytic/firebaseAnalyticMiddleware.ts",
+      "lines": "9-10",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "firebaseAnalyticMiddleware.ts:9-10: Cover...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2908104491,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA4MTA0NDkx",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908104491",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T16:52:45Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2908113550,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDgxMTM1NTA=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908113550",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "07c22339d357129efc66831024a44eefb1278f81",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/07c22339d357129efc66831024a44eefb1278f81",
+          "created_at": "2019-12-25T17:15:54Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.02,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 2,
+      "parent_id": "36-2b00d8aa",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/53",
+      "ticket": "41",
+      "done": true,
+      "id": "41-6c3c52ef",
+      "closed_at": "2019-12-30T17:16:22Z",
+      "created_at": "2019-12-25T16:48:29Z",
+      "body": "Move middleware to index.ts extract logger middlewares to separate files as logrock and redux to understand the difference",
+      "file": "src/store/index.ts",
+      "lines": "11-13",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "index.ts:11-13: Move middleware to index.ts extract...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2908114533,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA4MTE0NTMz",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908114533",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T17:18:28Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 5.02,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 2,
+      "parent_id": "36-2b00d8aa",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/41",
+      "ticket": "36",
+      "done": true,
+      "id": "36-2b00d8aa",
+      "closed_at": "2019-12-25T16:51:49Z",
+      "created_at": "2019-12-25T06:08:47Z",
+      "body": "Move analytic initialization to composition root move all initializations composition root I assume it's index.ts, however it might be store as well,",
+      "file": "src/analytic/zorkoDesignerAnalyticFacade.ts",
+      "lines": "6-8",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "zorkoDesignerAnalyticFacade.ts:6-8: Move analytic...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2908090154,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA4MDkwMTU0",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908090154",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T16:17:31Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2908104039,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDgxMDQwMzk=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908104039",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "85c0e82d0a6fe4d2f19c0d9277d8dc583422c807",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/85c0e82d0a6fe4d2f19c0d9277d8dc583422c807",
+          "created_at": "2019-12-25T16:51:33Z"
+        },
+        {
+          "id": 2908104040,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDgxMDQwNDA=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908104040",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a3b014fac18105524c115c2d6d3b322ff93d46a0",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/a3b014fac18105524c115c2d6d3b322ff93d46a0",
+          "created_at": "2019-12-25T16:51:33Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 0.45,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 1,
+      "parent_id": "30-af9bee38",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/36",
+      "ticket": "30",
+      "done": true,
+      "id": "30-af9bee38",
+      "closed_at": "2019-12-25T06:09:31Z",
+      "created_at": "2019-12-24T19:03:20Z",
+      "body": "Extract to method 'editContent' Make as method of firebase analytic class like 'firebaseAnalytic.editContent({type, id, changeType})'",
+      "file": "src/analytic/firebaseAnalyticMiddleware.ts",
+      "lines": "41-43",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "firebaseAnalyticMiddleware.ts:41-43: Extract to method...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2907591404,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA3NTkxNDA0",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2907591404",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T05:41:16Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2907613362,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDc2MTMzNjI=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2907613362",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1d3501f95e8628d7f4eca139f1476e8ef9e9b908",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/1d3501f95e8628d7f4eca139f1476e8ef9e9b908",
+          "created_at": "2019-12-25T06:09:15Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.46,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/37",
+      "ticket": "30",
+      "done": true,
+      "id": "30-704044ff",
+      "closed_at": "2019-12-28T19:31:26Z",
+      "created_at": "2019-12-24T19:10:25Z",
+      "body": "Move to application config I assume that it's a env vars or at least common config for app",
+      "file": "src/api/dataSourceMetadata.ts",
+      "lines": "41-42",
+      "labels": [],
+      "assignees": [],
+      "title": "dataSourceMetadata.ts:41-42: Move to application config I...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 4.01,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/38",
+      "ticket": "30",
+      "done": true,
+      "id": "30-10fb9ac2",
+      "closed_at": "2019-12-28T19:46:39Z",
+      "created_at": "2019-12-24T19:10:25Z",
+      "body": "Throw an error if inline data upper then limit Let's setup limit in 30Mb",
+      "file": "src/api/dataSourceMetadata.ts",
+      "lines": "93-94",
+      "labels": [],
+      "assignees": [],
+      "title": "dataSourceMetadata.ts:93-94: Throw an error if inline...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 4.03,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/39",
+      "ticket": "30",
+      "done": true,
+      "id": "30-1289762c",
+      "closed_at": "2019-12-26T08:10:38Z",
+      "created_at": "2019-12-24T19:03:20Z",
+      "body": "Extend reducer with presenter with proper typescript typing It should accept generic presenter type and state thought generics, remove explicit type cast",
+      "file": "src/common/utils/createReducerWithPresenter.ts",
+      "lines": "16-18",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "createReducerWithPresenter.ts:16-18: Extend reducer with...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2908619083,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA4NjE5MDgz",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908619083",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-26T07:36:16Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2908664389,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDg2NjQzODk=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908664389",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7c3c955b1c96ed75ce0a15b6acb6e63a480ead9d",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/7c3c955b1c96ed75ce0a15b6acb6e63a480ead9d",
+          "created_at": "2019-12-26T08:10:22Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 1.55,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/57",
+      "ticket": "40",
+      "done": true,
+      "id": "40-1aa328b2",
+      "closed_at": "2020-01-02T17:16:04Z",
+      "created_at": "2019-12-26T07:30:51Z",
+      "body": "Add unit test for 'editContent' provide with unit test",
+      "file": "src/analytic/ZorkoDesingerAnalyticFacadeTest.ts",
+      "lines": "40-41",
+      "labels": [],
+      "assignees": [],
+      "title": "ZorkoDesingerAnalyticFacadeTest.ts:40-41: Add unit test...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 7.41,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 1,
+      "parent_id": "30-cf46ff93",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/40",
+      "ticket": "30",
+      "done": true,
+      "id": "30-cf46ff93",
+      "closed_at": "2019-12-26T07:34:22Z",
+      "created_at": "2019-12-24T19:03:20Z",
+      "body": "Extend reducer with proper typescript typing It should accept generic presenter type and state thought generics, remove explicit type cast",
+      "file": "src/common/utils/createReducer.ts",
+      "lines": "16-18",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "createReducer.ts:16-18: Extend reducer with proper...",
+      "comments": [
+        {
+          "author": "nesterone",
+          "created_at": "2019-12-25T20:19:47Z",
+          "updated_at": "2019-12-25T20:19:55Z",
+          "body": "@rultor hello",
+          "url": "https://github.com/zorko-io/zorko-designer/issues/40#issuecomment-568929711",
+          "id": 568929711
+        },
+        {
+          "author": "rultor",
+          "created_at": "2019-12-25T20:21:34Z",
+          "updated_at": "2019-12-25T20:21:34Z",
+          "body": "> @rultor hello\n\n@nesterone Hi there! I understand a few simple commands: \"merge\", \"deploy\", etc. [This page](http://doc.rultor.com/basics.html) explains them briefly. Any questions or bug reports are [welcome](https://github.com/yegor256/rultor/issues). Have fun :)",
+          "url": "https://github.com/zorko-io/zorko-designer/issues/40#issuecomment-568929795",
+          "id": 568929795
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 2908169580,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjkwODE2OTU4MA==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908169580",
+          "actor": {
+            "id": 10315791,
+            "url": "https://api.github.com/users/rutor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T20:16:40Z"
+        },
+        {
+          "id": 2908169581,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI5MDgxNjk1ODE=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908169581",
+          "actor": {
+            "id": 10315791,
+            "url": "https://api.github.com/users/rutor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T20:16:40Z"
+        },
+        {
+          "id": 2908170570,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjkwODE3MDU3MA==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908170570",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T20:19:47Z"
+        },
+        {
+          "id": 2908170571,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI5MDgxNzA1NzE=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908170571",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T20:19:47Z"
+        },
+        {
+          "id": 2908171196,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjkwODE3MTE5Ng==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908171196",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T20:21:34Z"
+        },
+        {
+          "id": 2908171197,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI5MDgxNzExOTc=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908171197",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T20:21:34Z"
+        },
+        {
+          "id": 2908171198,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjkwODE3MTE5OA==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908171198",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T20:21:34Z"
+        },
+        {
+          "id": 2908171199,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI5MDgxNzExOTk=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908171199",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-25T20:21:34Z"
+        },
+        {
+          "id": 2908610701,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTA4NjEwNzAx",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908610701",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-26T07:29:59Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2908616285,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MDg2MTYyODU=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2908616285",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "76cdb489f9f594165fd039aabc50193996d137f7",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/76cdb489f9f594165fd039aabc50193996d137f7",
+          "created_at": "2019-12-26T07:34:06Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 2,
+      "issue_events_count": 10,
+      "time_to_resolution_days": 1.52,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/79",
+      "ticket": "76",
+      "done": true,
+      "id": "76-85c6f47c",
+      "closed_at": "2020-02-02T18:37:01Z",
+      "created_at": "2019-12-30T18:39:54Z",
+      "body": "Increase code coverage for reducers - increase up to 80% - it ok to specify only for features here",
+      "file": "jest.config.js",
+      "lines": "25-27",
+      "labels": [
+        "code quality"
+      ],
+      "assignees": [],
+      "title": "jest.config.js:25-27: Increase code coverage for reducers...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2921978450,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDI5MjE5Nzg0NTA=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2921978450",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-04T18:23:59Z",
+          "label": {
+            "name": "code quality",
+            "color": "0e8a16"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 34.0,
+      "estimate": "60",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/89",
+      "ticket": "72",
+      "done": true,
+      "id": "72-4744a394",
+      "closed_at": "2020-01-03T16:06:09Z",
+      "created_at": "2020-01-02T17:13:36Z",
+      "body": "Doc - define design decisions naming conventions, normalization, testing constraints, presenters, reducers",
+      "file": "CONTRIBUTING.md",
+      "lines": "18-19",
+      "labels": [],
+      "assignees": [],
+      "title": "CONTRIBUTING.md:18-19: Doc - define design decisions...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2920569505,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MjA1Njk1MDU=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2920569505",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d78ee79c991c212425cc6abf4c748379a70f9d93",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/d78ee79c991c212425cc6abf4c748379a70f9d93",
+          "created_at": "2020-01-03T16:03:36Z"
+        },
+        {
+          "id": 2920575147,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MjA1NzUxNDc=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2920575147",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "27ff83c1d25f0eca2021ec0c84f812bbf96ddb72",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/27ff83c1d25f0eca2021ec0c84f812bbf96ddb72",
+          "created_at": "2020-01-03T16:05:51Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.95,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/90",
+      "ticket": "72",
+      "done": true,
+      "id": "72-ea457ab1",
+      "closed_at": "2020-01-03T16:06:14Z",
+      "created_at": "2020-01-02T17:13:36Z",
+      "body": "Doc - project structure",
+      "file": "CONTRIBUTING.md",
+      "lines": "26-26",
+      "labels": [],
+      "assignees": [],
+      "title": "CONTRIBUTING.md:26: Doc - project structure",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 0.95,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/91",
+      "ticket": "72",
+      "done": true,
+      "id": "72-f14e124f",
+      "closed_at": "2020-01-03T17:25:42Z",
+      "created_at": "2020-01-02T17:13:36Z",
+      "body": "Doc - Explain reasons for strict unit coverage define suggestions on how/when to write unit tests",
+      "file": "CONTRIBUTING.md",
+      "lines": "33-34",
+      "labels": [],
+      "assignees": [],
+      "title": "CONTRIBUTING.md:33-34: Doc - Explain reasons for strict...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 1.01,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/97",
+      "ticket": "72",
+      "done": true,
+      "id": "72-70c126f3",
+      "closed_at": "2020-01-03T17:10:40Z",
+      "created_at": "2020-01-02T17:26:41Z",
+      "body": "Doc - Move to separate file",
+      "file": "CONTRIBUTING.md",
+      "lines": "75-75",
+      "labels": [],
+      "assignees": [],
+      "title": "CONTRIBUTING.md:75: Doc - Move to separate file",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2920720419,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjkyMDcyMDQxOQ==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2920720419",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-03T17:06:16Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 0.99,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/99",
+      "ticket": "72",
+      "done": true,
+      "id": "72-4f74854c",
+      "closed_at": "2020-01-03T16:43:52Z",
+      "created_at": "2020-01-03T16:03:21Z",
+      "body": "Doc - project structure mention naming conventions",
+      "file": "CONTRIBUTING.md",
+      "lines": "57-58",
+      "labels": [],
+      "assignees": [],
+      "title": "CONTRIBUTING.md:57-58: Doc - project structure mention...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 0.03,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/111",
+      "ticket": "109",
+      "done": true,
+      "id": "109-de187783",
+      "closed_at": "2020-01-07T11:57:14Z",
+      "created_at": "2020-01-04T13:08:06Z",
+      "body": "It forse to create normalization for each store slice it's not efficient, we need reusable normalization store container",
+      "file": "src/packages/corePresenters/normalize/BaseNormalizedState.ts",
+      "lines": "5-6",
+      "labels": [
+        "bug",
+        "enhancement"
+      ],
+      "assignees": [],
+      "title": "BaseNormalizedState.ts:5-6: It forse to create...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2921840127,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDI5MjE4NDAxMjc=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2921840127",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-04T13:12:12Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        },
+        {
+          "id": 2921979719,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDI5MjE5Nzk3MTk=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2921979719",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-04T18:26:55Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 2.95,
+      "estimate": "55",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/118",
+      "ticket": "114",
+      "done": true,
+      "id": "114-0a456b6c",
+      "closed_at": "2020-01-09T20:14:26Z",
+      "created_at": "2020-01-06T16:17:50Z",
+      "body": "VegaLiteSchema Migrate to Presenter-Reducer approach prep presenters, use createReducer util",
+      "file": "src/features/vegaLiteSchema/vegaLiteSchemaReducer.ts",
+      "lines": "15-16",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "vegaLiteSchemaReducer.ts:15-16: VegaLiteSchema Migrate to...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2924745808,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDI5MjQ3NDU4MDg=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2924745808",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-06T16:23:21Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 3.16,
+      "estimate": "40",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/119",
+      "ticket": "114",
+      "done": true,
+      "id": "114-afdf6142",
+      "closed_at": "2020-01-09T18:31:38Z",
+      "created_at": "2020-01-06T16:17:50Z",
+      "body": "Repositories Migrate to Presenter-Reducer approach prep presenters, use createReducer util",
+      "file": "src/features/repositories/repositoriesReducer.ts",
+      "lines": "13-14",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "repositoriesReducer.ts:13-14: Repositories Migrate to...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2924745863,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDI5MjQ3NDU4NjM=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2924745863",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-06T16:23:22Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 3.09,
+      "estimate": "40",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/120",
+      "ticket": "114",
+      "done": true,
+      "id": "114-00d5e690",
+      "closed_at": "2020-01-08T17:57:10Z",
+      "created_at": "2020-01-06T16:17:50Z",
+      "body": "DataSources Migrate to Presenter-Reducer approach prep presenters, use createReducer util",
+      "file": "src/features/dataSourceMetadata/dataSourceMetadataReducer.ts",
+      "lines": "14-15",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "dataSourceMetadataReducer.ts:14-15: DataSources Migrate...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2924745906,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDI5MjQ3NDU5MDY=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2924745906",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-06T16:23:22Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        },
+        {
+          "id": 2927407731,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTI3NDA3NzMx",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2927407731",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-07T12:04:41Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 2932166046,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5MzIxNjYwNDY=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2932166046",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c6eaa0142ce7e48c59dab95d0ba2427939958daf",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/c6eaa0142ce7e48c59dab95d0ba2427939958daf",
+          "created_at": "2020-01-08T17:54:59Z"
+        },
+        {
+          "id": 2932171517,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjkzMjE3MTUxNw==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2932171517",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "c6eaa0142ce7e48c59dab95d0ba2427939958daf",
+          "commit_url": "https://api.github.com/repos/zorko-io/zorko-designer/commits/c6eaa0142ce7e48c59dab95d0ba2427939958daf",
+          "created_at": "2020-01-08T17:56:54Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 2.07,
+      "estimate": "40",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/139",
+      "ticket": "138",
+      "done": true,
+      "id": "138-0c2b4b77",
+      "closed_at": "2020-01-25T14:41:02Z",
+      "created_at": "2020-01-16T13:19:58Z",
+      "body": "Provide logger for component did catch",
+      "file": "src/app/AppLogger.tsx",
+      "lines": "16-16",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "AppLogger.tsx:16: Provide logger for component did catch",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2979333058,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTc5MzMzMDU4",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2979333058",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-25T14:18:32Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 9.06,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/140",
+      "ticket": "138",
+      "done": true,
+      "id": "138-ac4ee1fb",
+      "closed_at": "2020-01-25T14:41:08Z",
+      "created_at": "2020-01-16T13:19:58Z",
+      "body": "BSOD doesn't shown for critical errors",
+      "file": "src/app/AppLogger.tsx",
+      "lines": "44-44",
+      "labels": [],
+      "assignees": [],
+      "title": "AppLogger.tsx:44: BSOD doesn't shown for critical errors",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 9.06,
+      "estimate": "30",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/141",
+      "ticket": "138",
+      "done": true,
+      "id": "138-a3700a91",
+      "closed_at": "2020-01-25T14:44:41Z",
+      "created_at": "2020-01-16T13:19:58Z",
+      "body": "Move to custom middlewares",
+      "file": "src/index.tsx",
+      "lines": "33-33",
+      "labels": [],
+      "assignees": [
+        "nesterone"
+      ],
+      "title": "index.tsx:33: Move to custom middlewares",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2979333040,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyOTc5MzMzMDQw",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/2979333040",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-01-25T14:18:28Z",
+          "assignee": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 9.06,
+      "estimate": "15",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/zorko-io/zorko-designer",
+      "issue_link": "https://github.com/zorko-io/zorko-designer/issues/171",
+      "ticket": "136",
+      "done": true,
+      "id": "136-1a494be8",
+      "closed_at": "2020-03-21T08:05:54Z",
+      "created_at": "2020-03-09T17:21:29Z",
+      "body": "Open Spec - list of screens in Zeplin",
+      "file": "docs/spec.md",
+      "lines": "37-37",
+      "labels": [
+        "documentation",
+        "UI/UX"
+      ],
+      "assignees": [
+        "bazzika"
+      ],
+      "title": "spec.md:37: Open Spec - list of screens in Zeplin",
+      "comments": [
+        {
+          "author": "bazzika",
+          "created_at": "2020-03-10T15:24:27Z",
+          "updated_at": "2020-03-10T15:24:27Z",
+          "body": "![Main_view](https://user-images.githubusercontent.com/12714598/76328441-f7ab6000-62f3-11ea-9097-7d80552934fb.png)\r\nMain view",
+          "url": "https://github.com/zorko-io/zorko-designer/issues/171#issuecomment-597147101",
+          "id": 597147101
+        },
+        {
+          "author": "bazzika",
+          "created_at": "2020-03-10T15:25:31Z",
+          "updated_at": "2020-03-10T15:26:48Z",
+          "body": "![Tablet 2_examples](https://user-images.githubusercontent.com/12714598/76328479-03972200-62f4-11ea-9ddf-46be18367b21.png)\r\nView with examples, not finished\r\n@nesterone plz, give feedback about it",
+          "url": "https://github.com/zorko-io/zorko-designer/issues/171#issuecomment-597147677",
+          "id": 597147677
+        },
+        {
+          "author": "nesterone",
+          "created_at": "2020-03-11T12:49:36Z",
+          "updated_at": "2020-03-11T12:49:36Z",
+          "body": "strange, but `png` files are corrupted, when I click to full view it shows me a lot of black regions\r\n\r\nI think for that task three-screen would be enough \r\n\r\n`Main View without visualization` -> `Open Spec Dialog` -> `Main View with selected visualization`\r\n",
+          "url": "https://github.com/zorko-io/zorko-designer/issues/171#issuecomment-597613137",
+          "id": 597613137
+        },
+        {
+          "author": "bazzika",
+          "created_at": "2020-03-11T13:22:30Z",
+          "updated_at": "2020-03-11T13:22:30Z",
+          "body": "![list examples](https://user-images.githubusercontent.com/12714598/76421226-07867b00-63ac-11ea-8f3b-d2a818491bd8.png)\r\n![Main view 2](https://user-images.githubusercontent.com/12714598/76421250-0f461f80-63ac-11ea-9d4f-8e9f88213d14.png)\r\nFixed background",
+          "url": "https://github.com/zorko-io/zorko-designer/issues/171#issuecomment-597630374",
+          "id": 597630374
+        },
+        {
+          "author": "bazzika",
+          "created_at": "2020-03-12T15:31:05Z",
+          "updated_at": "2020-03-12T15:31:05Z",
+          "body": "![Tablet example](https://user-images.githubusercontent.com/12714598/76537980-3e7d8f00-6487-11ea-907e-56c4ac61547c.png)\r\n",
+          "url": "https://github.com/zorko-io/zorko-designer/issues/171#issuecomment-598252943",
+          "id": 598252943
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3111651458,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQzMTExNjUxNDU4",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3111651458",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-03-09T17:25:27Z",
+          "assignee": {
+            "login": "bazzika",
+            "id": 12714598,
+            "node_id": "MDQ6VXNlcjEyNzE0NTk4",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12714598?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bazzika",
+            "html_url": "https://github.com/bazzika",
+            "followers_url": "https://api.github.com/users/bazzika/followers",
+            "following_url": "https://api.github.com/users/bazzika/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bazzika/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bazzika/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bazzika/subscriptions",
+            "organizations_url": "https://api.github.com/users/bazzika/orgs",
+            "repos_url": "https://api.github.com/users/bazzika/repos",
+            "events_url": "https://api.github.com/users/bazzika/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bazzika/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "nesterone",
+            "id": 75000,
+            "node_id": "MDQ6VXNlcjc1MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nesterone",
+            "html_url": "https://github.com/nesterone",
+            "followers_url": "https://api.github.com/users/nesterone/followers",
+            "following_url": "https://api.github.com/users/nesterone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nesterone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nesterone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nesterone/subscriptions",
+            "organizations_url": "https://api.github.com/users/nesterone/orgs",
+            "repos_url": "https://api.github.com/users/nesterone/repos",
+            "events_url": "https://api.github.com/users/nesterone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nesterone/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 3111652845,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMxMTE2NTI4NDU=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3111652845",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-03-09T17:25:48Z",
+          "label": {
+            "name": "documentation",
+            "color": "0075ca"
+          }
+        },
+        {
+          "id": 3111652854,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDMxMTE2NTI4NTQ=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3111652854",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-03-09T17:25:48Z",
+          "label": {
+            "name": "UI/UX",
+            "color": "fcae64"
+          }
+        },
+        {
+          "id": 3111658104,
+          "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQzMTExNjU4MTA0",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3111658104",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "added_to_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-03-09T17:26:57Z",
+          "project_card": {
+            "id": 34310884,
+            "url": "https://api.github.com/projects/columns/cards/34310884",
+            "project_id": 4083942,
+            "project_url": "https://api.github.com/projects/4083942",
+            "column_name": "To do"
+          }
+        },
+        {
+          "id": 3111697298,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzExMTY5NzI5OA==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3111697298",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-03-09T17:36:55Z",
+          "project_card": {
+            "id": 34310884,
+            "url": "https://api.github.com/projects/columns/cards/34310884",
+            "project_id": 4083942,
+            "project_url": "https://api.github.com/projects/4083942",
+            "column_name": "In progress",
+            "previous_column_name": "To do"
+          }
+        },
+        {
+          "id": 3111782961,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxMTE3ODI5NjE=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3111782961",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6d564fb65f2cb3c1944025fbaeee0a896efd98fd",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/6d564fb65f2cb3c1944025fbaeee0a896efd98fd",
+          "created_at": "2020-03-09T17:59:37Z"
+        },
+        {
+          "id": 3111789326,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxMTE3ODkzMjY=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3111789326",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "da4c33068cd01888f6d891e2932338c150e51a75",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/da4c33068cd01888f6d891e2932338c150e51a75",
+          "created_at": "2020-03-09T18:01:21Z"
+        },
+        {
+          "id": 3115218673,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzExNTIxODY3Mw==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3115218673",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-03-10T15:26:49Z"
+        },
+        {
+          "id": 3115218676,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDMxMTUyMTg2NzY=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3115218676",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-03-10T15:26:49Z"
+        },
+        {
+          "id": 3118476449,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxMTg0NzY0NDk=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3118476449",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3598be913469f3d2fa523b0c245cf086bae69bc9",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/3598be913469f3d2fa523b0c245cf086bae69bc9",
+          "created_at": "2020-03-11T11:55:24Z"
+        },
+        {
+          "id": 3118610318,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxMTg2MTAzMTg=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3118610318",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b7bc3d979ef9cef3612e7bf1d746b9fd62f82b26",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/b7bc3d979ef9cef3612e7bf1d746b9fd62f82b26",
+          "created_at": "2020-03-11T12:37:17Z"
+        },
+        {
+          "id": 3123388289,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxMjMzODgyODk=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3123388289",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bfb586d70d730874f4f4de8f479d29d2ed2caa4a",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/bfb586d70d730874f4f4de8f479d29d2ed2caa4a",
+          "created_at": "2020-03-12T15:42:17Z"
+        },
+        {
+          "id": 3133252172,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxMzMyNTIxNzI=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3133252172",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ac2cc531b82bd385dc0b2090a6ea9cc999d15d6c",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/ac2cc531b82bd385dc0b2090a6ea9cc999d15d6c",
+          "created_at": "2020-03-16T13:44:38Z"
+        },
+        {
+          "id": 3133308242,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxMzMzMDgyNDI=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3133308242",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1c48336062d78444a56530443d9f575318c34eed",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/1c48336062d78444a56530443d9f575318c34eed",
+          "created_at": "2020-03-16T13:58:00Z"
+        },
+        {
+          "id": 3133321142,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxMzMzMjExNDI=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3133321142",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b35dc749b6f95cab6d6174cc4482f16cea401af6",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/b35dc749b6f95cab6d6174cc4482f16cea401af6",
+          "created_at": "2020-03-16T14:00:57Z"
+        },
+        {
+          "id": 3140619495,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDMxNDA2MTk0OTU=",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3140619495",
+          "actor": {
+            "id": 12714598,
+            "url": "https://api.github.com/users/bazzika",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "7f1e636057245ae23c961a7bab5f25fdf7ba1b97",
+          "commit_url": "https://api.github.com/repos/bazzika/zorko-designer/commits/7f1e636057245ae23c961a7bab5f25fdf7ba1b97",
+          "created_at": "2020-03-18T09:27:20Z"
+        },
+        {
+          "id": 3151553365,
+          "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MzE1MTU1MzM2NQ==",
+          "url": "https://api.github.com/repos/zorko-io/zorko-designer/issues/events/3151553365",
+          "actor": {
+            "id": 75000,
+            "url": "https://api.github.com/users/nesterone",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "moved_columns_in_project",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-03-21T08:20:17Z",
+          "project_card": {
+            "id": 34310884,
+            "url": "https://api.github.com/projects/columns/cards/34310884",
+            "project_id": 4083942,
+            "project_url": "https://api.github.com/projects/4083942",
+            "column_name": "Done",
+            "previous_column_name": "In progress"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 5,
+      "issue_events_count": 17,
+      "time_to_resolution_days": 11.61,
+      "estimate": "2",
+      "author": "nesterone",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "TypeScript",
+  "project_stars": 3,
+  "project_forks": 2,
+  "project_contributors_count": 4,
+  "first_issue_date": "2019-12-24T19:03:20Z",
+  "last_issue_date": "2020-03-09T17:21:29Z"
+}

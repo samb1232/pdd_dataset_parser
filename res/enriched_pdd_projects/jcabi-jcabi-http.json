@@ -1,0 +1,2526 @@
+{
+  "project_link": "https://github.com/jcabi/jcabi-http",
+  "issues_count": 8,
+  "issues": [
+    {
+      "project_link": "https://github.com/jcabi/jcabi-http",
+      "issue_link": "https://github.com/jcabi/jcabi-http/issues/120",
+      "ticket": "90",
+      "done": true,
+      "id": "90-f5d7f05d",
+      "closed_at": "2017-11-02T06:41:14Z",
+      "created_at": "2016-01-15T11:03:29Z",
+      "body": "Evict cache entry if If-Modified-Since request responded with HTTP_OK code and no Last-Modified header.",
+      "file": "src/main/java/com/jcabi/http/wire/LastModifiedCachingWire.java",
+      "lines": "141-142",
+      "labels": [
+        "30 mins",
+        "@westonized"
+      ],
+      "assignees": [
+        "westonal"
+      ],
+      "title": "LastModifiedCachingWire.java:141-142: Evict cache entry if If-Modified-Since...",
+      "comments": [
+        {
+          "author": "dmarkov",
+          "created_at": "2016-01-20T11:51:25Z",
+          "updated_at": "2016-01-20T11:51:25Z",
+          "body": "@rajithd could you please pick this up? This [article](http://www.xdsd.org/2014/04/17/how-xdsd-is-different.html) explains how we work. Any technical questions you may ask right here\n\nThe budget of this task is **30 mins**. This is exactly how much time will be compensated, when the task is completed. Read about our [Definition of Done](http://www.xdsd.org/2014/04/15/definition-of-done.html)\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-173182060",
+          "id": 173182060
+        },
+        {
+          "author": "cvrebert",
+          "created_at": "2016-01-26T04:51:38Z",
+          "updated_at": "2016-02-01T20:20:23Z",
+          "body": "Basically, if the new response lacks a `Last-Modified` header, implying it's not cacheable, then there's no point in keeping the old response (which is outdated) in the cache. (And obviously the new response can't be cached since it lacks the required header.)\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-174824315",
+          "id": 174824315
+        },
+        {
+          "author": "dmarkov",
+          "created_at": "2016-02-05T07:08:10Z",
+          "updated_at": "2016-02-05T07:08:10Z",
+          "body": "@rajithd the ticket is with you for 15 days already. If it is not finished in the next 48 hours, it will be re-assigned to someone else, see [No Obligations](http://www.xdsd.org/2014/04/13/no-obligations-principle.html) principle, [this article](http://www.yegor256.com/2015/01/15/how-to-cut-corners.html) should help if you're stuck; as a reminder, don't forget to remove the `@todo` puzzle from the source code; -30 added to your rating, current score is: [-120](http://www.netbout.com/b/36278?open=rating)\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-180231222",
+          "id": 180231222
+        },
+        {
+          "author": "dmarkov",
+          "created_at": "2016-05-16T07:13:01Z",
+          "updated_at": "2016-05-16T07:13:01Z",
+          "body": "@westonized can you please help? Keep in mind [this](http://www.xdsd.org/2014/04/17/how-xdsd-is-different.html). If you have any technical questions, don't hesitate to ask right here... The cost of this task is **30 mins** (this is exactly how much will be paid, not less not more), when the task is [done](http://www.xdsd.org/2014/04/15/definition-of-done.html)\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-219363737",
+          "id": 219363737
+        },
+        {
+          "author": "westonal",
+          "created_at": "2016-05-20T19:02:02Z",
+          "updated_at": "2016-05-20T19:02:02Z",
+          "body": "@dmarkov The work is done and reviewed, can you follow this up for closure please? PR #134 \n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-220691546",
+          "id": 220691546
+        },
+        {
+          "author": "dmarkov",
+          "created_at": "2016-05-26T08:01:43Z",
+          "updated_at": "2016-05-26T08:01:43Z",
+          "body": "> @dmarkov The work is done and reviewed, can you follow this up for closure please? PR #134 \n\n@westonized PR is still open. once it's merged, we'll close this ticket\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-221803835",
+          "id": 221803835
+        },
+        {
+          "author": "westonal",
+          "created_at": "2016-05-29T10:03:35Z",
+          "updated_at": "2016-05-29T10:04:48Z",
+          "body": "@dmarkov I know, it's waiting on yegor, 10 days now, is this normal? Has nobody else got any authority to merge? Aside from not gettting paid, I've got 2 task limit and both are waiting on yegor like this.\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-222352659",
+          "id": 222352659
+        },
+        {
+          "author": "dmarkov",
+          "created_at": "2016-06-01T07:17:10Z",
+          "updated_at": "2016-06-01T07:17:10Z",
+          "body": "> @dmarkov I know, it's waiting on yegor, 10 days now, is this normal? Has nobody else got any authority to merge? Aside from not gettting paid, I've got 2 task limit and both are waiting on yegor like this.\n\n@westonized @yegor256 could you please help us here?\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-222912499",
+          "id": 222912499
+        },
+        {
+          "author": "westonal",
+          "created_at": "2016-06-18T09:01:57Z",
+          "updated_at": "2016-06-18T09:01:57Z",
+          "body": "@dmarkov PR's merged so can this get closed and I get paid?\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-226930644",
+          "id": 226930644
+        },
+        {
+          "author": "dmarkov",
+          "created_at": "2016-06-20T07:01:14Z",
+          "updated_at": "2016-06-20T07:01:14Z",
+          "body": "@yegor256 2 puzzles were created here: `120-e6bf947f`/#139, `120-2756c8f7`\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-227064461",
+          "id": 227064461
+        },
+        {
+          "author": "dmarkov",
+          "created_at": "2016-06-21T07:52:44Z",
+          "updated_at": "2016-06-21T07:52:44Z",
+          "body": "@yegor256 Done, the task is closed\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-227366568",
+          "id": 227366568
+        },
+        {
+          "author": "dmarkov",
+          "created_at": "2016-06-21T07:54:11Z",
+          "updated_at": "2016-06-21T07:54:11Z",
+          "body": "@westonized thank you, added **30 mins** to your acc, payment num is `AP-8M112932NC376593R`, 839 hours and 48 mins spent in total to complete... +30 added to your rating, current score is: [+45](http://www.netbout.com/b/37035?open=rating)\n",
+          "url": "https://github.com/jcabi/jcabi-http/issues/120#issuecomment-227366882",
+          "id": 227366882
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 518931334,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDUxODkzMTMzNA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/518931334",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-01-19T10:45:31Z",
+          "label": {
+            "name": "IMP",
+            "color": "bfd4f3"
+          }
+        },
+        {
+          "id": 518931361,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDUxODkzMTM2MQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/518931361",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-01-19T10:45:34Z",
+          "label": {
+            "name": "30 mins",
+            "color": "eb6421"
+          }
+        },
+        {
+          "id": 520274108,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTIwMjc0MTA4",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/520274108",
+          "actor": {
+            "id": 556779,
+            "url": "https://api.github.com/users/rajithd",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-01-20T11:51:25Z"
+        },
+        {
+          "id": 520274109,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDUyMDI3NDEwOQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/520274109",
+          "actor": {
+            "id": 556779,
+            "url": "https://api.github.com/users/rajithd",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-01-20T11:51:25Z"
+        },
+        {
+          "id": 520274166,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDUyMDI3NDE2Ng==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/520274166",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-01-20T11:51:30Z",
+          "label": {
+            "name": "@rajithd",
+            "color": "009801"
+          }
+        },
+        {
+          "id": 520274175,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQ1MjAyNzQxNzU=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/520274175",
+          "actor": {
+            "id": 556779,
+            "url": "https://api.github.com/users/rajithd",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-01-20T11:51:30Z",
+          "assignee": {
+            "login": "rajithd",
+            "id": 556779,
+            "node_id": "MDQ6VXNlcjU1Njc3OQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/556779?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rajithd",
+            "html_url": "https://github.com/rajithd",
+            "followers_url": "https://api.github.com/users/rajithd/followers",
+            "following_url": "https://api.github.com/users/rajithd/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rajithd/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rajithd/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rajithd/subscriptions",
+            "organizations_url": "https://api.github.com/users/rajithd/orgs",
+            "repos_url": "https://api.github.com/users/rajithd/repos",
+            "events_url": "https://api.github.com/users/rajithd/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rajithd/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dmarkov",
+            "id": 5993843,
+            "node_id": "MDQ6VXNlcjU5OTM4NDM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5993843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dmarkov",
+            "html_url": "https://github.com/dmarkov",
+            "followers_url": "https://api.github.com/users/dmarkov/followers",
+            "following_url": "https://api.github.com/users/dmarkov/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dmarkov/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dmarkov/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dmarkov/subscriptions",
+            "organizations_url": "https://api.github.com/users/dmarkov/orgs",
+            "repos_url": "https://api.github.com/users/dmarkov/repos",
+            "events_url": "https://api.github.com/users/dmarkov/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dmarkov/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 540295386,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NTQwMjk1Mzg2",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/540295386",
+          "actor": {
+            "id": 556779,
+            "url": "https://api.github.com/users/rajithd",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-02-05T07:08:10Z"
+        },
+        {
+          "id": 540295387,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDU0MDI5NTM4Nw==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/540295387",
+          "actor": {
+            "id": 556779,
+            "url": "https://api.github.com/users/rajithd",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-02-05T07:08:10Z"
+        },
+        {
+          "id": 542584076,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50NTQyNTg0MDc2",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/542584076",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-02-08T07:48:19Z",
+          "label": {
+            "name": "@rajithd",
+            "color": "009801"
+          }
+        },
+        {
+          "id": 542585700,
+          "node_id": "MDE1OlVuYXNzaWduZWRFdmVudDU0MjU4NTcwMA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/542585700",
+          "actor": {
+            "id": 556779,
+            "url": "https://api.github.com/users/rajithd",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-02-08T07:51:48Z",
+          "assignee": {
+            "login": "rajithd",
+            "id": 556779,
+            "node_id": "MDQ6VXNlcjU1Njc3OQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/556779?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rajithd",
+            "html_url": "https://github.com/rajithd",
+            "followers_url": "https://api.github.com/users/rajithd/followers",
+            "following_url": "https://api.github.com/users/rajithd/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rajithd/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rajithd/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rajithd/subscriptions",
+            "organizations_url": "https://api.github.com/users/rajithd/orgs",
+            "repos_url": "https://api.github.com/users/rajithd/repos",
+            "events_url": "https://api.github.com/users/rajithd/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rajithd/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dmarkov",
+            "id": 5993843,
+            "node_id": "MDQ6VXNlcjU5OTM4NDM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5993843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dmarkov",
+            "html_url": "https://github.com/dmarkov",
+            "followers_url": "https://api.github.com/users/dmarkov/followers",
+            "following_url": "https://api.github.com/users/dmarkov/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dmarkov/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dmarkov/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dmarkov/subscriptions",
+            "organizations_url": "https://api.github.com/users/dmarkov/orgs",
+            "repos_url": "https://api.github.com/users/dmarkov/repos",
+            "events_url": "https://api.github.com/users/dmarkov/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dmarkov/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 661300461,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NjYxMzAwNDYx",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/661300461",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-16T07:13:01Z"
+        },
+        {
+          "id": 661300462,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDY2MTMwMDQ2Mg==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/661300462",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-16T07:13:01Z"
+        },
+        {
+          "id": 661300475,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDY2MTMwMDQ3NQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/661300475",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-16T07:13:04Z",
+          "label": {
+            "name": "@westonized",
+            "color": "009801"
+          }
+        },
+        {
+          "id": 661300481,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQ2NjEzMDA0ODE=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/661300481",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-16T07:13:05Z",
+          "assignee": {
+            "login": "westonal",
+            "id": 6041352,
+            "node_id": "MDQ6VXNlcjYwNDEzNTI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6041352?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/westonal",
+            "html_url": "https://github.com/westonal",
+            "followers_url": "https://api.github.com/users/westonal/followers",
+            "following_url": "https://api.github.com/users/westonal/following{/other_user}",
+            "gists_url": "https://api.github.com/users/westonal/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/westonal/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/westonal/subscriptions",
+            "organizations_url": "https://api.github.com/users/westonal/orgs",
+            "repos_url": "https://api.github.com/users/westonal/repos",
+            "events_url": "https://api.github.com/users/westonal/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/westonal/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "dmarkov",
+            "id": 5993843,
+            "node_id": "MDQ6VXNlcjU5OTM4NDM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5993843?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dmarkov",
+            "html_url": "https://github.com/dmarkov",
+            "followers_url": "https://api.github.com/users/dmarkov/followers",
+            "following_url": "https://api.github.com/users/dmarkov/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dmarkov/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dmarkov/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dmarkov/subscriptions",
+            "organizations_url": "https://api.github.com/users/dmarkov/orgs",
+            "repos_url": "https://api.github.com/users/dmarkov/repos",
+            "events_url": "https://api.github.com/users/dmarkov/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dmarkov/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 662091645,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2MjA5MTY0NQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/662091645",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "c552ca3cdc9c5e9d80683b30129a436fced84f7f",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/c552ca3cdc9c5e9d80683b30129a436fced84f7f",
+          "created_at": "2016-05-16T19:56:35Z"
+        },
+        {
+          "id": 662308634,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2MjMwODYzNA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/662308634",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "3da85275bf314dde7825931c5ae3a190c87bae0e",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/3da85275bf314dde7825931c5ae3a190c87bae0e",
+          "created_at": "2016-05-16T23:25:47Z"
+        },
+        {
+          "id": 663697835,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2MzY5NzgzNQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/663697835",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d32478ce2f47d9f5ba0e6ba8f86a5da618891124",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/d32478ce2f47d9f5ba0e6ba8f86a5da618891124",
+          "created_at": "2016-05-17T22:35:55Z"
+        },
+        {
+          "id": 663697837,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2MzY5NzgzNw==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/663697837",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8885cd8d00b8ad9fda49e3756e27bef4348591ce",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/8885cd8d00b8ad9fda49e3756e27bef4348591ce",
+          "created_at": "2016-05-17T22:35:55Z"
+        },
+        {
+          "id": 663700468,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2MzcwMDQ2OA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/663700468",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "112350510e4cdf3e8260d1dc80e80c9a47d157d4",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/112350510e4cdf3e8260d1dc80e80c9a47d157d4",
+          "created_at": "2016-05-17T22:38:50Z"
+        },
+        {
+          "id": 664344362,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2NDM0NDM2Mg==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/664344362",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e12e36ef1145a982a30a4a58a9fd83694488d056",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/e12e36ef1145a982a30a4a58a9fd83694488d056",
+          "created_at": "2016-05-18T12:49:13Z"
+        },
+        {
+          "id": 664849839,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2NDg0OTgzOQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/664849839",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e4d55fd95646e2433a4fabc6a9ad43c40b841a16",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/e4d55fd95646e2433a4fabc6a9ad43c40b841a16",
+          "created_at": "2016-05-18T19:01:21Z"
+        },
+        {
+          "id": 664855086,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2NDg1NTA4Ng==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/664855086",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "85e806ce206ed3ae6bdbcf859d0860ec66b1074d",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/85e806ce206ed3ae6bdbcf859d0860ec66b1074d",
+          "created_at": "2016-05-18T19:05:34Z"
+        },
+        {
+          "id": 664863136,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2NDg2MzEzNg==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/664863136",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dc2f9eba69ee7c7206f13fc741b984ca639a9aa5",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/dc2f9eba69ee7c7206f13fc741b984ca639a9aa5",
+          "created_at": "2016-05-18T19:12:08Z"
+        },
+        {
+          "id": 665368035,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDY2NTM2ODAzNQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/665368035",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fcad4cc0d097b0857b71e059f8d5160bc50f1ffe",
+          "commit_url": "https://api.github.com/repos/westonal/jcabi-http/commits/fcad4cc0d097b0857b71e059f8d5160bc50f1ffe",
+          "created_at": "2016-05-19T06:17:44Z"
+        },
+        {
+          "id": 667542811,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NjY3NTQyODEx",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/667542811",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-20T19:02:02Z"
+        },
+        {
+          "id": 667542812,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDY2NzU0MjgxMg==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/667542812",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-20T19:02:02Z"
+        },
+        {
+          "id": 672828561,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NjcyODI4NTYx",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/672828561",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-26T08:01:43Z"
+        },
+        {
+          "id": 672828562,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDY3MjgyODU2Mg==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/672828562",
+          "actor": {
+            "id": 5993843,
+            "url": "https://api.github.com/users/dmarkov",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-26T08:01:43Z"
+        },
+        {
+          "id": 672828564,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50NjcyODI4NTY0",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/672828564",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-26T08:01:43Z"
+        },
+        {
+          "id": 672828565,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDY3MjgyODU2NQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/672828565",
+          "actor": {
+            "id": 6041352,
+            "url": "https://api.github.com/users/westonal",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2016-05-26T08:01:43Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 12,
+      "issue_events_count": 30,
+      "time_to_resolution_days": 656.82,
+      "estimate": "30",
+      "author": "Igor Piddubnyi",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/jcabi/jcabi-http",
+      "issue_link": "https://github.com/jcabi/jcabi-http/issues/164",
+      "ticket": "87",
+      "done": true,
+      "id": "87-bd2cb401",
+      "closed_at": "2019-11-29T16:22:36Z",
+      "created_at": "2016-08-10T13:17:35Z",
+      "body": "Implement and unit test method formParam(String, Object) Details\n\nhere\n\n(second answer).\n\ne.g. While FormEncodedBody.formParam adds the param to a body with enctype application/x-www-form-urlencoded, method MultipartFormBody.formParam should add it to a body with enctype multipart/form-data.",
+      "file": "src/main/java/com/jcabi/http/request/BaseRequest.java",
+      "lines": "470-476",
+      "labels": [],
+      "assignees": [],
+      "title": "BaseRequest.java:470-476: Implement and unit test method...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2017-04-26T14:25:14Z",
+          "updated_at": "2017-04-26T14:25:14Z",
+          "body": "@yegor256 please, pay attention to this issue",
+          "url": "https://github.com/jcabi/jcabi-http/issues/164#issuecomment-297425063",
+          "id": 297425063
+        },
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-05-18T13:54:17Z",
+          "updated_at": "2017-05-18T13:54:46Z",
+          "body": "@yegor256 Can I have this? I need it in multipart form functionality completed for another project.",
+          "url": "https://github.com/jcabi/jcabi-http/issues/164#issuecomment-302410529",
+          "id": 302410529
+        },
+        {
+          "author": "yegor256",
+          "created_at": "2017-05-23T06:39:30Z",
+          "updated_at": "2017-05-23T06:39:30Z",
+          "body": "@amihaiemil you can, but we're not paying for open source contribution anymore",
+          "url": "https://github.com/jcabi/jcabi-http/issues/164#issuecomment-303304448",
+          "id": 303304448
+        },
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-05-23T06:39:59Z",
+          "updated_at": "2017-05-23T06:39:59Z",
+          "body": "@yegor256 sure :) ",
+          "url": "https://github.com/jcabi/jcabi-http/issues/164#issuecomment-303304535",
+          "id": 303304535
+        },
+        {
+          "author": "amihaiemil",
+          "created_at": "2017-06-29T07:28:31Z",
+          "updated_at": "2017-06-29T07:46:41Z",
+          "body": "I looked over this, but it's harder then expected, given the library's architecture -- I think there will need to be little changes in the interfaces too.\r\n\r\nUntil I manage to fix it, users could upload files by constructing their own request body, \"manually\". It's all explained pretty clrearly in this RFC: https://tools.ietf.org/html/rfc7578",
+          "url": "https://github.com/jcabi/jcabi-http/issues/164#issuecomment-311885463",
+          "id": 311885463
+        },
+        {
+          "author": "0crat",
+          "created_at": "2019-11-29T16:52:51Z",
+          "updated_at": "2019-11-29T16:52:51Z",
+          "body": "Job `gh:jcabi/jcabi-http#164` is not assigned, can't get performer\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/743347b4-a26e-42e0-8e0b-bd5e119b57d8, version: 0.50.36, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/164#issuecomment-559843589",
+          "id": 559843589
+        },
+        {
+          "author": "0crat",
+          "created_at": "2019-11-29T16:53:35Z",
+          "updated_at": "2019-11-29T16:53:35Z",
+          "body": "This job is not in scope\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/af917529-3398-4f54-8d66-6b0cc61e3065, version: 0.50.36, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/164#issuecomment-559843736",
+          "id": 559843736
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 1058708593,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA1ODcwODU5Mw==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/1058708593",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-26T14:25:14Z"
+        },
+        {
+          "id": 1058708595,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwNTg3MDg1OTU=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/1058708595",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-04-26T14:25:14Z"
+        },
+        {
+          "id": 1087841083,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA4Nzg0MTA4Mw==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/1087841083",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-05-18T13:54:17Z"
+        },
+        {
+          "id": 1087841085,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwODc4NDEwODU=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/1087841085",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-05-18T13:54:17Z"
+        },
+        {
+          "id": 1093039484,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA5MzAzOTQ4NA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/1093039484",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-05-23T06:39:30Z"
+        },
+        {
+          "id": 1093039485,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwOTMwMzk0ODU=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/1093039485",
+          "actor": {
+            "id": 6305156,
+            "url": "https://api.github.com/users/amihaiemil",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-05-23T06:39:30Z"
+        },
+        {
+          "id": 1093039924,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTA5MzAzOTkyNA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/1093039924",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-05-23T06:39:59Z"
+        },
+        {
+          "id": 1093039925,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEwOTMwMzk5MjU=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/1093039925",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2017-05-23T06:39:59Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 7,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 1206.13,
+      "estimate": "60",
+      "author": "amihaiemil",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jcabi/jcabi-http",
+      "issue_link": "https://github.com/jcabi/jcabi-http/issues/210",
+      "ticket": "206",
+      "done": true,
+      "id": "206-f3551294",
+      "closed_at": "2020-07-25T13:01:26Z",
+      "created_at": "2020-07-10T17:01:43Z",
+      "body": "Use assertThrows instead of try/catch/match. Some of the tests use try/catch in orted to test caught Exception. Replace them with assertThrows.",
+      "file": "src/test/java/com/jcabi/http/response/JsonResponseTest.java",
+      "lines": "43-45",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "JsonResponseTest.java:43-45: Use assertThrows instead of...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2020-07-25T13:19:41Z",
+          "updated_at": "2020-07-25T13:19:41Z",
+          "body": "Job `gh:jcabi/jcabi-http#210` is not assigned, can't get performer\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/79ff5c67-0970-4a1b-8ea4-eb0a30e6a514, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/210#issuecomment-663854826",
+          "id": 663854826
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3586242326,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1ODYyNDIzMjY=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3586242326",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cd657e614add2155f97b252f68aff384efeb180e",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/cd657e614add2155f97b252f68aff384efeb180e",
+          "created_at": "2020-07-25T12:34:44Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 14.83,
+      "estimate": "30",
+      "author": "andreoss",
+      "hierarchy": 3,
+      "parent_id": "199-1532b845",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jcabi/jcabi-http",
+      "issue_link": "https://github.com/jcabi/jcabi-http/issues/206",
+      "ticket": "199",
+      "done": true,
+      "id": "199-1532b845",
+      "closed_at": "2020-07-10T17:32:26Z",
+      "created_at": "2020-07-09T00:42:42Z",
+      "body": "Migrate Junit 5 tests dependent on ExpectedException to Junit 5. After all tests are run by Junit 5 remove this dependency.",
+      "file": "pom.xml",
+      "lines": "151-152",
+      "labels": [
+        "bug",
+        "scope",
+        "pdd",
+        "role/DEV"
+      ],
+      "assignees": [],
+      "title": "pom.xml:151-152: Migrate Junit 5 tests dependent on...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2020-07-09T01:45:53Z",
+          "updated_at": "2020-07-09T01:45:53Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) please, pay attention to this issue",
+          "url": "https://github.com/jcabi/jcabi-http/issues/206#issuecomment-655846711",
+          "id": 655846711
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-09T04:02:11Z",
+          "updated_at": "2020-07-09T04:02:11Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#206](https://github.com/jcabi/jcabi-http/issues/206); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/12759ec1-ab1b-4a91-b148-b097be262a04, version: 0.53.15, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/206#issuecomment-655884770",
+          "id": 655884770
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-14T04:53:33Z",
+          "updated_at": "2020-07-14T04:53:33Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#206](https://github.com/jcabi/jcabi-http/issues/206); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/f95409bf-198c-4377-8a5c-fc02d52322a7, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/206#issuecomment-657965366",
+          "id": 657965366
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3527632971,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzUyNzYzMjk3MQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527632971",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T01:45:53Z"
+        },
+        {
+          "id": 3527632973,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1Mjc2MzI5NzM=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527632973",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T01:45:53Z"
+        },
+        {
+          "id": 3527633291,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM1Mjc2MzMyOTE=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527633291",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T01:46:03Z",
+          "label": {
+            "name": "scope",
+            "color": "3a6622"
+          }
+        },
+        {
+          "id": 3527633332,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM1Mjc2MzMzMzI=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527633332",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T01:46:04Z",
+          "label": {
+            "name": "role/DEV",
+            "color": "581249"
+          }
+        },
+        {
+          "id": 3527869749,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzUyNzg2OTc0OQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527869749",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T04:02:12Z"
+        },
+        {
+          "id": 3527869751,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1Mjc4Njk3NTE=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527869751",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T04:02:12Z"
+        },
+        {
+          "id": 3534613326,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2MTMzMjY=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534613326",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ea8bdc094f89c9c33f7bd996bc7dae2c2d37ba40",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/ea8bdc094f89c9c33f7bd996bc7dae2c2d37ba40",
+          "created_at": "2020-07-10T16:35:15Z"
+        },
+        {
+          "id": 3534613328,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2MTMzMjg=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534613328",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "776ce3784e35c14e74f012fb4e72258d30f52365",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/776ce3784e35c14e74f012fb4e72258d30f52365",
+          "created_at": "2020-07-10T16:35:15Z"
+        },
+        {
+          "id": 3534613332,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2MTMzMzI=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534613332",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a0c6491b6d8b5d65b414dd2f4617e476deaf0d22",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/a0c6491b6d8b5d65b414dd2f4617e476deaf0d22",
+          "created_at": "2020-07-10T16:35:15Z"
+        },
+        {
+          "id": 3534699498,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2OTk0OTg=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534699498",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bdafe143d69ca9301d1478f9591e4213fc08971c",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/bdafe143d69ca9301d1478f9591e4213fc08971c",
+          "created_at": "2020-07-10T17:02:10Z"
+        },
+        {
+          "id": 3534699503,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2OTk1MDM=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534699503",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fd2ddd7fac2de1fe3d4ec7ab204c398c9dbcebf9",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/fd2ddd7fac2de1fe3d4ec7ab204c398c9dbcebf9",
+          "created_at": "2020-07-10T17:02:10Z"
+        },
+        {
+          "id": 3534699507,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2OTk1MDc=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534699507",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "2695b057524c36dfa3ed0ef18fcf42faa2b3ce69",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/2695b057524c36dfa3ed0ef18fcf42faa2b3ce69",
+          "created_at": "2020-07-10T17:02:10Z"
+        },
+        {
+          "id": 3534699509,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2OTk1MDk=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534699509",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6a29418244d04b920c1cdc6c1abdfc2dc1b60291",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/6a29418244d04b920c1cdc6c1abdfc2dc1b60291",
+          "created_at": "2020-07-10T17:02:10Z"
+        },
+        {
+          "id": 3534699513,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2OTk1MTM=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534699513",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f73bb49b2507d63e7849b3f93689bd7f4c099c3d",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/f73bb49b2507d63e7849b3f93689bd7f4c099c3d",
+          "created_at": "2020-07-10T17:02:10Z"
+        },
+        {
+          "id": 3534699514,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2OTk1MTQ=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534699514",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "0a7ae4c47455a918408718cf3b658405b1076501",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/0a7ae4c47455a918408718cf3b658405b1076501",
+          "created_at": "2020-07-10T17:02:10Z"
+        },
+        {
+          "id": 3534699519,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzQ2OTk1MTk=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3534699519",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "517d46212b5fd876c880b89a231d53e6528def01",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/517d46212b5fd876c880b89a231d53e6528def01",
+          "created_at": "2020-07-10T17:02:10Z"
+        },
+        {
+          "id": 3542447165,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzU0MjQ0NzE2NQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3542447165",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-14T04:53:33Z"
+        },
+        {
+          "id": 3542447167,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1NDI0NDcxNjc=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3542447167",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-14T04:53:33Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 3,
+      "issue_events_count": 18,
+      "time_to_resolution_days": 1.7,
+      "estimate": "30",
+      "author": "andreoss",
+      "hierarchy": 2,
+      "parent_id": "195-eea7018e",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/jcabi/jcabi-http",
+      "issue_link": "https://github.com/jcabi/jcabi-http/issues/199",
+      "ticket": "195",
+      "done": true,
+      "id": "195-eea7018e",
+      "closed_at": "2020-07-09T01:45:18Z",
+      "created_at": "2020-07-07T18:24:52Z",
+      "body": "Migrate the rest of tests to Junit 5. For the sake of smaller PRs, migration can be done in steps 1) Parameterized tests classes 2) Tests dependent on ExpectedException, or @Test(expected= ...) After all tests are run by Junit 5 remove this dependency.",
+      "file": "pom.xml",
+      "lines": "151-155",
+      "labels": [
+        "bug",
+        "pdd",
+        "role/DEV"
+      ],
+      "assignees": [],
+      "title": "pom.xml:151-155: Migrate the rest of tests to Junit 5....",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2020-07-07T20:56:03Z",
+          "updated_at": "2020-07-07T20:56:03Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) please, pay attention to this issue",
+          "url": "https://github.com/jcabi/jcabi-http/issues/199#issuecomment-655129449",
+          "id": 655129449
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-07T21:45:25Z",
+          "updated_at": "2020-07-07T21:45:25Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#199](https://github.com/jcabi/jcabi-http/issues/199); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/0be5ca39-638b-4bd9-9ebc-40b7ad779b79, version: 0.53.15, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/199#issuecomment-655152532",
+          "id": 655152532
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-09T02:02:57Z",
+          "updated_at": "2020-07-09T02:02:57Z",
+          "body": "Job `gh:jcabi/jcabi-http#199` is not assigned, can't get performer\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/70991748-06d9-4f47-953d-755f7fb5df38, version: 0.53.15, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/199#issuecomment-655851350",
+          "id": 655851350
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3522273034,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzUyMjI3MzAzNA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3522273034",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-07T20:56:03Z"
+        },
+        {
+          "id": 3522273038,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1MjIyNzMwMzg=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3522273038",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-07T20:56:03Z"
+        },
+        {
+          "id": 3522282330,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM1MjIyODIzMzA=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3522282330",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-07T20:58:42Z",
+          "label": {
+            "name": "scope",
+            "color": "3a6622"
+          }
+        },
+        {
+          "id": 3522282386,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM1MjIyODIzODY=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3522282386",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-07T20:58:43Z",
+          "label": {
+            "name": "role/DEV",
+            "color": "581249"
+          }
+        },
+        {
+          "id": 3522437166,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzUyMjQzNzE2Ng==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3522437166",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-07T21:45:25Z"
+        },
+        {
+          "id": 3522437170,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1MjI0MzcxNzA=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3522437170",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-07T21:45:25Z"
+        },
+        {
+          "id": 3527495042,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1Mjc0OTUwNDI=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527495042",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6f01d8001fb1f0085ba6d97dcc50ed98ca440bcd",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/6f01d8001fb1f0085ba6d97dcc50ed98ca440bcd",
+          "created_at": "2020-07-09T00:26:58Z"
+        },
+        {
+          "id": 3527495044,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1Mjc0OTUwNDQ=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527495044",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "cf2f28d9e5f468a66bd6c64b1934b2cf4b785b0c",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/cf2f28d9e5f468a66bd6c64b1934b2cf4b785b0c",
+          "created_at": "2020-07-09T00:26:58Z"
+        },
+        {
+          "id": 3527495046,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1Mjc0OTUwNDY=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527495046",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6e420744683c3b54cf11d119aa5d576a5d9ac4d9",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/6e420744683c3b54cf11d119aa5d576a5d9ac4d9",
+          "created_at": "2020-07-09T00:26:59Z"
+        },
+        {
+          "id": 3527495048,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1Mjc0OTUwNDg=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527495048",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "677a54420e79419d42e48dfe0fe89964a08c8d79",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/677a54420e79419d42e48dfe0fe89964a08c8d79",
+          "created_at": "2020-07-09T00:26:59Z"
+        },
+        {
+          "id": 3527495050,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1Mjc0OTUwNTA=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527495050",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a0a79b2e25962bf049fe4ee4d675b603d8f8f543",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/a0a79b2e25962bf049fe4ee4d675b603d8f8f543",
+          "created_at": "2020-07-09T00:26:59Z"
+        },
+        {
+          "id": 3527522941,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1Mjc1MjI5NDE=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527522941",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "8784eb3f5340a5903420f336647e98a1a2c102e1",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/8784eb3f5340a5903420f336647e98a1a2c102e1",
+          "created_at": "2020-07-09T00:43:06Z"
+        },
+        {
+          "id": 3527584717,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1Mjc1ODQ3MTc=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527584717",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d97d312f86e5f916ea72a5cef88030000ed25934",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/d97d312f86e5f916ea72a5cef88030000ed25934",
+          "created_at": "2020-07-09T01:18:28Z"
+        },
+        {
+          "id": 3527663057,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MzUyNzY2MzA1Nw==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3527663057",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T02:03:14Z",
+          "label": {
+            "name": "scope",
+            "color": "3a6622"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 3,
+      "issue_events_count": 14,
+      "time_to_resolution_days": 1.31,
+      "estimate": "30",
+      "author": "andreoss",
+      "hierarchy": 1,
+      "parent_id": "171-01da2b80",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/jcabi/jcabi-http",
+      "issue_link": "https://github.com/jcabi/jcabi-http/issues/195",
+      "ticket": "171",
+      "done": true,
+      "id": "171-01da2b80",
+      "closed_at": "2020-07-07T20:55:29Z",
+      "created_at": "2020-06-25T18:57:43Z",
+      "body": "Migrate all simple tests to Junit 5. For the sake of smaller PRs, migration can be done in steps 1) All tests classes without @Rule, and @Test(expected = ...) 2) All parameterized tests classes 3) The rest, (i.e dependent on @Rule's and so on) After completing one of the steps, create a new puzzle for the next. After all tests are run by Junit 5 remove this dependency.",
+      "file": "pom.xml",
+      "lines": "151-157",
+      "labels": [
+        "bug",
+        "pdd",
+        "role/DEV"
+      ],
+      "assignees": [],
+      "title": "pom.xml:151-157: Migrate all simple tests to Junit 5. For...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2020-06-28T13:12:09Z",
+          "updated_at": "2020-06-28T13:12:09Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) please, pay attention to this issue",
+          "url": "https://github.com/jcabi/jcabi-http/issues/195#issuecomment-650755040",
+          "id": 650755040
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-06-28T13:47:16Z",
+          "updated_at": "2020-06-28T13:47:16Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#195](https://github.com/jcabi/jcabi-http/issues/195); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/58fefe31-96c9-48ec-a09c-7212108722ca, version: 0.53.15, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/195#issuecomment-650761683",
+          "id": 650761683
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-03T14:48:36Z",
+          "updated_at": "2020-07-03T14:48:36Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#195](https://github.com/jcabi/jcabi-http/issues/195); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/3413a283-a1be-4c54-8d27-b5d6fa4a1b06, version: 0.53.15, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/195#issuecomment-653581841",
+          "id": 653581841
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-07T21:14:00Z",
+          "updated_at": "2020-07-07T21:14:00Z",
+          "body": "Job `gh:jcabi/jcabi-http#195` is not assigned, can't get performer\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/e9c648a2-cdf8-421d-874d-adf26fcfab00, version: 0.53.15, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/195#issuecomment-655138351",
+          "id": 655138351
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3490237233,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzQ5MDIzNzIzMw==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3490237233",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-06-28T13:12:09Z"
+        },
+        {
+          "id": 3490237234,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM0OTAyMzcyMzQ=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3490237234",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-06-28T13:12:09Z"
+        },
+        {
+          "id": 3490237648,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM0OTAyMzc2NDg=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3490237648",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-06-28T13:12:30Z",
+          "label": {
+            "name": "scope",
+            "color": "3a6622"
+          }
+        },
+        {
+          "id": 3490237672,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM0OTAyMzc2NzI=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3490237672",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-06-28T13:12:31Z",
+          "label": {
+            "name": "role/DEV",
+            "color": "581249"
+          }
+        },
+        {
+          "id": 3490282011,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzQ5MDI4MjAxMQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3490282011",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-06-28T13:47:16Z"
+        },
+        {
+          "id": 3490282012,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM0OTAyODIwMTI=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3490282012",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-06-28T13:47:16Z"
+        },
+        {
+          "id": 3511314471,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzUxMTMxNDQ3MQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3511314471",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-03T14:48:36Z"
+        },
+        {
+          "id": 3511314473,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1MTEzMTQ0NzM=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3511314473",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-03T14:48:36Z"
+        },
+        {
+          "id": 3521712510,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MjE3MTI1MTA=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3521712510",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "66319a4ba32252b72a5f20a64c70cc8a80d04a7d",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/66319a4ba32252b72a5f20a64c70cc8a80d04a7d",
+          "created_at": "2020-07-07T18:25:34Z"
+        },
+        {
+          "id": 3521712513,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MjE3MTI1MTM=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3521712513",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6353e0c0b5a96ca811ca3b74affc478eaa56aaab",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/6353e0c0b5a96ca811ca3b74affc478eaa56aaab",
+          "created_at": "2020-07-07T18:25:34Z"
+        },
+        {
+          "id": 3521716940,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MjE3MTY5NDA=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3521716940",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "126299f91b4abe5de436cc71289c058e0c61d258",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/126299f91b4abe5de436cc71289c058e0c61d258",
+          "created_at": "2020-07-07T18:26:48Z"
+        },
+        {
+          "id": 3522337142,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MzUyMjMzNzE0Mg==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3522337142",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-07T21:14:05Z",
+          "label": {
+            "name": "scope",
+            "color": "3a6622"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 12,
+      "time_to_resolution_days": 12.08,
+      "estimate": "30",
+      "author": "andreoss",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/jcabi/jcabi-http",
+      "issue_link": "https://github.com/jcabi/jcabi-http/issues/207",
+      "ticket": "126",
+      "done": true,
+      "id": "126-c5eb9db3",
+      "closed_at": "2020-07-10T12:05:30Z",
+      "created_at": "2020-07-09T10:10:49Z",
+      "body": "Grizzly Server has native mechanism for port reservation. See https://github.com/eclipse-ee4j/grizzly/issues/1001. Use it and remove this method, field for port probably can be removed as well. This should eventually close jcabi-http#116.",
+      "file": "src/main/java/com/jcabi/http/mock/MkGrizzlyContainer.java",
+      "lines": "173-176",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "MkGrizzlyContainer.java:173-176: Grizzly Server has...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2020-07-09T10:18:29Z",
+          "updated_at": "2020-07-09T10:18:29Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) please, pay attention to this issue",
+          "url": "https://github.com/jcabi/jcabi-http/issues/207#issuecomment-656042418",
+          "id": 656042418
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-09T10:19:18Z",
+          "updated_at": "2020-07-09T10:19:18Z",
+          "body": "Job [#207](https://github.com/jcabi/jcabi-http/issues/207) doesn't exist, can't set role\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/6bf6f36b-921e-44bb-88eb-d8b35156fa1c, version: 0.53.15, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/207#issuecomment-656042771",
+          "id": 656042771
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-09T11:11:43Z",
+          "updated_at": "2020-07-09T11:11:43Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#207](https://github.com/jcabi/jcabi-http/issues/207); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/a79003ee-c5ea-44cb-8737-77632ac1fd17, version: 0.53.15, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/207#issuecomment-656065566",
+          "id": 656065566
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-14T11:49:59Z",
+          "updated_at": "2020-07-14T11:49:59Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#207](https://github.com/jcabi/jcabi-http/issues/207); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/d0bc0b8e-9a11-4875-a9a1-31134fb9ce80, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/207#issuecomment-658135597",
+          "id": 658135597
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3529013799,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzUyOTAxMzc5OQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3529013799",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T10:17:41Z"
+        },
+        {
+          "id": 3529013800,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1MjkwMTM4MDA=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3529013800",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T10:17:41Z"
+        },
+        {
+          "id": 3529016907,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzUyOTAxNjkwNw==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3529016907",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T10:18:29Z"
+        },
+        {
+          "id": 3529016909,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1MjkwMTY5MDk=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3529016909",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T10:18:29Z"
+        },
+        {
+          "id": 3529205155,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzUyOTIwNTE1NQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3529205155",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T11:11:43Z"
+        },
+        {
+          "id": 3529205162,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1MjkyMDUxNjI=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3529205162",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-09T11:11:43Z"
+        },
+        {
+          "id": 3532182957,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM1MzIxODI5NTc=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3532182957",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "04b2bccdd4e80a74eced252c02ea6dfbe2805448",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/04b2bccdd4e80a74eced252c02ea6dfbe2805448",
+          "created_at": "2020-07-10T03:12:27Z"
+        },
+        {
+          "id": 3543807287,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzU0MzgwNzI4Nw==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3543807287",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-14T11:49:59Z"
+        },
+        {
+          "id": 3543807290,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1NDM4MDcyOTA=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3543807290",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-14T11:49:59Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 4,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 1.08,
+      "estimate": "30",
+      "author": "@rultor",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/jcabi/jcabi-http",
+      "issue_link": "https://github.com/jcabi/jcabi-http/issues/215",
+      "ticket": "97",
+      "done": true,
+      "id": "97-5ddd4355",
+      "closed_at": "2020-08-28T14:30:13Z",
+      "created_at": "2020-07-25T15:41:37Z",
+      "body": "Strip user info from URI after Auth header is added. Consider adding warnings about the wire applied for Request with header, and without user info.",
+      "file": "src/main/java/com/jcabi/http/wire/BasicAuthWire.java",
+      "lines": "68-70",
+      "labels": [
+        "bug",
+        "pdd",
+        "0crat/role/DEV"
+      ],
+      "assignees": [],
+      "title": "BasicAuthWire.java:68-70: Strip user info from URI after...",
+      "comments": [
+        {
+          "author": "0crat",
+          "created_at": "2020-07-25T16:57:54Z",
+          "updated_at": "2020-07-25T16:57:54Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#215](https://github.com/jcabi/jcabi-http/issues/215); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/fd126b9a-deca-410d-8872-a9563de78f23, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/215#issuecomment-663877197",
+          "id": 663877197
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-07-30T17:46:57Z",
+          "updated_at": "2020-07-30T17:46:57Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#215](https://github.com/jcabi/jcabi-http/issues/215); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/42f68428-ef43-4229-a2d0-cfcdec0d2ab1, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/215#issuecomment-666558903",
+          "id": 666558903
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-08-04T18:50:54Z",
+          "updated_at": "2020-08-04T18:50:54Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#215](https://github.com/jcabi/jcabi-http/issues/215); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/c3d0e827-4528-4a2d-a022-5a6997381d66, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/215#issuecomment-668765329",
+          "id": 668765329
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-08-09T18:59:22Z",
+          "updated_at": "2020-08-09T18:59:22Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#215](https://github.com/jcabi/jcabi-http/issues/215); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/7388f11e-8d32-43aa-af4c-04017176b85d, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/215#issuecomment-671088702",
+          "id": 671088702
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-08-14T19:58:32Z",
+          "updated_at": "2020-08-14T19:58:32Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#215](https://github.com/jcabi/jcabi-http/issues/215); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/92b55f16-b0b3-4a3f-97f4-7fbb760b57b0, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/215#issuecomment-674248402",
+          "id": 674248402
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-08-19T20:39:02Z",
+          "updated_at": "2020-08-19T20:39:02Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#215](https://github.com/jcabi/jcabi-http/issues/215); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/8d044789-cb88-45ec-9c04-ece7510bcbb2, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/215#issuecomment-676677487",
+          "id": 676677487
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-08-24T21:56:30Z",
+          "updated_at": "2020-08-24T21:56:30Z",
+          "body": "@yegor256[/z](https://www.0crat.com/u/yegor256) everybody who has role `DEV` is banned at [#215](https://github.com/jcabi/jcabi-http/issues/215); I won't be able to assign anyone automatically; consider assigning someone manually (as in [§19](http://www.zerocracy.com/policy.html#19)), or invite more people (as in [§51](http://www.zerocracy.com/policy.html#51)), or remove the job from the scope (as in [§14](http://www.zerocracy.com/policy.html#14))\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/d07116e0-a155-450c-bcf1-0320a92ec436, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/215#issuecomment-679386971",
+          "id": 679386971
+        },
+        {
+          "author": "0crat",
+          "created_at": "2020-08-28T14:52:33Z",
+          "updated_at": "2020-08-28T14:52:33Z",
+          "body": "Job `gh:jcabi/jcabi-http#215` is not assigned, can't get performer\n\n<!-- https://www.0crat.com/footprint/C3RUBL5H9/65bb2394-f31a-4924-9319-500b64998f28, version: 0.54.5, hash: ${buildNumber} -->",
+          "url": "https://github.com/jcabi/jcabi-http/issues/215#issuecomment-682656591",
+          "id": 682656591
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 3586368466,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM1ODYzNjg0NjY=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3586368466",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-25T15:51:50Z",
+          "label": {
+            "name": "0crat/new",
+            "color": "e4e669"
+          }
+        },
+        {
+          "id": 3586371642,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MzU4NjM3MTY0Mg==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3586371642",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-25T15:56:35Z",
+          "label": {
+            "name": "0crat/new",
+            "color": "e4e669"
+          }
+        },
+        {
+          "id": 3586371650,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM1ODYzNzE2NTA=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3586371650",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-25T15:56:36Z",
+          "label": {
+            "name": "0crat/scope",
+            "color": "3a6622"
+          }
+        },
+        {
+          "id": 3586371668,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDM1ODYzNzE2Njg=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3586371668",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-25T15:56:37Z",
+          "label": {
+            "name": "0crat/role/DEV",
+            "color": "581249"
+          }
+        },
+        {
+          "id": 3586415280,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzU4NjQxNTI4MA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3586415280",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-25T16:57:54Z"
+        },
+        {
+          "id": 3586415281,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM1ODY0MTUyODE=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3586415281",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-25T16:57:54Z"
+        },
+        {
+          "id": 3605060414,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzYwNTA2MDQxNA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3605060414",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-30T17:46:57Z"
+        },
+        {
+          "id": 3605060418,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM2MDUwNjA0MTg=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3605060418",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-07-30T17:46:57Z"
+        },
+        {
+          "id": 3621551980,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzYyMTU1MTk4MA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3621551980",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-04T18:50:54Z"
+        },
+        {
+          "id": 3621551985,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM2MjE1NTE5ODU=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3621551985",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-04T18:50:54Z"
+        },
+        {
+          "id": 3636697725,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzYzNjY5NzcyNQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3636697725",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-09T18:59:22Z"
+        },
+        {
+          "id": 3636697726,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM2MzY2OTc3MjY=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3636697726",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-09T18:59:22Z"
+        },
+        {
+          "id": 3657524995,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzY1NzUyNDk5NQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3657524995",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-14T19:58:32Z"
+        },
+        {
+          "id": 3657524996,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM2NTc1MjQ5OTY=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3657524996",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-14T19:58:33Z"
+        },
+        {
+          "id": 3672522189,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzY3MjUyMjE4OQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3672522189",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-19T20:39:02Z"
+        },
+        {
+          "id": 3672522193,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM2NzI1MjIxOTM=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3672522193",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-19T20:39:02Z"
+        },
+        {
+          "id": 3682762171,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDM2ODI3NjIxNzE=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3682762171",
+          "actor": {
+            "id": 49783909,
+            "url": "https://api.github.com/users/andreoss",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e77d8e16a26d4caff88457e256c519392e8886ee",
+          "commit_url": "https://api.github.com/repos/andreoss/jcabi-http/commits/e77d8e16a26d4caff88457e256c519392e8886ee",
+          "created_at": "2020-08-23T11:55:01Z"
+        },
+        {
+          "id": 3687378300,
+          "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MzY4NzM3ODMwMA==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3687378300",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "mentioned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-24T21:56:30Z"
+        },
+        {
+          "id": 3687378301,
+          "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDM2ODczNzgzMDE=",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3687378301",
+          "actor": {
+            "id": 526301,
+            "url": "https://api.github.com/users/yegor256",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "subscribed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-24T21:56:30Z"
+        },
+        {
+          "id": 3704309819,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MzcwNDMwOTgxOQ==",
+          "url": "https://api.github.com/repos/jcabi/jcabi-http/issues/events/3704309819",
+          "actor": {
+            "id": 24387511,
+            "url": "https://api.github.com/users/0crat",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2020-08-28T14:53:20Z",
+          "label": {
+            "name": "0crat/scope",
+            "color": "3a6622"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 8,
+      "issue_events_count": 20,
+      "time_to_resolution_days": 33.95,
+      "estimate": "30",
+      "author": "andreoss",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 152,
+  "project_forks": 64,
+  "project_contributors_count": 38,
+  "first_issue_date": "2016-01-15T11:03:29Z",
+  "last_issue_date": "2020-07-25T15:41:37Z"
+}

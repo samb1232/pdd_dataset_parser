@@ -1,0 +1,2106 @@
+{
+  "project_link": "https://github.com/proshin-roman/finapi-java-client",
+  "issues_count": 25,
+  "issues": [
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/13",
+      "ticket": "8",
+      "done": true,
+      "id": "8-13f76134",
+      "closed_at": "2018-11-05T12:23:57Z",
+      "created_at": "2018-08-25T14:07:57Z",
+      "body": "Find a way to generalize paging stuff for input criterias. It should a single (or multiple) general implementation that allows to get rid of copy-pasting for paging.",
+      "file": "src/main/java/org/proshin/finapi/bank/in/QueryCriteria.java",
+      "lines": "23-24",
+      "labels": [],
+      "assignees": [],
+      "title": "QueryCriteria.java:23-24: Find a way to generalize paging...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 71.93,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/42",
+      "ticket": "38",
+      "done": true,
+      "id": "38-5fdcd749",
+      "closed_at": "2019-05-01T20:05:09Z",
+      "created_at": "2018-10-13T19:34:56Z",
+      "body": "Write a test for FpPaging class.",
+      "file": "src/main/java/org/proshin/finapi/primitives/FpPaging.java",
+      "lines": "22-22",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Write a test for FpPaging class.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2312719134,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIzMTI3MTkxMzQ=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312719134",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "f1dfccc41828329aec02ae6364de2d555e3e9e70",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/f1dfccc41828329aec02ae6364de2d555e3e9e70",
+          "created_at": "2019-05-01T20:00:39Z"
+        },
+        {
+          "id": 2312720023,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIzMTI3MjAwMjM=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312720023",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-05-01T20:00:58Z",
+          "milestone": {
+            "title": "v0.1.70"
+          }
+        },
+        {
+          "id": 2312728450,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjMxMjcyODQ1MA==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312728450",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "81ee4eff4c60fa97c9988bcce80127f5718bcdbc",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/81ee4eff4c60fa97c9988bcce80127f5718bcdbc",
+          "created_at": "2019-05-01T20:05:01Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 200.02,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 2,
+      "parent_id": "14-3c717faa",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/43",
+      "ticket": "38",
+      "done": true,
+      "id": "38-627238dd",
+      "closed_at": "2019-01-19T13:30:30Z",
+      "created_at": "2018-10-13T19:34:56Z",
+      "body": "Write a test for FpPage class.",
+      "file": "src/main/java/org/proshin/finapi/primitives/FpPage.java",
+      "lines": "25-25",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Write a test for FpPage class.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2084511894,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwODQ1MTE4OTQ=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2084511894",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e7cd54610f9291abcb13753b7e93d5a84f8d5bad",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/e7cd54610f9291abcb13753b7e93d5a84f8d5bad",
+          "created_at": "2019-01-19T13:08:50Z"
+        },
+        {
+          "id": 2084520350,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIwODQ1MjAzNTA=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2084520350",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-01-19T13:32:15Z",
+          "milestone": {
+            "title": "v0.1.60"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 97.75,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 2,
+      "parent_id": "14-3c717faa",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/38",
+      "ticket": "14",
+      "done": true,
+      "id": "14-3c717faa",
+      "closed_at": "2018-10-13T19:42:24Z",
+      "created_at": "2018-08-26T14:32:34Z",
+      "body": "Implement paging for service \"Banks - Get and search all banks\" (find a way to make it generic)",
+      "file": "src/main/java/org/proshin/finapi/bank/FpBanks.java",
+      "lines": "47-47",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "proshin-roman"
+      ],
+      "title": "Implement paging for service \"Banks - Get and search all banks\" (find a way to make it generic)",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1809376729,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE4MDkzNzY3Mjk=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809376729",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-26T14:44:00Z",
+          "milestone": {
+            "title": "v0.1.54"
+          }
+        },
+        {
+          "id": 1902301822,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5MDIzMDE4MjI=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1902301822",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "013262734726c95b6348cce6b757c246969c46e3",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/013262734726c95b6348cce6b757c246969c46e3",
+          "created_at": "2018-10-13T19:35:26Z"
+        },
+        {
+          "id": 1902301884,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxOTAyMzAxODg0",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1902301884",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-10-13T19:35:35Z",
+          "assignee": {
+            "login": "proshin-roman",
+            "id": 3031372,
+            "node_id": "MDQ6VXNlcjMwMzEzNzI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3031372?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/proshin-roman",
+            "html_url": "https://github.com/proshin-roman",
+            "followers_url": "https://api.github.com/users/proshin-roman/followers",
+            "following_url": "https://api.github.com/users/proshin-roman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/proshin-roman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/proshin-roman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/proshin-roman/subscriptions",
+            "organizations_url": "https://api.github.com/users/proshin-roman/orgs",
+            "repos_url": "https://api.github.com/users/proshin-roman/repos",
+            "events_url": "https://api.github.com/users/proshin-roman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/proshin-roman/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "proshin-roman",
+            "id": 3031372,
+            "node_id": "MDQ6VXNlcjMwMzEzNzI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3031372?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/proshin-roman",
+            "html_url": "https://github.com/proshin-roman",
+            "followers_url": "https://api.github.com/users/proshin-roman/followers",
+            "following_url": "https://api.github.com/users/proshin-roman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/proshin-roman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/proshin-roman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/proshin-roman/subscriptions",
+            "organizations_url": "https://api.github.com/users/proshin-roman/orgs",
+            "repos_url": "https://api.github.com/users/proshin-roman/repos",
+            "events_url": "https://api.github.com/users/proshin-roman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/proshin-roman/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 48.22,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 1,
+      "parent_id": "8-aa4baa15",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/74",
+      "ticket": "14",
+      "done": true,
+      "id": "14-3e81ebaf",
+      "closed_at": "2019-05-01T20:36:07Z",
+      "created_at": "2018-11-05T12:19:45Z",
+      "body": "Write tests for FpBank/FpBanks classes.",
+      "file": "src/main/java/org/proshin/finapi/bank/Banks.java",
+      "lines": "22-22",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Write tests for FpBank/FpBanks classes.",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2312795417,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIzMTI3OTU0MTc=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312795417",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "b0109c829fe2931d9914459a1b9b94196283cac6",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/b0109c829fe2931d9914459a1b9b94196283cac6",
+          "created_at": "2019-05-01T20:31:41Z"
+        },
+        {
+          "id": 2312796422,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIzMTI3OTY0MjI=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312796422",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-05-01T20:32:01Z",
+          "milestone": {
+            "title": "v0.1.70"
+          }
+        },
+        {
+          "id": 2312806973,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjMxMjgwNjk3Mw==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312806973",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "7e1003862af997ce13bcf253285b32665574ea9a",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/7e1003862af997ce13bcf253285b32665574ea9a",
+          "created_at": "2019-05-01T20:35:58Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 177.34,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 1,
+      "parent_id": "8-aa4baa15",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/14",
+      "ticket": "8",
+      "done": true,
+      "id": "8-aa4baa15",
+      "closed_at": "2018-11-05T12:23:59Z",
+      "created_at": "2018-08-25T13:58:12Z",
+      "body": "Fix state of Banks services: make sure all cases/services are implemented and fixed using unit tests.",
+      "file": "src/main/java/org/proshin/finapi/bank/Banks.java",
+      "lines": "21-21",
+      "labels": [],
+      "assignees": [],
+      "title": "Stabilize code of Banks services: finish implementation and write tests",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1809112383,
+          "node_id": "MDE3OlJlbmFtZWRUaXRsZUV2ZW50MTgwOTExMjM4Mw==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809112383",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "renamed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:41:17Z",
+          "rename": {
+            "from": "Banks.java:21: Fix state of Banks services: make sure all...",
+            "to": "Stabilize code of Banks services: finish implementation and write tests"
+          }
+        },
+        {
+          "id": 1809112413,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE4MDkxMTI0MTM=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809112413",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:41:23Z",
+          "milestone": {
+            "title": "v0.1.54"
+          }
+        },
+        {
+          "id": 1809112430,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4MDkxMTI0MzA=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809112430",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:41:28Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1809112881,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTgwOTExMjg4MQ==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809112881",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:43:00Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1809112938,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4MDkxMTI5Mzg=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809112938",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:43:11Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1809112961,
+          "node_id": "MDE3OkRlbWlsZXN0b25lZEV2ZW50MTgwOTExMjk2MQ==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809112961",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "demilestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:43:21Z",
+          "milestone": {
+            "title": "v0.1.54"
+          }
+        },
+        {
+          "id": 1809113021,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE4MDkxMTMwMjE=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809113021",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:43:34Z",
+          "milestone": {
+            "title": "v0.1.54"
+          }
+        },
+        {
+          "id": 1809113425,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTgwOTExMzQyNQ==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809113425",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:44:57Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1809113459,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE4MDkxMTM0NTk=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809113459",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:45:03Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1809113497,
+          "node_id": "MDE3OkRlbWlsZXN0b25lZEV2ZW50MTgwOTExMzQ5Nw==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809113497",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "demilestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:45:08Z",
+          "milestone": {
+            "title": "v0.1.54"
+          }
+        },
+        {
+          "id": 1809113514,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE4MDkxMTM1MTQ=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809113514",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-08-25T19:45:13Z",
+          "milestone": {
+            "title": "v0.1.54"
+          }
+        },
+        {
+          "id": 1809371225,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE4MDkzNzEyMjU=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809371225",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "975be3c5022937c2a587712cbad622a54b767b88",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/975be3c5022937c2a587712cbad622a54b767b88",
+          "created_at": "2018-08-26T14:27:25Z"
+        },
+        {
+          "id": 1809373015,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE4MDkzNzMwMTU=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1809373015",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "93df483fd07a025cc887f00b2eacc4294044d260",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/93df483fd07a025cc887f00b2eacc4294044d260",
+          "created_at": "2018-08-26T14:32:43Z"
+        },
+        {
+          "id": 1930760923,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTkzMDc2MDkyMw==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1930760923",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-10-28T12:59:05Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1946063803,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5NDYwNjM4MDM=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/1946063803",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "840d3bb1be16f0e9dc627baedb2b989e7a95a4e5",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/840d3bb1be16f0e9dc627baedb2b989e7a95a4e5",
+          "created_at": "2018-11-05T12:20:01Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 15,
+      "time_to_resolution_days": 71.93,
+      "estimate": "30",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/34",
+      "ticket": "32",
+      "done": true,
+      "id": "32-187cdbbc",
+      "closed_at": "2019-05-01T12:27:34Z",
+      "created_at": "2018-08-26T13:02:49Z",
+      "body": "Test this method: assert that methods submits the right request",
+      "file": "src/main/java/org/proshin/finapi/accesstoken/FpAccessTokens.java",
+      "lines": "86-86",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Test this method: assert that methods submits the right request",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2311756085,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIzMTE3NTYwODU=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2311756085",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "64b34be39e3f5ac63b5ef82e18d7d4637791a261",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/64b34be39e3f5ac63b5ef82e18d7d4637791a261",
+          "created_at": "2019-05-01T12:20:47Z"
+        },
+        {
+          "id": 2311756455,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIzMTE3NTY0NTU=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2311756455",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-05-01T12:21:00Z",
+          "milestone": {
+            "title": "v0.1.70"
+          }
+        },
+        {
+          "id": 2311764334,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjMxMTc2NDMzNA==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2311764334",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "64b34be39e3f5ac63b5ef82e18d7d4637791a261",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/64b34be39e3f5ac63b5ef82e18d7d4637791a261",
+          "created_at": "2019-05-01T12:27:30Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 247.98,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/122",
+      "ticket": "46",
+      "done": true,
+      "id": "46-9714cd58",
+      "closed_at": "2019-02-16T11:15:15Z",
+      "created_at": "2019-02-16T10:55:23Z",
+      "body": "Fix a path in org.proshin.finapi.bankconnection.FpBankConnections#query(java.lang.Iterable) - it should start with /",
+      "file": "src/test/java/org/proshin/finapi/bankconnection/FpBankConnectionsTest.java",
+      "lines": "131-132",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Fix a path in...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2144135706,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIxNDQxMzU3MDY=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144135706",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-02-16T11:02:28Z",
+          "milestone": {
+            "title": "v0.1.61"
+          }
+        },
+        {
+          "id": 2144137047,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIxNDQxMzcwNDc=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144137047",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a28bf6c81fa33c6418a71ec754b9db6e32384f3d",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/a28bf6c81fa33c6418a71ec754b9db6e32384f3d",
+          "created_at": "2019-02-16T11:06:24Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.01,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 1,
+      "parent_id": "20-cd0c1d70",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/123",
+      "ticket": "46",
+      "done": true,
+      "id": "46-db29cf43",
+      "closed_at": "2019-05-01T19:53:43Z",
+      "created_at": "2019-02-16T10:55:23Z",
+      "body": "Assert all fields of the bank connection and make sure they are parsed as expected. Think about refactoring this method to a new matcher.",
+      "file": "src/test/java/org/proshin/finapi/bankconnection/FpBankConnectionsTest.java",
+      "lines": "453-454",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Assert all fields of the bank connection and make sure they...",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 74.37,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 1,
+      "parent_id": "20-cd0c1d70",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/46",
+      "ticket": "20",
+      "done": true,
+      "id": "20-cd0c1d70",
+      "closed_at": "2019-02-16T11:01:43Z",
+      "created_at": "2018-10-13T21:04:14Z",
+      "body": "Cover FpBankConnections by unit tests with mocked JSON structures.",
+      "file": "src/main/java/org/proshin/finapi/bankconnection/FpBankConnections.java",
+      "lines": "36-36",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [
+        "proshin-roman"
+      ],
+      "title": "Cover FpBankConnections by unit tests with mocked JSON...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2144133337,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIxNDQxMzMzMzc=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144133337",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5ec186e689e319d8d037bdfd984cb0b6d85184f5",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/5ec186e689e319d8d037bdfd984cb0b6d85184f5",
+          "created_at": "2019-02-16T10:55:30Z"
+        },
+        {
+          "id": 2144133387,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIxNDQxMzMzODc=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144133387",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-02-16T10:55:40Z",
+          "milestone": {
+            "title": "v0.1.61"
+          }
+        },
+        {
+          "id": 2144133417,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQyMTQ0MTMzNDE3",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144133417",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-02-16T10:55:46Z",
+          "assignee": {
+            "login": "proshin-roman",
+            "id": 3031372,
+            "node_id": "MDQ6VXNlcjMwMzEzNzI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3031372?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/proshin-roman",
+            "html_url": "https://github.com/proshin-roman",
+            "followers_url": "https://api.github.com/users/proshin-roman/followers",
+            "following_url": "https://api.github.com/users/proshin-roman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/proshin-roman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/proshin-roman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/proshin-roman/subscriptions",
+            "organizations_url": "https://api.github.com/users/proshin-roman/orgs",
+            "repos_url": "https://api.github.com/users/proshin-roman/repos",
+            "events_url": "https://api.github.com/users/proshin-roman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/proshin-roman/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "proshin-roman",
+            "id": 3031372,
+            "node_id": "MDQ6VXNlcjMwMzEzNzI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3031372?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/proshin-roman",
+            "html_url": "https://github.com/proshin-roman",
+            "followers_url": "https://api.github.com/users/proshin-roman/followers",
+            "following_url": "https://api.github.com/users/proshin-roman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/proshin-roman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/proshin-roman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/proshin-roman/subscriptions",
+            "organizations_url": "https://api.github.com/users/proshin-roman/orgs",
+            "repos_url": "https://api.github.com/users/proshin-roman/repos",
+            "events_url": "https://api.github.com/users/proshin-roman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/proshin-roman/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 125.58,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/47",
+      "ticket": "20",
+      "done": true,
+      "id": "20-04e79bd8",
+      "closed_at": "2019-05-01T19:53:44Z",
+      "created_at": "2018-10-13T21:04:14Z",
+      "body": "Cover FpBankConnection by unit tests with mocked JSON structures.",
+      "file": "src/main/java/org/proshin/finapi/bankconnection/FpBankConnection.java",
+      "lines": "45-45",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Cover FpBankConnection by unit tests with mocked JSON...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2312693759,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIzMTI2OTM3NTk=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312693759",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5c3fb398f15939d5e7f3377c24f050d75e981a5b",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/5c3fb398f15939d5e7f3377c24f050d75e981a5b",
+          "created_at": "2019-05-01T19:48:35Z"
+        },
+        {
+          "id": 2312700172,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIzMTI3MDAxNzI=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312700172",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-05-01T19:51:43Z",
+          "milestone": {
+            "title": "v0.1.70"
+          }
+        },
+        {
+          "id": 2312704210,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjMxMjcwNDIxMA==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2312704210",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "c85a5b50513ca3894131317b9f2cdebef0ec75a2",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/c85a5b50513ca3894131317b9f2cdebef0ec75a2",
+          "created_at": "2019-05-01T19:53:38Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 199.95,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/109",
+      "ticket": "69",
+      "done": true,
+      "id": "69-1c011289",
+      "closed_at": "2019-05-01T22:20:53Z",
+      "created_at": "2019-01-19T13:38:35Z",
+      "body": "Create infrastructure for tests which will validate submitted data so that tests can assure that the library submits correct JSON structures to the API (valid URL + HTTP method + auth header + JSON body).",
+      "file": "src/main/java/org/proshin/finapi/account/FpAccount.java",
+      "lines": "163-164",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Create infrastructure for tests which will validate submitted...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2313045051,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIzMTMwNDUwNTE=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2313045051",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "dc1fc65803a241bb99ee3df94b0e66277e268b3e",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/dc1fc65803a241bb99ee3df94b0e66277e268b3e",
+          "created_at": "2019-05-01T22:16:30Z"
+        },
+        {
+          "id": 2313045726,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIzMTMwNDU3MjY=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2313045726",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-05-01T22:16:48Z",
+          "milestone": {
+            "title": "v0.1.70"
+          }
+        },
+        {
+          "id": 2313054101,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MjMxMzA1NDEwMQ==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2313054101",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "fe16e395056bbc38e00770caef7ce1cf01001939",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/fe16e395056bbc38e00770caef7ce1cf01001939",
+          "created_at": "2019-05-01T22:20:49Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 102.36,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 1,
+      "parent_id": "21-a5443397",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/69",
+      "ticket": "21",
+      "done": true,
+      "id": "21-a5443397",
+      "closed_at": "2019-01-19T13:47:45Z",
+      "created_at": "2018-10-24T21:19:00Z",
+      "body": "Write unit tests for FpAccount class",
+      "file": "src/main/java/org/proshin/finapi/account/FpAccount.java",
+      "lines": "40-40",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Write unit tests for FpAccount class",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2084522550,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwODQ1MjI1NTA=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2084522550",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "6b61282797927aab0aafcec6e632d217a7595cda",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/6b61282797927aab0aafcec6e632d217a7595cda",
+          "created_at": "2019-01-19T13:38:41Z"
+        },
+        {
+          "id": 2084522598,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIwODQ1MjI1OTg=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2084522598",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-01-19T13:38:52Z",
+          "milestone": {
+            "title": "v0.1.60"
+          }
+        },
+        {
+          "id": 2084526156,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwODQ1MjYxNTY=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2084526156",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "61c63294ad4caf278718745af8e4f7425dfa255d",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/61c63294ad4caf278718745af8e4f7425dfa255d",
+          "created_at": "2019-01-19T13:44:48Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 86.69,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/71",
+      "ticket": "21",
+      "done": true,
+      "id": "21-ebdc1456",
+      "closed_at": "2019-04-21T13:58:34Z",
+      "created_at": "2018-10-24T21:19:00Z",
+      "body": "Write unit tests for FpAccounts",
+      "file": "src/main/java/org/proshin/finapi/account/FpAccounts.java",
+      "lines": "26-26",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Write unit tests for FpAccounts",
+      "comments": [],
+      "issue_events": [],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 0,
+      "time_to_resolution_days": 178.69,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/138",
+      "ticket": "130",
+      "done": true,
+      "id": "130-4183f3d2",
+      "closed_at": "2019-02-16T13:49:26Z",
+      "created_at": "2019-02-16T13:03:12Z",
+      "body": "Write a unit test for \"Payments / Get payments\" endpoint",
+      "file": "src/main/java/org/proshin/finapi/payment/Payments.java",
+      "lines": "24-24",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Write a unit test for \"Payments / Get payments\" endpoint",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2144181133,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIxNDQxODExMzM=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144181133",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-02-16T13:18:19Z",
+          "milestone": {
+            "title": "v0.1.64"
+          }
+        },
+        {
+          "id": 2144191188,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIxNDQxOTExODg=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144191188",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "48125f89878ee3ea6c96a8cad531bca53a6b16b1",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/48125f89878ee3ea6c96a8cad531bca53a6b16b1",
+          "created_at": "2019-02-16T13:46:53Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.03,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/143",
+      "ticket": "139",
+      "done": true,
+      "id": "139-69030b2f",
+      "closed_at": "2019-05-01T22:20:55Z",
+      "created_at": "2019-02-16T14:21:41Z",
+      "body": "Migrate existing tests which use this FakeEndpoint class to mock-server as it provides more flexible way specifying expectations/responses",
+      "file": "src/test/java/org/proshin/finapi/fake/FakeEndpoint.java",
+      "lines": "30-31",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Migrate existing tests which use this FakeEndpoint class to...",
+      "comments": [
+        {
+          "author": "proshin-roman",
+          "created_at": "2019-02-16T15:08:02Z",
+          "updated_at": "2019-02-16T15:08:02Z",
+          "body": "More info about the mocking server here: http://www.mock-server.com/mock_server/getting_started.html",
+          "url": "https://github.com/proshin-roman/finapi-java-client/issues/143#issuecomment-464354177",
+          "id": 464354177
+        }
+      ],
+      "issue_events": [
+        {
+          "id": 2313057779,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIzMTMwNTc3Nzk=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2313057779",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-05-01T22:22:33Z",
+          "milestone": {
+            "title": "v0.1.70"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 1,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 74.33,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 1,
+      "parent_id": "130-c3cfd35c",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/139",
+      "ticket": "130",
+      "done": true,
+      "id": "130-c3cfd35c",
+      "closed_at": "2019-02-16T14:27:53Z",
+      "created_at": "2019-02-16T13:03:12Z",
+      "body": "Write a unit test for \"Categories / Edit a category\" endpoint",
+      "file": "src/main/java/org/proshin/finapi/category/FpCategory.java",
+      "lines": "74-74",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Write a unit test for \"Categories / Edit a category\" endpoint",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2144181134,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDIxNDQxODExMzQ=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144181134",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-02-16T13:18:19Z",
+          "milestone": {
+            "title": "v0.1.64"
+          }
+        },
+        {
+          "id": 2144204310,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIxNDQyMDQzMTA=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2144204310",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "79e3eb343907f2a84e1d259bee66b7dccee3434f",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/79e3eb343907f2a84e1d259bee66b7dccee3434f",
+          "created_at": "2019-02-16T14:21:48Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 2,
+      "time_to_resolution_days": 0.06,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/261",
+      "ticket": "240",
+      "done": true,
+      "id": "240-0a8671b5",
+      "closed_at": "2020-02-04T19:33:44Z",
+      "created_at": "2019-12-26T16:14:24Z",
+      "body": "Define all parameters supported by \"Edit a set of TPP credentials\" endpoint",
+      "file": "src/main/java/org/proshin/finapi/tppcredential/in/EditTppCredentialParameters.java",
+      "lines": "21-21",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Define all parameters supported by \"Edit a set of TPP...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912642191,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDI5MTI2NDIxOTE=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2912642191",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-29T16:51:20Z",
+          "milestone": {
+            "title": "v0.1.92"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 40.14,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/262",
+      "ticket": "240",
+      "done": true,
+      "id": "240-f094b8d9",
+      "closed_at": "2020-02-04T19:33:50Z",
+      "created_at": "2019-12-26T16:14:24Z",
+      "body": "Define all parameters supported by \"Get all TPP Authentication Groups\" endpoint",
+      "file": "src/main/java/org/proshin/finapi/tppcredential/in/QueryTppAuthenticationGroupsCriteria.java",
+      "lines": "23-23",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Define all parameters supported by \"Get all TPP...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912642195,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDI5MTI2NDIxOTU=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2912642195",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-29T16:51:21Z",
+          "milestone": {
+            "title": "v0.1.92"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 40.14,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/263",
+      "ticket": "240",
+      "done": true,
+      "id": "240-1cce1227",
+      "closed_at": "2020-02-04T19:33:56Z",
+      "created_at": "2019-12-26T16:14:24Z",
+      "body": "Define all parameters supported by \"Get all TPP credentials\" endpoint",
+      "file": "src/main/java/org/proshin/finapi/tppcredential/in/QueryTppCredentialsCriteria.java",
+      "lines": "23-23",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Define all parameters supported by \"Get all TPP credentials\"...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912642196,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDI5MTI2NDIxOTY=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2912642196",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-29T16:51:21Z",
+          "milestone": {
+            "title": "v0.1.92"
+          }
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 1,
+      "time_to_resolution_days": 40.14,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/264",
+      "ticket": "240",
+      "done": true,
+      "id": "240-aa44702e",
+      "closed_at": "2020-01-21T22:17:17Z",
+      "created_at": "2019-12-26T16:14:24Z",
+      "body": "Define all parameters supported by \"Create new TPP credentials\" endpoint",
+      "file": "src/main/java/org/proshin/finapi/tppcredential/in/CreateTppCredentialParameters.java",
+      "lines": "21-21",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Define all parameters supported by \"Create new TPP...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912642200,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDI5MTI2NDIyMDA=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2912642200",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-29T16:51:21Z",
+          "milestone": {
+            "title": "v0.1.92"
+          }
+        },
+        {
+          "id": 2967959935,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5Njc5NTk5MzU=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967959935",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "514f73dd425346e5d0e2b1cd9f618ba4de909630",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/514f73dd425346e5d0e2b1cd9f618ba4de909630",
+          "created_at": "2020-01-21T22:08:00Z"
+        },
+        {
+          "id": 2967987402,
+          "node_id": "MDExOkNsb3NlZEV2ZW50Mjk2Nzk4NzQwMg==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967987402",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "514f73dd425346e5d0e2b1cd9f618ba4de909630",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/514f73dd425346e5d0e2b1cd9f618ba4de909630",
+          "created_at": "2020-01-21T22:17:06Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 26.25,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/265",
+      "ticket": "240",
+      "done": true,
+      "id": "240-151bdcb9",
+      "closed_at": "2020-01-21T22:10:37Z",
+      "created_at": "2019-12-26T16:14:24Z",
+      "body": "Find and mark as deprecated all fields that became deprecated due to PSD2-related changes",
+      "file": "src/main/java/org/proshin/finapi/account/Account.java",
+      "lines": "28-28",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Find and mark as deprecated all fields that became deprecated...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912642203,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDI5MTI2NDIyMDM=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2912642203",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-29T16:51:21Z",
+          "milestone": {
+            "title": "v0.1.92"
+          }
+        },
+        {
+          "id": 2967930373,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5Njc5MzAzNzM=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967930373",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "20d288084228a40d44cf7c2742519d5a1e51db71",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/20d288084228a40d44cf7c2742519d5a1e51db71",
+          "created_at": "2020-01-21T21:59:05Z"
+        },
+        {
+          "id": 2967967262,
+          "node_id": "MDExOkNsb3NlZEV2ZW50Mjk2Nzk2NzI2Mg==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967967262",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "20d288084228a40d44cf7c2742519d5a1e51db71",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/20d288084228a40d44cf7c2742519d5a1e51db71",
+          "created_at": "2020-01-21T22:10:24Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 26.25,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/266",
+      "ticket": "240",
+      "done": true,
+      "id": "240-b59b1e87",
+      "closed_at": "2020-01-21T21:33:56Z",
+      "created_at": "2019-12-26T16:14:24Z",
+      "body": "Define all parameters supported by \"Get all certificates\" endpoint",
+      "file": "src/main/java/org/proshin/finapi/tppcertificate/in/QueryTppCertificatesCriteria.java",
+      "lines": "23-23",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Define all parameters supported by \"Get all certificates\"...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912642206,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDI5MTI2NDIyMDY=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2912642206",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-29T16:51:22Z",
+          "milestone": {
+            "title": "v0.1.92"
+          }
+        },
+        {
+          "id": 2967829996,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5Njc4Mjk5OTY=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967829996",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "563a9bf52beb3c043ef2828d7b0be4328a4b4618",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/563a9bf52beb3c043ef2828d7b0be4328a4b4618",
+          "created_at": "2020-01-21T21:25:49Z"
+        },
+        {
+          "id": 2967853443,
+          "node_id": "MDExOkNsb3NlZEV2ZW50Mjk2Nzg1MzQ0Mw==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967853443",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "563a9bf52beb3c043ef2828d7b0be4328a4b4618",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/563a9bf52beb3c043ef2828d7b0be4328a4b4618",
+          "created_at": "2020-01-21T21:33:44Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 26.22,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/267",
+      "ticket": "240",
+      "done": true,
+      "id": "240-b8d747ad",
+      "closed_at": "2020-01-21T21:20:23Z",
+      "created_at": "2019-12-26T16:14:24Z",
+      "body": "Define all parameters supported by \"Create a new certificate\" endpoint",
+      "file": "src/main/java/org/proshin/finapi/tppcertificate/in/CreateTppCertificateParameters.java",
+      "lines": "21-21",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Define all parameters supported by \"Create a new certificate\"...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912642209,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDI5MTI2NDIyMDk=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2912642209",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-29T16:51:22Z",
+          "milestone": {
+            "title": "v0.1.92"
+          }
+        },
+        {
+          "id": 2967781482,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5Njc3ODE0ODI=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967781482",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d1918e0ee61fb42d5ce064849d3c64d71facffca",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/d1918e0ee61fb42d5ce064849d3c64d71facffca",
+          "created_at": "2020-01-21T21:09:21Z"
+        },
+        {
+          "id": 2967813048,
+          "node_id": "MDExOkNsb3NlZEV2ZW50Mjk2NzgxMzA0OA==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967813048",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "d1918e0ee61fb42d5ce064849d3c64d71facffca",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/d1918e0ee61fb42d5ce064849d3c64d71facffca",
+          "created_at": "2020-01-21T21:20:10Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 26.21,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/proshin-roman/finapi-java-client",
+      "issue_link": "https://github.com/proshin-roman/finapi-java-client/issues/268",
+      "ticket": "240",
+      "done": true,
+      "id": "240-1a46962f",
+      "closed_at": "2020-01-21T21:13:37Z",
+      "created_at": "2019-12-26T16:14:24Z",
+      "body": "Add parameters of the Connect a new interface REST endpoint",
+      "file": "src/main/java/org/proshin/finapi/bankconnection/in/ConnectInterfaceParameters.java",
+      "lines": "21-21",
+      "labels": [
+        "bug",
+        "pdd"
+      ],
+      "assignees": [],
+      "title": "Add parameters of the Connect a new interface REST endpoint",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 2912642214,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDI5MTI2NDIyMTQ=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2912642214",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2019-12-29T16:51:22Z",
+          "milestone": {
+            "title": "v0.1.92"
+          }
+        },
+        {
+          "id": 2967732979,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI5Njc3MzI5Nzk=",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967732979",
+          "actor": {
+            "id": 3031372,
+            "url": "https://api.github.com/users/proshin-roman",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "efec757a45af903884f4e4a5a0fbad0191b7f047",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/efec757a45af903884f4e4a5a0fbad0191b7f047",
+          "created_at": "2020-01-21T20:52:35Z"
+        },
+        {
+          "id": 2967792729,
+          "node_id": "MDExOkNsb3NlZEV2ZW50Mjk2Nzc5MjcyOQ==",
+          "url": "https://api.github.com/repos/proshin-roman/finapi-java-client/issues/events/2967792729",
+          "actor": {
+            "id": 8086956,
+            "url": "https://api.github.com/users/rultor",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": "efec757a45af903884f4e4a5a0fbad0191b7f047",
+          "commit_url": "https://api.github.com/repos/proshin-roman/finapi-java-client/commits/efec757a45af903884f4e4a5a0fbad0191b7f047",
+          "created_at": "2020-01-21T21:13:25Z",
+          "state_reason": null
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": false
+      },
+      "comments_count": 0,
+      "issue_events_count": 3,
+      "time_to_resolution_days": 26.21,
+      "estimate": "0",
+      "author": "Roman Proshin",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 22,
+  "project_forks": 6,
+  "project_contributors_count": 9,
+  "first_issue_date": "2018-08-25T13:58:12Z",
+  "last_issue_date": "2019-12-26T16:14:24Z"
+}

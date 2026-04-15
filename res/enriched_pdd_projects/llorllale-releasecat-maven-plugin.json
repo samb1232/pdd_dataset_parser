@@ -1,0 +1,1823 @@
+{
+  "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+  "issues_count": 11,
+  "issues": [
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/7",
+      "ticket": "3",
+      "done": true,
+      "id": "3-ac554e9c",
+      "closed_at": "2018-04-12T19:11:48Z",
+      "created_at": "2018-03-13T15:55:53Z",
+      "body": "jcabi-github should not be prepopulating optional attributes of fake releases with default values like this. That's why this test is checking for 'Description of the release'. I've opened https://github.com/jcabi/jcabi-github/issues/1362 for this issue. When that is fixed, come back here and refactor this test.",
+      "file": "src/test/java/org/llorllale/mvn/plgn/releasecat/UploadTest.java",
+      "lines": "125-128",
+      "labels": [
+        "bug",
+        "jcabi-github"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "UploadTest.java:125-128: jcabi-github should not be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1518968467,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MTg5Njg0Njc=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518968467",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T16:01:19Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        },
+        {
+          "id": 1529597388,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1Mjk1OTczODg=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529597388",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-19T21:37:03Z",
+          "label": {
+            "name": "jcabi-github",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 1571740334,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNTcxNzQwMzM0",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571740334",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-12T18:59:21Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1571740392,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1NzE3NDAzOTI=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571740392",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-12T18:59:24Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1571749816,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzE3NDk4MTY=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571749816",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e84df42e2f4537560aad6111eb150fe0ce1603a9",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/e84df42e2f4537560aad6111eb150fe0ce1603a9",
+          "created_at": "2018-04-12T19:04:19Z"
+        },
+        {
+          "id": 1571762673,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzE3NjI2NzM=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571762673",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d2de54822b2e8df9b9d97dd0244bc1a97f07416b",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/d2de54822b2e8df9b9d97dd0244bc1a97f07416b",
+          "created_at": "2018-04-12T19:11:46Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 30.14,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "1-fc28441b",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/3",
+      "ticket": "1",
+      "done": true,
+      "id": "1-fc28441b",
+      "closed_at": "2018-03-13T15:57:31Z",
+      "created_at": "2018-03-12T14:45:01Z",
+      "body": "Add description to releases. This will be useful for displaying changelogs directly in the release. Right now we just have the tag and the name.",
+      "file": "src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java",
+      "lines": "38-39",
+      "labels": [],
+      "assignees": [],
+      "title": "Upload.java:38-39: Add description to releases. This will...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1518802480,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MTg4MDI0ODA=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518802480",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "bfddd07fcc8d8307c5f1c2cf29b66c806c9d343d",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/bfddd07fcc8d8307c5f1c2cf29b66c806c9d343d",
+          "created_at": "2018-03-13T15:00:30Z"
+        },
+        {
+          "id": 1518945335,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MTg5NDUzMzU=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518945335",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "79794e51f5e6be3754a641169ec96773e82620c1",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/79794e51f5e6be3754a641169ec96773e82620c1",
+          "created_at": "2018-03-13T15:52:49Z"
+        },
+        {
+          "id": 1518953568,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTUxODk1MzU2OA==",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518953568",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T15:55:54Z",
+          "state_reason": null
+        },
+        {
+          "id": 1518953602,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MTg5NTM2MDI=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518953602",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "aebb959153d20d4779455cf263ccc918751dbf5f",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/aebb959153d20d4779455cf263ccc918751dbf5f",
+          "created_at": "2018-03-13T15:55:54Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": false,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 1.05,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/10",
+      "ticket": "4",
+      "done": true,
+      "id": "4-f67780db",
+      "closed_at": "2018-05-13T12:54:57Z",
+      "created_at": "2018-03-13T18:45:35Z",
+      "body": "jcabi-github has a bug (https://github.com/jcabi/jcabi-github/issues/1363) that makes it impossible to mark a MkRelease as prerelease. When that is fixed, come back here and change 'assertFalse' for 'assertTrue' and make sure it works.",
+      "file": "src/test/java/org/llorllale/mvn/plgn/releasecat/UploadTest.java",
+      "lines": "147-150",
+      "labels": [
+        "bug",
+        "jcabi-github"
+      ],
+      "assignees": [],
+      "title": "UploadTest.java:147-150: jcabi-github has a bug...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1519380949,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MTkzODA5NDk=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519380949",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T18:58:04Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        },
+        {
+          "id": 1529597401,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1Mjk1OTc0MDE=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529597401",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-19T21:37:04Z",
+          "label": {
+            "name": "jcabi-github",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 1571737941,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNTcxNzM3OTQx",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571737941",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-12T18:58:07Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1571738006,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1NzE3MzgwMDY=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571738006",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-12T18:58:09Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1571738926,
+          "node_id": "MDE1OlVuYXNzaWduZWRFdmVudDE1NzE3Mzg5MjY=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571738926",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unassigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-12T18:58:38Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1571739116,
+          "node_id": "MDE3OkRlbWlsZXN0b25lZEV2ZW50MTU3MTczOTExNg==",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571739116",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "demilestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-12T18:58:44Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1623537669,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MjM1Mzc2Njk=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623537669",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "04ba1f7bed9f0a2a57485232bc539c5945b54277",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/04ba1f7bed9f0a2a57485232bc539c5945b54277",
+          "created_at": "2018-05-13T12:38:13Z"
+        },
+        {
+          "id": 1623541722,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MjM1NDE3MjI=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623541722",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "a067f5acc5338bbcc8b5af195fcf63f1636d9951",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/a067f5acc5338bbcc8b5af195fcf63f1636d9951",
+          "created_at": "2018-05-13T12:46:06Z"
+        },
+        {
+          "id": 1623544296,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MjM1NDQyOTY=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623544296",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1e1f28d3ea34bf0cb5605a7adc185364f812a02d",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/1e1f28d3ea34bf0cb5605a7adc185364f812a02d",
+          "created_at": "2018-05-13T12:54:54Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 9,
+      "time_to_resolution_days": 60.76,
+      "estimate": "15",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "1-fdf75b0d",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/4",
+      "ticket": "1",
+      "done": true,
+      "id": "1-fdf75b0d",
+      "closed_at": "2018-03-13T18:45:40Z",
+      "created_at": "2018-03-12T14:45:01Z",
+      "body": "Add ability to specify whether it's a prerelease or a full release. This would be useful when uploading release candidates.",
+      "file": "src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java",
+      "lines": "40-41",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "Upload.java:40-41: Add ability to specify whether it's a...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1518969380,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MTg5NjkzODA=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518969380",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T16:01:38Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1518969411,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1MTg5Njk0MTE=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518969411",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T16:01:39Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1519131708,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNTE5MTMxNzA4",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519131708",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T17:07:58Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1519341457,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MTkzNDE0NTc=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519341457",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "60f35cf9a30de7a5256ae88078e9f2100a404b6a",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/60f35cf9a30de7a5256ae88078e9f2100a404b6a",
+          "created_at": "2018-03-13T18:39:43Z"
+        },
+        {
+          "id": 1519353820,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTUxOTM1MzgyMA==",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519353820",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T18:45:36Z",
+          "state_reason": null
+        },
+        {
+          "id": 1519353843,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MTkzNTM4NDM=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519353843",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "68728ca0724c30f62ea7ac739bed6dd705bcbd14",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/68728ca0724c30f62ea7ac739bed6dd705bcbd14",
+          "created_at": "2018-03-13T18:45:37Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 1.17,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/13",
+      "ticket": "5",
+      "done": true,
+      "id": "5-9ad4d149",
+      "closed_at": "2018-04-12T18:57:02Z",
+      "created_at": "2018-03-16T05:17:21Z",
+      "body": "jcabi-github has a bug in how the MkReleaseAssets and MkReleaseAsset handle the contents of the asset - see bug https://github.com/jcabi/jcabi-github/issues/1366. After the bug is fixed, come back and unignore this test.",
+      "file": "src/test/java/org/llorllale/mvn/plgn/releasecat/UploadTest.java",
+      "lines": "309-311",
+      "labels": [
+        "bug",
+        "jcabi-github"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "UploadTest.java:309-311: jcabi-github has a bug in how...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1524802955,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MjQ4MDI5NTU=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1524802955",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-16T05:18:28Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        },
+        {
+          "id": 1529597403,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1Mjk1OTc0MDM=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529597403",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-19T21:37:04Z",
+          "label": {
+            "name": "jcabi-github",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 1571718086,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzE3MTgwODY=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571718086",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "fdc6f479fac006841410d975247dcc395f0651ff",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/fdc6f479fac006841410d975247dcc395f0651ff",
+          "created_at": "2018-04-12T18:48:13Z"
+        },
+        {
+          "id": 1571718125,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNTcxNzE4MTI1",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571718125",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-12T18:48:15Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1571720711,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1NzE3MjA3MTE=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571720711",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-04-12T18:49:32Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1571735715,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzE3MzU3MTU=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571735715",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "12acd6bb1f6eea704ebf9dd08c2969534cf4fdea",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/12acd6bb1f6eea704ebf9dd08c2969534cf4fdea",
+          "created_at": "2018-04-12T18:56:59Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 27.57,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "1-3284a5e8",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/16",
+      "ticket": "14",
+      "done": true,
+      "id": "14-1a55f214",
+      "closed_at": "2018-05-13T13:42:01Z",
+      "created_at": "2018-03-16T15:14:29Z",
+      "body": "Replace 'user' with 'org'. The username can already be obtained via jcabi-github using the token. 'org' must be optional: if specified then it is used as the \"user\".",
+      "file": "src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java",
+      "lines": "45-46",
+      "labels": [
+        "invalid"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "Upload.java:45-46: Replace 'user' with 'org'. The...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1525751073,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MjU3NTEwNzM=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1525751073",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-16T15:15:04Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1525751131,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1MjU3NTExMzE=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1525751131",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-16T15:15:06Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1623553059,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNjIzNTUzMDU5",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623553059",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-13T13:23:05Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1623557220,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MjM1NTcyMjA=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623557220",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "505f31c05f72aa072a26cae007b7d6d1daccd0db",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/505f31c05f72aa072a26cae007b7d6d1daccd0db",
+          "created_at": "2018-05-13T13:36:14Z"
+        },
+        {
+          "id": 1623557861,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE2MjM1NTc4NjE=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623557861",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-13T13:38:08Z",
+          "label": {
+            "name": "invalid",
+            "color": "e4e669"
+          }
+        },
+        {
+          "id": 1623557862,
+          "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTYyMzU1Nzg2Mg==",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623557862",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "unlabeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-13T13:38:08Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1623557890,
+          "node_id": "MDE3OkRlbWlsZXN0b25lZEV2ZW50MTYyMzU1Nzg5MA==",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623557890",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "demilestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-05-13T13:38:12Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1623559255,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE2MjM1NTkyNTU=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1623559255",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4c7d7297354703ec62899bd4a9b804e2ea73ba68",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/4c7d7297354703ec62899bd4a9b804e2ea73ba68",
+          "created_at": "2018-05-13T13:41:57Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 8,
+      "time_to_resolution_days": 57.94,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 2,
+      "parent_id": "5-b8c640d1",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/19",
+      "ticket": "17",
+      "done": true,
+      "id": "17-edd1ac20",
+      "closed_at": "2018-04-12T18:23:39Z",
+      "created_at": "2018-03-19T21:34:02Z",
+      "body": "Impediment on jcabi github: https://github.com/jcabi/jcabi-github/issues/1362. Come back and change the test to nullValue() this test when that issue is fixed.",
+      "file": "src/test/java/org/llorllale/mvn/plgn/releasecat/UploadTest.java",
+      "lines": "351-352",
+      "labels": [
+        "bug",
+        "jcabi-github"
+      ],
+      "assignees": [],
+      "title": "UploadTest.java:351-352: Impediment on jcabi github:...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1529592243,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1Mjk1OTIyNDM=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529592243",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-19T21:34:18Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        },
+        {
+          "id": 1529597408,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1Mjk1OTc0MDg=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529597408",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-19T21:37:05Z",
+          "label": {
+            "name": "jcabi-github",
+            "color": "5319e7"
+          }
+        },
+        {
+          "id": 1571650240,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzE2NTAyNDA=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571650240",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "ef31d3e2e4229a232bd242def4506c41d7eeab58",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/ef31d3e2e4229a232bd242def4506c41d7eeab58",
+          "created_at": "2018-04-12T18:16:20Z"
+        },
+        {
+          "id": 1571667564,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1NzE2Njc1NjQ=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1571667564",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5ddae53281c4addf86942428ea0a17f6901a1738",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/5ddae53281c4addf86942428ea0a17f6901a1738",
+          "created_at": "2018-04-12T18:23:36Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 4,
+      "time_to_resolution_days": 23.87,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 3,
+      "parent_id": "14-d25c375b",
+      "has_children": false
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/17",
+      "ticket": "14",
+      "done": true,
+      "id": "14-d25c375b",
+      "closed_at": "2018-03-19T21:34:08Z",
+      "created_at": "2018-03-16T15:14:29Z",
+      "body": "'name' should be optional. If not specified then it's simply not set. Currently we're always setting the release's name whether we have it or not.",
+      "file": "src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java",
+      "lines": "47-48",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "Upload.java:47-48: 'name' should be optional. If not...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1525750756,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MjU3NTA3NTY=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1525750756",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-16T15:14:55Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        },
+        {
+          "id": 1525750802,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1MjU3NTA4MDI=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1525750802",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-16T15:14:56Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1529537524,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNTI5NTM3NTI0",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529537524",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-19T21:06:13Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1529580651,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1Mjk1ODA2NTE=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529580651",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d7965dc1b26f489f51b84103cb6fd1e623a7e4b7",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/d7965dc1b26f489f51b84103cb6fd1e623a7e4b7",
+          "created_at": "2018-03-19T21:28:12Z"
+        },
+        {
+          "id": 1529591742,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTUyOTU5MTc0Mg==",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529591742",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-19T21:34:03Z",
+          "state_reason": null
+        },
+        {
+          "id": 1529591764,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1Mjk1OTE3NjQ=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1529591764",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "1ec052cbfd99a5250c838907122e5a3437f1d04a",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/1ec052cbfd99a5250c838907122e5a3437f1d04a",
+          "created_at": "2018-03-19T21:34:04Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 3.26,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 2,
+      "parent_id": "5-b8c640d1",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/14",
+      "ticket": "5",
+      "done": true,
+      "id": "5-b8c640d1",
+      "closed_at": "2018-03-16T15:14:33Z",
+      "created_at": "2018-03-16T05:17:21Z",
+      "body": "The following configurations must be marked as required: token, user, repo, tag. 'Token' is used to authenticate against GitHub'; 'user' is the user to whom the project belongs to; 'repo' is the name of the project; 'tag' is the name of the tag to apply to the release.",
+      "file": "src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java",
+      "lines": "45-47",
+      "labels": [
+        "bug"
+      ],
+      "assignees": [],
+      "title": "Upload.java:45-47: The following configurations must be...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1524802770,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MjQ4MDI3NzA=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1524802770",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-16T05:18:15Z",
+          "label": {
+            "name": "bug",
+            "color": "d73a4a"
+          }
+        },
+        {
+          "id": 1524802790,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1MjQ4MDI3OTA=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1524802790",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-16T05:18:17Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1525737374,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MjU3MzczNzQ=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1525737374",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "efa25b6a322871e64f2a4a4d7136a9a05aced42f",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/efa25b6a322871e64f2a4a4d7136a9a05aced42f",
+          "created_at": "2018-03-16T15:09:19Z"
+        },
+        {
+          "id": 1525749773,
+          "node_id": "MDExOkNsb3NlZEV2ZW50MTUyNTc0OTc3Mw==",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1525749773",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "closed",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-16T15:14:30Z",
+          "state_reason": null
+        },
+        {
+          "id": 1525749798,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MjU3NDk3OTg=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1525749798",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "491d588221a1983c2fbf96abdbdfc24903e4b345",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/491d588221a1983c2fbf96abdbdfc24903e4b345",
+          "created_at": "2018-03-16T15:14:31Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 0.41,
+      "estimate": "15",
+      "author": "George Aristy",
+      "hierarchy": 1,
+      "parent_id": "1-3284a5e8",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/5",
+      "ticket": "1",
+      "done": true,
+      "id": "1-3284a5e8",
+      "closed_at": "2018-03-16T05:17:25Z",
+      "created_at": "2018-03-12T14:45:01Z",
+      "body": "Add ability to upload artifacts to releases. This will be useful when someone wants to include sources and / or binaries.",
+      "file": "src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java",
+      "lines": "42-43",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "title": "Upload.java:42-43: Add ability to upload artifacts to...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1518968879,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MTg5Njg4Nzk=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518968879",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T16:01:28Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1518968957,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1MTg5Njg5NTc=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518968957",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T16:01:30Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1524776657,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MjQ3NzY2NTc=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1524776657",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "d8dbc1115730594888f71e5bdaf1680349b7c738",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/d8dbc1115730594888f71e5bdaf1680349b7c738",
+          "created_at": "2018-03-16T04:42:00Z"
+        },
+        {
+          "id": 1524799052,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MjQ3OTkwNTI=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1524799052",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "16f13d769ed88e713e65f378a855fab002ba6951",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/16f13d769ed88e713e65f378a855fab002ba6951",
+          "created_at": "2018-03-16T05:13:43Z"
+        },
+        {
+          "id": 1524801963,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MjQ4MDE5NjM=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1524801963",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "5e4f74f171d2ae3850f272fb92446a1344bd5219",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/5e4f74f171d2ae3850f272fb92446a1344bd5219",
+          "created_at": "2018-03-16T05:17:22Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": false,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 5,
+      "time_to_resolution_days": 3.61,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": true
+    },
+    {
+      "project_link": "https://github.com/llorllale/releasecat-maven-plugin",
+      "issue_link": "https://github.com/llorllale/releasecat-maven-plugin/issues/8",
+      "ticket": "1",
+      "done": true,
+      "id": "1-da96b270",
+      "closed_at": "2018-03-13T19:29:39Z",
+      "created_at": "2018-03-13T15:55:53Z",
+      "body": "Add ability to read the contents of a text file and use that the description of a release. This will be useful for chaining the output of changelog plugins (usually to a file) into this plugin.",
+      "file": "src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java",
+      "lines": "39-41",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [
+        "llorllale"
+      ],
+      "title": "Upload.java:39-41: Add ability to read the contents of a...",
+      "comments": [],
+      "issue_events": [
+        {
+          "id": 1518969809,
+          "node_id": "MDEyOkxhYmVsZWRFdmVudDE1MTg5Njk4MDk=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518969809",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "labeled",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T16:01:48Z",
+          "label": {
+            "name": "enhancement",
+            "color": "a2eeef"
+          }
+        },
+        {
+          "id": 1518969850,
+          "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE1MTg5Njk4NTA=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1518969850",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "milestoned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T16:01:49Z",
+          "milestone": {
+            "title": "1.0.0"
+          }
+        },
+        {
+          "id": 1519390516,
+          "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxNTE5MzkwNTE2",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519390516",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "assigned",
+          "commit_id": null,
+          "commit_url": null,
+          "created_at": "2018-03-13T19:02:37Z",
+          "assignee": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "assigner": {
+            "login": "llorllale",
+            "id": 2019896,
+            "node_id": "MDQ6VXNlcjIwMTk4OTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2019896?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/llorllale",
+            "html_url": "https://github.com/llorllale",
+            "followers_url": "https://api.github.com/users/llorllale/followers",
+            "following_url": "https://api.github.com/users/llorllale/following{/other_user}",
+            "gists_url": "https://api.github.com/users/llorllale/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/llorllale/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/llorllale/subscriptions",
+            "organizations_url": "https://api.github.com/users/llorllale/orgs",
+            "repos_url": "https://api.github.com/users/llorllale/repos",
+            "events_url": "https://api.github.com/users/llorllale/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/llorllale/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "id": 1519432671,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MTk0MzI2NzE=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519432671",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "e74980a96fc557dd09479e26920e2b2ccb35b4c3",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/e74980a96fc557dd09479e26920e2b2ccb35b4c3",
+          "created_at": "2018-03-13T19:24:23Z"
+        },
+        {
+          "id": 1519436266,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MTk0MzYyNjY=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519436266",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "4a6eaf5ba1b6ef3bf0c15a497d3132ac8ace84c7",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/4a6eaf5ba1b6ef3bf0c15a497d3132ac8ace84c7",
+          "created_at": "2018-03-13T19:26:20Z"
+        },
+        {
+          "id": 1519442204,
+          "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE1MTk0NDIyMDQ=",
+          "url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/issues/events/1519442204",
+          "actor": {
+            "id": 2019896,
+            "url": "https://api.github.com/users/llorllale",
+            "site_admin": false,
+            "type": "User"
+          },
+          "event": "referenced",
+          "commit_id": "002f61f8a1fc1ca06ecd0cb1443e7547a17ad843",
+          "commit_url": "https://api.github.com/repos/llorllale/releasecat-maven-plugin/commits/002f61f8a1fc1ca06ecd0cb1443e7547a17ad843",
+          "created_at": "2018-03-13T19:29:34Z"
+        }
+      ],
+      "flags": {
+        "is_pull_request": false,
+        "is_open": false,
+        "has_assignees": true,
+        "has_labels": true,
+        "has_comments": true
+      },
+      "comments_count": 0,
+      "issue_events_count": 6,
+      "time_to_resolution_days": 0.15,
+      "estimate": "30",
+      "author": "George Aristy",
+      "hierarchy": 0,
+      "parent_id": "",
+      "has_children": false
+    }
+  ],
+  "project_language": "Java",
+  "project_stars": 3,
+  "project_forks": 0,
+  "project_contributors_count": 2,
+  "first_issue_date": "2018-03-12T14:45:01Z",
+  "last_issue_date": "2018-03-19T21:34:02Z"
+}
