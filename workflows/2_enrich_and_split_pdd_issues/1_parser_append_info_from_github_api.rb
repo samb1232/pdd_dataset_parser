@@ -1,6 +1,6 @@
 require "json"
-require_relative "../utils/gh_torrent.rb"
-require_relative "../utils/json_utils"
+require_relative "../../utils/gh_torrent.rb"
+require_relative "../../utils/json_utils"
 
 CHECKPOINT_FILE = "enrich_tickets_checkpoint.json"
 OUTPUT_FILE     = "enriched_tickets.json"
@@ -59,7 +59,7 @@ def enrich_tickets(input_path, github_token = nil)
 end
 
 def main
-  input_file = "res/puzzle_related_data_from_xml.json"
+  input_file = "puzzle_related_data_from_xml.json"
   unless File.exist?(input_file)
     puts "Input file #{input_file} not found. Ensure you have run parser_xml.rb and placed the output in res/ folder."
     return

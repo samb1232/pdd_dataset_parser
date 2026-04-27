@@ -1,7 +1,7 @@
-require_relative "../utils/json_utils"
-require_relative "../utils/prompt_utils"
-require_relative "../utils/date_utils"
-require_relative "../utils/project_utils"
+require_relative "../../utils/json_utils"
+require_relative "../../utils/prompt_utils"
+require_relative "../../utils/date_utils"
+require_relative "../../utils/project_utils"
 
 def make_prompts(puzzles_collections)
   puzzles_collections.map do |puzzle_collection|

@@ -1,6 +1,6 @@
 require "date"
-require_relative "../utils/json_utils"
-require_relative "../utils/date_utils"
+require_relative "../../utils/json_utils"
+require_relative "../../utils/date_utils"
 
 def main
   input_file = "results/dataset_xml_by_timestamps.json"

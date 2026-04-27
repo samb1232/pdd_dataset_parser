@@ -1,6 +1,6 @@
 require "json"
 require "fileutils"
-require_relative "../utils/json_utils"
+require_relative "../../utils/json_utils"
 
 def simplify_issue_events(issues)
   issues.map do |issue|

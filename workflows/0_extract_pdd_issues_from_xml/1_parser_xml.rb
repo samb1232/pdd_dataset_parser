@@ -1,14 +1,14 @@
 require 'find'
 require 'rexml/document'
 require 'date'
-require_relative "../utils/json_utils"
-require_relative "../utils/github_project_checker"
-require_relative "../utils/date_utils"
-require_relative "../utils/project_utils"
+require_relative "../../utils/json_utils"
+require_relative "../../utils/github_project_checker"
+require_relative "../../utils/date_utils"
+require_relative "../../utils/project_utils"
 
 include REXML
 
-DATASET_DIR_PATH = "./data/0pdd-dataset"
+DATASET_DIR_PATH = "./data/pdd_xml"
 
 def main
   project_puzzles = []
@@ -43,8 +43,6 @@ end
 def convert_puzzles_to_hashes(puzzles, project_link = nil)
   project_link ||= find_project_link(puzzles)
   return [] if project_link.nil?
-
-  return [] unless check_is_project_public(project_link)
 
   puzzle_hashes = []
 
