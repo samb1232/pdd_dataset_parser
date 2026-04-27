@@ -1,0 +1,2221 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-01-28T13:27:42+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/8" closed="2019-01-29T20:26:29+00:00">8</issue>
+    <ticket>5</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>5-03512da4</id>
+    <lines>13-13</lines>
+    <body>Place classes to files</body>
+    <file>include/2out.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-22T20:07:56Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/11" closed="2019-01-29T20:26:29+00:00">11</issue>
+        <ticket>8</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>8-a8cc78cd</id>
+        <lines>15-15</lines>
+        <body>Move TstSimple to TstSimple.cpp</body>
+        <file>include/2out.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-23T19:19:41Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/12" closed="2019-01-29T20:26:29+00:00">12</issue>
+        <ticket>8</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>8-411d41e4</id>
+        <lines>32-32</lines>
+        <body>Move TstSuite to TstSuite.cpp</body>
+        <file>include/2out.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-23T19:19:41Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/13" closed="2019-01-29T20:26:30+00:00">13</issue>
+        <ticket>8</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>8-e6f90a70</id>
+        <lines>56-56</lines>
+        <body>Move AssertionEqual to AsEqual.cpp</body>
+        <file>include/2out.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-23T19:19:41Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/18" closed="2019-01-29T20:26:30+00:00">18</issue>
+            <ticket>13</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>13-f677a4ef</id>
+            <lines>11-12</lines>
+            <body>IsEqual is a bad Assertion. Right Assertion should get in args lazy objects, not int.</body>
+            <file>include/IsEqual.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-24T12:48:16Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/26" closed="2019-01-29T20:26:30+00:00">26</issue>
+    <ticket>4</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>4-2f869fb2</id>
+    <lines>16-16</lines>
+    <body>TextReportTest can incapsulate TstSuite by value</body>
+    <file>test/TextReportTest.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-25T20:28:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/27" closed="2019-01-29T20:26:30+00:00">27</issue>
+    <ticket>4</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>4-846cf5e5</id>
+    <lines>16-16</lines>
+    <body>TstSuiteTest can incapsulate TstSuite by value</body>
+    <file>test/TstSuiteTest.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-25T20:28:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/28" closed="2019-01-29T20:26:32+00:00">28</issue>
+    <ticket>4</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>4-ef4ace85</id>
+    <lines>44-45</lines>
+    <body>Report should produce text and status. Detect status by test this is a wrong way.</body>
+    <file>test/test.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-25T20:28:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/38" closed="2019-01-29T20:26:32+00:00">38</issue>
+        <ticket>28</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>28-3d982ea3</id>
+        <lines>19-19</lines>
+        <body>Need ResSuite for keep all sub tests results</body>
+        <file>src/TstSuite.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-26T19:50:47Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/32" closed="2019-01-29T20:26:33+00:00">32</issue>
+    <ticket>30</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>30-f6add92b</id>
+    <lines>12-14</lines>
+    <body>Test Result should contain more information Test name, checked assertion details, status, time, and more In Suite case Result should contain information about subtests</body>
+    <file>include/Test.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-26T09:26:36Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/34" closed="2019-01-29T20:26:33+00:00">34</issue>
+        <ticket>32</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>32-322a76ff</id>
+        <lines>11-11</lines>
+        <body>ResSimple should print out to media</body>
+        <file>include/ResSimple.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-26T19:12:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/35" closed="2019-01-29T20:26:33+00:00">35</issue>
+        <ticket>32</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>32-d006af55</id>
+        <lines>14-14</lines>
+        <body>ResSimple should keep more parameters</body>
+        <file>include/ResSimple.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-26T19:12:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/43" closed="2019-01-29T20:26:33+00:00">43</issue>
+    <ticket>41</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>41-7d6021eb</id>
+    <lines>11-13</lines>
+    <body>Result should be like a xml node. Should have immutable possibility for add attributes or subnodes. And printed out.</body>
+    <file>include/Result.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-30T09:23:52Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/45" closed="2019-01-29T20:26:34+00:00">45</issue>
+        <ticket>43</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>43-1e1d20ab</id>
+        <lines>25-25</lines>
+        <body>Need to return tests (count of tests)</body>
+        <file>include/Result.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-30T12:04:28Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/46" closed="2019-01-29T20:26:34+00:00">46</issue>
+        <ticket>43</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>43-edf408f0</id>
+        <lines>26-26</lines>
+        <body>Need to print values to media</body>
+        <file>include/Result.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-30T12:04:28Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/48" closed="2019-01-29T20:26:34+00:00">48</issue>
+            <ticket>46</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>46-f72a61c2</id>
+            <lines>45-46</lines>
+            <body>This test is little fake. SUCCESS is a output test name, not a status</body>
+            <file>test/TextReportTest.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-30T20:26:58Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/49" closed="2019-01-29T20:26:34+00:00">49</issue>
+            <ticket>46</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>46-0ce8ced1</id>
+            <lines>61-62</lines>
+            <body>This test is little fake. FAILURE is a output test name, not a status</body>
+            <file>test/TextReportTest.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-30T20:26:58Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/50" closed="2019-01-29T20:26:34+00:00">50</issue>
+            <ticket>46</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>46-e00eac1f</id>
+            <lines>27-27</lines>
+            <body>failures is outscope of result, extract to another class</body>
+            <file>include/Result.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-30T20:26:58Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/52" closed="2019-01-29T20:26:35+00:00">52</issue>
+            <ticket>46</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>46-5f511b34</id>
+            <lines>12-12</lines>
+            <body>Add RepJUnit for xml output</body>
+            <file>include/Report.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-30T20:26:58Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/53" closed="2019-01-29T20:26:35+00:00">53</issue>
+            <ticket>46</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>46-64bfcabd</id>
+            <lines>16-16</lines>
+            <body>Adopt output to gtest</body>
+            <file>include/TextReport.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-30T20:26:58Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/57" closed="2019-01-29T20:26:35+00:00">57</issue>
+                <ticket>53</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>53-ebd1ff4d</id>
+                <lines>14-14</lines>
+                <body>Add preamble and postscript for report</body>
+                <file>src/TextReport.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-05-31T21:09:05Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/2out/issues/63" closed="2019-01-29T20:26:36+00:00">63</issue>
+                    <ticket>57</ticket>
+                    <estimate>15</estimate>
+                    <role>IMP</role>
+                    <id>57-4b56cd84</id>
+                    <lines>16-16</lines>
+                    <body>TextReportStream is a bad name</body>
+                    <file>src/TextReport.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2017-06-01T20:55:35Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/2out/issues/64" closed="2019-01-29T20:26:36+00:00">64</issue>
+                    <ticket>57</ticket>
+                    <estimate>15</estimate>
+                    <role>IMP</role>
+                    <id>57-bee2ee8a</id>
+                    <lines>26-26</lines>
+                    <body>Test counts show in preample</body>
+                    <file>src/TextReport.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2017-06-01T20:42:14Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/2out/issues/65" closed="2019-01-29T20:26:36+00:00">65</issue>
+                    <ticket>57</ticket>
+                    <estimate>15</estimate>
+                    <role>IMP</role>
+                    <id>57-3324ecc9</id>
+                    <lines>53-53</lines>
+                    <body>format portscrips and status</body>
+                    <file>src/TextReport.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2017-06-01T20:42:14Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/58" closed="2019-01-29T20:26:36+00:00">58</issue>
+                <ticket>53</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>53-20faec96</id>
+                <lines>31-31</lines>
+                <body>gtest text format for "cases"</body>
+                <file>src/TextReport.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-05-31T21:09:05Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/59" closed="2019-01-29T20:26:36+00:00">59</issue>
+                <ticket>53</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>53-10c8cdc0</id>
+                <lines>80-80</lines>
+                <body>Add FakeResult for testing</body>
+                <file>test/TextReportTest.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-05-31T21:09:05Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/51" closed="2019-01-29T20:26:37+00:00">51</issue>
+        <ticket>43</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>43-f5766035</id>
+        <lines>30-31</lines>
+        <body>Need to return tests (count of tests) This is out of scope for Result, need to introduce another class</body>
+        <file>include/Result.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-30T20:26:58Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/72" closed="2019-01-29T20:26:37+00:00">72</issue>
+    <ticket>70</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>70-97a128d0</id>
+    <lines>19-19</lines>
+    <body>Implement ResCase separately</body>
+    <file>include/Result.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-03T20:31:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/73" closed="2019-01-29T20:26:37+00:00">73</issue>
+    <ticket>70</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>70-5e01449d</id>
+    <lines>20-20</lines>
+    <body>Implement ResSuite separately and live this class is abstract</body>
+    <file>include/Result.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-03T20:31:18Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/77" closed="2019-01-29T20:26:37+00:00">77</issue>
+        <ticket>73</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>73-8e1e26f0</id>
+        <lines>25-25</lines>
+        <body>Count of failures be should calculated over Rep</body>
+        <file>src/ResSuite.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-04T19:16:32Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/78" closed="2019-01-29T20:26:38+00:00">78</issue>
+        <ticket>73</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>73-eba83ba1</id>
+        <lines>39-40</lines>
+        <body>Drop members and implementation. Result should be pure abstract class</body>
+        <file>include/Result.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-04T19:16:32Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/74" closed="2019-01-29T20:26:38+00:00">74</issue>
+    <ticket>68</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>68-a924c9a7</id>
+    <lines>24-24</lines>
+    <body>Use polymorphism instead if</body>
+    <file>src/Result.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-03T20:31:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/82" closed="2019-01-29T20:26:38+00:00">82</issue>
+    <ticket>29</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>29-c234e51f</id>
+    <lines>14-15</lines>
+    <body>Count test with special representations number of tests used in some places of TextReport and FmtText</body>
+    <file>src/TextReport.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-04T20:51:32Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/84" closed="2019-01-29T20:26:39+00:00">84</issue>
+        <ticket>82</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>82-c4cac361</id>
+        <lines>17-18</lines>
+        <body>class is similar to IsFailures. Need to thinking about universal assertion</body>
+        <file>test/TestCountTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-05T09:39:46Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/2out/issues/87">87</issue>
+        <ticket>82</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>82-e6af8e48</id>
+        <lines>54-54</lines>
+        <body>gtest count of test cases. Is it need for me?</body>
+        <file>src/TextReport.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-05T11:29:24Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/2out/issues/88">88</issue>
+        <ticket>82</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>82-cfa16720</id>
+        <lines>58-59</lines>
+        <body>gtest show total seconds. I have root suite, and this value show on inner level</body>
+        <file>src/TextReport.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-05T11:29:24Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/2out/issues/89">89</issue>
+        <ticket>82</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>82-070dd019</id>
+        <lines>66-67</lines>
+        <body>gtest show list of failure tests. I can do this with special formatter</body>
+        <file>src/TextReport.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-05T11:29:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/93" closed="2019-01-29T20:26:39+00:00">93</issue>
+    <ticket>54</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>54-44c7c538</id>
+    <lines>25-26</lines>
+    <body>shippable path - this is shippable lock in sources test_runner can write report to file, file placement define in shippable.yml (copy)</body>
+    <file>test/CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-06T06:51:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/96" closed="2019-01-29T20:26:39+00:00">96</issue>
+    <ticket>94</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>94-4ed307ed</id>
+    <lines>13-14</lines>
+    <body>Arg time is not need in ResSimple ResSimple can always pass 0 to Format</body>
+    <file>include/ResSimple.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-08T21:02:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/97" closed="2019-01-29T20:26:39+00:00">97</issue>
+    <ticket>94</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>94-21ec13d1</id>
+    <lines>19-19</lines>
+    <body>Meansure execution time and pass into ResTimed</body>
+    <file>src/TstTimed.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-08T21:02:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/98" closed="2019-01-29T20:26:39+00:00">98</issue>
+    <ticket>94</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>94-b6f429a9</id>
+    <lines>19-19</lines>
+    <body>Implement Timed Format whoes bind time inside</body>
+    <file>src/ResTimed.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-08T21:02:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/105" closed="2019-01-29T20:26:39+00:00">105</issue>
+    <ticket>103</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>103-0078309f</id>
+    <lines>13-13</lines>
+    <body>Instead of failure ResSimple should gave Result of test evaluation.</body>
+    <file>include/ResSimple.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-14T20:31:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/106" closed="2019-01-29T20:26:40+00:00">106</issue>
+    <ticket>103</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>103-ccccb5f8</id>
+    <lines>16-16</lines>
+    <body>Format should have special method for assertion</body>
+    <file>include/Format.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-14T20:31:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/108" closed="2019-01-29T20:26:40+00:00">108</issue>
+    <ticket>103</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>103-ee5b9b79</id>
+    <lines>21-22</lines>
+    <body>Need to separate errro/failure result error is assertion fail, failure - is illegal exit</body>
+    <file>src/TstSimple.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-15T21:05:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/109" closed="2019-01-29T20:26:40+00:00">109</issue>
+    <ticket>103</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>103-93d3b39e</id>
+    <lines>10-11</lines>
+    <body>AssertionResult should be printed It visualize as failures or success details</body>
+    <file>include/AssertionResult.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-15T21:05:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/121" closed="2019-01-29T20:26:40+00:00">121</issue>
+        <ticket>109</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>109-f9ae4e50</id>
+        <lines>13-13</lines>
+        <body>Invoke Format From Success::print</body>
+        <file>src/Success.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-18T20:25:37Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/125" closed="2019-01-29T20:26:40+00:00">125</issue>
+            <ticket>121</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>121-5ec15397</id>
+            <lines>20-20</lines>
+            <body>OK string should be visualized here.</body>
+            <file>src/TextReport.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-18T20:56:38Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/126" closed="2019-01-29T20:26:41+00:00">126</issue>
+            <ticket>121</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>121-84d67665</id>
+            <lines>20-20</lines>
+            <body>status attribute value should be visualized here</body>
+            <file>src/JUnitXmlReport.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-18T20:56:38Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/127" closed="2019-01-29T20:26:41+00:00">127</issue>
+            <ticket>121</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>121-6429adf4</id>
+            <lines>21-22</lines>
+            <body>Instead failure should be AssertionResult ptr and test result visualized over assertion result</body>
+            <file>include/Format.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-18T20:56:38Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/122" closed="2019-01-29T20:26:41+00:00">122</issue>
+        <ticket>109</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>109-69f8bb9c</id>
+        <lines>13-13</lines>
+        <body>Invoke Format From Failure::print</body>
+        <file>src/Failure.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-18T20:25:37Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/129" closed="2019-01-29T20:26:41+00:00">129</issue>
+            <ticket>122</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>122-5b785637</id>
+            <lines>26-26</lines>
+            <body>FAILED string should be visualized here.</body>
+            <file>src/TextReport.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-19T10:14:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/130" closed="2019-01-29T20:26:41+00:00">130</issue>
+            <ticket>122</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>122-849feb1f</id>
+            <lines>24-24</lines>
+            <body>Failures should be gather here</body>
+            <file>src/FailureCount.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-19T10:14:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/131" closed="2019-01-29T20:26:42+00:00">131</issue>
+            <ticket>122</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>122-96cb3e76</id>
+            <lines>25-25</lines>
+            <body>&lt;failure&gt; tag shoul be visualized here</body>
+            <file>src/JUnitXmlReport.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-19T10:14:52Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/123" closed="2019-01-29T20:26:42+00:00">123</issue>
+        <ticket>109</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>109-dd3b7c6d</id>
+        <lines>17-17</lines>
+        <body>Invoke Format From Error::print</body>
+        <file>src/Error.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-18T20:25:37Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/2out/issues/133">133</issue>
+            <ticket>123</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>123-66c6d322</id>
+            <lines>32-33</lines>
+            <body>ERROR string should be visualized here. I do not know how this message looked.</body>
+            <file>src/TextReport.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-19T11:50:53Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/134" closed="2019-01-29T20:26:42+00:00">134</issue>
+            <ticket>123</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>123-92004252</id>
+            <lines>30-30</lines>
+            <body>ErrorCount should gather information over this point</body>
+            <file>src/FailureCount.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-19T11:50:53Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/214" closed="2019-01-29T20:26:42+00:00">214</issue>
+                <ticket>134</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>134-df430c67</id>
+                <lines>15-15</lines>
+                <body>Remove name from ResSuite</body>
+                <file>2out/ResSuite.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-06-29T21:05:14Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/2out/issues/217" closed="2019-01-29T20:26:42+00:00">217</issue>
+                    <ticket>214</ticket>
+                    <estimate>15</estimate>
+                    <role>IMP</role>
+                    <id>214-83ea5169</id>
+                    <lines>59-59</lines>
+                    <body>Name should be first argument</body>
+                    <file>2out/ResNamed.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2017-06-30T09:27:31Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/135" closed="2019-01-29T20:26:43+00:00">135</issue>
+            <ticket>123</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>123-3efe3a9e</id>
+            <lines>31-31</lines>
+            <body>&lt;error&gt; tag shoul be visualized here</body>
+            <file>src/JUnitXmlReport.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-19T11:50:53Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/141" closed="2019-01-29T20:26:43+00:00">141</issue>
+                <ticket>135</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>135-a0cdee66</id>
+                <lines>21-22</lines>
+                <body>This class is like of IsTextInReport from TextReportTest. Need thinking about standart assertions.</body>
+                <file>test/JUnitXmlReportTest.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-06-19T15:06:10Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/2out/issues/173" closed="2019-01-29T20:26:43+00:00">173</issue>
+                    <ticket>141</ticket>
+                    <estimate>15</estimate>
+                    <role>IMP</role>
+                    <id>141-7d52804d</id>
+                    <lines>21-21</lines>
+                    <body>Use TestContainText instead IsTextReport</body>
+                    <file>test/TextReportTest.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2017-06-23T12:57:34Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/DronMDF/2out/issues/175" closed="2019-01-29T20:26:43+00:00">175</issue>
+                        <ticket>173</ticket>
+                        <estimate>15</estimate>
+                        <role>IMP</role>
+                        <id>173-cb954ab9</id>
+                        <lines>15-15</lines>
+                        <body>TstSimple is obsolete</body>
+                        <file>include/TstSimple.h</file>
+                        <author>Andrey Valyaev</author>
+                        <email>dron.valyaev@gmail.com</email>
+                        <time>2017-06-23T13:18:59Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DronMDF/2out/issues/179" closed="2019-01-29T20:26:44+00:00">179</issue>
+                            <ticket>175</ticket>
+                            <estimate>15</estimate>
+                            <role>IMP</role>
+                            <id>175-abd80c59</id>
+                            <lines>13-13</lines>
+                            <body>TestEqual should have ctors with strings</body>
+                            <file>include/TestEqual.h</file>
+                            <author>Andrey Valyaev</author>
+                            <email>dron.valyaev@gmail.com</email>
+                            <time>2017-06-26T09:42:09Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DronMDF/2out/issues/180" closed="2019-01-29T20:26:44+00:00">180</issue>
+                            <ticket>175</ticket>
+                            <estimate>15</estimate>
+                            <role>IMP</role>
+                            <id>175-a018294d</id>
+                            <lines>23-23</lines>
+                            <body>IntRepr should be shared</body>
+                            <file>test/test.cpp</file>
+                            <author>Andrey Valyaev</author>
+                            <email>dron.valyaev@gmail.com</email>
+                            <time>2017-06-26T09:42:09Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DronMDF/2out/issues/181" closed="2019-01-29T20:26:44+00:00">181</issue>
+                            <ticket>175</ticket>
+                            <estimate>15</estimate>
+                            <role>IMP</role>
+                            <id>175-8ba3cca3</id>
+                            <lines>17-18</lines>
+                            <body>Base type for representation should be named Representation Then this type should be StringRepr, and should be shared.</body>
+                            <file>src/TestEqual.cpp</file>
+                            <author>Andrey Valyaev</author>
+                            <email>dron.valyaev@gmail.com</email>
+                            <time>2017-06-26T09:42:09Z</time>
+                            <children>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/DronMDF/2out/issues/185" closed="2019-01-29T20:26:44+00:00">185</issue>
+                                <ticket>181</ticket>
+                                <estimate>15</estimate>
+                                <role>IMP</role>
+                                <id>181-30f094c0</id>
+                                <lines>17-17</lines>
+                                <body>ReprString should be shared</body>
+                                <file>src/TestEqual.cpp</file>
+                                <author>Andrey Valyaev</author>
+                                <email>dron.valyaev@gmail.com</email>
+                                <time>2017-06-26T10:03:09Z</time>
+                                <children/>
+                              </puzzle>
+                            </children>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/DronMDF/2out/issues/176" closed="2019-01-29T20:26:45+00:00">176</issue>
+                        <ticket>173</ticket>
+                        <estimate>15</estimate>
+                        <role>IMP</role>
+                        <id>173-a0cad179</id>
+                        <lines>14-14</lines>
+                        <body>Remove description from TstSuite</body>
+                        <file>include/TstSuite.h</file>
+                        <author>Andrey Valyaev</author>
+                        <email>dron.valyaev@gmail.com</email>
+                        <time>2017-06-23T13:18:59Z</time>
+                        <children/>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/DronMDF/2out/issues/177" closed="2019-01-29T20:26:45+00:00">177</issue>
+                        <ticket>173</ticket>
+                        <estimate>15</estimate>
+                        <role>IMP</role>
+                        <id>173-a1422f8c</id>
+                        <lines>15-15</lines>
+                        <body>Rename TstSuite to TestSuite</body>
+                        <file>include/TstSuite.h</file>
+                        <author>Andrey Valyaev</author>
+                        <email>dron.valyaev@gmail.com</email>
+                        <time>2017-06-23T13:18:59Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DronMDF/2out/issues/192" closed="2019-01-29T20:26:45+00:00">192</issue>
+                            <ticket>177</ticket>
+                            <estimate>15</estimate>
+                            <role>IMP</role>
+                            <id>177-4e0f3c74</id>
+                            <lines>12-12</lines>
+                            <body>Rename TstTimed to TestTimed</body>
+                            <file>include/TstTimed.h</file>
+                            <author>Andrey Valyaev</author>
+                            <email>dron.valyaev@gmail.com</email>
+                            <time>2017-06-26T20:22:55Z</time>
+                            <children/>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/DronMDF/2out/issues/191" closed="2019-01-29T20:26:45+00:00">191</issue>
+                        <ticket>173</ticket>
+                        <estimate>15</estimate>
+                        <role>IMP</role>
+                        <id>173-70fe6241</id>
+                        <lines>14-14</lines>
+                        <body>Remove description from TestSuite</body>
+                        <file>include/TestSuite.h</file>
+                        <author>Andrey Valyaev</author>
+                        <email>dron.valyaev@gmail.com</email>
+                        <time>2017-06-26T20:22:55Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DronMDF/2out/issues/198" closed="2019-01-29T20:26:45+00:00">198</issue>
+                            <ticket>191</ticket>
+                            <estimate>15</estimate>
+                            <role>IMP</role>
+                            <id>191-27129fac</id>
+                            <lines>18-18</lines>
+                            <body>Need introduce ResNamed, Result whoes add name to test, or suite.</body>
+                            <file>src/TestNamed.cpp</file>
+                            <author>Andrey Valyaev</author>
+                            <email>dron.valyaev@gmail.com</email>
+                            <time>2017-06-27T15:45:01Z</time>
+                            <children>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/DronMDF/2out/issues/204" closed="2019-01-29T20:26:46+00:00">204</issue>
+                                <ticket>198</ticket>
+                                <estimate>15</estimate>
+                                <role>IMP</role>
+                                <id>198-9db55e81</id>
+                                <lines>12-12</lines>
+                                <body>In ResTimed should keep chrono::time_point, not float</body>
+                                <file>include/ResTimed.h</file>
+                                <author>Andrey Valyaev</author>
+                                <email>dron.valyaev@gmail.com</email>
+                                <time>2017-06-28T15:18:53Z</time>
+                                <children>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/DronMDF/2out/issues/245" closed="2019-01-29T20:26:46+00:00">245</issue>
+                                    <ticket>204</ticket>
+                                    <estimate>15</estimate>
+                                    <role>IMP</role>
+                                    <id>204-cd71d675</id>
+                                    <lines>23-23</lines>
+                                    <body>Pass chrono::duration instead of time in test and suite method</body>
+                                    <file>2out/Format.h</file>
+                                    <author>Andrey Valyaev</author>
+                                    <email>dron.valyaev@gmail.com</email>
+                                    <time>2017-08-07T20:40:39Z</time>
+                                    <children/>
+                                  </puzzle>
+                                </children>
+                              </puzzle>
+                            </children>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DronMDF/2out/issues/199" closed="2019-01-29T20:26:46+00:00">199</issue>
+                            <ticket>191</ticket>
+                            <estimate>15</estimate>
+                            <role>IMP</role>
+                            <id>191-4bf0ec84</id>
+                            <lines>13-13</lines>
+                            <body>Add ctor for list of tests. TestSuite make inside.</body>
+                            <file>include/TestNamed.h</file>
+                            <author>Andrey Valyaev</author>
+                            <email>dron.valyaev@gmail.com</email>
+                            <time>2017-06-27T15:45:01Z</time>
+                            <children/>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/115" closed="2019-01-29T20:26:46+00:00">115</issue>
+    <ticket>111</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>111-5de73bd7</id>
+    <lines>27-28</lines>
+    <body>Name conflice class vs methos result. class result should be more concrete.</body>
+    <file>test/FailureCountTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-18T20:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/116" closed="2019-01-29T20:26:46+00:00">116</issue>
+    <ticket>111</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>111-4d984e7e</id>
+    <lines>11-11</lines>
+    <body>Success should incapsulate text</body>
+    <file>include/Success.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-18T20:04:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/145" closed="2019-01-29T20:26:47+00:00">145</issue>
+        <ticket>116</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>116-c5708fdc</id>
+        <lines>17-18</lines>
+        <body>Remove operator bool from AssertionResult It is not need.</body>
+        <file>include/AssertionResult.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-20T09:22:21Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/117" closed="2019-01-29T20:26:47+00:00">117</issue>
+    <ticket>111</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>111-69d900c1</id>
+    <lines>11-11</lines>
+    <body>Failure should incapsulate text</body>
+    <file>include/Failure.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-18T20:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/118" closed="2019-01-29T20:26:47+00:00">118</issue>
+    <ticket>111</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>111-cf7f3796</id>
+    <lines>11-11</lines>
+    <body>Error should incapsulate error text</body>
+    <file>include/Error.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-18T20:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/143" closed="2019-01-29T20:26:47+00:00">143</issue>
+    <ticket>101</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>101-8a031103</id>
+    <lines>56-57</lines>
+    <body>asString is not abstract, need to find more abrtrace methos to stringize object (ostream?)</body>
+    <file>test/JUnitXmlReportTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-19T15:52:37Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/151" closed="2019-01-29T20:26:47+00:00">151</issue>
+        <ticket>143</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>143-51795668</id>
+        <lines>68-71</lines>
+        <body>StringRepr is very common interface, can be used in other tests. For code sharing Test classes in primary ctor get StringRepr pointer. Secondary stor can translate to repr string (special StringRepr). Other object can be wrapped by StringRepr over ostream...</body>
+        <file>test/JUnitXmlReportTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-20T20:37:24Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/154" closed="2019-01-29T20:26:47+00:00">154</issue>
+            <ticket>151</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>151-0ef90ba3</id>
+            <lines>10-11</lines>
+            <body>Need to introduce generic StringRepr for any type. This repr can use ostringstream for stringize object</body>
+            <file>include/StringRepr.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-21T20:49:06Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/155" closed="2019-01-29T20:26:47+00:00">155</issue>
+            <ticket>151</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>151-cf859392</id>
+            <lines>13-14</lines>
+            <body>Need to introduce StringRepr for string type. I mean StringRepr is good name. string_view is a standart class.</body>
+            <file>include/StringRepr.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-21T20:49:06Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/183" closed="2019-01-29T20:26:48+00:00">183</issue>
+            <ticket>151</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>151-ddec6706</id>
+            <lines>11-12</lines>
+            <body>Need to introduce generic Representation for any type. This repr can use ostringstream for stringize object</body>
+            <file>include/Representation.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-26T10:03:09Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/184" closed="2019-01-29T20:26:48+00:00">184</issue>
+            <ticket>151</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>151-ec554d4a</id>
+            <lines>14-15</lines>
+            <body>Need to introduce Representation for string type. I mean Representation is good name. string_view is a standart class.</body>
+            <file>include/Representation.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-26T10:03:09Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/152" closed="2019-01-29T20:26:48+00:00">152</issue>
+        <ticket>143</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>143-3fd73006</id>
+        <lines>93-94</lines>
+        <body>Everythings is test. Assertion is not need. This test can give any input parameters by wrapping it in StringRepr...</body>
+        <file>test/JUnitXmlReportTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-20T20:37:24Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/158" closed="2019-01-29T20:26:48+00:00">158</issue>
+            <ticket>152</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>152-3c00598e</id>
+            <lines>20-21</lines>
+            <body>Need to introduce TestSafe decorator. This decorator catch all exceptions and form Error Result.</body>
+            <file>src/TestContainText.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-22T07:39:38Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/196" closed="2019-01-29T20:26:49+00:00">196</issue>
+                <ticket>158</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>158-3bc177e0</id>
+                <lines>24-27</lines>
+                <body>We don't know autogenerated test name in this point. We loose this info. TestNamed need use on upper level. Decorated test can wrap name in exception... Hm... Need think about it. In other side decorated test cannot generate name, if except.</body>
+                <file>src/TestSafe.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-06-27T14:36:55Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/159" closed="2019-01-29T20:26:49+00:00">159</issue>
+            <ticket>152</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>152-105bc70d</id>
+            <lines>30-30</lines>
+            <body>Need to generate auto name for test.</body>
+            <file>src/TestContainText.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-22T07:39:38Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/165" closed="2019-01-29T20:26:49+00:00">165</issue>
+                <ticket>159</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>159-35949849</id>
+                <lines>33-34</lines>
+                <body>Convert object text to name part - this is common operation. Need to extract this entity. Special object should produce short and nice pard of text.</body>
+                <file>src/TestContainText.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-06-22T09:43:20Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/166" closed="2019-01-29T20:26:49+00:00">166</issue>
+                <ticket>159</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>159-2e40fadf</id>
+                <lines>38-39</lines>
+                <body>Filtering of name actual only for special representations like an xml or json...</body>
+                <file>src/TestContainText.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-06-22T09:43:20Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/160" closed="2019-01-29T20:26:49+00:00">160</issue>
+            <ticket>152</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>152-649d7067</id>
+            <lines>13-13</lines>
+            <body>Term Assertion is obsolete.</body>
+            <file>include/Assertion.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-22T07:39:38Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/161" closed="2019-01-29T20:26:50+00:00">161</issue>
+            <ticket>152</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>152-44805bee</id>
+            <lines>14-15</lines>
+            <body>TestCount is name, conflicted with Test* implementations. This representation should be name like CountOfTests..</body>
+            <file>include/TestCount.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-22T07:39:38Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/219" closed="2019-01-29T20:26:50+00:00">219</issue>
+                <ticket>161</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>161-1217ee00</id>
+                <lines>14-14</lines>
+                <body>Rename FailureCount to CountFailure</body>
+                <file>2out/FailureCount.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-06-30T09:54:53Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/162" closed="2019-01-29T20:26:51+00:00">162</issue>
+            <ticket>152</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>152-9e047fea</id>
+            <lines>13-13</lines>
+            <body>Term AssertionResult is obsolete.</body>
+            <file>include/AssertionResult.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-06-22T07:39:38Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/234" closed="2019-01-29T20:26:51+00:00">234</issue>
+                <ticket>162</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>162-3a464b25</id>
+                <lines>12-13</lines>
+                <body>ResSimple should be named as ResTest Simple is not a term of 2out.</body>
+                <file>2out/ResSimple.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-07-06T12:08:30Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/169" closed="2019-01-29T20:26:51+00:00">169</issue>
+    <ticket>167</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>167-58cd6e51</id>
+    <lines>28-28</lines>
+    <body>Add style check in travis.ci</body>
+    <file>.travis.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-22T12:31:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/222" closed="2019-01-29T20:26:51+00:00">222</issue>
+        <ticket>169</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>169-20183b80</id>
+        <lines>3-3</lines>
+        <body>Add custom target 'style' for stylecheck</body>
+        <file>CMakeLists.txt</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-30T13:27:08Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/210" closed="2019-01-29T20:26:52+00:00">210</issue>
+    <ticket>208</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>208-b3d1c576</id>
+    <lines>33-33</lines>
+    <body>Add escaping in error tag (CDATA)</body>
+    <file>2out/JUnitXmlReport.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-29T14:06:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/212" closed="2019-01-29T20:26:52+00:00">212</issue>
+        <ticket>210</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>210-2d7c63d8</id>
+        <lines>61-61</lines>
+        <body>Calculate error count for xml report</body>
+        <file>2out/JUnitXmlReport.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-06-29T20:16:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/227" closed="2019-01-29T20:26:52+00:00">227</issue>
+    <ticket>223</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>223-d2f13a0f</id>
+    <lines>9-11</lines>
+    <body>Remove include directories from root. test reference youself to root directory as include directory. 2out not need to specify include directory.</body>
+    <file>CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-07-03T12:00:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/248" closed="2019-01-29T20:39:36+00:00">248</issue>
+    <ticket>239</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>239-b487d6f6</id>
+    <lines>63-64</lines>
+    <body>This compilers was not install by unmet dependencies Need to try this later.</body>
+    <file>.travis.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-08-11T11:03:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/259" closed="2019-01-29T20:26:53+00:00">259</issue>
+    <ticket>257</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>257-6369c75f</id>
+    <lines>11-11</lines>
+    <body>Add doxygen documentation to all classes (cleanup doxygen errors)</body>
+    <file>style.sh</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-08-27T18:18:03Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/2out/issues/261">261</issue>
+        <ticket>259</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>259-fbc0d1bd</id>
+        <lines>12-12</lines>
+        <body>Nonintuitive arg names in TestStartWith ctors</body>
+        <file>2out/TestStartsWith.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-08-29T10:33:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/265" closed="2019-01-29T20:26:53+00:00">265</issue>
+    <ticket>263</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>263-43eeeb20</id>
+    <lines>16-16</lines>
+    <body>TestNamed should give variadic list of tests as TestSuite</body>
+    <file>test/TestSuiteTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-08-30T11:34:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/268" closed="2019-01-29T20:26:53+00:00">268</issue>
+        <ticket>265</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>265-7dbb0ff0</id>
+        <lines>16-17</lines>
+        <body>TestSuite without test is error. User can pass empty list, but not can create empty Suite</body>
+        <file>test/TestSuiteTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-08-30T21:20:32Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/2out/issues/272">272</issue>
+    <ticket>256</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>256-527099ea</id>
+    <lines>8-10</lines>
+    <body>uncrustify in ubuntu Trusty is very old (0.59) this version not understood c++11 features and trash my code. wait for 0.64</body>
+    <file>style.sh</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-08-31T19:17:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/284" closed="2019-01-29T20:26:54+00:00">284</issue>
+    <ticket>202</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>202-66bc8835</id>
+    <lines>4-7</lines>
+    <body>Conan.io test_project example was not linked example link with -l2out, but test_runner link with ../2out/lib2out.a This is not a problem, i try link test_runner with -l, and it passed. May be problem in TextReport?</body>
+    <file>test_package/conanfile.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-07T13:19:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/303" closed="2019-01-29T20:39:38+00:00">303</issue>
+    <ticket>251</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>251-a0bb800e</id>
+    <lines>53-55</lines>
+    <body>clang++-3.8 on travis ci was failed with error in &lt;cstdio&gt;: no member named 'gets' in the global namespace Try to back this block later</body>
+    <file>.travis.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-02-02T19:24:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/313" closed="2019-08-06T19:50:22+00:00">313</issue>
+    <ticket>295</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>295-c59541f0</id>
+    <lines>42-42</lines>
+    <body>Result with condition halp to avoid if/else</body>
+    <file>2out/TestContainText.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-30T20:12:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/356" closed="2019-08-22T13:58:17+00:00">356</issue>
+        <ticket>313</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>313-ed4849d9</id>
+        <lines>11-11</lines>
+        <body>Class Failure replaced by CondResult, need to remove</body>
+        <file>2out/Failure.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-08-06T19:50:14Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/394" closed="2019-08-22T14:37:14+00:00">394</issue>
+            <ticket>356</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>356-250edfa3</id>
+            <lines>12-12</lines>
+            <body>Error should be renamed to ErrorResult by naming conventions</body>
+            <file>2out/Error.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-08-22T13:55:14Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/398" closed="2019-08-22T19:24:19+00:00">398</issue>
+                <ticket>394</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>394-8d6a8359</id>
+                <lines>13-13</lines>
+                <body>ResSuite should be renamed to SuiteResult</body>
+                <file>2out/ResSuite.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-08-22T14:33:22Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/DronMDF/2out/issues/405">405</issue>
+                    <ticket>398</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>398-a49fd049</id>
+                    <lines>20-21</lines>
+                    <body>Need to introduce AllResult for accumulate multiple match result This is not Suite... This one test. Question about visualisation.</body>
+                    <file>2out/AllMatch.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2019-08-22T19:19:59Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/399" closed="2019-08-22T19:01:24+00:00">399</issue>
+                <ticket>394</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>394-958c6d87</id>
+                <lines>13-13</lines>
+                <body>ResTimed should be renamed to TimedResult</body>
+                <file>2out/ResTimed.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-08-22T14:33:22Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/400" closed="2019-08-22T18:50:58+00:00">400</issue>
+                <ticket>394</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>394-de331847</id>
+                <lines>12-12</lines>
+                <body>ResNamed should be renamed to NamedResult</body>
+                <file>2out/ResNamed.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-08-22T14:33:22Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/395" closed="2019-08-22T18:40:40+00:00">395</issue>
+            <ticket>356</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>356-127d1f11</id>
+            <lines>9-9</lines>
+            <body>All ResFakes should be renamed to BlablablaResult by naming convention</body>
+            <file>test/ResFakes.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-08-22T13:55:14Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/357" closed="2019-08-30T20:32:00+00:00">357</issue>
+        <ticket>313</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>313-fa34f86f</id>
+        <lines>38-38</lines>
+        <body>ContainTest invoke text-&gt;asString twice</body>
+        <file>2out/ContainTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-08-06T19:50:14Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/358" closed="2019-08-22T14:18:38+00:00">358</issue>
+        <ticket>313</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>313-1af158d8</id>
+        <lines>11-11</lines>
+        <body>Class Success replaced by CondResult, need to remove</body>
+        <file>2out/Success.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-08-06T19:50:14Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/2out/issues/315">315</issue>
+    <ticket>311</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>311-452d8cb7</id>
+    <lines>18-19</lines>
+    <body>ReprCallable with implicit binding template ctor with params binding</body>
+    <file>2out/ReprCallable.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-30T20:48:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/326" closed="2019-08-01T20:27:29+00:00">326</issue>
+    <ticket>324</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>324-19b994f2</id>
+    <lines>14-14</lines>
+    <body>TestContainText should be renamed to ContainTest</body>
+    <file>2out/TestContainText.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-07-30T20:01:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/327" closed="2019-07-31T20:28:42+00:00">327</issue>
+    <ticket>324</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>324-8d49e2c0</id>
+    <lines>12-12</lines>
+    <body>TestEqual should be renamed to EqualTest</body>
+    <file>2out/TestEqual.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-07-30T20:01:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/328" closed="2019-07-31T20:47:51+00:00">328</issue>
+    <ticket>324</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>324-e050b99f</id>
+    <lines>14-14</lines>
+    <body>TestSuite should be renamed to SuiteTest</body>
+    <file>2out/TestSuite.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-07-30T20:01:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/329" closed="2019-07-31T21:14:58+00:00">329</issue>
+    <ticket>324</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>324-783e53da</id>
+    <lines>12-12</lines>
+    <body>TestStartsWith should be renamed to StartWithTest</body>
+    <file>2out/TestStartsWith.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-07-30T20:01:36Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/333" closed="2019-08-01T20:56:42+00:00">333</issue>
+        <ticket>329</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>329-870c189c</id>
+        <lines>12-12</lines>
+        <body>TestEndsWith should be renamed to EndsWithTest</body>
+        <file>2out/TestEndsWith.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-07-31T21:07:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/334" closed="2019-08-03T18:52:04+00:00">334</issue>
+        <ticket>329</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>329-ac552116</id>
+        <lines>12-12</lines>
+        <body>TestTimed should be renamed to TimedTest</body>
+        <file>2out/TestTimed.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-07-31T21:07:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/335" closed="2019-08-04T15:43:33+00:00">335</issue>
+        <ticket>329</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>329-45d01053</id>
+        <lines>11-11</lines>
+        <body>TestSafe should be renamed to SafeTest</body>
+        <file>2out/TestSafe.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-07-31T21:07:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/336" closed="2019-08-04T16:12:02+00:00">336</issue>
+        <ticket>329</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>329-3b26781f</id>
+        <lines>13-13</lines>
+        <body>TestNamed should be renamed to NamedTest</body>
+        <file>2out/TestNamed.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-07-31T21:07:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/337" closed="2019-08-03T18:36:20+00:00">337</issue>
+        <ticket>329</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>329-09eb9973</id>
+        <lines>11-11</lines>
+        <body>TestSkipped should be renamed to SkippedTest</body>
+        <file>2out/TestSkipped.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-07-31T21:07:59Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/350" closed="2019-08-12T21:04:46+00:00">350</issue>
+    <ticket>322</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>322-1a0c61e0</id>
+    <lines>10-12</lines>
+    <body>ReprTest should be renamed In current naming - TestRepr, But i want to change Representation to Text</body>
+    <file>test/ReprTest.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-04T18:09:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/351" closed="2019-08-05T20:00:41+00:00">351</issue>
+    <ticket>322</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>322-02907d98</id>
+    <lines>29-29</lines>
+    <body>Add multiple matchers to MatchTest (AND by default)</body>
+    <file>test/MatchTestTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-04T18:09:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/361" closed="2019-08-12T20:40:57+00:00">361</issue>
+    <ticket>347</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>347-935b2d9f</id>
+    <lines>46-46</lines>
+    <body>EndsWithTest failed with ("tpotop", "top")</body>
+    <file>2out/EndsWithTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-07T18:56:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/367" closed="2019-08-26T18:35:58+00:00">367</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-ae3c2266</id>
+    <lines>15-16</lines>
+    <body>JUnitXmlReport implement Text I should name it JUnitXmlText?</body>
+    <file>2out/JUnitXmlReport.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/368" closed="2019-08-22T13:43:47+00:00">368</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-cd409bc7</id>
+    <lines>11-11</lines>
+    <body>ReprSigned should be named SignedText</body>
+    <file>2out/ReprSigned.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/369" closed="2019-08-26T18:48:49+00:00">369</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-3100f8d0</id>
+    <lines>12-13</lines>
+    <body>ReprPrintable should be named PrintableText Or, may be, StreamText</body>
+    <file>2out/ReprPrintable.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/370" closed="2019-08-26T18:40:29+00:00">370</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-dc66d768</id>
+    <lines>12-12</lines>
+    <body>ReprCallable should be named CallableText</body>
+    <file>2out/ReprCallable.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/371" closed="2019-08-26T18:18:36+00:00">371</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-1f378f67</id>
+    <lines>15-15</lines>
+    <body>TextReport should be named GTestText</body>
+    <file>2out/TextReport.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/372" closed="2019-08-13T20:23:31+00:00">372</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-5b26313b</id>
+    <lines>11-11</lines>
+    <body>ReprString should be named StringText</body>
+    <file>2out/ReprString.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/373" closed="2019-08-14T20:27:25+00:00">373</issue>
+    <ticket>322</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>322-c70ed47c</id>
+    <lines>10-12</lines>
+    <body>ReprTest should be renamed In current naming - TestRepr, But i want to change Text to Text</body>
+    <file>test/ReprTest.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T20:23:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/374" closed="2019-08-14T20:17:44+00:00">374</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-383b74ac</id>
+    <lines>14-14</lines>
+    <body>CountErrorRepr should be named CountErrorText</body>
+    <file>test/CountErrorTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/375" closed="2019-08-14T19:57:56+00:00">375</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-2da4e1ee</id>
+    <lines>13-13</lines>
+    <body>ReprNamedTest should be named NamedTestText</body>
+    <file>test/NamedTestTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/376" closed="2019-08-14T19:49:40+00:00">376</issue>
+    <ticket>365</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>365-e50b90fb</id>
+    <lines>14-14</lines>
+    <body>CountTestRepr should be named CountTestText</body>
+    <file>test/CountTestTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-12T21:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/378" closed="2019-08-13T20:09:34+00:00">378</issue>
+    <ticket>352</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>352-5cd7a1a0</id>
+    <lines>21-22</lines>
+    <body>EqualMatch use deprecated Success/Failure. need to use CondResult instead</body>
+    <file>2out/EqualMatch.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-13T19:37:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/379" closed="2019-08-13T20:04:08+00:00">379</issue>
+    <ticket>352</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>352-a5bf02ad</id>
+    <lines>21-22</lines>
+    <body>ContainMatch use deprecated Success/Failure need to use CondResult instead</body>
+    <file>2out/ContainMatch.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-13T19:37:22Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/383" closed="2019-08-14T20:11:20+00:00">383</issue>
+        <ticket>379</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>379-579ef00e</id>
+        <lines>12-12</lines>
+        <body>ReprTest should be renamed to TestResult</body>
+        <file>2out/ResTest.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-08-13T19:59:45Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/2out/issues/389">389</issue>
+            <ticket>383</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>383-19ebf28e</id>
+            <lines>12-13</lines>
+            <body>TestResult should have constructor with bool and message for omit CondResult in *Test code</body>
+            <file>2out/TestResult.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-08-14T20:07:51Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/380" closed="2019-08-13T19:58:45+00:00">380</issue>
+    <ticket>352</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>352-37e39f2f</id>
+    <lines>38-39</lines>
+    <body>StartsWithTest can be implement over StartWithMatch Success/Failure deprecated and should be removed</body>
+    <file>2out/StartsWithTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-13T19:37:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/413" closed="2019-08-30T20:32:03+00:00">413</issue>
+    <ticket>321</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>321-0834f6a0</id>
+    <lines>57-57</lines>
+    <body>Replace login in ContainTest to MatchTest</body>
+    <file>2out/ContainTest.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-08-30T20:10:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/416" closed="2019-09-20T21:07:05+00:00">416</issue>
+    <ticket>411</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>411-9606ed6a</id>
+    <lines>62-62</lines>
+    <body>Create chapter 2 of Money example.</body>
+    <file>example/TUTORIAL1.ru.md</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-09-17T21:10:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/2out/issues/419" closed="2019-09-22T15:45:07+00:00">419</issue>
+        <ticket>416</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>416-dcf7426c</id>
+        <lines>108-108</lines>
+        <body>Create chapter 3 of Money example.</body>
+        <file>example/TUTORIAL2.ru.md</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-09-20T21:06:57Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/421" closed="2019-09-22T18:31:40+00:00">421</issue>
+            <ticket>419</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>419-6495559b</id>
+            <lines>53-53</lines>
+            <body>Create chapter 4 of Money example.</body>
+            <file>tutorial/TUTORIAL3.ru.md</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-09-22T15:44:59Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/2out/issues/423" closed="2019-09-22T18:31:42+00:00">423</issue>
+            <ticket>419</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>419-a797f9fa</id>
+            <lines>56-56</lines>
+            <body>Create chapter 5 of Money example.</body>
+            <file>tutorial/TUTORIAL4.ru.md</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-09-22T16:30:07Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/2out/issues/425" closed="2019-09-24T19:26:22+00:00">425</issue>
+                <ticket>423</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>423-cd3360ad</id>
+                <lines>66-66</lines>
+                <body>Complete 6 part of money example</body>
+                <file>tutorial/TUTORIAL5.ru.md</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-09-22T18:18:58Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/2out/issues/427" closed="2019-09-24T20:20:14+00:00">427</issue>
+                    <ticket>425</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>425-70f9ac4e</id>
+                    <lines>101-101</lines>
+                    <body>Complete final part of money tutorial</body>
+                    <file>tutorial/TUTORIAL6.ru.md</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2019-09-24T19:26:13Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/2out/issues/440" closed="2020-01-28T13:27:42+00:00">440</issue>
+    <ticket>436</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>436-bc58c990</id>
+    <lines>12-12</lines>
+    <body>CtorExceptionText should create objects with params</body>
+    <file>2out/CtorExceptionText.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2020-01-27T20:54:10Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

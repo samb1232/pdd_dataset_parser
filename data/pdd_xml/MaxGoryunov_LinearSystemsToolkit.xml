@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-09-01T11:39:38+00:00" version="0.31.9">
+  <puzzle alive="true">
+    <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/10">10</issue>
+    <ticket>8</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>8-954095de</id>
+    <lines>9-11</lines>
+    <body>Current merge script is just a stub version check which simply confirms the script is working. It would be better to actually execute all tests and maybe even style checks on this stage.</body>
+    <file>.rultor.yml</file>
+    <author>@MaxGoryunov</author>
+    <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+    <time>2023-08-13T19:42:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/11">11</issue>
+    <ticket>8</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>8-1cfe9044</id>
+    <lines>13-15</lines>
+    <body>There is no release script. Release script can optionally build the project and add .lib files to root directory so that users do not have to recompile the project themselves.</body>
+    <file>.rultor.yml</file>
+    <author>@MaxGoryunov</author>
+    <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+    <time>2023-08-13T19:42:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/12" closed="2023-08-24T23:47:15+00:00">12</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-54a04239</id>
+    <lines>25-28</lines>
+    <body>The issue does not specify the required code coverage for this feature, this is why I decided that it is enough to just create functions listed in the issue. It is important to add some tests to check that the remaining functions also work as intended.</body>
+    <file>LinearSystemsToolkit/VectorTest.c</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2023-08-13T20:15:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/17" closed="2023-08-27T20:30:13+00:00">17</issue>
+        <ticket>12</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>12-eebf1565</id>
+        <lines>20-23</lines>
+        <body>There is no operation for freeing the memory when the vector is no longer needed. There must be a function which takes a vector and frees memory reserved for it. This behaviour in tests must be checked by special methods which detect memory leakages.</body>
+        <file>LinearSystemsToolkit/VectorTest.c</file>
+        <author>@MaxGoryunov</author>
+        <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+        <time>2023-08-24T23:47:05Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/22">22</issue>
+            <ticket>17</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>17-7b29021c</id>
+            <lines>24-27</lines>
+            <body>There is a way to check C programs for memory leakages. After calling some functions at the start of 'main', all leakages which remain after the program was finished will be reported. It will be a good practice to include this technology in tests.</body>
+            <file>LinearSystemsToolkit/VectorTest.c</file>
+            <author>Max Goryunov</author>
+            <email>maximthehedgehog@yandex.ru</email>
+            <time>2023-08-26T08:53:50Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/18" closed="2023-09-01T11:39:38+00:00">18</issue>
+        <ticket>12</ticket>
+        <estimate>45</estimate>
+        <role>DEV</role>
+        <id>12-feddd47e</id>
+        <lines>140-142</lines>
+        <body>Tests for Common.c were not written in this PR because the issue only mentions Vector tests. However, functionality in Common.c also needs to be covered by tests to ensure correctness.</body>
+        <file>LinearSystemsToolkit/VectorTest.c</file>
+        <author>@MaxGoryunov</author>
+        <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+        <time>2023-08-24T23:47:05Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/19" closed="2023-08-29T10:32:55+00:00">19</issue>
+        <ticket>12</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>12-d4e67b11</id>
+        <lines>145-147</lines>
+        <body>There will probably be other test files, not only Vector tests. Vector tests have to be reorganized so that all tests can be run using one command, meaning that all tests are built as a single app.</body>
+        <file>LinearSystemsToolkit/VectorTest.c</file>
+        <author>MaxGoryunov</author>
+        <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+        <time>2023-08-24T23:47:05Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/15" closed="2023-08-31T21:41:54+00:00">15</issue>
+    <ticket>2</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>2-65b5ba24</id>
+    <lines>96-97</lines>
+    <body>Examples for other functions working with matrices, for example, also have to be added.</body>
+    <file>README.md</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2023-08-21T21:53:22Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/MaxGoryunov/LinearSystemsToolkit/issues/27">27</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-f0d33b35</id>
+        <lines>148-150</lines>
+        <body>Another section which needs to be added is the one related to solution of linear systems. This section must include description of gaussian method and matrix factorizations.</body>
+        <file>README.md</file>
+        <author>@MaxGoryunov</author>
+        <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+        <time>2023-08-31T21:41:45Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

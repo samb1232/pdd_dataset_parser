@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2021-12-10T02:56:48+00:00" version="0.30.24">
+  <puzzle alive="false">
+    <issue href="https://github.com/baudoliver7/ool-survey/issues/3" closed="2021-12-09T20:23:55+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-fb1261a8</id>
+    <lines>36-38</lines>
+    <body>Extract languages from loaded wiki page. We have loaded the entire page of wiki. Now, we want to extract all languages present in its content.</body>
+    <file>src/main/java/com/ool/survey/Main.java</file>
+    <author>@baudoliver7</author>
+    <email>baudoliver7@gmail.com</email>
+    <time>2021-12-09T18:24:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/baudoliver7/ool-survey/issues/9">9</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-5b7ee667</id>
+    <lines>45-47</lines>
+    <body>Refactor main class. We focused on extracting languages from Wiki page and generate the csv file for the survey. Now we want to refactor {@link Main}.</body>
+    <file>src/main/java/com/ool/survey/Main.java</file>
+    <author>@baudoliver7</author>
+    <email>baudoliver7@gmail.com</email>
+    <time>2021-12-10T02:34:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/baudoliver7/ool-survey/issues/10">10</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-b2470a33</id>
+    <lines>48-50</lines>
+    <body>Fill in the others columns of survey csv. We have generated csv file for the survey with only `Language` column filled. We want now fill in the other columns.</body>
+    <file>src/main/java/com/ool/survey/Main.java</file>
+    <author>@baudoliver7</author>
+    <email>baudoliver7@gmail.com</email>
+    <time>2021-12-10T02:34:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/baudoliver7/ool-survey/issues/11">11</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-7b024abe</id>
+    <lines>51-55</lines>
+    <body>Select additional languages from Google and Tiobe. We have extracted languages from Wiki page. However, it didn't look exhaustive enough. For example, it didn't include either HTML or Visual Basic for Applications (VBA), to name a few. So, we want to explore other sources like Google and Tiobe.</body>
+    <file>src/main/java/com/ool/survey/Main.java</file>
+    <author>@baudoliver7</author>
+    <email>baudoliver7@gmail.com</email>
+    <time>2021-12-10T02:34:57Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

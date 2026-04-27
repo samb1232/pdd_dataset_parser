@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2017-12-24T17:12:46+00:00">
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-w3c/issues/20" closed="2017-12-24T17:12:46+00:00">20</issue>
+    <id>10-1838eb03</id>
+    <ticket>10</ticket>
+    <file>src/test/java/com/jcabi/w3c/DefaultCssValidatorTest.java</file>
+    <lines>95-98</lines>
+    <estimate>30</estimate>
+    <body>DefaultCssValidator have to be updated to throw only IOException when W3C validation server is unavailable. Any other exception type can be confusing for users. Remove @Ignore annotation after finishing implementation.</body>
+    <role>IMP</role>
+    <author>Piotr Pradzynski</author>
+    <email>prondzyn@gmail.com</email>
+    <time>2015-12-07T17:44:26Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>20-b02d0160</id>
+        <ticket>20</ticket>
+        <file>src/main/java/com/jcabi/w3c/DefaultCssValidator.java</file>
+        <lines>71-73</lines>
+        <estimate>30</estimate>
+        <body>introduce a test case to test the success path when has the pattern below and another one to test the processed path at this method</body>
+        <role>IMP</role>
+        <author>jrdalpra</author>
+        <email>jrdalpra@gmail.com</email>
+        <time>2016-01-08T10:50:27Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>10-80fda63a</id>
+    <ticket>10</ticket>
+    <file>src/test/java/com/jcabi/w3c/DefaultHtmlValidatorTest.java</file>
+    <lines>83-86</lines>
+    <estimate>30</estimate>
+    <body>DefaultHtmlValidator have to be updated to throw only IOException when W3C validation server is unavailable. Any other exception type can be confusing for users. Remove @Ignore annotation after finishing implementation.</body>
+    <role>IMP</role>
+    <author>Piotr Pradzynski</author>
+    <email>prondzyn@gmail.com</email>
+    <time>2015-11-06T22:34:37Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

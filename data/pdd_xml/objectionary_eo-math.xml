@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-05-19T08:59:22+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-math/issues/44" closed="2022-09-19T12:18:23+00:00">44</issue>
+    <ticket>42</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>42-658d578c</id>
+    <lines>317-320</lines>
+    <body>We need to remove this nop object after objectionary/home was released and after EO version will be up to 0.28.0</body>
+    <file>src/test/eo/org/eolang/math/number-tests.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-01T09:49:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/50">50</issue>
+    <ticket>21</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>21-dd9dd514</id>
+    <lines>183-184</lines>
+    <body>min. Add an ability to raise a number to float power. `exp` and `ln` objects are needed. sqr(n,x) = exp(n * ln(x))</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>maximtrunnikov</author>
+    <email>m.trunnikov@mail.ru</email>
+    <time>2022-09-19T10:42:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-math/issues/51" closed="2022-11-14T14:47:47+00:00">51</issue>
+    <ticket>21</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>21-9a1034f5</id>
+    <lines>186-188</lines>
+    <body>min. Improve performance to be able to work with big numbers. Should use binary exponentiation. It allows to raise any number to the n'th power in O(log n) multiplications</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>maximtrunnikov</author>
+    <email>m.trunnikov@mail.ru</email>
+    <time>2022-09-19T10:42:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/54">54</issue>
+    <ticket>36</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>36-165baf3b</id>
+    <lines>34-35</lines>
+    <body>The array may consist of objects of any type. `max` and `min` objects should work only with an array of numbers.</body>
+    <file>src/main/eo/org/eolang/math/series.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2022-09-24T05:47:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/69">69</issue>
+    <ticket>53</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>53-64d5b423</id>
+    <lines>292-294</lines>
+    <body>Remove unnecessary checks and move some of them to ln when ln is implemented in EO and Double.NaN, Double.POSITIVE_INFINITY, Double.NEGATIVE_INFINITY are converted to eolang objects.</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-07T12:28:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-math/issues/70" closed="2022-11-19T04:40:09+00:00">70</issue>
+    <ticket>53</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>53-f25515fd</id>
+    <lines>355-356</lines>
+    <body>Natural logarithm should be implemented in EO when there is an object or an atorm that can calculate a series.</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-07T12:28:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/79">79</issue>
+    <ticket>56</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>56-3e56337e</id>
+    <lines>291-293</lines>
+    <body>min. Implement sin using this taylor object. You need to code function for coefficient of nth term. Accuracy can be decreased because of stack limitation.</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-11-10T15:18:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/81">81</issue>
+    <ticket>56</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>56-447424ab</id>
+    <lines>295-297</lines>
+    <body>min. Implement cos using this taylor object. You need to code function for coefficient of nth term. Accuracy can be decreased because of stack limitation.</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-11-10T15:18:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/82">82</issue>
+    <ticket>56</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>56-d42fb220</id>
+    <lines>299-301</lines>
+    <body>min. Implement tg using this taylor object. You need to code function for coefficient of nth term. Accuracy can be decreased because of stack limitation.</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-11-10T15:18:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-math/issues/83" closed="2022-11-13T13:09:15+00:00">83</issue>
+    <ticket>56</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>56-a1660657</id>
+    <lines>303-305</lines>
+    <body>min. Implement exp using this taylor object. You need to code a function for coefficient of nth term. Accuracy can be decreased because of stack limitation.</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-11-10T15:18:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/92">92</issue>
+    <ticket>89</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>89-b869de10</id>
+    <lines>338-341</lines>
+    <body>min. Implement sqrt without using number.pow. We need it because pow is atom and supposed to be removed. You can use Heron's iterative formula with a quite good convergence rate.</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-11-24T08:32:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-math/issues/96" closed="2023-05-19T08:59:11+00:00">96</issue>
+    <ticket>93</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>93-b28a2be4</id>
+    <lines>71-75</lines>
+    <body>This test fails due to incorrect choose of steps in the integral implementation. For excluding this error, Simpson's rule for determing n should be written.</body>
+    <file>src/test/eo/org/eolang/math/integral-tests.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-29T08:09:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/98">98</issue>
+    <ticket>35</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>35-8e3580f7</id>
+    <lines>67-69</lines>
+    <body>Add a case if there is windows. Improve imlementation for windows if there is ability to get time for windows and enable tests for these cases.</body>
+    <file>src/main/eo/org/eolang/math/random.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-12-01T17:30:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/110">110</issue>
+    <ticket>99</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>99-0a3cbf11</id>
+    <lines>31-33</lines>
+    <body>To fix failed tests. Sometests here are wrapped by nop object. We need find out the reason and fix them all.</body>
+    <file>src/test/eo/org/eolang/math/integral-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2023-02-16T10:35:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/111">111</issue>
+    <ticket>99</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>99-2033025f</id>
+    <lines>37-39</lines>
+    <body>To fix failed tests. Some tests here are wrapped by nop object. We need find out the reason and fix them as soon as possible.</body>
+    <file>src/test/eo/org/eolang/math/number-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2023-02-16T10:35:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/116">116</issue>
+    <ticket>105</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>105-1292f880</id>
+    <lines>344-346</lines>
+    <body>Fix sqrt and its tests. Since new declarative "while" was introduced current implementation of sqrt is not relevant anymore. Need to remake it and unwrap tests</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-19T13:35:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/117">117</issue>
+    <ticket>105</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>105-b5f05505</id>
+    <lines>488-490</lines>
+    <body>Fix taylor and its tests. Since new declarative "while" was introduced current implementation of taylor is not relevant anymore. Need to remake it and unwrap tests</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-19T13:35:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/118">118</issue>
+    <ticket>105</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>105-5b662703</id>
+    <lines>590-592</lines>
+    <body>Fix "ln" and its tests. Since new declarative "while" was introduced current implementation of "ln" is not relevant anymore. Need to remake it and unwrap tests</body>
+    <file>src/main/eo/org/eolang/math/number.eo</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-19T13:35:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/119">119</issue>
+    <ticket>105</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>105-4cf141c2</id>
+    <lines>30-32</lines>
+    <body>Fix integral tests. Since new declarative "while" was introduced current implementation of integral is not relevant anymore. Need to remake it and unwrap tests</body>
+    <file>src/main/eo/org/eolang/math/integral.eo</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-19T13:35:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/124">124</issue>
+    <ticket>105</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>105-fd8ef0b2</id>
+    <lines>30-32</lines>
+    <body>Remove nop objects. All of these three tests are failed and stuck in Github Actions. We must find out the reason, fix it, remove nop objects and make a new release.</body>
+    <file>src/test/eo/org/eolang/math/random-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2023-03-09T13:31:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-math/issues/129">129</issue>
+    <ticket>93</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>93-4de9e62f</id>
+    <lines>77-81</lines>
+    <body>This test fails due to Incorrect choose of steps in the integral implementation. For excluding this error, Simpson's rule for determing n should be written.</body>
+    <file>src/test/eo/org/eolang/math/integral-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2023-05-19T08:27:23Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

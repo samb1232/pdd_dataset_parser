@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-07-05T07:53:04+00:00" version="0.31.9">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/17" closed="2023-05-30T01:59:13+00:00">17</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-2a4f4231</id>
+    <lines>47-48</lines>
+    <body>This constructor should split the input string into tokens. Also position should be set to 0. Implement it.</body>
+    <file>src/main/java/org/objectionary/Tokenizer.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-05-27T14:08:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/18" closed="2023-05-30T01:59:18+00:00">18</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-a1a803c2</id>
+    <lines>58-60</lines>
+    <body>This method should return true if there is a next token, false otherwise. Implement it. After finishing this task, remove checkstyle annotation.</body>
+    <file>src/main/java/org/objectionary/Tokenizer.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-05-27T14:08:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/19" closed="2023-05-30T01:59:23+00:00">19</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-ac16e505</id>
+    <lines>70-72</lines>
+    <body>This method should move the position to the next token. This method should not return anything. Implement it. After finishing remove checkstyle annotation.</body>
+    <file>src/main/java/org/objectionary/Tokenizer.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-05-27T14:08:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/20" closed="2023-05-30T01:59:27+00:00">20</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-c7265181</id>
+    <lines>83-85</lines>
+    <body>This method should return the current token. It should not change state of the tokenizer. Implement it. After finishing remove checkstyle annotation.</body>
+    <file>src/main/java/org/objectionary/Tokenizer.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-05-27T14:08:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/28" closed="2023-06-06T14:02:34+00:00">28</issue>
+    <ticket>25</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>25-848d9a31</id>
+    <lines>77-79</lines>
+    <body>We have to implement the toString() method. It should return a string representation of the objects box, which will be used in phi emulator.</body>
+    <file>src/main/java/org/objectionary/ObjectsBox.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-05-31T11:28:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/29" closed="2023-06-03T15:21:04+00:00">29</issue>
+    <ticket>25</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>25-b29774c0</id>
+    <lines>40-41</lines>
+    <body>In future we have to add more complex tests for ObjectsBox. At least we have to add tests to check v0 order and &#x394;, &#x3BB;, &#x1D711; orders.</body>
+    <file>src/test/java/org/objectionary/ObjectsBoxTest.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-05-31T11:28:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/flatty/issues/37">37</issue>
+    <ticket>23</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>23-d1887b42</id>
+    <lines>49-51</lines>
+    <body>Implement this method. This method should parse the input line by line and return a objects box with the parsed objects.</body>
+    <file>src/main/java/org/objectionary/Parser.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-06-13T18:47:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/flatty/issues/40">40</issue>
+    <ticket>38</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>38-a5f5d3e2</id>
+    <lines>51-52</lines>
+    <body>Implement this method. This method should parse one line and put the result into the box.</body>
+    <file>src/main/java/org/objectionary/parsing/LineParser.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-06-14T16:03:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/43" closed="2023-06-17T14:06:55+00:00">43</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-dac2317f</id>
+    <lines>50-51</lines>
+    <body>Implement the method to check if the token is an empty. Use methods such as {@link String#startsWith(String)} and {@link String#endsWith(String)}.</body>
+    <file>src/main/java/org/objectionary/parsing/TypeChecker.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-06-15T13:32:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/44" closed="2023-06-17T14:06:58+00:00">44</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-f10a5f24</id>
+    <lines>60-61</lines>
+    <body>Implement the method to check if the token is a locator. Use methods such as {@link String#startsWith(String)} and {@link String#endsWith(String)}.</body>
+    <file>src/main/java/org/objectionary/parsing/TypeChecker.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-06-15T13:32:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/45" closed="2023-06-17T14:07:01+00:00">45</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-14b66c13</id>
+    <lines>70-71</lines>
+    <body>Implement the method to check if the token is a data. Use methods such as {@link String#startsWith(String)} and {@link String#endsWith(String)}.</body>
+    <file>src/main/java/org/objectionary/parsing/TypeChecker.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-06-15T13:32:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/46" closed="2023-06-17T14:07:05+00:00">46</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-da3fb60b</id>
+    <lines>80-81</lines>
+    <body>Implement the method to check if the token is a lambda. Use methods such as {@link String#startsWith(String)} and {@link String#endsWith(String)}.</body>
+    <file>src/main/java/org/objectionary/parsing/TypeChecker.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-06-15T13:32:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/47" closed="2023-06-17T14:07:08+00:00">47</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-9a7b44de</id>
+    <lines>90-91</lines>
+    <body>Implement the method to check if the token is an object. Use methods such as {@link String#startsWith(String)} and {@link String#endsWith(String)}.</body>
+    <file>src/main/java/org/objectionary/parsing/TypeChecker.java</file>
+    <author>eugenedar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-06-15T13:32:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/51" closed="2023-06-21T17:02:27+00:00">51</issue>
+    <ticket>49</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>49-4e0dc196</id>
+    <lines>55-56</lines>
+    <body>Implement this method. This method should read one entity recursively.</body>
+    <file>src/main/java/org/objectionary/parsing/Entities.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-19T16:12:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/52" closed="2023-07-05T07:53:04+00:00">52</issue>
+    <ticket>49</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>49-2c3aaa80</id>
+    <lines>65-66</lines>
+    <body>Implement this method. This method should read nested entity recursively.</body>
+    <file>src/main/java/org/objectionary/parsing/Entities.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-19T16:12:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/flatty/issues/53" closed="2023-06-20T15:24:58+00:00">53</issue>
+    <ticket>49</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>49-ebe2f0bc</id>
+    <lines>38-40</lines>
+    <body>Add more tests for Reader. It should be both reading one entity and nested entities tests. Also we have to enable this tests.</body>
+    <file>src/test/java/org/objectionary/EntitiesTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-19T16:12:51Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/flatty/issues/55">55</issue>
+        <ticket>53</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>53-1ee10283</id>
+        <lines>41-43</lines>
+        <body>Add more tests for Reader. It should nested entities tests. Also we have to enable this tests.</body>
+        <file>src/test/java/org/objectionary/EntitiesTest.java</file>
+        <author>@EugeneDar</author>
+        <email>evgenedar@mail.ru</email>
+        <time>2023-06-20T13:40:18Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/flatty/issues/62">62</issue>
+    <ticket>23</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>23-0dd3745a</id>
+    <lines>44-46</lines>
+    <body>Enable several tests in this FlatterTest class. Since they are failed due to NPE, we need to fix them. The tests are disabled for now.</body>
+    <file>src/test/java/org/objectionary/FlatterTest.java</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2023-07-03T08:43:29Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

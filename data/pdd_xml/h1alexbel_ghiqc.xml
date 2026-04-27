@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-08-26T10:00:09+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/ghiqc/issues/9" closed="2024-07-29T09:46:34+00:00">9</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-9e263117</id>
+    <lines>75-77</lines>
+    <body>Develop a prompt as probe message. Let's create a prompt for a probe message that would analyze quality of given bug report.</body>
+    <file>src/main.rs</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-27T10:09:58Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/h1alexbel/ghiqc/issues/16">16</issue>
+        <ticket>9</ticket>
+        <estimate>35</estimate>
+        <role>DEV</role>
+        <id>9-26443cb8</id>
+        <lines>38-41</lines>
+        <body>Ctor has too many arguments. We have to pass too many arguments into ReportFork. Some arguments are even redundant in some cases: `github`, `repo`, and `issue`. Let's find out how to refactor this code.</body>
+        <file>src/report/report_fork.rs</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-07-29T09:30:26Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/ghiqc/issues/36" closed="2024-08-26T09:52:11+00:00">36</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-86e89dfe</id>
+    <lines>25-27</lines>
+    <body>Read ignore.ghiqc file as list of strings. We should read file first in the main.rs, and then pass list of strings in parse_facts function.</body>
+    <file>src/args/ignore_facts.rs</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-08-02T12:34:15Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/h1alexbel/ghiqc/issues/44">44</issue>
+        <ticket>36</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>36-05f0f2e8</id>
+        <lines>58-61</lines>
+        <body>Enable returns_true_on_ignore test when fake GitHub instance will be ready. After fake GitHub instance will be connected, we should pass fake credentials and repo information in order to test #ignore_issue.</body>
+        <file>src/args/ignore_issue.rs</file>
+        <author>@h1alexbel</author>
+        <email>aliaksei.bialiauski@hey.com</email>
+        <time>2024-08-26T09:52:06Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/h1alexbel/ghiqc/issues/45">45</issue>
+        <ticket>36</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>36-8e823206</id>
+        <lines>31-34</lines>
+        <body>Pass Fake GitHub in order to test GitHubIssue. We should configure this struct not only to accept real GitHub instance, but fake one too. This should boost our testing abilities. This functionality should affect args.ignore_issue.rs too.</body>
+        <file>src/github/github_issue.rs</file>
+        <author>@h1alexbel</author>
+        <email>aliaksei.bialiauski@hey.com</email>
+        <time>2024-08-26T09:52:06Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/ghiqc/issues/37" closed="2024-08-02T13:52:54+00:00">37</issue>
+    <ticket>27</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>27-1697b171</id>
+    <lines>51-54</lines>
+    <body>Implement ignores_author. Let's do this similarly to ignores_title function. Check README.md#ignore-issues-from-checking for more information about the rules. Don't forget to remove this puzzle.</body>
+    <file>src/args/ignore_facts.rs</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-08-02T12:34:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/ghiqc/issues/38" closed="2024-08-02T13:52:56+00:00">38</issue>
+    <ticket>27</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>27-95827c5c</id>
+    <lines>55-58</lines>
+    <body>Implement ignores_label. Let's do this similarly to ignores_title function. Check README.md#ignore-issues-from-checking for more information about the rules. Don't forget to remove this puzzle.</body>
+    <file>src/args/ignore_facts.rs</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-08-02T12:34:15Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

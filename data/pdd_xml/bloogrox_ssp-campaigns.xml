@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2021-06-19T06:46:41+00:00" version="0.30.23">
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/5" closed="2021-06-19T06:46:24+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-4c42341a</id>
+    <lines>20-21</lines>
+    <body>rewrite to a wrapper module for campaign api this doesn't need to be a service</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/6" closed="2021-06-19T06:46:25+00:00">6</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-8a8f3115</id>
+    <lines>39-39</lines>
+    <body>perform a call to Druid</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/7" closed="2021-06-19T06:46:28+00:00">7</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-f4f3124c</id>
+    <lines>49-49</lines>
+    <body>get random subscribers / filter by targetings / take N rows</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/8">8</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>1-4087555a</id>
+    <lines>69-69</lines>
+    <body>daily count check</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/9" closed="2021-06-19T06:46:29+00:00">9</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>1-35c57fd0</id>
+    <lines>77-77</lines>
+    <body>send targetings data to receive needed auditory</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:13:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/bloogrox/ssp-campaigns/issues/22" closed="2021-06-19T06:46:29+00:00">22</issue>
+        <ticket>9</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>9-36a3e1bb</id>
+        <lines>114-115</lines>
+        <body>filter users by country codes (whitelist and blacklist) IN country list, NOT IN country list</body>
+        <file>app.py</file>
+        <author>aslan</author>
+        <email>bloogrox@gmail.com</email>
+        <time>2017-07-10T15:47:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/10" closed="2021-06-19T06:46:30+00:00">10</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>1-ad97d779</id>
+    <lines>89-89</lines>
+    <body>connect to rabbitmq</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/11" closed="2021-06-19T06:46:31+00:00">11</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>1-1cc7a32d</id>
+    <lines>90-90</lines>
+    <body>publish to sell-imp queue</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/bloogrox/ssp-campaigns/issues/21" closed="2021-06-19T06:46:31+00:00">21</issue>
+        <ticket>11</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>11-e005e178</id>
+        <lines>155-155</lines>
+        <body>filter user by timezone</body>
+        <file>app.py</file>
+        <author>aslan</author>
+        <email>bloogrox@gmail.com</email>
+        <time>2017-07-10T15:25:46Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/12" closed="2021-06-19T06:46:35+00:00">12</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>1-335113bf</id>
+    <lines>99-99</lines>
+    <body>perform a call to Redis</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/bloogrox/ssp-campaigns/issues/16" closed="2021-06-19T06:46:38+00:00">16</issue>
+        <ticket>12</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>12-98ca1e3f</id>
+        <lines>6-6</lines>
+        <body>use URI from env</body>
+        <file>app.py</file>
+        <author>aslan</author>
+        <email>bloogrox@gmail.com</email>
+        <time>2017-07-09T20:01:29Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/13" closed="2021-06-19T06:46:38+00:00">13</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>1-54692b88</id>
+    <lines>113-113</lines>
+    <body>get limit-per-user value from global settings</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/14">14</issue>
+    <ticket>3</ticket>
+    <estimate>60</estimate>
+    <role>IMP</role>
+    <id>3-cfd71d9f</id>
+    <lines>19-19</lines>
+    <body>write tests for other services</body>
+    <file>test/test_campaigns_runner_service.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-09T19:09:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/23" closed="2021-06-19T06:46:39+00:00">23</issue>
+    <ticket>19</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>19-a2c0b792</id>
+    <lines>92-92</lines>
+    <body>implement update subscriber in mongo</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-10T17:20:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/24" closed="2021-06-19T06:46:39+00:00">24</issue>
+    <ticket>19</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>19-c4cde500</id>
+    <lines>196-196</lines>
+    <body>get total subscriber count in remote storage</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-10T17:20:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/25" closed="2021-06-19T06:46:40+00:00">25</issue>
+    <ticket>19</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>19-68233713</id>
+    <lines>200-200</lines>
+    <body>get page of subscribers from remote storage</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-10T17:20:00Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/bloogrox/ssp-campaigns/issues/29" closed="2021-06-19T06:46:41+00:00">29</issue>
+        <ticket>25</ticket>
+        <estimate>60</estimate>
+        <role>IMP</role>
+        <id>25-1e925adb</id>
+        <lines>232-233</lines>
+        <body>create api wrapper for remote subscribers and use it in SubscriberRemoteStorageService</body>
+        <file>app.py</file>
+        <author>aslan</author>
+        <email>bloogrox@gmail.com</email>
+        <time>2017-07-10T19:04:38Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bloogrox/ssp-campaigns/issues/26" closed="2021-06-19T06:46:41+00:00">26</issue>
+    <ticket>19</ticket>
+    <estimate>45</estimate>
+    <role>IMP</role>
+    <id>19-497c0e8f</id>
+    <lines>211-211</lines>
+    <body>implement data syncing</body>
+    <file>app.py</file>
+    <author>aslan</author>
+    <email>bloogrox@gmail.com</email>
+    <time>2017-07-10T17:20:00Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

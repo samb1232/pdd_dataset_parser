@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.28.5" date="2018-01-09T18:45:30+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>143-44bd09d0</id>
+    <ticket>143</ticket>
+    <file>src/main/java/com/jcabi/log/DecorsManager.java</file>
+    <lines>47-48</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:24:25Z</time>
+    <body>The class has to be @Immutable, but with ConcurrentMap it's impossible to do. Let's refactor.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>143-c036470e</id>
+    <ticket>143</ticket>
+    <file>src/main/java/com/jcabi/log/PreFormatter.java</file>
+    <lines>46-48</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:24:25Z</time>
+    <body>The class has to be annotated with @ToString, but we can't do it at the moment: https://code.google.com/p/projectlombok/issues/detail?id=457</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-log/issues/31" closed="2017-11-02T06:41:51+00:00">31</issue>
+    <id>26-b04be6bf</id>
+    <ticket>26</ticket>
+    <file>src/test/java/com/jcabi/log/ObjectDecorTest.java</file>
+    <lines>66-68</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:24:25Z</time>
+    <body>The ObjectDecor class is not implemented yet, that's why the test is not enabled at the moment. You should uncomment the lines below and make sure the test passes.</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>31-6c930351</id>
+        <ticket>31</ticket>
+        <file>src/test/java/com/jcabi/log/ObjectDecorTest.java</file>
+        <lines>66-71</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T11:24:25Z</time>
+        <body>Let's handle arrays. For now, ObjectDecor only does a deepToString of array contents. Let's make it so that each of its members will also show its internal contents. Ensure that this is handled in a "deep" fashion; that is, if its members are also arrays, then print the contents of the members of that array member (and so on). When done, uncomment the last test case below.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>26-9f34c6f6</id>
+    <ticket>26</ticket>
+    <file>src/test/java/com/jcabi/log/SecretDecorTest.java</file>
+    <lines>67-69</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:24:25Z</time>
+    <body>The SecretDecor class is not implemented yet, that's why the test is not enabled at the moment. You should uncomment the lines below and make sure the test passes.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>26-9c2568b0</id>
+    <ticket>26</ticket>
+    <file>src/test/java/com/jcabi/log/SizeDecorTest.java</file>
+    <lines>66-68</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:24:25Z</time>
+    <body>The SizeDecor class is not implemented yet, that's why the test is not enabled at the moment. You should uncomment the lines below and make sure the test passes.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-log/issues/98">98</issue>
+    <id>18-de8643f2</id>
+    <ticket>18</ticket>
+    <file>src/test/java/com/jcabi/log/VerboseProcessTest.java</file>
+    <lines>52-55</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:24:25Z</time>
+    <body>Locale/encoding problem in two test methods here. I'm not sure how to fix them, but they should be fixed. They fail on some machines, while run perfectly on others. They also fail when being executed from IntelliJ.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>38-9367cb1e</id>
+    <ticket>38</ticket>
+    <file>src/main/java/com/jcabi/log/VerboseProcess.java</file>
+    <lines>179-183</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:24:25Z</time>
+    <body>When VerboseProcess is closed, we should also shut down the monitor threads and prevent them trying to obtain the output from the process. It should be done before destroy() is called. See the following for more details: https://github.com/jcabi/jcabi-log/issues/38 http://www.java2s.com/Code/Java/Threads/Thesafewaytostopathread.htm</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-log/issues/63" closed="2017-11-02T06:41:52+00:00">63</issue>
+    <id>54-5ce25827</id>
+    <ticket>54</ticket>
+    <file>src/test/java/com/jcabi/log/MulticolorLayoutTest.java</file>
+    <lines>44-56</lines>
+    <estimate>30</estimate>
+    <body>Create an integration test for testing if MulticolorLayout will disable text coloring when an application is run with `-Dcom.jcabi.log.coloring=false`. ... Intergration testing is required because this can't be done in a unit test: ... - We can't just pass a parameter to `MulticolorLayout` that determines if the layout should color its output, because Log4J requires EnhancedPatternLayout to have a 0-arguments constructor. - We can't disable coloring with something like `MulticolorLayout#setColoring(boolean)`, too, (that would be unit-testable) because Log4J won't know how to call that. - `System.getProperty(String)` is not mockable for obvious reasons.</body>
+    <role>IMP</role>
+    <author>Suseika</author>
+    <email>wlasowegor@gmail.com</email>
+    <time>2015-08-11T12:35:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>63-fcb6d07a</id>
+        <ticket>63</ticket>
+        <file>src/test/java/com/jcabi/log/MulticolorLayoutTest.java</file>
+        <lines>44-51</lines>
+        <estimate>30</estimate>
+        <body>Fix bug in method format(LoggingEvent). The tests disablesOverridenConstantColor() and disablesConstantColor() from /src/it/it-decoloring/.../MulticolorLayoutITCase are currently failing and are ignored. Problem is that the text isn't decolored correctly when the color is specified in the conversion pattern. E.g. "[%color-blue{%p}] %color-blue{%m}" .</body>
+        <role>IMP</role>
+        <author>Mihai Andronache</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2016-02-01T19:35:34Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>59-498fab78</id>
+    <ticket>59</ticket>
+    <file>src/main/java/com/jcabi/log/MulticolorLayout.java</file>
+    <lines>84-85</lines>
+    <estimate>30</estimate>
+    <body>This class is still handling multiple responsibilities like formatting, parsing and coloring and should be refactored.</body>
+    <role>IMP</role>
+    <author>Igor Piddubnyi</author>
+    <email>igor.piddubnyi@solvians.com</email>
+    <time>2016-01-29T14:36:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-log/issues/101">101</issue>
+    <ticket>100</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>100-e041f047</id>
+    <lines>43-45</lines>
+    <body>Some tests here are ignored since they conflict in multi-threading run. I don't know exactly how to fix them, but we need to fix and remove the "Ignore" annotations.</body>
+    <file>src/test/java/com/jcabi/log/SupplierLoggerTest.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-01-09T18:28:51Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

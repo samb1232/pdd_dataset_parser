@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.25.6" date="2017-11-06T17:56:25+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>36-3609fbd6</id>
+    <ticket>36</ticket>
+    <file>src/main/java/com/jcabi/email/Protocol.java</file>
+    <lines>100-104</lines>
+    <estimate>30</estimate>
+    <body>Write unit test for email sending with SMTPS protocol using Greenmail mock server (see http://www.icegreen.com/greenmail/ for Greenmail docs and example code). SMTPS was implemented in ticket #33 but was not unit tested since the previous mock server (Dumbster) did not support SSL.</body>
+    <role>IMP</role>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-04-26T16:29:12Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

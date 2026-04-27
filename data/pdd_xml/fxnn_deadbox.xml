@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-01-03T21:33:39+00:00" version="0.28.5">
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/13">13</issue>
+    <ticket>4</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>4-3f50223d</id>
+    <lines>23-23</lines>
+    <body>replace dummy config with configuration mechanism</body>
+    <file>cmd/deadbox.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/14">14</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>1-0d74c8e7</id>
+    <lines>32-32</lines>
+    <body>Make Start()/Stop() thread safe</body>
+    <file>daemon/daemon.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/15">15</issue>
+    <ticket>10</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>10-1e6f99c1</id>
+    <lines>48-48</lines>
+    <body>secure drop against DoS and bruteforce attacks</body>
+    <file>drop/facade.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fxnn/deadbox/issues/16" closed="2017-11-04T14:28:14+00:00">16</issue>
+    <ticket>6</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>6-2995de11</id>
+    <lines>80-80</lines>
+    <body>drop must provide responses</body>
+    <file>drop/facade.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fxnn/deadbox/issues/17" closed="2017-11-04T14:28:15+00:00">17</issue>
+    <ticket>5</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>5-15364469</id>
+    <lines>85-85</lines>
+    <body>drop must accept responses and delete the associated request</body>
+    <file>drop/facade.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/18">18</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>7-2980fcfe</id>
+    <lines>27-27</lines>
+    <body>never process a request twice</body>
+    <file>worker/processor.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fxnn/deadbox/issues/19" closed="2017-11-04T14:28:16+00:00">19</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>7-3351e7e7</id>
+    <lines>52-52</lines>
+    <body>create a queue of items to process and process them</body>
+    <file>worker/processor.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/20">20</issue>
+    <ticket>3</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>3-825dbd34</id>
+    <lines>75-75</lines>
+    <body>Replace pull with push mechanism (e.g. websocket)</body>
+    <file>worker/facade.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/21">21</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>2-0082b70e</id>
+    <lines>42-42</lines>
+    <body>Verify Id, Timeout and Content</body>
+    <file>it/request_test.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fxnn/deadbox/issues/22" closed="2017-11-04T14:28:18+00:00">22</issue>
+    <ticket>12</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>12-61f995b8</id>
+    <lines>43-43</lines>
+    <body>check that request arrived at worker</body>
+    <file>it/request_test.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2017-08-30T07:25:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fxnn/deadbox/issues/23" closed="2017-12-30T23:32:13+00:00">23</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>7-633161db</id>
+    <lines>42-42</lines>
+    <body>decrypt requests</body>
+    <file>worker/requests.go</file>
+    <author>Felix Neumann</author>
+    <email>dev@fxnn.de</email>
+    <time>2017-09-16T17:13:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/29">29</issue>
+    <ticket>27</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>27-00e8c46c</id>
+    <lines>122-122</lines>
+    <body>add validity time</body>
+    <file>crypto/fingerprint.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2018-01-02T23:02:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/34">34</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>31-939d3fe2</id>
+    <lines>12-12</lines>
+    <body>remove fingerprint-shortcut when dummy config is removed</body>
+    <file>application/config.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2018-01-03T19:03:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fxnn/deadbox/issues/35">35</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>31-6f2e3b26</id>
+    <lines>38-38</lines>
+    <body>check validity, SAN/CommonName, extensions</body>
+    <file>crypto/verify.go</file>
+    <author>Felix Neumann</author>
+    <email>fxnn@users.noreply.github.com</email>
+    <time>2018-01-03T19:03:22Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

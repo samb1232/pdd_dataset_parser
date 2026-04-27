@@ -1,0 +1,803 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-02-18T17:27:43+00:00" version="0.30.26">
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/3" closed="2021-12-27T12:14:43+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-8a28524e</id>
+    <lines>5-6</lines>
+    <body>Ensure that 0pdd is enabled and could be used during daily activities.</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-27T11:59:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/4" closed="2022-01-04T22:01:41+00:00">4</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-98d73a7d</id>
+    <lines>61-63</lines>
+    <body>Invoke worksection REST API in order to test the E2E concept https://realpython.com/api-integration-in-python/ https://worksection.com/faq/api-start.html</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-27T11:59:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/5" closed="2022-01-02T12:41:00+00:00">5</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6fecbf4b</id>
+    <lines>1-1</lines>
+    <body>Rename main project *.md to lower case (e.g. `README.md` -&gt; `readme.md`)</body>
+    <file>setup.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-27T11:59:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/6" closed="2022-01-07T07:13:25+00:00">6</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9481a39c</id>
+    <lines>53-54</lines>
+    <body>Create a REST endpoint that receives the Gitlab push notification through the web-hook (https://bit.ly/3sGueNt)</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-27T12:14:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/7" closed="2022-01-07T07:13:30+00:00">7</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5dbb50e8</id>
+    <lines>56-57</lines>
+    <body>Choose a simple REST API framework for pure python without any massive frameworks like django or flask. Add few tests and ensure that's it easy to test.</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-27T12:14:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/9" closed="2022-01-06T20:26:47+00:00">9</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7ceb9df6</id>
+    <lines>9-12</lines>
+    <body>Transform PUSH json event into HTML comment The json format you might find here: https://bit.ly/3JvWtEx Don't forget about unit tests from push.py as they have simple skeleton so far.</body>
+    <file>g2w/push.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/10" closed="2022-01-07T05:19:07+00:00">10</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9ae33ccd</id>
+    <lines>14-15</lines>
+    <body>Find a way how to escape text in order to send it as HTTP parameter</body>
+    <file>g2w/push.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/11" closed="2022-01-04T22:17:12+00:00">11</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-bb57c05c</id>
+    <lines>5-7</lines>
+    <body>Fetch users data from worksection in order to get mapping between Gitlab and WS users. It should be a class, which is collection and each element is a user that represents json user from worksection.</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/12" closed="2022-01-02T09:33:42+00:00">12</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d87aa143</id>
+    <lines>13-14</lines>
+    <body>Delete argument parser from the method below. It was generated automatically and not helpful.</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/13" closed="2022-01-03T20:19:02+00:00">13</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-92c42c29</id>
+    <lines>71-73</lines>
+    <body>Use environments variable for access to particular Worksection endpoints. It would be easier to config external urls on container level.</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/14" closed="2022-01-03T20:44:11+00:00">14</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5217448c</id>
+    <lines>4-4</lines>
+    <body>Remove BaseClass,base_function from the project as its not needed</body>
+    <file>g2w/__init__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/15">15</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ee82fa8d</id>
+    <lines>3-4</lines>
+    <body>Add `black` as pre-commit Git hook for inspection &amp; correction of files before commit https://www.mattlayman.com/blog/2018/python-code-black/</body>
+    <file>.github/workflows/main.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/16" closed="2022-01-06T20:26:52+00:00">16</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4cb26fb5</id>
+    <lines>8-8</lines>
+    <body>Add CI badge into readme.md in order to see build status</body>
+    <file>.github/workflows/main.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/17" closed="2022-02-12T08:00:07+00:00">17</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ff869b83</id>
+    <lines>8-10</lines>
+    <body>Inspect more sophisticated ways how to use asserts during unit testing like assertj/Hamcrest matchers for Java. So far the simple dict approach is used https://stackoverflow.com/a/46809074/6916890</body>
+    <file>tests/test_push.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-01T19:47:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/g2w/issues/46" closed="2022-02-12T08:00:11+00:00">46</issue>
+        <ticket>17</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>17-959be7a7</id>
+        <lines>75-77</lines>
+        <body>Replace assert below by well-known standard statement: https://docs.pytest.org/en/6.2.x/assert.html https://understandingdata.com/list-of-python-assert-statements-for-unit-tests # noqa: E501</body>
+        <file>tests/test_push.py</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2022-01-07T05:18:52Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/18">18</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ee76b426</id>
+    <lines>1-4</lines>
+    <body>Replace requests framework by using https://github.com/juancarlospaco/faster-than-requests Their benchmarks shows that's faster, however own micro-benchmarks are required.</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T09:33:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/19" closed="2022-02-06T10:44:47+00:00">19</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5fb7cb44</id>
+    <lines>13-13</lines>
+    <body>Add support of command line parser for program arguments</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T09:33:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/20" closed="2022-01-02T12:41:04+00:00">20</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f98b39e3</id>
+    <lines>37-38</lines>
+    <body>replace main method by App object that allows to build E2E skeleton for unit testing</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T09:33:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/g2w/issues/23" closed="2022-01-03T18:11:19+00:00">23</issue>
+        <ticket>20</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>20-1af69f50</id>
+        <lines>10-10</lines>
+        <body>Start the API once its ready</body>
+        <file>g2w/app.py</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2022-01-02T12:29:12Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/g2w/issues/24" closed="2022-01-03T18:11:23+00:00">24</issue>
+        <ticket>20</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>20-48ee3ebc</id>
+        <lines>27-27</lines>
+        <body>send push notification to test endpoint</body>
+        <file>tests/test_app.py</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2022-01-02T12:29:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/21">21</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d1ffe479</id>
+    <lines>13-13</lines>
+    <body>Ensure that workflow is starting for all branches and pull requests</body>
+    <file>.github/workflows/main.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T10:10:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/22">22</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-3f5c2aa5</id>
+    <lines>6-6</lines>
+    <body>Apply readme.md format like dgroup/lazylead</body>
+    <file>setup.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T10:10:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/25" closed="2022-01-03T21:46:37+00:00">25</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0a737d49</id>
+    <lines>6-7</lines>
+    <body>Create ctor that receives worksection connection details and connects to remote worksection instance</body>
+    <file>g2w/ws.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:29:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/26" closed="2022-01-03T20:19:07+00:00">26</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8df43cbb</id>
+    <lines>9-10</lines>
+    <body>Return worksection users associated with account in WS. It should be collection of users</body>
+    <file>g2w/ws.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:29:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/27" closed="2022-01-04T22:01:45+00:00">27</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7652d71e</id>
+    <lines>15-15</lines>
+    <body>Add comment to worksection system</body>
+    <file>g2w/ws.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:40:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/28" closed="2022-01-03T18:11:27+00:00">28</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8b829915</id>
+    <lines>7-9</lines>
+    <body>Implement REST api endpoint "/gitlab/push" using fastapi microframework. The json format you might find here: https://bit.ly/3JvWtEx</body>
+    <file>g2w/api.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:29:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/29" closed="2022-01-02T12:56:41+00:00">29</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-281eee5c</id>
+    <lines>28-28</lines>
+    <body>Enable sonarqube inspection for python project during each commit.</body>
+    <file>.github/workflows/main.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:38:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/30">30</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2ed370a1</id>
+    <lines>1-1</lines>
+    <body>Rename main project *.md to lower case (e.g. `readme.md` -&gt; `readme.md`)</body>
+    <file>setup.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:29:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/31" closed="2022-01-03T18:11:31+00:00">31</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-12aefce4</id>
+    <lines>9-9</lines>
+    <body>Fake worksection api implementation required</body>
+    <file>tests/test_app.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:29:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/32" closed="2022-02-02T02:29:41+00:00">32</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-80b99141</id>
+    <lines>28-28</lines>
+    <body>Enable codebeat inspection for python project during each commit. It seems that it not updating https://codebeat.co/projects/github-com-dgroup-g2w-main</body>
+    <file>.github/workflows/main.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:56:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/33" closed="2022-02-18T17:27:43+00:00">33</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6ae28ef5</id>
+    <lines>40-41</lines>
+    <body>Add prometheus client library for app monitoring https://github.com/prometheus/client_python</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-03T18:11:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/34" closed="2022-01-03T20:19:11+00:00">34</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8632385d</id>
+    <lines>37-39</lines>
+    <body>For some reason `black` is failing on test for huge *.json body requests with message &gt; 1 file would be reformatted, 4 files would be left unchanged. &gt; make: *** [lint] Error 1</body>
+    <file>Makefile</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-03T18:11:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/35">35</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8eba6465</id>
+    <lines>7-10</lines>
+    <body>Fake worksection api implementation required - https://requests-mock.readthedocs.io/en/latest/pytest.html - https://stackoverflow.com/q/46865169/6916890 - https://stackoverflow.com/a/52065289/6916890</body>
+    <file>tests/test_app.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-02T12:29:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/36" closed="2022-02-16T19:52:47+00:00">36</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0bda7795</id>
+    <lines>13-18</lines>
+    <body>Move push event details into a separate *.json file. For example, the `json.load` or `pkg_resources` from `setuptools` might be used: - https://stackoverflow.com/a/37151805/6916890 - https://stackoverflow.com/a/1396657/6916890 - https://setuptools.pypa.io/en/latest/pkg_resources.html</body>
+    <file>tests/test_app.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-03T18:11:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/37">37</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f4f1ea6f</id>
+    <lines>1-1</lines>
+    <body>During building process there is an error: 'grep: pyproject.toml: No such file or directory'</body>
+    <file>build.sh</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-03T18:11:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/38">38</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d01d7f0d</id>
+    <lines>119-120</lines>
+    <body>Pass environment variables &amp; labels like in https://github.com/dgroup/lazylead/blob/master/.docker/Dockerfile#L7-L16 It seems could be done using 'labels' input https://github.com/docker/build-push-action#inputs</body>
+    <file>.github/workflows/main.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-03T21:46:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/41" closed="2022-01-07T06:27:07+00:00">41</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b16af31d</id>
+    <lines>57-57</lines>
+    <body>Detect task id from commit messages</body>
+    <file>g2w/push.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-04T21:59:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/42" closed="2022-02-06T10:44:51+00:00">42</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-79519b82</id>
+    <lines>39-39</lines>
+    <body>add logging framework and remove `print` statement everywhere</body>
+    <file>g2w/__main__.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-04T21:59:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/43">43</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-25dc25ef</id>
+    <lines>26-26</lines>
+    <body>use memorize feature/approach instead of own caching.</body>
+    <file>g2w/ws.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-04T21:59:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/44" closed="2022-01-13T17:28:33+00:00">44</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-634aa5a3</id>
+    <lines>14-14</lines>
+    <body>Replace release process using rultor instead of Github Actions.</body>
+    <file>.rultor.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-03T21:55:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/45" closed="2022-01-07T07:13:36+00:00">45</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>2-1998a022</id>
+    <lines>126-126</lines>
+    <body>ERROR: Command errored out with exit status 1: command: /usr/local/bin/python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-cgk_ir15/httptools/setup.py'"'"'; __file__='"'"'/tmp/pip-install-cgk_ir15/httptools/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-0qax7w_j cwd: /tmp/pip-install-cgk_ir15/httptools/</body>
+    <file>.github/workflows/main.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-06T20:26:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/47" closed="2022-02-13T09:11:06+00:00">47</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5ef61673</id>
+    <lines>42-42</lines>
+    <body>Return 400 if no WS tasks found within commit messages</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T05:18:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/48">48</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-1a0628a3</id>
+    <lines>8-9</lines>
+    <body>Think about more elegant test ignorance procedure. Right now this @pytest.mark.skipif looks too verbose.</body>
+    <file>tests/test_ws.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T07:13:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/49">49</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e3a9ac90</id>
+    <lines>1-1</lines>
+    <body>switch to lightweight python:3.8.5-alpine docker image</body>
+    <file>Containerfile</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T07:13:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/51" closed="2022-02-10T21:50:25+00:00">51</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8cd919e6</id>
+    <lines>7-10</lines>
+    <body>Worksection task id in the middle (or end) might be in message not only at the begining. It could be in the middle or end. It would be good to support such cases as from app perspective we need Worksection task id only and doesn't matter where it in message exactly...</body>
+    <file>g2w/push.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-08T21:26:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/53">53</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-73fb32c3</id>
+    <lines>27-27</lines>
+    <body>Invoke from rultor the docker build&amp;push process through the Github actions</body>
+    <file>.rultor.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-13T17:28:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/65">65</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-69769706</id>
+    <lines>41-42</lines>
+    <body>Replace plain json in ticket summary by more sophisticated object with proper formatting</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-02T02:29:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/66">66</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-cd8608ab</id>
+    <lines>44-44</lines>
+    <body>Return the direct answer from Worksection instead of wrapping</body>
+    <file>g2w/__main__.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-02T02:29:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/67">67</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-1a91274f</id>
+    <lines>27-29</lines>
+    <body>Move encode function to generic place as it will be used for all future Worksection requests: https://stackoverflow.com/a/30045261/6916890</body>
+    <file>g2w/grafana.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-02T02:29:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/68" closed="2022-02-06T21:52:43+00:00">68</issue>
+    <ticket>58</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>58-bfa6ca0b</id>
+    <lines>28-28</lines>
+    <body>Ensure that logging is enabled for this method as well.</body>
+    <file>g2w/ws.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-02T02:29:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/69">69</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5ca3109e</id>
+    <lines>8-8</lines>
+    <body>Extract timings to a separate route.</body>
+    <file>g2w/api.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-02T02:29:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/70" closed="2022-02-06T21:48:36+00:00">70</issue>
+    <ticket>58</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>58-a1cf8f1d</id>
+    <lines>23-24</lines>
+    <body>Ensure that logging is enabled for HTTP traffic and could be used.</body>
+    <file>g2w/api.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-02T02:29:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/71">71</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-eebcd6b4</id>
+    <lines>29-29</lines>
+    <body>Enable codebeat inspection for python project during each commit. It seems that it not updating https://codebeat.co/projects/github-com-dgroup-g2w-</body>
+    <file>.github/workflows/master.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-02T02:29:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/g2w/issues/72" closed="2022-02-12T08:00:15+00:00">72</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e39f3061</id>
+    <lines>4-5</lines>
+    <body>Create fake grafana alert event object based on https://grafana.com/docs/grafana/latest/alerting/unified-alerting/contact-points/#webhook # noqa: E501</body>
+    <file>tests/test_alert.py</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-02T02:29:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/75">75</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-70ea7e7b</id>
+    <lines>3-3</lines>
+    <body>Support loggers definition from environment variables.</body>
+    <file>g2w/log.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-06T21:48:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/76">76</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9a424abb</id>
+    <lines>20-20</lines>
+    <body>Handle the IO exception here during YAML parsing</body>
+    <file>g2w/log.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-06T21:48:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/g2w/issues/77">77</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b59cc465</id>
+    <lines>23-23</lines>
+    <body>Handle the case when no loggers defined</body>
+    <file>g2w/log.py</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-06T21:48:20Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

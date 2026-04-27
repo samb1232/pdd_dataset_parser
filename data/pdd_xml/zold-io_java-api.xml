@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-12-04T01:09:32+00:00" version="0.30.13">
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/java-api/issues/12" closed="2018-08-08T13:07:56+00:00">12</issue>
+    <ticket>4</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>4-968ad704</id>
+    <lines>70-73</lines>
+    <body>Return the new instance of the Wallet, that will be created in the path with all wallets. Should be taken care of after Wallet interface will have implementations. Cover with tests and remove irrelevant test case.</body>
+    <file>src/main/java/io/zold/api/WalletsIn.java</file>
+    <author>Tolegen Izbassar</author>
+    <email>t.izbassar@gmail.com</email>
+    <time>2018-07-03T19:41:24Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/65" closed="2018-12-04T01:09:21+00:00">65</issue>
+        <ticket>12</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>12-1be65647</id>
+        <lines>93-95</lines>
+        <body>Create the new wallet in the path with all wallets. It should contain the correct content according to the white paper. Also add a the test to validate everything is ok.</body>
+        <file>src/main/java/io/zold/api/WalletsIn.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-08-08T12:50:40Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/85">85</issue>
+            <ticket>65</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>65-14add99d</id>
+            <lines>140-143</lines>
+            <body>Create the new wallet in the path with all wallets. It should contain the correct content according to the white paper (network, protocol version, id and public RSA key). After this remove exception expect for tests on WalletsInTest.</body>
+            <file>src/main/java/io/zold/api/WalletsIn.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2018-08-16T02:24:28Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/86">86</issue>
+            <ticket>65</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>65-64ffac10</id>
+            <lines>96-102</lines>
+            <body>Complete Wallet implementations with id, public RSA key and network id. Wallets.create(Long, String, String) must create a Wallet with these strings set and a constructor must be added to all Walletl realizations (Wallet(final long id, final String pubkey, final String network, final Transaction... transactions). After completing these implementations fix tests that uses Wallets.create() and all Wallet realizations.</body>
+            <file>src/main/java/io/zold/api/Wallet.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2018-08-16T02:24:28Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/66" closed="2018-08-11T15:37:00+00:00">66</issue>
+        <ticket>12</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>12-99ac50e5</id>
+        <lines>84-89</lines>
+        <body>Ensure creating a new wallet in a path where a wallet with the same id throws an exception and does not overwrite the existing one. This could be done using by using a Random object with a similar seed in WalletsIn and creating a wallet twice for example. When it is done enable the test.</body>
+        <file>src/test/java/io/zold/api/WalletsInTest.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-08-08T12:50:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/java-api/issues/13" closed="2018-07-16T13:37:34+00:00">13</issue>
+    <ticket>4</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>4-aab61a84</id>
+    <lines>79-82</lines>
+    <body>Read instance of the Wallet from file and put it to the result. Should be taken care of after Wallet interface will have necessary implementations. Cover with tests and remove irrelevant test case.</body>
+    <file>src/main/java/io/zold/api/WalletsIn.java</file>
+    <author>Tolegen Izbassar</author>
+    <email>t.izbassar@gmail.com</email>
+    <time>2018-07-03T19:41:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/java-api/issues/15" closed="2018-07-10T13:12:21+00:00">15</issue>
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-f97f5c14</id>
+    <lines>123-125</lines>
+    <body>Implement pay method. This should add a transaction to the wallet containing the correct details. Also add a unit test to replace WalletTest.payIsNotYetImplemented().</body>
+    <file>src/main/java/io/zold/api/Wallet.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-07-04T15:36:52Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/21" closed="2018-08-14T15:24:16+00:00">21</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-b88242e3</id>
+        <lines>45-47</lines>
+        <body>Check validity of the incoming string representation of transaction. It should comply the pattern described in the white paper. Cover with unit tests.</body>
+        <file>src/main/java/io/zold/api/RtTransaction.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/77">77</issue>
+            <ticket>21</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>21-829d3247</id>
+            <lines>81-84</lines>
+            <body>This test had to be marked as ignored after #30 because CpTransaction does not create the transaction string correctly yet. When CpTransaction is correctly implemented uncomment this method and make sure that it's working correctly</body>
+            <file>src/test/java/io/zold/api/WalletTest.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2018-08-13T12:33:20Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/22" closed="2018-08-02T14:33:57+00:00">22</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-4f67a35d</id>
+        <lines>53-55</lines>
+        <body>Implement id() by parsing the string representation of transaction according to the pattern, described in the white paper. Replace relevant test case with actual tests.</body>
+        <file>src/main/java/io/zold/api/RtTransaction.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/23" closed="2018-07-28T14:16:28+00:00">23</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-1e017e66</id>
+        <lines>62-64</lines>
+        <body>Implement time() by parsing the string representation of transaction according to the pattern, described in the white paper. Replace relevant test case with actual tests.</body>
+        <file>src/main/java/io/zold/api/RtTransaction.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/24" closed="2018-08-01T19:54:05+00:00">24</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-a01f2b41</id>
+        <lines>70-72</lines>
+        <body>Implement amount() by parsing the string representation of transaction according to the pattern, described in the white paper. Replace relevant test case with actual tests.</body>
+        <file>src/main/java/io/zold/api/RtTransaction.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/25" closed="2018-07-21T15:19:57+00:00">25</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-f9a60893</id>
+        <lines>78-80</lines>
+        <body>Implement prefix() by parsing the string representation of transaction according to the pattern, described in the white paper. Replace relevant test case with actual tests.</body>
+        <file>src/main/java/io/zold/api/RtTransaction.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/26" closed="2018-08-07T14:22:44+00:00">26</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-957c2199</id>
+        <lines>86-88</lines>
+        <body>Implement bnf() by parsing the string representation of transaction according to the pattern, described in the white paper. Replace relevant test case with actual tests.</body>
+        <file>src/main/java/io/zold/api/RtTransaction.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/27" closed="2018-07-31T21:48:19+00:00">27</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-ad2b4fa5</id>
+        <lines>94-96</lines>
+        <body>Implement details() by parsing the string representation of transaction according to the pattern, described in the white paper. Replace relevant test case with actual tests.</body>
+        <file>src/main/java/io/zold/api/RtTransaction.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/28" closed="2018-08-02T19:35:33+00:00">28</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-0d2d728d</id>
+        <lines>104-106</lines>
+        <body>Implement signature by parsing the string representation of transaction according to the pattern, described in the white paper. Replace relevant test case with actual tests.</body>
+        <file>src/main/java/io/zold/api/RtTransaction.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/29" closed="2018-07-28T18:56:42+00:00">29</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-0b8da355</id>
+        <lines>123-126</lines>
+        <body>Implement pay method. This should add a transaction to the wallet containing the correct details with the help of RtTransaction class. Also add a unit test to replace WalletTest.payIsNotYetImplemented().</body>
+        <file>src/main/java/io/zold/api/Wallet.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-07-06T18:32:39Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/zold-io/java-api/issues/54" closed="2018-08-11T14:51:11+00:00">54</issue>
+            <ticket>29</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>29-4f17ced3</id>
+            <lines>30-32</lines>
+            <body>Implement the computation of the transaction string based on the white paper. The unit test should also be updated to ensure it works as expected.</body>
+            <file>src/main/java/io/zold/api/CpTransaction.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victornoel@users.noreply.github.com</email>
+            <time>2018-07-25T11:59:29Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/zold-io/java-api/issues/73">73</issue>
+                <ticket>54</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>54-c02fec87</id>
+                <lines>30-33</lines>
+                <body>Implement the computation of the transaction string based on the white paper. The unit tests should also be updated to ensure it works as expected and test for returnSignatureForNegativeTransaction must be implemented.</body>
+                <file>src/main/java/io/zold/api/CpTransaction.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2018-08-11T14:40:42Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/zold-io/java-api/issues/74">74</issue>
+                <ticket>54</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>54-605ff193</id>
+                <lines>200-202</lines>
+                <body>Implement key method. This should return the public RSA key of the wallet owner in Base64. Also add a unit test to replace WalletTest.keyIsNotYetImplemented().</body>
+                <file>src/main/java/io/zold/api/Wallet.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2018-08-11T14:40:42Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/java-api/issues/16" closed="2018-08-12T21:28:11+00:00">16</issue>
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-af7c6ffd</id>
+    <lines>131-134</lines>
+    <body>Implement merge method. This should merge this wallet with a copy of the same wallet. It should throw an error if a wallet is provided. Also add a unit test to replace WalletTest.mergeIsNotYetImplemented().</body>
+    <file>src/main/java/io/zold/api/Wallet.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-07-04T15:36:52Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/zold-io/java-api/issues/75">75</issue>
+        <ticket>16</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>16-e32ec38b</id>
+        <lines>47-50</lines>
+        <body>Merge method should update transactions in wallet's file and return concrete implementation not a fake one. Beware that tests should be refactored to take care of file cleanup after each case that merges wallets.</body>
+        <file>src/main/java/io/zold/api/Wallet.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-08-12T21:18:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/zold-io/java-api/issues/76">76</issue>
+        <ticket>16</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>16-27c16652</id>
+        <lines>205-213</lines>
+        <body>Following transactions should be ignored according to the whitepaper: a) If the transaction is negative and its signature is not valid, it is ignored; b) If the transaction makes the balance of the wallet negative, it is ignored; c) If the transaction is positive and it&#x2019;s absent in the paying wallet (which exists at the node), it&#x2019;s ignored; If the paying wallet doesn&#x2019;t exist at the node, the transaction is ignored;</body>
+        <file>src/main/java/io/zold/api/Wallet.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-08-12T21:18:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/java-api/issues/17" closed="2018-07-12T19:55:15+00:00">17</issue>
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-2cc9aa8f</id>
+    <lines>142-144</lines>
+    <body>Implement ledger method. This should return all the transactions in this copy of the wallet. Also add a unit test to replace WalletTest.ledgerIsNotYetImplemented().</body>
+    <file>src/main/java/io/zold/api/Wallet.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-07-04T15:36:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/java-api/issues/34" closed="2018-08-01T19:38:26+00:00">34</issue>
+    <ticket>33</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>33-65714492</id>
+    <lines>43-46</lines>
+    <body>CheckedScalar from 'cactoos' does not wrap runtime exceptions for some reason. Once it's fixed (see yegor256/cactoos#933) un-ignore WalletTest.throwIoExceptionIfReadingIdFails and make sure it works.</body>
+    <file>src/test/java/io/zold/api/WalletTest.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-07-12T21:05:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/java-api/issues/38">38</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-38f68f69</id>
+    <lines>38-41</lines>
+    <body>Implement Remote interface. Remote Interface must be implemented because Network depends on Remote behavior. Network.pull needs to search all remotes for some wallet id and merge all found wallets; Network.push must push a wallet to a remote based in remote.</body>
+    <file>src/test/java/io/zold/api/NetworkTest.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-07-19T03:37:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/java-api/issues/39">39</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-fd3c6d54</id>
+    <lines>32-35</lines>
+    <body>We must figure out how to 'load' some network. Loading the network will be loading a local JSON file that contains data on all remote nodes that we know about; we must have a pre configured set of remote nodes built in too. See whitepaper for details.</body>
+    <file>src/main/java/io/zold/api/RtNetwork.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-07-19T03:37:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/java-api/issues/40" closed="2018-08-07T19:29:12+00:00">40</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-c56bb757</id>
+    <lines>52-55</lines>
+    <body>Implement scoring algorithm when paying taxes. Scoring algorithm must select the node with the highest score and with score &gt;= 16. There are some tests for the scoring algorithm in NetworkTest: remove ignore tag from them after algorithm implementation.</body>
+    <file>src/main/java/io/zold/api/RtNetwork.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-07-19T03:37:49Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/61" closed="2018-12-04T00:55:02+00:00">61</issue>
+        <ticket>40</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>40-432fb579</id>
+        <lines>34-40</lines>
+        <body>Implement tax payment to remote nodes. Payment should happen only if the wallet is in debt of more than 1 Zold. Debt is difference between current taxes that should have been paid by wallet (see whitepaper for formula) and how much it already paid in the past. A first algorithm could pay the max to each node until there is nothing else to pay. The test must also be updated.</body>
+        <file>src/main/java/io/zold/api/Taxes.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2018-07-28T13:25:35Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/81">81</issue>
+            <ticket>61</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>61-94b7f6ca</id>
+            <lines>145-148</lines>
+            <body>Too many parameters on Fake constructor. Transaction.Fake have too many parameters; think and implement a way of reducing this number. After this implementation correct all other Fake usages to receive the new paramater values.</body>
+            <file>src/main/java/io/zold/api/Transaction.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2018-12-04T00:45:01Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/82">82</issue>
+            <ticket>61</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>61-7c0a7e0c</id>
+            <lines>34-41</lines>
+            <body>Implement tax payment to remote nodes. Payment should happen only if the wallet is in debt of more than 1 Zold. Debt is difference between current taxes that should have been paid by wallet (see whitepaper for formula) and how much it already paid in the past. A first algorithm could pay the max to each node until there is nothing else to pay. After completion the test methods TaxesTest.pay and TaxesTest.didntPayIfLessThanOneZLDDebt new tests covering other possible situations must be added.</body>
+            <file>src/main/java/io/zold/api/Taxes.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2018-12-04T00:45:01Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/83">83</issue>
+            <ticket>61</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>61-03d7ee35</id>
+            <lines>95-99</lines>
+            <body>Create and implement an Transaction matcher, where we can assure if some transaction have some values for its fields. After its implementation, fix this test so it can assure that the wallet has at least one transaction with TAXES prefix</body>
+            <file>src/test/java/io/zold/api/TaxesTest.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2018-12-04T00:45:01Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/84">84</issue>
+            <ticket>61</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>61-fb82e65a</id>
+            <lines>114-119</lines>
+            <body>Implement test assuring that the taxes had been paid correctly to the right nodes, according to whitepaper (p.13)each node. This payments must be checked by looking in the transactions of the wallet with "TAXES" prefix and must obey the rule set in #40 ("A first algorithm could pay the max to each node until there is nothing else to pay.").</body>
+            <file>src/test/java/io/zold/api/TaxesTest.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2018-12-04T00:45:01Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/java-api/issues/41" closed="2018-07-29T19:36:15+00:00">41</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-dec07794</id>
+    <lines>63-67</lines>
+    <body>Implement pull method. Pulling a wallet from the network should return all the wallets with that id in the network merged together. After the implementation NetworkTest.pullIsNotYetImplemented() have to be uncommented and test if pull method is behaving correctly.</body>
+    <file>src/main/java/io/zold/api/RtNetwork.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-07-19T03:37:49Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/java-api/issues/56" closed="2018-08-16T20:41:45+00:00">56</issue>
+        <ticket>41</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>41-44da2a34</id>
+        <lines>35-41</lines>
+        <body>The constructor of Copies should be implemented to retrieve the Wallet with the provided id in the provided remotes and group them by equivalent wallet (i.e., equivalent content) along with their remotes as explained in the whitepaper. A unit test should be added to validate this behaviour. The unit test NetworkTest.pullIsNotYetImplemented() should also be removed and replaced with a real test.</body>
+        <file>src/main/java/io/zold/api/Copies.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2018-07-23T18:35:02Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/79">79</issue>
+            <ticket>56</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>56-e2c92447</id>
+            <lines>85-87</lines>
+            <body>Compare the entire content of two wallets. In addition to id, compare RSA key and all transactions one by one. Entire content of each transaction should be compared.</body>
+            <file>src/main/java/io/zold/api/Copies.java</file>
+            <author>Vatavuk</author>
+            <email>vatavuk1@hotmail.com</email>
+            <time>2018-08-14T16:45:09Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/zold-io/java-api/issues/80">80</issue>
+            <ticket>56</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>56-02b4f5e6</id>
+            <lines>37-41</lines>
+            <body>Add more test scenarios to Copies. Scenarios: remotes return empty list remotes return single element remotes return wallets with different content</body>
+            <file>src/test/java/io/zold/api/CopiesTest.java</file>
+            <author>Vatavuk</author>
+            <email>vatavuk1@hotmail.com</email>
+            <time>2018-08-06T06:22:26Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

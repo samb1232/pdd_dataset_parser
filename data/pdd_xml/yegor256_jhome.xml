@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-12-04T08:25:07+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/jhome/issues/10" closed="2023-12-04T08:25:07+00:00">10</issue>
+    <ticket>5</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5-ee2a7bdc</id>
+    <lines>82-85</lines>
+    <body>The javac binary might not be available in JRE. We should check if we are running in JDK or JRE and somehow decide what to return in this case or even throw an exception in case of JRE. Maybe an {@code Optional&lt;Path&gt;} is also a solution here.</body>
+    <file>src/main/java/com/yegor256/Jhome.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-11-22T09:26:28Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

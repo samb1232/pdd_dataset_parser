@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2017-12-26T16:47:12+00:00" version="0.28.5">
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/jb-hub-client/issues/23" closed="2017-11-11T15:42:33+00:00">23</issue>
+    <ticket>6</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>6-b6fff8c8</id>
+    <lines>36-38</lines>
+    <body>Delete DefaultSort in favor of com.github.smallcreep.jb.hub.api.Field, please delete it from all *Sort classes.</body>
+    <file>src/main/java/com/github/smallcreep/jb/hub/api/sort/DefaultSort.java</file>
+    <author>smallcreep</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2017-11-11T12:46:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/jb-hub-client/issues/26" closed="2017-11-13T15:39:56+00:00">26</issue>
+    <ticket>6</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>6-fcc5bbea</id>
+    <lines>34-39</lines>
+    <body>Implements class for any nested field. Use wildcards in field selections, if needed. For example a/* to select all fields object a. For example items/pagemap/*\/title For each element in the items array, returns only the title field (if present) of all objects that are children of pagemap.</body>
+    <file>src/main/java/com/github/smallcreep/jb/hub/api/fields/AnyNestedFields.java</file>
+    <author>smallcreep</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2017-11-11T16:08:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/jb-hub-client/issues/27" closed="2017-11-13T14:50:17+00:00">27</issue>
+    <ticket>6</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>6-9e31355b</id>
+    <lines>34-36</lines>
+    <body>Implements class for nested field. Use a/b to select a field b that is nested within field a; use a/b/c to select a field c nested within b.</body>
+    <file>src/main/java/com/github/smallcreep/jb/hub/api/fields/NestedFields.java</file>
+    <author>smallcreep</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2017-11-11T16:08:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/jb-hub-client/issues/28" closed="2017-11-11T16:52:57+00:00">28</issue>
+    <ticket>6</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>6-70a37ec0</id>
+    <lines>34-36</lines>
+    <body>Implements class for sub objects. Use a sub-selector to request a set of specific sub-fields of arrays or objects by placing expressions in parentheses "( )".</body>
+    <file>src/main/java/com/github/smallcreep/jb/hub/api/fields/SubFields.java</file>
+    <author>smallcreep</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2017-11-11T16:08:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/jb-hub-client/issues/33" closed="2017-12-03T20:38:30+00:00">33</issue>
+    <ticket>9</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>9-44e5f0f2</id>
+    <lines>35-37</lines>
+    <body>Create class RtProjects which will be simple implementation for Project interface. You can see request by url https://www.jetbrains.com/help/hub/HUB-REST-API_Projects.html.</body>
+    <file>src/main/java/com/github/smallcreep/jb/hub/api/Projects.java</file>
+    <author>smallcreep</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2017-11-13T21:33:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/jb-hub-client/issues/34" closed="2017-11-20T15:42:46+00:00">34</issue>
+    <ticket>9</ticket>
+    <estimate>20</estimate>
+    <role>TEST</role>
+    <id>9-2c947e12</id>
+    <lines>39-41</lines>
+    <body>Create some integration testcase for check all features Projects implementation. Need check sort syntax, fields syntax, partial request.</body>
+    <file>src/main/java/com/github/smallcreep/jb/hub/api/Projects.java</file>
+    <author>smallcreep</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2017-11-13T21:33:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/smallcreep/jb-hub-client/issues/36" closed="2017-11-21T17:11:46+00:00">36</issue>
+        <ticket>34</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>34-520c215a</id>
+        <lines>14-17</lines>
+        <body>Implement this Matcher. Matcher should encapsulate expected json. Matcher return true if encapsulate json equals returned json from {@link JsonReadable} item.</body>
+        <file>src/main/java/com/github/smallcreep/json/ObjectHasJson.java</file>
+        <author>Ilia</author>
+        <email>ilia.rogozhin@gmail.com</email>
+        <time>2017-11-20T15:32:39Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/jb-hub-client/issues/76" closed="2017-12-24T19:46:44+00:00">76</issue>
+    <ticket>45</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>45-577610cc</id>
+    <lines>126-128</lines>
+    <body>Implement Permissions class. Add class RtPermissions with all methods and JsPermission with all methods.</body>
+    <file>src/main/java/com/github/smallcreep/jb/hub/api/RtHub.java</file>
+    <author>smallcreep</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2017-12-19T20:59:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/smallcreep/jb-hub-client/issues/91">91</issue>
+    <ticket>82</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>82-c3b657ca</id>
+    <lines>37-38</lines>
+    <body>Project extended Subset of Project. Add implementation for all Class.</body>
+    <file>src/main/java/com/github/smallcreep/jb/hub/api/Project.java</file>
+    <author>smallcreep</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2017-12-26T15:25:35Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

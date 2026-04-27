@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-05-30T19:51:19+00:00" version="0.30.3">
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/selfish/issues/3">3</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-097ab64c</id>
+    <lines>36-38</lines>
+    <body>clang &#x43D;&#x430; travis-ci &#x43D;&#x435; &#x441;&#x43E;&#x431;&#x438;&#x440;&#x430;&#x435;&#x442; &#x441;&#x431;&#x43E;&#x440;&#x43A;&#x443;, &#x43F;&#x43E;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x443; &#x43F;&#x44B;&#x442;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; libstdc++ &#x438;&#x437; &#x441;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x430; gcc-4.8 &#x430; &#x44D;&#x442;&#x43E;&#x442; gcc &#x43D;&#x438;&#x447;&#x435;&#x433;&#x43E; &#x43D;&#x435; &#x437;&#x43D;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E; c++17</body>
+    <file>.travis.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-04-22T17:18:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/selfish/issues/4" closed="2018-04-22T18:09:10+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-51f0c95e</id>
+    <lines>29-29</lines>
+    <body>Add unittest runner</body>
+    <file>CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-04-22T17:18:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/selfish/issues/5" closed="2018-04-22T18:09:12+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-dd0a357b</id>
+    <lines>32-32</lines>
+    <body>Add style check</body>
+    <file>CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-04-22T17:18:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/selfish/issues/9" closed="2018-05-04T20:25:42+00:00">9</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-f44763c7</id>
+    <lines>25-26</lines>
+    <body>Implement chain with blocks chain = make_shared&lt;FullChain&gt;(chain, mined);</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-04-23T20:27:39Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/21" closed="2018-05-04T20:43:13+00:00">21</issue>
+        <ticket>9</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>9-fa8b7b11</id>
+        <lines>11-11</lines>
+        <body>rename EmptyChain to ChainEmpty</body>
+        <file>main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-04T20:25:36Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/22" closed="2018-05-13T20:40:50+00:00">22</issue>
+        <ticket>9</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>9-7ded9813</id>
+        <lines>13-13</lines>
+        <body>rename FairMiner to MinerFair</body>
+        <file>main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-04T20:25:36Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/selfish/issues/51" closed="2018-05-21T20:55:37+00:00">51</issue>
+            <ticket>22</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>22-be105d76</id>
+            <lines>19-20</lines>
+            <body>Add MinerConcerned whoes prefers self block is all block from othre - behaves like a fair</body>
+            <file>main.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-05-13T20:40:44Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/selfish/issues/64">64</issue>
+                <ticket>51</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>51-c71b453f</id>
+                <lines>30-30</lines>
+                <body>Block do not provide method for check author</body>
+                <file>MinerConcerned.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2018-05-21T20:55:31Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/selfish/issues/52" closed="2018-05-22T20:50:40+00:00">52</issue>
+            <ticket>22</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>22-84bc86da</id>
+            <lines>21-22</lines>
+            <body>Add MinerSelfish whoes mine inside until someone else finds the next block.</body>
+            <file>main.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-05-13T20:40:44Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/selfish/issues/66" closed="2018-05-23T20:53:18+00:00">66</issue>
+                <ticket>52</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>52-89412e80</id>
+                <lines>9-11</lines>
+                <body>add chance to append block to train. If chain is growth - Selfish miner want to apperd he head to chain. And he do it block by block.</body>
+                <file>MinerChainer.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2018-05-22T20:50:35Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/23" closed="2018-05-05T21:34:19+00:00">23</issue>
+        <ticket>9</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>9-7d2f5e35</id>
+        <lines>16-16</lines>
+        <body>heads() should return list of blocks</body>
+        <file>Chain.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-04T20:25:36Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/selfish/issues/26" closed="2018-05-06T18:57:47+00:00">26</issue>
+            <ticket>23</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>23-64d03e52</id>
+            <lines>27-27</lines>
+            <body>Two heads cause segmentation fault, Test needed</body>
+            <file>FairMiner.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-05-05T21:34:15Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/selfish/issues/28" closed="2018-05-07T20:34:02+00:00">28</issue>
+                <ticket>26</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>26-0af95acd</id>
+                <lines>10-10</lines>
+                <body>NextBlock should be named BlockNext (prefixed form preferred)</body>
+                <file>NextBlock.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2018-05-06T18:57:41Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/selfish/issues/30" closed="2018-05-08T19:46:23+00:00">30</issue>
+                    <ticket>28</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>28-49c71ae7</id>
+                    <lines>16-18</lines>
+                    <body>Block should have getNthParentTime method This method goes back to history, give nth parent and return his time. This method should work recursyvely. With BlockNull case.</body>
+                    <file>Block.h</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2018-05-07T20:33:57Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/selfish/issues/10" closed="2018-04-24T20:28:11+00:00">10</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-46928a27</id>
+    <lines>12-12</lines>
+    <body>Implement fair mining</body>
+    <file>FairMiner.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-04-23T20:27:39Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/12" closed="2018-05-10T19:54:56+00:00">12</issue>
+        <ticket>10</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>10-5d91ffc7</id>
+        <lines>19-19</lines>
+        <body>Implement hash alg here</body>
+        <file>NextBlock.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-04-24T20:28:03Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/selfish/issues/43" closed="2018-05-11T14:21:36+00:00">43</issue>
+            <ticket>12</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>12-5883b30b</id>
+            <lines>31-32</lines>
+            <body>hash is a recursively hard operation thught all chain Need to use BlockCache for keep cache from parents...</body>
+            <file>BlockNext.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-05-10T19:42:28Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/DronMDF/selfish/issues/46">46</issue>
+                <ticket>43</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>43-993b59b0</id>
+                <lines>43-43</lines>
+                <body>cache dificulty series</body>
+                <file>BlockCache.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2018-05-11T14:21:31Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/selfish/issues/44">44</issue>
+            <ticket>12</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>12-38063348</id>
+            <lines>35-35</lines>
+            <body>Using GOST hash alg here</body>
+            <file>BlockNext.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-05-10T19:27:27Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/13" closed="2018-04-27T21:12:34+00:00">13</issue>
+        <ticket>10</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>10-eb46afd8</id>
+        <lines>9-9</lines>
+        <body>This is not a BaseBlock. This is NullBlock.</body>
+        <file>BaseBlock.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-04-24T20:28:03Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/selfish/issues/16" closed="2018-05-08T21:28:45+00:00">16</issue>
+    <ticket>14</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>14-f9c379eb</id>
+    <lines>29-29</lines>
+    <body>Add difficulty</body>
+    <file>FairMiner.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-04-25T21:19:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/33" closed="2018-05-10T13:42:32+00:00">33</issue>
+        <ticket>16</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>16-936f50e9</id>
+        <lines>25-25</lines>
+        <body>Test this class. distribution of block is very unevennessed</body>
+        <file>ChainFull.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-08T21:17:37Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/selfish/issues/41" closed="2018-05-15T08:13:59+00:00">41</issue>
+            <ticket>33</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>33-36797a26</id>
+            <lines>10-10</lines>
+            <body>Block interface is huge</body>
+            <file>Block.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-05-10T13:42:25Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/DronMDF/selfish/issues/54">54</issue>
+                <ticket>41</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>41-3f965472</id>
+                <lines>10-16</lines>
+                <body>Block interface is huge number, hash, difficulty - this is a getters getNth, difficultySeries and amount - this is a chain operations. Chains operation can be implemented as visitor pattern? We can keep block as list, and move this operation to chain. Split head not solved. Multiple chains? But problems with getter steel here. Replace them with printer?</body>
+                <file>Block.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2018-05-15T08:13:53Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/selfish/issues/55" closed="2018-05-18T20:04:09+00:00">55</issue>
+                <ticket>41</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>41-f4323f8a</id>
+                <lines>15-18</lines>
+                <body>This is a getter. For avoid getter we need use double dispatch new_chain = chain-&gt;mine(miners); Miners can not find new block. and new chain does not have a reson. Double dispath not solve heads selecton problem. Wrap miner inside?</body>
+                <file>Chain.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2018-05-15T08:13:53Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/selfish/issues/60" closed="2018-05-19T20:48:37+00:00">60</issue>
+                    <ticket>55</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>55-87e43e88</id>
+                    <lines>9-9</lines>
+                    <body>Pass random generator by ctor</body>
+                    <file>MinerFair.h</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2018-05-18T20:04:03Z</time>
+                    <children>
+                      <puzzle alive="true">
+                        <issue href="https://github.com/DronMDF/selfish/issues/62">62</issue>
+                        <ticket>60</ticket>
+                        <estimate>0</estimate>
+                        <role>DEV</role>
+                        <id>60-cec0dfb5</id>
+                        <lines>14-14</lines>
+                        <body>Need to wrap default_random_engine for testing</body>
+                        <file>MinerFair.cpp</file>
+                        <author>Andrey Valyaev</author>
+                        <email>dron.valyaev@gmail.com</email>
+                        <time>2018-05-19T20:48:30Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/selfish/issues/34">34</issue>
+        <ticket>16</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>16-831c514f</id>
+        <lines>26-26</lines>
+        <body>Disable negative difficulty</body>
+        <file>ChainFull.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-08T21:17:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/selfish/issues/35">35</issue>
+        <ticket>16</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>16-408863bd</id>
+        <lines>30-30</lines>
+        <body>Show timestamp for each entry.</body>
+        <file>main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-08T19:49:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/36" closed="2018-05-09T20:20:13+00:00">36</issue>
+        <ticket>16</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>16-046a8a79</id>
+        <lines>34-34</lines>
+        <body>Show miner amounts</body>
+        <file>main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-08T19:49:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/37" closed="2018-05-11T19:40:39+00:00">37</issue>
+        <ticket>16</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>16-81c5c804</id>
+        <lines>19-19</lines>
+        <body>This code should not be here, This is another class Difficulty</body>
+        <file>FairMiner.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-08T19:49:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/selfish/issues/38" closed="2018-05-12T20:33:08+00:00">38</issue>
+        <ticket>16</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>16-01009a96</id>
+        <lines>24-24</lines>
+        <body>Avoid 31bit lock</body>
+        <file>FairMiner.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-05-08T19:49:09Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/selfish/issues/49">49</issue>
+            <ticket>38</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>38-4970322e</id>
+            <lines>44-45</lines>
+            <body>This test depend on hash alg, need to break this dependency</body>
+            <file>test/BlockDifficultyTest.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-05-12T20:33:02Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/selfish/issues/17" closed="2018-04-28T20:18:36+00:00">17</issue>
+    <ticket>14</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>14-f586b2c9</id>
+    <lines>6-6</lines>
+    <body>Find more usable way for share sources beetwen app and test</body>
+    <file>test/CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-04-25T21:19:02Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

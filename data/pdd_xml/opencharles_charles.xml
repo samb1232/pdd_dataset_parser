@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-02-18T14:37:11+00:00" version="0.28.5">
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles/issues/76" closed="2018-02-18T14:37:11+00:00">76</issue>
+    <ticket>75</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>75-37fcb7e3</id>
+    <lines>40-43</lines>
+    <body>Currently all the WebCrawl implemnetations require an instance of IgnoredPatterns in the ctor. They should all offer a ctor without such a parameter (by default no patterns should be ignored, but we don't have to make the user supply a parameter if that's the case).</body>
+    <file>src/main/java/com/amihaiemil/charles/IgnoredPatterns.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-12-16T13:35:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/opencharles/charles/issues/82">82</issue>
+    <ticket>79</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>79-3c7202f7</id>
+    <lines>33-35</lines>
+    <body>Design and implement a way of extending crawling logic. Users might want to fetch something else from a page besides the raw content (e.g. page category as value of a hidden field)</body>
+    <file>src/main/java/com/amihaiemil/charles/WebCrawl.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-12-24T13:09:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/opencharles/charles/issues/84">84</issue>
+    <ticket>80</ticket>
+    <estimate>1</estimate>
+    <role>DEV</role>
+    <id>80-87e0869e</id>
+    <lines>35-37</lines>
+    <body>Checkstyle validation was added but currently the build fails since not all the rules are respected. Fix the violations and enable checkstyle profile in the travis and rultor builds.</body>
+    <file>src/main/java/com/amihaiemil/charles/WebCrawl.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-12-24T15:55:38Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

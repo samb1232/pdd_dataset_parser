@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-01-23T13:05:58+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/tracehubpm/vsheets/issues/2">2</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-5c0accd5</id>
+    <lines>9-11</lines>
+    <body>Release script for rultor. We should prepare a release script for rultor that will release sheets to provided github tag, like 0.0.1.</body>
+    <file>.rultor.yml</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-01-23T12:22:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/vsheets/issues/3" closed="2024-01-23T13:05:58+00:00">3</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-4347abac</id>
+    <lines>26-29</lines>
+    <body>Get rid of XSL resources inside tracehub repo. All resources from /validation package should be transferred into new repo. We should get rid of XSL sheets here, after they will be stored in different repository. Don't forget to remove this puzzle</body>
+    <file>xsl/project/arc.xsl</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-01-23T12:22:40Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

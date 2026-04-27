@@ -1,0 +1,725 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-12-04T23:48:14+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/31" closed="2019-12-28T17:42:48+00:00">31</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-878dfd28</id>
+    <lines>3-5</lines>
+    <body>move keys to env vars I assume that keys provided by deployment env, we no need keys for dev environment committed in VCS</body>
+    <file>firebase.config.js</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:03:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zorko-io/zorko-designer/issues/65" closed="2019-12-28T18:03:38+00:00">65</issue>
+        <ticket>31</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>31-388dbfd8</id>
+        <lines>16-18</lines>
+        <body>Integrate WebPack with dotenv configure webpack to inject env variable during build just calling config() doesn't enough</body>
+        <file>src/index.tsx</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2019-12-28T17:29:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/32" closed="2019-12-26T16:32:07+00:00">32</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-2206e0d6</id>
+    <lines>19-22</lines>
+    <body>Cover with unit tests AnalyticBoard selector Prepare a mock data of app state, I assume it would be a top level fixture which may combine all other state's fixtures, put it in `src/__mocks__`. Test may include case with empty app state and then with one spec chosen (use simple one)</body>
+    <file>src/features/analyticBoard/selectors.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:03:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zorko-io/zorko-designer/issues/58" closed="2019-12-26T16:29:41+00:00">58</issue>
+        <ticket>32</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>32-fc173e23</id>
+        <lines>38-39</lines>
+        <body>Move to channel fixtures it makes sence to move it to features/channels/__mocks__</body>
+        <file>src/features/analyticBoard/selectAnalyticBoardTest.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2019-12-26T15:23:15Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/zorko-io/zorko-designer/issues/59">59</issue>
+        <ticket>32</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>32-2e7368a8</id>
+        <lines>15-16</lines>
+        <body>Move to its own features, prep presenter it makes sense to move it to features/analyticBoard/__mocks__</body>
+        <file>src/features/analyticBoard/selectAnalyticBoardTest.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2019-12-26T16:29:02Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/zorko-io/zorko-designer/issues/60" closed="2019-12-27T11:44:23+00:00">60</issue>
+        <ticket>32</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>32-b21e1cd1</id>
+        <lines>42-43</lines>
+        <body>Rewrite with rootReducer move to mocks for channel it makes sence to move it to features/channels/__mocks__</body>
+        <file>src/features/analyticBoard/selectAnalyticBoardTest.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2019-12-26T16:29:02Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/33" closed="2019-12-28T16:49:53+00:00">33</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-7d830fce</id>
+    <lines>30-31</lines>
+    <body>Store list of channels in board state Extend appropriate reducer/presenter, unit tests off course</body>
+    <file>src/features/analyticBoard/selectors.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:03:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/34" closed="2019-12-25T16:29:33+00:00">34</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-09570e62</id>
+    <lines>14-16</lines>
+    <body>Extract to method 'selectContent' Make as method of firebase analytic class like 'firebaseAnalytic.selectContent({ id, type})'</body>
+    <file>src/analytic/firebaseAnalyticMiddleware.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:03:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/35" closed="2019-12-25T16:16:43+00:00">35</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-8b3568ec</id>
+    <lines>28-30</lines>
+    <body>Extract to method 'viewSpecsCategory' Make as method of firebase analytic class like 'firebaseAnalytic.viewList({ category})'</body>
+    <file>src/analytic/firebaseAnalyticMiddleware.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:03:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/36" closed="2019-12-25T06:09:31+00:00">36</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-af9bee38</id>
+    <lines>41-43</lines>
+    <body>Extract to method 'editContent' Make as method of firebase analytic class like 'firebaseAnalytic.editContent({type, id, changeType})'</body>
+    <file>src/analytic/firebaseAnalyticMiddleware.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:03:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zorko-io/zorko-designer/issues/41" closed="2019-12-25T16:51:49+00:00">41</issue>
+        <ticket>36</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>36-2b00d8aa</id>
+        <lines>6-8</lines>
+        <body>Move analytic initialization to composition root move all initializations composition root I assume it's index.ts, however it might be store as well,</body>
+        <file>src/analytic/zorkoDesignerAnalyticFacade.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2019-12-25T06:08:47Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/zorko-io/zorko-designer/issues/52" closed="2019-12-25T17:16:10+00:00">52</issue>
+            <ticket>41</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>41-8700a553</id>
+            <lines>9-10</lines>
+            <body>Cover firebaseAnalyticMiddleware with unit tests create testfile, provide by one testcase pare event</body>
+            <file>src/analytic/firebaseAnalyticMiddleware.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2019-12-25T16:48:29Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/zorko-io/zorko-designer/issues/56" closed="2020-01-11T13:54:17+00:00">56</issue>
+                <ticket>52</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>52-42548d9b</id>
+                <lines>2-3</lines>
+                <body>Integrate with CI with trigger for push start with simple test and linters run on pull req creation</body>
+                <file>.circleci/config.yml</file>
+                <author>nesterone</author>
+                <email>igornester@gmail.com</email>
+                <time>2019-12-26T07:10:27Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/zorko-io/zorko-designer/issues/133">133</issue>
+                    <ticket>56</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>56-c6db8b83</id>
+                    <lines>4-7</lines>
+                    <body>Static import of JSON doesn't work on CI Issues with location '../../../public/spec/vega-lite/index.json' during CI build, switch to relative HTTP call, as far as examples are part of designer assets.</body>
+                    <file>src/packages/designerApi/repository.ts</file>
+                    <author>nesterone</author>
+                    <email>igornester@gmail.com</email>
+                    <time>2020-01-11T13:40:22Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/zorko-io/zorko-designer/issues/53" closed="2019-12-30T17:16:22+00:00">53</issue>
+            <ticket>41</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>41-6c3c52ef</id>
+            <lines>11-13</lines>
+            <body>Move middleware to index.ts extract logger middlewares to separate files as logrock and redux to understand the difference</body>
+            <file>src/store/index.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2019-12-25T16:48:29Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/37" closed="2019-12-28T19:31:26+00:00">37</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-704044ff</id>
+    <lines>41-42</lines>
+    <body>Move to application config I assume that it's a env vars or at least common config for app</body>
+    <file>src/api/dataSourceMetadata.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:10:25Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/zorko-io/zorko-designer/issues/70">70</issue>
+        <ticket>37</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>37-7451697f</id>
+        <lines>20-21</lines>
+        <body>Move configuration to composition root it's not good that configuration happens here, it violates open/close principle</body>
+        <file>src/api/dataSourceMetadata.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2019-12-28T19:27:47Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/38" closed="2019-12-28T19:46:39+00:00">38</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-10fb9ac2</id>
+    <lines>93-94</lines>
+    <body>Throw an error if inline data upper then limit Let's setup limit in 30Mb</body>
+    <file>src/api/dataSourceMetadata.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:10:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/39" closed="2019-12-26T08:10:38+00:00">39</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-1289762c</id>
+    <lines>16-18</lines>
+    <body>Extend reducer with presenter with proper typescript typing It should accept generic presenter type and state thought generics, remove explicit type cast</body>
+    <file>src/common/utils/createReducerWithPresenter.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:03:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/40" closed="2019-12-26T07:34:22+00:00">40</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-cf46ff93</id>
+    <lines>16-18</lines>
+    <body>Extend reducer with proper typescript typing It should accept generic presenter type and state thought generics, remove explicit type cast</body>
+    <file>src/common/utils/createReducer.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-24T19:03:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zorko-io/zorko-designer/issues/57" closed="2020-01-02T17:16:04+00:00">57</issue>
+        <ticket>40</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>40-1aa328b2</id>
+        <lines>40-41</lines>
+        <body>Add unit test for 'editContent' provide with unit test</body>
+        <file>src/analytic/ZorkoDesingerAnalyticFacadeTest.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2019-12-26T07:30:51Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/43">43</issue>
+    <ticket>42</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>42-897e4abb</id>
+    <lines>25-26</lines>
+    <body>Provide proper typings for VerticalMenu component Remove Ts-Ignore for VerticalMenu component</body>
+    <file>src/components/VerticalMenu.tsx</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-25T06:34:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/44">44</issue>
+    <ticket>42</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>42-a39f95f6</id>
+    <lines>26-27</lines>
+    <body>Provide strict typing for path gen function Remove Ts-Ignore for VerticalMenu component</body>
+    <file>src/core/normalize/BaseNormalizedState.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-25T06:34:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/45">45</issue>
+    <ticket>42</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>42-9f413b75</id>
+    <lines>112-114</lines>
+    <body>Define Item so that it might be a presenter assuming that we can extend this one or prep yet one class so it would accept only presenters as items</body>
+    <file>src/core/normalize/BaseNormalizedState.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-25T06:34:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/66">66</issue>
+    <ticket>42</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>42-2b3a27d4</id>
+    <lines>55-56</lines>
+    <body>Provide proper typings for Hot module reload that solution was working, but then stopped shorturl.at/hjJMP</body>
+    <file>src/store/index.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-28T17:29:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/78">78</issue>
+    <ticket>76</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>76-5491cda4</id>
+    <lines>19-21</lines>
+    <body>Specify code coverage threhold for common - increase up to 80% - add common section here</body>
+    <file>jest.config.js</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-30T18:39:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/79" closed="2020-02-02T18:37:01+00:00">79</issue>
+    <ticket>76</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>76-85c6f47c</id>
+    <lines>25-27</lines>
+    <body>Increase code coverage for reducers - increase up to 80% - it ok to specify only for features here</body>
+    <file>jest.config.js</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-30T18:39:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/80">80</issue>
+    <ticket>75</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>75-688dcd17</id>
+    <lines>36-38</lines>
+    <body>Increase code coverage for presenters - increase up to 80% - it ok to specify only for features here</body>
+    <file>jest.config.js</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2019-12-30T18:39:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/89" closed="2020-01-03T16:06:09+00:00">89</issue>
+    <ticket>72</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>72-4744a394</id>
+    <lines>18-19</lines>
+    <body>Doc - define design decisions naming conventions, normalization, testing constraints, presenters, reducers</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-02T17:13:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/90" closed="2020-01-03T16:06:14+00:00">90</issue>
+    <ticket>72</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>72-ea457ab1</id>
+    <lines>26-26</lines>
+    <body>Doc - project structure</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-02T17:13:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/91" closed="2020-01-03T17:25:42+00:00">91</issue>
+    <ticket>72</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>72-f14e124f</id>
+    <lines>33-34</lines>
+    <body>Doc - Explain reasons for strict unit coverage define suggestions on how/when to write unit tests</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-02T17:13:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/92">92</issue>
+    <ticket>72</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>72-32466247</id>
+    <lines>44-44</lines>
+    <body>Doc - Define bug reporting steps</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-02T17:13:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/93">93</issue>
+    <ticket>72</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>72-49fe8b58</id>
+    <lines>52-52</lines>
+    <body>Doc - Define suggestion reporting steps</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-02T17:13:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/94">94</issue>
+    <ticket>72</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>72-4b75396b</id>
+    <lines>59-59</lines>
+    <body>Doc - First code contribution steps</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-02T17:13:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/95">95</issue>
+    <ticket>72</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>72-a7a6a9b2</id>
+    <lines>67-67</lines>
+    <body>Doc - Define pull request process</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-02T17:13:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/97" closed="2020-01-03T17:10:40+00:00">97</issue>
+    <ticket>72</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>72-70c126f3</id>
+    <lines>75-75</lines>
+    <body>Doc - Move to separate file</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-02T17:26:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/99" closed="2020-01-03T16:43:52+00:00">99</issue>
+    <ticket>72</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>72-4f74854c</id>
+    <lines>57-58</lines>
+    <body>Doc - project structure mention naming conventions</body>
+    <file>CONTRIBUTING.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-03T16:03:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/108">108</issue>
+    <ticket>105</ticket>
+    <estimate>50</estimate>
+    <role>DEV</role>
+    <id>105-ed67e6ac</id>
+    <lines>2-4</lines>
+    <body>Wrap in class based Id generators usages: `ChannelId.create(specId, channelName).toString()` and `ChannelId.parse(channelId).getName()`</body>
+    <file>src/packages/idGenderators/createChannelId.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-03T19:02:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/111" closed="2020-01-07T11:57:14+00:00">111</issue>
+    <ticket>109</ticket>
+    <estimate>55</estimate>
+    <role>DEV</role>
+    <id>109-de187783</id>
+    <lines>5-6</lines>
+    <body>It forse to create normalization for each store slice it's not efficient, we need reusable normalization store container</body>
+    <file>src/packages/corePresenters/normalize/BaseNormalizedState.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-04T13:08:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/118" closed="2020-01-09T20:14:26+00:00">118</issue>
+    <ticket>114</ticket>
+    <estimate>40</estimate>
+    <role>DEV</role>
+    <id>114-0a456b6c</id>
+    <lines>15-16</lines>
+    <body>VegaLiteSchema Migrate to Presenter-Reducer approach prep presenters, use createReducer util</body>
+    <file>src/features/vegaLiteSchema/vegaLiteSchemaReducer.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-06T16:17:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/119" closed="2020-01-09T18:31:38+00:00">119</issue>
+    <ticket>114</ticket>
+    <estimate>40</estimate>
+    <role>DEV</role>
+    <id>114-afdf6142</id>
+    <lines>13-14</lines>
+    <body>Repositories Migrate to Presenter-Reducer approach prep presenters, use createReducer util</body>
+    <file>src/features/repositories/repositoriesReducer.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-06T16:17:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/120" closed="2020-01-08T17:57:10+00:00">120</issue>
+    <ticket>114</ticket>
+    <estimate>40</estimate>
+    <role>DEV</role>
+    <id>114-00d5e690</id>
+    <lines>14-15</lines>
+    <body>DataSources Migrate to Presenter-Reducer approach prep presenters, use createReducer util</body>
+    <file>src/features/dataSourceMetadata/dataSourceMetadataReducer.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-06T16:17:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/139" closed="2020-01-25T14:41:02+00:00">139</issue>
+    <ticket>138</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>138-0c2b4b77</id>
+    <lines>16-16</lines>
+    <body>Provide logger for component did catch</body>
+    <file>src/app/AppLogger.tsx</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-16T13:19:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/140" closed="2020-01-25T14:41:08+00:00">140</issue>
+    <ticket>138</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>138-ac4ee1fb</id>
+    <lines>44-44</lines>
+    <body>BSOD doesn't shown for critical errors</body>
+    <file>src/app/AppLogger.tsx</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-16T13:19:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/141" closed="2020-01-25T14:44:41+00:00">141</issue>
+    <ticket>138</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>138-a3700a91</id>
+    <lines>33-33</lines>
+    <body>Move to custom middlewares</body>
+    <file>src/index.tsx</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-16T13:19:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/171" closed="2020-03-21T08:05:54+00:00">171</issue>
+    <ticket>136</ticket>
+    <estimate>2</estimate>
+    <role>DEV</role>
+    <id>136-1a494be8</id>
+    <lines>37-37</lines>
+    <body>Open Spec - list of screens in Zeplin</body>
+    <file>docs/spec.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-03-09T17:21:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/172">172</issue>
+    <ticket>136</ticket>
+    <estimate>3</estimate>
+    <role>DEV</role>
+    <id>136-2a0f2f06</id>
+    <lines>52-52</lines>
+    <body>Modify visualization - list of screens in Zeplin</body>
+    <file>docs/spec.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-03-09T17:21:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/173">173</issue>
+    <ticket>136</ticket>
+    <estimate>2</estimate>
+    <role>DEV</role>
+    <id>136-ba7395ef</id>
+    <lines>71-71</lines>
+    <body>View Data Source - list of screens in Zeplin</body>
+    <file>docs/spec.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-03-09T17:21:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/174">174</issue>
+    <ticket>136</ticket>
+    <estimate>1</estimate>
+    <role>DEV</role>
+    <id>136-13a08ffc</id>
+    <lines>81-81</lines>
+    <body>Save as - list of screens in Zeplin</body>
+    <file>docs/spec.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-03-09T17:21:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/182">182</issue>
+    <ticket>136</ticket>
+    <estimate>1</estimate>
+    <role>DEV</role>
+    <id>136-6cc719d0</id>
+    <lines>30-30</lines>
+    <body>Move all UI specifics to Appendix</body>
+    <file>docs/spec.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-03-21T11:13:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zorko-io/zorko-designer/issues/183">183</issue>
+    <ticket>136</ticket>
+    <estimate>1</estimate>
+    <role>DEV</role>
+    <id>136-fff4aabc</id>
+    <lines>37-37</lines>
+    <body>Create Flow Diagram for basic use cases</body>
+    <file>docs/spec.md</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-03-21T11:13:03Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

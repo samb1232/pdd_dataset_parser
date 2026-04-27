@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-02-01T03:16:34+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1114">1114</issue>
+    <ticket>337</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>337-8e901889</id>
+    <lines>169-169</lines>
+    <body>Implement exclude and excludes for ant QuliceTask</body>
+    <file>qulice-ant/src/main/java/com/qulice/ant/AntEnvironment.java</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1115">1115</issue>
+    <ticket>337</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>337-3d7cb361</id>
+    <lines>39-39</lines>
+    <body>Implement unit tests at AntEnvironmentTest</body>
+    <file>qulice-ant/src/test/java/com/qulice/ant/AntEnvironmentTest.java</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1116" closed="2023-01-10T07:52:21+00:00">1116</issue>
+    <ticket>544</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>544-c37b2cc3</id>
+    <lines>38-40</lines>
+    <body>Tests below pass only when run sequentially, when they are run in parallel some of them start to fail. Please fix the tests below and remove override of maven-surefire-plugin configuration in qulice-pmd pom.xml</body>
+    <file>qulice-pmd/src/test/java/com/qulice/pmd/PmdEmptyTest.java</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1117">1117</issue>
+    <ticket>250</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>250-1b26b28c</id>
+    <lines>42-52</lines>
+    <body>Maven-duplicate-finder-plugin should support exclusions. Let's add exclusions of following formats (examples): - duplicate:about.html - duplicate:org.eclipse.sisu:org.eclipse.sisu.plexus:0.0.0.M5 - duplicate:org.codehaus.groovy.ast.expr.RegexExpression - duplicate:org.eclipse.sisu:org.eclipse.sisu.plexus:0.0.0.M5 |xml-apis:xml-apis:1.0.0|about.html - duplicate:org.eclipse.sisu:org.eclipse.sisu.plexus:0.0.0.M5 |xml-apis:xml-apis:1.0.0|org.w3c.dom.UserDataHandler See https://github.com/tpc2/qulice/issues/152#issuecomment-39028953 and https://github.com/teamed/qulice/issues/250 for details</body>
+    <file>qulice-maven-plugin/src/main/java/com/qulice/maven/DuplicateFinderValidator.java</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1118">1118</issue>
+    <ticket>250</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>250-bd6aad88</id>
+    <lines>57-59</lines>
+    <body>Fix a problem with maven configuration of duplicate finder plugin in commented out code below, and enable duplicate-finder-ignore-deps IT in pom.xml.</body>
+    <file>qulice-maven-plugin/src/main/java/com/qulice/maven/DuplicateFinderValidator.java</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1119" closed="2023-12-12T12:49:03+00:00">1119</issue>
+    <ticket>123</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>123-1f09aa3b</id>
+    <lines>41-42</lines>
+    <body>Make this better in multiple lines but different.</body>
+    <file>qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Brackets.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1120" closed="2023-12-12T12:49:08+00:00">1120</issue>
+    <ticket>123</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>123-b644cf22</id>
+    <lines>64-65</lines>
+    <body>Make this better in multiple lines.</body>
+    <file>qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Brackets.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1121" closed="2023-12-12T12:49:13+00:00">1121</issue>
+    <ticket>123</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>123-cfed8d02</id>
+    <lines>7-7</lines>
+    <body>This is also valid.</body>
+    <file>qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Pdd.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1122" closed="2023-12-12T12:49:17+00:00">1122</issue>
+    <ticket>123</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>123-5357374c</id>
+    <lines>24-25</lines>
+    <body>Here we should capture also another line.</body>
+    <file>qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Pdd.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1123">1123</issue>
+    <ticket>738</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>738-5bee823d</id>
+    <lines>39-41</lines>
+    <body>Static inner classes should be qualified with outer class Implement QualifyInnerClassCheck so it follows what defined in QualifyInnerClassCheck test and add this check to checks.xml and CheckTest.</body>
+    <file>qulice-checkstyle/src/main/java/com/qulice/checkstyle/QualifyInnerClassCheck.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1124">1124</issue>
+    <ticket>260</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>260-dc51e6f4</id>
+    <lines>48-49</lines>
+    <body>Add handling of multiple anonymous classes inside methods by looking at the recursive tree.</body>
+    <file>qulice-checkstyle/src/main/java/com/qulice/checkstyle/MethodBodyCommentsCheck.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1125">1125</issue>
+    <ticket>412</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>412-bd044e76</id>
+    <lines>57-59</lines>
+    <body>Split this class into smaller ones and remove PMD exclude `TooManyMethods`. Good candidates for moving out of this class are all that use `validateCheckstyle` method.</body>
+    <file>qulice-checkstyle/src/test/java/com/qulice/checkstyle/CheckstyleValidatorTest.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1126">1126</issue>
+    <ticket>447</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>447-94597ea9</id>
+    <lines>304-306</lines>
+    <body>Right now ConstantUsageCheck takes into account usage of constants inside method annotations, add handling of constants used in field and class annotations.</body>
+    <file>qulice-checkstyle/src/test/java/com/qulice/checkstyle/CheckstyleValidatorTest.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1127">1127</issue>
+    <ticket>61</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>61-61fa67ee</id>
+    <lines>446-448</lines>
+    <body>This test and passesWindowsEndsOfLineWithoutException should be refactored to gather log4j logs and validate that they work correctly. (see changes done in #61)</body>
+    <file>qulice-checkstyle/src/test/java/com/qulice/checkstyle/CheckstyleValidatorTest.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1128" closed="2022-12-20T03:26:24+00:00">1128</issue>
+    <ticket>411</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>411-71c8871e</id>
+    <lines>459-463</lines>
+    <body>Sample code provided in #411 should be considered as invalid. Find a way how to do that by either custom check, or updating Checkstyle whenever IndentationCheck there will be more reliable. As for Checkstyle 6.15 there's no ready solution for that. Right now Qulice allows both correct and incorrect code from #411.</body>
+    <file>qulice-checkstyle/src/test/java/com/qulice/checkstyle/CheckstyleValidatorTest.java</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-08-03T14:32:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1180" closed="2023-11-29T22:13:57+00:00">1180</issue>
+    <ticket>1148</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1148-d8923598</id>
+    <lines>44-44</lines>
+    <body>Avoid branchContains usages in checks and delete this class</body>
+    <file>qulice-checkstyle/src/main/java/com/qulice/checkstyle/BranchContains.java</file>
+    <author>@blablatdinov</author>
+    <email>a.ilaletdinov@yandex.ru</email>
+    <time>2023-06-25T14:36:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1181" closed="2023-11-21T11:58:46+00:00">1181</issue>
+    <ticket>1148</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1148-0feabb8c</id>
+    <lines>46-46</lines>
+    <body>Avoid equalsTree usages in checks and delete this class</body>
+    <file>qulice-checkstyle/src/main/java/com/qulice/checkstyle/EqualsTree.java</file>
+    <author>@blablatdinov</author>
+    <email>a.ilaletdinov@yandex.ru</email>
+    <time>2023-06-25T14:36:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/qulice/issues/1192">1192</issue>
+    <ticket>1129</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1129-2c8d24c8</id>
+    <lines>88-89</lines>
+    <body>If was added to avoid failing build, but there should be better place for this check.</body>
+    <file>qulice-pmd/src/main/java/com/qulice/pmd/PmdListener.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-01-16T01:17:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/qulice/issues/1193" closed="2024-02-01T03:16:34+00:00">1193</issue>
+    <ticket>1129</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1129-a60b2495</id>
+    <lines>130-131</lines>
+    <body>Replace not+empty() with more precise containsInAnyOrder @throws Exception If something wrong happens inside.</body>
+    <file>qulice-pmd/src/test/java/com/qulice/pmd/PmdValidatorTest.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-01-16T01:17:41Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-07-12T14:45:21+00:00" version="0.30.18">
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/wts.zold.io/issues/103">103</issue>
+    <ticket>91</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>91-c7ddbd51</id>
+    <lines>37-39</lines>
+    <body>This unit test doesn't work for some reason. I can't figure out what's wrong here. Let's investigate and fix. The code works fine with production API, though.</body>
+    <file>test/test_bank.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2019-01-10T09:33:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/wts.zold.io/issues/284">284</issue>
+    <ticket>283</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>283-fb4c3c26</id>
+    <lines>73-75</lines>
+    <body>The test is skipped because it fails time to time. I suspect that the problem is on their side, at hitsofcode.com. We should investigate and maybe ask them to fix something.</body>
+    <file>test/front/test_daily_summary.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2019-07-12T07:16:51Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

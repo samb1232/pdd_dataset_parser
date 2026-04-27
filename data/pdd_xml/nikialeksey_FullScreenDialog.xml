@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2017-11-07T05:00:22+00:00" version="0.25.7">
+  <puzzle alive="false">
+    <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/3">3</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>1-a9e8ab30</id>
+    <lines>14-14</lines>
+    <body>Add full screen dialog showing</body>
+    <file>app/src/main/java/me/nikialeksey/fullscreendialog/MainActivity.java</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2017-06-27T15:47:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/17">17</issue>
+    <ticket>18</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>18-922360c0</id>
+    <lines>82-82</lines>
+    <body>Bad to use class name matcher. Need configure close button in FsDialog constructor</body>
+    <file>lib/src/androidTest/java/com/nikialeksey/fullscreendialog/FsDialogTest.java</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2017-08-07T06:35:10Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/16">16</issue>
+        <ticket>17</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>17-38a7423a</id>
+        <lines>45-45</lines>
+        <body>Fix actionTitle color for API 16</body>
+        <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialogToolbar.java</file>
+        <author>Alexey Nikitin</author>
+        <email>nikialeksey@gmail.com</email>
+        <time>2017-08-07T06:35:10Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/15">15</issue>
+            <ticket>16</ticket>
+            <estimate>30</estimate>
+            <role>IMP</role>
+            <id>16-d090eb16</id>
+            <lines>20-20</lines>
+            <body>Write espresso test showing</body>
+            <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialog.java</file>
+            <author>Alexey Nikitin</author>
+            <email>a.nikitin@modulbank.ru</email>
+            <time>2017-07-21T07:57:56Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/14">14</issue>
+                <ticket>15</ticket>
+                <estimate>30</estimate>
+                <role>IMP</role>
+                <id>15-b603d564</id>
+                <lines>19-19</lines>
+                <body>Write espresso test close</body>
+                <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialog.java</file>
+                <author>Alexey Nikitin</author>
+                <email>a.nikitin@modulbank.ru</email>
+                <time>2017-07-21T07:57:56Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/13">13</issue>
+                    <ticket>14</ticket>
+                    <estimate>60</estimate>
+                    <role>IMP</role>
+                    <id>14-b98aaa30</id>
+                    <lines>20-20</lines>
+                    <body>Write espresso test</body>
+                    <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialog.java</file>
+                    <author>Alexey Nikitin</author>
+                    <email>a.nikitin@modulbank.ru</email>
+                    <time>2017-07-20T07:51:04Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/12">12</issue>
+                        <ticket>13</ticket>
+                        <estimate>30</estimate>
+                        <role>IMP</role>
+                        <id>13-623b7b0a</id>
+                        <lines>19-19</lines>
+                        <body>Add content view</body>
+                        <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialog.java</file>
+                        <author>Alexey Nikitin</author>
+                        <email>a.nikitin@modulbank.ru</email>
+                        <time>2017-07-20T07:47:50Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/11">11</issue>
+                            <ticket>12</ticket>
+                            <estimate>30</estimate>
+                            <role>IMP</role>
+                            <id>12-a04cd331</id>
+                            <lines>30-30</lines>
+                            <body>Add popup animation like bottom sheet</body>
+                            <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialog.java</file>
+                            <author>Alexey Nikitin</author>
+                            <email>a.nikitin@modulbank.ru</email>
+                            <time>2017-07-19T07:22:09Z</time>
+                            <children>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/10">10</issue>
+                                <ticket>11</ticket>
+                                <estimate>30</estimate>
+                                <role>IMP</role>
+                                <id>11-ef4448ed</id>
+                                <lines>58-58</lines>
+                                <body>change this method to class</body>
+                                <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialog.java</file>
+                                <author>Alexey Nikitin</author>
+                                <email>a.nikitin@modulbank.ru</email>
+                                <time>2017-07-18T08:48:37Z</time>
+                                <children>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/9">9</issue>
+                                    <ticket>10</ticket>
+                                    <estimate>60</estimate>
+                                    <role>IMP</role>
+                                    <id>10-69ed6b9b</id>
+                                    <lines>20-20</lines>
+                                    <body>make the system bar and nav bar true color, when dialog is showing</body>
+                                    <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialog.java</file>
+                                    <author>Alexey Nikitin</author>
+                                    <email>a.nikitin@modulbank.ru</email>
+                                    <time>2017-07-18T07:09:27Z</time>
+                                    <children>
+                                      <puzzle alive="false">
+                                        <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/8">8</issue>
+                                        <ticket>9</ticket>
+                                        <estimate>60</estimate>
+                                        <role>IMP</role>
+                                        <id>9-7c25cd84</id>
+                                        <lines>26-26</lines>
+                                        <body>Make the toolbar text true color</body>
+                                        <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialogToolbar.java</file>
+                                        <author>Alexey Nikitin</author>
+                                        <email>a.nikitin@modulbank.ru</email>
+                                        <time>2017-07-18T07:09:27Z</time>
+                                        <children>
+                                          <puzzle alive="true">
+                                            <issue href="https://github.com/nikialeksey/FullScreenDialog/issues/7">7</issue>
+                                            <ticket>8</ticket>
+                                            <estimate>30</estimate>
+                                            <role>IMP</role>
+                                            <id>8-8aafb3a0</id>
+                                            <lines>19-19</lines>
+                                            <body>Think about close action (may be bad idea)</body>
+                                            <file>lib/src/main/java/com/nikialeksey/fullscreendialog/FsDialogToolbar.java</file>
+                                            <author>Alexey Nikitin</author>
+                                            <email>a.nikitin@modulbank.ru</email>
+                                            <time>2017-07-18T07:09:27Z</time>
+                                            <children/>
+                                          </puzzle>
+                                        </children>
+                                      </puzzle>
+                                    </children>
+                                  </puzzle>
+                                </children>
+                              </puzzle>
+                            </children>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,2553 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-03-03T15:39:43+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/53" closed="2017-10-27T18:53:28+00:00">53</issue>
+    <ticket>39</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>39-e7c34bd5</id>
+    <lines>56-58</lines>
+    <body>Needs cached `LengthOfIterable` version to improve `IterableAsList` performance. Now each call to `size()` goes through all iterable to calculate the size.</body>
+    <file>src/main/java/org/cactoos/list/IterableAsList.java</file>
+    <author>g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2017-05-27T09:25:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/505" closed="2017-12-29T11:25:13+00:00">505</issue>
+    <ticket>504</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>504-de6e0b21</id>
+    <lines>46-48</lines>
+    <body>This test fails for some reason and I can't understand what's wrong. Seems to be some issue with the Zone we are not detecting in the text.</body>
+    <file>src/test/java/org/cactoos/time/ZonedDateTimeOfTest.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-12-25T19:22:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/585" closed="2018-02-20T13:38:25+00:00">585</issue>
+    <ticket>482</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>482-5994e3af</id>
+    <lines>33-35</lines>
+    <body>add multi-threaded tests which test that the lock syncs the access to the next method against next and hasNext calls and calls to the hasNext method against next calls.</body>
+    <file>src/test/java/org/cactoos/iterator/SyncIteratorTest.java</file>
+    <author>Sven Diedrichsen</author>
+    <email>sdiedrichsen@yahoo.de</email>
+    <time>2018-01-25T21:06:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/636" closed="2018-02-26T09:37:58+00:00">636</issue>
+    <ticket>547</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>547-eacac169</id>
+    <lines>89-91</lines>
+    <body>Fix calculation of length for zero buffer I suppose to have an exception in that case For now it runs forever</body>
+    <file>src/test/java/org/cactoos/io/LengthOfTest.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-02-12T14:35:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/720" closed="2018-03-26T12:32:57+00:00">720</issue>
+    <ticket>631</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>631-6c33e53a</id>
+    <lines>48-50</lines>
+    <body>This class needs more test cases. Currently, only a set of ctors is covered by tests: ctors which use Bytes and byte array as an input. All other ctors should be covered too.</body>
+    <file>src/main/java/org/cactoos/io/TeeInput.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-02-26T07:29:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/794" closed="2018-05-10T17:51:40+00:00">794</issue>
+        <ticket>720</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>720-dcdb33c9</id>
+        <lines>86-88</lines>
+        <body>When https://github.com/teamed/qulice/issues/877 is fixed upgrade qulice dependency to the one that contains the fix and fix any issues in the project that result from this upgrade.</body>
+        <file>pom.xml</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-04-28T17:30:29Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/721" closed="2018-03-20T09:16:05+00:00">721</issue>
+    <ticket>631</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>631-845093d4</id>
+    <lines>41-43</lines>
+    <body>Create a new Matcher that will compare results of TeeInput as well as copied content to the original message. Apply this new matcher for this test and for {@link TeeInputFromByteArrayTest}.</body>
+    <file>src/test/java/org/cactoos/io/TeeInputFromBytesTest.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-02-26T07:29:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/799" closed="2018-05-14T14:06:29+00:00">799</issue>
+    <ticket>736</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>736-a59d45fd</id>
+    <lines>42-48</lines>
+    <body>Create CheckedBiFunc, CheckedBiProc, CheckedFunc, CheckedProc based on this class (see CheckedBytes for example). Pay attention to a problem with testing these classes: CodeCov doesn't calculate test coverage for these classes properly dur to a problem with throwing exceptions (see https://github.com/jacoco/jacoco/issues/370). So, I would suggest to investigate into this problem at first, find solution for that and then start with implementation of the classes.</body>
+    <file>src/main/java/org/cactoos/scalar/CheckedScalar.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-04-30T08:07:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/802" closed="2018-05-08T13:30:43+00:00">802</issue>
+    <ticket>748</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>748-cb897b68</id>
+    <lines>35-40</lines>
+    <body>Introduce IteratorOfFloats, IteratorOfInts, IteratorOfLongs and IteratorOfShorts which will take array of their related primitive types (float, int, long, short) and produce iterator of reference type (Float, Integer, Long, Short). Refactor appropriate IterableOf* classes by using those newly created iterators to avoid unnecessary copying elements to a new array.</body>
+    <file>src/main/java/org/cactoos/iterable/IterableOfFloats.java</file>
+    <author>Vedran</author>
+    <email>vedran@Vedrans-iMac.local</email>
+    <time>2018-05-01T09:51:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/838" closed="2018-05-15T16:56:26+00:00">838</issue>
+        <ticket>802</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>802-6284bb55</id>
+        <lines>35-39</lines>
+        <body>Introduce IteratorOfLongs and IteratorOfShorts which will take array of their related primitive types (long, short) and produce iterator of reference type (Long, Short). Refactor appropriate IterableOf* classes by using those newly created iterators to avoid unnecessary copying elements to a new array.</body>
+        <file>src/main/java/org/cactoos/iterable/IterableOfLongs.java</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2018-05-08T05:26:36Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/803" closed="2018-05-08T13:46:45+00:00">803</issue>
+    <ticket>748</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>748-7e33dd81</id>
+    <lines>35-40</lines>
+    <body>Introduce IteratorOfBooleans, IteratorOfChars, IteratorOfBytes and IteratorOfDoubles which will take array of their related primitive types (boolean, char, byte, double) and produce iterator of reference type (Boolean, Character, Byte, Double). Refactor appropriate IterableOf* classes by using those newly created iterators to avoid unnecessary copying elements to a new array.</body>
+    <file>src/main/java/org/cactoos/iterable/IterableOfBooleans.java</file>
+    <author>Vedran</author>
+    <email>vedran@Vedrans-iMac.local</email>
+    <time>2018-05-01T09:51:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/839" closed="2018-05-18T15:32:18+00:00">839</issue>
+        <ticket>803</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>803-f276f37b</id>
+        <lines>35-39</lines>
+        <body>Introduce IteratorOfBytes and IteratorOfDoubles which will take array of their related primitive types (byte, double) and produce iterator of reference type (Byte, Double). Refactor appropriate IterableOf* classes by using those newly created iterators to avoid unnecessary copying elements to a new array.</body>
+        <file>src/main/java/org/cactoos/iterable/IterableOfBytes.java</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2018-05-07T20:33:17Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/821" closed="2018-05-12T21:35:53+00:00">821</issue>
+    <ticket>759</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>759-294de7ab</id>
+    <lines>38-42</lines>
+    <body>Refactor FuncWithFallback applying a new ScalarWithFallback: change implementation of this class so that it uses ScalarWithFallback as base implementation. Refactored class should allow the user to specify multiple fallbacks for different types of exceptions (similar to ScalarWithFallback).</body>
+    <file>src/main/java/org/cactoos/func/FuncWithFallback.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-05-01T08:29:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/849" closed="2018-05-17T20:18:04+00:00">849</issue>
+    <ticket>788</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>788-d4bcd092</id>
+    <lines>38-40</lines>
+    <body>Refactor all classes in text package to extend from TextEnvelope, allowing direct comparison with string objects using hashCode and equals methods.</body>
+    <file>src/main/java/org/cactoos/text/TextEnvelope.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-05-08T20:52:44Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/878" closed="2018-05-21T14:50:25+00:00">878</issue>
+        <ticket>849</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>849-f712c12a</id>
+        <lines>38-40</lines>
+        <body>Continue refactoring all classes implementing Text to extend TextEnvelope - in most cases asString should be removed and implementation from TextEnvelope should be used.</body>
+        <file>src/main/java/org/cactoos/text/JoinedText.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-05-17T14:13:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/897" closed="2018-07-09T12:24:15+00:00">897</issue>
+            <ticket>878</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>878-f712c12a</id>
+            <lines>38-40</lines>
+            <body>Continue refactoring all classes implementing Text to extend TextEnvelope - in most cases asString should be removed and implementation from TextEnvelope should be used.</body>
+            <file>src/main/java/org/cactoos/text/JoinedText.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2018-05-21T14:41:31Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/929" closed="2019-02-07T01:50:24+00:00">929</issue>
+                <ticket>897</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>897-9c9a3952</id>
+                <lines>34-36</lines>
+                <body>Continue refactoring all classes implementing Text to extend TextEnvelope - asString() should be removed and implementation from TextEnvelope should be used.</body>
+                <file>src/main/java/org/cactoos/text/Base64Text.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2018-07-09T12:12:30Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1063" closed="2019-04-23T23:26:17+00:00">1063</issue>
+                <ticket>897</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>897-f060f15b</id>
+                <lines>34-36</lines>
+                <body>All classes implementing Text need to be refactored to extend TextEnvelope - asString() should be removed and implementation from TextEnvelope should be used.</body>
+                <file>src/main/java/org/cactoos/text/Abbreviated.java</file>
+                <author>igor</author>
+                <email>ceigor94@gmail.com</email>
+                <time>2019-02-02T19:49:13Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/cactoos/issues/1116" closed="2019-05-31T21:24:27+00:00">1116</issue>
+                    <ticket>1063</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1063-eb6fd66d</id>
+                    <lines>39-42</lines>
+                    <body>All classes implementing Text need to be refactored to extend TextEnvelope - asString() should be removed and implementation from TextEnvelope should be used. This to-do should be moved to another class which need to be refactored.</body>
+                    <file>src/main/java/org/cactoos/text/FormattedText.java</file>
+                    <author>@rultor</author>
+                    <email>me@rultor.com</email>
+                    <time>2019-04-23T23:15:12Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/yegor256/cactoos/issues/1135" closed="2020-08-08T13:44:59+00:00">1135</issue>
+                        <ticket>1116</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>1116-eb6fd66d</id>
+                        <lines>40-43</lines>
+                        <body>All classes implementing Text need to be refactored to extend TextEnvelope - asString() should be removed and implementation from TextEnvelope should be used. This to-do should be moved to another class which need to be refactored.</body>
+                        <file>src/main/java/org/cactoos/text/Randomized.java</file>
+                        <author>Victor No&#xEB;l</author>
+                        <email>victor.noel@crazydwarves.org</email>
+                        <time>2019-05-25T14:45:17Z</time>
+                        <children/>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/yegor256/cactoos/issues/1261" closed="2020-09-08T06:58:43+00:00">1261</issue>
+                        <ticket>1116</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>1116-ec0ce41a</id>
+                        <lines>53-57</lines>
+                        <body>Remove this deprecated class after the issue https://github.com/llorllale/cactoos-matchers/issues/148 has been resolved. The Cactoos-Matchers project(https://github.com/llorllale/cactoos-matchers) utilizes this class and by removing the class right now causes issues with class not found in the Cactoos-Matchers project.</body>
+                        <file>src/main/java/org/cactoos/collection/CollectionOf.java</file>
+                        <author>rultor</author>
+                        <email>me@rultor.com</email>
+                        <time>2019-12-17T11:21:00Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/857" closed="2018-05-21T15:10:55+00:00">857</issue>
+    <ticket>814</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>814-43ada032</id>
+    <lines>37-40</lines>
+    <body>Implement immutable ListIterator that should be returned from ListEnvelope when calling `listIterator` method. After it is implemented remove `@Ignore` from the tests below - all of them should pass after the change.</body>
+    <file>src/test/java/org/cactoos/list/ListEnvelopeTest.java</file>
+    <author>Krzysztof Krason</author>
+    <email>Krzysztof.Krason@gmail.com</email>
+    <time>2018-05-09T09:15:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/861" closed="2018-05-19T14:34:58+00:00">861</issue>
+    <ticket>551</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>551-685b57ce</id>
+    <lines>38-41</lines>
+    <body>Remove ctor FuncOf(Proc) by replacing with FuncOf(Proc, Y) FuncOf(Proc) force using of null value which is against design principles. It's affect a lot of classes other classes. Please take a look on #551 and #843 for more details.</body>
+    <file>src/main/java/org/cactoos/func/FuncOf.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-05-11T15:56:38Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/883" closed="2018-10-24T13:37:35+00:00">883</issue>
+        <ticket>861</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>861-c93d9bb1</id>
+        <lines>37-39</lines>
+        <body>Avoid usage of null value in IoCheckedProc.exec(X) which is against design principles. Please take a look on #551 and #843 for more details.</body>
+        <file>src/main/java/org/cactoos/func/IoCheckedProc.java</file>
+        <author>Isammoc OFF</author>
+        <email>Isammoc@users.noreply.github.com</email>
+        <time>2018-05-16T14:02:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/884" closed="2019-02-26T00:49:35+00:00">884</issue>
+        <ticket>861</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>861-7a51e9e5</id>
+        <lines>48-52</lines>
+        <body>Avoid usage of null value in ctor(Proc, ExecutorService), ctor(Proc, ThreadFactory) and ctor(Proc) which is against design principles. Perhaps with a creation of AsyncProc or removal of this functionality? Please take a look on #551 and #843 for more details.</body>
+        <file>src/main/java/org/cactoos/func/AsyncFunc.java</file>
+        <author>Isammoc OFF</author>
+        <email>Isammoc@users.noreply.github.com</email>
+        <time>2018-05-16T14:02:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/885" closed="2019-01-24T01:58:32+00:00">885</issue>
+        <ticket>861</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>861-c5656f1b</id>
+        <lines>35-37</lines>
+        <body>Avoid usage of null value in UncheckedProc.exec(X) which is against design principles. Please take a look on #551 and #843 for more details.</body>
+        <file>src/main/java/org/cactoos/func/UncheckedProc.java</file>
+        <author>Isammoc OFF</author>
+        <email>Isammoc@users.noreply.github.com</email>
+        <time>2018-05-16T14:02:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/886" closed="2019-02-07T01:14:20+00:00">886</issue>
+        <ticket>861</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>861-3f3a5fe1</id>
+        <lines>37-41</lines>
+        <body>Avoid usage of null value in ctor(Proc), ctor(Proc, int), ctor(Proc, Func(Integer, Boolean)) which is against design principles. Perhaps in creating RetryProc? Please take a look on #551 and #843 for more details.</body>
+        <file>src/main/java/org/cactoos/func/RetryFunc.java</file>
+        <author>Isammoc OFF</author>
+        <email>Isammoc@users.noreply.github.com</email>
+        <time>2018-05-16T14:02:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1062" closed="2019-04-19T11:35:01+00:00">1062</issue>
+            <ticket>886</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>886-065814f2</id>
+            <lines>38-42</lines>
+            <body>Avoid usage of null value in exec(first, second), which is against our design principles. This look like a duplication of functionality from IoCheckedBiFunc. Perhaphs, we do not need this class? Please take a look on #918 for more details.</body>
+            <file>src/main/java/org/cactoos/func/IoCheckedBiProc.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2019-02-07T01:12:58Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/887" closed="2018-09-20T21:01:33+00:00">887</issue>
+        <ticket>861</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>861-703fedf3</id>
+        <lines>38-41</lines>
+        <body>Avoid usage of null value in ctor(Proc, long) which is against design principles. Perhaps in creating TimedProc? Please take a look on #551 and #843 for more details.</body>
+        <file>src/main/java/org/cactoos/func/TimedFunc.java</file>
+        <author>Isammoc OFF</author>
+        <email>Isammoc@users.noreply.github.com</email>
+        <time>2018-05-16T14:02:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/888" closed="2019-01-24T00:19:56+00:00">888</issue>
+        <ticket>861</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>861-8d8bda55</id>
+        <lines>36-39</lines>
+        <body>Avoid usage of null value in ctor(Proc, int) which is against design principles. Perhaps in creating RepeatedProc? Please take a look on #551 and #843 for more details.</body>
+        <file>src/main/java/org/cactoos/func/RepeatedFunc.java</file>
+        <author>Isammoc OFF</author>
+        <email>Isammoc@users.noreply.github.com</email>
+        <time>2018-05-16T14:02:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1040" closed="2019-04-21T13:16:17+00:00">1040</issue>
+            <ticket>888</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>888-b319d713</id>
+            <lines>46-48</lines>
+            <body>Avoid usage of null value in ctor(Func) which is against our design principles. Most likely, dropping this ctor will be enough.</body>
+            <file>src/main/java/org/cactoos/func/CallableOf.java</file>
+            <author>igor</author>
+            <email>ceigor94@gmail.com</email>
+            <time>2019-01-20T19:37:01Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/862" closed="2018-05-29T18:58:26+00:00">862</issue>
+    <ticket>813</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>813-8130ed5b</id>
+    <lines>35-37</lines>
+    <body>IterableEnvelope appears to be read only but it returns mutable Iterator through which user can remove elements. Implement immutable Iterator for IterableEnvelope `iterator()` method.</body>
+    <file>src/test/java/org/cactoos/collection/CollectionEnvelopeTest.java</file>
+    <author>Krzysztof Krason</author>
+    <email>Krzysztof.Krason@gmail.com</email>
+    <time>2018-05-09T09:52:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/881" closed="2018-06-04T11:39:38+00:00">881</issue>
+    <ticket>844</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>844-c2e67e6a</id>
+    <lines>39-42</lines>
+    <body>Implement methods equals and hashCode for this class. Implementation should rely on the items of the nested collection, but not on default JVM impl. Class {@link org.cactoos.map.MapEnvelope} can be used as an example.</body>
+    <file>src/main/java/org/cactoos/collection/CollectionEnvelope.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-05-13T13:22:06Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/904" closed="2019-03-02T13:20:23+00:00">904</issue>
+        <ticket>881</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>881-d152950a</id>
+        <lines>42-48</lines>
+        <body>CollectionEnvelope equals method does not compare objects that implements Collection class. It only compares classes derived from CollectionEnvelope. There are three approaches to solve this issue: 1. add an instanceof (against our principles) 2. build a new type that checks if a class implements/extends an interface 3. modify InheritanceLevel to take into account (1)</body>
+        <file>src/main/java/org/cactoos/collection/CollectionEnvelope.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-06-04T11:26:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/898" closed="2019-11-03T11:24:30+00:00">898</issue>
+    <ticket>829</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>829-59f865f8</id>
+    <lines>49-51</lines>
+    <body>Remove the use of the static method `Collections.synchronizedList`. Replace by an object-oriented approach. Create a class similar to `SyncCollection` but mutable.</body>
+    <file>src/test/java/org/cactoos/scalar/AndInThreadsTest.java</file>
+    <author>Paulo Benety</author>
+    <email>pbenety@gmail.com</email>
+    <time>2018-05-22T01:27:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1217" closed="2020-09-08T06:42:48+00:00">1217</issue>
+        <ticket>898</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>898-0bea8a51</id>
+        <lines>43-45</lines>
+        <body>Get rid of the Immutable in StringList nested class That's because this test should check the original behavior of ListEnvelope Now this test checks behavior of the Immutable decorator</body>
+        <file>src/test/java/org/cactoos/list/ListEnvelopeTest.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-10-28T17:52:34Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1218" closed="2020-02-06T12:02:16+00:00">1218</issue>
+        <ticket>898</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>898-4936d4fd</id>
+        <lines>43-45</lines>
+        <body>Replace Collections.emptyList() with the {@link ListOf} That is because it is necessary to get rid of the static methods as much as possible</body>
+        <file>src/test/java/org/cactoos/collection/JoinedTest.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-10-28T17:52:34Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1219" closed="2019-11-08T21:22:01+00:00">1219</issue>
+        <ticket>898</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>898-fb66ac0b</id>
+        <lines>38-40</lines>
+        <body>Introduce an Immutable wrapper for {@link ListIterator} and use it in listIterator() methods instead of {@link ListIteratorOf}. One another option is renaming of {@link ListIteratorOf}.</body>
+        <file>src/main/java/org/cactoos/list/Immutable.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-10-28T17:52:34Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1230" closed="2019-11-12T03:54:12+00:00">1230</issue>
+            <ticket>1219</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1219-fd8dadee</id>
+            <lines>39-41</lines>
+            <body>{@link ListIteratorOf} does not have to be immutable. Make it possible to use mutable operations like remove/set/add in this {@link ListIteratorOf} and change the class javadoc as well.</body>
+            <file>src/main/java/org/cactoos/list/ListIteratorOf.java</file>
+            <author>@fanifieiev</author>
+            <email>fevzi.anifyeyev@gmail.com</email>
+            <time>2019-11-06T22:27:47Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1233" closed="2020-02-11T18:56:29+00:00">1233</issue>
+                <ticket>1230</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1230-147999cb</id>
+                <lines>29-34</lines>
+                <body>The following list implmenetation classes {@link org.cactoos.list.Joined}, {@link org.cactoos.list.Mapped}, {@link org.cactoos.list.NoNulls}, {@link org.cactoos.list.Shuffled}, {@link org.cactoos.list.Solid}, {@link org.cactoos.list.Solid}, {@link org.cactoos.list.Sorted}, {@link org.cactoos.list.Sticky}, {@link org.cactoos.list.Synced} should support mutability.</body>
+                <file>src/main/java/org/cactoos/list/package-info.java</file>
+                <author>@fanifieiev</author>
+                <email>fevzi.anifyeyev@gmail.com</email>
+                <time>2019-11-11T15:56:24Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1291" closed="2020-02-27T16:32:24+00:00">1291</issue>
+                <ticket>1230</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1230-21258e4c</id>
+                <lines>29-33</lines>
+                <body>The following list implmenetation classes {@link org.cactoos.list.Joined}, {@link org.cactoos.list.Mapped}, {@link org.cactoos.list.NoNulls}, {@link org.cactoos.list.Shuffled}, {@link org.cactoos.list.Sorted}, {@link org.cactoos.list.Synced} should support mutability.</body>
+                <file>src/main/java/org/cactoos/list/package-info.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2020-01-23T00:32:43Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1220" closed="2020-09-04T12:37:39+00:00">1220</issue>
+        <ticket>898</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>898-457dcf37</id>
+        <lines>41-43</lines>
+        <body>Replace all the Collections.unmodifiableList with the {@link org.cactoos.list.Immutable} from the cactoos codebase. That should be done because Elegant Object principles are against static methods.</body>
+        <file>src/main/java/org/cactoos/list/Immutable.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-10-28T17:52:34Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1221" closed="2022-07-30T05:12:40+00:00">1221</issue>
+        <ticket>898</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>898-b15777f7</id>
+        <lines>37-39</lines>
+        <body>Replace all the Collections.unmodifiableCollection with the {@link org.cactoos.collection.Immutable} from the cactoos codebase. That should be done because Elegant Object principles are against static methods.</body>
+        <file>src/main/java/org/cactoos/collection/Immutable.java</file>
+        <author>Fevzi Anifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-10-28T17:52:34Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1730" closed="2025-03-03T15:39:43+00:00">1730</issue>
+        <ticket>898</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>898-3f27c8c5</id>
+        <lines>36-38</lines>
+        <body>Replace all the Collections.unmodifiableCollection with the {@link Immutable} from the cactoos codebase. That should be done because Elegant Object principles are against static methods.</body>
+        <file>src/main/java/org/cactoos/collection/Immutable.java</file>
+        <author>Yegor Bugayenko</author>
+        <email>yegor256@gmail.com</email>
+        <time>2022-07-30T05:12:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/902" closed="2018-11-04T16:52:06+00:00">902</issue>
+    <ticket>588</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>588-33083ad6</id>
+    <lines>36-40</lines>
+    <body>The test buildsCollectionFromIterator was changed to use BehavesAsCollection instead of Matchers.hasItem and it seems that actually, a CollectionOf built from an Iterator does not behave as a collection. This should be fixed and the @Ignore tag on the buildsCollectionFromIterator method removed.</body>
+    <file>src/test/java/org/cactoos/collection/CollectionOfTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-05-28T14:08:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/903" closed="2018-09-20T21:17:16+00:00">903</issue>
+    <ticket>588</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>588-3a40a452</id>
+    <lines>151-155</lines>
+    <body>In the continuation of #588, all the calls to Matchers should be replaced with their OO counterparts. This todo should be updated with a new one until everything is done. At the end the configuration property below should be removed so that calls to forbidden APIs fail the build.</body>
+    <file>pom.xml</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-05-28T14:08:58Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/951" closed="2019-03-14T15:44:24+00:00">951</issue>
+        <ticket>903</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>903-fd48e847</id>
+        <lines>154-160</lines>
+        <body>In the continuation of #588, all the calls to Matchers should be replaced with their OO counterparts. This todo should be updated with a new one until everything is done. The newly covered classes should be added to the include configuration property below. At the end, the configuration property below should be completely removed so that calls to forbidden APIs always fail the build for every classes.</body>
+        <file>pom.xml</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2018-07-07T15:07:20Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1082" closed="2019-04-25T01:18:08+00:00">1082</issue>
+            <ticket>951</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>951-fd48e847</id>
+            <lines>163-169</lines>
+            <body>In the continuation of #588, all the calls to Matchers should be replaced with their OO counterparts. This todo should be updated with a new one until everything is done. The newly covered classes should be added to the include configuration property below. At the end, the configuration property below should be completely removed so that calls to forbidden APIs always fail the build for every classes.</body>
+            <file>pom.xml</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2019-03-02T17:08:02Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1119" closed="2019-07-20T20:22:24+00:00">1119</issue>
+                <ticket>1082</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1082-fd48e847</id>
+                <lines>165-171</lines>
+                <body>In the continuation of #588, all the calls to Matchers should be replaced with their OO counterparts. This todo should be updated with a new one until everything is done. The newly covered classes should be added to the include configuration property below. At the end, the configuration property below should be completely removed so that calls to forbidden APIs always fail the build for every classes.</body>
+                <file>pom.xml</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-04-25T01:01:08Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/cactoos/issues/1166" closed="2019-11-03T11:24:35+00:00">1166</issue>
+                    <ticket>1119</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1119-fd48e847</id>
+                    <lines>188-194</lines>
+                    <body>In the continuation of #588, all the calls to Matchers should be replaced with their OO counterparts. This todo should be updated with a new one until everything is done. The newly covered classes should be added to the include configuration property below. At the end, the configuration property below should be completely removed so that calls to forbidden APIs always fail the build for every classes.</body>
+                    <file>pom.xml</file>
+                    <author>@rultor</author>
+                    <email>me@rultor.com</email>
+                    <time>2019-07-20T20:10:20Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/yegor256/cactoos/issues/1222" closed="2019-11-06T19:29:29+00:00">1222</issue>
+                        <ticket>1166</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>1166-50dc8796</id>
+                        <lines>95-98</lines>
+                        <body>According to this Yegor's post https://www.yegor256.com/2016/05/03/test-methods-must-share-nothing.html test methods must share nothing. Refactor this class by inlining the the code below and remove the method below.</body>
+                        <file>src/test/java/org/cactoos/iterator/IteratorOfTest.java</file>
+                        <author>@fanifieiev</author>
+                        <email>fevzi.anifyeyev@gmail.com</email>
+                        <time>2019-10-28T17:52:34Z</time>
+                        <children/>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/yegor256/cactoos/issues/1223" closed="2020-09-04T08:32:31+00:00">1223</issue>
+                        <ticket>1166</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>1166-fd48e847</id>
+                        <lines>193-199</lines>
+                        <body>In the continuation of #588, all the calls to Matchers should be replaced with their OO counterparts. This todo should be updated with a new one until everything is done. The newly covered classes should be added to the include configuration property below. At the end, the configuration property below should be completely removed so that calls to forbidden APIs always fail the build for every classes.</body>
+                        <file>pom.xml</file>
+                        <author>Fevzi Anifieiev</author>
+                        <email>fevzi.anifyeyev@gmail.com</email>
+                        <time>2019-10-28T17:52:34Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/yegor256/cactoos/issues/1434" closed="2021-04-14T13:42:45+00:00">1434</issue>
+                            <ticket>1223</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>1223-fd48e847</id>
+                            <lines>205-211</lines>
+                            <body>In the continuation of #588, all the calls to Matchers should be replaced with their OO counterparts. This todo should be updated with a new one until everything is done. The newly covered classes should be added to the include configuration property below. At the end, the configuration property below should be completely removed so that calls to forbidden APIs always fail the build for every classes.</body>
+                            <file>pom.xml</file>
+                            <author>andreoss</author>
+                            <email>andreoss@sdf.org</email>
+                            <time>2020-09-01T23:14:46Z</time>
+                            <children>
+                              <puzzle alive="true">
+                                <issue href="https://github.com/yegor256/cactoos/issues/1583">1583</issue>
+                                <ticket>1434</ticket>
+                                <estimate>30</estimate>
+                                <role>DEV</role>
+                                <id>1434-fd48e847</id>
+                                <lines>258-264</lines>
+                                <body>In the continuation of #588, all the calls to Matchers should be replaced with their OO counterparts. This todo should be updated with a new one until everything is done. The newly covered classes should be added to the include configuration property below. At the end, the configuration property below should be completely removed so that calls to forbidden APIs always fail the build for every classes.</body>
+                                <file>pom.xml</file>
+                                <author>@LightPro-Inc</author>
+                                <email>baudolivier.oura@gmail.com</email>
+                                <time>2021-04-05T13:52:54Z</time>
+                                <children/>
+                              </puzzle>
+                            </children>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/955" closed="2018-10-23T20:52:33+00:00">955</issue>
+    <ticket>942</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>942-9caf1821</id>
+    <lines>76-79</lines>
+    <body>Refactor TextEnvelope.equals(). Current implementation of TextEnvelope.equals() uses some things that we must avoid, like more than one return on method, instance of usage and typecasting. Refactor this method so we can get rid of these smelly things.</body>
+    <file>src/main/java/org/cactoos/text/TextEnvelope.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-09-24T14:19:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/958" closed="2018-11-18T20:31:06+00:00">958</issue>
+    <ticket>913</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>913-d63f0d4a</id>
+    <lines>38-40</lines>
+    <body>There is a new class naming convention in effect: avoid compound names for decorators. Continue renaming classes according to this table: https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247.</body>
+    <file>src/main/java/org/cactoos/package-info.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-10-21T18:52:21Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/964" closed="2018-12-20T18:49:27+00:00">964</issue>
+        <ticket>958</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>958-5fdfc15a</id>
+        <lines>38-40</lines>
+        <body>Continue applying the new class naming convention in effect: avoid compound names for decorators. Continue renaming classes according to this table: https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247.</body>
+        <file>src/main/java/org/cactoos/package-info.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-11-18T20:19:37Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/980" closed="2019-01-14T14:52:21+00:00">980</issue>
+            <ticket>964</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>964-1a0e1078</id>
+            <lines>38-41</lines>
+            <body>Continue applying the new class naming convention in effect: avoid compound names for decorators. Continue renaming classes according to this table: https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247. Remaining packages are scalar, set, text, and time.</body>
+            <file>src/main/java/org/cactoos/package-info.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-12-20T18:23:53Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1003" closed="2019-03-23T13:25:16+00:00">1003</issue>
+                <ticket>980</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>980-c8642680</id>
+                <lines>29-32</lines>
+                <body>Continue applying the new class naming convention in effect: avoid compound names for decorators. Continue renaming classes implementing the {@link java.util.Set}. More details you can find here https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247.</body>
+                <file>src/main/java/org/cactoos/set/package-info.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-01-14T14:35:29Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1004" closed="2019-01-18T19:25:46+00:00">1004</issue>
+                <ticket>980</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>980-4cee6100</id>
+                <lines>34-36</lines>
+                <body>Define new name for Base64Text and TextBase64 in order to avoid compound names. These classes are using for decode/encode text using the radix-64 representation.</body>
+                <file>src/main/java/org/cactoos/text/Base64Text.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-01-14T14:35:29Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1005" closed="2019-02-07T01:50:26+00:00">1005</issue>
+                <ticket>980</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>980-cde865ee</id>
+                <lines>29-32</lines>
+                <body>Continue applying the new class naming convention in effect: avoid compound names for decorators. Continue renaming classes implementing the {@link org.cactoos.Text}. More details you can find here https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247.</body>
+                <file>src/main/java/org/cactoos/text/package-info.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-01-14T14:35:29Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/cactoos/issues/1064" closed="2019-03-10T14:15:00+00:00">1064</issue>
+                    <ticket>1005</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1005-58ab3a1d</id>
+                    <lines>29-33</lines>
+                    <body>Remove Sticky decorators from tests when: new cactoos-matchers will be released and updated as dependency. Right now, Assertion&lt;&gt;().affirm() is calling test twice. That is the reason why many tests in this package needs to be decorated with Sticky.</body>
+                    <file>src/test/java/org/cactoos/io/package-info.java</file>
+                    <author>igor</author>
+                    <email>ceigor94@gmail.com</email>
+                    <time>2019-01-25T21:09:54Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/cactoos/issues/1065" closed="2019-02-26T00:32:34+00:00">1065</issue>
+                    <ticket>1005</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1005-7baae0dd</id>
+                    <lines>29-32</lines>
+                    <body>Continue applying the new class naming convention: avoid compound names for decorators. Continue renaming classes implementing the {@link org.cactoos.Text}. More details you can find here https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247.</body>
+                    <file>src/main/java/org/cactoos/text/package-info.java</file>
+                    <author>igor</author>
+                    <email>ceigor94@gmail.com</email>
+                    <time>2019-01-19T21:30:37Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/yegor256/cactoos/issues/1074" closed="2019-03-17T13:52:20+00:00">1074</issue>
+                        <ticket>1065</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>1065-0d09f056</id>
+                        <lines>29-32</lines>
+                        <body>Continue applying the new class naming convention: avoid compound names for decorators. Continue renaming of classes implementing the {@link org.cactoos.Text}. More details you can find here https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247.</body>
+                        <file>src/main/java/org/cactoos/text/package-info.java</file>
+                        <author>@rultor</author>
+                        <email>me@rultor.com</email>
+                        <time>2019-02-26T00:20:13Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1006" closed="2019-01-27T23:32:03+00:00">1006</issue>
+                <ticket>980</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>980-a6f67b21</id>
+                <lines>29-32</lines>
+                <body>Classes from package {@link org.cactoos.time} which are ending with `AsText` are extending TextEnvelope. It means that they are instances of {@link org.cactoos.Text}. They should be merged with {@link org.cactoos.text.TextOf} as ctor(s).</body>
+                <file>src/main/java/org/cactoos/time/package-info.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-01-14T14:35:29Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/cactoos/issues/1046" closed="2019-05-10T00:37:06+00:00">1046</issue>
+                    <ticket>1006</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1006-0071ae30</id>
+                    <lines>29-33</lines>
+                    <body>Classes from package {@link org.cactoos.time} which are ending with `AsText` are extending TextEnvelope. It means that they are instances of {@link org.cactoos.Text}. They should be merged with {@link org.cactoos.text.TextOf} as ctor(s). Tests should be moved to TextOfTest.</body>
+                    <file>src/main/java/org/cactoos/time/package-info.java</file>
+                    <author>@rultor</author>
+                    <email>me@rultor.com</email>
+                    <time>2019-01-27T23:20:51Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1007" closed="2019-01-19T00:32:22+00:00">1007</issue>
+                <ticket>980</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>980-ea22ff49</id>
+                <lines>29-32</lines>
+                <body>Continue applying the new class naming convention in effect: avoid compound names for decorators. Continue renaming classes implementing the {@link org.cactoos.Scalar}. More details you can find here https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247.</body>
+                <file>src/main/java/org/cactoos/scalar/package-info.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-01-14T14:35:29Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/cactoos/issues/1025" closed="2019-03-23T13:25:18+00:00">1025</issue>
+                    <ticket>1007</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1007-e4b38199</id>
+                    <lines>29-32</lines>
+                    <body>Continue applying the new class naming convention: avoid compound names for decorators. Continue renaming classes implementing the {@link org.cactoos.Scalar}. More details you can find here https://github.com/yegor256/cactoos/issues/913#issuecomment-402332247.</body>
+                    <file>src/main/java/org/cactoos/scalar/package-info.java</file>
+                    <author>igor</author>
+                    <email>ceigor94@gmail.com</email>
+                    <time>2019-01-18T22:29:46Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/972" closed="2019-01-10T15:48:21+00:00">972</issue>
+    <ticket>962</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>962-d3b6c3c8</id>
+    <lines>51-55</lines>
+    <body>o.c.experimental Design the implementation of ThreadsOf. The initial scope is including: 1) receive the ExecutorService; 2) receive the tasks to complete; 3) execute the tasks concurrently and return the values.</body>
+    <file>src/test/java/org/cactoos/experimental/ThreadsTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-08T18:57:13Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1000" closed="2020-01-31T11:47:56+00:00">1000</issue>
+        <ticket>972</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>972-6ba919a9</id>
+        <lines>43-45</lines>
+        <body>j.u.c.ExecutorService#invokeAll(java.util.Collection) should be invoked with timeout. User should have the opportunity to pass the timeout argument. We need a new decorator which supports the timeout.</body>
+        <file>src/main/java/org/cactoos/experimental/Threads.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-12T19:38:56Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1277" closed="2020-07-04T10:24:03+00:00">1277</issue>
+            <ticket>1000</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1000-1e922fa0</id>
+            <lines>262-267</lines>
+            <body>Create RepeatedProc decorator in order to get rid of this `dummy` object. After it's done: 1. Leave a puzzle for creation RepeatedCallable decorator 2. Leave a puzzle for splitting the entire `org.cactoos.func` package into `org.cactoos.func`, `org.cactoos.proc` and `org.cactoos.callable`, with each one holding their related decorators, classes and interfaces.</body>
+            <file>src/test/java/org/cactoos/experimental/TimedTest.java</file>
+            <author>iakunin</author>
+            <email>iakunin@users.noreply.github.com</email>
+            <time>2020-01-31T05:23:33Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1406" closed="2020-09-06T16:01:34+00:00">1406</issue>
+                <ticket>1277</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1277-9cbed564</id>
+                <lines>34-37</lines>
+                <body>Split the entire `org.cactoos.func` package into `org.cactoos.func`, `org.cactoos.proc` and `org.cactoos.callable`, with each one holding their related decorators, classes and interfaces.</body>
+                <file>src/main/java/org/cactoos/RepeatedProc.java</file>
+                <author>andreoss</author>
+                <email>andreoss@sdf.org</email>
+                <time>2020-06-18T10:44:55Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1407" closed="2020-08-30T11:46:02+00:00">1407</issue>
+                <ticket>1277</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1277-1f8d2dd2</id>
+                <lines>265-266</lines>
+                <body>Create RepeatedCallable decorator to get rid of `dummy` object parameter required in #exec(X) method. Then inline the body of this method.</body>
+                <file>src/test/java/org/cactoos/experimental/TimedTest.java</file>
+                <author>andreoss</author>
+                <email>andreoss@sdf.org</email>
+                <time>2020-06-15T22:36:00Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1015" closed="2019-03-30T21:14:50+00:00">1015</issue>
+    <ticket>852</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>852-703228b2</id>
+    <lines>65-67</lines>
+    <body>Move NoNulls implementations of Func, BiFunc, Proc, and BiProc to their own classes in order to provide the NoNulls classes API consistency.</body>
+    <file>src/main/java/org/cactoos/Func.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-16T01:47:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1016" closed="2019-04-02T01:16:36+00:00">1016</issue>
+    <ticket>852</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>852-196f2f04</id>
+    <lines>62-64</lines>
+    <body>Move NoNulls implementations of Input, Output, and Bytes to their own classes in order to provide the NoNulls classes API consistency.</body>
+    <file>src/main/java/org/cactoos/Input.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-16T01:47:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1017" closed="2019-01-18T01:43:35+00:00">1017</issue>
+    <ticket>852</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>852-72b3f84c</id>
+    <lines>39-41</lines>
+    <body>Rename XxxNoNulls implementations of Collection and Iterator to NoNulls to avoid the compound names. They should be present in their own classes in order to provide the NoNulls classes API consistency.</body>
+    <file>src/main/java/org/cactoos/collection/CollectionNoNulls.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-16T01:47:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1037" closed="2019-04-15T22:43:04+00:00">1037</issue>
+    <ticket>971</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>971-205df100</id>
+    <lines>84-87</lines>
+    <body>Implement equals() and hashCode() on IterableEnvelope. Then, refactor this test so that only `new IsEqual&lt;&gt;(new Joined&lt;&gt;(first, second, third))` is required as a matcher.</body>
+    <file>src/test/java/org/cactoos/iterable/IterableOfTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-22T03:13:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1039" closed="2019-04-15T23:32:51+00:00">1039</issue>
+    <ticket>1023</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1023-be859eed</id>
+    <lines>37-39</lines>
+    <body>Replace all occurrences of @Rule ExpectedException tests that use it should be refactored to use Throws class introduced in cactoos-matchers 0.13.</body>
+    <file>src/test/java/org/cactoos/TextTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-23T21:56:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1106" closed="2019-10-02T23:48:43+00:00">1106</issue>
+        <ticket>1039</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>1039-dc7f8b11</id>
+        <lines>79-82</lines>
+        <body>Currently it's impossible to match error messages by a pattern or partially. Replace {@link Rule} with {@link Throws} after &lt;a href="https://github.com/llorllale/cactoos-matchers/issues/108"&gt;llorllale/cactoos-matchers#108&lt;/a&gt; is fixed</body>
+        <file>src/test/java/org/cactoos/iterator/NoNullsTest.java</file>
+        <author>Andrey Atapin</author>
+        <email>a.atapin@gmail.com</email>
+        <time>2019-04-15T03:40:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1086" closed="2019-06-18T00:00:08+00:00">1086</issue>
+    <ticket>1081</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1081-f3313fb1</id>
+    <lines>36-38</lines>
+    <body>Remove once the dependency cactoos-matchers has been updated to latest version of cactoos and use {@link Unchecked} instead of {@link UncheckedScalar}.</body>
+    <file>src/main/java/org/cactoos/scalar/UncheckedScalar.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-03-13T18:25:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1144" closed="2019-09-16T18:51:13+00:00">1144</issue>
+        <ticket>1086</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1086-77b05812</id>
+        <lines>42-44</lines>
+        <body>Replace the usage of the class TeeInputHasResult in all cactoos tests with the class InputHasContent from cactoos-matcher and then delete it.</body>
+        <file>src/test/java/org/cactoos/io/TeeInputHasResult.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2019-06-08T12:24:29Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1088" closed="2019-05-24T00:26:23+00:00">1088</issue>
+    <ticket>909</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>909-fb64001d</id>
+    <lines>37-39</lines>
+    <body>add a test to where an interrupt exception is thrown so that the catch and error assignment is verified. The exception should be thrown when Thread.sleep is called in Retry.java:129</body>
+    <file>src/test/java/org/cactoos/func/RetryTest.java</file>
+    <author>longstone</author>
+    <email>git@longstone.ch</email>
+    <time>2019-03-21T01:02:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1095" closed="2019-06-04T01:29:21+00:00">1095</issue>
+    <ticket>930</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>930-fce9bc86</id>
+    <lines>40-42</lines>
+    <body>To be consistent with other objects working on iterables such as HeadOf, TailOf, etc, the constructor of ItemAt should always take the iterable/iterator as a last parameter.</body>
+    <file>src/main/java/org/cactoos/scalar/ItemAt.java</file>
+    <author>Victor Noel</author>
+    <email>victor.noel@brennus-analytics.com</email>
+    <time>2019-04-02T06:57:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1104" closed="2019-06-04T01:29:23+00:00">1104</issue>
+    <ticket>911</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>911-b9a58d58</id>
+    <lines>175-178</lines>
+    <body>Remove iterator constructor from org.cactoos.scalar.ItemAt. We need to avoid the usage of Iterators and replace all of their occurrences in ctors with Iterables.</body>
+    <file>src/main/java/org/cactoos/scalar/ItemAt.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-04-13T00:43:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1109" closed="2019-06-07T14:18:05+00:00">1109</issue>
+    <ticket>996</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>996-e264dc0b</id>
+    <lines>42-44</lines>
+    <body>Make the toString() method final and simplify the implementation of Mapped that redefine sit so that it can rely on the implementation of toString already present here.</body>
+    <file>src/main/java/org/cactoos/collection/CollectionEnvelope.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-04-06T10:45:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1115" closed="2019-06-10T19:09:50+00:00">1115</issue>
+    <ticket>1112</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1112-aa9105a7</id>
+    <lines>45-46</lines>
+    <body>Continue speeding up the `mvn test` goal until it executes in less than 10 seconds, or as fast as reasonably possible.</body>
+    <file>src/test/java/org/cactoos/experimental/ThreadsTest.java</file>
+    <author>@llorllale</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2019-04-23T00:35:09Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1141" closed="2019-08-03T18:55:14+00:00">1141</issue>
+        <ticket>1115</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1115-b0c94327</id>
+        <lines>41-48</lines>
+        <body>Continue speeding up the `mvn test` goal until it executes in less than 10 seconds, or as fast as reasonably possible. A good solution would be reducing the number of tries to at most 10 in the two tests below with the for loop. After some manual testing to evaluate actual overlaps of threads (see code details in https://www.yegor256.com/2018/03/27/how-to-test-thread-safety.html), it seems most of the tries results in 0 overlapping thread. This is why so much tries are needed in the for loop for the tests to be sound.</body>
+        <file>src/test/java/org/cactoos/iterator/SyncedTest.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2019-05-30T11:25:33Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1117" closed="2019-06-29T19:24:20+00:00">1117</issue>
+    <ticket>1033</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1033-b5541bca</id>
+    <lines>29-32</lines>
+    <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+    <file>src/main/java/org/cactoos/io/package-info.java</file>
+    <author>Vytas</author>
+    <email>zurauskas.vytautas@gmail.com</email>
+    <time>2019-04-21T17:09:13Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1152" closed="2019-09-14T21:26:33+00:00">1152</issue>
+        <ticket>1117</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1117-b5541bca</id>
+        <lines>29-32</lines>
+        <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+        <file>src/main/java/org/cactoos/io/package-info.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-06-29T19:13:10Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1182" closed="2019-11-06T03:00:11+00:00">1182</issue>
+            <ticket>1152</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1152-b5541bca</id>
+            <lines>29-32</lines>
+            <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+            <file>src/test/java/org/cactoos/io/package-info.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2019-07-20T16:01:53Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1228" closed="2019-11-12T20:21:38+00:00">1228</issue>
+                <ticket>1182</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1182-b5541bca</id>
+                <lines>29-32</lines>
+                <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                <file>src/test/java/org/cactoos/io/package-info.java</file>
+                <author>Victor No&#xEB;l</author>
+                <email>victor.noel@crazydwarves.org</email>
+                <time>2019-09-21T16:10:43Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/cactoos/issues/1235" closed="2020-03-20T21:40:14+00:00">1235</issue>
+                    <ticket>1228</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1228-b5541bca</id>
+                    <lines>29-32</lines>
+                    <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                    <file>src/test/java/org/cactoos/io/package-info.java</file>
+                    <author>iakunin</author>
+                    <email>iakunin@users.noreply.github.com</email>
+                    <time>2019-11-08T06:41:35Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/yegor256/cactoos/issues/1331" closed="2020-04-13T18:08:20+00:00">1331</issue>
+                        <ticket>1235</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>1235-b5541bca</id>
+                        <lines>29-32</lines>
+                        <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                        <file>src/test/java/org/cactoos/io/package-info.java</file>
+                        <author>Vytautas &#x17D;urauskas</author>
+                        <email>zurauskas.vytautas@gmail.com</email>
+                        <time>2020-03-13T09:41:48Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/yegor256/cactoos/issues/1340" closed="2020-04-19T19:57:11+00:00">1340</issue>
+                            <ticket>1331</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>1331-b5541bca</id>
+                            <lines>29-32</lines>
+                            <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                            <file>src/test/java/org/cactoos/io/package-info.java</file>
+                            <author>marceloamadeu</author>
+                            <email>marceloandradeamadeu@gmail.com</email>
+                            <time>2020-04-06T01:10:34Z</time>
+                            <children>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/yegor256/cactoos/issues/1343" closed="2020-04-29T21:35:31+00:00">1343</issue>
+                                <ticket>1340</ticket>
+                                <estimate>30</estimate>
+                                <role>DEV</role>
+                                <id>1340-b5541bca</id>
+                                <lines>29-32</lines>
+                                <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                                <file>src/test/java/org/cactoos/io/package-info.java</file>
+                                <author>marceloamadeu</author>
+                                <email>marceloandradeamadeu@gmail.com</email>
+                                <time>2020-04-18T21:04:39Z</time>
+                                <children>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/yegor256/cactoos/issues/1362" closed="2020-05-01T22:01:31+00:00">1362</issue>
+                                    <ticket>1343</ticket>
+                                    <estimate>30</estimate>
+                                    <role>DEV</role>
+                                    <id>1343-b5541bca</id>
+                                    <lines>28-31</lines>
+                                    <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                                    <file>src/test/java/org/cactoos/scalar/package-info.java</file>
+                                    <author>iiylll</author>
+                                    <email>mortaloves@gmail.com</email>
+                                    <time>2020-04-27T21:02:20Z</time>
+                                    <children>
+                                      <puzzle alive="false">
+                                        <issue href="https://github.com/yegor256/cactoos/issues/1367" closed="2020-05-05T16:26:13+00:00">1367</issue>
+                                        <ticket>1362</ticket>
+                                        <estimate>30</estimate>
+                                        <role>DEV</role>
+                                        <id>1362-b5541bca</id>
+                                        <lines>28-31</lines>
+                                        <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                                        <file>src/test/java/org/cactoos/scalar/package-info.java</file>
+                                        <author>Andrew Korzhov</author>
+                                        <email>korzh17121996@gmail.com</email>
+                                        <time>2020-05-01T14:13:17Z</time>
+                                        <children>
+                                          <puzzle alive="false">
+                                            <issue href="https://github.com/yegor256/cactoos/issues/1375" closed="2020-05-15T04:33:27+00:00">1375</issue>
+                                            <ticket>1367</ticket>
+                                            <estimate>30</estimate>
+                                            <role>DEV</role>
+                                            <id>1367-b5541bca</id>
+                                            <lines>28-31</lines>
+                                            <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                                            <file>src/test/java/org/cactoos/scalar/package-info.java</file>
+                                            <author>marceloamadeu</author>
+                                            <email>marceloandradeamadeu@gmail.com</email>
+                                            <time>2020-05-03T02:23:10Z</time>
+                                            <children>
+                                              <puzzle alive="false">
+                                                <issue href="https://github.com/yegor256/cactoos/issues/1389" closed="2020-05-18T19:39:38+00:00">1389</issue>
+                                                <ticket>1375</ticket>
+                                                <estimate>30</estimate>
+                                                <role>DEV</role>
+                                                <id>1375-b5541bca</id>
+                                                <lines>28-31</lines>
+                                                <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                                                <file>src/test/java/org/cactoos/scalar/package-info.java</file>
+                                                <author>marceloamadeu</author>
+                                                <email>marceloandradeamadeu@gmail.com</email>
+                                                <time>2020-05-08T23:11:43Z</time>
+                                                <children>
+                                                  <puzzle alive="false">
+                                                    <issue href="https://github.com/yegor256/cactoos/issues/1391" closed="2020-05-24T18:05:24+00:00">1391</issue>
+                                                    <ticket>1389</ticket>
+                                                    <estimate>30</estimate>
+                                                    <role>DEV</role>
+                                                    <id>1389-b5541bca</id>
+                                                    <lines>28-31</lines>
+                                                    <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                                                    <file>src/test/java/org/cactoos/scalar/package-info.java</file>
+                                                    <author>marceloamadeu</author>
+                                                    <email>marceloandradeamadeu@gmail.com</email>
+                                                    <time>2020-05-17T04:45:25Z</time>
+                                                    <children>
+                                                      <puzzle alive="false">
+                                                        <issue href="https://github.com/yegor256/cactoos/issues/1396" closed="2020-07-17T16:18:02+00:00">1396</issue>
+                                                        <ticket>1391</ticket>
+                                                        <estimate>30</estimate>
+                                                        <role>DEV</role>
+                                                        <id>1391-715b3f6c</id>
+                                                        <lines>28-31</lines>
+                                                        <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers in this package as well as in other packages. Once there is no more usage of MatcherAssert.assertThat, add the signature of MatcherAssert.assertThat to forbidden-apis.txt</body>
+                                                        <file>src/test/java/org/cactoos/scalar/package-info.java</file>
+                                                        <author>Victor No&#xEB;l</author>
+                                                        <email>victor.noel@crazydwarves.org</email>
+                                                        <time>2020-05-19T18:48:11Z</time>
+                                                        <children>
+                                                          <puzzle alive="false">
+                                                            <issue href="https://github.com/yegor256/cactoos/issues/1420" closed="2020-08-05T15:55:13+00:00">1420</issue>
+                                                            <ticket>1396</ticket>
+                                                            <estimate>30</estimate>
+                                                            <role>DEV</role>
+                                                            <id>1396-59819ae3</id>
+                                                            <lines>28-31</lines>
+                                                            <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Keep PR short and limit the changes to single package. Update this puzzle for the next package. After all packages are done, add MatcherAssert to forbidden-apis.txt</body>
+                                                            <file>src/test/java/org/cactoos/package-info.java</file>
+                                                            <author>@rultor</author>
+                                                            <email>me@rultor.com</email>
+                                                            <time>2020-07-17T16:08:39Z</time>
+                                                            <children>
+                                                            <puzzle alive="false">
+                                                            <issue href="https://github.com/yegor256/cactoos/issues/1425" closed="2021-03-13T16:06:05+00:00">1425</issue>
+                                                            <ticket>1420</ticket>
+                                                            <estimate>30</estimate>
+                                                            <role>DEV</role>
+                                                            <id>1420-59819ae3</id>
+                                                            <lines>28-31</lines>
+                                                            <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Keep PR short and limit the changes to single package. Update this puzzle for the next package. After all packages are done, add MatcherAssert to forbidden-apis.txt</body>
+                                                            <file>src/test/java/org/cactoos/package-info.java</file>
+                                                            <author>Constantin Costescu</author>
+                                                            <email>constantineugen.costescu@gmail.com</email>
+                                                            <time>2020-07-28T22:39:41Z</time>
+                                                            <children>
+                                                            <puzzle alive="true">
+                                                            <issue href="https://github.com/yegor256/cactoos/issues/1559">1559</issue>
+                                                            <ticket>1425</ticket>
+                                                            <estimate>30</estimate>
+                                                            <role>DEV</role>
+                                                            <id>1425-59819ae3</id>
+                                                            <lines>28-31</lines>
+                                                            <body>Continue replacing usage of MatcherAssert.assertThat with Assertion from cactoos-matchers. Keep PR short and limit the changes to single package. Update this puzzle for the next package. After all packages are done, add MatcherAssert to forbidden-apis.txt</body>
+                                                            <file>src/test/java/org/cactoos/package-info.java</file>
+                                                            <author>@baudoliver7</author>
+                                                            <email>baudolivier.oura@gmail.com</email>
+                                                            <time>2021-03-11T22:50:48Z</time>
+                                                            <children/>
+                                                            </puzzle>
+                                                            </children>
+                                                            </puzzle>
+                                                            </children>
+                                                          </puzzle>
+                                                        </children>
+                                                      </puzzle>
+                                                    </children>
+                                                  </puzzle>
+                                                </children>
+                                              </puzzle>
+                                            </children>
+                                          </puzzle>
+                                          <puzzle alive="false">
+                                            <issue href="https://github.com/yegor256/cactoos/issues/1376" closed="2020-05-11T12:45:36+00:00">1376</issue>
+                                            <ticket>1367</ticket>
+                                            <estimate>30</estimate>
+                                            <role>DEV</role>
+                                            <id>1367-e974cc79</id>
+                                            <lines>32-34</lines>
+                                            <body>Replace all the IsEqual with ScalarHashValue in Scalar tests. Can be used as an example BoolOfTest, FirstOfTest, ConstantTest and EqualsTest.</body>
+                                            <file>src/test/java/org/cactoos/scalar/package-info.java</file>
+                                            <author>marceloamadeu</author>
+                                            <email>marceloandradeamadeu@gmail.com</email>
+                                            <time>2020-05-05T02:40:17Z</time>
+                                            <children/>
+                                          </puzzle>
+                                        </children>
+                                      </puzzle>
+                                    </children>
+                                  </puzzle>
+                                </children>
+                              </puzzle>
+                            </children>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/yegor256/cactoos/issues/1341" closed="2020-04-28T18:20:49+00:00">1341</issue>
+                            <ticket>1331</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>1331-806191f6</id>
+                            <lines>38-41</lines>
+                            <body>This test is incorrect. It is not being tested whether the path actually contains the content, only that TeeInput, as an Input, has the content. Correct this problem in all TeeInput tests. Solution: test the content of the file, not the content of teeinput.</body>
+                            <file>src/test/java/org/cactoos/io/TeeInputFromBytesTest.java</file>
+                            <author>marceloamadeu</author>
+                            <email>marceloandradeamadeu@gmail.com</email>
+                            <time>2020-04-07T15:16:17Z</time>
+                            <children>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/yegor256/cactoos/issues/1360" closed="2020-05-03T14:22:50+00:00">1360</issue>
+                                <ticket>1341</ticket>
+                                <estimate>30</estimate>
+                                <role>DEV</role>
+                                <id>1341-f972cb6f</id>
+                                <lines>39-42</lines>
+                                <body>Correct any TeeInput tests that are not testing if the path actually contains the content, just that TeeInput, as an Input,has the content. Solution: test the content of the file, not the content of teeinput (e.g. #1331).</body>
+                                <file>src/test/java/org/cactoos/io/TeeInputFromBytesTest.java</file>
+                                <author>marceloamadeu</author>
+                                <email>marceloandradeamadeu@gmail.com</email>
+                                <time>2020-04-26T05:33:09Z</time>
+                                <children>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/yegor256/cactoos/issues/1372" closed="2020-05-07T22:27:31+00:00">1372</issue>
+                                    <ticket>1360</ticket>
+                                    <estimate>30</estimate>
+                                    <role>DEV</role>
+                                    <id>1360-f972cb6f</id>
+                                    <lines>39-42</lines>
+                                    <body>Correct any TeeInput tests that are not testing if the path actually contains the content, just that TeeInput, as an Input,has the content. Solution: test the content of the file, not the content of teeinput (e.g. #1331).</body>
+                                    <file>src/test/java/org/cactoos/io/TeeInputFromCharSequenceTest.java</file>
+                                    <author>Andrew Korzhov</author>
+                                    <email>korzh17121996@gmail.com</email>
+                                    <time>2020-05-02T14:33:11Z</time>
+                                    <children>
+                                      <puzzle alive="false">
+                                        <issue href="https://github.com/yegor256/cactoos/issues/1381" closed="2020-05-18T19:52:47+00:00">1381</issue>
+                                        <ticket>1372</ticket>
+                                        <estimate>30</estimate>
+                                        <role>DEV</role>
+                                        <id>1372-f972cb6f</id>
+                                        <lines>41-44</lines>
+                                        <body>Correct any TeeInput tests that are not testing if the path actually contains the content, just that TeeInput, as an Input,has the content. Solution: test the content of the file, not the content of teeinput (e.g. #1331).</body>
+                                        <file>src/test/java/org/cactoos/io/TeeInputFromPathTest.java</file>
+                                        <author>Andrew Korzhov</author>
+                                        <email>korzh17121996@gmail.com</email>
+                                        <time>2020-05-04T16:15:51Z</time>
+                                        <children>
+                                          <puzzle alive="false">
+                                            <issue href="https://github.com/yegor256/cactoos/issues/1392" closed="2020-05-24T17:39:28+00:00">1392</issue>
+                                            <ticket>1381</ticket>
+                                            <estimate>30</estimate>
+                                            <role>DEV</role>
+                                            <id>1381-4d58016d</id>
+                                            <lines>39-42</lines>
+                                            <body>Correct any TeeInput tests that are not testing if the path actually contains the content, just that TeeInput, as an Input,has the content. Solution: test the content of the file, not the content of teeinput (e.g. #1331 and #1372).</body>
+                                            <file>src/test/java/org/cactoos/io/TeeInputFromReaderTest.java</file>
+                                            <author>marceloamadeu</author>
+                                            <email>marceloandradeamadeu@gmail.com</email>
+                                            <time>2020-05-13T23:32:51Z</time>
+                                            <children>
+                                              <puzzle alive="false">
+                                                <issue href="https://github.com/yegor256/cactoos/issues/1395" closed="2020-09-04T08:32:36+00:00">1395</issue>
+                                                <ticket>1392</ticket>
+                                                <estimate>30</estimate>
+                                                <role>DEV</role>
+                                                <id>1392-4d58016d</id>
+                                                <lines>39-42</lines>
+                                                <body>Correct any TeeInput tests that are not testing if the path actually contains the content, just that TeeInput, as an Input,has the content. Solution: test the content of the file, not the content of teeinput (e.g. #1331 and #1372).</body>
+                                                <file>src/test/java/org/cactoos/io/TeeInputFromInputTest.java</file>
+                                                <author>Victor No&#xEB;l</author>
+                                                <email>victor.noel@crazydwarves.org</email>
+                                                <time>2020-05-19T19:02:05Z</time>
+                                                <children/>
+                                              </puzzle>
+                                            </children>
+                                          </puzzle>
+                                        </children>
+                                      </puzzle>
+                                    </children>
+                                  </puzzle>
+                                </children>
+                              </puzzle>
+                            </children>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1183" closed="2020-09-15T17:28:49+00:00">1183</issue>
+    <ticket>947</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>947-0e04e40a</id>
+    <lines>93-95</lines>
+    <body>Move this constructor in its own class with its own tests and meaningful name (maybe Paged?). Then remove the ClassDataAbstractionCouplingCheck suppression for IterableOf.</body>
+    <file>src/main/java/org/cactoos/iterable/IterableOf.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-06-30T20:13:05Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1464" closed="2021-01-25T17:48:16+00:00">1464</issue>
+        <ticket>1183</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1183-64533d21</id>
+        <lines>44-46</lines>
+        <body>Continue refactoring and add `iterator.Paged` by extracting inner anon class from this class. The checkstyle suppression should be removed after that.</body>
+        <file>src/main/java/org/cactoos/iterable/Paged.java</file>
+        <author>andreoss</author>
+        <email>andreoss@sdf.org</email>
+        <time>2020-09-09T21:03:41Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1537" closed="2021-05-07T11:11:31+00:00">1537</issue>
+            <ticket>1464</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1464-68f0eee6</id>
+            <lines>42-45</lines>
+            <body>We want to use {@code Iterator&lt;X&gt;} directly in the class without introducing I, maybe using {@code Iterator&lt;? extends X&gt;} for example because, we don't have to constrain the {@link Func} to give exactly the same Iterator type as long as it is an iterator that provides X. {@link org.cactoos.iterable.Paged} should be changed too.</body>
+            <file>src/main/java/org/cactoos/iterator/Paged.java</file>
+            <author>@baudoliver7</author>
+            <email>baudolivier.oura@gmail.com</email>
+            <time>2021-01-19T01:39:25Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1538" closed="2021-05-07T11:11:37+00:00">1538</issue>
+            <ticket>1464</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1464-a8b18c11</id>
+            <lines>38-40</lines>
+            <body>Replace the constructor so that instead it takes a {@link Iterable} as first and a {@code Func&lt;Iterable, Iterable&gt;} as next in order to homogenise it with the other {@link Iterable} implementations.</body>
+            <file>src/main/java/org/cactoos/iterable/Paged.java</file>
+            <author>@baudoliver7</author>
+            <email>baudolivier.oura@gmail.com</email>
+            <time>2021-01-19T01:39:25Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1184" closed="2019-11-18T19:48:08+00:00">1184</issue>
+    <ticket>947</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>947-361be9e4</id>
+    <lines>43-47</lines>
+    <body>CollectionEnvelope should extends IterableEnvelope and only delegates all the methods of Collection to the wrapped Collection. See IterableEnvelope for an example. If needed CollectionOf should have some methods that were previously here and implement Collection instead of extending CollectionEnvelope. Again see IterableOf for an example.</body>
+    <file>src/main/java/org/cactoos/collection/CollectionEnvelope.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-06-30T20:13:05Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1242" closed="2020-02-11T18:56:36+00:00">1242</issue>
+        <ticket>1184</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1184-56133cf3</id>
+        <lines>29-43</lines>
+        <body>The behaviours of the classes of this package are akward because CollectionOf is based on a Scalar while some of the tests of the other classes are expecting mutable collections, except for Sticky itself. This resulted in the use of Sticky in most of the classes of this package during the resolution of #1184 to preserve the actual behaviour. Some tests of Sticky were also ignored because of this. It is as if CollectionOf was once made to be immutable but now there is Immutable for that: ask ARC what direction to take and apply it to make this whole package consistent. Keep in mind that Collection is particular in the way that it is an Iterable and that there are no direct implementation of Collection in Java, but only sub-interfaces (Set, List, etc) with their own implementation. Also don't forget to unignore or modify the tests of Sticky and improve the other tests to be clear about the expected behaviour.</body>
+        <file>src/main/java/org/cactoos/collection/package-info.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2019-11-02T18:14:51Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1292" closed="2020-03-15T05:40:09+00:00">1292</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-a8a7ac97</id>
+            <lines>29-31</lines>
+            <body>The SetOf class should be implemented as an in-memory set, for example based on HashSet. See ListOf for an example and #1242 for the rationale behind this design.</body>
+            <file>src/main/java/org/cactoos/set/package-info.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1325" closed="2020-03-29T15:33:41+00:00">1325</issue>
+                <ticket>1292</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1292-c2a188c0</id>
+                <lines>38-40</lines>
+                <body>This class should also implements SortedSet from the java collection framework by delegating to the wrapped set. Some tests must be added for it.</body>
+                <file>src/main/java/org/cactoos/set/Sorted.java</file>
+                <author>Victor No&#xEB;l</author>
+                <email>victor.noel@crazydwarves.org</email>
+                <time>2020-02-29T17:00:49Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1293" closed="2020-03-09T19:46:55+00:00">1293</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-bb66641c</id>
+            <lines>37-41</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Mapped from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Mapped.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1320" closed="2020-04-23T17:06:16+00:00">1320</issue>
+                <ticket>1293</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1293-bc5d06e8</id>
+                <lines>29-34</lines>
+                <body>Introduce a class ScalarOf that takes various objects such as a Supplier, Callable, etc and implement Scalar. Use it to replace in particular the casting to Scalar done in ThreadsTest#failsDueToException, TimedTest#failsDueToException and all the other places where it is needed. Add tests for each of the constructors.</body>
+                <file>src/main/java/org/cactoos/scalar/package-info.java</file>
+                <author>Victor No&#xEB;l</author>
+                <email>victor.noel@crazydwarves.org</email>
+                <time>2020-02-29T16:07:57Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/cactoos/issues/1349" closed="2020-09-13T10:21:09+00:00">1349</issue>
+                    <ticket>1320</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1320-62e15acb</id>
+                    <lines>33-36</lines>
+                    <body>Continue implement class ScalarOf that takes various objects such as a Supplier, Callable, etc and implement Scalar. Use it to replace in all places where it is needed. Add tests for each of the constructors.</body>
+                    <file>src/main/java/org/cactoos/scalar/ScalarOf.java</file>
+                    <author>marceloamadeu</author>
+                    <email>marceloandradeamadeu@gmail.com</email>
+                    <time>2020-04-17T04:45:04Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1294" closed="2020-02-24T22:04:49+00:00">1294</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-3e1cce64</id>
+            <lines>35-39</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of HeadOf from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/HeadOf.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1295" closed="2020-04-03T12:08:13+00:00">1295</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-40f4f782</id>
+            <lines>38-41</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of ListOf, SetOf or any other collection concrete implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Sticky.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1296" closed="2020-02-26T02:58:30+00:00">1296</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-fc7e8653</id>
+            <lines>47-50</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Synced from list, set, iterable, iterator or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Synced.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1297" closed="2020-02-26T02:58:36+00:00">1297</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-f1a7bfc6</id>
+            <lines>35-39</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Sliced from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Sliced.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1298" closed="2020-03-30T14:38:13+00:00">1298</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-8f74e00b</id>
+            <lines>39-43</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Shuffled from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Shuffled.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1299" closed="2020-03-17T03:48:56+00:00">1299</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-d08d3037</id>
+            <lines>36-40</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Filtered from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Filtered.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1300" closed="2020-04-01T04:22:01+00:00">1300</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-011c38db</id>
+            <lines>39-43</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Reversed from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Reversed.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1337" closed="2020-04-30T14:25:23+00:00">1337</issue>
+                <ticket>1300</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1300-8636f38d</id>
+                <lines>41-43</lines>
+                <body>For now this class is only tested through tests coming from iterables's Reversed: introduces tests for this class to enforce its contract and validate it works as expected.</body>
+                <file>src/main/java/org/cactoos/iterator/Reversed.java</file>
+                <author>Victor No&#xEB;l</author>
+                <email>victor.noel@crazydwarves.org</email>
+                <time>2020-03-22T10:28:41Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1301" closed="2020-03-30T14:38:20+00:00">1301</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-652af3fd</id>
+            <lines>35-39</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Joined from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Joined.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1302" closed="2020-04-03T12:08:19+00:00">1302</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-f28dfbc0</id>
+            <lines>41-45</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Synced (since Solid is based on Synced and Sticky, which was removed) from list, set, iterable, iterator or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Solid.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1303" closed="2020-02-26T02:58:42+00:00">1303</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-15741ade</id>
+            <lines>35-39</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Skipped from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Skipped.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos/issues/1326" closed="2020-03-29T15:08:35+00:00">1326</issue>
+                <ticket>1303</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1303-75b30683</id>
+                <lines>36-39</lines>
+                <body>Remove the PMD.AvoidDuplicateLiterals suppress warning below and change the tests literals so that they are different. Do not use constants. The rationale si to make the tests more strong by not tying them to the same literals.</body>
+                <file>src/test/java/org/cactoos/iterable/SkippedTest.java</file>
+                <author>Victor No&#xEB;l</author>
+                <email>victor.noel@crazydwarves.org</email>
+                <time>2020-02-29T16:46:39Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1304" closed="2020-03-17T03:49:02+00:00">1304</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-1b85f1d7</id>
+            <lines>35-38</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of TailOf from list, set, iterable, iterator or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/TailOf.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1305" closed="2020-03-30T14:38:27+00:00">1305</issue>
+            <ticket>1242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1242-99c90a27</id>
+            <lines>40-44</lines>
+            <body>Remove this class and replace it everywhere it was needed by the appropriate usage of Sorted from iterable (composed with ListOf or SetOf in case a copy is needed) or any other relevant concrete collection implementation. See #1242 for the rationale about this.</body>
+            <file>src/main/java/org/cactoos/collection/Sorted.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2020-02-09T18:29:41Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1185" closed="2020-02-06T00:35:49+00:00">1185</issue>
+    <ticket>947</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>947-4efcb5fb</id>
+    <lines>41-45</lines>
+    <body>ListEnvelope should only delegates all the methods of List to the wrapped List. See IterableEnvelope for an example. If needed ListOf should have some methods that were previously here and implement List instead of extending ListEnvelope. Again see IterableOf for an example.</body>
+    <file>src/main/java/org/cactoos/list/ListEnvelope.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-06-30T20:13:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1191" closed="2019-11-03T11:24:41+00:00">1191</issue>
+    <ticket>1188</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1188-96768eb2</id>
+    <lines>37-39</lines>
+    <body>Change the implementation of this class with the help of &lt;tt&gt;org.cactoos.iterator.Sliced&lt;/tt&gt; decorator, to slice the original iterator into sliced portions.</body>
+    <file>src/main/java/org/cactoos/iterator/Partitioned.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-09-25T11:47:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1192" closed="2019-10-10T21:19:56+00:00">1192</issue>
+    <ticket>1188</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1188-555ede32</id>
+    <lines>36-38</lines>
+    <body>Change the implementation of this class with the help of &lt;tt&gt;org.cactoos.iterator.Sliced&lt;/tt&gt; decorator, as it contains specific constructor to build skipped iterator.</body>
+    <file>src/main/java/org/cactoos/iterator/Skipped.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-09-25T11:47:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1193" closed="2019-11-03T11:24:46+00:00">1193</issue>
+    <ticket>1188</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1188-ace6cee0</id>
+    <lines>40-42</lines>
+    <body>This class to be refactored by extending IteratorEnvelope, which will provide extra functionality to subclasses and is planned to be added to Cactoos shortly.</body>
+    <file>src/main/java/org/cactoos/iterator/Sliced.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-09-25T11:47:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1194" closed="2020-01-13T15:17:31+00:00">1194</issue>
+    <ticket>1188</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1188-895eb6a4</id>
+    <lines>36-38</lines>
+    <body>Change the implementation of this class with the help of &lt;tt&gt;org.cactoos.iterator.Sliced&lt;/tt&gt; decorator, as it contains specific constructor to build heading iterator.</body>
+    <file>src/main/java/org/cactoos/iterator/HeadOf.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-09-25T11:47:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1205" closed="2019-11-03T11:24:51+00:00">1205</issue>
+    <ticket>1151</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1151-07534af5</id>
+    <lines>166-168</lines>
+    <body>After updated qulice-maven-plugin there're a lot of files which don't pass in the qulice checks. So, let's fix them and remove the their exclusion bellow.</body>
+    <file>pom.xml</file>
+    <author>Fabricio Cabral</author>
+    <email>fabriciofx@gmail.com</email>
+    <time>2019-10-08T03:21:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1236" closed="2020-02-03T19:23:07+00:00">1236</issue>
+    <ticket>1224</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1224-6c7b441d</id>
+    <lines>40-44</lines>
+    <body>Original collection should be copied inside this immutable decorator. That should be done because otherwise true immutability cannot be achieved. see: https://github.com/yegor256/cactoos/issues/1224 and https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html</body>
+    <file>src/main/java/org/cactoos/collection/Immutable.java</file>
+    <author>iakunin</author>
+    <email>iakunin@users.noreply.github.com</email>
+    <time>2019-11-10T07:54:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1262" closed="2020-01-07T23:49:33+00:00">1262</issue>
+    <ticket>947</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>947-c9c78905</id>
+    <lines>37-40</lines>
+    <body>Reimplement the implementation using {@link org.cactoos.iterable.Reversed} decorator. Do not use concrete classes as {@link LinkedList} here, as it is already used in {@link org.cactoos.iterable.Reversed} decorator.</body>
+    <file>src/main/java/org/cactoos/iterator/TailOf.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-12-17T11:21:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1416" closed="2020-09-13T10:26:37+00:00">1416</issue>
+    <ticket>1411</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1411-445dea43</id>
+    <lines>117-120</lines>
+    <body>Migrate existing tests to JUnit 5. It mainly means changing the imports and move from Ignore to Disabled annotation as well as replace rules with corresponding annotations. Once this is done remove the dependencies below.</body>
+    <file>pom.xml</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2020-07-05T12:50:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1453" closed="2021-04-19T14:05:18+00:00">1453</issue>
+        <ticket>1416</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1416-3379c7cc</id>
+        <lines>114-116</lines>
+        <body>Migrate the rest of tests to JUnit 5 Junit 4 Rule should be replaced with a Jupiter counterpart. `@Text(expected=..)` with `Throws`. After that remove this dependencies.</body>
+        <file>pom.xml</file>
+        <author>andreoss</author>
+        <email>andreoss@sdf.org</email>
+        <time>2020-09-12T11:33:00Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos/issues/1586" closed="2024-02-21T09:18:22+00:00">1586</issue>
+            <ticket>1453</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1453-3061acf9</id>
+            <lines>120-122</lines>
+            <body>Continue migration of tests to JUnit 5. Junit 4 Rule should be replaced with a Jupiter counterpart. `@Text(expected=..)` with `Throws`. After that remove this dependencies.</body>
+            <file>pom.xml</file>
+            <author>@LightPro-Inc</author>
+            <email>baudolivier.oura@gmail.com</email>
+            <time>2021-04-05T12:26:23Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/yegor256/cactoos/issues/1714">1714</issue>
+                <ticket>1586</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>1586-1c152e74</id>
+                <lines>71-72</lines>
+                <body>Tests failed on Windows due to not closed streams. It will be good to have feature to simplify autoclosing streams.</body>
+                <file>src/test/java/org/cactoos/io/AppendToTest.java</file>
+                <author>Natalia Pozhidaeva</author>
+                <email>Natalia_Pozhidaeva@epam.com</email>
+                <time>2024-02-20T16:02:15Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1459" closed="2020-12-28T14:47:30+00:00">1459</issue>
+    <ticket>1247</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1247-25d91c9c</id>
+    <lines>36-37</lines>
+    <body>Add also some null checks both to the `set` and the `add` methods, then also add some tests to validate this behaviour.</body>
+    <file>src/main/java/org/cactoos/list/ListIteratorNoNulls.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2020-09-13T13:22:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1460" closed="2021-01-10T13:22:43+00:00">1460</issue>
+    <ticket>1287</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1287-014a5155</id>
+    <lines>83-87</lines>
+    <body>Introduce `text.Flatten` that takes a `Scalar` of `Text` and call `value()` then `asString()` on it. Add some tests for it (including for `equals`). Then replace the code below by a composition of `text.Flatten` and `scalar.Ternary`. Then do the same for `PrefixOf` and `SuffixOf` using `text.Sub`.</body>
+    <file>src/main/java/org/cactoos/text/Abbreviated.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2020-09-13T14:43:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1461" closed="2021-03-04T10:21:25+00:00">1461</issue>
+    <ticket>1287</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1287-48d7a962</id>
+    <lines>63-67</lines>
+    <body>Introduce `Text` implementations `TextOfScalar`, `TextOfBytes` and `TextOfDateTime` (i.e., for all of the constructor below that delegates to a `Scalar`) and have `TextOf` extends `TextEnvelope` to delegate to those new classes. If possible remove the checkstyle exclusions below.</body>
+    <file>src/main/java/org/cactoos/text/TextOf.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2020-09-13T14:43:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos/issues/1560" closed="2021-05-08T17:06:21+00:00">1560</issue>
+        <ticket>1461</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1461-42d3dd73</id>
+        <lines>320-325</lines>
+        <body>We want constructors with {@code Iterable&lt;?&gt;} and {@code Iterator&lt;Character&gt;} to have same behaviour (simply concatenate list of strings). To do that, we should change {@code Iterable&lt;?&gt;} to {@code Iterable&lt;Character&gt;} and delegate the {@link Iterator} one to the {@link Iterable} one. After that, we need to modify other parts of cactoos that relied on this in order to preserve their behaviour by using {@link Joined} and {@link Concatenated}.</body>
+        <file>src/main/java/org/cactoos/text/TextOf.java</file>
+        <author>@baudoliver7</author>
+        <email>baudolivier.oura@gmail.com</email>
+        <time>2021-03-04T08:04:03Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1462" closed="2020-12-27T11:10:03+00:00">1462</issue>
+    <ticket>1287</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1287-1c7c8289</id>
+    <lines>58-62</lines>
+    <body>Introduce `text.Mapped` that takes a `Text` and a `Func` from `String` to `String`. Add some tests (included for `equals`). Once it is done, replace the code below by the use of `text.Mapped`. Do the same for all the one-liner mapping of the `text` package (e.g., `Upper`, `Trimmed`).</body>
+    <file>src/main/java/org/cactoos/text/Lowered.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2020-09-13T14:43:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1526" closed="2021-01-31T18:31:43+00:00">1526</issue>
+    <ticket>1445</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1445-4c312276</id>
+    <lines>38-41</lines>
+    <body>For consistency sake with Func, let's - introduce envelopes for Proc, BiProc, BiFunc, Runnable and Callable - have FuncOf, ProcOf, etc extend their envelope to simplify their code - apply on other classes that could benefit from it</body>
+    <file>src/main/java/org/cactoos/package-info.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2021-01-03T13:37:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1527" closed="2021-02-24T18:50:53+00:00">1527</issue>
+    <ticket>1445</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1445-a0a49521</id>
+    <lines>44-46</lines>
+    <body>Replace all the usage of Repeated in tests that are used to execute the same test multiple times with the use of the RepeatedTest annotation from Junit 5.</body>
+    <file>src/test/java/org/cactoos/experimental/TimedTest.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2021-01-03T13:37:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1532" closed="2021-01-31T20:47:46+00:00">1532</issue>
+    <ticket>1445</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1445-c6a75ced</id>
+    <lines>42-45</lines>
+    <body>Introduce BiProcOf on the model of ProcOf, FuncOf, etc with constructors taking Func, BiFunc, Proc and BiProc as primary. Add tests similar to those of ProcOfTest, FuncOfTest, etc to fully cover the implementation. Use it where needed, for example in AndWithIndexTest.</body>
+    <file>src/main/java/org/cactoos/BiProc.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2021-01-10T14:07:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1561">1561</issue>
+    <ticket>1254</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1254-cd24df12</id>
+    <lines>37-39</lines>
+    <body>Make {@link Joined} implements directly {@link List} and delegate each operation to {@link JoinedListIterator} as if lists joined were one list.</body>
+    <file>src/main/java/org/cactoos/list/Joined.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-02-26T12:29:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1562">1562</issue>
+    <ticket>1254</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1254-68bc66d2</id>
+    <lines>39-42</lines>
+    <body>We should implement mutable operations (#add, #set and #remove) according to their javadoc. Also, the behaviour of adding/setting/removing an element when the cursor is in between two listerators should be well documented in this class (because there are multiple options in that case).</body>
+    <file>src/main/java/org/cactoos/list/JoinedListIterator.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-02-26T12:29:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1563">1563</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-6b8653a3</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.set to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/set/package-info.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1564">1564</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-0433abcf</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.io to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/io/package-info.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1565" closed="2021-06-22T12:05:15+00:00">1565</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-a2c34718</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.iterator to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/iterator/package-info.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1566" closed="2022-07-30T05:12:45+00:00">1566</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-48e5c994</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.list to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/list/package-info.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1567" closed="2021-05-13T09:10:03+00:00">1567</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-ac41b39c</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.proc to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/proc/package-info.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/cactoos/issues/1614">1614</issue>
+        <ticket>1567</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1567-ac41b39c</id>
+        <lines>29-31</lines>
+        <body>Exploit generic variance for package org.cactoos.proc to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+        <file>src/main/java/org/cactoos/proc/package-info.java</file>
+        <author>@scfj</author>
+        <email>dmitry.barskov64@gmail.com</email>
+        <time>2021-05-11T08:00:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1568" closed="2021-09-27T08:34:28+00:00">1568</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-8f051690</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.iterable to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/iterable/package-info.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1569" closed="2021-10-16T08:23:28+00:00">1569</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-c35e3786</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.scalar to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/scalar/package-info.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/cactoos/issues/1630">1630</issue>
+        <ticket>1569</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1569-7739be3c</id>
+        <lines>29-31</lines>
+        <body>Create tests for the semantics of relaxed wildcards in changed classes of {@link org.cactoos.scalar} package in #1569, which is a child of #1533.</body>
+        <file>src/main/java/org/cactoos/scalar/package-info.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-04T07:08:19Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1570">1570</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-bf6d58aa</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.time to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/time/package-info.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1571">1571</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-fb13df65</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.map to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/map/package-info.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1572" closed="2021-05-13T08:59:22+00:00">1572</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-37aa2e90</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.func to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/func/package-info.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/cactoos/issues/1613">1613</issue>
+        <ticket>1572</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1572-37aa2e90</id>
+        <lines>29-31</lines>
+        <body>Exploit generic variance for package org.cactoos.func to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+        <file>src/main/java/org/cactoos/func/package-info.java</file>
+        <author>Dmitry Barskov</author>
+        <email>dmitry.barskov64@gmail.com</email>
+        <time>2021-05-12T09:48:55Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1573" closed="2021-10-02T13:00:47+00:00">1573</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-1282c35c</id>
+    <lines>36-37</lines>
+    <body>Exploit generic variance for package org.cactoos.experimental to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/experimental/package-info.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1574" closed="2021-09-05T09:52:14+00:00">1574</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-1bce8d47</id>
+    <lines>29-31</lines>
+    <body>Exploit generic variance for package org.cactoos.text to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/text/package-info.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-13T18:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos/issues/1575" closed="2021-09-26T12:24:02+00:00">1575</issue>
+    <ticket>1533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1533-d1b82973</id>
+    <lines>29-31</lines>
+    <body>Continue to exploit generic variance for package org.cactoos.collection to ensure typing works as best as possible as it is explained in #1533 issue.</body>
+    <file>src/main/java/org/cactoos/collection/package-info.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-08T22:42:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1577">1577</issue>
+    <ticket>1449</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1449-0c19404b</id>
+    <lines>29-33</lines>
+    <body>We must find all the classes that closes stream of {@link org.cactoos.Input} or {@link org.cactoos.Output} that have been passed to them and document them about this behaviour and refer them to the existence of {@link org.cactoos.io.CloseShieldInput} and {@link org.cactoos.io.CloseShieldOutput} and how to use them.</body>
+    <file>src/main/java/org/cactoos/io/package-info.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-03-06T16:17:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1617">1617</issue>
+    <ticket>1335</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1335-2793a937</id>
+    <lines>37-41</lines>
+    <body>Following the rewrite of the Number implementations in cactoos, the three methods below prefixed by overflow where adapted because they started to give different results. The task is to investigate thoroughly what is a "correct" behaviour concerning overflow in the case of SumOf and adapt the tests and the code to make this obvious and clear.</body>
+    <file>src/test/java/org/cactoos/number/SumOfTest.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2021-05-08T16:36:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos/issues/1623">1623</issue>
+    <ticket>1615</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1615-3f3b75c7</id>
+    <lines>37-40</lines>
+    <body>Extract fallback logic for Bytes to a separate class in accordance to other XXXWithFallback classes. Leave only basic exception handling in this class.</body>
+    <file>src/main/java/org/cactoos/bytes/UncheckedBytes.java</file>
+    <author>andreoss</author>
+    <email>andreoss@sdf.org</email>
+    <time>2021-06-21T13:44:33Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

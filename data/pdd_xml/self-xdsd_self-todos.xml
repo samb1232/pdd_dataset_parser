@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-11-06T10:50:31+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-todos/issues/5" closed="2020-09-07T11:23:33+00:00">5</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-fec5f6c3</id>
+    <lines>41-42</lines>
+    <body>Transform the puzzles XML string into Java Beans. Most likely using JAX-B annotations. Don't forget about handling exceptions somehow.</body>
+    <file>src/main/java/com/selfxdsd/todos/SshPuzzles.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-01T11:54:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-todos/issues/6" closed="2020-09-07T13:59:56+00:00">6</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-1df84203</id>
+    <lines>43-44</lines>
+    <body>Customize the script being run (put it into a properties files and format it with the Project's data).</body>
+    <file>src/main/java/com/selfxdsd/todos/SshPuzzles.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-01T11:54:48Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-todos/issues/10" closed="2020-10-11T15:37:59+00:00">10</issue>
+        <ticket>6</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>6-c0142e95</id>
+        <lines>45-48</lines>
+        <body>Add better validation of the String input. If the pdd command failed for some reason (e.g. malformed todos in the code), it will not be a clean XML. We have to take this info and throw it together with the exception.</body>
+        <file>src/main/java/com/selfxdsd/todos/DocumentPuzzles.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-09-07T13:57:59Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-todos/issues/8">8</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-31ff0f72</id>
+    <lines>39-40</lines>
+    <body>Write unit test for SshPuzzles and unit DocumentPuzzles for cases when there are invalid documents.</body>
+    <file>src/main/java/com/selfxdsd/todos/SshPuzzles.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-02T14:27:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>12</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>12-0273df37</id>
+    <lines>44-49</lines>
+    <body>Handle SshPuzzles errors output with PuzzlesProcessingException. Right now there is one single String output. Instead of a String we should have 2 streams one for puzzles and one for errors. The puzzle InputStream will processed by DocumentPuzzles and the error stream will be collected into a error message and thrown as PuzzlesProcessingException in SshPuzzles.</body>
+    <file>src/main/java/com/selfxdsd/todos/SshPuzzles.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-07T16:53:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-todos/issues/19" closed="2020-11-03T10:37:55+00:00">19</issue>
+    <ticket>16</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>16-30e6be47</id>
+    <lines>40-42</lines>
+    <body>Once we have Issues.search(...) method in self-core, we should search for the Issues with label "puzzle", we are only interested in those (at the moment all the Issues are being used).</body>
+    <file>src/main/java/com/selfxdsd/todos/PuzzlesApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-14T17:54:00Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-todos/issues/24" closed="2020-11-03T14:47:58+00:00">24</issue>
+        <ticket>19</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>19-89cdb6ff</id>
+        <lines>38-41</lines>
+        <body>Accept the push event as RequestBody parameter in the reviewPuzzles method, then wrap it inside an Event. We need this because we will need access to the Commit which triggered the event.</body>
+        <file>src/main/java/com/selfxdsd/todos/PuzzlesApi.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-11-03T10:26:28Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-todos/issues/26" closed="2020-11-06T10:50:31+00:00">26</issue>
+            <ticket>24</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>24-442caa1c</id>
+            <lines>45-49</lines>
+            <body>Pass on the Event to the puzzle-processing objects. If there is any problem while processing the puzzles, we should post a comment on the Commit which triggered the event and let the author know about the issue. We have to wait for self-core 0.0.31, which will have the Event.commit() method.</body>
+            <file>src/main/java/com/selfxdsd/todos/PuzzlesComponent.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-11-03T14:42:47Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-todos/issues/20" closed="2020-10-15T16:19:08+00:00">20</issue>
+    <ticket>16</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>16-0f334e68</id>
+    <lines>43-45</lines>
+    <body>Make the endpoint call asynchronous. At the moment the client has to wait until the repo is cloned, pdd is run atc, which takes a few seconds.</body>
+    <file>src/main/java/com/selfxdsd/todos/PuzzlesApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-14T17:54:00Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

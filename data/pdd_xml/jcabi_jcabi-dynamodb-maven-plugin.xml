@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.25.8" date="2017-11-16T10:53:10+00:00">
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-dynamodb-maven-plugin/issues/42" closed="2017-11-16T10:53:10+00:00">42</issue>
+    <id>41-e81ff08d</id>
+    <ticket>41</ticket>
+    <file>src/main/java/com/jcabi/dynamodb/maven/plugin/RunMojo.java</file>
+    <lines>43-45</lines>
+    <estimate>30</estimate>
+    <body>Let's avoid code duplication between this class and `StartMojo`. One idea is to create a decorator called `ThreadedMojo` that receives another mojo in its constructor and, when called, runs it inside a thread.</body>
+    <role>IMP</role>
+    <author>Denis N. Antonioli</author>
+    <email>denisa@sunrunhome.com</email>
+    <time>2015-12-17T15:51:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>42-3038f9e6</id>
+        <ticket>42</ticket>
+        <file>src/main/java/com/jcabi/dynamodb/maven/plugin/Instances.java</file>
+        <lines>54-54</lines>
+        <estimate>30</estimate>
+        <body>Let's avoid code duplication between</body>
+        <role>IMP</role>
+        <author>Simon N</author>
+        <email>simtuje@gmail.com</email>
+        <time>2015-12-31T09:25:36Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>38-e3be1969</id>
+    <ticket>38</ticket>
+    <file>src/main/java/com/jcabi/dynamodb/core/package-info.java</file>
+    <lines>37-38</lines>
+    <estimate>30</estimate>
+    <body>Logic of the plugin should be extracted from maven mojos to this package to allow directly running local dynamodb.</body>
+    <role>IMP</role>
+    <author>Igor Piddubnyi</author>
+    <email>igor.piddubnyi@solvians.com</email>
+    <time>2016-01-29T15:32:00Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

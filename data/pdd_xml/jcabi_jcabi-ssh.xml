@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.25.4" date="2017-11-06T13:49:29+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>21-74327cdd</id>
+    <ticket>21</ticket>
+    <file>src/main/java/com/jcabi/ssh/SSH.java</file>
+    <lines>70-72</lines>
+    <estimate>30</estimate>
+    <body>This class has common data, implementation of exec() and constructor validations with SSHByPassword class. Common functionality should be extracted into a separate module.</body>
+    <role>IMP</role>
+    <author>Suseika</author>
+    <email>wlasowegor@gmail.com</email>
+    <time>2015-06-22T14:43:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>21-5047b140</id>
+    <ticket>21</ticket>
+    <file>src/test/java/com/jcabi/ssh/SSHByPasswordTest.java</file>
+    <lines>63-65</lines>
+    <estimate>30</estimate>
+    <body>SSH server setup in this class is nearly identical to the one in {@link SSHTest}. It should be extracted in a separate reusable module.</body>
+    <role>IMP</role>
+    <author>Suseika</author>
+    <email>wlasowegor@gmail.com</email>
+    <time>2015-06-22T15:54:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>21-40f93421</id>
+    <ticket>21</ticket>
+    <file>src/test/java/com/jcabi/ssh/SSHTest.java</file>
+    <lines>164-167</lines>
+    <estimate>30</estimate>
+    <body>EchoCommand and EchoCommandCreator are duplicated in SSHTest and SSHByPasswordTest, these duplicates should be extracted into package com.jcabi.ssh.mock under src/main/java, renamed to MkCommandCreator/MkCommand and unit-tested.</body>
+    <role>IMP</role>
+    <author>Suseika</author>
+    <email>wlasowegor@gmail.com</email>
+    <time>2015-06-22T14:54:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-ssh/issues/62">62</issue>
+    <id>30-15484dec</id>
+    <ticket>30</ticket>
+    <file>src/main/java/com/jcabi/ssh/SSH.java</file>
+    <lines>72-74</lines>
+    <estimate>30</estimate>
+    <body>Refactor this class into smaller ones to avoid null checking of passphrase. There should probably be separate classes for encrypted/unencrypted private key.</body>
+    <role>IMP</role>
+    <author>Martin Macko</author>
+    <email>macko.mar@gmail.com</email>
+    <time>2016-03-16T22:04:57Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

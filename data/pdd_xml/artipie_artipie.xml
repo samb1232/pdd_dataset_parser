@@ -1,0 +1,1047 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-07-03T11:01:57+00:00" version="0.31.9">
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/26" closed="2020-02-21T07:19:40+00:00">26</issue>
+    <ticket>12</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>12-b6e20264</id>
+    <lines>45-50</lines>
+    <body>Implement slice resolving strategy based on yaml configuration file. Now SliceStub is used instead of real slice implementation. We should parse publisher of bytes into yaml config, construct ASTO from this config and find corresponding slice implementation by type parameter.</body>
+    <file>src/main/java/com/artipie/Pie.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-02-11T12:44:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/27" closed="2020-03-23T07:48:30+00:00">27</issue>
+    <ticket>12</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>12-c03f07e2</id>
+    <lines>113-115</lines>
+    <body>Move all Async* implementation to artipie/http module. We need to wrap asynchronous slices and responses with Slice and Response interfaces.</body>
+    <file>src/main/java/com/artipie/Pie.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-02-13T08:10:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/32" closed="2020-03-16T14:13:45+00:00">32</issue>
+    <ticket>12</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>12-94a9871a</id>
+    <lines>38-40</lines>
+    <body>Parse command line options instead of system properties. We need to pass two mandatory options: server port and Artipie configuration storage URI (to local filesystem or cloud storage).</body>
+    <file>src/main/java/com/artipie/VertxMain.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-02-21T07:31:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/46" closed="2020-04-07T09:13:01+00:00">46</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-06b6b8fc</id>
+    <lines>7-9</lines>
+    <body>Propagate git tag I.e. if docker image is based on version 1.5.0, the version should be propagated to the app jar file.</body>
+    <file>Dockerfile</file>
+    <author>@Sammers21</author>
+    <email>titantins@gmail.com</email>
+    <time>2020-03-18T14:04:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/71" closed="2020-04-17T08:37:24+00:00">71</issue>
+    <ticket>69</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>69-a0681291</id>
+    <lines>34-37</lines>
+    <body>Implement this interface to read and process permissions from repository yaml configuration file. Test is already implemented, see {@link RpPermissionsTest}, don't forget to enable is when this class is ready. Remove also PMD suppressions please. For more details check issue #69.</body>
+    <file>src/main/java/com/artipie/RpPermissions.java</file>
+    <author>olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-04-13T07:23:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/90" closed="2020-04-28T13:49:29+00:00">90</issue>
+    <ticket>76</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>76-fe362791</id>
+    <lines>111-113</lines>
+    <body>Extract the logic in switch into separate class. It can be named like `SliceFromConfig`: it implements Slice interface and behaves as a factory by creating `Slice` instance for configuration.</body>
+    <file>src/main/java/com/artipie/Pie.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-04-22T09:38:48Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/109" closed="2020-05-07T09:01:42+00:00">109</issue>
+        <ticket>90</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>90-c6a5c053</id>
+        <lines>45-46</lines>
+        <body>We still don't have tests for Pie. But now that this class was extracted, we have a more cohesive class that could be tested. Write unit tests for SliceFromConfig class.</body>
+        <file>src/main/java/com/artipie/SliceFromConfig.java</file>
+        <author>Hamdi Douss</author>
+        <email>douss.hamdi@gmail.com</email>
+        <time>2020-04-25T14:42:23Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/110" closed="2022-02-04T12:45:29+00:00">110</issue>
+        <ticket>90</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>90-277cd0cd</id>
+        <lines>65-67</lines>
+        <body>This method still needs more refactoring. We should test if the type exist in the constructed map. If the type does not exist, we should throw an IllegalStateException with the message "Unsupported repository type '%s'"</body>
+        <file>src/main/java/com/artipie/SliceFromConfig.java</file>
+        <author>Hamdi Douss</author>
+        <email>douss.hamdi@gmail.com</email>
+        <time>2020-04-27T08:05:33Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/120" closed="2020-05-28T09:28:37+00:00">120</issue>
+    <ticket>74</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>74-e630ca71</id>
+    <lines>49-52</lines>
+    <body>Create a unit test for 404 response. Let's test that the response for request for not existing repository returns 404 error, e.g. if request line is `GET /repo/foo HTTP/1.1` but we don't have `foo.yml` configuration, then this class should return 404.</body>
+    <file>src/main/java/com/artipie/Pie.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-05-08T07:24:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/179" closed="2020-08-20T11:28:29+00:00">179</issue>
+    <ticket>146</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>146-3820475f</id>
+    <lines>128-129</lines>
+    <body>Extract this method to a class: we have the same method in RepoConfig. After extracting use this new class here and in RepoConfig. Do not forget about test.</body>
+    <file>src/main/java/com/artipie/YamlSettings.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-05-22T15:24:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/180" closed="2023-07-03T11:01:52+00:00">180</issue>
+    <ticket>146</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>146-b7fdde7c</id>
+    <lines>36-41</lines>
+    <body>Consider adding opportunity to configure alternative login, for example: | joe: | login: joe@mail.com | pass: "plain:123" This configuration would mean that Joe should use his email to login instead of username. Do not forget to validate credentials, logins should be unique.</body>
+    <file>src/main/java/com/artipie/auth/AuthFromYaml.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-05-22T12:45:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/191" closed="2020-09-16T13:08:11+00:00">191</issue>
+    <ticket>187</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>187-870a4b1d</id>
+    <lines>48-49</lines>
+    <body>Add a test for layout structure, it can be either `flat` or `org`. If it's omitted, it should treated as a `flat` layout. See RepoLayout javadocs for more details.</body>
+    <file>src/test/java/com/artipie/YamlSettingsTest.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-06-02T14:49:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/267" closed="2020-08-03T10:37:47+00:00">267</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-69751ecf</id>
+    <lines>36-39</lines>
+    <body>Support gauges in InMemoryMetrics. `InMemoryMetrics.gauge()` method implementation should get or create an `InMemoryGauge` by name and store it. `InMemoryMetrics.gauges()` method should be added to create snapshot of existing gauges. Implementations are expected to be similar to counters.</body>
+    <file>src/main/java/com/artipie/metrics/memory/InMemoryMetrics.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-07-06T12:23:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/272" closed="2020-08-14T12:40:11+00:00">272</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-64301158</id>
+    <lines>42-44</lines>
+    <body>Test request and response forwarding in `ResponseMetricsSlice`. Test that request coming to `ResponseMetricsSlice` are forwarded as-is to origin slice, response generated by origin slice is sent to connection as-is.</body>
+    <file>src/main/java/com/artipie/ResponseMetricsSlice.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-07-07T10:25:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/273" closed="2022-02-09T16:09:37+00:00">273</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-bfc96007</id>
+    <lines>45-48</lines>
+    <body>Report exceptions as errors in `ResponseMetricsSlice`. In case of exceptions in origin slice handling or sending to `Connection` nothing is reported to `Metrics`. It needs to be fixed, so if origin slice fails or we failed to send response then error is sent to `Metrics`.</body>
+    <file>src/main/java/com/artipie/ResponseMetricsSlice.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-07-07T10:25:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/290" closed="2020-08-03T10:37:53+00:00">290</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-f0ff443a</id>
+    <lines>37-40</lines>
+    <body>Support gauge publishing in `MetricsLogPublisher`. `InMemoryMetrics` contain gauges along counters. Gauges should be published the same way as counters. Should be done after https://github.com/artipie/artipie/issues/267</body>
+    <file>src/main/java/com/artipie/metrics/memory/MetricsLogPublisher.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-07-07T10:17:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/291" closed="2022-11-29T10:25:14+00:00">291</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-c625a5c3</id>
+    <lines>41-43</lines>
+    <body>Add tests for `MetricsLogPublisher`. It should be tested that the publisher runs periodically, collects fresh metrics data and logs the data as expected.</body>
+    <file>src/main/java/com/artipie/metrics/memory/MetricsLogPublisher.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-07-07T11:06:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/292" closed="2020-08-19T12:20:59+00:00">292</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-2cd4db3f</id>
+    <lines>94-96</lines>
+    <body>Remove ad-hoc error detection from `ResponseMetricsSlice.report()`. As soon as issue https://github.com/artipie/http/issues/196 is complete and we have method in `RsStatus` to detect errors we may use this method instead of RegEx usage.</body>
+    <file>src/main/java/com/artipie/ResponseMetricsSlice.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-07-08T12:39:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/337" closed="2022-02-08T14:20:55+00:00">337</issue>
+    <ticket>285</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>285-66616a94</id>
+    <lines>50-55</lines>
+    <body>Settings configuration for GitHub auth. Add additional settings configuration for GitHub authentication, now it's applied by default to auth from yaml using chained authentication, see auth() method. We can configure this chain via settings and compose complex authentication providers there. E.g. user can use ordered list of env auth, github auth and auth from yaml file.</body>
+    <file>src/main/java/com/artipie/YamlSettings.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-07-15T13:48:16Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/999" closed="2022-09-13T09:58:29+00:00">999</issue>
+        <ticket>337</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>337-2a1a00a1</id>
+        <lines>29-30</lines>
+        <body>Add a description of alternative authentication. Add a description of alternative authentication to the README file.</body>
+        <file>src/main/java/com/artipie/YamlSettings.java</file>
+        <author>Denis Garus</author>
+        <email>garus.d.g@gmail.com</email>
+        <time>2022-02-04T13:46:18Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/338" closed="2020-07-27T10:49:30+00:00">338</issue>
+    <ticket>313</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>313-c5cc8405</id>
+    <lines>46-49</lines>
+    <body>Unit test coverage for `DockerProxy` class `DockerProxy` class lacks unit test coverage. It should be tested that slice is built properly from configuration (e.g. handles simple response like 'GET /v2/') and fails any request for bad configuration (some required settings are missing).</body>
+    <file>src/main/java/com/artipie/docker/DockerProxy.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-07-15T13:48:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/339" closed="2021-08-09T09:08:43+00:00">339</issue>
+    <ticket>285</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>285-b75b90d5</id>
+    <lines>40-44</lines>
+    <body>Specify expiration time configuration. Instead of using scheduled executor to clean-up all cache map, use some configuration to clean-up only expired items, e.g. if token was not accessed for X minutes, then remove only this token. Consider using Guava's time-evicted-cache implementation: https://github.com/google/guava/wiki/CachesExplained#eviction</body>
+    <file>src/main/java/com/artipie/auth/CachedAuth.java</file>
+    <author>Kirill</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-07-15T13:48:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/341" closed="2021-08-10T13:11:31+00:00">341</issue>
+    <ticket>284</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>284-62fad2c1</id>
+    <lines>137-138</lines>
+    <body>Extract this method to separate class and write proper unit tests for that. Also add tests for `JavaResource` class which is used to copy resources.</body>
+    <file>src/main/java/com/artipie/VertxMain.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-07-15T15:45:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/artipie/artipie/issues/378">378</issue>
+    <ticket>370</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>370-bcc3b5c3</id>
+    <lines>52-54</lines>
+    <body>Enable `test.networkEnabled` property for some CI builds. Make sure these tests are not failing due to network issues, maybe we should retry it to avoid false failures.</body>
+    <file>src/test/java/com/artipie/http/GroupRepositoryITCase.java</file>
+    <author>Kirill</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-07-22T13:52:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/434" closed="2022-12-19T09:00:43+00:00">434</issue>
+    <ticket>429</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>429-0d21f4e0</id>
+    <lines>36-40</lines>
+    <body>Test `SystemSettings.trustAll` method. `SystemSettings.trustAll` reads data using static method `System.getenv`. To test this method in presence of this environment variable it is need to mock static method. This could be done with Powermock library, however it is tricky at the moment to use it with JUnit5 as it is not directly supported.</body>
+    <file>src/test/java/com/artipie/HttpClientSettingsTest.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-08-10T09:05:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/446" closed="2021-08-26T12:31:49+00:00">446</issue>
+    <ticket>425</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>425-7a9d7e13</id>
+    <lines>40-42</lines>
+    <body>Create a test for this slice. The test should verify that slice returns response from origin slice if condition matches, and returns 404 if it doesn't match.</body>
+    <file>src/main/java/com/artipie/http/OptionalSlice.java</file>
+    <author>Kirill</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-08-14T09:34:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/447" closed="2020-08-21T08:43:44+00:00">447</issue>
+    <ticket>425</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>425-6103346b</id>
+    <lines>45-47</lines>
+    <body>Create a test to verify this slice. The test should generate some metrics and checks that this slice correctly respond with JSON array with these metrics.</body>
+    <file>src/main/java/com/artipie/metrics/MetricSlice.java</file>
+    <author>Kirill</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-08-14T09:34:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/460" closed="2021-08-09T09:08:46+00:00">460</issue>
+    <ticket>442</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>442-4070cd49</id>
+    <lines>45-48</lines>
+    <body>Refactor this class to move cache field to instance field and make sure the instance is not created on each request. Right now we're using a hotfix - CachedAuth created from settings on each request but uses static hash map field for caching.</body>
+    <file>src/main/java/com/artipie/auth/CachedAuth.java</file>
+    <author>Kirill</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-08-18T13:55:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/464" closed="2022-05-04T13:43:38+00:00">464</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-d6b8b13e</id>
+    <lines>68-70</lines>
+    <body>Constructor decomposition This constructor is very huge, difficult to read and understand: extract some methods, wrappers, classes, etc from it to make it more elegant.</body>
+    <file>src/main/java/com/artipie/api/ArtipieApi.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-08-19T14:40:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/470" closed="2021-08-19T16:01:08+00:00">470</issue>
+    <ticket>449</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>449-3e9e55ee</id>
+    <lines>83-89</lines>
+    <body>Extract class for building settings in YAML format. Building of settings YAML for usage in tests occurs more the once. It is used to build setting in `ArtipieServer` and in `YamlSettingsTest` to create settings examples in unit tests. Some examples in `YamlSettingsTest` are just string constants. It would be nice to extract a class for building settings in YAML format for usage in all these places.</body>
+    <file>src/test/java/com/artipie/ArtipieServer.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-08-20T08:39:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/472" closed="2020-08-21T14:13:11+00:00">472</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-01e9331f</id>
+    <lines>50-54</lines>
+    <body>Move `auth()` method to Credentials interface Casting in `auth()` may cause problems in runtime, it would be better to move this method to Credentials interface. Credentials.FromStorageYaml implementation should create AuthFromYaml instance in `auth()`, and as we have env credentials, let's introduce Credentials.FromEnv class to create proper Authentication implementation in `auth()`.</body>
+    <file>src/main/java/com/artipie/YamlSettings.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-08-20T11:13:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/479" closed="2020-08-24T14:44:51+00:00">479</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-a0716dee</id>
+    <lines>37-42</lines>
+    <body>Implement this slice to add/update user from credentials by user name obtained from request line, path format is `/api/security/users/{userName}`. Password should be obtain from `password` field from json request body. Use Credentials#add(java.lang.String, java.lang.String) method to perform the operation and return 200 OK status. Do not forget to test this class and add it to ArtipieApi, check GetUserSlice as an example.</body>
+    <file>src/main/java/com/artipie/api/artifactory/AddUpdateUserSlice.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-08-21T05:37:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/480" closed="2020-08-21T13:01:34+00:00">480</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-7d93e4f2</id>
+    <lines>37-40</lines>
+    <body>Implement this slice to delete user from credentials by user name obtained from request line, path format is `/api/security/users/{userName}`. Use Credentials#remove(java.lang.String) method to perform the operation and return 200 OK status. Do not forget to test this class and add it to ArtipieApi, check GetUserSlice as an example.</body>
+    <file>src/main/java/com/artipie/api/artifactory/DeleteUserSlice.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-08-21T05:37:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/484" closed="2020-08-26T08:41:09+00:00">484</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-f6623627</id>
+    <lines>45-50</lines>
+    <body>Create class `UserFromRqLine`. Logic for getting username from request line is the same in 3 classes: here, `GetUserSlice` and in `AddUpdateUserSlice`. It would be nice to introduce class to obtain username from request line and move GetUserSlice.PTRN there. Class can be created in this package, accept line from request in ctor and have one Optional{String} get() method to get username.</body>
+    <file>src/main/java/com/artipie/api/artifactory/DeleteUserSlice.java</file>
+    <author>Alexandr</author>
+    <email>genryxy.alexandr@yandex.ru</email>
+    <time>2020-08-21T12:15:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/493" closed="2020-08-27T10:49:28+00:00">493</issue>
+    <ticket>449</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>449-81c7f5cc</id>
+    <lines>47-51</lines>
+    <body>Support running test on Windows. Running test on Windows requires using Windows image in tests. That means that image name and digest should depend on host OS. Same problem is solved in `docker-adapter` module using `Image` interface and `Image.ForOs` class.</body>
+    <file>src/test/java/com/artipie/docker/DockerLocalIT.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-08-21T11:14:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/494" closed="2020-08-27T06:46:20+00:00">494</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-563c6bfe</id>
+    <lines>36-40</lines>
+    <body>Implement AddUpdatePermissionSlice to add/update repository permissions. First, implement and test RepoPermissions.FromSettings#addUpdate(...), then use this method in this slice. Request json format can be found https://www.jfrog.com/confluence/display/rtf/artifactory+rest+api, we should obtain information from `repo.actions.users` fields.</body>
+    <file>src/main/java/com/artipie/api/artifactory/AddUpdatePermissionSlice.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-08-25T07:03:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/495" closed="2020-08-26T08:55:22+00:00">495</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-0c759efe</id>
+    <lines>36-40</lines>
+    <body>Implement GetPermissionSlice to return repository permissions. First, implement and test RepoPermissions.FromSettings#get(java.lang.String), then use this method in this slice. Response json format can be found https://www.jfrog.com/confluence/display/rtf/artifactory+rest+api, we should support `repositories` and `principals` fields.</body>
+    <file>src/main/java/com/artipie/api/artifactory/GetPermissionSlice.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-08-25T07:03:56Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/509" closed="2020-08-31T12:13:26+00:00">509</issue>
+        <ticket>495</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>495-a27c3b37</id>
+        <lines>55-58</lines>
+        <body>Create class to generate repository permissions settings Methods addSettings() and addEmpty() are copied from RepoPermissionsFromSettingsTest, let't extract them into class to avoid code duplication. Class can be introduced in test scope. Also, let's check other tests for similar functionality and replace all duplications.</body>
+        <file>src/test/java/com/artipie/api/artifactory/GetPermissionSliceTest.java</file>
+        <author>olenagerasimova</author>
+        <email>olena.gerasimova@gmail.com</email>
+        <time>2020-08-25T18:35:58Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/496" closed="2020-08-25T14:20:21+00:00">496</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-7f6be348</id>
+    <lines>36-39</lines>
+    <body>Implement this slice to return available repositories json list, format can be found https://www.jfrog.com/confluence/display/rtf/artifactory+rest+api, Get Permission Targets section. Use RepoPermissions#repositories(), do not ferget about test and add this slice to ArtipieApi.</body>
+    <file>src/main/java/com/artipie/api/artifactory/GetPermissionsSlice.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-08-25T07:03:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/497" closed="2020-08-26T09:56:21+00:00">497</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-61eb484a</id>
+    <lines>36-40</lines>
+    <body>Implement DeletePermissionSlice to delete all repository permissions. First, implement and test RepoPermissions.FromSettings#delete(java.lang.String), then use this method in this slice. Response json format can be found https://www.jfrog.com/confluence/display/rtf/artifactory+rest+api, Delete Permission Target section</body>
+    <file>src/main/java/com/artipie/api/artifactory/DeletePermissionSlice.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-08-25T07:03:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/artipie/artipie/issues/510">510</issue>
+    <ticket>499</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>499-bc7d8bcf</id>
+    <lines>46-50</lines>
+    <body>Add integration test for Docker proxy cache feature. Docker proxy supports caching feature for it's remote repositories. Cache is populated when image is downloaded asynchronously and later used if remote repository is unavailable. This feature should be tested.</body>
+    <file>src/test/java/com/artipie/docker/DockerProxyIT.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-08-25T09:05:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/511" closed="2022-02-16T14:34:02+00:00">511</issue>
+    <ticket>499</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>499-4f132183</id>
+    <lines>51-53</lines>
+    <body>Add integration test for Docker proxy push feature. Docker proxy supports pushing to local storage if such storage is specified. It should be verified that an image can be pushed to proxy repository and pulled later.</body>
+    <file>src/test/java/com/artipie/docker/DockerProxyIT.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-08-25T09:05:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/artipie/artipie/issues/512">512</issue>
+    <ticket>449</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>449-eeee6363</id>
+    <lines>54-60</lines>
+    <body>Support running DockerProxyIT test on Windows. Running test on Windows uses `mcr.microsoft.com/dotnet/core/runtime` image. Loading this image manifest fails with "java.lang.IllegalStateException: multiple subscribers not supported" error. It seems that body is being read by some other entity in Artipie, so it requires investigation. Similar `CachingProxyITCase` tests works well in docker-adapter module.</body>
+    <file>src/test/java/com/artipie/docker/DockerProxyIT.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-08-25T09:05:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/524" closed="2020-09-02T14:13:29+00:00">524</issue>
+    <ticket>449</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>449-2a88ca71</id>
+    <lines>45-51</lines>
+    <body>Check negative auth cases. `DockerLocalAuthIT` contains tests for authenticated access when there is enough permissions for certain operations. However, to ensure that auth works as expected we need to check cases for auth failure: - attempt to access with unknown user - attempt to write with user without write permissions - attempt to read with user without read permissions</body>
+    <file>src/test/java/com/artipie/docker/DockerLocalAuthIT.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-08-27T10:37:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/589" closed="2020-12-03T07:27:46+00:00">589</issue>
+    <ticket>569</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>569-26fa1589</id>
+    <lines>298-299</lines>
+    <body>Consider extending this class by adding password and its format, but pay attention that actually password is not always required. Do not forget about tests.</body>
+    <file>src/main/java/com/artipie/Credentials.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-09-14T11:06:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/597" closed="2020-12-03T07:27:49+00:00">597</issue>
+    <ticket>545</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>545-9296ae45</id>
+    <lines>95-99</lines>
+    <body>Code duplication for creating repo storage. Creating repository storage from `Settings` is duplicated in `GetStorageSlice#storage(String)` method and `ArtipieRepositories#resolve(String)`. This code duplication should be resolved by extracting this code to separate class.</body>
+    <file>src/main/java/com/artipie/api/artifactory/GetStorageSlice.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-09-15T09:43:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/786" closed="2020-12-04T09:28:32+00:00">786</issue>
+        <ticket>597</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>597-732d602b</id>
+        <lines>36-38</lines>
+        <body>Add unit tests for RepositoriesFromStorage class. `RepositoriesFromStorage` class was extracted from existing code and lacks test coverage. It's methods should be tested for all important execution paths.</body>
+        <file>src/main/java/com/artipie/RepositoriesFromStorage.java</file>
+        <author>@olegmoz</author>
+        <email>oleg.mozzhechkov@gmail.com</email>
+        <time>2020-12-03T07:27:32Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/616" closed="2020-09-24T17:26:58+00:00">616</issue>
+    <ticket>572</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>572-84159cfe</id>
+    <lines>45-47</lines>
+    <body>Simplify `user()` method and get rid of nested if expressions: create separate method to obtain password type either from separate `type` yaml field or from `pass`, get rid of `check(String, String)` method and use `check()` with three params instead.</body>
+    <file>src/main/java/com/artipie/auth/AuthFromYaml.java</file>
+    <author>olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-09-21T09:34:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/674" closed="2020-10-12T08:17:15+00:00">674</issue>
+    <ticket>668</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>668-edbbdbad</id>
+    <lines>43-47</lines>
+    <body>Use GenericAuthenticator in MavenProxy For some reason `MavenProxyAuthIT` fails if GenericAuthenticator is used: proxy requests fails with 503 status. Right not now using `Authenticator.Basic` instead `GenericAuthenticator` limits authentication support to Basic scheme only.</body>
+    <file>src/main/java/com/artipie/maven/MavenProxy.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-10-08T11:35:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/677" closed="2020-10-13T14:37:29+00:00">677</issue>
+    <ticket>602</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>602-02a4b526</id>
+    <lines>88-91</lines>
+    <body>Create constructor in `ArtipieServer` to pass server port. Now config for server are generated earlier than server starts. So, we need to overwrite file with config after server starting. Let's create constructor in `ArtipieServer` to pass free port.</body>
+    <file>src/test/java/com/artipie/nuget/NugetITCase.java</file>
+    <author>Alexandr</author>
+    <email>genryxy.alexandr@yandex.ru</email>
+    <time>2020-10-09T05:58:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/679" closed="2020-12-03T07:27:53+00:00">679</issue>
+    <ticket>602</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>602-656eb91f</id>
+    <lines>55-58</lines>
+    <body>Fix and enable NugetITCase. Tests in `NugetITCase` often hang or make tests after them hang. That might be caused by NuGet adapter being blocking or some other reason. Tests are disabled for a time to prevent whole CI pipeline to be blocked by these issues.</body>
+    <file>src/test/java/com/artipie/nuget/NugetITCase.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-10-09T08:12:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/734" closed="2020-12-03T07:27:58+00:00">734</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-f3499255</id>
+    <lines>36-39</lines>
+    <body>Add tests for Cookies class. `Cookies` class lacks test coverage for primary code flow branches. It is important that to check that proper user is extracted when headers contain session cookie. This might require `Cookie` class refactoring as the class depends on system environment.</body>
+    <file>src/test/java/com/artipie/api/CookiesTest.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-11-02T14:05:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/787" closed="2021-12-15T14:16:19+00:00">787</issue>
+    <ticket>213</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>213-1cbc8779</id>
+    <lines>79-83</lines>
+    <body>HTTP client should not be a singleton. HTTP client now is a singleton within application. It's instance is stored in static variable. It should be refactored so it's only instance is built on start of app and passed from top level to this class and other usages.</body>
+    <file>src/main/java/com/artipie/SliceFromConfig.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-12-03T07:27:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/788" closed="2021-02-22T05:33:46+00:00">788</issue>
+    <ticket>586</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>586-ef3e091d</id>
+    <lines>73-75</lines>
+    <body>Add unit tests for Layout.Flat `Layout.Flat` class was extracted from existing code and lacks test coverage. It's methods should be tested for all important execution paths.</body>
+    <file>src/main/java/com/artipie/Layout.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-12-03T07:27:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/789" closed="2021-03-28T08:45:12+00:00">789</issue>
+    <ticket>586</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>586-0be4ea0e</id>
+    <lines>106-108</lines>
+    <body>Add unit tests for Layout.Org `Layout.Org` class was extracted from existing code and lacks test coverage. It's methods should be tested for all important execution paths.</body>
+    <file>src/main/java/com/artipie/Layout.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-12-03T07:27:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/790" closed="2023-07-03T11:01:57+00:00">790</issue>
+    <ticket>730</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>730-ef465e62</id>
+    <lines>161-163</lines>
+    <body>When `ContentAs` is used here instead of `Concatenation` and `Remaining` ITs get stuck on github actions (this does not happen locally on mac os), figure out why, make necessary corrections and use `ContentAs` here.</body>
+    <file>src/main/java/com/artipie/UsersFromStorageYaml.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-12-03T07:27:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/artipie/artipie/issues/791">791</issue>
+    <ticket>607</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>607-5e919bc7</id>
+    <lines>62-65</lines>
+    <body>Verify install using kubectl in docker. Now test just check that `index.yaml` was created. It would be better to verify install within `helm install`. For this, it's necessary to create a kubernetes cluster in Docker.</body>
+    <file>src/test/java/com/artipie/helm/HelmITCase.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-12-03T07:27:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/803" closed="2020-12-15T14:36:59+00:00">803</issue>
+    <ticket>775</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>775-5d678143</id>
+    <lines>168-171</lines>
+    <body>Specify layout when ArtipieServer instance is created Layout should be specified when ArtipieServer is created, not on start. As this class already has too many fields, consider creating separate class to create whole artipie.yaml and passing instance of this class to the ctor.</body>
+    <file>src/test/java/com/artipie/ArtipieServer.java</file>
+    <author>olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2020-12-11T15:36:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/806" closed="2022-02-16T14:49:31+00:00">806</issue>
+    <ticket>738</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>738-a44eae0d</id>
+    <lines>132-134</lines>
+    <body>Remove creating a Vert.x instance in npm-proxy case. Vertx.vertx() call creates a Vert.x instance, a very heavy object. It should be created only once for whole application on start and reused everywhere.</body>
+    <file>src/main/java/com/artipie/SliceFromConfig.java</file>
+    <author>Aleksandr Krasnov</author>
+    <email>genryxy.alexandr@yandex.ru</email>
+    <time>2020-12-14T09:22:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/818" closed="2022-05-04T13:43:42+00:00">818</issue>
+    <ticket>797</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>797-df0b20e0</id>
+    <lines>68-71</lines>
+    <body>When `ContentAs` is used here instead of `Concatenation` and `Remaining` `ArtipieApiITCase` get stuck on github actions (this does not happen locally on windows os), figure out why, make necessary corrections and use `ContentAs` here. Probably this problem is similar to artipie/artipie#790.</body>
+    <file>src/main/java/com/artipie/api/DashboardSlice.java</file>
+    <author>Aleksandr Krasnov</author>
+    <email>genryxy.alexandr@yandex.ru</email>
+    <time>2020-12-18T13:13:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/855" closed="2021-12-15T14:16:24+00:00">855</issue>
+    <ticket>851</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>851-a9da7c9e</id>
+    <lines>29-33</lines>
+    <body>Fix integration tests. Integration tests should start Artipie docker image built on package state (artipie/artipie:1.0-SNAPSHOT) using testcontainers, and test it against different use cases. Update integration tests and enable CI instruction below to run it on each push and PR. So we need some replacement for `ArtipieServer` class to use it in integration tests.</body>
+    <file>.github/workflows/integration-tests.yml</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2021-01-29T06:50:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/860" closed="2021-04-22T13:59:26+00:00">860</issue>
+        <ticket>855</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>855-2b6537c5</id>
+        <lines>52-54</lines>
+        <body>Deploy test is broken, mvn deploy fails on 500 server respose due to file not exist exception at maven upload.</body>
+        <file>src/test/java/com/artipie/maven/MavenITCase.java</file>
+        <author>Kirill</author>
+        <email>g4s8.public@gmail.com</email>
+        <time>2021-03-12T09:07:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/artipie/artipie/issues/861">861</issue>
+        <ticket>855</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>855-8eff6a20</id>
+        <lines>121-124</lines>
+        <body>Refactor resource extracting Consider creating a method to scan resources from directory and bind it to container path. Also, move maven-related resources from test resource root directory to subfolder, e.g. `maven-it`.</body>
+        <file>src/test/java/com/artipie/maven/MavenITCase.java</file>
+        <author>Kirill</author>
+        <email>g4s8.public@gmail.com</email>
+        <time>2021-03-12T09:07:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/862" closed="2021-05-28T14:46:49+00:00">862</issue>
+        <ticket>855</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>855-c3bcecb3</id>
+        <lines>159-163</lines>
+        <body>Move this class to test sources, add additional constructors for int status and default to expect zero status. Consider creating standard enum or public static fields for `SUCCESS` - exit code is `0` and `ERROR` - exit code is greater than `0`</body>
+        <file>src/test/java/com/artipie/maven/MavenITCase.java</file>
+        <author>Kirill</author>
+        <email>g4s8.public@gmail.com</email>
+        <time>2021-03-12T09:07:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/863" closed="2021-12-15T14:16:27+00:00">863</issue>
+        <ticket>855</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>855-45e49964</id>
+        <lines>46-49</lines>
+        <body>Add Slf4j logging consumer for artipie container It's not working for some reason and prints nothing to the test output. A workaround was added with custom consumer for system stdout frame printing as lambda. Properly configure SLf4j consumer and remove this workaround.</body>
+        <file>src/test/java/com/artipie/test/TestDeployment.java</file>
+        <author>Kirill</author>
+        <email>g4s8.public@gmail.com</email>
+        <time>2021-03-12T09:07:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/977" closed="2022-02-04T12:45:32+00:00">977</issue>
+        <ticket>855</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>855-2061b0aa</id>
+        <lines>32-37</lines>
+        <body>Fix integration tests and remove `@Disabled` annotation. These tests were not migrated to testcontainers, fix them one by one: src/test/java/com/artipie/VertxMainITCase.java src/test/java/com/artipie/docker/DockerProxyIT.java src/test/java/com/artipie/docker/DockerOnPortIT.java src/test/java/com/artipie/maven/MavenMultiProxyIT.java</body>
+        <file>.github/workflows/integration-tests.yml</file>
+        <author>Evgeny Chugunnyy (John)</author>
+        <email>53329821+ChGen@users.noreply.github.com</email>
+        <time>2021-12-10T10:10:03Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/artipie/artipie/issues/996" closed="2022-02-16T14:34:06+00:00">996</issue>
+            <ticket>977</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>977-02d95599</id>
+            <lines>32-36</lines>
+            <body>Fix integration tests and remove `@Disabled` annotation. These tests were not migrated to testcontainers, fix them one by one: src/test/java/com/artipie/docker/DockerProxyIT.java src/test/java/com/artipie/docker/DockerOnPortIT.java src/test/java/com/artipie/maven/MavenMultiProxyIT.java</body>
+            <file>.github/workflows/integration-tests.yml</file>
+            <author>@baudoliver7</author>
+            <email>baudoliver7@gmail.com</email>
+            <time>2022-02-03T07:32:17Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/artipie/artipie/issues/1013" closed="2022-02-17T13:48:42+00:00">1013</issue>
+                <ticket>996</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>996-13b97ffa</id>
+                <lines>32-35</lines>
+                <body>Fix integration test and remove `@Disabled` annotation. The test DockerOnPortIT is not migrated to testcontainers, we should fix it. src/test/java/com/artipie/docker/DockerOnPortIT.java</body>
+                <file>.github/workflows/integration-tests.yml</file>
+                <author>Denis Garus</author>
+                <email>garus.d.g@gmail.com</email>
+                <time>2022-02-10T13:58:16Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/910" closed="2022-05-04T13:43:46+00:00">910</issue>
+    <ticket>896</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>896-d2d64e1d</id>
+    <lines>25-29</lines>
+    <body>Tests to create and update repositories are disabled due to test deployment configuration problem: there is no write permission on directory with the repository configs for `artipie` user in artipie container. Here is corresponding question on SO https://stackoverflow.com/questions/67869196/change-files-owner-when-copying-resources-with-testcontainers Wait for the answer, fix permission error and enable tests.</body>
+    <file>src/test/java/com/artipie/api/ArtipieApiITCase.java</file>
+    <author>Alena</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2021-06-09T09:35:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/978" closed="2021-12-24T07:49:32+00:00">978</issue>
+    <ticket>889</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>889-be863331</id>
+    <lines>30-34</lines>
+    <body>Test that {@link PromuSlice}'s response is correct. We implemented {@link PromuSlice} in a way that Prometheus can pull model via that. Now, we should check that its response is correct. We should also add an integration test to be sure that configuration is taken into account.</body>
+    <file>src/main/java/com/artipie/http/PromuSlice.java</file>
+    <author>@baudoliver7</author>
+    <email>baudoliver7@gmail.com</email>
+    <time>2021-12-15T13:49:37Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/artipie/issues/980" closed="2022-02-10T12:02:59+00:00">980</issue>
+        <ticket>978</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>978-28850aee</id>
+        <lines>40-42</lines>
+        <body>Add an IT test for PromuSlice. We should add an integration test to be sure that meta configuration of Prometheus is taken into account.</body>
+        <file>src/test/java/com/artipie/http/PromuSliceTest.java</file>
+        <author>Olivier B. OURA</author>
+        <email>baudoliver7@gmail.com</email>
+        <time>2021-12-24T07:49:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/1003" closed="2022-04-21T14:06:07+00:00">1003</issue>
+    <ticket>321</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>321-6bbbeba1</id>
+    <lines>28-32</lines>
+    <body>Enable conda install IT case. After bumping asto from v1.10.0 to v1.11.0 conda install IT case started to fail with out of storage exception (https://github.com/artipie/artipie/runs/4641400517?check_suite_focus=true#step:6:2241), therefore this test was disabled. It is necessary to fix this problem and enable test.</body>
+    <file>src/test/java/com/artipie/conda/CondaITCase.java</file>
+    <author>Alexander</author>
+    <email>38591972+genryxy@users.noreply.github.com</email>
+    <time>2022-02-09T15:55:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>1041</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1041-ec738f74</id>
+    <lines>27-30</lines>
+    <body>CondaITCase: Add test cases with repository on individual port: create one more repository with `port` settings and start it in Artipie container exposing the port with `withExposedPorts` method. Then, parameterize test cases to check repositories with different ports. Check `FileITCase` as an example.</body>
+    <file>src/test/java/com/artipie/conda/CondaITCase.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2022-08-01T07:10:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/artipie/issues/1083" closed="2022-12-01T13:47:34+00:00">1083</issue>
+    <ticket>1031</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1031-9bd6a034</id>
+    <lines>3-5</lines>
+    <body>Verify this configuration section: start Artipie locally, configure metrics (try each type) and check how they work. Check `com.artipie.metrics` package for all details. When checking, extend this documentation with examples and details about gathered statistics.</body>
+    <file>.wiki/Configuration-Metrics.md</file>
+    <author>Alena</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2022-08-01T11:39:18Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

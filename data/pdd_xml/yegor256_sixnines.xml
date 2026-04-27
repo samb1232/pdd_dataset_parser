@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-05-28T13:06:22+00:00" version="0.30.17">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/sixnines/issues/40" closed="2018-08-22T05:22:38+00:00">40</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-e122d8f8</id>
+    <lines>29-31</lines>
+    <body>We are not encrypting cooking anyhow at the moment and this is not secure at all. Let's introduce some encryption mechanism with a secret key.</body>
+    <file>objects/cookie.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-04-07T09:42:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/sixnines/issues/101">101</issue>
+    <ticket>93</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>93-8bbecf83</id>
+    <lines>353-355</lines>
+    <body>We should check that there were no successful pings before changing the endpoint to ensure no one uses this feature to register new sites without charge.</body>
+    <file>sixnines.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2019-05-28T07:22:55Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

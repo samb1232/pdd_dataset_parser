@@ -1,0 +1,734 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2026-04-02T07:08:12+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>444-700e5a1e</id>
+    <ticket>444</ticket>
+    <file>rultor-drain/src/test/java/com/rultor/drain/StandedTest.java</file>
+    <lines>59-60</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Refactor tests to support new Request/Response clases from rexsl-test 0.8.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>162-79dc5021</id>
+    <ticket>162</ticket>
+    <file>rultor-drain/src/main/java/com/rultor/drain/Standed.java</file>
+    <lines>85-86</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>As soon as rexsl #716 is resolved remove SQSEntry interface and use Request directly.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>285-bf044707</id>
+    <ticket>285</ticket>
+    <file>rultor-drain/src/main/java/com/rultor/drain/Standed.java</file>
+    <lines>148-150</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Due to a problem with concurrency we're using this same thread executor. When the problem is fixed we should use Executors.newFixedThreadPool(Standed.THREADS, new VerboseThreads())</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>201-bee63d33</id>
+    <ticket>201</ticket>
+    <file>rultor-widget/src/main/java/com/rultor/widget/BuildHealth.java</file>
+    <lines>69-72</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>If we increase the amount of elements to be processes, an OutOfMemory exception will be thrown. I don't understand why and how memory leakage is happening... http://stackoverflow.com/questions/18684598</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>34-f8b8e119</id>
+    <ticket>34</ticket>
+    <file>rultor-base/src/main/java/com/rultor/shell/Terminal.java</file>
+    <lines>75-77</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>This implementation is extremely bad and doesn't comply with any standards. Let's find out what is the right way to escape strings for BASH and implement it here</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>307-21366cc2</id>
+    <ticket>307</ticket>
+    <file>rultor-base/src/main/java/com/rultor/ext/jira/RxJiraIssue.java</file>
+    <lines>146-146</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Paging is not implemented</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>238-d7aca987</id>
+    <ticket>238</ticket>
+    <file>rultor-web/src/test/java/com/rultor/web/AuthKeysTest.java</file>
+    <lines>82-82</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>AuthKeys should validate empty string.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>439-04d567a5</id>
+    <ticket>439</ticket>
+    <file>rultor-web/src/test/java/com/rultor/web/ButtonRsTest.java</file>
+    <lines>249-254</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Batik image generation depends on JDK used and in some cases leads to different images for the same data (e.g. different anti-aliasing in images) as a result the images can't be compared byte by byte. This problem can be recreated by running image generation with OpenJDK and Oracle JDK. Possible solution would be to use vector images or a different library to generate images.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>215-ce623916</id>
+    <ticket>215</ticket>
+    <file>rultor-users/src/test/java/com/rultor/users/pgsql/ArchiverITCase.java</file>
+    <lines>63-64</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Refactor test so it can run VACUUM correctly, right now it throws "VACUUM cannot run inside a transaction block".</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>275-0d238316</id>
+    <ticket>275</ticket>
+    <file>rultor-conveyer/src/main/resources/start.sh</file>
+    <lines>78-83</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>This design is wrong, for one important reason - it doesn't take into account a version of software being deployed. Version is hardcoded in ec2-pom.xml as 1.0-SNAPSHOT. This should be changed. An alternative approach is to specify version as user data parameter, and use Maven only to download one required executable JAR file. Then, just run it with provided user data arguments.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>536-6896859a</id>
+    <ticket>536</ticket>
+    <file>src/main/java/com/rultor/dynamo/DyTalks.java</file>
+    <lines>285-286</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Remove this method and PMD.TooManyMethods when jcabi-aspects#91 is resolved.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>593-2aed2390</id>
+    <ticket>593</ticket>
+    <file>src/test/java/com/rultor/agents/req/DockerRunTest.java</file>
+    <lines>115-116</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Add handling of hash inside single and double quotes - it should not be treated as a comment there.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/633" closed="2017-10-27T16:34:55+00:00">633</issue>
+    <id>594-7fd8c4ec</id>
+    <ticket>594</ticket>
+    <file>src/test/java/com/rultor/agents/req/StartsRequestTest.java</file>
+    <lines>60-61</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Add a test for case where dockerfile is specified instead of image in configuration (docker: directory some/directory).</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>633-705a6074</id>
+        <ticket>633</ticket>
+        <file>src/main/resources/com/rultor/agents/req/_head.sh</file>
+        <lines>81-83</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-13T19:08:18Z</time>
+        <body>For some reason the pipes inside use_image are giving non-zero exit code although the result filename is correct. Find out why it is happening and remove unsetting of pipefail below</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>565-b6318cf3</id>
+    <ticket>565</ticket>
+    <file>src/test/java/com/rultor/agents/req/StartsRequestTest.java</file>
+    <lines>60-60</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Add a test for stop command.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>674-74d6c10e</id>
+    <ticket>674</ticket>
+    <file>src/test/java/com/rultor/agents/github/IndexesRequestsTest.java</file>
+    <lines>46-48</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Implement behavior tested in storeIndexIfNone, retrievesIndexFromLog, retrievesIndexFromSibling and remove Ignore annotation. Add this SuperAgent to com.rultor.agents.Agents.starter method.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1156" closed="2025-11-23T09:37:05+00:00">1156</issue>
+    <id>570-b7bcc1c2</id>
+    <ticket>570</ticket>
+    <file>src/main/java/com/rultor/profiles/GithubProfile.java</file>
+    <lines>247-250</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Implement validation using Kwalify library in separate class called ValidYaml, move this method to that class and move tests from GitHubProfileValidationTest to ValidYamlTest. Remember about removing PMD suppress below.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>561-e08f2fc3</id>
+    <ticket>561</ticket>
+    <file>src/test/java/com/rultor/profiles/GithubProfileValidationTest.java</file>
+    <lines>48-49</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-13T19:08:18Z</time>
+    <body>Implement validation tests based on 2014-07-13-basics.md file.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>498-a06fa417</id>
+    <ticket>498</ticket>
+    <file>src/test/java/com/rultor/agents/github/StarsTest.java</file>
+    <lines>47-48</lines>
+    <estimate>30</estimate>
+    <body>When MkStars (issues jcabi/jcabi-github#965 and jcabi/jcabi-github#965) is implemented remove Ignore annotations.</body>
+    <role>IMP</role>
+    <author>krzyk</author>
+    <email>Krzysztof.Krason@sabre.com</email>
+    <time>2015-01-10T10:58:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>629-e67af157</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ec2/Amazon.java</file>
+    <lines>42-47</lines>
+    <estimate>30</estimate>
+    <body>Add implementation for com.rultor.agents.ec2.Amazon. It must create com.amazonaws.services.ec2.AmazonEC2 client with config params "credentials", "zone", "type", "key". Use client.runInstances(com.amazonaws.services.ec2.model.RunInstancesRequest) to run on-demand instance. Method runOnDemand must finally wait for started instance and check if start was successful.</body>
+    <role>IMP</role>
+    <author>alevohin</author>
+    <email>alevohin@mail.ru</email>
+    <time>2015-01-18T17:25:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>629-7845a57e</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ec2/StartsEC2.java</file>
+    <lines>48-50</lines>
+    <estimate>30</estimate>
+    <body>Implement com.rultor.agents.ec2.StopsEC2 agent. It must stopped EC2 on-demand instance if it was started at StartsEC2 agent. StopsEC2 must use instance id from /talk/ec2/[@id] to stop it.</body>
+    <role>IMP</role>
+    <author>Yuriy.Alevohin</author>
+    <email>yuriy.alevohin@zed.com</email>
+    <time>2015-01-20T11:22:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>629-1e130e87</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ec2/StartsEC2.java</file>
+    <lines>51-54</lines>
+    <estimate>30</estimate>
+    <body>RegistersShell must register SSH params "host", "port", "login", "key" for ec2 on-demand instance, if this one was successfully started. Successfully start means that these parameters exist in /talk/ec2</body>
+    <role>IMP</role>
+    <author>alevohin</author>
+    <email>alevohin@mail.ru</email>
+    <time>2015-01-18T17:25:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>629-50db40cf</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ec2/StartsEC2.java</file>
+    <lines>55-57</lines>
+    <estimate>30</estimate>
+    <body>Add new instance creation classes for StartsEC2 and StopsEC2 to com.rultor.agents.Agents. StartsEC2 must be invoked before RegistersShell agent. StopsEC2 must be invoked after RemovesShell agent.</body>
+    <role>IMP</role>
+    <author>alevohin</author>
+    <email>alevohin@mail.ru</email>
+    <time>2015-01-18T17:25:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>629-b8fe2cc2</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ec2/StartsEC2.java</file>
+    <lines>58-59</lines>
+    <estimate>30</estimate>
+    <body>Write documentation for configuring ec2 via .rultor.yml at 2014-07-13-reference.md</body>
+    <role>IMP</role>
+    <author>alevohin</author>
+    <email>alevohin@mail.ru</email>
+    <time>2015-01-18T17:25:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1157">1157</issue>
+    <id>748-9cbe7474</id>
+    <ticket>748</ticket>
+    <file>src/main/java/com/rultor/agents/Mails.java</file>
+    <lines>47-53</lines>
+    <estimate>30</estimate>
+    <body>Implement Mails agent. Similar to what we do in CommentsTag we should do here - send an email to all listed addresses. The body of the email should contain similar text to what we create for the tag comment. Postman's parameters are stored in Manifest.MF. We need 4 parameters: Rultor-SMTPHost, Rultor-SMTPPort, Rultor-SMTPUsername, Rultor-SMTPPassword. New instance of Mails must be created at Agents, after CommentsTag.</body>
+    <role>IMP</role>
+    <author>alevohin</author>
+    <email>alevohin@mail.ru</email>
+    <time>2015-01-20T20:41:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1158">1158</issue>
+    <id>748-bb1cb5c5</id>
+    <ticket>748</ticket>
+    <file>src/main/java/com/rultor/agents/Mails.java</file>
+    <lines>54-56</lines>
+    <estimate>30</estimate>
+    <body>Describe in file 2014-07-13-reference.md config parameters for email after release and how it works shortly. Config format described in issue #748.</body>
+    <role>IMP</role>
+    <author>alevohin</author>
+    <email>alevohin@mail.ru</email>
+    <time>2015-01-20T20:41:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1159">1159</issue>
+    <id>748-a3bd319f</id>
+    <ticket>748</ticket>
+    <file>src/test/java/com/rultor/agents/MailsTest.java</file>
+    <lines>95-96</lines>
+    <estimate>30</estimate>
+    <body>Implement method sendsToRecipients. It must check that mail is sent to all recipients. Recipients are defined in Profile.</body>
+    <role>IMP</role>
+    <author>alevohin</author>
+    <email>alevohin@mail.ru</email>
+    <time>2015-01-20T20:41:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1160">1160</issue>
+    <id>662-8cc0c29a</id>
+    <ticket>662</ticket>
+    <file>src/main/java/com/rultor/agents/github/ReleaseBinaries.java</file>
+    <lines>47-49</lines>
+    <estimate>30</estimate>
+    <body>Implement attaching artifacts to release, remove PMD suppression below and enable attachesBinariesToRelease test. Similar functionality exists in CommentsTag so you can look there for clues.</body>
+    <role>IMP</role>
+    <author>krzyk</author>
+    <email>Krzysztof.Krason@sabre.com</email>
+    <time>2015-02-07T22:23:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>567-359f8c66</id>
+    <ticket>567</ticket>
+    <file>src/main/java/com/rultor/agents/daemons/EndsDaemon.java</file>
+    <lines>63-64</lines>
+    <estimate>30</estimate>
+    <body>Refactor this class to use less objects and remove checkstyle exception above.</body>
+    <role>DEV</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2015-09-18T16:02:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1053" closed="2017-10-27T16:34:56+00:00">1053</issue>
+    <id>1018-15a5404e</id>
+    <ticket>1018</ticket>
+    <file>src/test/java/com/rultor/agents/daemons/StartsDaemonITCase.java</file>
+    <lines>121-125</lines>
+    <estimate>30</estimate>
+    <body>Implement a deprecation message at the start and end of the process if the project is using the default image 'yegor256/rultor'. Fix the issue using the xpath available in com.rultor.agents.daemons.StartsDaemon and com.rultor.agents.daemons.EndsDaemon.</body>
+    <role>IMP</role>
+    <author>Sebin George</author>
+    <email>Sebin.George@datacash.com</email>
+    <time>2016-03-10T07:09:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/rultor/issues/1161" closed="2024-02-14T07:08:08+00:00">1161</issue>
+        <id>1053-dc86a5cc</id>
+        <ticket>1053</ticket>
+        <file>src/main/java/com/rultor/agents/daemons/EndsDaemon.java</file>
+        <lines>64-66</lines>
+        <estimate>30</estimate>
+        <body>Reduce the data abstraction coupling of EndsDaemon in order to get rid of the checkstyle suppression of ClassDataAbstractionCouplingCheck</body>
+        <role>IMP</role>
+        <author>Nicolas Filotto</author>
+        <email>nicolas.filotto@gmail.com</email>
+        <time>2016-03-22T23:26:36Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1018-b83a728c</id>
+    <ticket>1018</ticket>
+    <file>src/test/java/com/rultor/agents/daemons/StartsDaemonITCase.java</file>
+    <lines>126-128</lines>
+    <estimate>30</estimate>
+    <body>This test should not check for start and end deprecation messages if when the repo is the actual Rultor repo: https://github.com/yegor256/rultor</body>
+    <role>IMP</role>
+    <author>Sebin George</author>
+    <email>Sebin.George@datacash.com</email>
+    <time>2016-03-11T09:44:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1162">1162</issue>
+    <id>918-89660440</id>
+    <ticket>918</ticket>
+    <file>src/test/java/com/rultor/agents/github/ClosePullRequestTest.java</file>
+    <lines>59-63</lines>
+    <estimate>30</estimate>
+    <body>This class should only close pull requests for successful merges, that have not resulted in GitHub itself closing the PR, do nothing for any other kind of request. Once this is implemented here, implement this class acting on all pull requests by adding it to the active Agents.</body>
+    <role>IMP</role>
+    <author>Viktor Kuchyn</author>
+    <email>kuchin.victor@gmail.com</email>
+    <time>2016-03-11T16:16:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1163">1163</issue>
+    <id>1041-7f83dd26</id>
+    <ticket>1041</ticket>
+    <file>src/main/java/com/rultor/agents/docker/DockerHealthCheck.java</file>
+    <lines>47-50</lines>
+    <estimate>30</estimate>
+    <body>Add DockerHealthCheck to the running SuperAgents. In doing so make sure that Rultor crashes throwing a meaningful exception as soon as DockerHealthCheck#execute throws and exception. #1041 has the details on the motivation behind this agent.</body>
+    <role>IMP</role>
+    <author>Armin Braun</author>
+    <email>armin.b@icanlocalize.com</email>
+    <time>2016-03-11T18:14:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1164">1164</issue>
+    <id>1039-d8a49c64</id>
+    <ticket>1039</ticket>
+    <file>src/main/java/com/rultor/profiles/Profiles.java</file>
+    <lines>108-115</lines>
+    <estimate>30</estimate>
+    <body>Add integration test to be sure that validation exception will eventually be posted as an Answer in GitHub. After you create integration test, add `validated` method call in `fetch` method: `...this.validated(master, this.merged(...`. Modify `merged` method implementation: merged profile is a `.rultor.yml` form result of real `git merge` of master branch and fork branch. We need real `git merge` result here. See some details here: https://github.com/yegor256/rultor/pull/1064/files#r56796959</body>
+    <role>IMP</role>
+    <author>Maksimenko Vladimir</author>
+    <email>xupypr@xupypr.com</email>
+    <time>2016-03-25T23:52:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1055-4f9e2bff</id>
+    <ticket>1055</ticket>
+    <file>pom.xml</file>
+    <lines>777-784</lines>
+    <estimate>30</estimate>
+    <body>build docker image and run sshd container (see src/docker-it/run_docker_sshd.sh), run integration tests (port information located at target/sshd.port, host is predefined) and than tear down container (see src/docker-it/clear_docker_sshd.sh). Need to be configured to run in Travis. Adjust com.rultor.agents.daemons.StartsDaemonITCase#talk to use ssh into the dockerized SSH daemon when the profile docker-tests is active. Add a quick explaination of this test feature to the readme containing what it does and how to run the tests with this profile active.</body>
+    <role>IMP</role>
+    <author>Armin Braun</author>
+    <email>armin.b@icanlocalize.com</email>
+    <time>2016-03-30T18:01:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1165" closed="2022-06-28T04:38:46+00:00">1165</issue>
+    <id>629-3b4a7478</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ecs/Amazon.java</file>
+    <lines>42-45</lines>
+    <estimate>30</estimate>
+    <body>Add implementation for com.rultor.agents.ecs.Amazon. It must create com.amazonaws.services.ecs.AmazonECSClient with config params "credentials", "zone", "type", "key". Method runOnDemand must finally wait for started container and check if start was successful.</body>
+    <role>IMP</role>
+    <author>Maksimenko Vladimir</author>
+    <email>xupypr@xupypr.com</email>
+    <time>2016-04-02T20:11:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1166" closed="2022-06-28T04:38:50+00:00">1166</issue>
+    <id>629-97e18362</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ecs/StartsECS.java</file>
+    <lines>51-53</lines>
+    <estimate>30</estimate>
+    <body>Implement com.rultor.agents.ecs.StopsECS agent. It must stop ECS on-demand container if it was started at StartsECS agent. StopsECS must use container ARN from /talk/ec2/[@id] to stop it.</body>
+    <role>IMP</role>
+    <author>Maksimenko Vladimir</author>
+    <email>xupypr@xupypr.com</email>
+    <time>2016-04-02T20:11:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>629-bf520350</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ecs/StartsECS.java</file>
+    <lines>54-57</lines>
+    <estimate>30</estimate>
+    <body>RegistersShell must register SSH params "host", "port", "login", "key" for ecs on-demand container, if this one was successfully started. Successfully start means that these parameters exist in /talk/ec2</body>
+    <role>IMP</role>
+    <author>alevohin</author>
+    <email>alevohin@mail.ru</email>
+    <time>2015-01-18T17:25:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1167" closed="2022-06-28T04:38:54+00:00">1167</issue>
+    <id>629-efc8aa9c</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ecs/StartsECS.java</file>
+    <lines>58-60</lines>
+    <estimate>30</estimate>
+    <body>Add new container creation classes for StartsECS and StopsECS to com.rultor.agents.Agents. StartsECS must be invoked before RegistersShell agent. StopsECS must be invoked after RemovesShell agent.</body>
+    <role>IMP</role>
+    <author>Maksimenko Vladimir</author>
+    <email>xupypr@xupypr.com</email>
+    <time>2016-04-05T20:20:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1168" closed="2022-06-28T04:38:59+00:00">1168</issue>
+    <id>629-bb1a14ed</id>
+    <ticket>629</ticket>
+    <file>src/main/java/com/rultor/agents/ecs/StartsECS.java</file>
+    <lines>61-64</lines>
+    <estimate>30</estimate>
+    <body>Implement the ability to use Rultor with any AWS account, by providing the credentials to it via the encrypted assets and a respective configuration setting in the .rultor.yml. Document the implementation properly in the Rultor documentation.</body>
+    <role>IMP</role>
+    <author>Maksimenko Vladimir</author>
+    <email>xupypr@xupypr.com</email>
+    <time>2016-04-07T18:09:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1169">1169</issue>
+    <id>1125-c2e86b18</id>
+    <ticket>1125</ticket>
+    <file>src/main/java/com/rultor/Routine.java</file>
+    <lines>59-68</lines>
+    <estimate>30</estimate>
+    <body>Routine should be delegate execution to separate threads. Currently com.rultor.Routine#process() is sequentially processing all Talks and breaking out of this sequential processing to log occurring exceptions. This leads to issues in one build breaking all builds globally. This should be reworked to run the chain of Agents for each talk in a separate thread, not interfering with the main Routine in error cases. Once this is done the swallowing of generic exceptions, added to circumvent this issue, in com.rultor.agents.github.Reports#process(com.jcabi.xml.XML) should be removed.</body>
+    <role>IMP</role>
+    <author>Armin Braun</author>
+    <email>me@obrown.io</email>
+    <time>2016-09-11T12:32:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1232" closed="2022-06-28T04:39:03+00:00">1232</issue>
+    <ticket>629</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>629-ebd8dabe</id>
+    <lines>81-82</lines>
+    <body>Add Container params to Directive, for example publicIpAddress Let's fix this when possible. The ticket will be in GitHub.</body>
+    <file>src/main/java/com/rultor/agents/ecs/StartsECS.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-12-21T12:38:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1303" closed="2025-05-05T18:07:56+00:00">1303</issue>
+    <ticket>1246</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1246-03defb2b</id>
+    <lines>53-56</lines>
+    <body>PR by ARC merge shouldn't require confirmation by ARC. Implement the asked in #1246. The tests have already benn implemented in QnByArchitectTest.acceptsIfMergeArchitectPull. After resolving this issue, uncomment the test.</body>
+    <file>src/main/java/com/rultor/agents/github/qtn/QnByArchitect.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2019-01-19T01:04:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1837">1837</issue>
+    <ticket>1633</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1633-f29541d1</id>
+    <lines>127-134</lines>
+    <body>Replace typedResponse static method with RsFork. The current solution with typedResponse method is crutch, actually. The previous solution with {@link org.takes.facets.fork.RsFork} was broken after the Maven 3.9.0 release. The proper solution would be to fix the original problem in &lt;a href="https://github.com/yegor256/takes"&gt;takes&lt;/a&gt; framework and then to return the correct solution with {@link org.takes.facets.fork.RsFork} back.</body>
+    <file>src/main/java/com/rultor/web/RsPage.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2023-11-17T06:51:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1843" closed="2024-03-18T03:12:47+00:00">1843</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-e3409bbe</id>
+    <lines>188-191</lines>
+    <body>Improve assertion for correct start release request Test should have an assertion, so it is the fastest way to add it. Comments are prohibited in methods by current stylechecker.</body>
+    <file>src/test/java/com/rultor/agents/req/StartsRequestTest.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-02-05T02:32:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/1844" closed="2024-03-18T03:12:49+00:00">1844</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-0304c8cf</id>
+    <lines>232-235</lines>
+    <body>Improve assertion for correct start merge request Test should have an assertion, so it is the fastest way to add it. Comments are prohibited in methods by current stylechecker.</body>
+    <file>src/test/java/com/rultor/agents/req/StartsRequestTest.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-02-05T02:32:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1866">1866</issue>
+    <ticket>1459</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1459-0d69ec2c</id>
+    <lines>196-198</lines>
+    <body>Enable this test after com.jcabi.github.mock.MkPull changed to allow to work with the files in Pull according to https://github.com/jcabi/jcabi-github/issues/1720</body>
+    <file>src/test/java/com/rultor/agents/github/qtn/QnMergeTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-02-08T13:48:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1896">1896</issue>
+    <ticket>1074</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1074-474b2aa9</id>
+    <lines>59-64</lines>
+    <body>Current implementation can answer only for issue and PR comments, mostly because of Issue structure from jcabi-github (id is integer). For now mentions NOT from issue or PR will be ignored. Can be extended if more generic entity will be created to cover commits and may be other types.</body>
+    <file>src/main/java/com/rultor/agents/github/StartsTalks.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-02-21T06:20:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/1918">1918</issue>
+    <ticket>1207</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1207-256f2781</id>
+    <lines>105-108</lines>
+    <body>There is no limit of tail message (only shifting to 100_000 symbols), but TkDaemon has a limit of 100_000 symbols in buffer It is better to have a restriction for the tail length, not about start position.</body>
+    <file>src/main/java/com/rultor/agents/daemons/EndsDaemon.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-03-09T05:36:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/rultor/issues/2155" closed="2026-04-02T07:08:12+00:00">2155</issue>
+    <ticket>1246</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1246-1f929d52</id>
+    <lines>28-31</lines>
+    <body>PR by ARC merge shouldn't require confirmation by ARC. Implement the asked in #1246. The tests have already been implemented in QnByArchitectTest.acceptsIfMergeArchitectPull. After resolving this issue, uncomment the test.</body>
+    <file>src/main/java/com/rultor/agents/github/qtn/QnByArchitect.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-05T18:07:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/rultor/issues/2239">2239</issue>
+    <ticket>570</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>570-0dda1891</id>
+    <lines>316-319</lines>
+    <body>Implement validation using Kwalify library in separate class called ValidYaml, move this method to that class and move tests from GithubProfileValidationTest to ValidYamlTest. Remember about removing PMD suppress below.</body>
+    <file>src/main/java/com/rultor/profiles/GithubProfile.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-23T09:36:45Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

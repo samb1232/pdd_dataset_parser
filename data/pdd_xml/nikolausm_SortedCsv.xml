@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-02-10T21:38:15+00:00" version="0.28.5">
+  <puzzle alive="false">
+    <issue href="https://github.com/nikolausm/SortedCsv/issues/2" closed="2018-02-10T21:38:10+00:00">2</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-de21e079</id>
+    <lines>7-7</lines>
+    <body>Create a line reader that is RFC Conform</body>
+    <file>README.md</file>
+    <author>Michael Nikolaus</author>
+    <email>michaelnikolaus@antoku.speedport.ip</email>
+    <time>2018-02-08T21:16:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nikolausm/SortedCsv/issues/3" closed="2018-02-10T21:38:11+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>1-82111056</id>
+    <lines>11-11</lines>
+    <body>Add some Examples here */</body>
+    <file>SortedCsv/Program.cs</file>
+    <author>Michael Nikolaus</author>
+    <email>michaelnikolaus@antoku.speedport.ip</email>
+    <time>2018-02-08T21:56:12Z</time>
+    <children>
+      <puzzle alive="true">
+        <ticket>3</ticket>
+        <estimate>90</estimate>
+        <role>IMP</role>
+        <id>3-8d2e7206</id>
+        <lines>16-16</lines>
+        <body>First there should only be a stream as Input to read the csv.</body>
+        <file>SortedCsvTests/CsvSorterTest.cs</file>
+        <author>nitr0n</author>
+        <email>nitr0n@gmx.de</email>
+        <time>2018-02-10T21:34:35Z</time>
+        <children/>
+        <issue href="https://github.com/nikolausm/SortedCsv/issues/6">6</issue>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/nikolausm/SortedCsv/issues/4">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-ef7afbe3</id>
+    <lines>55-55</lines>
+    <body>clean up the unnecessary parameter here */</body>
+    <file>SortedCsv/SortedCsv.cs</file>
+    <author>Michael Nikolaus</author>
+    <email>michaelnikolaus@antoku.speedport.ip</email>
+    <time>2018-02-08T23:04:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/nikolausm/SortedCsv/issues/5">5</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-462553c6</id>
+    <lines>75-75</lines>
+    <body>Clarify how to use SaveToFile makes sense */</body>
+    <file>SortedCsv/SortedCsv.cs</file>
+    <author>Michael Nikolaus</author>
+    <email>michaelnikolaus@antoku.speedport.ip</email>
+    <time>2018-02-08T23:04:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>IMP</role>
+    <id>1-ea5d6671</id>
+    <lines>67-67</lines>
+    <body>Create possibility for doublequotes escapes</body>
+    <file>SortedCsvTests/CsvSorterTest.cs</file>
+    <author>nitr0n</author>
+    <email>nitr0n@gmx.de</email>
+    <time>2018-02-10T21:38:00Z</time>
+    <children/>
+    <issue href="https://github.com/nikolausm/SortedCsv/issues/7">7</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>1-17764dd6</id>
+    <lines>92-92</lines>
+    <body>Move this to an extra file an clean up the old mess.</body>
+    <file>SortedCsvTests/CsvSorterTest.cs</file>
+    <author>nitr0n</author>
+    <email>nitr0n@gmx.de</email>
+    <time>2018-02-10T21:34:35Z</time>
+    <children/>
+    <issue href="https://github.com/nikolausm/SortedCsv/issues/8">8</issue>
+  </puzzle>
+</puzzles>

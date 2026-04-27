@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-07-01T08:25:56+00:00" version="0.31.9">
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/volpi-qa/issues/156" closed="2023-07-01T08:25:46+00:00">156</issue>
+    <ticket>130</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>130-fe4a5496</id>
+    <lines>116-117</lines>
+    <body>Send email notification. Send a notification to the user after adding a answer.</body>
+    <file>qa-admin/src/main/java/ru/volpi/qaadmin/service/impl/QuestionServiceImpl.java</file>
+    <author>@ivanchuk</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-06-30T19:52:48Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/l3r8yJ/volpi-qa/issues/160">160</issue>
+        <ticket>156</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>156-dba1fe65</id>
+        <lines>1-2</lines>
+        <body>Add smtp server config Add smtp configuration</body>
+        <file>qa-admin/src/main/resources/application.yaml</file>
+        <author>@ivanchuk</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2023-07-01T08:25:37Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

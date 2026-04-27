@@ -1,0 +1,548 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-12-16T09:10:05+00:00" version="0.30.22">
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/18" closed="2020-06-06T11:36:10+00:00">18</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-b17a9443</id>
+    <lines>44-45</lines>
+    <body>Continue implementing and writing integration tests for SelfProject's methods.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfProjects.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-31T16:38:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/22" closed="2020-06-03T06:54:56+00:00">22</issue>
+    <ticket>16</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>16-777dcf46</id>
+    <lines>45-48</lines>
+    <body>When User api has `accessToken`, update `signUp` to be able to insert the token into db, check if user has updated their `accessToken` and then update the db. Test the logic.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfUsers.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-05-31T17:53:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/23" closed="2020-06-02T15:20:11+00:00">23</issue>
+    <ticket>19</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>19-8f27574b</id>
+    <lines>41-42</lines>
+    <body>Continue implementing and writing integration tests for SelfPms's methods.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfPms.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-31T17:35:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/26" closed="2020-06-03T11:30:32+00:00">26</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-7df03c6b</id>
+    <lines>38-39</lines>
+    <body>Implement a paging mechanism in `ProjectManager#iterator()`. Right now we just fetching first 100 records.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfPms.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-06-02T15:02:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/29" closed="2020-06-05T13:07:30+00:00">29</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-08fba80a</id>
+    <lines>44-46</lines>
+    <body>Refactor {@link PagedIterator} into its on file and test it. This way it could be used by other iterables that might need paging (i.e. {@link SelfUsers}).</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfPms.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-06-03T08:37:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/35" closed="2020-06-13T09:19:02+00:00">35</issue>
+    <ticket>32</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>32-3e43523b</id>
+    <lines>50-51</lines>
+    <body>Continue implementing and writing integration tests for the methods of SelfContracts.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfContracts.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-06T07:10:22Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-storage/issues/57" closed="2020-06-13T15:18:12+00:00">57</issue>
+        <ticket>35</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>35-f6b41904</id>
+        <lines>53-55</lines>
+        <body>Continue implementing and writing integration tests for the methods of SelfContracts. Methods findByID and iterator, already implemented.</body>
+        <file>src/main/java/com/selfxdsd/storage/SelfContracts.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-06-13T09:12:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/39" closed="2020-06-07T07:07:48+00:00">39</issue>
+    <ticket>37</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>37-c50de248</id>
+    <lines>37-38</lines>
+    <body>Continue implementing and writing integration tests for the methods of SelfTasks.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfTasks.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-06T14:21:55Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-storage/issues/41" closed="2020-06-09T10:26:19+00:00">41</issue>
+        <ticket>39</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>39-04a87e7a</id>
+        <lines>46-47</lines>
+        <body>Continue implementing and writing integration tests for the methods of SelfTasks. Method getById already implemented.</body>
+        <file>src/main/java/com/selfxdsd/storage/SelfTasks.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-06-07T07:03:56Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-storage/issues/48" closed="2020-06-11T11:24:24+00:00">48</issue>
+            <ticket>41</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>41-c160e1b4</id>
+            <lines>54-56</lines>
+            <body>Continue implementing and writing integration tests for the methods of SelfTasks. Methods getById, ofProject and ofContributor are already implemented.</body>
+            <file>src/main/java/com/selfxdsd/storage/SelfTasks.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-06-09T07:04:38Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-storage/issues/53" closed="2020-06-12T15:34:32+00:00">53</issue>
+                <ticket>48</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>48-c18e9dd2</id>
+                <lines>54-56</lines>
+                <body>Continue implementing and writing integration tests for the methods of SelfTasks. Methods getById, register ofProject and ofContributor are already implemented.</body>
+                <file>src/main/java/com/selfxdsd/storage/SelfTasks.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-06-11T10:46:29Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/62" closed="2020-06-14T14:19:26+00:00">62</issue>
+    <ticket>60</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>60-64dfce6e</id>
+    <lines>56-57</lines>
+    <body>Implement and write integration tests for method SelfTasks.ofContract(...).</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfTasks.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-14T09:37:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/69" closed="2020-07-13T09:09:11+00:00">69</issue>
+    <ticket>66</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>66-19579a6a</id>
+    <lines>33-34</lines>
+    <body>Implement and write integration tests for the Invoices and InvoicedTask infrastructure.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfJooq.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-12T16:51:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-storage/issues/72" closed="2020-07-17T18:16:29+00:00">72</issue>
+        <ticket>69</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>69-899ff248</id>
+        <lines>33-35</lines>
+        <body>Implement and write integration tests for the InvoicedTasks infrastructure. After that is finished, we should also implement SelfInvoices.ofContract(...).</body>
+        <file>src/main/java/com/selfxdsd/storage/SelfJooq.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-07-13T08:54:08Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-storage/issues/75" closed="2020-07-18T13:34:17+00:00">75</issue>
+            <ticket>72</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>72-672aa1c4</id>
+            <lines>43-45</lines>
+            <body>Implement and test method ofInvoice here. After that is finished, we should also implement SelfInvoices.ofContract(...).</body>
+            <file>src/main/java/com/selfxdsd/storage/SelfInvoicedTasks.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2020-07-17T18:14:34Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-storage/issues/77" closed="2020-07-18T14:49:28+00:00">77</issue>
+                <ticket>75</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>75-e1397762</id>
+                <lines>53-55</lines>
+                <body>Both Task and InvoicedTask should save the task's estimation in the DB table. At the moment estimation is only given in StoredTask's constructor, but it is not processed further.</body>
+                <file>src/main/java/com/selfxdsd/storage/SelfTasks.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-07-18T13:19:14Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-storage/issues/78" closed="2020-07-26T11:09:31+00:00">78</issue>
+                <ticket>75</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>75-4081f86b</id>
+                <lines>40-41</lines>
+                <body>Implement and write integration tests for method ofContract(...) in this class.</body>
+                <file>src/main/java/com/selfxdsd/storage/SelfInvoices.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-07-18T13:05:44Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-storage/issues/79" closed="2020-07-26T17:10:29+00:00">79</issue>
+                <ticket>75</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>75-c722ebd5</id>
+                <lines>154-156</lines>
+                <body>At the moment, the Contract is read for each InvoicedTask. Instead, we should take the Contract from the Invoice. This way, we will read the Contract only once, instead of n times.</body>
+                <file>src/main/java/com/selfxdsd/storage/SelfInvoicedTasks.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-07-18T13:05:44Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/self-xdsd/self-storage/issues/92" closed="2020-12-16T09:10:05+00:00">92</issue>
+                    <ticket>79</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>79-23906afa</id>
+                    <lines>95-97</lines>
+                    <body>Modify the test bellow to work solely with real data from the test H2 database. It should not require any mocking at all.</body>
+                    <file>src/test/java/com/selfxdsd/storage/SelfInvoicedTasksITCase.java</file>
+                    <author>@amihaiemil</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2020-07-26T17:00:43Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/98" closed="2020-08-14T09:10:56+00:00">98</issue>
+    <ticket>96</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>96-fd6eeea3</id>
+    <lines>50-51</lines>
+    <body>Check and fix the usage of PagedIterator. I'm not sure it's needed anymore, with the new Paging mechanism.g</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfProjects.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-10T12:23:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/112" closed="2020-08-26T06:34:12+00:00">112</issue>
+    <ticket>110</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>110-67f39885</id>
+    <lines>355-359</lines>
+    <body>Unignore this test once we have method Task.issueId(). Then, we will be able to access the task's issueId without having to call the Provider inside SelfTasks.assign (the provider's API is called when method Task.issue() is used). This is being done in self-xdsd/self-core#437.</body>
+    <file>src/test/java/com/selfxdsd/storage/SelfTasksITCase.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-18T11:54:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/115" closed="2020-08-29T06:17:15+00:00">115</issue>
+    <ticket>113</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>113-db28dc75</id>
+    <lines>56-57</lines>
+    <body>Implement methods unassign and remove here. Don't forget about integration tests.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfTasks.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-25T16:03:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-storage/issues/125" closed="2020-08-29T07:28:43+00:00">125</issue>
+        <ticket>115</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>115-190f74a5</id>
+        <lines>56-57</lines>
+        <body>Implement method remove here. Don't forget about integration tests.</body>
+        <file>src/main/java/com/selfxdsd/storage/SelfTasks.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-29T06:11:56Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/116" closed="2020-08-27T07:55:10+00:00">116</issue>
+    <ticket>113</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>113-bfd58bbd</id>
+    <lines>45-46</lines>
+    <body>Implement paging mechanism for SelfContributors and EmptyContributors. Don't forget about integration tests.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfContributors.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-25T16:03:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/129" closed="2020-08-31T12:32:14+00:00">129</issue>
+    <ticket>127</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>127-5f093413</id>
+    <lines>33-34</lines>
+    <body>Implement SelfResignations and write integration tests for it.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfJooq.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-31T10:48:04Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-storage/issues/133" closed="2020-09-04T07:35:13+00:00">133</issue>
+        <ticket>129</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>129-efb5592e</id>
+        <lines>37-38</lines>
+        <body>Implement the methods of this class using JOOQ and write integration tests for them.</body>
+        <file>src/main/java/com/selfxdsd/storage/SelfResignations.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-31T12:17:42Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/130" closed="2020-09-01T07:14:29+00:00">130</issue>
+    <ticket>127</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>127-52b5da27</id>
+    <lines>35-36</lines>
+    <body>Implement SelfWallets and write integration tests for it.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfJooq.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-31T10:48:04Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-storage/issues/135" closed="2020-09-02T09:51:12+00:00">135</issue>
+        <ticket>130</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>130-bfca37f3</id>
+        <lines>38-39</lines>
+        <body>Implement the methods of SelfWallets class using JOOQ and write integration tests for them.</body>
+        <file>src/main/java/com/selfxdsd/storage/SelfWallets.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-09-01T07:14:12Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-storage/issues/137" closed="2020-10-17T09:54:10+00:00">137</issue>
+            <ticket>135</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>135-9e29f746</id>
+            <lines>42-45</lines>
+            <body>Once we have other types of Wallet (e.g. StripeWallet), modify the method walletFromRecord to build the wallet accordingly. Method register(...) should then also be adapted to support other wallet types.</body>
+            <file>src/main/java/com/selfxdsd/storage/SelfWallets.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-09-02T08:10:37Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/146" closed="2020-09-11T11:30:12+00:00">146</issue>
+    <ticket>144</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>144-03faa42d</id>
+    <lines>33-35</lines>
+    <body>Implement SelfPayoutMethods which will represent all the payout methods in Self. Don't forget about the integration tests.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfJooq.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-10T19:49:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/154" closed="2020-10-05T08:13:14+00:00">154</issue>
+    <ticket>151</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>151-3db732a6</id>
+    <lines>46-47</lines>
+    <body>Implement method #ofProvider(String) from this class and write integration tests for it.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfContributors.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-02T14:42:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/162" closed="2020-10-18T13:02:00+00:00">162</issue>
+    <ticket>160</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>160-754150d0</id>
+    <lines>44-46</lines>
+    <body>Implement and test method updateCash(...) here. We should only allow cash update for the Stripe wallets. The Fake wallets' cash should never be updated.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfWallets.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-17T09:43:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/163" closed="2020-10-17T11:47:58+00:00">163</issue>
+    <ticket>160</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>160-1911f9eb</id>
+    <lines>33-35</lines>
+    <body>Implement and write unit tests for a wallets' PaymentMethods. It should follow the same pattern as other entities (SelfPaymentMethods with IT tests etc).</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfJooq.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-17T09:43:55Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-storage/issues/165" closed="2020-10-18T12:21:49+00:00">165</issue>
+        <ticket>163</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>163-4c2bfb7b</id>
+        <lines>47-48</lines>
+        <body>Continue implementing the methods of this class. Don't forget about integration tests.</body>
+        <file>src/main/java/com/selfxdsd/storage/SelfPaymentMethods.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-10-17T11:43:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/172" closed="2020-10-29T12:53:48+00:00">172</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-73ef265d</id>
+    <lines>56-57</lines>
+    <body>Provide implementation and integration tests for method update(Contract, hourlyRate) here.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfContracts.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-26T19:54:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/173" closed="2020-10-29T09:08:02+00:00">173</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-eaee7450</id>
+    <lines>58-59</lines>
+    <body>Provide implementation and integration tests for method markForRemoval(Contract, time) here.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfContracts.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-26T19:54:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/174" closed="2020-10-29T09:08:06+00:00">174</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-ebebb91c</id>
+    <lines>60-62</lines>
+    <body>Make sure to also read the markedForRemoval timestamp when reading a Contract here, in SelfContributors and in SelfTasks. At the moment, null is passed for that attribute always.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfContracts.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-26T19:54:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-storage/issues/193" closed="2020-12-08T18:03:40+00:00">193</issue>
+    <ticket>191</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>191-767049f5</id>
+    <lines>48-49</lines>
+    <body>Implement method remove(Project) from this class and write some integration tests for it.</body>
+    <file>src/main/java/com/selfxdsd/storage/SelfProjects.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-12-08T08:46:42Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

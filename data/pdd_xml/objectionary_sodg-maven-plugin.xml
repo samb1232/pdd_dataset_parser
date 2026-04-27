@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-10-15T14:10:51+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/2" closed="2025-04-01T08:00:33+00:00">2</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-28ea9c5c</id>
+    <lines>35-38</lines>
+    <body>Refactor {@link Sodg} class to make it more readable. Currently we have a lot of code offences in this class. For example, long variable names, compiste methods, many params in the constructor, etc. We need to fix all of them. Don't forget to remove Checkstyle and PMD suppressions.</body>
+    <file>src/main/java/org/eolang/sodg/Sodg.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-03-28T10:09:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/3" closed="2025-04-01T08:00:36+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-9b0a7ab0</id>
+    <lines>34-36</lines>
+    <body>Enable the Sodg packs. The next Sodg packs were disabled when we got rid of "abstract" attribute in XMIR: copy-of-abstract, copy-of-argument, dot-on-ref, nested-anonymous, rho, vars. We need to enable them and make sure they pass.</body>
+    <file>src/test/java/org/eolang/sodg/MjSodgTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-03-28T10:09:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/4" closed="2025-07-15T09:06:18+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-de0949ce</id>
+    <lines>37-39</lines>
+    <body>Enable the test {@link MjSodgTest#transformsThroughSheets}. The test was disabled when we got rid of "abstract" attribute in XMIR. We need to enable the test and make sure it works correctly.</body>
+    <file>src/test/java/org/eolang/sodg/MjSodgTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-03-28T10:09:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/5" closed="2025-04-01T08:00:38+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-099d22ca</id>
+    <lines>114-117</lines>
+    <body>Implement `toGraph` method. The method is not implemented yet. When it's ready, enable the test {@link MjSodgTest#convertsToGraph} and {@link MjSodgTest#generatesSodgForPacks}. The method should convert the EO source code to a graph in XML format.</body>
+    <file>src/test/java/org/eolang/sodg/MjSodgTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-03-28T10:09:23Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/8">8</issue>
+        <ticket>5</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>5-f954f849</id>
+        <lines>28-32</lines>
+        <body>Enable all the {@link Sodg} tests. Currently they are disabled because the SODG generation is outdated. We need to update the SODG generation and enable the tests. Also, you might need to use {@link #inclusion(Xtory)} method to get the correct inclusion for the {@link #generatesSodgForPacks(String)} test.</body>
+        <file>src/test/java/org/eolang/sodg/SodgTest.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2025-04-01T08:00:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/6">6</issue>
+    <ticket>4036</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>4036-7af26ccb</id>
+    <lines>4-7</lines>
+    <body>Repair 'inclusions' test for Sodg. We disabled this test because it was failing due new bytes representation with one extra abstract object. We need to fix the transformation and re-enable this test.</body>
+    <file>src/test/resources/org/eolang/maven/sodgs/inclusions.yaml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-03-28T10:09:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/9" closed="2025-10-03T10:03:07+00:00">9</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-f28c8a93</id>
+    <lines>35-38</lines>
+    <body>Refactor {@link SodgFiles} class to make it more readable. Currently we have a lot of code offences in this class. For example, long variable names, compiste methods, many params in the constructor, etc. We need to fix all of them. Don't forget to remove Checkstyle and PMD suppressions.</body>
+    <file>src/main/java/org/eolang/sodg/SodgFiles.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-04-01T08:00:01Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/102">102</issue>
+        <ticket>9</ticket>
+        <estimate>35</estimate>
+        <role>DEV</role>
+        <id>9-b46ddcfe</id>
+        <lines>20-22</lines>
+        <body>Add unit tests for `Depot`. We should test the trains inside of it, and method `train()`, that supposed to return proper train by it's name. Don't forget to remove this puzzle.</body>
+        <file>src/main/java/org/eolang/sodg/Depot.java</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2025-10-03T10:03:02Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/103">103</issue>
+        <ticket>9</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>9-4efddc18</id>
+        <lines>18-20</lines>
+        <body>Create unit tests for SodgFiles. For now there are no test for SODG file generation logic. Let's introduce them, to make our refactorings safer and faster. Don't forget to remove this puzzle.</body>
+        <file>src/main/java/org/eolang/sodg/SodgFiles.java</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2025-10-03T10:03:02Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/104">104</issue>
+        <ticket>9</ticket>
+        <estimate>45</estimate>
+        <role>DEV</role>
+        <id>9-d3f06c51</id>
+        <lines>26-28</lines>
+        <body>Add more tests for `SodgInstructions#textInstructions()` method. The method not only computes the number, but also performs XMIR-to-SODG transformations, and leaves footprint on the system. Would be nice to test as much as we can.</body>
+        <file>src/test/java/org/eolang/sodg/SodgInstructionsTest.java</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2025-10-03T10:03:02Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/14">14</issue>
+    <ticket>11</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>11-7764d789</id>
+    <lines>69-75</lines>
+    <body>Enable 'graph' and 'dot' files generation In order to generate 'graph' and 'dot' files, we need to enable 'generateGraphFiles' and 'generateDotFiles' options in the 'sodg-maven-plugin' configuration (right below:) &lt;generateGraphFiles&gt;true&lt;/generateGraphFiles&gt; &lt;generateDotFiles&gt;true&lt;/generateDotFiles&gt; Currently, if we enable them, the plugin fails.</body>
+    <file>src/it/generates-sodg-files/pom.xml</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2025-04-14T15:10:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/15" closed="2025-09-12T12:15:12+00:00">15</issue>
+    <ticket>11</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>11-3d208ed1</id>
+    <lines>41-52</lines>
+    <body>Complete SODG file generation. We removed the following transformations from this train: "/org/eolang/maven/sodg/bind-sigma.xsl", "/org/eolang/maven/sodg/bind-rho.xsl", "/org/eolang/maven/sodg/pi-copies.xsl", "/org/eolang/maven/sodg/epsilon-bindings.xsl", "/org/eolang/maven/sodg/connect-dots.xsl", "/org/eolang/maven/sodg/put-data.xsl", "/org/eolang/maven/sodg/put-atoms.xsl" This was done intentionally to avoid failures in the code. The code fails, because the transformation is too outdated. We need to update transformations and finish SODG generation.</body>
+    <file>src/main/java/org/eolang/sodg/TrSodg.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2025-04-14T15:10:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/48" closed="2025-09-12T12:15:14+00:00">48</issue>
+    <ticket>46</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>46-b7c294df</id>
+    <lines>48-52</lines>
+    <body>Create integration tests for full TrSodg. Currently, we have only the unit tests in the sodg-packs, that check sheets application in the isolation only. We should create more integration test in order to check the integrity of the final results, with all sheets. Seems that {@link TrSodgTest} is the best place to keep such tests.</body>
+    <file>src/main/java/org/eolang/sodg/TrSodg.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-07-11T14:53:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/81" closed="2025-10-15T14:10:51+00:00">81</issue>
+    <ticket>76</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>76-7320f93a</id>
+    <lines>10-13</lines>
+    <body>Update translation of new instruction format to Xembly. Currently it's outdated, let's update Xembly generation according to new format. Test packs for this functionality should be located in the `org/eolang/maven/sodg/sodg-format`. Don't forget to add `generateXemblyFiles=true` in invoker integration test and remove this puzzle.</body>
+    <file>src/it/generates-sodg-files/verify.groovy</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-09-12T11:43:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/82" closed="2025-10-05T05:33:48+00:00">82</issue>
+    <ticket>76</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>76-ccb164cd</id>
+    <lines>17-20</lines>
+    <body>Implement `lambda(o, name)` instruction. For now we are not handling lambda asset of the object. We should introduce new instruction: `lambda(o, name)` - that would set lambda-asset to particular object. Don't forget to add new test pack and remove this puzzle.</body>
+    <file>src/main/resources/org/eolang/maven/sodg/to-sodg.xsl</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-09-12T11:43:05Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/sodg-maven-plugin/issues/113" closed="2025-10-07T07:22:30+00:00">113</issue>
+        <ticket>82</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>82-a1b3f443</id>
+        <lines>5-8</lines>
+        <body>Enable `nested-with-lambda` test pack after nested `formation()` instructions will be fixed. Now test is red, since `formation()` instruction works only for root formation `foo`. It should for all formations. Besides that, collection of object names under formation should go deeper for all abstract objects.</body>
+        <file>src/test/resources/org/eolang/maven/sodg/sodg-packs/nested-with-lambda.yaml</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2025-10-05T05:33:44Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

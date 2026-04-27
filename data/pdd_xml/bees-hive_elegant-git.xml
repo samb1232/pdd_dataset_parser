@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-12-01T16:16:53+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/bees-hive/elegant-git/issues/117" closed="2019-06-06T14:20:21+00:00">117</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-dbf97594</id>
+    <lines>64-64</lines>
+    <body>Add usage message if mandatory argument is not set for `git-elegant configure`.</body>
+    <file>src/main/git-elegant-configure</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2018-05-11T19:33:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bees-hive/elegant-git/issues/118" closed="2019-09-12T08:47:43+00:00">118</issue>
+    <ticket>6</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>6-8bd69a57</id>
+    <lines>90-90</lines>
+    <body>Describe usage of git elegant</body>
+    <file>src/main/git-elegant</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2018-05-11T19:33:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bees-hive/elegant-git/issues/146" closed="2019-12-01T16:16:53+00:00">146</issue>
+    <ticket>137</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>137-b582b6a4</id>
+    <lines>11-16</lines>
+    <body>Alternative flows of `accept-work` If this command is executed with `${WORK_BRANCH}` and 1. `git rebase` is in progress, it has to run `git rebase --continue` prior working with `${MASTER}` branch. 2. `git rebase` is completed (history of `${WORK_BRANCH}` and `${RMASTER}` are different), just work with `${MASTER}` branch.</body>
+    <file>libexec/git-elegant-accept-work</file>
+    <author>@extsoft</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2019-07-21T19:17:51Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

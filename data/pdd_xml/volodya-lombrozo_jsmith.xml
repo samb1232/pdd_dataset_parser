@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-04-23T15:04:48+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/2" closed="2023-11-28T16:34:12+00:00">2</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-048d7f81</id>
+    <lines>5-7</lines>
+    <body>Create Library Skeleton. Currently it's just an empty project, we have to create a simple skeleton and then publish the first version into maven central.</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/App.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-11-28T15:26:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/83">83</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-23f164a0</id>
+    <lines>243-246</lines>
+    <body>Set All The Jacoco Limits To 80% Currently we have rather low limits for Jacoco coverage. We need to set them to 80%. To do so, we need to add much more tests to the project.</body>
+    <file>pom.xml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-11T15:20:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/84" closed="2024-12-18T10:23:46+00:00">84</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-4cb9b858</id>
+    <lines>136-139</lines>
+    <body>Make it separate class. We use this method in different places. It should be a separate class. Moreover, it's better to add some tests for it.</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/Literal.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-11T15:20:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/85">85</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-4218ade7</id>
+    <lines>32-36</lines>
+    <body>Do we need the 'Negatable' interface? We use many 'instance of' checks to determine if the element is negatable. Maybe we should use the visitor pattern instead? Or something else? Current implementation produces many 'instance of' checks, which is not a good practice.</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/Negatable.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-11T15:20:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/86" closed="2025-02-24T08:00:44+00:00">86</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-aaa24586</id>
+    <lines>39-41</lines>
+    <body>Add more test cases for rule ref. Currently, we handle only the case when the rule reference is a simple string. We need to add more test cases to cover the cases with argActionBlock and elementOptions.</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/Ruleref.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-11T15:20:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/87">87</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-425fcfce</id>
+    <lines>31-34</lines>
+    <body>We use Suffix interface for rules that can produce multipliers. Actually by adding this interface I added many 'instance of' instructions. This is a bad practice. We need to refactor this code to avoid using 'instance of'. Maybe it will require to refactor the whole rule hierarchy.</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/Suffix.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-11T15:20:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/88">88</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-83e1946f</id>
+    <lines>39-42</lines>
+    <body>Implement all the rules that inherit from Unimplemented class. The Unimplemented class was created to speed up the development process. All the rules that implement this class should be implemented. When all the rules are implemented, this class should be removed.</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/Unimplemented.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-11T15:20:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/89" closed="2024-12-23T09:01:19+00:00">89</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-479a663f</id>
+    <lines>60-64</lines>
+    <body>Make SyntaxGuard cleaner. SyntaxGuard is too complex and uses java compiler to check the syntax of the code. We should find a way to verify the code without using compiler and any other dirty techniques as java reflection api. Also it would be nice to simplify the code and make it more readable. The starting point: &lt;a href="https://stackoverflow.com/questions/5762067/in-antlr-3-how-do-i-generate-a-lexer-and-parser-at-runtime-instead-of-ahead-o"&gt;here.&lt;/a&gt;</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/guard/SyntaxGuard.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-11T15:20:38Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/volodya-lombrozo/jsmith/issues/112">112</issue>
+        <ticket>89</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>89-089dd6b5</id>
+        <lines>160-163</lines>
+        <body>This method is overcomplicated because it uses ANTLR Tool. The Tool can only create Parser and Lexer classes as Java files on the disk. If it is possible to create Parser and Lexer classes in memory, we should do it. But for now, it's not possible, so we need to save generated classes to the disk.</body>
+        <file>src/main/java/com/github/lombrozo/jsmith/guard/SyntaxGuard.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-12-23T08:44:21Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/90">90</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-e51ae60c</id>
+    <lines>53-62</lines>
+    <body>Add XML Grammar Verification Currently this grammar is disabled because we don't know what to do with skipped tokens like spaces and new lines. If we use space as a separator, we will have a lot of false positives. We need to find a way to verify XML grammar. To add the grammar use this code: Arguments.of(Arrays.asList( "grammars/separated/XMLLexer.g4", "grammars/separated/XMLParser.g4" ), "document")</body>
+    <file>src/test/java/com/github/lombrozo/jsmith/it/SyntaxGenerationIT.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-11T15:20:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/97">97</issue>
+    <ticket>92</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>92-28a2da70</id>
+    <lines>34-43</lines>
+    <body>Inefficient implementation of the SeveralAttempts class. We might spend a lot of time trying to generate output. We need to implement a more efficient way to generate output. For example, if the following production is incorrect: {@code assignment : /* $jsmith-var-target / leftHandSide'='simplifiedExpression ; } It will try all the 10 times. And we need tests for this class!</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/SeveralAttempts.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-11-29T08:59:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/98" closed="2024-12-09T11:03:12+00:00">98</issue>
+    <ticket>92</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>92-0494ca38</id>
+    <lines>98-101</lines>
+    <body>The loop in SeveralAttempts.choose() method is wrong. Take a look on the last generation attempt. It might be successful, but we don't return it. We need to fix this issue. Don't forget to add tests for this case.</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/SeveralAttempts.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-11-29T08:59:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/99" closed="2024-12-11T15:34:11+00:00">99</issue>
+    <ticket>92</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>92-86892002</id>
+    <lines>36-40</lines>
+    <body>Move Variable to Context. Currently we use this class in the context of the generation tree building. We should move this class to the Context class, as it is used only during generation. After moving the class, we should update all the references to it. Moreover, we have strange behavior with cache which is rather confusing.</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/semantic/Variables.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-11-29T08:59:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/volodya-lombrozo/jsmith/issues/105" closed="2024-12-17T14:09:34+00:00">105</issue>
+        <ticket>99</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>99-3d25a3b2</id>
+        <lines>33-35</lines>
+        <body>Make the Attributes class immutable. All methods should return a new instance of the class with the new attribute. The current implementation is mutable and it can lead to bugs.</body>
+        <file>src/main/java/com/github/lombrozo/jsmith/antlr/Attributes.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-12-11T15:19:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/volodya-lombrozo/jsmith/issues/106" closed="2024-12-13T13:44:49+00:00">106</issue>
+        <ticket>99</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>99-949b2de1</id>
+        <lines>36-40</lines>
+        <body>Implement Hight Level Machine For Traversing Rules. Implement a high-level machine that will traverse the rules and apply correct context to them. Currently we are required to add classes like {@link LeftToRight} to traverse the rules. This is not a good approach and we need to implement a high-level machine that will do this. This should simplify the code and make it more readable.</body>
+        <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/LeftToRight.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-12-11T15:19:59Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/100">100</issue>
+    <ticket>92</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>92-ac2dc9d9</id>
+    <lines>66-68</lines>
+    <body>Convergence factor doesn't affect the generated source code. Actually if we change the convergence factor, the generated source code size should be different. We need to find the reason why it doesn't work and fix it.</body>
+    <file>src/test/java/com/github/lombrozo/jsmith/RandomJavaClassTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-11-29T08:59:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/124">124</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-38d67ab3</id>
+    <lines>285-288</lines>
+    <body>Classes are generated with only one constructor. Currently, generating multiple constructors can cause a problem where a constructor with the same signature is generated several times. We need to make sure that only unique constructors with different numbers of parameters are generated.</body>
+    <file>src/main/resources/grammars/Java8ReducedParser.g4</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2025-01-29T07:37:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jsmith/issues/173" closed="2025-04-23T15:04:48+00:00">173</issue>
+    <ticket>150</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>150-945aa3f5</id>
+    <lines>42-44</lines>
+    <body>We have a lot of repeated checks in append methods. It's better to create class for this type of checks. Something like {@code new Allowed("lexerCommand", "RARROW", "COMMA").check(this);}</body>
+    <file>src/main/java/com/github/lombrozo/jsmith/antlr/rules/LexerCommands.java</file>
+    <author>@RechnoyBobr</author>
+    <email>90569592+RechnoyBobr@users.noreply.github.com</email>
+    <time>2025-04-18T19:26:33Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

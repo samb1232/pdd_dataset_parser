@@ -1,0 +1,3184 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2026-04-09T14:23:41+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/9" closed="2023-08-01T15:50:40+00:00">9</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-a230f91c</id>
+    <lines>35-38</lines>
+    <body>Add logging for the plugin entry point. The plugin should log the entry point of the plugin. Maybe it should log the list of already compiled classes. When it will be done, remove that puzzle.</body>
+    <file>src/main/java/org/eolang/jeo/JeoMojo.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-07-31T15:52:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/13" closed="2023-08-08T16:01:14+00:00">13</issue>
+        <ticket>9</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>9-82e8ae6f</id>
+        <lines>45-50</lines>
+        <body>Implement the optimization skeleton. The optimization skeleton should be implemented without details. Just a sketch. The skeleton should contain the next steps: - Transpile all bytecode files to the eolang files (XMIR I guess). - Invoke some XMIR optimizations (dummy for now). - Transpile all XMIR files back to the bytecode.</body>
+        <file>src/main/java/org/eolang/jeo/JeoMojo.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-08-01T15:25:38Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/23" closed="2023-09-15T13:08:37+00:00">23</issue>
+            <ticket>13</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>13-0aa69d09</id>
+            <lines>33-37</lines>
+            <body>Add unit tests for BoostLogged class. The unit tests should cover the next cases: - The BoostLogged class should log all IRs passed to it. - The BoostLogged class should return the same IRs as it gets. When the unit tests are ready, remove that puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/BoostLogged.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-08-08T15:50:48Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/24" closed="2023-09-04T15:03:10+00:00">24</issue>
+            <ticket>13</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>13-934f8528</id>
+            <lines>39-46</lines>
+            <body>Add unit tests for Optimization class. The unit tests should cover the next cases: - The classes directory is empty. - The classes directory does not exist. - The classes directory has some clases. - The classes directory has some classes and some subdirectories. - The classes directory has some classes and some garbage. When the unit tests are ready, remove that puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/Optimization.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-08-08T15:50:48Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/44" closed="2023-09-18T13:28:37+00:00">44</issue>
+                <ticket>24</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>24-de0dc79c</id>
+                <lines>42-49</lines>
+                <body>Add unit tests for Optimization class. We still have to add the next unit tests: - The classes directory is empty. - The classes directory does not exist. - The classes directory has some clases. - The classes directory has some classes and some subdirectories. - The classes directory has some classes and some garbage. When the unit tests are ready, remove that puzzle.</body>
+                <file>src/test/java/org/eolang/jeo/OptimizationTest.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-09-04T14:21:25Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/25" closed="2023-09-08T12:37:59+00:00">25</issue>
+            <ticket>13</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>13-89551792</id>
+            <lines>47-50</lines>
+            <body>Implement back transformation to bytecode. The Optimization class should transform the IRs back to bytecode. When the back transformation is ready, remove that puzzle. Don't forget to add unit tests for the back transformation.</body>
+            <file>src/main/java/org/eolang/jeo/Optimization.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-08-08T15:50:48Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/26" closed="2023-08-17T16:41:46+00:00">26</issue>
+            <ticket>13</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>13-f243b827</id>
+            <lines>33-38</lines>
+            <body>Implement BytecodeIR class. The class should implement IR interface and represent a class file. It should be able to read the class file and provide access to its bytecode. Also we have to define methods which we need from IR to provide future optimizations. When the class is ready, just remove that puzzle. Also remove SuppressWarnings annotation from the class.</body>
+            <file>src/main/java/org/eolang/jeo/BytecodeIR.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-08-08T15:50:48Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/30" closed="2023-08-18T15:31:33+00:00">30</issue>
+                <ticket>26</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>26-d69b9f82</id>
+                <lines>205-209</lines>
+                <body>Enable qulice check. Currently, qulice check is disabled because it throws IllegalArgumentException. This is a bug in qulice which should be fixed. When it is fixed, enable qulice check. Do not forget to remove this puzzle.</body>
+                <file>pom.xml</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-08-17T16:33:09Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/33">33</issue>
+                    <ticket>30</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>30-80741899</id>
+                    <lines>204-209</lines>
+                    <body>Enable dependency check. The qulice library has an issue related to dependency check. You can find more details here: - https://github.com/yegor256/qulice/issues/1145 When this issue is fixed, we should enable dependency check. Don't forget to remove the exclude below and this puzzle.</body>
+                    <file>pom.xml</file>
+                    <author>@volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-08-18T15:20:04Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/705" closed="2024-09-24T15:35:33+00:00">705</issue>
+                    <ticket>30</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>30-5cf3cafc</id>
+                    <lines>302-309</lines>
+                    <body>Enable phi-unphi integration test. The 'phi-unphi' integration test is disabled in the default profile. The reason for this is some inconsistent behavior of the phi/unphi. You can read more about it here: https://github.com/objectionary/eo/issues/3373 Don't forget to remove the exclusion below and this puzzle description. Important! Don't forget to remove it from "long" profile as well.</body>
+                    <file>pom.xml</file>
+                    <author>@volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2024-09-15T15:43:36Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/724" closed="2025-02-12T10:18:19+00:00">724</issue>
+                        <ticket>705</ticket>
+                        <estimate>90</estimate>
+                        <role>DEV</role>
+                        <id>705-3ed5a899</id>
+                        <lines>43-49</lines>
+                        <body>Verify that PHI/UNPHI doesnt break the original bytecode. We need to implement a test that will verify that the original bytecode is not broken after applying PHI/UNPHI transformations. To do so you need to enable {@link #transformsToPlainXmir()} test and add the necessary PHI/UNPHI transformations to it. Currently it's impossible to add these transformations because of this: https://github.com/objectionary/eo/issues/3383</body>
+                        <file>src/test/java/org/eolang/jeo/representation/CanonicalXmirTest.java</file>
+                        <author>volodya-lombrozo</author>
+                        <email>volodya.lombrozo@gmail.com</email>
+                        <time>2024-09-24T14:48:38Z</time>
+                        <children/>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/730" closed="2024-09-27T12:06:21+00:00">730</issue>
+                        <ticket>705</ticket>
+                        <estimate>60</estimate>
+                        <role>DEV</role>
+                        <id>705-a8468047</id>
+                        <lines>40-42</lines>
+                        <body>Do we need to add a scope attribute to the directives if the data is null? If we do, then we need to add a test for this case. If we don't, then we need to remove this puzzle and "scope" attribute from the directives.</body>
+                        <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesTypedValue.java</file>
+                        <author>rultor</author>
+                        <email>me@rultor.com</email>
+                        <time>2024-09-26T10:33:51Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1015" closed="2025-02-27T12:37:12+00:00">1015</issue>
+                    <ticket>30</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>30-f6bafc74</id>
+                    <lines>252-256</lines>
+                    <body>Enable jcabi-xcop check. Due recent changes in LICENSE generation, jcabi-xcop check doesn't work. It happens because the LICENSE file is generated later then the jcabi-xcop check. We need to fix this issue. Most probably, the issue is related to SPDX license generation.</body>
+                    <file>pom.xml</file>
+                    <author>@rultor</author>
+                    <email>me@rultor.com</email>
+                    <time>2025-02-26T11:40:32Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/31" closed="2023-09-08T12:55:46+00:00">31</issue>
+                <ticket>26</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>26-78d4854d</id>
+                <lines>48-53</lines>
+                <body>Continue implementing BytecodeIR class. The class should implement IR interface and represent a class file. It should be able to read the class file and provide access to its bytecode. We have to provide the simplest implementation of the next chain: bytecode -&gt; XMIR -&gt; bytecode Input and output bytecode should be the same.</body>
+                <file>src/main/java/org/eolang/jeo/BytecodeIr.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-08-17T16:33:09Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/36" closed="2023-09-01T13:49:33+00:00">36</issue>
+    <ticket>34</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>34-e7563e1a</id>
+    <lines>30-32</lines>
+    <body>Implement XMIR generation. XMIR generation is not implemented yet, so we can't check it. Invert the followed assertion when XMIR generation will be implemented.</body>
+    <file>src/it/successful-path/verify.groovy</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-01T09:07:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/39" closed="2023-09-05T12:03:17+00:00">39</issue>
+        <ticket>36</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>36-95c85bf8</id>
+        <lines>63-69</lines>
+        <body>Hardcoded XMIR path. The XMIR path is hardcoded in the tryToSave method. It should be flexible and related to the Java class name. For example, if the class is org.eolang.jeo.Dummy, the XMIR path should be org/eolang/jeo/Dummy.xmir. if the class is org.eolang.jeo.Fake, the XMIR path should be org/eolang/jeo/Fake.xmir and so on.</body>
+        <file>src/main/java/org/eolang/jeo/XmirFootprint.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-01T13:31:12Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/48" closed="2023-09-06T15:47:13+00:00">48</issue>
+            <ticket>39</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>39-489011e4</id>
+            <lines>39-42</lines>
+            <body>Add unit test for XmirIR class. The test should check all the methods of the {@link org.eolang.jeo.XmirIR} class. Don't forget to test corner cases. When the test is ready, remove this puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/XmirIR.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-05T11:49:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/49" closed="2023-09-06T15:47:19+00:00">49</issue>
+            <ticket>39</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>39-f2735a13</id>
+            <lines>43-48</lines>
+            <body>Implement XmirIR#name() method. The method should return the name of the object from XMIR. We have to parse the XML and extract the name from it. You can find examples for XMIR in the EOlang repository: https://github.com/objectionary/eo When the method is ready, remove this puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/XmirIR.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-05T11:49:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/50" closed="2023-09-06T15:16:19+00:00">50</issue>
+            <ticket>39</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>39-7b75a943</id>
+            <lines>57-62</lines>
+            <body>Implement BytecodeIR#name() method. The method should return the name of the object from Bytecode. We have to parse the Bytecode and extract the name from it. Moreover we have to add package name to the name of the object. Remove this puzzle when the method is ready. Don't forget about unit tests.</body>
+            <file>src/main/java/org/eolang/jeo/BytecodeIr.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-05T11:49:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/53" closed="2023-09-08T12:38:04+00:00">53</issue>
+            <ticket>39</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>39-113bccbb</id>
+            <lines>39-42</lines>
+            <body>Add unit test for XmirIR class. The test should check all the methods of the {@link XmirIr} class. Don't forget to test corner cases. When the test is ready, remove this puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/XmirIr.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-06T15:35:46Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/57" closed="2023-09-18T11:16:38+00:00">57</issue>
+            <ticket>39</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>39-251d3c77</id>
+            <lines>34-37</lines>
+            <body>Add unit test for XmirIR class. The test should check all the methods of the {@link XmirRepresentation} class. Don't forget to test corner cases. When the test is ready, remove this puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/representation/XmirRepresentation.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-08T12:27:50Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/76" closed="2023-09-18T12:01:37+00:00">76</issue>
+            <ticket>39</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>39-301062e5</id>
+            <lines>34-37</lines>
+            <body>Add unit test for XmirIR class. The test should check all the methods of the {@link EoRepresentation} class. Don't forget to test corner cases. When the test is ready, remove this puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/representation/EoRepresentation.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-18T11:06:29Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/41" closed="2023-09-05T11:09:00+00:00">41</issue>
+        <ticket>36</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>36-0277a001</id>
+        <lines>39-43</lines>
+        <body>Replace anonymous class with a Fake class. We need to replace anonymous class in savesXml test method with a Fake class. For example, we can create a Fake class that implements IR interface and returns a fake XMLDocument in toEO method and an empty byte array in toBytecode method. Then we can use this Fake class in the test method and in other tests too.</body>
+        <file>src/test/java/org/eolang/jeo/XmirFootprintTest.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-01T13:31:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/37" closed="2023-09-07T15:33:05+00:00">37</issue>
+    <ticket>34</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>34-0fcf80b9</id>
+    <lines>37-41</lines>
+    <body>Implement class recompilation. Class recompilation is not implemented yet, so we can't check it. Invert the followed assertion when class recompilation will be implemented. Under recompilation we mean that class file should be compiled from XMIR object file.</body>
+    <file>src/it/successful-path/verify.groovy</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-01T09:07:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/55" closed="2023-09-18T12:55:52+00:00">55</issue>
+        <ticket>37</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>37-d70d7958</id>
+        <lines>34-37</lines>
+        <body>Add unit test for Base64Bytecode class. The test should check all the methods of the {@link Base64Bytecode} class. Don't forget to test corner cases. When the test is ready, remove this puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/Base64Bytecode.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-07T15:23:35Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/63" closed="2023-09-15T12:44:23+00:00">63</issue>
+    <ticket>58</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>58-ba6648ef</id>
+    <lines>41-43</lines>
+    <body>Add documentation to the README.md about the new mojo. The documentation should explain how to use the {@link BytecodeToEoMojo}. When the documentation is ready, remove this puzzle.</body>
+    <file>src/main/java/org/eolang/jeo/BytecodeToEoMojo.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-08T14:21:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/64" closed="2023-09-15T12:44:26+00:00">64</issue>
+    <ticket>58</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>58-22f3306e</id>
+    <lines>39-44</lines>
+    <body>Duplicate between BytecodeTranspilation and Optimization. Both classes do the same thing, but in different ways. We need to refactor them to use the same approach. When it's done, remove this puzzle. Classes: - {@link org.eolang.jeo.representation.BytecodeTranspilation} - {@link org.eolang.jeo.Optimization}</body>
+    <file>src/main/java/org/eolang/jeo/representation/BytecodeTranspilation.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-08T14:21:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/69" closed="2023-09-18T10:49:15+00:00">69</issue>
+    <ticket>59</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>59-191d54bd</id>
+    <lines>41-46</lines>
+    <body>Add unit tests for EoObjects class. The unit tests should cover the next cases: - The EoObjects class should read all XML files from the folder. - The EoObjects class should return empty list if folder is empty. - The EoObjects class should throw IllegalStateException if folder doesn't exist. When the unit tests are ready, remove that puzzle.</body>
+    <file>src/main/java/org/eolang/jeo/EoObjects.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-15T11:57:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/74" closed="2023-09-18T11:16:41+00:00">74</issue>
+        <ticket>69</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>69-23f13d0a</id>
+        <lines>41-44</lines>
+        <body>Rename Xmir to EO. The name Xmir is confusing. It's not clear what it means in this context. Actually XMIR and EO interchangeably mean the same thing. So, we have to rename Xmir to EO. When the renaming is done, remove this puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/representation/Xmir.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-18T09:46:37Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/70" closed="2023-12-25T13:06:16+00:00">70</issue>
+    <ticket>59</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>59-dce6d56f</id>
+    <lines>43-46</lines>
+    <body>Duplication between EoToBytecode and Optimization. Both classes have the same code. We have to extract the common code to the separate class. The class should be able to convert EO to bytecode and save result to the target folder. When it is done, remove that puzzle.</body>
+    <file>src/main/java/org/eolang/jeo/EoToBytecodeMojo.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-15T11:57:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/83" closed="2023-09-21T14:02:27+00:00">83</issue>
+    <ticket>81</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>81-8b72dde1</id>
+    <lines>63-68</lines>
+    <body>Compile Java class dynamically. Currently, we don't compile Java classes dynamically. Instead, we pass the source code directly. This is a temporary solution. We need to compile the Java class dynamically and pass the bytecode to the test. When this is done, remove that puzzle from this method.</body>
+    <file>src/test/java/it/JavaSourceClass.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-20T12:22:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/84" closed="2023-09-25T16:42:55+00:00">84</issue>
+    <ticket>81</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>81-9d03e679</id>
+    <lines>45-49</lines>
+    <body>Enable the test in JavaToEoTest. The test is disabled because we didn't implemented correct transpilation of the Java code to EO code. When it is done, the test should be enabled and should pass. The test should check that the Java code is transpiled to EO code correctly. Remove that puzzle when the test is enabled.</body>
+    <file>src/test/java/it/JavaToEoTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-20T12:22:28Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/89" closed="2023-09-26T08:44:58+00:00">89</issue>
+        <ticket>84</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>84-a72b83d1</id>
+        <lines>56-60</lines>
+        <body>Refactor BytecodeRepresentation class. The class is too big and it's hard to understand what it does. It's better to split it into smaller classes. The class should be refactored in order to be more readable. Maybe it makes sense to move all ASM visitors into a separate package. When the class is refactored remove that puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/representation/BytecodeRepresentation.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-25T16:33:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/95" closed="2023-09-26T10:26:26+00:00">95</issue>
+            <ticket>89</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>89-64690a11</id>
+            <lines>49-51</lines>
+            <body>Add unit test for ClassDirectives class. The unit test should check that the directives are correct. When the unit test is ready remove that puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/representation/asm/ClassDirectives.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-26T08:19:27Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/100" closed="2023-09-26T11:47:19+00:00">100</issue>
+                <ticket>95</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>95-2982f9a5</id>
+                <lines>40-47</lines>
+                <body>Simplify bytecode generation for tests. Right now we use ASM to generate bytecode for tests, which is not very convenient. We should simplify it by using some kind of programmable API or DSL to generate bytecode. For example, we can create several utility classes and use them in: - {@link ClassDirectivesTest} - {@link ClassNameTest} And others. When we have this, we can remove that puzzle.</body>
+                <file>src/test/java/org/eolang/jeo/representation/asm/ClassDirectivesTest.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-09-26T10:11:49Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/96" closed="2023-09-26T09:34:41+00:00">96</issue>
+            <ticket>89</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>89-31c1cca1</id>
+            <lines>34-36</lines>
+            <body>Add unit test for ClassName class. The unit test should check that the class name is correct. When the unit test is ready remove that puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/representation/asm/ClassName.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-26T08:19:27Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/97" closed="2023-09-28T09:40:51+00:00">97</issue>
+            <ticket>89</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>89-853f7b63</id>
+            <lines>39-41</lines>
+            <body>Add unit test for MethodDirectives class. The unit test should check that the directives are correct. When the unit test is ready remove that puzzle.</body>
+            <file>src/main/java/org/eolang/jeo/representation/asm/MethodDirectives.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-09-26T08:19:27Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/106" closed="2023-10-09T14:46:58+00:00">106</issue>
+                <ticket>97</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>97-7fa8b6a2</id>
+                <lines>45-49</lines>
+                <body>Add more user-friendly Hamcrest matchers. Right now, we have tests with complex XPath strings that check the resulting XML, which are hard to read and understand. I believe we need to simplify these checks. Perhaps, we should introduce a new Hamcrest matcher. Once completed, remove this puzzle.</body>
+                <file>src/test/java/org/eolang/jeo/representation/asm/MethodDirectivesTest.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-09-28T09:18:17Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/147" closed="2023-10-10T12:40:52+00:00">147</issue>
+                    <ticket>106</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>106-09db012e</id>
+                    <lines>37-41</lines>
+                    <body>Implement instructions check. The matcher should check if the received XMIR document has a method with a given bytecode instructions. When it is done, apply the matcher to the test case in {@link org.eolang.jeo.representation.directives.DirectivesMethodTest#parsesMethodInstructions()} and don't forget to remove that puzzle.</body>
+                    <file>src/test/java/org/eolang/jeo/representation/directives/HasMethod.java</file>
+                    <author>@volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-10-09T14:32:59Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/107" closed="2023-10-05T16:49:02+00:00">107</issue>
+                <ticket>97</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>97-b27c1ca6</id>
+                <lines>50-54</lines>
+                <body>Implement passing parameters to methods. Right now, we parse methods without parameters. We need to implement parsing of methods with parameters. Once completed, remove this puzzle. Don't forget to add unit tests for this feature. See {@link org.eolang.jeo.representation.asm.MethodDirectivesTest#parsesMethodParameters()}.</body>
+                <file>src/test/java/org/eolang/jeo/representation/asm/MethodDirectivesTest.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-09-28T09:18:17Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/136" closed="2024-08-07T09:00:51+00:00">136</issue>
+                    <ticket>107</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>107-41c9f021</id>
+                    <lines>48-53</lines>
+                    <body>Change method argument naming strategy. Right now we use method argument type and index to generate method argument name. For example for method with signature `void foo(int a, String b)` we generate method argument names `arg__I__0` and `arg__Ljava/lang/String__1`. This is not a good way to do it. At least it leads to errors when argument type is an array or class. So we have to test this cases and maybe create a better strategy for arguments naming.</body>
+                    <file>src/main/java/org/eolang/jeo/representation/asm/DirectivesClass.java</file>
+                    <author>@volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-10-05T16:35:22Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/90" closed="2023-10-11T14:05:49+00:00">90</issue>
+        <ticket>84</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>84-d01d9bbd</id>
+        <lines>126-129</lines>
+        <body>Handle constructors in classes. Right now we just skip constructors. We should handle them in order to build correct XML representation of the class. When the method is ready remove that puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/representation/BytecodeRepresentation.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-25T16:33:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/91" closed="2023-10-06T11:45:14+00:00">91</issue>
+        <ticket>84</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>84-f9b12b5b</id>
+        <lines>130-133</lines>
+        <body>Handle method parameters. Right now we just skip method parameters. We should handle them in order to build correct XML representation of the class. When the method is ready remove that puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/representation/BytecodeRepresentation.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-25T16:33:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/138" closed="2024-10-01T11:24:16+00:00">138</issue>
+            <ticket>91</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>91-7dbf2b45</id>
+            <lines>35-38</lines>
+            <body>Move all Directives* classes to a separate package. Right now they are in the same package as Xml* classes. We need to move them to a separate package. It will make it possible to hide some classes and probably remove prefixes like Directives*.</body>
+            <file>src/main/java/org/eolang/jeo/representation/asm/DirectivesMethodProperties.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-10-06T11:32:48Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/139" closed="2023-10-06T13:13:32+00:00">139</issue>
+            <ticket>91</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>91-61c61fcc</id>
+            <lines>96-101</lines>
+            <body>Create DirectivesTuple class. Replace DirectivesMethodProperties.exceptions() with DirectivesTuple. Right now we have the code duplication between two methods: - DirectivesMethodProperties.exceptions() - DirectivesClassProperties.interfaces() We need to create DirectivesTuple class and use it in both methods instead.</body>
+            <file>src/main/java/org/eolang/jeo/representation/asm/DirectivesMethodProperties.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-10-06T11:32:48Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/92" closed="2023-11-20T14:29:58+00:00">92</issue>
+        <ticket>84</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>84-cf19e1fa</id>
+        <lines>37-40</lines>
+        <body>Add unit test for OpcodeName class. The unit test should check that the name of opcode is correct. The name should be the same as in {@link Opcodes} class. When the unit test is ready remove that puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/representation/OpcodeName.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-25T16:33:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/93" closed="2025-03-18T09:03:22+00:00">93</issue>
+        <ticket>84</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>84-5d71dbb7</id>
+        <lines>45-49</lines>
+        <body>Enable the {@link JavaToEoTest} test. The test should be enabled when the translation format is ready and the transformation itself from bytecode to EO is implemented correctly. We have to agree on the transformation rules first. When the test is enabled remove the {@link Disabled} annotation.</body>
+        <file>src/test/java/it/JavaToEoTest.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-09-25T16:33:19Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/110" closed="2023-10-01T19:55:52+00:00">110</issue>
+    <ticket>108</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>108-9e1ee96a</id>
+    <lines>36-38</lines>
+    <body>Add unit tests for Bytecode class. Bytecode class is not covered by unit tests. Add unit tests for Bytecode class and then remove this puzzle.</body>
+    <file>src/main/java/org/eolang/jeo/representation/asm/Bytecode.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-29T13:47:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/111" closed="2023-10-04T14:02:57+00:00">111</issue>
+    <ticket>108</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>108-537ed26f</id>
+    <lines>172-176</lines>
+    <body>Implement different way to generate class name. Right now we use class name and access to generate class name and insert it as a name attribute of the class. This is not a good way to do it. At least it looks ugly. We should find a better way to generate class name and place it somewhere in the XML representation of the class.</body>
+    <file>src/main/java/org/eolang/jeo/representation/asm/ClassDirectives.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-29T13:47:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/112" closed="2023-10-06T11:45:18+00:00">112</issue>
+    <ticket>108</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>108-b077d916</id>
+    <lines>188-192</lines>
+    <body>Implement different way to generate method name. Right now we use method name, access and descriptor to generate method name and insert it as a name attribute of the method. This is not a good way to do it. At least it looks ugly. We should find a better way to generate method name and place it somewhere in the XML representation of the class.</body>
+    <file>src/main/java/org/eolang/jeo/representation/asm/ClassDirectives.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-29T13:47:32Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/128" closed="2023-10-05T10:06:20+00:00">128</issue>
+        <ticket>112</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>112-7d6010bf</id>
+        <lines>36-38</lines>
+        <body>Convert array into data or tuple object. Right now we just skip array of interfaces. We should convert it into data or tuple object. When the method is ready remove that puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/representation/asm/DirectivesClassProperties.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-10-04T13:51:47Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/129" closed="2023-10-05T08:29:31+00:00">129</issue>
+        <ticket>112</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>112-a332b7a8</id>
+        <lines>41-47</lines>
+        <body>Add support of additional class properties. Right now we just ignore the next class properties: - signature, - supername, - interfaces. We have to implement that part, otherwise we will have many problems with bytecode transformation.</body>
+        <file>src/main/java/org/eolang/jeo/representation/asm/generation/BytecodeClass.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-10-04T13:51:47Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/113" closed="2023-10-02T12:26:10+00:00">113</issue>
+    <ticket>108</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>108-ace72963</id>
+    <lines>40-44</lines>
+    <body>Refactor XmlBytecode class. XmlBytecode class is too big and complex. It should be refactored to be more readable and maintainable. Pay attention to checkstyle and PMD warnings. When refactoring, make sure that all tests are passing, especially integration tests.</body>
+    <file>src/main/java/org/eolang/jeo/representation/asm/XmlBytecode.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-29T13:47:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/114" closed="2023-10-02T13:50:21+00:00">114</issue>
+    <ticket>108</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>108-6b982c41</id>
+    <lines>38-42</lines>
+    <body>Replace Eo class usage with BytecodeRepresentation. Currently we have unnecessary class Eo that represents XML of EO object. We can use {@link org.eolang.jeo.representation.BytecodeRepresentation#toEO()} instead. This will simplify the code and make it more readable. Also, we need to remove Eo class from the project.</body>
+    <file>src/test/java/org/eolang/jeo/representation/EoRepresentationTest.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-29T13:47:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/115" closed="2023-10-03T12:47:31+00:00">115</issue>
+    <ticket>108</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>108-c1ac8a42</id>
+    <lines>41-45</lines>
+    <body>Refactor BytecodeClass. The class is too big and has too many responsibilities. It should be refactored to be more readable and maintainable. Maybe it makes sence to split it into several classes and put all of them into the separate package.</body>
+    <file>src/test/java/org/eolang/jeo/representation/asm/BytecodeClass.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-09-29T13:47:32Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/122" closed="2023-10-03T15:11:44+00:00">122</issue>
+        <ticket>115</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>115-9420dbd7</id>
+        <lines>34-37</lines>
+        <body>Use BytecodeClass instead of ASM library. Right now we are using ASM library to generate bytecode from XML. We should use BytecodeClass instead in order to reduce code duplication between XmlBytecode and BytecodeClass implementations.</body>
+        <file>src/main/java/org/eolang/jeo/representation/asm/XmlBytecode.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-10-03T12:27:05Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/124" closed="2023-10-04T12:07:15+00:00">124</issue>
+            <ticket>122</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>122-5d3c8d2c</id>
+            <lines>93-97</lines>
+            <body>Replace hexToString method with XmlData class. Right now we have some duplication among XmlInstruction and XmlData. They both implement the same logic of converting hex string to human-readable string. We should refactor this code and remove duplication.</body>
+            <file>src/main/java/org/eolang/jeo/representation/asm/XmlInstruction.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-10-03T15:00:09Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/152" closed="2023-10-13T15:21:31+00:00">152</issue>
+    <ticket>150</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>150-76413731</id>
+    <lines>33-37</lines>
+    <body>Implement generation of AB class. Currently, AB class is not generated, because optimization is not implemented yet. We also have to check that we generate AB class after optimization application. When optimization is implemented, we should uncomment the following line.</body>
+    <file>src/it/distilled/verify.groovy</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-10-12T15:00:41Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/156" closed="2023-11-22T13:34:39+00:00">156</issue>
+        <ticket>152</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>152-e6fbab0d</id>
+        <lines>76-78</lines>
+        <body>Implement decorator search. Right now we just return the first two EObjects as decorators which is not correct. We need to implement a proper decorator search. When it's done, remove that puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-10-13T15:10:50Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/157" closed="2023-10-17T17:04:47+00:00">157</issue>
+        <ticket>152</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>152-49058167</id>
+        <lines>123-126</lines>
+        <body>Implement decorator combination. Right now we just return dummy object which is empty. We need to implement a proper decorator combination. Don't forget to add unit tests for the method.</body>
+        <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-10-13T15:10:50Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/161" closed="2023-10-19T16:24:52+00:00">161</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-167c598a</id>
+            <lines>58-60</lines>
+            <body>Replace new B(new A()) with new AB(). Right now we just compose a new object with name AB. But it's not enough. We have to replace all the old objects created with new B(new A()) with new AB().</body>
+            <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/174" closed="2023-10-24T15:25:42+00:00">174</issue>
+                <ticket>161</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>161-0b36f2a8</id>
+                <lines>103-105</lines>
+                <body>Refactor replaceConstructors method. Right now it's a big method with a lot of repetition and high complexity. We have to simplify it and remove all linter warnings.</body>
+                <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-10-19T16:23:07Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/192" closed="2023-12-05T15:18:59+00:00">192</issue>
+                    <ticket>174</ticket>
+                    <estimate>90</estimate>
+                    <role>DEV</role>
+                    <id>174-5f393a08</id>
+                    <lines>35-37</lines>
+                    <body>Add unit tests for XmlProgram. Currently we don't have unit tests for XmlProgram. So, it makes sense to add them to keep code safe and clear.</body>
+                    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlProgram.java</file>
+                    <author>volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-10-24T15:11:00Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/193" closed="2023-10-25T14:14:27+00:00">193</issue>
+                    <ticket>174</ticket>
+                    <estimate>90</estimate>
+                    <role>DEV</role>
+                    <id>174-8946e849</id>
+                    <lines>38-40</lines>
+                    <body>Refactor XmlProgram. Currently some methods of XmlProgram have high code complexity. It makes sense to simplify this code in order to make it more readable and maintainable.</body>
+                    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlProgram.java</file>
+                    <author>volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-10-24T15:11:00Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/196" closed="2023-12-06T15:45:59+00:00">196</issue>
+                        <ticket>193</ticket>
+                        <estimate>90</estimate>
+                        <role>DEV</role>
+                        <id>193-bb04fdfc</id>
+                        <lines>34-36</lines>
+                        <body>Add unit tests for XmlNode. Currently we don't have unit tests for XmlNode. So, it makes sense to add them to keep code safe and clear.</body>
+                        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlNode.java</file>
+                        <author>volodya-lombrozo</author>
+                        <email>volodya.lombrozo@gmail.com</email>
+                        <time>2023-10-25T14:01:32Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/175" closed="2023-10-26T16:15:51+00:00">175</issue>
+                <ticket>161</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>161-5e9acc3a</id>
+                <lines>154-157</lines>
+                <body>Refactor replace method. Right now it's a big method with a lot of repetition and high complexity. Moreover, some constants are hardcoded and it's not good. We need to refactor it into a set of smaller methods and remove all linter warnings.</body>
+                <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-10-19T16:23:07Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/176" closed="2023-10-24T11:25:00+00:00">176</issue>
+                <ticket>161</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>161-3c709868</id>
+                <lines>608-611</lines>
+                <body>Move setInstructions method. Right now we implemented this method inside ImprovementDistilledObjects class. But it's better to move it into a XmlMethod class. Moreover, this method is overcomplicated, so it makes sense to refactor it and remove all linter warnings.</body>
+                <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-10-19T16:23:07Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/186" closed="2023-12-04T15:02:19+00:00">186</issue>
+                    <ticket>176</ticket>
+                    <estimate>60</estimate>
+                    <role>DEV</role>
+                    <id>176-8de26621</id>
+                    <lines>133-135</lines>
+                    <body>Add unit test for 'setInstructions' method. Currently we don't have a unit test for XmlMethod. We should create a testing class and test 'setInstructions' method. Don't forget to remove the puzzle for that method.</body>
+                    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+                    <author>volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-10-24T11:10:33Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/177" closed="2023-12-07T09:22:04+00:00">177</issue>
+                <ticket>161</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>161-94d2418c</id>
+                <lines>89-92</lines>
+                <body>Hide internal node representation in XmlClass. This class should not expose internal node representation. We have to consider to add methods or classes in order to avoid exposing internal node representation.</body>
+                <file>src/main/java/org/eolang/jeo/representation/xmir/XmlClass.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-10-19T16:23:07Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/178" closed="2023-10-20T15:43:22+00:00">178</issue>
+                <ticket>161</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>161-d6537459</id>
+                <lines>156-159</lines>
+                <body>Refactor XmlInstruction#nodesAreEqual() method. This method is too complex and it is hard to understand. We have to refactor this method in order to make it more readable. Don't forget to write test and remove suppressed checks.</body>
+                <file>src/main/java/org/eolang/jeo/representation/xmir/XmlInstruction.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-10-19T16:23:07Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/162" closed="2023-10-27T15:02:56+00:00">162</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-2a1100ad</id>
+            <lines>61-64</lines>
+            <body>ImprovementDistilledObjects is needed to be refactored. Right now it's a big class with a lot of methods, repetition and high complexity. We need to refactor it into a set of smaller classes and remove all linter warnings.</body>
+            <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/204" closed="2023-11-22T13:34:43+00:00">204</issue>
+                <ticket>162</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>162-5bafdc8f</id>
+                <lines>92-94</lines>
+                <body>Refactor replaceConstructors method. Right now it's a method with high complexity and it's hard to read it. We need to refactor it or just simplify somehow.</body>
+                <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-10-27T14:46:53Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/205" closed="2023-11-22T13:34:48+00:00">205</issue>
+                <ticket>162</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>162-ac76c1ae</id>
+                <lines>374-376</lines>
+                <body>Refactor handleClass method. Right now it's a method with high complexity and it's hard to read it. We need to refactor it or inline into some other method.</body>
+                <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-10-27T14:46:53Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/206" closed="2023-11-02T16:26:38+00:00">206</issue>
+                <ticket>162</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>162-3f123ad3</id>
+                <lines>430-432</lines>
+                <body>Refactor replaceMethodContent method. Right now it's a method with high complexity and it's hard to read it. We need to refactor it or inline into some other method.</body>
+                <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-10-27T14:46:53Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/228" closed="2023-11-03T13:08:31+00:00">228</issue>
+                    <ticket>206</ticket>
+                    <estimate>60</estimate>
+                    <role>DEV</role>
+                    <id>206-221e16be</id>
+                    <lines>184-190</lines>
+                    <body>Simplify 'inline' method. Right now we use raw "inline" method instructions and trying to filter instructions that we don't need to inline. Like: - RETURN - IRETURN - ALOAD We have to move it into a separate method and use it in 'inline' method.</body>
+                    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+                    <author>volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-11-02T16:14:21Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/230" closed="2023-12-04T15:02:25+00:00">230</issue>
+                        <ticket>228</ticket>
+                        <estimate>90</estimate>
+                        <role>DEV</role>
+                        <id>228-fa1fdb7c</id>
+                        <lines>230-234</lines>
+                        <body>Create more suitable method for determining instructions to inline. Currently we are using a method that returns all instructions except return statements, which is working for simple examples, but might fail on more complex cases. We have to write more tests and create a more suitable method for determining instructions to inline.</body>
+                        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+                        <author>volodya-lombrozo</author>
+                        <email>volodya.lombrozo@gmail.com</email>
+                        <time>2023-11-03T12:58:17Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/207" closed="2023-10-30T13:34:43+00:00">207</issue>
+                <ticket>162</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>162-93c5a72c</id>
+                <lines>126-129</lines>
+                <body>Simplify instructions method. This method is too complex. We should simplify it. In order to do so we can use {@link XmlNode} class. Don't forget to remove the puzzle.</body>
+                <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-10-27T14:46:53Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/163" closed="2023-10-24T10:49:21+00:00">163</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-aacecf15</id>
+            <lines>148-150</lines>
+            <body>Implement name generation for new combined representation. Right now we just concatenate the names of the two representations. Maybe we can leave the same scheme, but it's better to move into a separate class.</body>
+            <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/183" closed="2023-10-25T11:42:57+00:00">183</issue>
+                <ticket>163</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>163-563310fb</id>
+                <lines>41-44</lines>
+                <body>Replace newname method usage with DecoratorCompositionName. Right now we use {@link ImprovementDistilledObjects.DecoratorPair#newname()} method in {@link ImprovementDistilledObjects} class. We should use {@link DecoratorCompositionName} instead. Don't forget to remove the old method from {@link ImprovementDistilledObjects} class.</body>
+                <file>src/main/java/org/eolang/jeo/improvement/DecoratorCompositionName.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-10-24T10:37:48Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/190" closed="2023-10-25T11:43:00+00:00">190</issue>
+                    <ticket>183</ticket>
+                    <estimate>90</estimate>
+                    <role>DEV</role>
+                    <id>183-c4837881</id>
+                    <lines>49-53</lines>
+                    <body>Use / instead of . in class names. Currently we use . and / in different places for class names. It's much easier to use just / everywhere, then we will be able to avoid the usage of the next statements: ".replace('.', '/')" and ".replace('/', '.')" - now we have lot's of places where we use them (~16 times).</body>
+                    <file>src/test/java/org/eolang/jeo/improvement/ImprovementDistilledObjectsTest.java</file>
+                    <author>volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-10-24T12:07:57Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/164" closed="2023-11-15T17:41:48+00:00">164</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-64290955</id>
+            <lines>254-256</lines>
+            <body>Handle constructors correctly during inlining optimization. Right now we just remove all constructors from the decorated object. It's not correct, because we need to handle constructors correctly.</body>
+            <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/252" closed="2023-11-17T14:33:39+00:00">252</issue>
+                <ticket>164</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>164-ea9c2ccb</id>
+                <lines>381-384</lines>
+                <body>Use DecoratorConstructors instead of simple copy-paste. Currently we use copy-paste constructors from the decorated object. We should use DecoratorConstructors instead. In order to apply the solution, uncomment the code below and remove the copy-paste code.</body>
+                <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-11-15T17:18:24Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/262" closed="2023-11-22T13:34:53+00:00">262</issue>
+                    <ticket>252</ticket>
+                    <estimate>90</estimate>
+                    <role>DEV</role>
+                    <id>252-0e01e3fe</id>
+                    <lines>33-38</lines>
+                    <body>The first attempt to inline constructors is failed. The constructor inlining is not a straightforward task, since we need to take into account the order of arguments and the order of instructions in the constructor. Sine we decided to implement inlining using high-level XML representation, maybe it makes sence just remove all the related classes to this optimization. see https://github.com/objectionary/jeo-maven-plugin/issues/259</body>
+                    <file>src/main/java/org/eolang/jeo/improvement/DecoratorConstructors.java</file>
+                    <author>@rultor</author>
+                    <email>me@rultor.com</email>
+                    <time>2023-11-17T14:31:07Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/253" closed="2023-12-08T08:30:38+00:00">253</issue>
+                <ticket>164</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>164-a818f5ac</id>
+                <lines>270-273</lines>
+                <body>Refactor params method in XmlMethod. Currently we are using a method that returns method params as XML. Thic method is not very readable and it is hard to understand what it does. It's better to use Xembler to create XML instead of concatenating strings.</body>
+                <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-11-15T17:18:24Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/254" closed="2023-11-22T13:34:57+00:00">254</issue>
+                <ticket>164</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>164-6c78b4a2</id>
+                <lines>39-43</lines>
+                <body>Write tests that can understand java. Currently writing tests is pain, since we have to operate on XML and bytecode. We need to write tests that would contain initial java code and expected java code. Under the hood, we should compile initial java code, apply all out transformations and then compare the result with expected java code.</body>
+                <file>src/test/java/org/eolang/jeo/improvement/DecoratorConstructorsTest.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-11-15T17:18:24Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/255" closed="2023-11-22T13:35:02+00:00">255</issue>
+                <ticket>164</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>164-aece0988</id>
+                <lines>73-75</lines>
+                <body>Check content of each constructor. Currently we only check the size of the list. We need to check the content of each constructor to be sure that each constructor contains the same instructions as expected.</body>
+                <file>src/test/java/org/eolang/jeo/improvement/DecoratorConstructorsTest.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-11-15T17:18:24Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/165" closed="2023-11-08T08:54:42+00:00">165</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-bd95b8d9</id>
+            <lines>271-274</lines>
+            <body>Handle fields correctly during inlining optimization. Right now we just remove all fields from the decorated object. It's not correct, because we need to handle fields correctly and probably remove only those fields that are used in the decorator.</body>
+            <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/166" closed="2023-10-30T14:30:19+00:00">166</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-68b898d6</id>
+            <lines>335-337</lines>
+            <body>Handle arguments correctly during inlining optimization. Right now we just replace all arguments with the new class name. It's not correct, because we need to handle arguments correctly.</body>
+            <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/167" closed="2023-10-24T11:09:23+00:00">167</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-c3c3a3ce</id>
+            <lines>392-395</lines>
+            <body>Code duplication. There is a code duplication between classes: ImprovementDistilledObjects and XmlClass. We need to extract the common code into a separate class or just to use XmlClass.</body>
+            <file>src/main/java/org/eolang/jeo/improvement/ImprovementDistilledObjects.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/185" closed="2023-10-27T06:43:28+00:00">185</issue>
+                <ticket>167</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>167-7638dd7e</id>
+                <lines>66-68</lines>
+                <body>Add unit tests for 'constructors' method. Currently we don't have unit tests for that method. So, it makes sense to add them to keep code safe and clear.</body>
+                <file>src/main/java/org/eolang/jeo/representation/xmir/XmlClass.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-10-24T11:07:37Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/168" closed="2023-12-15T11:01:54+00:00">168</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-293f8544</id>
+            <lines>96-99</lines>
+            <body>Hide internal node representation in XmlField. This class should not expose internal node representation. We have to consider to add methods or classes in order to avoid exposing internal node representation.</body>
+            <file>src/main/java/org/eolang/jeo/representation/xmir/XmlField.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/169" closed="2023-12-14T15:59:58+00:00">169</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-6ab19f50</id>
+            <lines>75-78</lines>
+            <body>Hide internal node representation in XmlInstruction. This class should not expose internal node representation. We have to consider to add methods or classes in order to avoid exposing internal node representation.</body>
+            <file>src/main/java/org/eolang/jeo/representation/xmir/XmlInstruction.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/170" closed="2023-12-14T17:02:52+00:00">170</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-b172ffdb</id>
+            <lines>82-85</lines>
+            <body>Hide internal node representation in XmlMethod. This class should not expose internal node representation. We have to consider to add methods or classes in order to avoid exposing internal node representation.</body>
+            <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/172" closed="2023-11-22T13:35:08+00:00">172</issue>
+            <ticket>157</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>157-522b64e6</id>
+            <lines>41-43</lines>
+            <body>Implement more comprehensive tests for the optimization. The current test is very basic and doesn't cover all the cases. We need to add more tests to cover all the cases. Moreover, it makes sense to enforce combinesRepresentations() test.</body>
+            <file>src/test/java/org/eolang/jeo/improvement/ImprovementDistilledObjectsTest.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-10-17T17:02:36Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/158" closed="2023-11-22T13:35:13+00:00">158</issue>
+        <ticket>152</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>152-33f81957</id>
+        <lines>79-82</lines>
+        <body>Try to compile the class A using the JavaCompiler API. The class A is defined in the method {@link #classA()}, but it is rather verbose. Instead, we can try to compile bytecode from Java code right inside test. It might simplify the code and make it more readable.</body>
+        <file>src/test/java/org/eolang/jeo/improvement/ImprovementDistilledObjectsTest.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-10-13T15:10:50Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/153" closed="2023-10-13T12:52:22+00:00">153</issue>
+    <ticket>150</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>150-30f3c7f4</id>
+    <lines>35-38</lines>
+    <body>Refactor XmlField code. Right now it has many redundant and repeatable code, especially when we handle default values for signature, descriptor and value. After refactoring, we should remove that puzzle.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlField.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-10-12T15:00:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/198" closed="2023-11-27T08:29:48+00:00">198</issue>
+    <ticket>188</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>188-6c8a34f5</id>
+    <lines>36-41</lines>
+    <body>Enable Integration Test for Generics. First of all, we have to implement Java Generics support in JEO. Then, we need to add JEO plugin into pom.xml of that test, the plugin setup you can find below. After that we need to add some assertions to this file. For example, we need to check that we have generated EO object files (see commented checks above).</body>
+    <file>src/it/generics/verify.groovy</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-10-26T08:50:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/202">202</issue>
+    <ticket>189</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>189-afd0dd5a</id>
+    <lines>35-40</lines>
+    <body>Enable Integration Test for Takes Framework. First of all, we have to implement all the features required for correct transformation. Then, we need to add JEO plugin into pom.xml of that test, the plugin setup you can find below. After that we need to add some assertions to this file. For example, we need to check that we have generated EO object files (see commented checks above).</body>
+    <file>src/it/takes/verify.groovy</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-10-26T14:05:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/295" closed="2023-12-07T10:17:51+00:00">295</issue>
+        <ticket>202</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>202-0a702f51</id>
+        <lines>35-40</lines>
+        <body>Make Xpaths in XmlClassProperties more precise. Currently, they are too broad and can lead to incorrect results. Actually, it already happened with the 'signature' property. In order to fix this, we need to make Xpaths more precise. But before doing this, we need to make sure that we have enough tests for this class.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlClassProperties.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-11-27T14:43:28Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/296" closed="2023-12-11T13:00:57+00:00">296</issue>
+        <ticket>202</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>202-7b93f5a1</id>
+        <lines>34-36</lines>
+        <body>Fix {@link #convertsGenericsMethodIntoBytecode} test. It passes now, but it's not correct. First of all, it prints error message to the console. We should fix this error and find a way to create a valid XML for this test more easily.</body>
+        <file>src/test/java/org/eolang/jeo/representation/xmir/XmlBytecodeTest.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-11-27T14:43:28Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/221" closed="2023-12-29T14:01:00+00:00">221</issue>
+    <ticket>215</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>215-f26a41b9</id>
+    <lines>39-43</lines>
+    <body>Apply ImprovementEoFootprint. Currently we don't use ImprovementEoFootprint. We have to add it to the next classes: - {@link org.eolang.jeo.BytecodeToEoMojo} - {@link org.eolang.jeo.JeoMojo} Don't forget to add checks for integration tests.</body>
+    <file>src/main/java/org/eolang/jeo/improvement/ImprovementEoFootprint.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-11-01T11:28:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/226" closed="2023-11-03T16:01:07+00:00">226</issue>
+    <ticket>217</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>217-e6d26aba</id>
+    <lines>86-92</lines>
+    <body>Save correct label value into XMIR. Currently we just save hardcoded value about label to the XMIR, which is wrong, of course. The problem here is that we can't directly use Label#getOffset() method since label offset will be set later (not here). So we have to handle that problem somehow and save correct Label value. Don't forget to write integration tests for if/else and loops control-flow statements. The tests should check correct transformation bytecode -&gt; XMIR -&gt; bytecode.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesMethod.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-11-01T17:28:06Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/232" closed="2023-11-13T15:05:25+00:00">232</issue>
+        <ticket>226</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>226-921967db</id>
+        <lines>177-180</lines>
+        <body>Code duplication in DirectivesMethod.opcodeWithLabel. This method is almost the same as DirectivesMethod.opcode. We have to consider to refactor this code in order to avoid code duplication.</body>
+        <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesMethod.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-11-03T15:47:56Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/233" closed="2023-11-13T14:27:34+00:00">233</issue>
+        <ticket>226</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>226-a35de1fc</id>
+        <lines>31-34</lines>
+        <body>Rename XmlCommand to XmlInstruction. XmlCommand is a bad name for this class. It is not a command, it is an instruction in general. Since instruction could be a label or a bytecode instruction, it is better to rename this class to XmlInstruction. After that, rename all usages of the old XmlInstruction to XmlCommand.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlCommand.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-11-03T15:47:56Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/234" closed="2023-11-07T16:05:22+00:00">234</issue>
+        <ticket>226</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>226-c0291c63</id>
+        <lines>39-43</lines>
+        <body>Continue implementation of conditional instructions transformation. Currently we parse bytecode and correctly save all labels into XMIR. Although the back transformation is not implemented yet. We need to implement it and add or change integration tests to check that conditional instructions are correctly transformed. Moreover, we have to remove static field LABELS and use different approach to find labels.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlLabel.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-11-03T15:47:56Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/240" closed="2023-11-10T09:58:38+00:00">240</issue>
+            <ticket>234</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>234-7ae64e51</id>
+            <lines>151-155</lines>
+            <body>Refactor XmlInstruction#arguments method. This method is too complex and has too many responsibilities. Moreover, it uses static field LABELS. We have to refactor this method in order to avoid all that problems. Don't forget to remove PMD and checkstyle comments about suppressed warnings.</body>
+            <file>src/main/java/org/eolang/jeo/representation/xmir/XmlInstruction.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-11-07T16:03:22Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/241" closed="2023-11-08T09:47:37+00:00">241</issue>
+            <ticket>234</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>234-676dc2cb</id>
+            <lines>39-42</lines>
+            <body>Hide LABELS Public Static Variable. It is not a good idea to expose LABELS and use static variable in general. We definitely have to hide this variable or, what is even better, get rid of it and create one more class that will encapsulate the LABELS logic.</body>
+            <file>src/main/java/org/eolang/jeo/representation/xmir/XmlLabel.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-11-07T16:03:22Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/244" closed="2024-11-20T18:00:37+00:00">244</issue>
+                <ticket>241</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>241-9f2f9d09</id>
+                <lines>38-46</lines>
+                <body>Remove Single Label Cache. The proper solution would be to use single {@link AllLabels} instance without any shared cache. However, it would require to change the whole architecture of the {@link org.eolang.jeo.representation.xmir} package and it's why it's not done yet. The current solution is a temporary workaround. So, in this task we have to: - Use single instance of the {@link AllLabels} class. - Pass that instance to all the classes that need it from top to bottom. - Remove the {@link AllLabels#CACHE} field. But this issue isn't urgent and can be done later.</body>
+                <file>src/main/java/org/eolang/jeo/representation/xmir/AllLabels.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-11-08T09:45:36Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/235" closed="2023-11-13T14:07:50+00:00">235</issue>
+        <ticket>226</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>226-c5fc1ccd</id>
+        <lines>134-137</lines>
+        <body>Code duplication with 'instructions' method. Currently we have two methods that return instructions. They are 'instructions' and 'commads'. We have to remove code duplication between them. Maybe it makes sense to leave only one method and remove the other one.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-11-03T15:47:56Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/236" closed="2023-11-10T16:03:54+00:00">236</issue>
+        <ticket>226</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>226-b1e41680</id>
+        <lines>264-267</lines>
+        <body>Check Labels. In this test we don't check that labels are parsed correctly, but we should. Moreover, we have to check that IFLE bytecode instruction has correct label pointer to the existing label.</body>
+        <file>src/test/java/org/eolang/jeo/representation/directives/DirectivesMethodTest.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-11-03T15:47:56Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/265" closed="2023-12-18T14:17:39+00:00">265</issue>
+    <ticket>260</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>260-9f878bfa</id>
+    <lines>46-52</lines>
+    <body>Implement primitive transformation test. Currently we just get the pack name from the test and check that it is not null. We have to implement proper transformation test. It will consist of the following steps: 1. Compile java code into bytecode 2. Transform bytecode into XMIR 3. Compile expected EO into XMIR 4. Compare XMIRs</body>
+    <file>src/test/java/it/TrasformationPacksTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-11-17T16:26:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/279" closed="2023-12-13T10:52:24+00:00">279</issue>
+    <ticket>269</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>269-0fbbc9a3</id>
+    <lines>46-49</lines>
+    <body>Replace `name` method with `details` method. Currently we just use `Represenation#name()` method everywhere. We should use `Representation#details().name()` method instead. When it will be ready, just remove this method.</body>
+    <file>src/main/java/org/eolang/jeo/Representation.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-11-21T16:49:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/284" closed="2023-11-24T14:25:46+00:00">284</issue>
+    <ticket>271</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>271-23f8fc90</id>
+    <lines>33-37</lines>
+    <body>Rename ClassName Class. Currently we have to classes with the same name: {@link org.eolang.jeo.representation.directives.ClassName} and {@link org.eolang.jeo.representation.ClassName}. It makes sense to rename one of them to avoid confusion.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/ClassName.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-11-23T17:06:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/285" closed="2023-11-25T13:47:46+00:00">285</issue>
+    <ticket>271</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>271-f0de8eb6</id>
+    <lines>51-57</lines>
+    <body>Split DirectivesClass into two separate classes. Currently {@link DirectivesClass} is responsible for two things: - Scanning bytecode class/ - Building Xembly directives. We have to split this class into two separate classes: - DirectivesClassVisitor - responsible for scanning bytecode class. - DirectivesClass - responsible for building Xembly directives according with scanned bytecode.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesClass.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-11-23T17:06:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/292" closed="2023-12-19T15:00:11+00:00">292</issue>
+    <ticket>189</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>189-61641b6a</id>
+    <lines>32-37</lines>
+    <body>Enable Integration Test for Spring Framework. First of all, we have to implement all the features required for correct transformation. Then, we need to add JEO plugin into pom.xml of that test, the plugin setup you can find below. After that we need to add some assertions to this file. For example, we need to check that we have generated EO object files (see commented checks above).</body>
+    <file>src/it/spring/verify.groovy</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-11-27T08:46:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/345" closed="2024-09-22T17:30:00+00:00">345</issue>
+        <ticket>292</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>292-a445c5ab</id>
+        <lines>32-35</lines>
+        <body>Add unit test for XmlAnnotations class. XmlAnnotations class is not covered by unit tests. Add unit tests for XmlAnnotations class. Don't forget to remove the current puzzle.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlAnnotations.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-12-19T11:09:13Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/305" closed="2023-12-04T09:35:56+00:00">305</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-16fa5daf</id>
+    <lines>50-56</lines>
+    <body>Enable java compilation test. Currently, the test is disabled because it fails. The reason is that: 1. We loose some additional information from original code during transformation and bytecode is not equal to the original one. It's not critical for runtime, but we need to fix it. 2. Some machines might now have java compiler installed. We need to fix both of these issues and enable the test. The test is {@link #transformsRandomJavaSourceCodeIntoEoAndBack}.</body>
+    <file>src/test/java/it/JavaSourceCompilationIT.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-11-29T13:36:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/313" closed="2024-11-20T15:51:54+00:00">313</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-c31b689a</id>
+    <lines>52-58</lines>
+    <body>Add debug information to bytecode. Currently we do not add any debug information to the bytecode. We added -g:none flag to the compiler in order to avoid adding any debug information. See {@link #transformsRandomJavaSourceCodeIntoEoAndBack(java.nio.file.Path)} for more info. We have to add debug information to the bytecode. When it is done, we have to remove -g:none flag from the test.</body>
+    <file>src/test/java/it/JavaSourceCompilationIT.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-12-04T09:33:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/324" closed="2023-12-11T12:14:43+00:00">324</issue>
+    <ticket>320</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>320-aaedabfa</id>
+    <lines>90-94</lines>
+    <body>Add integration test with suppressed exception. In Java, suppressed exceptions refer to exceptions that are thrown during the closing of a resource in a try-with-resources statement, and these exceptions may occur in addition to the exception thrown in the try block itself.</body>
+    <file>src/it/exceptions/src/main/java/org/eolang/jeo/exceptions/Application.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-12-08T15:41:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/325">325</issue>
+    <ticket>320</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>320-56a80877</id>
+    <lines>38-44</lines>
+    <body>Enable 'exceptions' Integration Test. First of all, we have to implement all the features required for correct transformation of exceptions. Then, we need to add JEO plugin into pom.xml of that test. The plugin setup you can find below. After that we need to add some assertions to this file. For example, we need to check that we have generated EO object files (see commented checks above). Right now this test just compiles java as is without any transformations.</body>
+    <file>src/it/exceptions/verify.groovy</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-12-08T15:41:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/329" closed="2023-12-13T13:20:42+00:00">329</issue>
+        <ticket>325</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>325-12cb4691</id>
+        <lines>108-113</lines>
+        <body>Enable methodThatDeclaresException() method. This method is a part of integration test for #325 issue. The method checks that declared exceptions handled correctly. Currently, if we enable this method, the test will fail. We need to understand why it happens and fix it. Don't forget to uncomment method in the main method.</body>
+        <file>src/it/exceptions/src/main/java/org/eolang/jeo/exceptions/Application.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2023-12-12T15:12:15Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/335" closed="2024-10-01T11:24:18+00:00">335</issue>
+            <ticket>329</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>329-19482c81</id>
+            <lines>35-38</lines>
+            <body>Implement DirectivesHandle class. The {@link Handle} class is one of the parameters for INVOKEDYNAMIC instruction. The class should be implemented in the same way as {@link DirectivesLabel}. Don't forget to add tests.</body>
+            <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesHandle.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-12-13T13:05:40Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/336" closed="2024-09-12T16:53:18+00:00">336</issue>
+            <ticket>329</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>329-17209cb5</id>
+            <lines>38-43</lines>
+            <body>Test invokedymanic instruction. Add test for parsing of invokedymanic instruction. Currently it is not tested and in some cases causes errors. Probably in this issue you will need to add some additional parsing logic. See {@link #visitInvokeDynamicInsn} method.</body>
+            <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesMethodVisitor.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-12-13T13:05:40Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/330" closed="2023-12-13T10:09:43+00:00">330</issue>
+        <ticket>325</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>325-837150a0</id>
+        <lines>46-48</lines>
+        <body>Remove 'node' method from XmlBytecodeEntry interface. This method isn't used anywhere. So it should be removed. Don't forget to remove it from all implementations.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlBytecodeEntry.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2023-12-12T15:12:15Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/352" closed="2024-04-08T15:49:50+00:00">352</issue>
+    <ticket>350</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>350-c025a4f6</id>
+    <lines>183-188</lines>
+    <body>Remove mutable method from XmlMethod. Here we just remove all instructions and add new ones, this makes XmlMethod class mutable, which is a significant architecture flaw. It's much better to implement copying of this class with creation of a new XmlMethod, but in order to implement this we will have to implement copying all the top level classes like XmlProgram, XmlClass and so on, which requires lots of work.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-12-20T19:10:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/359" closed="2023-12-27T11:54:35+00:00">359</issue>
+    <ticket>357</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>357-f1fb7c4b</id>
+    <lines>45-48</lines>
+    <body>For some reason, the "plugin-info.html" page is not generated by the maven-site-plugin, but it should. The confirmation is very similar to, for example, jcabi-dynamodb-maven-plugin, where the "plugin-info.html" page is generated automatically. Let's find out what is the problem and fix.</body>
+    <file>src/site/site.xml</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2023-12-21T08:39:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/376" closed="2024-02-02T15:10:26+00:00">376</issue>
+    <ticket>59</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>59-20b03ac3</id>
+    <lines>41-45</lines>
+    <body>Duplication between EoToBytecode and Optimization. Both classes have the same code. We have to extract the common code to the separate class. The class should be able to convert EO to bytecode and save result to the target folder. When it is done, remove that puzzle. @since 0.1.0</body>
+    <file>src/main/java/org/eolang/jeo/EoToBytecodeMojo.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-12-25T13:03:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/397" closed="2024-01-31T14:59:20+00:00">397</issue>
+    <ticket>215</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>215-4cb3f2a0</id>
+    <lines>43-47</lines>
+    <body>Apply ImprovementEoFootprint. Currently we don't use ImprovementEoFootprint. We have to add it to the next classes: - {@link DisassembleMojo} - {@link org.eolang.jeo.JeoMojo} Don't forget to add checks for integration tests.</body>
+    <file>src/main/java/org/eolang/jeo/improvement/ImprovementEoFootprint.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-12-29T13:33:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/429" closed="2024-02-05T14:53:10+00:00">429</issue>
+    <ticket>427</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>427-278fbe1c</id>
+    <lines>340-344</lines>
+    <body>Use custom bytecode verifier instead of CheckClassAdapter#verify. This class can only print the error message to the console. We need to have a custom bytecode verifier that can throw an exception with the error message. Here you can find the detailed problem description: &lt;a href="https://stackoverflow.com/q/77854100/10423604"&gt;link&lt;/a&gt;</body>
+    <file>src/main/java/org/eolang/jeo/representation/bytecode/BytecodeClass.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-01-22T11:10:24Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/458" closed="2024-02-06T13:16:06+00:00">458</issue>
+        <ticket>429</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>429-511baf34</id>
+        <lines>416-421</lines>
+        <body>Remove `verifyBytecode` method and its usage from the `BytecodeClass` class. This method is used to verify the bytecode of the class. Since we added CheckClassAdapter in the `bytecode` method, we can remove this method. However, we need to make sure that by doing this we don't break any existing tests. You can read more about the problem here: &lt;a href="https://stackoverflow.com/q/77854100/10423604"&gt;link&lt;/a&gt;</body>
+        <file>src/main/java/org/eolang/jeo/representation/bytecode/BytecodeClass.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-02-05T14:40:34Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/437" closed="2024-01-30T12:45:41+00:00">437</issue>
+    <ticket>435</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>435-0d09add4</id>
+    <lines>347-353</lines>
+    <body>Enable Bytecode Verification Currently we don't verify bytecode properly. It was done by purpose, you can check &lt;a href="https://github.com/objectionary/jeo-maven-plugin/issues/435&gt;here&lt;/a&gt; why we did it. We need to enable bytecode verification. To do so, just enable the code below. Also you need to enable integration test: fails-if-bytecode-broken</body>
+    <file>src/main/java/org/eolang/jeo/representation/bytecode/BytecodeClass.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-23T22:02:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/441" closed="2024-01-30T09:12:21+00:00">441</issue>
+    <ticket>439</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>439-7ce88586</id>
+    <lines>240-244</lines>
+    <body>Enable eo-to-bytecode test. The eo-to-bytecode test is disabled because it fails. You can find more details here: - https://github.com/objectionary/opeo-maven-plugin/issues/132 When this issue is fixed, we should enable eo-to-bytecode test.</body>
+    <file>pom.xml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-01-26T16:03:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/447" closed="2024-02-02T10:29:25+00:00">447</issue>
+    <ticket>431</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>431-d5db9975</id>
+    <lines>85-90</lines>
+    <body>Measure the assembling time and print it to logs. The assembling time should be measured in milliseconds and printed to logs. Moreover, we have to add one more log entry that would print the path of the file being assembled. The entire log should look like this: "Assembling file.xmir (5kb)....". "Assembled file.class (6kb) in 100ms".</body>
+    <file>src/main/java/org/eolang/jeo/improvement/ImprovementBytecodeFootprint.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-31T14:26:04Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/454" closed="2024-02-02T15:10:29+00:00">454</issue>
+        <ticket>447</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>447-2afba5b8</id>
+        <lines>40-43</lines>
+        <body>Extract Common Common Code From Footprints. The TranslationXmirFootprint and TranslationBytecodeFootprint classes have a lot of common code. We have to extract the common code to the separate class. The class should be able to save results into filesystem and measure execution time.</body>
+        <file>src/main/java/org/eolang/jeo/TranslationBytecodeFootprint.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-02-02T10:14:09Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/448" closed="2024-02-02T09:02:04+00:00">448</issue>
+    <ticket>431</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>431-34d7ba20</id>
+    <lines>79-84</lines>
+    <body>Measure the disassembling time and print it to logs. The disassembling time should be measured in milliseconds and printed to logs. Moreover, we have to add one more log entry that would print the path of the file being disassembled. The entire log should look like this: "Disassembling file.class (5kb)....". "Disassembled file.xmir (6kb) in 100ms".</body>
+    <file>src/main/java/org/eolang/jeo/improvement/ImprovementXmirFootprint.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-31T14:26:04Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/452" closed="2024-02-05T11:02:51+00:00">452</issue>
+        <ticket>448</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>448-93f0eaa1</id>
+        <lines>35-38</lines>
+        <body>Continue refactoring of the Details#source() method. Here we have a method that returns an Optional Path and it is not clear why it is returning an Optional instead of just Path. We either should refactor this method to return a Path or justify why it is so.</body>
+        <file>src/main/java/org/eolang/jeo/Details.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-02-01T15:13:39Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/488" closed="2024-04-04T09:12:03+00:00">488</issue>
+    <ticket>464</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>464-ae66ec74</id>
+    <lines>87-91</lines>
+    <body>Enable 'spring-fat' Integration Test. Currently, the 'spring-fat' integration test is disabled because it fails. The reason is that the 'jeo-maven-plugin' does not support many java features. We need to implement them and enable the test.</body>
+    <file>src/it/spring-fat/pom.xml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-03-04T13:12:26Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/506" closed="2025-03-18T09:34:01+00:00">506</issue>
+        <ticket>488</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>488-9f6378f7</id>
+        <lines>80-85</lines>
+        <body>Enable the execution of the `xmir-to-phi` goal. The `xmir-to-phi` goal is currently disabled because it has some bug. You can read more about it right here: https://github.com/objectionary/eo/issues/2938 Once it is implemented, this comment should be removed and the goal should be enabled.</body>
+        <file>src/it/custom-transformations/pom.xml</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-03-13T20:33:20Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/509" closed="2024-03-15T15:19:17+00:00">509</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-6e1a4d16</id>
+        <lines>44-51</lines>
+        <body>Implement the rest of instruction mappings to XMIR directives. Currently we left several instructions unimplemented: {@link #visitLookupSwitchInsn}, {@link #visitTableSwitchInsn}, {@link #visitMultiANewArrayInsn}, {@link #visitIincInsn}. We need to implement them and add tests for them. Don't forget to enable 'custom-transformations' integration test.</body>
+        <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesMethodVisitor.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-03-15T08:11:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/515" closed="2024-03-20T15:40:46+00:00">515</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-e4d08dfd</id>
+        <lines>237-241</lines>
+        <body>Implement lambdas assembling and disassembling. Enable the execution of the `custom-transformations` integration test. Currently, the `spring-fat` integration test is disabled because it fails. The reason is that the `jeo-maven-plugin` does not support lamdas. We need to implement them and enable the test.</body>
+        <file>pom.xml</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-03-19T08:11:13Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/518" closed="2024-03-22T13:44:43+00:00">518</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-9acefbf7</id>
+        <lines>237-243</lines>
+        <body>Enable 'exceptions' integration test. Enable the execution of the `exceptions` integration test. Currently, the `exceptions` integration test is disabled because it fails. The reason is that we broke something in field parsing and we need to fix it. Actually, it's important to pay attention to XmlField, DirectivesField and DataType classes. The problem started after the 'null' return of the `DataType#decode` method. So it's important to cover all this classes by unit tests and then enable the integration test.</body>
+        <file>pom.xml</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-03-21T16:27:14Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/520" closed="2024-10-03T09:30:39+00:00">520</issue>
+            <ticket>518</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>518-461947c9</id>
+            <lines>39-42</lines>
+            <body>Refactor DataType, HexData and HexString classes. This classes has some sort of intersection in their responsibilities. We should refactor them to make them more clear and separate. Maybe we can merge them into one class or split them into more classes.</body>
+            <file>src/main/java/org/eolang/jeo/representation/DataType.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2024-03-22T13:18:56Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/524" closed="2024-03-26T16:38:31+00:00">524</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-349e51c4</id>
+        <lines>226-236</lines>
+        <body>Implement frame instructions assembling. This method is not implemented yet, but it's crucial for the correct assembling and disassembling of a method. We previously avoided this implementation because ClassWriter.COMPUTE_FRAMES flag is used in the ClassWriter Which automatically did it for us (it computed all frames automatically). However, the usage of this flag leads to problems with 'spring-fat' integration test. Particularly, if we use this method, Java ASM library requires all the project dependencies to be present in the classpath, which is usually impossible for large projects that extensively use reflection and classloading.</body>
+        <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesMethodVisitor.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-03-25T14:32:07Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/526" closed="2024-04-03T15:42:45+00:00">526</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-6654157b</id>
+        <lines>237-244</lines>
+        <body>Enable 'eo-to-bytecode' integration test. Enable the execution of the `eo-to-bytecode` integration test. Currently, the `eo-to-bytecode` integration test is disabled because it fails. After disabling automatic computation of bytecode frames, max locals and max stack we broke backward compatibility with the `eo-to-bytecode` integration test. We need to enable automatic computation of bytecode frames, max locals and max stack in case of missing frame information. Don't forget to remove ClassWriter.COMPUTE_FRAMES from CustomClassWriter.</body>
+        <file>pom.xml</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-03-26T16:08:20Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/528" closed="2024-04-03T14:28:58+00:00">528</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-6ff6c12e</id>
+        <lines>48-52</lines>
+        <body>Disable automatic frame computation in the ClassWriter. The ClassWriter is currently configured to automatically compute the stack map frames. This is a very expensive operation and it is not necessary for our use case. But if we disable it, tests fail. We need to investigate why this happens and fix it.</body>
+        <file>src/main/java/org/eolang/jeo/representation/bytecode/CustomClassWriter.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-03-27T10:00:10Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/540" closed="2024-10-10T16:36:35+00:00">540</issue>
+            <ticket>528</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>528-c5cdad7d</id>
+            <lines>127-134</lines>
+            <body>Remove ad-hoc solution for method frames, stack and locals computation. This method is a workaround for the issue with the ASM library that doesn't allow to compute frames and stack values per method basis. Here I use reflection to change the computation mode to COMPUTE_ALL_FRAMES and then restore it back to the original value. This is a hacky solution and should be removed once the issue is fixed in the ASM library. Another option is to compute all this values ourselves. You can read more about this issue here: https://stackoverflow.com/questions/78262674/how-to-mix-manual-and-automatic-calculation-of-max-locals-max-stack-and-frames</body>
+            <file>src/main/java/org/eolang/jeo/representation/bytecode/CustomClassWriter.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2024-04-03T14:14:40Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/750">750</issue>
+                <ticket>540</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>540-0aebf33b</id>
+                <lines>104-109</lines>
+                <body>Compute StackMap frames for Java methods. Currently we compute only max locals and max stack values for the methods. See {@link BytecodeMethod#computeMaxs()} method. However it's not enough to compute only max locals and max stack values. We also need to compute StackMap frames for the methods. When we compute frames we can remove this class entirely.</body>
+                <file>src/main/java/org/eolang/jeo/representation/bytecode/CustomClassWriter.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2024-10-10T15:46:18Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/751" closed="2024-10-11T14:45:21+00:00">751</issue>
+                <ticket>540</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>540-a5f1402b</id>
+                <lines>40-43</lines>
+                <body>Refactor the MaxLocals class. The MaxLocals class has a high cognitive complexity. Refactor the class to reduce the complexity. You might also extract some methods to make the class more readable. Don't forget to remove the @SuppressWarnings.</body>
+                <file>src/main/java/org/eolang/jeo/representation/bytecode/MaxLocals.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2024-10-10T15:46:18Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/752" closed="2024-10-11T14:45:22+00:00">752</issue>
+                <ticket>540</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>540-50609d1b</id>
+                <lines>38-41</lines>
+                <body>Refactor the MaxStack class. The MaxLocals class has a high cognitive complexity. Refactor the class to reduce the complexity. You might also extract some methods to make the class more readable. Don't forget to remove the @SuppressWarnings.</body>
+                <file>src/main/java/org/eolang/jeo/representation/bytecode/MaxStack.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2024-10-10T15:46:18Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/531" closed="2024-03-29T18:56:00+00:00">531</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-e02e0174</id>
+        <lines>8-10</lines>
+        <body>Add more examples of annotations usage. Currenlty we support only some annotations usage. Add more examples, especially when we use another annotations inside, or when we have more complex annotations.</body>
+        <file>src/it/annotations/src/main/java/org/eolang/jeo/annotations/AnnotationsApplication.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-03-29T06:51:51Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/534">534</issue>
+            <ticket>531</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>531-462261de</id>
+            <lines>32-35</lines>
+            <body>Check default values for annotation properties. We still encounter some problems with annotation processing. Especially with Autowired annotation from Spring Framework. It's relatively simple annotation, but it's not processed correctly.</body>
+            <file>src/it/annotations/src/main/java/org/eolang/jeo/annotations/AnnotationsApplication.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2024-03-29T15:35:50Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/536" closed="2024-09-12T16:53:20+00:00">536</issue>
+                <ticket>534</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>534-73cb9964</id>
+                <lines>36-41</lines>
+                <body>Refactor the code to reduce complexity and remove null values. Currently many classes use null checks in many places, including DirectivesAnnotationVisitor. This happens because the Java ASM library produce them a lot. I added accidentally checks, but they look awful. We need to refactor the code to remove these checks and make it more readable. Moreover, I would pay attention to all Null usages in the project.</body>
+                <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesAnnotationVisitor.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2024-04-02T09:18:03Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/537" closed="2025-11-17T12:43:57+00:00">537</issue>
+                <ticket>534</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>534-d00ee4c1</id>
+                <lines>37-40</lines>
+                <body>Refactor DirectivesMethod class to simplify the code. Currently, the class has a lot of methods and fields. It's kind of hard to understand what this class does. We need to refactor it to make it more readable and understandable. Moreover, in many places this class uses null checks, which is not good.</body>
+                <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesMethod.java</file>
+                <author>volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2024-04-02T09:18:03Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/699" closed="2024-11-07T15:55:51+00:00">699</issue>
+                    <ticket>537</ticket>
+                    <estimate>60</estimate>
+                    <role>DEV</role>
+                    <id>537-f53b5743</id>
+                    <lines>92-97</lines>
+                    <body>Refactor {@link AsmProgram} class. It's too big and contains a lot of methods. We need to refactor it to make it more readable and maintainable. Maybe it's worth splitting it into several classes. Don't forget to add/update the tests. Don't forget to remove PMD and Checkstyle suppressions.</body>
+                    <file>src/main/java/org/eolang/jeo/representation/asm/AsmProgram.java</file>
+                    <author>volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2024-09-12T15:51:49Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/700" closed="2024-09-30T11:11:13+00:00">700</issue>
+                    <ticket>537</ticket>
+                    <estimate>60</estimate>
+                    <role>DEV</role>
+                    <id>537-cdf72e79</id>
+                    <lines>41-44</lines>
+                    <body>Refactor {@link BytecodeAnnotationProperty}. The class uses public static methods to create instances of itself. We should use constructors instead of static methods. Don't forget to add/update the tests.</body>
+                    <file>src/main/java/org/eolang/jeo/representation/bytecode/BytecodeAnnotationProperty.java</file>
+                    <author>volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2024-09-12T15:51:49Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/701" closed="2024-09-30T11:11:14+00:00">701</issue>
+                    <ticket>537</ticket>
+                    <estimate>60</estimate>
+                    <role>DEV</role>
+                    <id>537-37873a12</id>
+                    <lines>38-41</lines>
+                    <body>Refactor {@link DirectivesAnnotationProperty} class. The class uses public static methods to create instances of itself. We should use constructors instead of static methods. Don't forget to add/update the tests.</body>
+                    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesAnnotationProperty.java</file>
+                    <author>volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2024-09-12T15:51:49Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/532" closed="2024-10-07T13:18:28+00:00">532</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-c2b6a994</id>
+        <lines>35-39</lines>
+        <body>Refactor Annotations Implementation. Current implementation of annotations mapping is rather complicated. I would say it's over-engineered. We have a lot of classes and interfaces that are used to represent annotations in different formats. We should refactor this implementation to make it simpler and more readable.</body>
+        <file>src/main/java/org/eolang/jeo/representation/bytecode/BytecodeAnnotation.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-03-29T06:51:51Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/543" closed="2025-03-18T11:37:50+00:00">543</issue>
+        <ticket>488</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>488-a7265a1a</id>
+        <lines>88-92</lines>
+        <body>Enable Bytecode Verification For Spring Fat Integration Test. We skip verification because the Spring Framework uses many classes that are not in the classpath and the plugin cannot verify the correctness of the transformation. For not it's not so crucial, but in the future, we should enable it.</body>
+        <file>src/it/spring-fat/pom.xml</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-04-04T08:47:52Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/489" closed="2024-03-07T14:01:44+00:00">489</issue>
+    <ticket>477</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>477-f74c7af9</id>
+    <lines>149-151</lines>
+    <body>Here we parse HexString to parse arguments. We should delegate this to HexData class. This will make the code more readable and maintainable. Also, we should add tests for this.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlInstruction.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-03-04T13:12:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/501" closed="2024-11-20T18:00:38+00:00">501</issue>
+    <ticket>499</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>499-698de11f</id>
+    <lines>57-62</lines>
+    <body>Use AllLabels properly to avoid the need to clear the cache. It's better to create a new instance of AllLabels for each method that is parsed. AllLabels shouldn't share common cache between different methods. The following line were added to optimize the performance of the code. This is dangerous and should be removed as soon as possible. Moreover, we have the same solution in {@link Assemble} class.</body>
+    <file>src/main/java/org/eolang/jeo/Disassemble.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-03-11T13:32:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/591" closed="2024-09-19T15:21:42+00:00">591</issue>
+    <ticket>589</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>589-106b4852</id>
+    <lines>35-38</lines>
+    <body>Add Unit Tests for DirectivesAttribute class. DirectivesAttribute class is not covered by unit tests. Add unit tests for DirectivesAttribute class in order to increase the code coverage and improve the quality of the code.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesAttribute.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-14T11:33:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/592" closed="2024-09-19T15:21:44+00:00">592</issue>
+    <ticket>589</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>589-249cdd88</id>
+    <lines>36-39</lines>
+    <body>Add Unit Tests for DirectivesAttributes class. DirectivesAttributes class is not covered by unit tests. Add unit tests for DirectivesAttributes class in order to increase the code coverage and improve the quality of the code.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesAttributes.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-14T11:33:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/593" closed="2024-09-27T12:06:23+00:00">593</issue>
+    <ticket>589</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>589-a5256368</id>
+    <lines>34-37</lines>
+    <body>Add Unit Tests for DirectivesNullable class. DirectivesNullable class is not covered by unit tests. Add unit tests for DirectivesNullable class in order to increase the code coverage and improve the quality of the code.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesNullable.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-14T11:33:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/594">594</issue>
+    <ticket>589</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>589-15fcd71b</id>
+    <lines>32-35</lines>
+    <body>Add Unit Tests for XmlAttribute class. XmlAttribute class is not covered by unit tests. Add unit tests for XmlAttribute class in order to increase the code coverage and improve the quality of the code.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlAttribute.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-14T11:33:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/595" closed="2024-09-18T08:05:04+00:00">595</issue>
+    <ticket>589</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>589-07aa30a5</id>
+    <lines>31-34</lines>
+    <body>Add Unit Tests for XmlAttributes class. XmlAttributes class is not covered by unit tests. Add unit tests for XmlAttributes class in order to increase the code coverage and improve the quality of the code.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlAttributes.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-14T11:33:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/598" closed="2024-09-16T15:04:16+00:00">598</issue>
+    <ticket>596</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>596-702c7589</id>
+    <lines>33-36</lines>
+    <body>Add unit tests for the XmlParam class. We should add unit tests for the XmlParam class. The tests should cover the following methods: {@link #index()} and {@link #annotations()}. This will help us to ensure that the class is working as expected.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlParam.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-05-15T11:50:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/618" closed="2024-10-09T08:25:24+00:00">618</issue>
+    <ticket>610</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>610-17d90f0c</id>
+    <lines>70-76</lines>
+    <body>Enable EO Printing in 'bytecode-to-eo' it. The `print` goal is currently disabled because it doesn't support Java 8. You can read more about it right here: https://github.com/objectionary/eo/issues/3207 Once it is implemented, this comment should be removed and the goal should be enabled. Don't forget to enable checks in `verify.groovy` file related to `.eo` files. Now they are commented.</body>
+    <file>src/it/bytecode-to-eo/pom.xml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-06-11T09:15:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/619" closed="2025-03-19T13:50:04+00:00">619</issue>
+    <ticket>610</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>610-cf05e2c9</id>
+    <lines>69-75</lines>
+    <body>Enable EO Printing in 'custom-transformations' it. The `print` goal is currently disabled because it doesn't support Java 8. You can read more about it right here: https://github.com/objectionary/eo/issues/3207 Once it is implemented, this comment should be removed and the goal should be enabled. Don't forget to enable checks in `verify.groovy` file related to `.eo` files. Now they are commented.</body>
+    <file>src/it/custom-transformations/pom.xml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-06-11T09:15:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/633" closed="2025-03-20T09:39:32+00:00">633</issue>
+    <ticket>627</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>627-3e5a4432</id>
+    <lines>112-116</lines>
+    <body>Too Long PHI Printing In Spring-Fat IT We need to optimize PHI pringint in `eo-maven-plugin` and then enable the code below. You can check the progress of the issue by the link: https://github.com/objectionary/eo/issues/3257</body>
+    <file>src/it/spring-fat/pom.xml</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-07-07T15:33:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/634" closed="2024-09-26T14:29:17+00:00">634</issue>
+    <ticket>627</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>627-16d688fd</id>
+    <lines>152-155</lines>
+    <body>Remove Getters From {@link BytecodeAnnotation}. We opened {@link #descriptor()} and {@link #isVisible()} methods to simplify unit testing. However, now we violate encapsulation idea at all. It's better to find another way to test correct transformations.</body>
+    <file>src/main/java/org/eolang/jeo/representation/bytecode/BytecodeAnnotation.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-07-07T15:33:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/635" closed="2024-11-29T11:22:47+00:00">635</issue>
+    <ticket>627</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>627-fdafed58</id>
+    <lines>37-42</lines>
+    <body>Remove 'line' attribute usages. We add 'line' attribute in many places to be able print XMIR representation as PHI expressions. Actually we shouldn't add any artificial attributes to the representation. When the following issue will be solved we should remove 'line' attribute from all places where it used: https://github.com/objectionary/eo/issues/3189</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesData.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-07-07T15:33:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/636" closed="2024-09-09T15:07:44+00:00">636</issue>
+    <ticket>627</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>627-e9cbafe1</id>
+    <lines>35-43</lines>
+    <body>Improve Encapsulation of XmlClassProperties. Currently we are exposing many methods like: - {@link XmlClassProperties#access()} - {@link XmlClassProperties#signature()} - {@link XmlClassProperties#supername()} - {@link XmlClassProperties#interfaces()} They are some sort of getters. This encapsulation violation tells us about poor design. We need to hide this methods and provide a better way to access this properties. Most probably the problem is deeper than just hiding the methods. We need to rethink the design.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlClassProperties.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-07-07T15:33:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/697" closed="2024-09-13T09:37:56+00:00">697</issue>
+        <ticket>636</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>636-2df2d4bf</id>
+        <lines>111-115</lines>
+        <body>Rremove {@link XmlInstruction#toNode()} method. This method is required for inserting instructions into {@link XmlMethod}. Actually, we should insert instructions not to the {@link XmlMethod}, but to the {@link BytecodeMethod}. When this will be implemented in `opeo-maven-plugin`, we should remove this method.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/XmlInstruction.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2024-09-09T14:22:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/637" closed="2024-09-05T12:10:39+00:00">637</issue>
+    <ticket>627</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>627-6ec10c06</id>
+    <lines>128-133</lines>
+    <body>Simplify Method Names Retrieval. Currently we have some ad-hoc solution for method retrieval. The problem is code is a bit cryptic and hard to understand. Moreover the logic under method naming is spread around several places like inside {@link #name()} method as well as inside {@link MethodName#decoded()} method. In other words, it would be great to find sophisticated solution for this problem.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlMethod.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-07-07T15:33:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/646" closed="2024-08-09T12:56:53+00:00">646</issue>
+    <ticket>640</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>640-78f1c6b5</id>
+    <lines>15-19</lines>
+    <body>Enable Windows OS. To do so, you just need to add 'windows-2022' below. However, we can do it, because of the following problem: https://github.com/objectionary/eo/issues/3307 After the problem is resolved, we can enable Windows OS.</body>
+    <file>.github/workflows/maven.test.yaml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-07-30T11:18:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/647" closed="2024-09-03T11:44:20+00:00">647</issue>
+    <ticket>640</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>640-7dbdf202</id>
+    <lines>73-76</lines>
+    <body>Remove {@link #cleanAliases(XML)} method. This method is some sort of crutch to remove aliases from the EO. Actually, it's better just not to add them if they are not needed. So, we need to remove this method and refactor the code to not add aliases.</body>
+    <file>src/main/java/org/eolang/jeo/representation/VerifiedEo.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-07-30T11:18:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/650" closed="2024-08-02T10:03:51+00:00">650</issue>
+    <ticket>648</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>648-2bb14378</id>
+    <lines>280-283</lines>
+    <body>Upgrade qulice-maven-plugin version. Currently we can't do it because qulice fails on ubuntu 20.04 and Java 8. We should find the original reason why this happens and upgrade the version. Up to 0.23.0, or latest.</body>
+    <file>pom.xml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-07-31T09:16:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/714">714</issue>
+    <ticket>710</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>710-f1d4fa80</id>
+    <lines>34-39</lines>
+    <body>Refactor the usage of {@link JeoFqn} in the project. The solution with FQN transformation is not the best one. We create this object many times and use it in many places. All the usages are spread across the project. We need to refactor the project to use the FQN in a more centralized way. The same problem is related to {@link EoFqn}.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/JeoFqn.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-09-19T10:41:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/722" closed="2024-10-02T15:18:15+00:00">722</issue>
+    <ticket>715</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>715-21a493cf</id>
+    <lines>31-35</lines>
+    <body>Refactor {@link XmlBytes} class. We should decide whether to keep this class or not. If we decide to keep it, we need to consider the combination of {@link XmlBytes#parse()}, {@link XmlBytes#text()} and {@link XmlBytes#hex()} methods into one method.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlBytes.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-09-23T13:30:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/723" closed="2024-09-27T09:26:08+00:00">723</issue>
+    <ticket>715</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>715-1e382a31</id>
+    <lines>34-38</lines>
+    <body>Simplify Xml Transformation Tests Currently we compare XMLs with their String representations. It leads to significant efforts to update this XML when the structure changes. We should use domain classes from {@link org.eolang.jeo.representation.bytecode} package. We should refactor all "Xml..." tests to use these classes.</body>
+    <file>src/test/java/org/eolang/jeo/representation/xmir/XmlInstructionTest.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-09-23T13:30:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/772" closed="2025-07-18T11:23:12+00:00">772</issue>
+    <ticket>770</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>770-2f429c73</id>
+    <lines>95-99</lines>
+    <body>Get rid of code() method. This method looks like a getter. For now this method should be used by &lt;a href="https://github.com/objectionary/opeo-maven-plugin"&gt;opeo&lt;/a&gt; in it/AgentsIT.java. Let's remove code() method, so this class will be getter-free.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/OpcodeName.java</file>
+    <author>h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-10-18T18:16:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/829" closed="2025-02-12T10:18:21+00:00">829</issue>
+    <ticket>824</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>824-0b25b6fe</id>
+    <lines>24-31</lines>
+    <body>Use 'full' profile for integration tests in JNA invoker This test is currently using the 'short' profile, which excludes 'phi/unphi' and 'unroll' transformations since they take too long to run. Here is the detailed explanation of the problem: - https://github.com/objectionary/eo/issues/3257 When the issue is fixed, use the 'full' profile instead of 'short'. Just to compare, the 'short' path takes 13 seconds to run, while the 'full' path takes 31 minutes.</body>
+    <file>src/it/jna/invoker.properties</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-10-31T11:33:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/865">865</issue>
+    <ticket>845</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>845-380c5294</id>
+    <lines>34-38</lines>
+    <body>Decompile Bytecode Listing. Currently we print bytecode listing to XMIR without decompiling it. It's just raw, but human-readable bytecode. We can make one step forward and try to decompile this code to Java. This would be a great improvement for readability of this listing.</body>
+    <file>src/main/java/org/eolang/jeo/representation/BytecodeListing.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-13T12:23:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/869" closed="2024-11-19T09:44:15+00:00">869</issue>
+    <ticket>784</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>784-069c94bc</id>
+    <lines>31-34</lines>
+    <body>Refactor Transformation, Translation and Translator. These abstractions are overcomplicated. Most probably, we can remove some of them. They were added to solve the immediate issues without thinking about the long-term architecture. Let's refactor them to make the code simpler and more maintainable.</body>
+    <file>src/main/java/org/eolang/jeo/Transformation.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-11-14T13:16:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/890" closed="2024-12-26T08:19:55+00:00">890</issue>
+    <ticket>883</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>883-b718ad2f</id>
+    <lines>118-121</lines>
+    <body>Optimize jeo.* Objects Collection for Metas. Currently, we are required to pre-build a part of XML, find all the jeo objects by using Xpath and then build the XML. This is not efficient. We should find a way to collect all the jeo objects on the way.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesMetas.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-21T08:25:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/893" closed="2024-11-22T15:22:35+00:00">893</issue>
+    <ticket>884</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>884-b6f9636f</id>
+    <lines>31-36</lines>
+    <body>Refactor DisassembleMode Usage. Actually, we have much more disassembling options, than mode. Maybe it make sense to cobine them in this class. For example, 'counting' option, that will count the number of instructions in the method. So, let's refactor DisassembleMode to DisassembleOptions and add a new option 'counting'. We also should simplify the code on our way.</body>
+    <file>src/main/java/org/eolang/jeo/representation/asm/DisassembleMode.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-21T10:16:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/909" closed="2025-03-21T08:23:24+00:00">909</issue>
+    <ticket>850</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>850-88250cdc</id>
+    <lines>132-136</lines>
+    <body>Retrieve License From The File. We use license as a file in the project root. See LICENSE.txt file. It's better to read this file and return its content. Otherwise, we have to maintain the license in two places.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesProgram.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-11-27T14:59:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/926" closed="2024-12-26T08:19:57+00:00">926</issue>
+    <ticket>889</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>889-a5a62aec</id>
+    <lines>215-219</lines>
+    <body>Use the `Schema` class instead of `OptimizedSchema`. The `OptimizedSchema` class is a temporary solution to avoid the performance issues with the `Schema` class. We will be able to remove this class after the following issue is resolved: https://github.com/jcabi/jcabi-xml/issues/277</body>
+    <file>src/main/java/org/eolang/jeo/representation/XmirRepresentation.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-12-02T07:15:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/936" closed="2025-02-12T10:18:22+00:00">936</issue>
+    <ticket>923</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>923-366c7448</id>
+    <lines>139-144</lines>
+    <body>Do we need all the transformations in the unroll method? Most probably, some of the steps might be skipped and removed from the unroll method. We need to investigate which steps are necessary and which are not. This issue implies that it's possible: https://github.com/objectionary/jeo-maven-plugin/issues/923 At least for add-cuts.xsl, remove-cuts.xsl, and vars-float-down.xsl.</body>
+    <file>src/main/java/org/eolang/jeo/representation/CanonicalXmir.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-12-03T09:25:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/946" closed="2025-01-15T09:35:17+00:00">946</issue>
+    <ticket>939</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>939-ad8e7197</id>
+    <lines>64-66</lines>
+    <body>Fix All The Warnings in the EO Representation. Here we just catch only the errors in the EO representation. We need to fix all the warnings in the EO representation as well.</body>
+    <file>src/main/java/org/eolang/jeo/representation/VerifiedEo.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-12-26T08:07:39Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/963">963</issue>
+        <ticket>946</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>946-d37ddd80</id>
+        <lines>38-44</lines>
+        <body>Generate Documentation from The Source Code. We might try to generate documentation about jeo objects from the source code. See the "Full List of Jeo Objects" section in the README file. This was originally suggested here: &lt;a href="https://github.com/objectionary/jeo-maven-plugin/pull/961#discussion_r1908445938"&gt; PR comment. &lt;/a&gt;.</body>
+        <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesJeoObject.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2025-01-10T08:32:16Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/965" closed="2025-02-20T10:40:49+00:00">965</issue>
+        <ticket>946</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>946-4162b501</id>
+        <lines>161-163</lines>
+        <body>Remove the ignore list from the 'validate' method. The ignore list is used to ignore some defects that we haven't implemented yet. We should remove the ignore list and fix the defects that are being ignored.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/JcabiXmlNode.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2025-01-15T09:28:35Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1008" closed="2025-02-28T09:42:18+00:00">1008</issue>
+            <ticket>965</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>965-97ee2811</id>
+            <lines>161-166</lines>
+            <body>Remove 'object-does-not-match-filename' from the ignore list. This is a temporary solution to ignore the 'object-does-not-match-filename' defect. Most probably, this check will be removed at all: https://github.com/objectionary/lints/issues/352 If so, we should remove the ignore list after the issue is resolved. Otherwise we need to fix filenames.</body>
+            <file>src/main/java/org/eolang/jeo/representation/xmir/JcabiXmlNode.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2025-02-20T10:36:17Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/953" closed="2024-12-27T09:37:59+00:00">953</issue>
+    <ticket>948</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>948-f592bc18</id>
+    <lines>55-59</lines>
+    <body>Use {@link JcabiXmlDoc} instead of {@link NativeXmlDoc}. This class should use {@link JcabiXmlDoc} instead of {@link NativeXmlDoc} because it's more human-readable and easier to maintain. However the current implementation creates some issues in the integration tests. Most probably, we will need to fix them first.</body>
+    <file>src/main/java/org/eolang/jeo/representation/XmirRepresentation.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-12-26T13:21:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/999" closed="2025-02-17T09:39:25+00:00">999</issue>
+    <ticket>824</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>824-4c93d321</id>
+    <lines>24-31</lines>
+    <body>Use 'full' profile for integration tests in JNA invoker This test is currently using the 'short' profile, which excludes 'phi/unphi' transformations since they take too long to run. Here is the detailed explanation of the problem: - https://github.com/objectionary/eo/issues/3257 When the issue is fixed, use the 'full' profile instead of 'short'. Just to compare, the 'short' path takes 13 seconds to run, while the 'full' path takes 31 minutes.</body>
+    <file>src/it/jna/invoker.properties</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-02-12T08:30:21Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1004" closed="2025-03-18T05:45:29+00:00">1004</issue>
+        <ticket>999</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>999-2d69cd53</id>
+        <lines>82-89</lines>
+        <body>Enable XMIR Verification For JNA Integration Test. Currently, we disable XMIR verification for JNA integration test because the following issue: https://github.com/objectionary/lints/issues/338 When this issue is resolved, we should enable XMIR verification back. Pay attention that we disable XMIR verification in two places: 1. In the configuration of the jeo-maven-plugin for disassembling. 2. In the configuration of the jeo-maven-plugin for assembling.</body>
+        <file>src/it/jna/pom.xml</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2025-02-17T08:06:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1144" closed="2025-07-03T15:05:30+00:00">1144</issue>
+    <ticket>1130</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1130-ff52a849</id>
+    <lines>32-37</lines>
+    <body>Enable XMIR Verification The XMIR verification is disabled for now, because it fails due to recent significant changes in the generated XMIR format. We should enable it back. Don't forget to remove the xmirVerification property from the configuration below and all of the rest integration tests.</body>
+    <file>src/it/custom-transformations/pom.xml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-03T08:01:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1145" closed="2025-08-08T13:29:22+00:00">1145</issue>
+    <ticket>1130</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1130-efb54d5f</id>
+    <lines>74-77</lines>
+    <body>Cover {@link XmlValue#object()} with tests. Currently, this method is overly complex and not covered by tests. Actually, this code caused several issues in integration tests which were not caught by unit tests.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/XmlValue.java</file>
+    <author>Volodya Lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-03T08:01:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1146" closed="2025-11-18T11:48:00+00:00">1146</issue>
+    <ticket>1130</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1130-0b17ba34</id>
+    <lines>36-38</lines>
+    <body>Enable {@link #transformsRandomJavaSourceCodeIntoEoAndBack(Path)} test. This test is disabled because it's flaky and sometimes fails on some machines, like MacOS with JDK 17. We should investigate the reason of the failure and enable it.</body>
+    <file>src/test/java/it/JavaSourceCompilationIT.java</file>
+    <author>Volodya Lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-03T08:01:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1147" closed="2025-07-03T15:05:31+00:00">1147</issue>
+    <ticket>1130</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1130-19ec0964</id>
+    <lines>31-34</lines>
+    <body>Enable {@link #verifiesXmirFilesGeneratedFromBytecode} test. It is currently disabled because it requires updating the objectionary/lints dependency. Once the dependency is updated, this test should be enabled to ensure correctness of XMIR files generated from bytecode.</body>
+    <file>src/test/java/org/eolang/jeo/XmirFilesTest.java</file>
+    <author>Volodya Lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-03T08:01:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1148" closed="2025-07-23T10:28:14+00:00">1148</issue>
+    <ticket>1130</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1130-62d77adf</id>
+    <lines>33-42</lines>
+    <body>Remove {@link HasMethod} class and enable tests in {@link BytecodeMethodTest} class. We should find a way to test {@link BytecodeMethod#directives()} method without using {@link HasMethod} class. Once we find a way to do it, we should enable the following tests: - {@link #parsesMethodParameters} - {@link #parsesConstructor} - {@link #parsesConstructorWithParameters} - {@link #parsesIfStatementCorrectly} - {@link #parsesTryCatchInstructions} - {@link #doesNotContainTryCatchBlock} - {@link #generatesDirectivesForMethodWithInstructions()}</body>
+    <file>src/test/java/org/eolang/jeo/representation/bytecode/BytecodeMethodTest.java</file>
+    <author>Volodya Lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-03T08:01:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1149" closed="2025-07-24T09:33:04+00:00">1149</issue>
+    <ticket>1130</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1130-842a0c63</id>
+    <lines>20-23</lines>
+    <body>Find a way to test {@link BytecodeObject#directives(String)}. When you find a way to test it, remove the @Disabled annotation from {@link #convertsSimpleClassWithMethodToXmir()} test. Most probably it will require to remove such classes as {@link HasClass}.</body>
+    <file>src/test/java/org/eolang/jeo/representation/bytecode/BytecodeObjectTest.java</file>
+    <author>Volodya Lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-03T08:01:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1150" closed="2025-07-23T10:28:15+00:00">1150</issue>
+    <ticket>1130</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1130-07fdb879</id>
+    <lines>25-28</lines>
+    <body>Don't use {@link HasMethod} class in 'Bytecode' tests. We should compare generated XMIR with expected XMIR using 'Directives' classes instead. Otherwise, we have to invent such overly complicated classes as {@link HasMethod}. When we will have proper XMIR comparison, we can remove this class.</body>
+    <file>src/test/java/org/eolang/jeo/representation/directives/HasMethod.java</file>
+    <author>Volodya Lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-03T08:01:46Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1198" closed="2025-08-29T13:00:09+00:00">1198</issue>
+        <ticket>1150</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>1150-67375bb6</id>
+        <lines>16-19</lines>
+        <body>This class was added to hide the problem with random name generation It's better to fix the problem with random name generation in directives and remove this class. Find all the usages of {@link org.eolang.jeo.representation.directives.RandName} in directives and make them deterministic. Especially, in tests.</body>
+        <file>src/test/java/org/eolang/jeo/representation/bytecode/Nameless.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2025-07-23T10:02:41Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1267" closed="2025-08-28T13:10:31+00:00">1267</issue>
+    <ticket>1263</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1263-80e55bbb</id>
+    <lines>14-19</lines>
+    <body>Use Format class instead of DisassembleParams. DisassembleParams is rather rigid and cannot be extended with new properties. Moreover, some of the properties in DisassembleParams are related to disassembling in general and not to formatting specifically. We should move all formatting-related properties to Format class and use it in all places where formatting is needed. {@link org.eolang.jeo.representation.asm.DisassembleParams}</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/Format.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-08-22T10:16:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1277" closed="2025-09-08T13:34:03+00:00">1277</issue>
+    <ticket>1274</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1274-4d0cd467</id>
+    <lines>17-19</lines>
+    <body>Implement disassembling module attribute. The module attribute is represented by ModuleNode in ASM. We need to implement the BytecodeModule class to handle this attribute.</body>
+    <file>src/main/java/org/eolang/jeo/representation/bytecode/BytecodeModule.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-09-01T13:12:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1297" closed="2025-09-11T18:11:01+00:00">1297</issue>
+        <ticket>1277</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>1277-69ed21e8</id>
+        <lines>6-10</lines>
+        <body>Finish modules disassmebly and assembly. Here, we set the Java version to 9999+ to avoid running this test in CI, because it uses modules feature, which is available since Java 9. After the disassembly and assembly of modules is finished, we should set it to 9+.</body>
+        <file>src/it/modules/invoker.properties</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2025-09-08T12:45:24Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1314" closed="2025-10-29T11:33:31+00:00">1314</issue>
+            <ticket>1297</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>1297-0f392ff5</id>
+            <lines>41-44</lines>
+            <body>Remove 'mandatory-package' check suppression. We are ignoring 'mandatory-package' check because 'module-info' files don't have package declaration. We should find a way to identify 'module-info' for XMIR.</body>
+            <file>src/main/java/org/eolang/jeo/representation/xmir/JcabiXmlNode.java</file>
+            <author>Volodya Lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2025-09-11T18:10:54Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1315" closed="2025-10-22T10:28:15+00:00">1315</issue>
+            <ticket>1297</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1297-41c5ed93</id>
+            <lines>10-13</lines>
+            <body>Use {@link XmlModuleOpened} in other places. Currently, this class is used only in {@link XmlModule}. It should be used in other places where child nodes are accessed by name. This will help to reduce code duplication and improve the quality of the code.</body>
+            <file>src/main/java/org/eolang/jeo/representation/xmir/XmlChildren.java</file>
+            <author>Volodya Lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2025-09-11T18:10:54Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1278" closed="2025-09-04T14:33:48+00:00">1278</issue>
+    <ticket>1274</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1274-b26068ae</id>
+    <lines>12-14</lines>
+    <body>Implement annotations for record components. Currently, the BytecodeRecordComponent class does not handle annotations. This needs to be implemented to fully support record components in Java bytecode.</body>
+    <file>src/main/java/org/eolang/jeo/representation/bytecode/BytecodeRecordComponent.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-09-01T13:12:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1288" closed="2025-09-05T13:19:34+00:00">1288</issue>
+        <ticket>1278</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>1278-e5f6990f</id>
+        <lines>6-11</lines>
+        <body>Enable 'records' test. We disabled this test because parsing of records from Xmir to Bytecode doesn't work properly. We only convert records to Xmir, but don't convert them back. We need to fix this and enable the test again. To enable the test, change the version to 16+ or higher. Starting point is {@link BytecodeAttribute.RecordComponents}.</body>
+        <file>src/it/records/invoker.properties</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2025-09-04T14:05:58Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1289" closed="2025-10-28T12:49:16+00:00">1289</issue>
+        <ticket>1278</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1278-829c1db5</id>
+        <lines>37-40</lines>
+        <body>Remove 'duplicate-names' check suppression. We are ignoring 'duplicate-names' check because of records that usually have the field names same as the method names which leads to false positives. We should find a way to distinguish between fields and methods in XMIR.</body>
+        <file>src/main/java/org/eolang/jeo/representation/xmir/JcabiXmlNode.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2025-09-04T14:05:58Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1279" closed="2025-09-03T20:34:12+00:00">1279</issue>
+    <ticket>1274</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1274-798a41c0</id>
+    <lines>85-90</lines>
+    <body>Compare the bytecode before and after the conversion. Instead of just checking for the presence of the 'NestHost' attribute, we should compare the entire bytecode before and after the conversion to ensure that no other attributes or instructions are lost or altered during the process. We can't do it right now, because we have some strange 'arg0' attribute after the conversion, which is not present in the original bytecode.</body>
+    <file>src/test/java/org/eolang/jeo/representation/asm/AsmProgramTest.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-09-01T13:12:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1299" closed="2025-10-22T12:04:18+00:00">1299</issue>
+    <ticket>1282</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1282-69520dc6</id>
+    <lines>32-36</lines>
+    <body>Enable xmir verification when objectionary/lints will speed up the checks. Currently, the verification is disabled because it takes too long to check all the generated XMIR files. You can track the progress of speeding up the lints here: https://github.com/objectionary/lints/issues/743 https://github.com/objectionary/lints/issues/744</body>
+    <file>src/it/generics/pom.xml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-09-09T08:02:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1304" closed="2025-09-11T11:56:29+00:00">1304</issue>
+    <ticket>1302</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1302-23b212e1</id>
+    <lines>5-9</lines>
+    <body>Disassemble and assemble custom attributes. Here, we set the Java version to 9999+ to avoid running this test in CI, because it uses custom attributes feature. After the disassembly and assembly of custom attributes is finished, we should set it to 17+.</body>
+    <file>src/it/scala/invoker.properties</file>
+    <author>Rultor.com</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-09-10T14:37:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1369" closed="2025-10-30T14:27:08+00:00">1369</issue>
+    <ticket>1366</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1366-9809b156</id>
+    <lines>45-49</lines>
+    <body>Remove 'idempotent-attribute-is-not-first' check suppression. This check has 'CRITITCAL' priority and it fails for XMIRs generated from EO sources. This check later will be reduced from 'CRITICAL' to 'WARNING': https://github.com/objectionary/jeo-maven-plugin/issues/1366#issuecomment-3376125719 When this is done, we should remove this suppression.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/JcabiXmlNode.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-10-07T14:16:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1370" closed="2025-10-21T12:13:51+00:00">1370</issue>
+    <ticket>1366</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1366-189833df</id>
+    <lines>50-53</lines>
+    <body>Remove 'compound-name' check suppression. Currently, we have several objects with compound names which leads to WARNING from 'compound-name' check. We should rename these objects to have simple names only and then remove this suppression.</body>
+    <file>src/main/java/org/eolang/jeo/representation/xmir/JcabiXmlNode.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-10-07T14:16:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1420" closed="2025-11-19T12:10:54+00:00">1420</issue>
+    <ticket>1183</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1183-dfb4a741</id>
+    <lines>47-50</lines>
+    <body>Class name should should be moved to DirectivesClassProperties Otherwise it breaks component ordering (see the JVM specification). The class name should be between access flags and superclasses - the both of them are defined the the {@link DirectivesClassProperties}.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesClass.java</file>
+    <author>Rultor.com</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-11-17T12:38:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1421" closed="2025-11-19T10:56:25+00:00">1421</issue>
+    <ticket>1183</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1183-8b3570c6</id>
+    <lines>185-187</lines>
+    <body>Signature is a class attribute, not a property. Since 'signature' is a class attribute, but not a property, it makes sense to move it to a {@link DirectivesClass}, to attributes section.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesClassProperties.java</file>
+    <author>Rultor.com</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-11-17T12:38:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1422" closed="2025-11-18T14:30:10+00:00">1422</issue>
+    <ticket>1183</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1183-f5108815</id>
+    <lines>27-30</lines>
+    <body>Sort out local variable directives according to the JVM specification. Currently, the DirectivesLocalVariables class generates directives for local variables, but they are not fully aligned with the JVM specification. The directives should be sorted to match the structure outlined in the specification.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesLocalVariables.java</file>
+    <author>Rultor.com</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-11-17T12:38:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1423" closed="2025-11-18T12:36:44+00:00">1423</issue>
+    <ticket>1183</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1183-f42af202</id>
+    <lines>36-39</lines>
+    <body>Method name should should be moved to DirectivesMethodProperties Otherwise it breaks component ordering (see the JVM specification). The method name should be between access flags and descriptor - the both of them are defined the the {@link DirectivesMethodProperties}.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesMethod.java</file>
+    <author>Rultor.com</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-11-17T12:38:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1424" closed="2025-11-18T11:33:15+00:00">1424</issue>
+    <ticket>1183</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1183-3a3de005</id>
+    <lines>57-60</lines>
+    <body>Sort out the ordering of the components in this class. The components of the DirectivesModule class should be ordered to match the JVM specification. This includes ensuring that the order of requires, exports, opens, uses, and provides aligns with the structure outlined in the specification.</body>
+    <file>src/main/java/org/eolang/jeo/representation/directives/DirectivesModule.java</file>
+    <author>Rultor.com</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-11-17T12:38:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/jeo-maven-plugin/issues/1463" closed="2026-04-09T14:23:41+00:00">1463</issue>
+    <ticket>1461</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1461-16519d90</id>
+    <lines>31-35</lines>
+    <body>Update lints version. Recent changes caused some lints to fail, and we need to update the version to fix it. Don't forget to enable the disabled tests after updating the lints version: - {@link XmirFilesTest#verifiesXmirFilesGeneratedFromBytecode} - {@link XmirFilesTest#verifiesXmirFileGeneratedFromModuleInfo}</body>
+    <file>src/test/java/org/eolang/jeo/XmirFilesTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2026-04-07T14:55:41Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-07-10T13:22:40+00:00" version="0.30.21">
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/feign-resttemplate/issues/3">3</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-f47427a8</id>
+    <lines>1-1</lines>
+    <body>Create a CD pipeline with a Rultor</body>
+    <file>.rultor.yml</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2020-06-29T17:20:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/feign-resttemplate/issues/4" closed="2020-07-02T17:02:00+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-e1ce5a1c</id>
+    <lines>11-11</lines>
+    <body>Add Feign and spring boot dependencies. Preferably import like a BOM --&gt;</body>
+    <file>pom.xml</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2020-06-29T17:20:07Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/feign-resttemplate/issues/10">10</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-4436daf5</id>
+        <lines>15-15</lines>
+        <body>Move versions of dependencies and plugins in properties. Consider importing BOM of projects --&gt;</body>
+        <file>pom.xml</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2020-07-02T16:57:09Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/feign-resttemplate/issues/5" closed="2020-07-05T08:53:04+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-73f27902</id>
+    <lines>12-12</lines>
+    <body>Add Kotlin support. This needs to develop in kotlin lang--&gt;</body>
+    <file>pom.xml</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2020-06-29T17:20:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/feign-resttemplate/issues/6" closed="2020-07-10T13:22:35+00:00">6</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-b1531c08</id>
+    <lines>13-13</lines>
+    <body>Add code coverage tool to integrate with CodeCov--&gt;</body>
+    <file>pom.xml</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2020-06-29T17:20:07Z</time>
+    <children>
+      <puzzle alive="true">
+        <ticket>6</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>6-4637f8a2</id>
+        <lines>1-1</lines>
+        <body>Remove after creating some classes in the kotlin directory. For now, this needs to work Jacoco plugin</body>
+        <file>src/main/kotlin/org/aivinog1/feign/resttemplate/client/Demo.kt</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2020-07-07T14:30:16Z</time>
+        <children/>
+        <issue href="https://github.com/aivinog1/feign-resttemplate/issues/18">18</issue>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/feign-resttemplate/issues/11" closed="2020-07-07T14:15:36+00:00">11</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-5a75daf0</id>
+    <lines>13-13</lines>
+    <body>Add checkstyle too support for kotlin. --&gt;</body>
+    <file>pom.xml</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2020-07-02T16:57:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/feign-resttemplate/issues/12">12</issue>
+    <ticket>8</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>8-bdb609e5</id>
+    <lines>15-16</lines>
+    <body>Remove this test when starting to implement the main feature (RestTemplate client for Feign). For now, this is a naive implementation of this</body>
+    <file>src/test/java/org/aivinog1/feign/resttemplate/client/SimpleClientTest.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2020-07-02T16:57:09Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

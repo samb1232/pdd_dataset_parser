@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-06-06T12:19:26+00:00" version="0.30.3">
+  <puzzle alive="false">
+    <issue href="https://github.com/skapral/puzzlerbot/issues/7" closed="2018-05-24T18:42:12+00:00">7</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-f350542a</id>
+    <lines>46-46</lines>
+    <body>Implement three-paragraphs approach according the provided documentation.</body>
+    <file>puzzler-core/src/main/java/com/github/skapral/puzzler/core/text/threepars/package-info.java</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-05-24T18:09:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/skapral/puzzlerbot/issues/15" closed="2018-06-05T20:49:26+00:00">15</issue>
+        <ticket>7</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>7-788393cd</id>
+        <lines>42-43</lines>
+        <body>Split this object to two: one for splitting text to paragraphs, another for trimming empty paragraphs in the beginning and end.</body>
+        <file>puzzler-core/src/main/java/com/github/skapral/puzzler/core/text/threepars/TxtStandard.java</file>
+        <author>Kapralov Sergey</author>
+        <email>skapralov@mail.ru</email>
+        <time>2018-05-25T19:55:10Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/skapral/puzzlerbot/issues/8" closed="2018-05-24T22:53:31+00:00">8</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-4e85bc48</id>
+    <lines>37-40</lines>
+    <body>Unstab the {@link PsrcFromGithubComments#puzzles()} method. It must go through the comment's list, parse them using threepars approach (see {@link com.github.skapral.puzzler.core.text.threepars}), extract puzzles from there and return to the client.</body>
+    <file>puzzler-web/src/main/java/com/github/skapral/puzzler/github/source/PsrcFromGithubComments.java</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-05-24T18:09:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/skapral/puzzlerbot/issues/11" closed="2018-05-28T16:27:15+00:00">11</issue>
+        <ticket>8</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>8-e08839fd</id>
+        <lines>36-36</lines>
+        <body>Unstub PsrcFromGithubIssueEvent.</body>
+        <file>puzzler-web/src/main/java/com/github/skapral/puzzler/github/source/PsrcFromGithubIssueEvent.java</file>
+        <author>Kapralov Sergey</author>
+        <email>skapralov@mail.ru</email>
+        <time>2018-05-24T22:44:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/skapral/puzzlerbot/issues/12">12</issue>
+        <ticket>8</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>8-ffa307e5</id>
+        <lines>38-38</lines>
+        <body>Describe how to properly place puzzles so that puzzler bot discovers them.</body>
+        <file>README.md</file>
+        <author>Kapralov Sergey</author>
+        <email>skapralov@mail.ru</email>
+        <time>2018-05-24T22:44:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/skapral/puzzlerbot/issues/16" closed="2018-05-28T16:27:17+00:00">16</issue>
+        <ticket>8</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>8-79a8e3d7</id>
+        <lines>36-36</lines>
+        <body>Unstub PsrcFromGithubPullRequestEvent.</body>
+        <file>puzzler-web/src/main/java/com/github/skapral/puzzler/github/source/PsrcFromGithubPullRequestEvent.java</file>
+        <author>Kapralov Sergey</author>
+        <email>skapralov@mail.ru</email>
+        <time>2018-05-25T19:55:10Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/skapral/puzzlerbot/issues/17" closed="2018-05-27T00:31:57+00:00">17</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>2-56968fea</id>
+    <lines>52-52</lines>
+    <body>Replace {@link PsrcStubbedFromGithubEvent} with {@link com.github.skapral.puzzler.github.source.PsrcFromGithubEvent}.</body>
+    <file>puzzler-web/src/main/java/com/github/skapral/puzzler/web/jersey/GithubHookEndpoint.java</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-05-25T19:55:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/skapral/puzzlerbot/issues/18" closed="2018-05-25T20:57:47+00:00">18</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>2-8b88148b</id>
+    <lines>32-33</lines>
+    <body>refactor all objects, which work with Github API, to encapsulate and use {@link GithubAPI}.</body>
+    <file>puzzler-web/src/main/java/com/github/skapral/puzzler/github/location/GithubAPI.java</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-05-25T19:55:10Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/skapral/puzzlerbot/issues/20" closed="2018-05-26T00:05:07+00:00">20</issue>
+        <ticket>18</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>18-99bd3ed6</id>
+        <lines>34-35</lines>
+        <body>Implement {@link GithubMockServer} and cover objects which access Github API with tests.</body>
+        <file>puzzler-web/src/main/java/com/github/skapral/puzzler/github/mock/GithubMockServer.java</file>
+        <author>Kapralov Sergey</author>
+        <email>skapralov@mail.ru</email>
+        <time>2018-05-25T20:31:16Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/skapral/puzzlerbot/issues/22">22</issue>
+            <ticket>20</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>20-c1aa8a54</id>
+            <lines>44-44</lines>
+            <body>Improve test coverage for {@link ItGithubIssues}.</body>
+            <file>puzzler-web/src/main/java/com/github/skapral/puzzler/github/itracker/ItGithubIssues.java</file>
+            <author>Kapralov Sergey</author>
+            <email>skapralov@mail.ru</email>
+            <time>2018-05-26T00:00:50Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/skapral/puzzlerbot/issues/30">30</issue>
+    <ticket>27</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>27-7995c0a8</id>
+    <lines>66-66</lines>
+    <body>refactor this class by splitting it to smaller composable components</body>
+    <file>puzzler-web/src/main/java/com/github/skapral/puzzler/github/source/PsrcFromGithubEvent.java</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-05-28T15:48:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/skapral/puzzlerbot/issues/33">33</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>31-c7cfd7be</id>
+    <lines>5-5</lines>
+    <body>to add some badge which will show the `@puzzlerbot`'s status.</body>
+    <file>README.md</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-05-28T17:08:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/skapral/puzzlerbot/issues/34" closed="2018-05-28T21:26:37+00:00">34</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>31-5122b7e8</id>
+    <lines>51-51</lines>
+    <body>Define how to quickly set up the puzzler bot on the GitHub project.</body>
+    <file>README.md</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-05-28T17:03:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>69</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>69-9dd0b135</id>
+    <lines>44-45</lines>
+    <body>Mockserver classes must be fully encapsulated. `RequestFunction` and `ResponseFunction` should not expose `HttpRequest` and `HttpResponse` to public.</body>
+    <file>puzzler-core/src/main/java/com/github/skapral/puzzler/mock/MockSrvImplementation.java</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-06-06T11:04:48Z</time>
+    <children/>
+    <issue href="https://github.com/skapral/puzzlerbot/issues/72">72</issue>
+  </puzzle>
+</puzzles>

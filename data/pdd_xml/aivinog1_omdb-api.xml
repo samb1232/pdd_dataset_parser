@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-12-08T12:20:57+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/omdb-api/issues/3" closed="2019-11-10T04:29:11+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-f5a0ef9f</id>
+    <lines>1-1</lines>
+    <body>Let's integrate with Rultor. We need this to check this PR before merge.</body>
+    <file>.rultor.yml</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-11-02T14:48:17Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/24">24</issue>
+        <ticket>3</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>3-baa049cb</id>
+        <lines>12-12</lines>
+        <body>Let's create a deploy and release stage. The artifact should be deployed in some public maven repository.</body>
+        <file>.rultor.yml</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T04:25:53Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/omdb-api/issues/4">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-afea31da</id>
+    <lines>2-2</lines>
+    <body>Needs to create a good looking README.md and move closer to the good community profile: https://github.com/aivinog1/omdb-api/community)</body>
+    <file>README.md</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-11-02T14:48:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/omdb-api/issues/5" closed="2019-11-10T04:04:54+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-eae95664</id>
+    <lines>1-1</lines>
+    <body>Let's start to implement a wrapper of the OMDB API.</body>
+    <file>src/main/java/package-info.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-11-02T14:48:17Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/9">9</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-476fa2cc</id>
+        <lines>31-32</lines>
+        <body>Let's implement this interface. It should return Director with a name.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/director/Director.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/10" closed="2019-12-08T12:20:10+00:00">10</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-ceeba3cd</id>
+        <lines>34-36</lines>
+        <body>We needs to implements this class. It should work with numerous of {@link org.aivinog1.omdb.api.movie.director.Director}</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/director/Directors.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/11">11</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-56cc6d49</id>
+        <lines>33-34</lines>
+        <body>Let's implement this method. It should works with a numerous ratings.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/rating/Ratings.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/12">12</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-cda8a018</id>
+        <lines>32-33</lines>
+        <body>Let's implement this interface. It should represent a movie rating.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/rating/Rating.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/13" closed="2019-12-08T12:20:15+00:00">13</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-13608e5c</id>
+        <lines>34-36</lines>
+        <body>Let's implement this interface. It should work with {@link org.aivinog1.omdb.api.movie.actor.Actor} For now there is no implementation for it.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/actor/Actors.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/14">14</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-9a29612b</id>
+        <lines>32-34</lines>
+        <body>Let's implement this interface. It should represent an actor from API. For now there is no implementation for it.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/actor/Actor.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/15">15</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-f290ff19</id>
+        <lines>33-34</lines>
+        <body>For now there is no implementation for this interface. This should be implemented to work with Genre.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/genre/Genres.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/16">16</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-66ff6dc3</id>
+        <lines>34-35</lines>
+        <body>Needs to implement this interface to work with a {@link org.aivinog1.omdb.api.movie.Movie}.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/Movies.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/17">17</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-7958f5c1</id>
+        <lines>32-33</lines>
+        <body>Needs to implement this interface. It should represent a movie writer.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/writer/Writer.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/18">18</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-5d47bdff</id>
+        <lines>33-34</lines>
+        <body>Needs to implement this interface. It should work with numerous movie writers.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/writer/Writers.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/19">19</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-e5a21740</id>
+        <lines>40-41</lines>
+        <body>We need to implement this interface. It should work with a movie.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/Movie.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/omdb-api/issues/20">20</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-192574f3</id>
+        <lines>35-36</lines>
+        <body>Needs to implement this interface. It should work with a IMDB API.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/Omdb.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-11-10T03:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-244ac8f1</id>
+        <lines>33-34</lines>
+        <body>We need to implement this interface. It should work with a movie business info.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/Business.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-12-08T12:10:07Z</time>
+        <children/>
+        <issue href="https://github.com/aivinog1/omdb-api/issues/26">26</issue>
+      </puzzle>
+      <puzzle alive="true">
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-fab4cb61</id>
+        <lines>34-35</lines>
+        <body>We need to implement this interface. It should work with movie dates.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/Dates.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-12-08T12:10:07Z</time>
+        <children/>
+        <issue href="https://github.com/aivinog1/omdb-api/issues/27">27</issue>
+      </puzzle>
+      <puzzle alive="true">
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-8f0d5d8d</id>
+        <lines>34-36</lines>
+        <body>We needs to implements this class. It should work with numerous of {@link org.aivinog1.omdb.api.movie.contributor.director.Director}</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/contributor/director/Directors.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-12-08T12:10:07Z</time>
+        <children/>
+        <issue href="https://github.com/aivinog1/omdb-api/issues/28">28</issue>
+      </puzzle>
+      <puzzle alive="true">
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-4bf01f8c</id>
+        <lines>34-37</lines>
+        <body>Let's implement this interface. It should work with {@link org.aivinog1.omdb.api.movie.contributor.actor.Actor} For now there is no implementation for it.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/contributor/actor/Actors.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-12-08T12:10:07Z</time>
+        <children/>
+        <issue href="https://github.com/aivinog1/omdb-api/issues/29">29</issue>
+      </puzzle>
+      <puzzle alive="true">
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-3d02171c</id>
+        <lines>34-35</lines>
+        <body>We need to implement this interface. It should work with a movie coordinate.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/Coordinate.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-12-08T12:10:07Z</time>
+        <children/>
+        <issue href="https://github.com/aivinog1/omdb-api/issues/30">30</issue>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/omdb-api/issues/22" closed="2019-12-08T12:20:21+00:00">22</issue>
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-40cff603</id>
+    <lines>42-43</lines>
+    <body>Consider to refactor it interface and remove disabling check for too many methods.</body>
+    <file>src/main/java/org/aivinog1/omdb/api/movie/Movie.java</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-11-10T04:13:46Z</time>
+    <children>
+      <puzzle alive="true">
+        <ticket>22</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>22-6955223a</id>
+        <lines>40-42</lines>
+        <body>Let's implement this interface. It should represent contributors (actors, directors) from API. For now there is no implementation for it.</body>
+        <file>src/main/java/org/aivinog1/omdb/api/movie/contributor/Contributors.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-12-08T12:10:07Z</time>
+        <children/>
+        <issue href="https://github.com/aivinog1/omdb-api/issues/31">31</issue>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

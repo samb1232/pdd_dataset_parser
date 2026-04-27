@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-02-17T20:21:56+00:00" version="0.30.16">
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/GoFeather/issues/5" closed="2019-02-17T12:38:51+00:00">5</issue>
+    <ticket>4</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>4-2374f359</id>
+    <lines>2-2</lines>
+    <body>Commands bound to keyboard keys should be available in the right-click context menu too.</body>
+    <file>Context.sublime-menu</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-02-17T12:02:04Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/frou/GoFeather/issues/6" closed="2019-02-17T12:55:38+00:00">6</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-31e4bd69</id>
+        <lines>25-25</lines>
+        <body>Discover the position in the text (line-column and/or byte offset) that the mouse context menu was activated at.</body>
+        <file>plugin_contextmenu_dispatcher.py</file>
+        <author>Duncan Holm</author>
+        <email>duncan@holm.scot</email>
+        <time>2019-02-17T12:38:29Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/frou/GoFeather/issues/7" closed="2019-02-17T20:21:56+00:00">7</issue>
+            <ticket>6</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>6-a426523d</id>
+            <lines>27-27</lines>
+            <body>Move the text caret to the context menu activation position. Use either the drag_select command, or the symbol_at_point &amp; navigate_to_symbol API?</body>
+            <file>plugin_contextmenu_dispatcher.py</file>
+            <author>Duncan Holm</author>
+            <email>duncan@holm.scot</email>
+            <time>2019-02-17T12:55:14Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

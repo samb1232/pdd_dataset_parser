@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-07-07T11:21:00+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/homebrew-tap/issues/1" closed="2019-08-15T19:44:49+00:00">1</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-588ff9fe</id>
+    <lines>3-3</lines>
+    <body>Create a formula for zprint</body>
+    <file>README.md</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-15T19:21:20Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/frou/homebrew-tap/issues/2">2</issue>
+        <ticket>1</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1-cac04fc0</id>
+        <lines>1-2</lines>
+        <body>Use joker as a template for a binary-only formula in a user tap https://github.com/candid82/homebrew-brew/blob/master/joker.rb</body>
+        <file>Formula/zprint.rb</file>
+        <author>Duncan Holm</author>
+        <email>duncan@holm.scot</email>
+        <time>2019-08-15T19:44:38Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/homebrew-tap/issues/3">3</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-f4d07437</id>
+    <lines>1-3</lines>
+    <body>Write a formula for java-language-server It has dependencies maven &amp; bazel (available in homebrew-core). It depends on Java 9+ to build? Since it uses jlink (see clojure formula in homebrew-core for how to specify a depedency on java).</body>
+    <file>Formula/java-language-server.rb</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-27T15:29:41Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

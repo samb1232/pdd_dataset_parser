@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-11-14T08:34:51+00:00" version="0.30.11">
+  <puzzle alive="false">
+    <issue href="https://github.com/nikialeksey/imeerk/issues/3" closed="2018-10-20T09:52:35+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-4c1b6464</id>
+    <lines>41-41</lines>
+    <body>Uncomment test and fix code</body>
+    <file>tests/StaticAnalysisTest.py</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2018-10-19T18:35:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nikialeksey/imeerk/issues/7" closed="2018-11-08T07:58:14+00:00">7</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-699a5bdd</id>
+    <lines>52-52</lines>
+    <body>Add sync calendar into user cash</body>
+    <file>imeerk/calendars/icalendar/DbIcalCalendar.py</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2018-11-07T08:20:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nikialeksey/imeerk/issues/11" closed="2018-11-14T04:28:04+00:00">11</issue>
+    <ticket>9</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>9-00ae3ce5</id>
+    <lines>106-106</lines>
+    <body>Add notification to user notifications</body>
+    <file>main.py</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2018-11-09T05:47:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>13</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>13-0ab2ce98</id>
+    <lines>14-14</lines>
+    <body>Add calendars syncing celery task</body>
+    <file>imeerk/periodic/CalendarsPeriodic.py</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2018-11-14T08:34:46Z</time>
+    <children/>
+    <issue href="https://github.com/nikialeksey/imeerk/issues/15">15</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>13</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>13-a35fce44</id>
+    <lines>10-10</lines>
+    <body>Add notifications syncing celery task</body>
+    <file>imeerk/periodic/NotificationsPeriodic.py</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2018-11-14T08:34:46Z</time>
+    <children/>
+    <issue href="https://github.com/nikialeksey/imeerk/issues/16">16</issue>
+  </puzzle>
+</puzzles>

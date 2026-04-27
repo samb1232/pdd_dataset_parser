@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.0pdd.com/puzzles.xsd" date="2025-08-07T13:54:36+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/refrax/issues/39" closed="2025-07-08T16:21:51+00:00">39</issue>
+    <ticket>21</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>21-9f725293</id>
+    <lines>27-31</lines>
+    <body>Move `PrintStats` method to the more properly organized abstraction. Currently, we needed it in order to aggregate all the messages in the `stats` map, and then print it. Since there is no `PrintStats` method in original `Brain`, it looks ugly when we call this function on `Brain` instance in `refrax_client.go`. We should organize more proper abstraction around the aggregation and printing of stats.</body>
+    <file>internal/brain/metric_brain.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-04T06:52:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/refrax/issues/40" closed="2025-07-08T16:21:53+00:00">40</issue>
+    <ticket>2</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>2-6613febd</id>
+    <lines>23-26</lines>
+    <body>Add new parameter `--tools` for constructing needed tool for the critic. Currently, we create Aibolit, but it would be great to have such option. Examples of such tools are: `aibolit`, `none`, etc. We should be able to pass multiple tools, for instance: `--tools=aibolit,qulice`.</body>
+    <file>cmd/root.go</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-07-05T08:52:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/refrax/issues/41" closed="2025-07-08T16:21:55+00:00">41</issue>
+    <ticket>2</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>2-970a170d</id>
+    <lines>9-12</lines>
+    <body>Implement support for Aibolit with multiple classes. As for now, we check only the first class, and return imperfections result. Instead, we need to support multiple files instead. Let's implement such Aibolit struct, that will be able to manage whole project, instead of single Java file. Also see this related issue: https://github.com/cqfn/refrax/issues/28.</body>
+    <file>internal/critic/aibolit.go</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-07-05T08:52:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/refrax/issues/45" closed="2025-07-09T13:40:21+00:00">45</issue>
+    <ticket>2</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>2-845c64a1</id>
+    <lines>24-24</lines>
+    <body>Add new parameter `--tools` for constructing needed tool for the critic.</body>
+    <file>cmd/root.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-08T16:21:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/refrax/issues/46" closed="2025-07-09T13:40:23+00:00">46</issue>
+    <ticket>21</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>21-ab82a84f</id>
+    <lines>27-27</lines>
+    <body>Move `PrintStats` method to the more properly organized abstraction.</body>
+    <file>internal/brain/metric_brain.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-08T16:21:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/refrax/issues/47" closed="2025-07-10T11:19:32+00:00">47</issue>
+    <ticket>2</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>2-cc4a1c6f</id>
+    <lines>11-11</lines>
+    <body>Implement support for Aibolit with multiple classes.</body>
+    <file>internal/critic/aibolit.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-08T16:21:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/refrax/issues/50" closed="2025-07-11T09:52:22+00:00">50</issue>
+    <ticket>43</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>43-2310faba</id>
+    <lines>8-10</lines>
+    <body>Enable 'gosec' linter We need to fix all the security issues and enable this check Youu can enable it using '-gosec' entry right below</body>
+    <file>.golangci.yml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-09T13:40:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/refrax/issues/51" closed="2025-07-10T11:19:32+00:00">51</issue>
+    <ticket>43</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>43-0f6f51f7</id>
+    <lines>17-19</lines>
+    <body>Enable 'revive' linter We need to fix all the issues identified by 'revive' linter and then enable it using the following entry below</body>
+    <file>.golangci.yml</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-09T13:40:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/refrax/issues/64" closed="2025-07-17T14:44:01+00:00">64</issue>
+    <ticket>60</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>60-d43b6f00</id>
+    <lines>68-71</lines>
+    <body>Print Entire Statistics. Currently, this function only returns the timings of LLM requests. It should be extended to return all statistics, including tokens and bytes. Don't forget to update std and csv writers.</body>
+    <file>internal/stats/stats.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-16T15:06:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/refrax/issues/77" closed="2025-07-28T08:12:26+00:00">77</issue>
+    <ticket>75</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>75-26e24072</id>
+    <lines>75-78</lines>
+    <body>Shutdown should be used instead of Close to allow for graceful shutdown. This will allow the server to finish processing ongoing requests before stopping. Cruntly, Close is used because of: https://stackoverflow.com/questions/79714562/how-to-cancel-long-running-tasks-when-a-go-http-server-is-shut-down</body>
+    <file>internal/protocol/custom_server.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-07-25T10:57:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/refrax/issues/92">92</issue>
+    <ticket>81</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>81-401cd0e2</id>
+    <lines>30-31</lines>
+    <body>Enable TestRefraxClient_PrintsStatsIfEnabled test This test is currently skipped because recent huge changes in the review strategy</body>
+    <file>internal/client/refrax_client_test.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-08-04T14:56:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/refrax/issues/93">93</issue>
+    <ticket>81</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>81-8ee38685</id>
+    <lines>9-11</lines>
+    <body>Repair Diff method to return the number of lines that were removed and added by some reason this method returns to many changes lines. For example, if a file has 15 changes, this method migt return 200. We need to find the bug and fix it.</body>
+    <file>internal/util/diff.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-08-04T14:56:07Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/cqfn/refrax/issues/96" closed="2025-08-07T13:54:36+00:00">96</issue>
+        <ticket>93</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>93-22138577</id>
+        <lines>22-26</lines>
+        <body>Handle classes with the same name. Currently, we have a problem when classes might have the same name, which can lead to confusion 'package-info.java' is one of the examples. We need to ensure that we handle such cases correctly, possibly by using unique identifiers or paths to differentiate between classes with the same name.</body>
+        <file>internal/facilitator/agent.go</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2025-08-05T08:50:31Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/refrax/issues/94">94</issue>
+    <ticket>81</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>81-d0dc2931</id>
+    <lines>35-36</lines>
+    <body>Enable all end-to-end tests in e2e_test.go This test is currently skipped because recent huge changes in the review strategy</body>
+    <file>test/e2e_test.go</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-08-04T14:56:07Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

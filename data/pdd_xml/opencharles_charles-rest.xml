@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-10-10T17:16:17+00:00" version="0.30.5">
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/157" closed="2017-10-27T07:45:04+00:00">157</issue>
+    <ticket>150</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>150-f4a028a1</id>
+    <lines>45-47</lines>
+    <body>We might have to implement mappings and indexing of suggestions. Waiting for a clarification here: https://discuss.elastic.co/t/simple-way-to-implement-autocomplete-functionality/68979</body>
+    <file>src/main/java/com/amihaiemil/charles/aws/AmazonEsRepository.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-12-14T07:18:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/158" closed="2017-10-27T07:45:04+00:00">158</issue>
+    <ticket>150</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>150-d3633346</id>
+    <lines>63-64</lines>
+    <body>When the autocomplete topic is clear and the handler implemented write unit tests for AmazonEsSuggest.</body>
+    <file>src/main/java/com/amihaiemil/charles/aws/AmazonEsSuggest.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-12-14T07:18:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/159" closed="2017-10-27T07:45:05+00:00">159</issue>
+    <ticket>150</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>150-54535ee7</id>
+    <lines>85-88</lines>
+    <body>This implementation might have to be changed. Currently it's using bare Suggester which does word correction rather than actual autocomplete. Waiting for an answer here: https://discuss.elastic.co/t/simple-way-to-implement-autocomplete-functionality/68979</body>
+    <file>src/main/java/com/amihaiemil/charles/aws/SuggestQuery.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-12-14T07:18:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/160" closed="2017-10-27T07:45:06+00:00">160</issue>
+    <ticket>150</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>150-47fee5a9</id>
+    <lines>59-60</lines>
+    <body>Once the autocomplete topic is clear and we have the final response layout, implement and unit test this method.</body>
+    <file>src/main/java/com/amihaiemil/charles/aws/SuggestionsResponseHandler.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-12-14T07:18:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/opencharles/charles-rest/issues/166">166</issue>
+    <ticket>162</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>162-48c2e1d6</id>
+    <lines>36-39</lines>
+    <body>Checkstyle validation was added but currently the build fails since not all the rules are respected. The validations should be fixed, but this will probably be an ongoing task since they are too many of them to go in one shot.</body>
+    <file>src/main/java/com/amihaiemil/charles/rest/RestApplication.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-12-25T13:14:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/184" closed="2017-10-27T07:45:07+00:00">184</issue>
+    <ticket>181</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>181-ca416da0</id>
+    <lines>61-63</lines>
+    <body>After Russian language is done and tested, let's start using it. It should be added bellow, right after English and everything should work after that.</body>
+    <file>src/main/java/com/amihaiemil/charles/github/Brain.java</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-01-19T18:21:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/185" closed="2017-10-27T07:45:08+00:00">185</issue>
+    <ticket>176</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>176-a617e601</id>
+    <lines>44-46</lines>
+    <body>Test puzzle to test if 0pdd works for this repository? Last puzzle didn't generate any Github issue, seems to be a bug asdasdew.</body>
+    <file>src/main/java/com/amihaiemil/charles/github/Command.java</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-01-19T18:21:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/186" closed="2017-10-27T07:45:09+00:00">186</issue>
+    <ticket>174</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>174-2ae6a13d</id>
+    <lines>33-35</lines>
+    <body>Implement and unit test Language class Russian, following the model of this class and its unit tests. The class should use the commands_ru and responses_ru properties files.</body>
+    <file>src/main/java/com/amihaiemil/charles/github/English.java</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-01-19T18:21:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/201" closed="2017-10-27T07:45:10+00:00">201</issue>
+    <ticket>199</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>199-aff84e88</id>
+    <lines>33-35</lines>
+    <body>Implement and Unit test 4 system properties SecretKey, Region, EsEndPoint and AccessKeyId. Also add fake implementation for the interfaces to use them in testing.</body>
+    <file>src/main/java/com/amihaiemil/charles/aws/SystemProperty.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-03-19T16:44:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/opencharles/charles-rest/issues/205" closed="2017-10-27T07:45:11+00:00">205</issue>
+        <ticket>201</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>201-af20c932</id>
+        <lines>34-35</lines>
+        <body>Add fake implementation for the 4 SystemProperty interfaces to use them in testing.</body>
+        <file>src/main/java/com/amihaiemil/charles/aws/AbstractSystemProperty.java</file>
+        <author>sherif</author>
+        <email>sherifwaly95@gmail.com</email>
+        <time>2017-03-29T12:50:51Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/222" closed="2017-10-27T07:45:11+00:00">222</issue>
+    <ticket>220</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>220-20b595ff</id>
+    <lines>35-36</lines>
+    <body>Add further Knowledge implementations, to replace the Brain class entirely.</body>
+    <file>src/main/java/com/amihaiemil/charles/github/Conversation.java</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-07-20T07:49:01Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/opencharles/charles-rest/issues/237" closed="2017-10-27T07:45:12+00:00">237</issue>
+        <ticket>222</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>222-903f585c</id>
+        <lines>35-36</lines>
+        <body>Hello was added, to handle hello commands. Continue with further Knowledges for the other commands (index site, index page etc).</body>
+        <file>src/main/java/com/amihaiemil/charles/github/Conversation.java</file>
+        <author>Mihai Andronache</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-08-15T12:22:06Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/223" closed="2017-10-27T07:45:13+00:00">223</issue>
+    <ticket>220</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>220-27beec2c</id>
+    <lines>44-45</lines>
+    <body>Add CachedCommand class, which would handle caching of values that are currently handled here.</body>
+    <file>src/main/java/com/amihaiemil/charles/github/Command.java</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-07-20T07:49:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/opencharles/charles-rest/issues/234">234</issue>
+    <ticket>219</ticket>
+    <estimate>60</estimate>
+    <role>IMP</role>
+    <id>219-dd617bae</id>
+    <lines>42-45</lines>
+    <body>Write some integration tests for this step, check that the tree of steps executes correctly/in the right order. For this, you need to mock a Github server (use MkGithub) in appropriate ways, to check each flow.</body>
+    <file>src/main/java/com/amihaiemil/charles/github/GeneralPreconditionsCheck.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2017-08-15T07:42:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/243" closed="2018-10-10T17:16:17+00:00">243</issue>
+    <ticket>241</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>241-12bd8c89</id>
+    <lines>39-40</lines>
+    <body>Pull out the system proerties, same as was done in the aws layer, to simplify the unit tests.</body>
+    <file>src/main/java/com/amihaiemil/charles/github/Tweet.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-08-17T12:04:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/258" closed="2017-10-27T07:45:14+00:00">258</issue>
+    <ticket>255</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>255-54364d10</id>
+    <lines>36-38</lines>
+    <body>Get rid of this POJO and turn it into a smart class, same as it was done with SearchResult. Update and unignore tests in CharlesResourceTestCase when its done.</body>
+    <file>src/main/java/com/amihaiemil/charles/rest/model/SearchResultsPage.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-09-05T08:15:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/opencharles/charles-rest/issues/260">260</issue>
+    <ticket>250</ticket>
+    <estimate>60</estimate>
+    <role>IMP</role>
+    <id>250-3323e69b</id>
+    <lines>57-58</lines>
+    <body>Implement the delete page knowledge. We have the repo method and unit test for it. Continue with the language, knowledge and steps.</body>
+    <file>src/main/java/com/amihaiemil/charles/aws/AmazonEsRepository.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-09-05T13:55:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/opencharles/charles-rest/issues/261" closed="2017-10-27T07:45:15+00:00">261</issue>
+    <ticket>250</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>250-d7d97575</id>
+    <lines>59-60</lines>
+    <body>Rename this class to Index (since that's what it is), and remove AmazonEsSearch class, moving the search method here</body>
+    <file>src/main/java/com/amihaiemil/charles/aws/AmazonEsRepository.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-09-05T13:55:04Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

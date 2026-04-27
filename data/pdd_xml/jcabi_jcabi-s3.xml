@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.25.6" date="2017-11-06T15:25:55+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>2-68b8eec9</id>
+    <ticket>2</ticket>
+    <file>src/main/java/com/jcabi/s3/AwsBucket.java</file>
+    <lines>115-119</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:08:06Z</time>
+    <body>Large lists are not supported. The method doesn't support marker functionality, provided by ObjectListing. We should create a test that reproduces the problem and fix the method. The method should return an iterable, which should fetch portions of objects from S3 on demand.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-s3/issues/48" closed="2017-11-02T06:43:03+00:00">48</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>47-51f62688</id>
+    <lines>160-162</lines>
+    <body>For some reason this profile doesn't work any more. Most probably because of the absence of Cobertura. Let's configure it properly, so that it works with Jacocco.</body>
+    <file>pom.xml</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-01-25T21:12:06Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

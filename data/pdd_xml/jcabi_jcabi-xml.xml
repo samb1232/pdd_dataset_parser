@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2025-04-17T10:48:56+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>2-5feea170</id>
+    <ticket>2</ticket>
+    <file>pom.xml</file>
+    <lines>84-90</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:28:47Z</time>
+    <body>Get rid of reb4j dependency and build that regular expression on compile phase, somehow. Maybe we can use some sort of Groovy plugin, which will create the expression and store it in a plain text file, which will be used later in runtime. It's important to leave expression building mechanims maintainable. If we just hard-code the expression, we'll loose an ability to maintain/change it later.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>2-4b48606c</id>
+    <ticket>2</ticket>
+    <file>pom.xml</file>
+    <lines>98-100</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:28:47Z</time>
+    <body>Get rid of commons-lang3 dependency, or move it to "test" scope. It's not efficient for such a small and lightweight library to have a big dependency of this kind.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>2-b54ace9f</id>
+    <ticket>2</ticket>
+    <file>pom.xml</file>
+    <lines>107-109</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:28:47Z</time>
+    <body>Get rid of commons-io dependency, or move it to "test" scope. It's not efficient for such a small and lightweight library to have a big dependency of this kind.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>32-8743edc8</id>
+    <ticket>32</ticket>
+    <file>src/test/java/com/jcabi/xml/StrictXMLTest.java</file>
+    <lines>171-176</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:28:47Z</time>
+    <body>This test does nothing useful for the moment, to be a real test it needs to mock com.jcabi.xml.StrictXML.newValidator() and new mocked validator should throw few SocketException's while executing javax.xml.validation.Validator.validate(Source) in order to simulate the situation with network problems. For more details, see com.jcabi.xml.StrictXML.validate(XML) as well.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>70-64aec8f3</id>
+    <ticket>70</ticket>
+    <file>pom.xml</file>
+    <lines>217-221</lines>
+    <estimate>30</estimate>
+    <body>This reporting doesn't work, becuase of a conflict with Patterns.java file, which is generated on fly and doesn't really have a source. See the log here, for example: http://www.rultor.com/t/5393-146659058 Let's fix it somehow and enable this profile again.</body>
+    <role>DEV</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2015-10-08T19:33:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>96-5e311117</id>
+    <ticket>96</ticket>
+    <file>src/test/java/com/jcabi/xml/StrictXMLTest.java</file>
+    <lines>60-63</lines>
+    <estimate>30</estimate>
+    <body>Fix the tests passesValidXmlUsingXsiSchemaLocation() and rejectsInvalidXmlUsingXsiSchemaLocation() which started failing with exception from SaxParser (http://maven.apache.org/maven-v4_0_0.xsd; White spaces are required between publicId and systemId).</body>
+    <role>IMP</role>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-02-20T08:49:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-xml/issues/213" closed="2023-07-19T13:37:23+00:00">213</issue>
+    <ticket>221</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>221-807476ba</id>
+    <lines>59-64</lines>
+    <body>Implement XPath 2.0 evaluations. We have to implement XPath 2.0 evaluations in order to support more complex XPath queries. For example, the following query is not supported: - "//o[@base and @ver]/concat(@base,'|',@ver)" When we implement XPath 2.0 evaluations, we should remove the @Disabled annotation from findsXpathWithFunctionThatReturnsSeveralItems test.</body>
+    <file>src/test/java/com/jcabi/xml/XMLDocumentTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-07-18T17:16:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-xml/issues/248">248</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-ee5e6b2b</id>
+    <lines>168-172</lines>
+    <body>Enable Groovy Integration Test The Groovy integration test is disabled because it fails. The problem is that the XMLDocument#equals method is indentation-aware, but it shouldn't be. We need to fix it and enable the test.</body>
+    <file>pom.xml</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-24T20:04:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-xml/issues/249">249</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-c7571585</id>
+    <lines>390-393</lines>
+    <body>Implement comparison of XML documents with different indentations. The current implementation of XMLDocument does not ignore different indentations when comparing two XML documents. We need to implement a comparison that ignores different indentations. Don't forget to remove the @Disabled annotation from this test.</body>
+    <file>src/test/java/com/jcabi/xml/XMLDocumentTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-24T20:04:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-xml/issues/303">303</issue>
+    <ticket>301</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>301-8e1d58a4</id>
+    <lines>52-55</lines>
+    <body>Remove suppression of "PMD.JUnitAssertionsShouldIncludeMessage" warning. For now its suppressed, but it would be great to add assertion message in each test, and enable the check. Don't forget to enable it in {@link XSLDocumentTest}, {@link XPathContextTest} as well.</body>
+    <file>src/test/java/com/jcabi/xml/XMLDocumentTest.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-04-15T10:59:13Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

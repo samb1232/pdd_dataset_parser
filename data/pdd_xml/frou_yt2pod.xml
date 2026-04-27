@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-05-25T11:33:28+00:00" version="0.30.21">
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/yt2pod/issues/15">15</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-e9ca6d25</id>
+    <lines>9-9</lines>
+    <body>Run golangci-lint via Travis</body>
+    <file>.travis.yml</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-09T20:36:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/yt2pod/issues/16" closed="2020-05-25T11:33:28+00:00">16</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-9ab305b9</id>
+    <lines>13-13</lines>
+    <body>Get rid of mage and write a bash script ./task that takes an argument</body>
+    <file>Magefile.go</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-09T20:36:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/yt2pod/issues/17">17</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-ff79d70a</id>
+    <lines>43-43</lines>
+    <body>Make diskLowThreshold &amp; ytdlOldThreshold customizable in the config file.</body>
+    <file>health.go</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-09T20:36:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/yt2pod/issues/18">18</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-d52d8473</id>
+    <lines>46-46</lines>
+    <body>Make feedsStaleThreshold customizable per-podcast in the config file.</body>
+    <file>health.go</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-09T20:36:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/yt2pod/issues/19">19</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-5649ed56</id>
+    <lines>89-90</lines>
+    <body>Cache ytdl version output for a while to prevent reqs to /health causing DoS. Because each request currently forks the ytdl process that takes ~2s to run.</body>
+    <file>health.go</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-09T20:36:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/yt2pod/issues/21" closed="2020-04-29T09:01:11+00:00">21</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-760698f3</id>
+    <lines>348-351</lines>
+    <body>In case a full channel URL, rather than just a channel ID or Username, has been pasted into "yt_channel" in the config file, trim off all the URL prefix preceding the token we're interested in. (That prefix is already used in code [grep for feedBuilder] so extract that as a named constant)</body>
+    <file>watcher.go</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2020-04-14T09:36:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/yt2pod/issues/22">22</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-098722f5</id>
+    <lines>106-110</lines>
+    <body>When listening on cfg.ServeHost fails and an alternative address is listened on, cfg.ServeHost should not be used in watcher#buildURL. How about instead of automatically falling back to trying to listen on all interfaces, add a serve_host_fallback:"localhost" to config? Then if neither serve_host or serve_host_fallback work, it's a fatal error.</body>
+    <file>main.go</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2020-04-16T10:46:34Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

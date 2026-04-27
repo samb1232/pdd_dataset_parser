@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-05-19T19:39:54+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/jpeek-maven-plugin/issues/3" closed="2020-05-19T19:18:00+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-34fd3cb7</id>
+    <lines>36-39</lines>
+    <body>Implement jpeek plugin execution JpeekMojo must execute jpeek and analyze project files upon build. Use the jpeek jar from manve repository to execute it with in the project.</body>
+    <file>src/main/java/org/jpeek/plugin/JpeekMojo.java</file>
+    <author>Paulo Lobo</author>
+    <email>33915433+paulodamaso@users.noreply.github.com</email>
+    <time>2020-05-08T15:29:59Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/jpeek-maven-plugin/issues/6">6</issue>
+        <ticket>3</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>3-16086dcb</id>
+        <lines>40-43</lines>
+        <body>Add some tests for this Mojo using AbstractMojoTestCase from maven-plugin-testing-harness. A good resource for examples is maven-checkstyle-plugin. It has been verified that it works from the command line (see README).</body>
+        <file>src/main/java/org/jpeek/plugin/JpeekMojo.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2020-05-16T12:11:57Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/jpeek-maven-plugin/issues/7">7</issue>
+        <ticket>3</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>3-fbe16028</id>
+        <lines>44-46</lines>
+        <body>Add support for analyzing classes in the test directory. This should output an analysis most certainly in a different directory from the main classes.</body>
+        <file>src/main/java/org/jpeek/plugin/JpeekMojo.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2020-05-16T12:11:57Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

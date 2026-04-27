@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-11-12T19:53:27+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/3" closed="2018-04-30T17:02:08+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-94e51014</id>
+    <lines>39-44</lines>
+    <body>The implementation of method stream() is less than effective, because it reads the entire content of the response, turning it into text and then splitting. What if the content is binary and can't be converted to string? What if the content is super big and must be presented as an stream, not a piece of text. Let's fix it.</body>
+    <file>src/main/java/org/cactoos/http/HtBody.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-04-04T12:17:52Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos-http/issues/37" closed="2018-05-17T20:14:55+00:00">37</issue>
+        <ticket>3</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>3-25734ac4</id>
+        <lines>90-95</lines>
+        <body>this internal class should be transformed to a full fledged public class with a clear interface, either in the cactoos or the cactoos-http project and the implementation is not efficient in memory usage because of the boxing of bytes into an object. This should be replaced by a real circular byte buffer implementation with primitive bytes.</body>
+        <file>src/main/java/org/cactoos/http/io/SkipInput.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2018-04-21T15:39:10Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/4" closed="2018-05-01T15:50:55+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-97d18cdb</id>
+    <lines>39-43</lines>
+    <body>The implementation of method stream() is rather ineffective and defective. What if the content of the HTTP response is too big? Or is binary and can't be represented as a string? Instead of turning it into a string we must deal with a stream of bytes.</body>
+    <file>src/main/java/org/cactoos/http/HtHead.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-04-04T12:20:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/5" closed="2018-04-21T17:28:03+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-6a67a5c8</id>
+    <lines>37-40</lines>
+    <body>The implementation here is not effective. It converts the entire head part of the request to a string and then only takes the first line out of it. We should deal with a stream instead and just read its first line.</body>
+    <file>src/test/java/org/cactoos/http/HtStatus.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-04-04T12:22:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/38" closed="2018-05-15T19:23:10+00:00">38</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-06a076ae</id>
+    <lines>44-48</lines>
+    <body>This test does not cover all possible cases. https://codecov.io/gh/yegor256/cactoos-http/pull/24/diff?src=pr&amp;el=tree #diff-c3JjL21haW4vamF2YS9vcmcvY2FjdG9vcy9odHRwL0h0U3RhdHVzLmphdmE= Finish covering all branches missed for this implementation. A refactor may be due as well.</body>
+    <file>src/test/java/org/cactoos/http/HtHeadTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-05-01T15:43:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/45" closed="2018-05-17T13:55:02+00:00">45</issue>
+    <ticket>8</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>8-0309755b</id>
+    <lines>42-45</lines>
+    <body>The implementation of method stream() can handle only one Set-Cookie in a response. Fix HtHeaders so that a single key may be mapped to one or more values (it is legal to receive more than one Set-Cookie in a response).</body>
+    <file>src/main/java/org/cactoos/http/HtCookies.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-05-05T14:43:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/46">46</issue>
+    <ticket>8</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>8-4e75a126</id>
+    <lines>46-48</lines>
+    <body>The implementation of method stream() will break on "flag-type" directives (`Secure`, `HttpOnly`). Fix HtHeaders so that these directives are handled correctly.</body>
+    <file>src/main/java/org/cactoos/http/HtCookies.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-05-05T14:43:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/59" closed="2018-07-12T01:28:28+00:00">59</issue>
+    <ticket>49</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>49-d03f4828</id>
+    <lines>165-166</lines>
+    <body>we should re-enable findbugs and fix all problems it detects. This mainly concerns for now reliance on default encoding in HtStatus.</body>
+    <file>pom.xml</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2018-05-19T10:44:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/61">61</issue>
+    <ticket>23</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>23-e7afac42</id>
+    <lines>32-45</lines>
+    <body>min As discovered in #53, the upgrade is not a job of the wire because it need reading the contents of the response (in this case, status code). So, this feature would be under the responsibility of a response-like object. It must be implemented someway like this: new HtUpgradedResponse( new IterableOf&amp;lt;&amp;gt;( new MapEntry&amp;lt;Func&amp;lt;String, Boolean&amp;gt;, Func&amp;lt;URI, Wire&amp;gt;&amp;gt;( upgrade -&amp;gt; upgrade.contains("TLS"), HtSecureWire::new ) ) ) The test HtUpgradeWireTest#testHtUpgrade must be removed after the implementation of this class.</body>
+    <file>src/main/java/org/cactoos/http/HtUpgradeWire.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-05-30T14:03:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/63" closed="2019-03-30T20:53:19+00:00">63</issue>
+    <ticket>62</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>62-ec9a5ea7</id>
+    <lines>46-49</lines>
+    <body>HtWire should not close the socket opened to the remote service (this includes not closing associated input and output streams). It should instead return an `Input` with the socket's inputstream "unread". Refactor accordingly.</body>
+    <file>src/main/java/org/cactoos/http/HtWire.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-06-28T20:13:16Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos-http/issues/78" closed="2019-06-01T21:31:40+00:00">78</issue>
+        <ticket>63</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>63-d518e687</id>
+        <lines>103-106</lines>
+        <body>HtWire should not close the socket opened to the remote service (this includes not closing associated input and output streams). It should instead return an `Input` with the socket's inputstream "unread". Refactor accordingly and unignore this test.</body>
+        <file>src/test/java/org/cactoos/http/HtWireTest.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2019-03-24T14:19:02Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/cactoos-http/issues/87" closed="2019-10-21T15:56:49+00:00">87</issue>
+            <ticket>78</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>78-e9bc29cd</id>
+            <lines>79-81</lines>
+            <body>With #78 solved, HtWire stopped closing the connection when send() is called and the following test stopped working for no clear reason. Investigate the cause of this, fix it and unignore this.</body>
+            <file>src/test/java/org/cactoos/http/HtTimedWireTest.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2019-06-01T21:21:58Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos-http/issues/98" closed="2019-11-12T19:53:27+00:00">98</issue>
+                <ticket>87</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>87-b84e58fc</id>
+                <lines>45-52</lines>
+                <body>Rework the implementation of this class not to rely on the `backlog` behaviour of `ServerSocket` because the assumption made on it can be wrong on some contexts as explained in the `ServerSocket` javadoc and as experienced in https://github.com/yegor256/cactoos-http/pull/93 when the tests are executed by rultor. See this same PR for more details. Unignore the tests in `BlockingSocketServerTest` and `HtTimedWireTest` after.</body>
+                <file>src/test/java/org/cactoos/http/io/BlockingSocketServer.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-10-21T15:52:00Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/cactoos-http/issues/99" closed="2019-11-08T21:19:17+00:00">99</issue>
+                <ticket>87</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>87-6a44baaf</id>
+                <lines>98-100</lines>
+                <body>Update cactoos to at least 0.42 and then use the new Binary class to replace the if construction below and have a full OO code here.</body>
+                <file>src/test/java/org/cactoos/http/io/BlockingSocketServer.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-10-21T15:52:00Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/64" closed="2019-04-21T12:53:46+00:00">64</issue>
+    <ticket>62</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>62-02593012</id>
+    <lines>39-42</lines>
+    <body>We need decorators for HtResponse that will automatically close the inputstream (therefore also closing the network socket) based on criteria like the Content-Length header, the Transfer-Encoding header (when service returns the payload in chunks), etc.</body>
+    <file>src/main/java/org/cactoos/http/HtResponse.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-06-28T20:13:16Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/cactoos-http/issues/80" closed="2019-06-18T23:49:21+00:00">80</issue>
+        <ticket>64</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>64-afac576d</id>
+        <lines>40-45</lines>
+        <body>Introduce abstractions to read from an Input without closing the stream as most of the cactoos abstraction do. As a starter use them in HtAutoClosedResponseTest, HtWireTest and AutoClosedInputStreamTest instead of the ugly while loops or meaningless reads. Use them also to actually test the content of the inputs.</body>
+        <file>src/test/java/org/cactoos/http/HtAutoClosedResponseTest.java</file>
+        <author>Victor Noel</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2019-04-19T15:02:26Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/cactoos-http/issues/81">81</issue>
+        <ticket>64</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>64-63b625df</id>
+        <lines>37-40</lines>
+        <body>We need decorators for HtResponse that will automatically transform the inputstream based on criteria like the Content-Length header, the Transfer-Encoding header (when service returns the payload in chunks), etc.</body>
+        <file>src/main/java/org/cactoos/http/HtResponse.java</file>
+        <author>Victor Noel</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2019-04-19T15:02:26Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/74" closed="2019-09-26T12:22:06+00:00">74</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-eb4af059</id>
+    <lines>58-66</lines>
+    <body>Replace the HtWire by HtKeepAliveWire which should support the &lt;em&gt;Keep-Alive&lt;/em&gt; header. It should has at least 1 `ctor` with 3 parameters: - `wire` which represents the HTTP connection; - `timeout` in milliseconds; - `rmax` the max quantity of within the timeout. In case the quantity of requests is greater than rmax but takes less time than `timeout`, the connection should be reset by the server. Remove the suppresing of PMD errors due to unused private fields.</body>
+    <file>src/main/java/org/cactoos/http/HtKeepAliveResponse.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-02-07T02:13:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/cactoos-http/issues/77" closed="2019-05-24T01:08:38+00:00">77</issue>
+    <ticket>60</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>60-6fe1be4f</id>
+    <lines>79-81</lines>
+    <body>Figure out a more elegant way to compare the ring buffer imitation to another buffer, and avoid the for loop hell that is in the following method.</body>
+    <file>src/main/java/org/cactoos/http/io/BoundedByteBuffer.java</file>
+    <author>golyalpha</author>
+    <email>golyalpha@gmail.com</email>
+    <time>2019-03-26T10:36:20Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

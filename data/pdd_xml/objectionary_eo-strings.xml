@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-10-16T16:46:07+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-strings/issues/27">27</issue>
+    <ticket>1049</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1049-0e7c200c</id>
+    <lines>96-99</lines>
+    <body>Current implementation supports only character formatting. It means that byte array become an first bytes character string. We need to support another flags, like %a, %o, %s, etc.</body>
+    <file>src/main/java/EOorg/EOeolang/EOtxt/EOsprintf.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-08-23T07:23:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-strings/issues/32">32</issue>
+    <ticket>21</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>21-7b2d66c6</id>
+    <lines>55-57</lines>
+    <body>Current implementation using Java. We should implement it only via EOLANG code. We can do it by using reduce method</body>
+    <file>src/main/java/EOorg/EOeolang/EOtxt/EOtext$EOreplaced.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2022-08-25T10:37:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/41" closed="2022-10-05T13:04:18+00:00">41</issue>
+    <ticket>18</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>18-c333659d</id>
+    <lines>55-57</lines>
+    <body>Current implementation using Java. We should implement comparison only via EOLANG code. We can do it by using reduce method</body>
+    <file>src/main/java/EOorg/EOeolang/EOtxt/EOtext$EOcompare.java</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2022-09-07T11:57:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/48" closed="2022-09-28T05:36:11+00:00">48</issue>
+    <ticket>19</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>19-e0d02db9</id>
+    <lines>101-103</lines>
+    <body>Current implementation using Java. We should implement checking that string is alphabetic only via EOLANG code. We can do it by using reduce method.</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-09-07T14:23:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/57" closed="2022-09-28T11:23:21+00:00">57</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-fbf67ffc</id>
+    <lines>31-34</lines>
+    <body>Current version use incorrect names for methods. We should rename all methods names in text object via documentation. If you want to know more details read it https://github.com/objectionary/on-the-origin-of-objects/issues/15</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-09-09T10:23:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/eo-strings/issues/76" closed="2023-01-09T19:05:07+00:00">76</issue>
+        <ticket>57</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>57-63f5c386</id>
+        <lines>77-79</lines>
+        <body>Current implementation using Java. We should implement casting string to lower case only via EOLANG code. We can do it by using reduce method.</body>
+        <file>src/main/eo/org/eolang/txt/text.eo</file>
+        <author>@EugeneDar</author>
+        <email>68021590+EugeneDar@users.noreply.github.com</email>
+        <time>2022-09-28T10:10:01Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/eo-strings/issues/77" closed="2022-10-15T14:35:43+00:00">77</issue>
+        <ticket>57</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>57-d23c10e3</id>
+        <lines>90-92</lines>
+        <body>Current implementation using Java. We should implement casting string to upper case only via EOLANG code. We can do it by using reduce method.</body>
+        <file>src/main/eo/org/eolang/txt/text.eo</file>
+        <author>@EugeneDar</author>
+        <email>68021590+EugeneDar@users.noreply.github.com</email>
+        <time>2022-09-28T10:10:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/58" closed="2023-03-01T09:24:36+00:00">58</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-0c4eaff0</id>
+    <lines>105-107</lines>
+    <body>Current implementation using Java. We should implement splitting string to array of strings only via EOLANG code. We can do it by using reduce method.</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-09-09T10:23:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/65" closed="2022-09-28T15:15:38+00:00">65</issue>
+    <ticket>43</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>43-4fc55431</id>
+    <lines>67-69</lines>
+    <body>Current implementation using Java. We should implement finding of first position of substrings only via EOLANG code. We can do it by using reduce method.</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-09-15T09:51:09Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/eo-strings/issues/79" closed="2022-12-26T09:18:18+00:00">79</issue>
+        <ticket>65</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>65-bbad65b3</id>
+        <lines>96-98</lines>
+        <body>Current implementation works only with short strings. We should have posibility to find substrings in bigger that 2-letter strings. Also we should unwrap test 'text-index-of-2' from nop object</body>
+        <file>src/main/eo/org/eolang/txt/text.eo</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2022-09-28T15:12:47Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/eo-strings/issues/113">113</issue>
+        <ticket>65</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>65-b89d6548</id>
+        <lines>151-153</lines>
+        <body>Current implementation works only with short strings. We should have posibility to find substrings in bigger that 2-letter strings. Also we should unwrap tests 'text-index-of-2' and 'text-index-of-3' from nop object</body>
+        <file>src/main/eo/org/eolang/txt/text.eo</file>
+        <author>@Graur</author>
+        <email>ancongr@yandex.ru</email>
+        <time>2022-12-26T08:15:10Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/66" closed="2022-10-31T14:15:49+00:00">66</issue>
+    <ticket>43</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>43-78cbc625</id>
+    <lines>74-76</lines>
+    <body>Current implementation using Java. We should implement finding of last position of substrings only via EOLANG code. We can do it by using reduce method.</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-09-15T09:51:09Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/eo-strings/issues/91" closed="2022-11-01T15:03:05+00:00">91</issue>
+        <ticket>66</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>66-ae85b287</id>
+        <lines>60-62</lines>
+        <body>Current implementation using Java. We should implement checking if string ends with given substring only via EOLANG code. We can do it by using reduce method.</body>
+        <file>src/main/eo/org/eolang/txt/text.eo</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2022-10-31T14:12:20Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/objectionary/eo-strings/issues/93" closed="2022-11-02T10:04:20+00:00">93</issue>
+            <ticket>91</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>91-ce24aa36</id>
+            <lines>57-59</lines>
+            <body>Current implementation using Java. We should implement checking if string contains given substring only via EOLANG code. We can do it by checkong result of index-of method</body>
+            <file>src/main/eo/org/eolang/txt/text.eo</file>
+            <author>@EugeneDar</author>
+            <email>evgenedar@mail.ru</email>
+            <time>2022-11-01T14:36:04Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/78" closed="2022-10-01T18:00:18+00:00">78</issue>
+    <ticket>43</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>43-084e7161</id>
+    <lines>64-66</lines>
+    <body>Current implementation using Java. We should implement cheching if string starts with substring only via EOLANG code. We can do it by using reduce method.</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@EugeneDar</author>
+    <email>68021590+EugeneDar@users.noreply.github.com</email>
+    <time>2022-09-28T10:10:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/107" closed="2023-01-08T04:57:46+00:00">107</issue>
+    <ticket>97</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>97-a8921fe6</id>
+    <lines>41-43</lines>
+    <body>Current implementation trims only left part of spaces in the given string. We should increase realization and trim right part of spaces also. After than we should unwrap disabled trim tests</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-15T16:16:07Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/eo-strings/issues/118">118</issue>
+        <ticket>107</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>107-cfae0749</id>
+        <lines>41-43</lines>
+        <body>Current implementation of trimmed method catches stackoverflow for tests where both sides of strings are changing or just more than one space should be removed. After fixing it unwrap nop from all trimmed tests</body>
+        <file>src/main/eo/org/eolang/txt/text.eo</file>
+        <author>@darkfoxdx</author>
+        <email>evgenedar@mail.ru</email>
+        <time>2023-01-05T11:37:10Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/114" closed="2023-01-13T08:57:54+00:00">114</issue>
+    <ticket>108</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>108-2328c970</id>
+    <lines>130-130</lines>
+    <body>Set failOnWarning to 'true'. It's not a good idea to allow deploy artifacts with warnings. We have to do it only because of failures in other repositories. --&gt;</body>
+    <file>pom.xml</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-12-26T08:15:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-strings/issues/138">138</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-891d24c0</id>
+    <lines>358-360</lines>
+    <body>Current implementation using Java. We should implement splitting string to tuple of strings only via EOLANG code. We can do it by using reduce method.</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-02-27T12:49:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-strings/issues/151">151</issue>
+    <ticket>148</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>148-033a88de</id>
+    <lines>32-36</lines>
+    <body>To enable tests with regex.replaced object. For some unknown reason, the tests with regex.replaced object are not working. The tests are commented out for now, but should be fixed. The reason is that somwhere in the code tuple.as-bytes object was called, but it doesn't exist.</body>
+    <file>src/test/eo/org/eolang/txt/regex-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2023-05-26T16:30:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/154" closed="2023-06-13T15:50:05+00:00">154</issue>
+    <ticket>140</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>140-22c43e3a</id>
+    <lines>136-138</lines>
+    <body>We have to implement this method. It should return string repeated n times. We can do it by cheking current length in reduced method.</body>
+    <file>src/main/eo/org/eolang/txt/text.eo</file>
+    <author>@EugeneDar</author>
+    <email>evgenedar@mail.ru</email>
+    <time>2023-06-05T15:27:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-strings/issues/167" closed="2023-10-16T16:46:07+00:00">167</issue>
+    <ticket>165</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>165-265a52d9</id>
+    <lines>32-38</lines>
+    <body>Enable the tests when eo-collections 0.10.0 is in objectionary. Need to enable next tests that were disabled because of conflict with eo-collections 0.10.0: text-last-index-of-3, unicode-text-last-index-of, nested-joins, text-last-index-of-3, text-index-of-4, compare-strings, joins-tuple, joins-tuple-2, text-index-of-5, compare-similar-strings, text-index-of, compare-strings-2, text-last-index-of, text-last-index-of-2, joins-tuple-4, compare-strings-with-unicode, EOtextEOjoinedTest.joinStrings</body>
+    <file>src/test/eo/org/eolang/txt/text-tests.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-10-05T08:12:40Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-08-31T08:55:46+00:00" version="0.31.6">
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/57" closed="2020-02-18T17:54:23+00:00">57</issue>
+    <ticket>53</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>53-9c70e0d7</id>
+    <lines>43-46</lines>
+    <body>The combination of RxFile and TempDir Junit5 rule doesn't work on Windows. It seems that Junit unable to cleanup temporary directory. Fix RxFile implementation and remove disable annotation.</body>
+    <file>src/test/java/com/artipie/asto/FileStorageTest.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-02-12T14:05:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/96" closed="2020-03-19T13:46:01+00:00">96</issue>
+    <ticket>87</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>87-0ebc33ba</id>
+    <lines>83-85</lines>
+    <body>Refactor MultipartUpload class, reduce number of fields. MultipartUpload class is too big right now in terms of fields and could be decomposed. S3Bucket or S3Object classes might be extracted here.</body>
+    <file>src/main/java/com/artipie/asto/s3/MultipartUpload.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-03-04T10:45:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/artipie/asto/issues/108">108</issue>
+    <ticket>87</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>87-c49a9b48</id>
+    <lines>54-59</lines>
+    <body>Do not await abort to complete if save() failed. In case uploading content fails inside {@link S3Storage#save(Key, Content)} method we are doing abort() for multipart upload. Also whole operation does not complete until abort() is complete. It would be better to finish save() operation right away and do abort() in background, but it makes testing the method difficult.</body>
+    <file>src/main/java/com/artipie/asto/s3/S3Storage.java</file>
+    <author>Oleg Mozzhechkov</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-03-12T12:13:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/162" closed="2020-04-27T15:48:51+00:00">162</issue>
+    <ticket>160</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>160-2edb9ba4</id>
+    <lines>39-41</lines>
+    <body>Implement Copy class. This class currently is not implemented. This class should be implemented in a way to storage synchronization would work properly.</body>
+    <file>src/main/java/com/artipie/asto/Copy.java</file>
+    <author>@Sammers21</author>
+    <email>titantins@gmail.com</email>
+    <time>2020-04-24T10:44:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/168" closed="2020-04-28T07:54:15+00:00">168</issue>
+    <ticket>160</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>160-24b7b6f9</id>
+    <lines>37-39</lines>
+    <body>Implement RxCopy class. This class currently is not implemented. This class should be implemented in a way to storage synchronization would work properly.</body>
+    <file>src/main/java/com/artipie/asto/rx/RxCopy.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-04-27T15:48:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/181" closed="2022-08-16T05:49:52+00:00">181</issue>
+    <ticket>139</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>139-b53f425f</id>
+    <lines>36-39</lines>
+    <body>Implement prefixed transaction support. Transaction extends storage, so it's needed to implement all transactions method with prefixed key too. Also, create unit tests for sub storage to verify that all methods uses prefixed keys.</body>
+    <file>src/main/java/com/artipie/asto/SubStorage.java</file>
+    <author>Kirill</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-05-20T09:26:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/186" closed="2021-10-27T11:10:24+00:00">186</issue>
+    <ticket>87</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>87-de141472</id>
+    <lines>30-34</lines>
+    <body>Add tests for LoggingStorage. LoggingStorage class lacks tests coverage. At very base level the tests should check that `LoggingStorage` preserves results provided by `Storage`. In very best case the tests should check that operation results and parameters are properly logged.</body>
+    <file>src/test/java/com/artipie/asto/LoggingStorageTest.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-05-22T13:25:09Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/artipie/asto/issues/345" closed="2021-11-17T09:28:29+00:00">345</issue>
+        <ticket>186</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>186-fbb1def2</id>
+        <lines>19-22</lines>
+        <body>Test that operations are properly logged in LoggingStorage. We are currently testing that `LoggingStorage` preserves results provided by `Storage`. We now want to introduce tests that should check that operation results and parameters are properly logged.</body>
+        <file>src/test/java/com/artipie/asto/LoggingStorageTest.java</file>
+        <author>@baudoliver7</author>
+        <email>baudolivier.oura@gmail.com</email>
+        <time>2021-10-27T11:10:15Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/artipie/asto/issues/370" closed="2021-11-22T10:22:17+00:00">370</issue>
+            <ticket>345</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>345-188ec55d</id>
+            <lines>24-27</lines>
+            <body>Continue to test that operations are properly logged in {@ling LoggingStorage}. We have tested a number of operations of {@ling LoggingStorage}. We want to continue to test that remaining operations results and parameters are properly logged.</body>
+            <file>src/test/java/com/artipie/asto/LoggingStorageTest.java</file>
+            <author>@baudoliver7</author>
+            <email>baudoliver7@gmail.com</email>
+            <time>2021-11-17T09:28:19Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/196" closed="2021-02-15T12:12:20+00:00">196</issue>
+    <ticket>193</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>193-ee41fbc9</id>
+    <lines>67-71</lines>
+    <body>Too many methods in `S3Storage` class. `S3Storage` has too many methods. It could be refactored to move some of it's logic to other classes. In particular there three methods related to saving bytes (multipart or not, selecting proper method). This could be moved out of this class.</body>
+    <file>src/main/java/com/artipie/asto/s3/S3Storage.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-06-04T13:16:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/199" closed="2020-06-10T13:58:53+00:00">199</issue>
+    <ticket>183</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>183-8c1925c2</id>
+    <lines>277-280</lines>
+    <body>Read no more then limit from Content. Now method does not fulfil it's contract and caches all content bytes to `Flowable`, then reads from them up to the limit. This should be fixed, so no more then `limit` bytes is cached.</body>
+    <file>src/main/java/com/artipie/asto/s3/S3Storage.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-06-08T09:32:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/206" closed="2020-06-29T13:48:50+00:00">206</issue>
+    <ticket>204</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>204-8901f06f</id>
+    <lines>35-37</lines>
+    <body>Use one time publisher in Storage. We need to wrap all publishers created in Storage implementations with this one and to wrap all incoming publishers in tests.</body>
+    <file>src/main/java/com/artipie/asto/OneTimePublisher.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-06-19T05:52:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/309" closed="2021-11-29T13:06:27+00:00">309</issue>
+    <ticket>306</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>306-ccf10929</id>
+    <lines>46-48</lines>
+    <body>The test is disabled, the CI can't start ETCD extension which depends on testcontainer with etcd Docker image. Let's fix this issue on CI and enable the test.</body>
+    <file>src/test/java/com/artipie/asto/etcd/EtcdStorageITCase.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2021-04-21T09:44:09Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/artipie/asto/issues/384">384</issue>
+        <ticket>309</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>309-68384b0c</id>
+        <lines>37-44</lines>
+        <body>Run Etcd in windows containers while testing on windows. Currently, when we try to run integration tests based on testcontainers within a platform windows, we notice that Etcd container (presently based on Linux) doesn't work. We have to build and publish an Etcd docker image based on windows to avoid this issue. Please, build an Etcd image for windows (version 3.5.1) and write tests so as to detect before running integration tests, the type of platform (linux or windows) in order to pull the right docker image. After that, enable the test below for windows by removing {@code @DisabledOnOs(OS.WINDOWS)}.</body>
+        <file>src/test/java/com/artipie/asto/etcd/EtcdStorageITCase.java</file>
+        <author>@baudoliver7</author>
+        <email>baudoliver7@gmail.com</email>
+        <time>2021-11-29T13:06:17Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/310" closed="2021-12-07T14:18:06+00:00">310</issue>
+    <ticket>306</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>306-f94460d8</id>
+    <lines>49-52</lines>
+    <body>Add etcd storage to StorageExtension to run all common tests on EtcdStorage too. It could be not an easy task, since etcd test depends on etcd clust with at least one node. For this test it starts using testcontainers and `EtcdCluster` junit extension.</body>
+    <file>src/test/java/com/artipie/asto/etcd/EtcdStorageITCase.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2021-04-21T09:44:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/352" closed="2021-11-18T06:48:14+00:00">352</issue>
+    <ticket>341</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>341-64dd66a6</id>
+    <lines>21-23</lines>
+    <body>Add others key operations (exclusion by index, insertion,..). We should exclude a part from a storage key by index. We should also insert a part to a key by specifying the position (Like we do with {@code List.add(Obj, index)}).</body>
+    <file>src/main/java/com/artipie/asto/Key.java</file>
+    <author>@baudoliver7</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-11-08T13:00:48Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/artipie/asto/issues/369">369</issue>
+        <ticket>352</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>352-ace2d56f</id>
+        <lines>20-22</lines>
+        <body>Continue to add more tests for {@link SubStorage}. All the methods of the class should be verified, do not forget to add tests with different prefixes, including {@link Key#ROOT} as prefix.</body>
+        <file>src/test/java/com/artipie/asto/SubStorageTest.java</file>
+        <author>@baudoliver7</author>
+        <email>baudoliver7@gmail.com</email>
+        <time>2021-11-16T13:24:02Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/354" closed="2021-11-16T13:24:12+00:00">354</issue>
+    <ticket>351</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>351-e3dca535</id>
+    <lines>20-22</lines>
+    <body>Add more tests for {@link SubStorage}: all the methods of the class should be verified, do not forget to add tests with different prefixes, including {@link Key#ROOT} as prefix.</body>
+    <file>src/test/java/com/artipie/asto/SubStorageTest.java</file>
+    <author>@olenagerasimova</author>
+    <email>olena.gerasimova@gmail.com</email>
+    <time>2021-11-09T08:59:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/383" closed="2021-12-24T07:09:43+00:00">383</issue>
+    <ticket>55</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>55-4e3feec0</id>
+    <lines>21-21</lines>
+    <body>Add test coverage for RxStorage, RxStorageTransaction.</body>
+    <file>src/main/java/com/artipie/asto/rx/RxStorageWrapper.java</file>
+    <author>Denis Garus</author>
+    <email>garus.d.g@gmail.com</email>
+    <time>2021-11-29T12:07:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/414" closed="2022-05-19T05:41:46+00:00">414</issue>
+    <ticket>411</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>411-28a7e759</id>
+    <lines>50-54</lines>
+    <body>There two disabled tests for S3 storage: S3StorageTest#shouldUploadObjectWhenSaveLargeContent and BucketTest#shouldUploadPartAndCompleteMultipartUpload. These tests fail with S3Exception: null (Service: S3, Status Code: 400, Request ID: null) error. Figure out where is the problem, fix it and enable tests.</body>
+    <file>src/test/java/com/artipie/asto/s3/S3StorageTest.java</file>
+    <author>olenagerasimova</author>
+    <email>olena.gereasimova@gmail.com</email>
+    <time>2022-04-26T10:06:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/asto/issues/415" closed="2022-08-31T08:55:46+00:00">415</issue>
+    <ticket>411</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>411-cf1a108e</id>
+    <lines>51-55</lines>
+    <body>There is some problem with ETCD storage as sub-storage with ROOT key: tests StorageExclusivelyTest#shouldFailExclusivelyForSameKey and StorageExclusivelyTest#shouldRunExclusivelyForDiffKey get stuck in such storages configuration. Figure out the where the bug is, fix it and uncomment the case here. Note, that after the test got stuck and was terminated, docker client has to be restarted to run the test again.</body>
+    <file>src/test/java/com/artipie/asto/StorageExtension.java</file>
+    <author>olenagerasimova</author>
+    <email>olena.gereasimova@gmail.com</email>
+    <time>2022-04-25T06:52:34Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

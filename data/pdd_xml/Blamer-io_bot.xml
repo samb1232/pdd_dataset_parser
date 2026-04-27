@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-04-29T14:01:54+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/Blamer-io/bot/issues/4" closed="2023-04-27T01:15:25+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-e16aaf49</id>
+    <lines>61-63</lines>
+    <body>Remove this test implementation. Need to manage message command handling like it's described here: https://www.youtube.com/watch?v=61duchvKI6o&amp;t=2349s</body>
+    <file>src/main/java/io/blamer/bot/bot/Bot.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-04-26T23:20:32Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/Blamer-io/bot/issues/9" closed="2023-04-28T12:22:36+00:00">9</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-3e287310</id>
+        <lines>31-32</lines>
+        <body>Bad naming We got -or suffix in interface naming, should be refactored</body>
+        <file>src/main/java/io/blamer/bot/answer/generator/MessageGenerator.java</file>
+        <author>@ivan</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2023-04-27T01:10:21Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/Blamer-io/bot/issues/10">10</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-2e64d6dc</id>
+        <lines>44-45</lines>
+        <body>Find way to test this Need to find a proper way to test telegram bot logic.</body>
+        <file>src/main/java/io/blamer/bot/bot/Bot.java</file>
+        <author>@ivan</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2023-04-27T01:10:21Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Blamer-io/bot/issues/18" closed="2023-04-29T13:53:43+00:00">18</issue>
+    <ticket>5</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5-9433ff1c</id>
+    <lines>195-195</lines>
+    <body>bump up branch coverage branch coverage is 0.00 for now, we need to bump it up to 0.55 --&gt;</body>
+    <file>pom.xml</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-04-27T13:19:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Blamer-io/bot/issues/19" closed="2023-04-27T21:15:49+00:00">19</issue>
+    <ticket>16</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>16-6e4c5756</id>
+    <lines>32-32</lines>
+    <body>move message text to properties we need to move message text to properties as a value for a given key --&gt;</body>
+    <file>checkstyle-suppressions.xml</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-04-27T13:19:00Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/Blamer-io/bot/issues/22" closed="2023-04-29T13:53:48+00:00">22</issue>
+        <ticket>19</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>19-ed87807e</id>
+        <lines>57-58</lines>
+        <body>After hub service will be created, redirect the token. Send auth message to hub, to process the data.</body>
+        <file>src/main/java/io/blamer/bot/answer/generator/impl/RegistryMessageGenerator.java</file>
+        <author>@ivan</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2023-04-27T19:54:47Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Blamer-io/bot/issues/43">43</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>41-ba2009c8</id>
+    <lines>187-187</lines>
+    <body>bump up INSTRUCTION coverage branch coverage is 0.00 for now, we need to bump it up to 0.55 --&gt;</body>
+    <file>pom.xml</file>
+    <author>@ivanchuk</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-04-29T13:53:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Blamer-io/bot/issues/44">44</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>41-49a407ec</id>
+    <lines>193-193</lines>
+    <body>bump up LINE branch coverage is 0.00 for now, we need to bump it up to 0.55 --&gt;</body>
+    <file>pom.xml</file>
+    <author>@ivanchuk</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-04-29T13:53:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Blamer-io/bot/issues/45">45</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>41-9433ff1c</id>
+    <lines>199-199</lines>
+    <body>bump up branch coverage branch coverage is 0.00 for now, we need to bump it up to 0.55 --&gt;</body>
+    <file>pom.xml</file>
+    <author>@ivanchuk</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-04-29T13:53:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Blamer-io/bot/issues/46">46</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>41-806556b1</id>
+    <lines>205-205</lines>
+    <body>bump up COMPLEXITY coverage branch coverage is 0.00 for now, we need to bump it up to 0.55 --&gt;</body>
+    <file>pom.xml</file>
+    <author>@ivanchuk</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-04-29T13:53:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Blamer-io/bot/issues/47">47</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>41-e1f8f046</id>
+    <lines>28-31</lines>
+    <body>Set to true after hub impl While it's not quite clear what our system will look like, I suggest we close our eyes a bit on code coverage. see: https://www.youtube.com/watch?v=3QT7jaoOa9w</body>
+    <file>.github/workflows/codecov.yaml</file>
+    <author>@ivanchuk</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-04-29T13:53:31Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

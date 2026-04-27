@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.0pdd.com/puzzles.xsd" date="2026-04-24T11:47:12+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/wpa/issues/1">1</issue>
+    <ticket>716</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>716-7b35e97f</id>
+    <lines>19-23</lines>
+    <body>Enable hone.yml and jmh.yml (hone-dependent workflow) after hone will be fixed. At present, the hone is unable to generate the correct optimized byte code for Groovy, see this issue: https://github.com/objectionary/hone-maven-plugin/issues/297. Also, the plugin run is time-consuming, we should enable it only after the plugin will have stable execution time, in order to not disturb the development in this repository.</body>
+    <file>.github/workflows/hone.yml</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-24T10:46:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/wpa/issues/2">2</issue>
+    <ticket>540</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>540-1cf7838e</id>
+    <lines>10-14</lines>
+    <body>Add a new style package - `write-good` - to both this list and the package list. Then fix all the issues it reports(there will be a lot). It&#x2019;s better to run Vale locally to find issues, since the GitHub Action outputs the list in a less readable format when there are many errors. format due to the large number of errors.</body>
+    <file>.vale.ini</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-24T10:46:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/wpa/issues/3" closed="2026-04-24T11:47:12+00:00">3</issue>
+    <ticket>393</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>393-4973abd9</id>
+    <lines>22-26</lines>
+    <body>DEV Introduce LfDfSticky integration tests. LfDfSticky is used in PkMono and PkWpa, which in turn are used in Program and Programs. Run Program::defects and Programs::defects separately and check that caching works correct. Important to note that specific Lint implementation is highly coupled with PkMono class, which in turn is used in Program's most used constructor, so probably Program(s) refactoring is required.</body>
+    <file>src/main/java/org/eolang/wpa/LtDfSticky.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-24T10:46:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/wpa/issues/4">4</issue>
+    <ticket>259</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>259-23892a1e</id>
+    <lines>29-33</lines>
+    <body>Optimize performance of inconsistent arguments finding. Instead of re-collecting objects in nested loops, we should merge all objects from all programs into single XMIR under '&lt;o/&gt;' element. After objects are merged, we can iterate over all the objects there only once, and find inconsistencies.</body>
+    <file>src/main/java/org/eolang/wpa/LtInconsistentArgs.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-24T10:46:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/wpa/issues/5">5</issue>
+    <ticket>624</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>624-70aa78e1</id>
+    <lines>5-10</lines>
+    <body>Enable `catches-inconsistency-in-nested-anonymous-formations` test story. For now, its disabled because `LtInconsistentArgs` fails to convert parent tree with anonymous objects to searchable XPath for the XMIR. We should change our logic in both `LtInconsistentArgs#voidFqn()` and `VoidXpath`. Don't forget to enable `catches-inconsistency-resolving-anonymous-path.yaml`, `catches-inconsistency-when-parent-object-lacks-name.yaml`, and test stories as well.</body>
+    <file>src/test/resources/org/eolang/lints/packs/wpa/inconsistent-args/catches-inconsistency-in-nested-anonymous-formations.yaml</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-24T10:46:29Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

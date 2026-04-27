@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-07-13T04:32:15+00:00" version="0.31.9">
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-sys/issues/57">57</issue>
+    <ticket>10</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>10-68261936</id>
+    <lines>31-33</lines>
+    <body>Current implementation of uname method uses java. This object can be implementet by EO. But for now it is impossible due to failed build on Windows.</body>
+    <file>src/main/eo/org/eolang/sys/uname.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2023-03-15T12:23:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-sys/issues/73">73</issue>
+    <ticket>71</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>71-a345f49f</id>
+    <lines>254-260</lines>
+    <body>Turn on duplicate finder. For some reason qulice fails on github actions with "Found duplicate (but equal) resources in [net.java.dev.jna:jna:5.13.0, org.eolang:eo-sys:1.0-SNAPSHOT] : com/sun/jna/darwin-x86-64/libjnidispatch.jnilib". See: https://github.com/objectionary/eo-sys/actions/runs/5532201228/jobs/10093939487. Need to figure it out and remove "exclude" line below</body>
+    <file>pom.xml</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2023-07-12T16:02:52Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

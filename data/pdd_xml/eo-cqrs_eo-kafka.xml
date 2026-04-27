@@ -1,0 +1,916 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-08-22T09:15:05+00:00" version="0.31.9">
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/18" closed="2023-02-23T13:15:15+00:00">18</issue>
+    <ticket>3</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>3-1381bf53</id>
+    <lines>158-158</lines>
+    <body>Coverage checks have not been met</body>
+    <file>pom.xml</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-20T11:36:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/19" closed="2023-02-21T11:32:51+00:00">19</issue>
+    <ticket>2</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>2-c054d253</id>
+    <lines>16-16</lines>
+    <body>KfData dataization</body>
+    <file>src/main/java/org/eocqrs/kafka/KfData.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-20T11:36:42Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/21" closed="2023-02-22T11:16:07+00:00">21</issue>
+        <ticket>19</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>19-8fc50e58</id>
+        <lines>9-9</lines>
+        <body>DataizedOf implementation</body>
+        <file>src/main/java/org/eocqrs/kafka/DataizedOf.java</file>
+        <author>@h1alexbel</author>
+        <email>Hialexbel@gmail.com</email>
+        <time>2023-02-21T11:32:39Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/23" closed="2023-02-22T11:16:12+00:00">23</issue>
+            <ticket>21</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>21-2541d938</id>
+            <lines>18-18</lines>
+            <body>send</body>
+            <file>src/main/java/org/eocqrs/kafka/KfProducer.java</file>
+            <author>@h1alexbel</author>
+            <email>Hialexbel@gmail.com</email>
+            <time>2023-02-21T12:10:13Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/eo-cqrs/eo-kafka/issues/30" closed="2023-02-23T15:59:55+00:00">30</issue>
+                <ticket>23</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>23-de2f665f</id>
+                <lines>17-17</lines>
+                <body>test send construction</body>
+                <file>src/main/java/org/eocqrs/kafka/KfProducer.java</file>
+                <author>@h1alexbel</author>
+                <email>Hialexbel@gmail.com</email>
+                <time>2023-02-22T11:15:53Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/39" closed="2023-03-08T15:55:15+00:00">39</issue>
+                    <ticket>30</ticket>
+                    <estimate>60</estimate>
+                    <role>DEV</role>
+                    <id>30-6ca3f2f5</id>
+                    <lines>17-17</lines>
+                    <body>it for data consumption</body>
+                    <file>src/main/java/org/eocqrs/kafka/KfProducer.java</file>
+                    <author>@h1alexbel</author>
+                    <email>Hialexbel@gmail.com</email>
+                    <time>2023-02-23T15:59:42Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/22" closed="2023-02-22T11:16:17+00:00">22</issue>
+    <ticket>20</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>20-8b422e84</id>
+    <lines>14-14</lines>
+    <body>DataizedOf Ctor</body>
+    <file>src/main/java/org/eocqrs/kafka/DataizedOf.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-21T11:32:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/31" closed="2023-02-23T12:56:18+00:00">31</issue>
+    <ticket>26</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>26-7c38feaf</id>
+    <lines>20-20</lines>
+    <body>test producer construction</body>
+    <file>src/main/java/org/eocqrs/kafka/KfProducerSettings.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-22T11:15:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/44" closed="2023-05-04T12:07:46+00:00">44</issue>
+    <ticket>10</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>10-404e50f4</id>
+    <lines>12-12</lines>
+    <body>Fake Producer implementation</body>
+    <file>src/main/java/org/eocqrs/kafka/fake/FkProducer.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-24T15:30:37Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/292" closed="2023-06-14T15:13:42+00:00">292</issue>
+        <ticket>44</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>44-72db5d02</id>
+        <lines>41-41</lines>
+        <body>Fake send is not implemented</body>
+        <file>src/main/java/io/github/eocqrs/kafka/fake/FkProducer.java</file>
+        <author>h1alexbel</author>
+        <email>hialexbel@gmail.com</email>
+        <time>2023-05-04T11:53:10Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/364" closed="2023-06-13T14:03:46+00:00">364</issue>
+            <ticket>292</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>292-fab4489f</id>
+            <lines>29-31</lines>
+            <body>Broker has too many methods We should decompose methods adding something to the broker, such as #withDataset(), #withTopics(), and so on.</body>
+            <file>src/main/java/io/github/eocqrs/kafka/fake/FkBroker.java</file>
+            <author>@h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-06-12T13:43:28Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/293" closed="2023-06-14T15:13:45+00:00">293</issue>
+        <ticket>44</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>44-45e88687</id>
+        <lines>49-49</lines>
+        <body>Fake producer close is not implemented</body>
+        <file>src/main/java/io/github/eocqrs/kafka/fake/FkProducer.java</file>
+        <author>h1alexbel</author>
+        <email>hialexbel@gmail.com</email>
+        <time>2023-05-04T11:53:10Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/373" closed="2023-06-15T09:04:21+00:00">373</issue>
+            <ticket>293</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>293-5652f6a3</id>
+            <lines>113-113</lines>
+            <body>Fake consumer close log test</body>
+            <file>src/main/java/io/github/eocqrs/kafka/fake/FkProducer.java</file>
+            <author>h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-06-14T14:58:09Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/47" closed="2023-03-08T15:55:21+00:00">47</issue>
+    <ticket>46</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>46-4ddc69d8</id>
+    <lines>39-41</lines>
+    <body>Too much time. This test takes too long to run, it should be an integration test, or we should do something about the execution speed.</body>
+    <file>src/test/java/org/eocqrs/kafka/KfProducerTest.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-25T11:37:04Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/98" closed="2023-03-14T17:33:47+00:00">98</issue>
+        <ticket>47</ticket>
+        <estimate>45</estimate>
+        <role>DEV</role>
+        <id>47-4164e46d</id>
+        <lines>57-57</lines>
+        <body>Producer &lt;&gt; Consumer it.</body>
+        <file>src/test/java/io/github/eocqrs/kafka/producer/KfProducerTest.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2023-03-08T15:49:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/111" closed="2023-04-24T18:06:10+00:00">111</issue>
+        <ticket>47</ticket>
+        <estimate>45</estimate>
+        <role>DEV</role>
+        <id>47-77e605ac</id>
+        <lines>43-44</lines>
+        <body>Consumer Producer communication. We have to create an ITCase for communication between Consumer and Producer.</body>
+        <file>src/test/java/io/github/eocqrs/kafka/producer/KfProducerTest.java</file>
+        <author>@ivan</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2023-03-14T17:23:46Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/49" closed="2023-02-26T17:07:11+00:00">49</issue>
+    <ticket>48</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>48-2996689e</id>
+    <lines>31-35</lines>
+    <body>Consume method. We must create a consume method that will accept the meta-information and the message. Perhaps we need to create a new class, say. `class MsgData` or something like that.</body>
+    <file>src/main/java/org/eocqrs/kafka/Consumer.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-25T13:18:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/54" closed="2023-05-04T12:07:49+00:00">54</issue>
+        <ticket>49</ticket>
+        <estimate>45</estimate>
+        <role>DEV</role>
+        <id>49-da1616f3</id>
+        <lines>36-36</lines>
+        <body>Fake Consumer implementation</body>
+        <file>src/main/java/org/eocqrs/kafka/fake/FkConsumer.java</file>
+        <author>@h1alexbel</author>
+        <email>Hialexbel@gmail.com</email>
+        <time>2023-02-26T17:06:58Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/294" closed="2023-06-20T13:05:07+00:00">294</issue>
+            <ticket>54</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>54-622a27cf</id>
+            <lines>44-44</lines>
+            <body>Fake subscribe is not implemented</body>
+            <file>src/main/java/io/github/eocqrs/kafka/fake/FkConsumer.java</file>
+            <author>@h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-04T11:53:10Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/295" closed="2023-06-21T13:05:54+00:00">295</issue>
+            <ticket>54</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>54-24b9fc66</id>
+            <lines>57-58</lines>
+            <body>Fake subscribe with ConsumerRebalanceListener is not implemented</body>
+            <file>src/main/java/io/github/eocqrs/kafka/fake/FkConsumer.java</file>
+            <author>@h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-04T11:53:10Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/296" closed="2023-05-08T13:17:42+00:00">296</issue>
+            <ticket>54</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>54-18f70e3d</id>
+            <lines>67-67</lines>
+            <body>Fake iterate is not implemented</body>
+            <file>src/main/java/io/github/eocqrs/kafka/fake/FkConsumer.java</file>
+            <author>h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-04T11:53:10Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/297" closed="2023-06-22T09:10:30+00:00">297</issue>
+            <ticket>54</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>54-fcc45b5d</id>
+            <lines>75-75</lines>
+            <body>Fake unsubscribe is not implemented</body>
+            <file>src/main/java/io/github/eocqrs/kafka/fake/FkConsumer.java</file>
+            <author>h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-04T11:53:10Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/298" closed="2023-06-15T12:00:31+00:00">298</issue>
+            <ticket>54</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>54-846ada40</id>
+            <lines>83-83</lines>
+            <body>Fake consumer close is not implemented</body>
+            <file>src/main/java/io/github/eocqrs/kafka/fake/FkConsumer.java</file>
+            <author>h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-04T11:53:10Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <ticket>54</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>54-4323f448</id>
+            <lines>66-66</lines>
+            <body>Fake records is not implemented</body>
+            <file>src/main/java/io/github/eocqrs/kafka/fake/FkConsumer.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-05-08T13:16:36Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/55" closed="2023-02-28T11:54:37+00:00">55</issue>
+    <ticket>25</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>25-7325f361</id>
+    <lines>36-36</lines>
+    <body>Origin consumer construction from XML</body>
+    <file>src/main/java/org/eocqrs/kafka/consumer/KfConsumerSettings.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-26T17:06:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/56" closed="2023-02-28T11:54:42+00:00">56</issue>
+    <ticket>25</ticket>
+    <estimate>10</estimate>
+    <role>DEV</role>
+    <id>25-d7d33e52</id>
+    <lines>44-44</lines>
+    <body>Which settings needed for origin consumer construction</body>
+    <file>src/main/java/org/eocqrs/kafka/consumer/KfConsumerSettings.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-26T17:06:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/57" closed="2023-03-01T14:38:14+00:00">57</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-73d202c2</id>
+    <lines>47-56</lines>
+    <body>Data polling example: origin.poll(timeout) .records(topic) .forEach(new java.util.function.Consumer&lt;ConsumerRecord&lt;K, X&gt;&gt;() { @Override public void accept(ConsumerRecord&lt;K, X&gt; record) { throw new UnsupportedOperationException("#accept()"); } });</body>
+    <file>src/main/java/org/eocqrs/kafka/consumer/KfConsumer.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-26T17:06:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/58" closed="2023-02-28T11:54:47+00:00">58</issue>
+    <ticket>25</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>25-2c1d96ec</id>
+    <lines>27-28</lines>
+    <body>Consumer settings in XML --&gt;</body>
+    <file>src/test/resources/consumer.xml</file>
+    <author>Aliaksei Bialiauski</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-26T17:06:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/59" closed="2023-03-06T16:27:43+00:00">59</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-d60cef16</id>
+    <lines>13-13</lines>
+    <body>Consumer subscribe Test</body>
+    <file>src/test/java/org/eocqrs/kafka/consumer/KfConsumerTest.java</file>
+    <author>Aliaksei Bialiauski</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-26T17:06:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/60" closed="2023-03-08T15:55:26+00:00">60</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-a2146b71</id>
+    <lines>20-20</lines>
+    <body>Consumer data polling Test</body>
+    <file>src/test/java/org/eocqrs/kafka/consumer/KfConsumerTest.java</file>
+    <author>Aliaksei Bialiauski</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-26T17:06:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/61" closed="2023-02-28T11:54:51+00:00">61</issue>
+    <ticket>25</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>25-60b0913a</id>
+    <lines>19-19</lines>
+    <body>Consumer construction Test</body>
+    <file>src/test/java/org/eocqrs/kafka/consumer/KfConsumerSettingsTest.java</file>
+    <author>Aliaksei Bialiauski</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-02-26T17:06:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/81" closed="2023-05-04T04:49:00+00:00">81</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-80474f37</id>
+    <lines>52-60</lines>
+    <body>Data polling &lt;pre&gt; example: origin.poll(timeout) .records(topic) .forEach(...ConsumerRecord) { ... }; &lt;/pre&gt;</body>
+    <file>src/main/java/io/github/eocqrs/kafka/consumer/KfConsumer.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-03-01T14:36:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/236" closed="2023-05-08T13:17:46+00:00">236</issue>
+        <ticket>81</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>81-60413ccb</id>
+        <lines>54-56</lines>
+        <body>Tests to produce-consume data. Write a test which will be check how consumer reads data from producer.</body>
+        <file>src/it/producer-consumer-api/src/test/java/EntryTest.java</file>
+        <author>@ivan</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2023-04-06T11:50:44Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/287" closed="2023-05-08T13:17:51+00:00">287</issue>
+            <ticket>236</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>236-9498fb84</id>
+            <lines>29-29</lines>
+            <body>Producer send data without partition</body>
+            <file>src/main/java/io/github/eocqrs/kafka/Producer.java</file>
+            <author>@h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-03T16:48:05Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/eo-cqrs/eo-kafka/issues/304" closed="2023-06-29T13:47:06+00:00">304</issue>
+                <ticket>287</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>287-f527de84</id>
+                <lines>29-29</lines>
+                <body>Producer send is not flexible enough</body>
+                <file>src/main/java/io/github/eocqrs/kafka/Producer.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-05-08T13:16:36Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/288" closed="2023-05-08T13:18:02+00:00">288</issue>
+            <ticket>236</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>236-63d4f363</id>
+            <lines>38-38</lines>
+            <body>Unsubscribe is not implemented</body>
+            <file>src/main/java/io/github/eocqrs/kafka/consumer/KfConsumer.java</file>
+            <author>@h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-03T16:48:05Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/289" closed="2023-05-08T13:18:09+00:00">289</issue>
+            <ticket>236</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>236-0a53974e</id>
+            <lines>92-92</lines>
+            <body>ConsumerRecords data polling</body>
+            <file>src/main/java/io/github/eocqrs/kafka/consumer/KfConsumer.java</file>
+            <author>@h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-03T16:48:05Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/eo-cqrs/eo-kafka/issues/305" closed="2023-05-19T14:01:29+00:00">305</issue>
+                <ticket>289</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>289-af1a45bc</id>
+                <lines>86-87</lines>
+                <body>ConsumerRecords wrapping up we have to wrap the ConsumerRecords into some object</body>
+                <file>src/main/java/io/github/eocqrs/kafka/consumer/KfConsumer.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-05-08T13:16:36Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/eo-cqrs/eo-kafka/issues/290" closed="2023-05-08T13:18:34+00:00">290</issue>
+            <ticket>236</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>236-14bb941b</id>
+            <lines>91-91</lines>
+            <body>Enable tests</body>
+            <file>src/it/producer-consumer-api/src/test/java/EntryTest.java</file>
+            <author>h1alexbel</author>
+            <email>hialexbel@gmail.com</email>
+            <time>2023-05-03T16:48:05Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/eo-cqrs/eo-kafka/issues/306" closed="2023-05-22T15:08:57+00:00">306</issue>
+                <ticket>290</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>290-2e9c5470</id>
+                <lines>70-70</lines>
+                <body>Split ITCases into multiple files</body>
+                <file>src/it/producer-consumer-api/src/test/java/EntryTest.java</file>
+                <author>@rultor</author>
+                <email>me@rultor.com</email>
+                <time>2023-05-08T13:16:36Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/141" closed="2023-03-21T11:04:15+00:00">141</issue>
+    <ticket>134</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>134-93373f70</id>
+    <lines>61-64</lines>
+    <body>Replace a private method with object. We should implement something like NameInCamelCase. Or even send a pull request to cactoos with an implementation of TextInCamelCase.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/settings/AttrEnvelope.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-03-19T15:38:07Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/150" closed="2023-03-22T08:41:10+00:00">150</issue>
+        <ticket>141</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>141-faa8076e</id>
+        <lines>31-34</lines>
+        <body>Transfer NameInCamelCase class to cactoos. We should create a pull request/issue with suggestion of this class. */</body>
+        <file>src/main/java/io/github/eocqrs/kafka/xml/NameInCamelCase.java</file>
+        <author>@ivan</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2023-03-21T10:53:15Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/151" closed="2023-03-21T16:43:25+00:00">151</issue>
+        <ticket>141</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>141-51feecdd</id>
+        <lines>33-36</lines>
+        <body>Transfer this StringsInCamelCase to cactoos. We should create a pull request/issue with suggestion of this class. */</body>
+        <file>src/main/java/io/github/eocqrs/kafka/xml/StringsInCamelCase.java</file>
+        <author>Ivan</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2023-03-21T10:53:15Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/142" closed="2023-03-21T11:16:55+00:00">142</issue>
+    <ticket>127</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>127-53fab03c</id>
+    <lines>34-35</lines>
+    <body>Readme update. We have to update documentation and code examples in README.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/producer/settings/KfProducerSettings.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-03-19T15:38:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/154" closed="2023-03-22T11:00:32+00:00">154</issue>
+    <ticket>147</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>147-324191c0</id>
+    <lines>15-16</lines>
+    <body>Opportunity for XML configuration We have to implement creating of settings from XML file.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/parameters/KfFlexible.java</file>
+    <author>Ivan</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-03-21T16:08:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/163" closed="2023-03-22T12:37:21+00:00">163</issue>
+        <ticket>154</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>154-3e7b6613</id>
+        <lines>16-17</lines>
+        <body>/Tests for {@link io.github.eocqrs.kafka.parameters.XmlMapParams}. Write unit tests.</body>
+        <file>src/main/java/io/github/eocqrs/kafka/parameters/XmlMapParams.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2023-03-22T10:59:38Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eo-kafka/issues/164" closed="2023-03-22T13:41:56+00:00">164</issue>
+        <ticket>154</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>154-63f981f5</id>
+        <lines>8-9</lines>
+        <body>Get rid of deprecated api. We have to remove &lt;b&gt;all&lt;/b&gt; deprecated api, before release `0.0.3`.</body>
+        <file>src/main/java/io/github/eocqrs/kafka/parameters/KfXmlFlexible.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2023-03-22T10:59:38Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/155" closed="2023-03-28T13:06:45+00:00">155</issue>
+    <ticket>147</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>147-c2522b36</id>
+    <lines>19-20</lines>
+    <body>Update documentation Add use-cases to README for KfFlexible.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/parameters/KfFlexible.java</file>
+    <author>Ivan</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-03-21T16:08:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/156" closed="2023-03-22T08:56:59+00:00">156</issue>
+    <ticket>147</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>147-5906b544</id>
+    <lines>45-47</lines>
+    <body>Implement via new class. Implement method as `Configuration` class which implement `Scalar&lt;Map&lt;String, Object&gt;&gt;` interface.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/parameters/KfFlexible.java</file>
+    <author>Ivan</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-03-21T16:08:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/162" closed="2023-03-24T11:51:58+00:00">162</issue>
+    <ticket>147</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>147-fa2de2d9</id>
+    <lines>34-35</lines>
+    <body>/Tests for {@link io.github.eocqrs.kafka.parameters.MapParams}. We have to write unit tests.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/parameters/MapParams.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-03-22T08:56:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/183" closed="2023-03-29T09:49:22+00:00">183</issue>
+    <ticket>181</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>181-38f73845</id>
+    <lines>26-26</lines>
+    <body>Add Acks to README API documentation</body>
+    <file>src/main/java/io/github/eocqrs/kafka/parameters/Acks.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-03-28T16:36:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/231" closed="2023-04-18T18:39:46+00:00">231</issue>
+    <ticket>149</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>149-79199a8c</id>
+    <lines>26-26</lines>
+    <body>Turn on JavaDoc suppressions.</body>
+    <file>checkstyle-suppressions.xml</file>
+    <author>@ivan</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-04-02T15:47:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/265" closed="2023-04-25T06:52:17+00:00">265</issue>
+    <ticket>204</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>204-52513c71</id>
+    <lines>28-30</lines>
+    <body>Make send return CompletableFuture. A more correct way to implement the #send method should have the return type CompletableFuture</body>
+    <file>src/main/java/io/github/eocqrs/kafka/Producer.java</file>
+    <author>@ivan</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-04-23T15:30:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/266" closed="2023-04-24T18:52:41+00:00">266</issue>
+    <ticket>204</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>204-5fca8491</id>
+    <lines>35-36</lines>
+    <body>Integration test for `KfCallback` Create an integration test to test the callback mechanism.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/producer/KfCallback.java</file>
+    <author>@ivan</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-04-23T15:30:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/358">358</issue>
+    <ticket>326</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>326-af48ff49</id>
+    <lines>46-46</lines>
+    <body>Introduce Integration Tests for Partition Assigning</body>
+    <file>src/test/java/io/github/eocqrs/kafka/act/AssignPartitionsTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-12T09:28:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/359">359</issue>
+    <ticket>351</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>351-a36aee37</id>
+    <lines>45-45</lines>
+    <body>Introduce Integration Tests for Consumer Wakeup</body>
+    <file>src/test/java/io/github/eocqrs/kafka/act/WakeupTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-12T09:28:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/360">360</issue>
+    <ticket>327</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>327-8fa687f2</id>
+    <lines>45-45</lines>
+    <body>Introduce Integration Tests for Async Commit</body>
+    <file>src/test/java/io/github/eocqrs/kafka/act/CommitAsyncTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-12T09:28:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/361">361</issue>
+    <ticket>325</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>325-61fbc47c</id>
+    <lines>45-45</lines>
+    <body>Introduce Integration Tests for Sync Commit</body>
+    <file>src/test/java/io/github/eocqrs/kafka/act/CommitSyncTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-12T09:28:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/394">394</issue>
+    <ticket>303</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>303-e88363b0</id>
+    <lines>46-46</lines>
+    <body>multi partitioning is not supported</body>
+    <file>src/main/java/io/github/eocqrs/kafka/fake/FkRecords.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-06-27T19:28:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/395">395</issue>
+    <ticket>303</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>303-28eb7286</id>
+    <lines>37-37</lines>
+    <body>fake consumer is not support various data types</body>
+    <file>src/main/java/io/github/eocqrs/kafka/fake/FkConsumer.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-06-27T19:28:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/396">396</issue>
+    <ticket>303</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>303-f98800f5</id>
+    <lines>104-104</lines>
+    <body>records timeout is not implemented</body>
+    <file>src/main/java/io/github/eocqrs/kafka/fake/FkConsumer.java</file>
+    <author>@h1alexbel</author>
+    <email>Hialexbel@gmail.com</email>
+    <time>2023-06-27T19:28:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/400">400</issue>
+    <ticket>303</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>303-4241205d</id>
+    <lines>80-80</lines>
+    <body>message key is not supported</body>
+    <file>src/main/java/io/github/eocqrs/kafka/fake/FkRecords.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-06-28T14:49:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/431">431</issue>
+    <ticket>428</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>428-981dbe6f</id>
+    <lines>47-49</lines>
+    <body>Write tests for WithPartition caching mechanism. We need to prove with tests that our caching works and that it is also thread-safe.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/data/WithPartition.java</file>
+    <author>@l3r8yJ</author>
+    <email>l3r8y@duck.com</email>
+    <time>2023-08-22T00:48:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/eo-kafka/issues/432">432</issue>
+    <ticket>428</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>428-0120af8f</id>
+    <lines>47-49</lines>
+    <body>Write tests for Timestamped caching mechanism. We need to prove with tests that our caching works and that it is also thread-safe.</body>
+    <file>src/main/java/io/github/eocqrs/kafka/data/Timestamped.java</file>
+    <author>@l3r8yJ</author>
+    <email>l3r8y@duck.com</email>
+    <time>2023-08-22T00:48:39Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

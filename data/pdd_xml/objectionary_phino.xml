@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.0pdd.com/puzzles.xsd" date="2026-01-15T17:14:37+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/89" closed="2025-06-11T20:32:24+00:00">89</issue>
+    <ticket>86</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>86-5bc59850</id>
+    <lines>3-5</lines>
+    <body>Add normal form checking for e1 expression. In Rdot rule we assume that e1 expression is in normal form. To check that we need to introduce new condition and use it here.</body>
+    <file>resources/dot.yaml</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-06-10T20:25:09Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/phino/issues/91" closed="2025-07-01T11:28:13+00:00">91</issue>
+        <ticket>89</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>89-2ee3d16f</id>
+        <lines>86-91</lines>
+        <body>Extend list of expressions. There are expressions where we can definitely say if this expression in normal form or not. In common case the expression in normal form if it does not match with any of normalization rules. But it's quite expensive operation comparing to simple list filtering and pattern matching. For example if expression is formation where all bindings are void, lambda, or delta - this expression in normal form and there's no need to try to match it with normalization rules. So we need find more such cases and introduce them.</body>
+        <file>src/Condition.hs</file>
+        <author>@maxonfjvipon</author>
+        <email>mtrunnikov@gmail.com</email>
+        <time>2025-06-11T20:16:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/93" closed="2025-07-07T16:22:47+00:00">93</issue>
+    <ticket>85</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>85-3ceffa48</id>
+    <lines>4-14</lines>
+    <body>Simplify Rcopy rule. Right now this rule is quite verbose. It captures a lot objects around its targets. It's done in order to have scope for contextualization of &#x1D452;2 right here right away. So it's a hack. The origin Rcopy rule looks like this pattern: &#x27E6; &#x1D435;1, &#x1D70F;1 &#x21A6; &#x2205;, &#x1D435;3 &#x27E7;(&#x1D70F;1 &#x21A6; &#x1D452;1) result: &#x27E6; &#x1D435;1, &#x1D70F;1 &#x21A6; &#x1D452;2, &#x1D435;3 &#x27E7; where &#x1D452;2 is an expression contextualized with &#x1D452;1 and some scope S. But with such pattern we don't have this scope, we don't see it. It should be calculated somehow. In general this scope is nearest outer formation. So we need to create a way to calculate it and rewrite this rule.</body>
+    <file>resources/copy.yaml</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-06-12T21:37:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/131" closed="2025-06-27T21:44:04+00:00">131</issue>
+    <ticket>126</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>126-dab43680</id>
+    <lines>12-14</lines>
+    <body>Enable XMIR test. It's not possible anymore to compare XMIRs like strings because they contain random data, e.g. system time. We need to introduce some convenient test system for testing XML and use it here here.</body>
+    <file>test/XMIRSpec.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-06-23T13:45:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/155" closed="2025-09-29T10:13:12+00:00">155</issue>
+    <ticket>116</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>116-8b74c7b7</id>
+    <lines>38-41</lines>
+    <body>Refactor XMIR module. This module became so big and hard to read. Now it's responsible for 3 different operations: 1) converting Phi AST to XML Document Ast, 2) printing XML Document, 3) parsing XMIR to Phi AST. I think we should separate the logic in order to keep modules as little as possible.</body>
+    <file>src/XMIR.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-06-27T21:26:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/156" closed="2025-06-28T11:37:21+00:00">156</issue>
+    <ticket>116</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>116-3c46eb61</id>
+    <lines>272-273</lines>
+    <body>Build Phi with package. Right now we don't process /object/metas element We should check if it contains package. If it does - we should add to Phi AST.</body>
+    <file>src/XMIR.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-06-27T21:26:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/157" closed="2025-09-02T18:44:54+00:00">157</issue>
+    <ticket>126</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>126-ebbf8acd</id>
+    <lines>28-30</lines>
+    <body>Introduce XMIR printing test. It's not possible anymore to compare XMIRs like strings because they contain random data, e.g. system time. We need to introduce some convenient test system for testing XML and use it here here.</body>
+    <file>test/XMIRSpec.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-06-27T21:26:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/184" closed="2025-07-09T15:58:53+00:00">184</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-69fe8773</id>
+    <lines>94-95</lines>
+    <body>Get rid of hard coded amount of normalization cycles. Right now the value 25 is hard coded. We need to pass it though function argument or global environment.</body>
+    <file>src/Dataize.hs</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-07-08T12:03:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/185" closed="2025-07-09T15:58:54+00:00">185</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-6661f2e5</id>
+    <lines>77-80</lines>
+    <body>Make original program global. There are some many places where we need access to original program like here, in Rewriter. Also it's needed in Builder and Dataize modules. Right now we pass this original program as argument. Maybe it would be better to move it to some global state since it's not changed during whole program processing.</body>
+    <file>src/Rewriter.hs</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-07-08T12:03:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/186" closed="2025-07-09T15:58:56+00:00">186</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-3b7fbccf</id>
+    <lines>96-101</lines>
+    <body>Stop counting amount of rewriting cycles. Right now in order not to get an infinite recursion during rewriting we just count have many times we apply rewriting rules. If we reach given amount - we just stop. It's not idiomatic and may not work on big programs. We need to introduce some mechanism which would memorize all rewritten program on each step and if on some step we get the program that have already been memorized - we fail because we got into infinite recursion.</body>
+    <file>src/Rewriter.hs</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-07-08T12:03:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/202" closed="2025-08-12T15:43:59+00:00">202</issue>
+    <ticket>197</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>197-df40c0c2</id>
+    <lines>147-148</lines>
+    <body>Make patterns with L&gt; Package softer. Right now we expect L&gt; Package only in the end of the formation bindings list. That's not really correct since this binding may be anywhere. Let's fix it</body>
+    <file>src/XMIR.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-07-09T10:55:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/213" closed="2025-10-02T14:56:18+00:00">213</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-9998264a</id>
+    <lines>100-106</lines>
+    <body>Memorize previous rewritten programs. Right now in order not to get an infinite recursion during rewriting we just count have many times we apply rewriting rules. If we reach given amount - we just stop. It's not idiomatic and may not work on big programs. We need to introduce some mechanism which would memorize all rewritten program on each step and if on some step we get the program that have already been memorized - we fail because we got into infinite recursion. Ofc we should keep counting rewriting cycles if program just only grows on each rewriting.</body>
+    <file>src/Rewriter.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-07-09T15:38:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/280" closed="2025-10-02T19:43:02+00:00">280</issue>
+    <ticket>278</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>278-c44ecf8a</id>
+    <lines>80-83</lines>
+    <body>Remove xmirAttributure and replace to prettyAttribute. Right now XMIR does not support "&#x3C1;" and "&#x3C6;" in @base and @name attributes. When it's done, we should also generate such valid XMIR. To achieve that we should get rid of xmirAttribute function and use prettyAttribute instead. Also we should use "@" in formationBinding. Don't forget to remove the puzzle.</body>
+    <file>src/XMIR.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-07-22T16:50:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/313" closed="2025-11-25T08:55:21+00:00">313</issue>
+    <ticket>277</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>277-7bc79ef6</id>
+    <lines>43-46</lines>
+    <body>Error messages are too verbose. Now, if we can't build expression or binding, we throw an exception and just print whole expression or binding to console. If this elements are big, it's just a mess and error message became unreadable. It would be nice to print expression or binding in some reduce way, removing some parts or printing only first N lines</body>
+    <file>src/Builder.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-08-09T14:23:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/356" closed="2026-01-13T14:06:20+00:00">356</issue>
+    <ticket>114</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>114-f84542df</id>
+    <lines>9-13</lines>
+    <body>Implement LaTeX conversion for rules. Convert Rule data structure to LaTeX inference rule format. Each rule should be formatted as a LaTeX inference rule with pattern, result, and optional conditions. Tests must be added for LaTeX conversion logic.</body>
+    <file>src/LaTeX.hs</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-09-08T11:18:16Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/phino/issues/579" closed="2026-01-15T17:14:37+00:00">579</issue>
+        <ticket>356</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>356-ad7b65ee</id>
+        <lines>269-271</lines>
+        <body>Extend rule explanation. We need to extend rule explanation by nicely printing sections 'when', 'where', 'having'. For this we need to be able print Yaml.Condition to LaTeX.</body>
+        <file>src/LaTeX.hs</file>
+        <author>@rultor</author>
+        <email>gpg@rultor.com</email>
+        <time>2026-01-13T13:52:35Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/357" closed="2026-01-13T14:06:22+00:00">357</issue>
+    <ticket>114</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>114-ca47c25c</id>
+    <lines>17-20</lines>
+    <body>Create LaTeX document wrapper. Generate proper LaTeX document with tabular format for rules. Each rule should be in its own tabular environment. Include tests for document structure generation.</body>
+    <file>src/LaTeX.hs</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-09-08T11:18:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/403" closed="2025-11-25T14:35:58+00:00">403</issue>
+    <ticket>163</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>163-2ad52ab6</id>
+    <lines>267-270</lines>
+    <body>Introduce node for formation with inlined voids. We need to be able to print formation with inlined void attributes: x(a, b) -&gt; [[ y -&gt; 1 ]] =&gt; x -&gt; [[ a -&gt; ?, b -&gt; ?, y -&gt; 1 ]] Don't forget to extend toSalty instance so such sugar.</body>
+    <file>src/CST.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-10-28T16:44:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/404" closed="2025-10-29T14:06:56+00:00">404</issue>
+    <ticket>163</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>163-3b3dc175</id>
+    <lines>568-570</lines>
+    <body>Implement CST with ASCII encoding. For printing CST to LaTeX we need to be able to print CST with ASCII encoding replacing all the corresponding unicode characters.</body>
+    <file>src/CST.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-10-28T16:44:39Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/phino/issues/409" closed="2025-11-02T11:56:29+00:00">409</issue>
+        <ticket>404</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>404-98fabf55</id>
+        <lines>25-27</lines>
+        <body>Convert EX_STRING to ASCII. We need to decide what to do with EX_STRING when converting to ASCII because string itself may contain unicode characters and we need to deal with them somehow.</body>
+        <file>src/ASCII.hs</file>
+        <author>@maxonfjvipon</author>
+        <email>mtrunnikov@gmail.com</email>
+        <time>2025-10-29T11:16:05Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/phino/issues/410" closed="2025-11-02T11:56:30+00:00">410</issue>
+        <ticket>404</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>404-78901354</id>
+        <lines>62-64</lines>
+        <body>Convert AT_LABEL to ASCII. We need to decide what to do with AT_LABEL when converting to ASCII because attribute itself may contain unicode characters and we need to deal with them somehow.</body>
+        <file>src/ASCII.hs</file>
+        <author>@maxonfjvipon</author>
+        <email>mtrunnikov@gmail.com</email>
+        <time>2025-10-29T11:16:05Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/405" closed="2025-10-30T12:55:08+00:00">405</issue>
+    <ticket>163</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>163-8aa392d2</id>
+    <lines>615-617</lines>
+    <body>Implement single line CST converting. For printing to LaTeX we need to implement converting CST into single line With this mode we need to replace all EOL with NO_EOL and all TAB with TAB'.</body>
+    <file>src/CST.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-10-28T16:44:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/406" closed="2025-11-24T12:45:26+00:00">406</issue>
+    <ticket>163</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>163-d9be6d9c</id>
+    <lines>4-8</lines>
+    <body>Fix salty formatting for application. Right now we print all the arguments of application in single braces. It's a sugar. For salty printing we must print each binding in its own braces. So instead e(a1 -&gt; e1, a2 -&gt; e2) it should be e(a1 -&gt; e1)(a2 -&gt; e2)</body>
+    <file>test-resources/cst/to-salty-packs/application.yaml</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-10-28T16:44:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/435" closed="2025-11-11T13:33:27+00:00">435</issue>
+    <ticket>432</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>432-56804795</id>
+    <lines>274-277</lines>
+    <body>Fix log for not matched pattern. Right now we print the name of the rule if pattern is not matched. It would be better to print the pattern itself. To achieve that we should extend CST so it supports meta attributes, expressions and so on. Don't forget to remove the puzzle</body>
+    <file>src/Rule.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-11-10T17:13:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/phino/issues/457" closed="2025-11-24T12:45:27+00:00">457</issue>
+    <ticket>451</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>451-20bf1e22</id>
+    <lines>57-60</lines>
+    <body>Fix converting for primitives. In #451 we managed to remove unnecessary rho bindings in applications with primitives. These rho bindings are saved in EX_STRING and EX_NUMBER, so in order to keep phi expression consistent - we should not lose them while converting to salty notation. So let's include them to salty CST.</body>
+    <file>src/Sugar.hs</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2025-11-17T11:31:29Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

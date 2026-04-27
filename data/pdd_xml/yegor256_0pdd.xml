@@ -1,0 +1,566 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-03-20T22:33:41+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/10" closed="2017-10-25T15:51:56+00:00">10</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>3-04ce612e</id>
+    <lines>44-46</lines>
+    <body>Let's implement this entry point, where we will render all puzzles we have for a particular project. Let's not forget about security too.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-12T21:11:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/11" closed="2017-10-25T15:51:57+00:00">11</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>3-09c2d743</id>
+    <lines>35-38</lines>
+    <body>It's not really effective to always save the XML document back to storage, even when it was not really modified. Would be much better to check whether any modifications have been made and skip that SAVE() operation.</body>
+    <file>objects/puzzles.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-13T09:52:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/12" closed="2017-10-25T15:51:58+00:00">12</issue>
+    <ticket>3</ticket>
+    <estimate>20</estimate>
+    <role>IMP</role>
+    <id>3-5ec03020</id>
+    <lines>48-51</lines>
+    <body>For some reason, at the moment of this PUSH event arrival the repository is not ready yet and we don't have the current version of it. Let's introduce some delay or some other method, so that we can wait until the repo is in proper state.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-13T10:01:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/13" closed="2017-10-25T15:51:58+00:00">13</issue>
+    <ticket>2</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>2-f47a3215</id>
+    <lines>52-56</lines>
+    <body>At the moment we're not thread-safe. If two PUSH events arrive at the same time we will/may have troubles with concurrent modification of S3 objects and Git repository. Let's introduce some queing system, which will put all requests into a pipeline and proceed them one by one.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-13T10:01:13Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/0pdd/issues/15" closed="2017-11-06T13:57:42+00:00">15</issue>
+        <ticket>13</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>13-4c2685d4</id>
+        <lines>34-37</lines>
+        <body>We may lose the moment of update and forget to create an issue or close it. For many reasons that may happen. No matter why, we have to do the second check once in a while and update GitHub issues. Maybe every hour or so.</body>
+        <file>objects/job.rb</file>
+        <author>Yegor Bugayenko</author>
+        <email>yegor256@gmail.com</email>
+        <time>2016-12-13T12:26:07Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/0pdd/issues/16" closed="2017-10-25T15:51:59+00:00">16</issue>
+            <ticket>15</ticket>
+            <estimate>30</estimate>
+            <role>IMP</role>
+            <id>15-1dc72086</id>
+            <lines>41-43</lines>
+            <body>This feature is not implemented now and it makes it very difficult to track the status of puzzles in a repo. Let's add this simple converter from XML to HTML (through XSLT).</body>
+            <file>0pdd.rb</file>
+            <author>Yegor Bugayenko</author>
+            <email>yegor256@gmail.com</email>
+            <time>2016-12-13T12:37:12Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/0pdd/issues/17" closed="2017-10-25T15:52:00+00:00">17</issue>
+            <ticket>15</ticket>
+            <estimate>30</estimate>
+            <role>IMP</role>
+            <id>15-a1d6817e</id>
+            <lines>32-34</lines>
+            <body>We don't have an SVG badge for GitHub, which will show how many puzzles we have at the moment in the repo. Let's create it, in SVG format (and maybe in PNG too).</body>
+            <file>0pdd.rb</file>
+            <author>Yegor Bugayenko</author>
+            <email>yegor256@gmail.com</email>
+            <time>2016-12-13T12:45:36Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/14" closed="2017-10-25T15:52:01+00:00">14</issue>
+    <ticket>3</ticket>
+    <estimate>20</estimate>
+    <role>IMP</role>
+    <id>3-9fa46796</id>
+    <lines>36-39</lines>
+    <body>This mechanism of body abbreviation is rather primitive and doesn't produce readable texts very often. Instead of cutting the text at the hard limit (40 chars) we have to cut it at the end of the word, staying closer to the limit.</body>
+    <file>objects/github_tickets.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-13T10:05:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/22" closed="2017-10-25T15:52:03+00:00">22</issue>
+    <ticket>3</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>3-41f7e700</id>
+    <lines>33-35</lines>
+    <body>Page not found is not implemented. When I open a URL that doesn't exist I see a default sinatra "not found" page, which is annoying.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-13T21:48:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/34" closed="2017-10-25T15:52:04+00:00">34</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-e4c85f20</id>
+    <lines>33-35</lines>
+    <body>This puzzle is just a test. It has to prove that the system works. Right after that I will remove it and it has to be removed from Github.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-22T10:40:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/35" closed="2017-10-25T15:52:05+00:00">35</issue>
+    <ticket>31</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>31-641f9fa5</id>
+    <lines>33-35</lines>
+    <body>This puzzle is just a test. It has to prove that the system works just well. Right after that I will remove it and it has to be removed from Github.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-22T10:59:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/36" closed="2017-10-25T15:52:06+00:00">36</issue>
+    <ticket>31</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>31-3016794f</id>
+    <lines>23-26</lines>
+    <body>This is just a test puzzle. This is just a test puzzle. This is just a test puzzle. This is just a test puzzle.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-22T11:07:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/37" closed="2017-10-25T15:52:07+00:00">37</issue>
+    <ticket>31</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>31-30e0dcda</id>
+    <lines>23-26</lines>
+    <body>This is just a test puzzle 2. This is just a test puzzle 2. This is just a test puzzle 2. This is just a test puzzle 2.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-22T13:40:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/38" closed="2017-10-25T15:52:08+00:00">38</issue>
+    <ticket>31</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>31-bd057c47</id>
+    <lines>23-26</lines>
+    <body>This is just a test puzzle 3. This is just a test puzzle 3. This is just a test puzzle 3. This is just a test puzzle 3.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-22T13:49:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/39" closed="2017-10-25T15:52:09+00:00">39</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-1c2ee73f</id>
+    <lines>23-25</lines>
+    <body>We lose errors when they happen with the source code. They just drop into the log and that's it. Instead, we must email them to the repository owner or a predefined email from .0pdd.yml</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2016-12-22T15:23:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/47" closed="2022-10-06T06:05:08+00:00">47</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>41-ab139346</id>
+    <lines>58-60</lines>
+    <body>Let's add GZIP compression to this output, since most XML files are rather big and it would be beneficial to see them compressed in the browser.</body>
+    <file>0pdd.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-02-15T18:19:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/48" closed="2017-10-25T15:52:10+00:00">48</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>41-15a94873</id>
+    <lines>87-89</lines>
+    <body>Let's post notification messages to tickets where other puzzles were waiting for the resolution of this one. Let's update them with a summary information of what is left.</body>
+    <file>objects/puzzles.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-02-15T18:42:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/55" closed="2017-10-25T15:52:11+00:00">55</issue>
+    <ticket>26</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>26-9cfe9c79</id>
+    <lines>25-27</lines>
+    <body>Let's implement a unit test for this class, using some SMTP stubbing engine, to catch the emails it is sending. We must be sure that the functionality works.</body>
+    <file>objects/emailed_tickets.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-04-06T07:06:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/56" closed="2017-10-25T15:52:12+00:00">56</issue>
+    <ticket>26</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>26-91cf6434</id>
+    <lines>25-27</lines>
+    <body>Let's implement a unit test for this class, using some SMTP stubbing engine, to catch the emails it is sending. We must be sure that the functionality works. It's very important.</body>
+    <file>objects/emailed_tickets.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-04-06T07:07:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/58" closed="2017-10-25T15:52:13+00:00">58</issue>
+    <ticket>26</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>26-2470bd41</id>
+    <lines>25-27</lines>
+    <body>Let's implement an integration test for this class, using some SMTP stubbing engine, to catch the emails it is sending. We must be sure that the functionality works.</body>
+    <file>objects/emailed_tickets.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-04-06T07:53:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/64" closed="2017-10-25T15:52:14+00:00">64</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>40-679dfbe3</id>
+    <lines>27-29</lines>
+    <body>Would be great to make sure the exceptions that we swallow here are also emailed to the admin, in order not to be lost. Let's do it as soon as possible.</body>
+    <file>objects/safe_tickets.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-04-06T19:23:13Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/0pdd/issues/65" closed="2017-10-25T15:52:15+00:00">65</issue>
+        <ticket>64</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>64-9110b6ed</id>
+        <lines>52-54</lines>
+        <body>Let's implement the emailing of the exception. Somehow we need to encapsulate the email client and format the exception backtrace to make it look nice.</body>
+        <file>objects/safe_tickets.rb</file>
+        <author>Yegor Bugayenko</author>
+        <email>yegor256@gmail.com</email>
+        <time>2017-04-06T19:30:45Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/77" closed="2017-10-25T15:52:15+00:00">77</issue>
+    <ticket>76</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>76-925a3c27</id>
+    <lines>91-93</lines>
+    <body>Would be better to store these two guys somewhere in configuration and re-use on every click. At the moment we are making too many unnecessary calls to the operating system.</body>
+    <file>0pdd.rb</file>
+    <author>0pdd</author>
+    <email>git@0pdd.com</email>
+    <time>2017-04-17T07:57:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/83" closed="2017-10-25T15:52:16+00:00">83</issue>
+    <ticket>80</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>80-31addd77</id>
+    <lines>142-144</lines>
+    <body>Let's create an integration test for this feature, with DynamoDB Local. It's important to make sure that log works. Also, class Log should be used in the test.</body>
+    <file>0pdd.rb</file>
+    <author>yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-04-25T11:03:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/84" closed="2017-10-25T15:52:17+00:00">84</issue>
+    <ticket>80</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>80-59dbe53a</id>
+    <lines>142-145</lines>
+    <body>Let's create an integration test for this feature, with DynamoDB Local. It's important to make sure that log works. Also, class Log should be used in the test. Let's use Maven plugin, like it's done in yegor256/sixnines GitHub project.</body>
+    <file>0pdd.rb</file>
+    <author>yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-04-25T11:16:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/111" closed="2017-10-25T15:52:18+00:00">111</issue>
+    <ticket>110</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>110-9c9d8a7c</id>
+    <lines>57-59</lines>
+    <body>Let's add DynamoDB Local for the testing cycle and make sure we work correctly with Dynamo persistence layer. Somehow we must also fix the Rakefile.</body>
+    <file>0pdd.rb</file>
+    <author>yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-09-14T17:04:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/112" closed="2018-05-25T14:44:00+00:00">112</issue>
+    <ticket>110</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>110-1d6b79a2</id>
+    <lines>199-201</lines>
+    <body>Let's not show the MORE link in the log list if the list doesn't have any more elements. At the moment we keep showing that MORE link if any elements are there.</body>
+    <file>0pdd.rb</file>
+    <author>yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-09-14T17:04:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/113" closed="2017-11-06T13:41:07+00:00">113</issue>
+    <ticket>110</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>110-b6547ac0</id>
+    <lines>28-30</lines>
+    <body>Let's make puzzles.xsd publicly avaiable in the web and let's add it to the XML files we save, so that users can see the XSD schema together with the XML content.</body>
+    <file>Rakefile</file>
+    <author>yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-09-14T17:04:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/198" closed="2018-09-18T04:45:10+00:00">198</issue>
+    <ticket>194</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>194-4ac81527</id>
+    <lines>248-250</lines>
+    <body>Need to figure out the correct way to accept the Organization Invitation. It's not quite clear. Octokit Doc Link: https://bit.ly/2qFkfpU</body>
+    <file>0pdd.rb</file>
+    <author>yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-04-20T08:42:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/199" closed="2018-06-15T04:28:13+00:00">199</issue>
+    <ticket>195</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>195-ac2e468f</id>
+    <lines>116-117</lines>
+    <body>Replace body with Template markdown using engine such as Liquid. https://github.com/Shopify/liquid</body>
+    <file>objects/github_tickets.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-04-23T09:15:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/349" closed="2022-05-30T16:12:14+00:00">349</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-65582b0c</id>
+    <lines>432-432</lines>
+    <body>Make this vcs independent. Move this logic to github vsc object.</body>
+    <file>0pdd.rb</file>
+    <author>Ayomide Bakare</author>
+    <email>bakkareayomideo@gmail.com</email>
+    <time>2022-05-23T17:35:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/0pdd/issues/351">351</issue>
+    <ticket>312</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>312-e81466ef</id>
+    <lines>56-58</lines>
+    <body>Currently, if 0pdd fails to close an issue it causes all other downstream execution to be skipped therefore leaving the job in a non deterministic state. Catch and track the error here to prevent this from happening. Also applies to `add_comment(...)`</body>
+    <file>objects/vcs/github.rb</file>
+    <author>Ayomide Bakare</author>
+    <email>bakkareayomideo@gmail.com</email>
+    <time>2022-05-25T09:52:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/353" closed="2022-05-31T12:00:39+00:00">353</issue>
+    <ticket>312</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>312-3e51e119</id>
+    <lines>383-384</lines>
+    <body>Handle the use case where projects from different vcs have the same &lt;user/repo_name&gt;. This will cause a conflict.</body>
+    <file>0pdd.rb</file>
+    <author>Ayomide Bakare</author>
+    <email>bakkareayomideo@gmail.com</email>
+    <time>2022-05-30T13:38:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/0pdd/issues/354">354</issue>
+    <ticket>312</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>312-68d60ea6</id>
+    <lines>33-34</lines>
+    <body>Be sure to handle the use case where projects from different vcs have the same &lt;user/repo_name&gt;. This will cause a conflict.</body>
+    <file>objects/log.rb</file>
+    <author>Ayomide Bakare</author>
+    <email>bakkareayomideo@gmail.com</email>
+    <time>2022-05-30T13:38:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/0pdd/issues/360" closed="2022-07-04T11:43:58+00:00">360</issue>
+    <ticket>378</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>378-7f330a4d</id>
+    <lines>35-35</lines>
+    <body>rewrite @is_valid = {} as it suppose to be after the jira server part integration</body>
+    <file>objects/vcs/jira.rb</file>
+    <author>Arina Cheverda</author>
+    <email>amoriodi@yandex-team.ru</email>
+    <time>2022-06-07T10:20:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/0pdd/issues/386">386</issue>
+    <ticket>234</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>234-12f515de</id>
+    <lines>8-11</lines>
+    <body>Add tests for more complicated dynamics, like [here](https://github.com/php-coder/mystamps/issues/695#issuecomment-405372820). Ideally, this tests other cases that can lead to the observed behaviour, but not covered by the test suite.</body>
+    <file>test/test_diff_complicated.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2022-10-06T06:29:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/0pdd/issues/562">562</issue>
+    <ticket>532</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>532-a6c77906</id>
+    <lines>30-32</lines>
+    <body>Add unit-tests. We should add unit-tests for this class that checks puzzle ranking. For now its untested, don't forget to remove this puzzle.</body>
+    <file>model/linear.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-02-02T14:32:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/0pdd/issues/563">563</issue>
+    <ticket>532</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>532-c8e80cf1</id>
+    <lines>55-60</lines>
+    <body>Implement a ranked puzzles. Let's implement a class that will use `LinearModel` to rank puzzles. This class is need in order to do an integration between original 0pdd and model modules. Probably it can be a decorator for `Puzzles` that ranks XML puzzles, and then submits them into `Puzzles`. Don't forget to remove this puzzle.</body>
+    <file>model/linear.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-02-02T14:32:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/0pdd/issues/564">564</issue>
+    <ticket>532</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>532-cf0ceb1a</id>
+    <lines>28-32</lines>
+    <body>Implement a decorator for optional model configuration load. Let's implement a class that decorates `Puzzles` and based on presence of `model: true` attribute in YAML config, decides whether the puzzles should be ranked or not. Don't forget to remove this puzzle.</body>
+    <file>objects/puzzles.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-02-02T14:32:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/0pdd/issues/591">591</issue>
+    <ticket>572</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>572-65f83727</id>
+    <lines>152-153</lines>
+    <body>rewind is removed from rack 3.0, so it is moved to rewindableInput for now, but it is better to check another solutions</body>
+    <file>0pdd.rb</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-03-18T20:37:55Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-09-08T15:05:53+00:00" version="0.30.18">
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/6" closed="2019-09-07T06:36:45+00:00">6</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-dc6b378e</id>
+    <lines>22-22</lines>
+    <body>needs to remove this log message. As a requirement for test our log should be clear.</body>
+    <file>src/main/java/com/aivinog1/cardpay/App.java</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-09-06T08:19:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/7">7</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-896c1593</id>
+    <lines>4-4</lines>
+    <body>Needs to set up cache for ruby dependencies. This can speed up builds.</body>
+    <file>.travis.yml</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-09-06T08:19:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/8" closed="2019-09-08T15:05:53+00:00">8</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-f023c3e9</id>
+    <lines>2-2</lines>
+    <body>Needs to create an instruction for a build and run. Without such instuction our project is useless.)</body>
+    <file>README.md</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-09-06T08:19:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/9" closed="2019-09-07T10:11:52+00:00">9</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-0210c121</id>
+    <lines>1-1</lines>
+    <body>Needs to implement Rultor integration. We should merge our requests only via Rultor.</body>
+    <file>.rultor.yml</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-09-06T08:19:17Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/44">44</issue>
+        <ticket>9</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>9-5e2a35ac</id>
+        <lines>11-11</lines>
+        <body>Add a release stage. For now this jar isn't published.</body>
+        <file>.rultor.yml</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T10:06:31Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/10" closed="2019-09-07T06:42:50+00:00">10</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-33c057fe</id>
+    <lines>39-39</lines>
+    <body>add jacoco for coverage report. Coverage report needs to check how good our tests.--&gt;</body>
+    <file>pom.xml</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-09-06T08:19:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/12" closed="2019-09-07T05:57:07+00:00">12</issue>
+    <ticket>4</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>4-ce4d5fbb</id>
+    <lines>22-22</lines>
+    <body>Let's implement this method. This method should return List of the future responses readed from JSONs.</body>
+    <file>src/main/java/com/aivinog1/cardpay/parse/impl/JsonConverterService.java</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-09-06T12:19:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/14" closed="2019-09-07T05:38:53+00:00">14</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-724f12b4</id>
+    <lines>26-26</lines>
+    <body>Let's use {@link ExecutionService} for processing. It is implement all the features that we need for processing files.</body>
+    <file>src/main/java/com/aivinog1/cardpay/cli/Runner.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-07T04:49:03Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/23">23</issue>
+        <ticket>14</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>14-e7c0bb5f</id>
+        <lines>49-49</lines>
+        <body>Let's create dedicate exception for this. And think about exception handling. Our code must be clear from RuntimeExceptions.</body>
+        <file>src/main/java/com/aivinog1/cardpay/cli/Runner.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T05:33:32Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/24">24</issue>
+        <ticket>14</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>14-29328703</id>
+        <lines>58-58</lines>
+        <body>Let's create dedicate exception for this. Our code must be clear from RuntimeExceptions.</body>
+        <file>src/main/java/com/aivinog1/cardpay/cli/Runner.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T05:25:30Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/15">15</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-76a38828</id>
+    <lines>17-17</lines>
+    <body>Needs to write tests. For now tests are absent for this class, but we need unit tests for this class.</body>
+    <file>src/main/java/com/aivinog1/cardpay/cli/ExecutionService.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-07T04:49:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/16">16</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-dd439384</id>
+    <lines>37-37</lines>
+    <body>Let's create dedicated exception for this situation. For now it's just runtime exception, but we needs a dedicated exception with reason.</body>
+    <file>src/main/java/com/aivinog1/cardpay/cli/ExecutionService.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-07T04:49:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/17" closed="2019-09-07T05:57:09+00:00">17</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-5e7f30b5</id>
+    <lines>25-25</lines>
+    <body>Let's remove this method and all of it's usages. It must be replaced by {@link JsonConverterService#convert(Path)}</body>
+    <file>src/main/java/com/aivinog1/cardpay/parse/impl/JsonConverterService.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-07T04:49:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/18" closed="2019-09-07T06:31:02+00:00">18</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-9becbf71</id>
+    <lines>39-39</lines>
+    <body>Let's implement this method. It must be read file and process it by two cases: a json array and a list of json objects</body>
+    <file>src/main/java/com/aivinog1/cardpay/parse/impl/JsonConverterService.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-07T04:49:03Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/28">28</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-98296ef8</id>
+        <lines>6-6</lines>
+        <body>let's write tests for the {@link JsonConverterService} class. We need more tests.</body>
+        <file>src/test/java/com/aivinog1/cardpay/parse/impl/JsonConverterServiceTest.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T06:26:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/29" closed="2019-09-08T11:37:55+00:00">29</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-2b4a0ae0</id>
+        <lines>18-18</lines>
+        <body>Let's implement this method. It should parse separate lines as separate jsons.</body>
+        <file>src/main/java/com/aivinog1/cardpay/parse/json/impl/ListOfJsonsJsonParser.java</file>
+        <author>@aivinog1</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T06:26:40Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/aivinog1/test-cardpay/issues/47">47</issue>
+            <ticket>29</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>29-e0f2eea5</id>
+            <lines>27-27</lines>
+            <body>Let's create dedicated exception for this. We need it to complete an error processing.</body>
+            <file>src/main/java/com/aivinog1/cardpay/parse/json/impl/JsonObjectParser.java</file>
+            <author>@aivinog1</author>
+            <email>vinogradov.a.i.93@gmail.com</email>
+            <time>2019-09-08T11:26:42Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/aivinog1/test-cardpay/issues/48">48</issue>
+            <ticket>29</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>29-14a7c4d3</id>
+            <lines>36-36</lines>
+            <body>Let's implement error handling there. For now we just rethrowing a RuntimeException with an exception.</body>
+            <file>src/main/java/com/aivinog1/cardpay/parse/json/impl/ListOfJsonsJsonParser.java</file>
+            <author>Alexey Vinogradov</author>
+            <email>vinogradov.a.i.93@gmail.com</email>
+            <time>2019-09-08T11:26:42Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/30" closed="2019-09-07T07:50:15+00:00">30</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-00823545</id>
+        <lines>18-18</lines>
+        <body>Needs to implement this method. It should parse lines as single JSON array.</body>
+        <file>src/main/java/com/aivinog1/cardpay/parse/json/impl/ArrayJsonParser.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T06:26:40Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/aivinog1/test-cardpay/issues/41" closed="2019-09-08T11:56:55+00:00">41</issue>
+            <ticket>30</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>30-fd763368</id>
+            <lines>36-36</lines>
+            <body>Let's pass to this method the file name. Needs the file name in the response.</body>
+            <file>src/main/java/com/aivinog1/cardpay/parse/json/impl/ArrayJsonParser.java</file>
+            <author>@aivinog1</author>
+            <email>vinogradov.a.i.93@gmail.com</email>
+            <time>2019-09-07T07:43:09Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/31">31</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-040a5880</id>
+        <lines>35-35</lines>
+        <body>Let's create dedicated exception for this. If we can't read lines, than we can't process further.</body>
+        <file>src/main/java/com/aivinog1/cardpay/parse/impl/JsonConverterService.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T06:26:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/32">32</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-a7577250</id>
+        <lines>40-40</lines>
+        <body>Let's create dedicated exception for this. If a file is empty we can't process further.</body>
+        <file>src/main/java/com/aivinog1/cardpay/parse/impl/JsonConverterService.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T06:26:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/33">33</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-9cb83e4c</id>
+        <lines>46-46</lines>
+        <body>needs a dedicated exception for this. If we can't find an array element we can't process further.</body>
+        <file>src/main/java/com/aivinog1/cardpay/parse/impl/JsonConverterService.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T06:26:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/34">34</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-4c2b6594</id>
+        <lines>50-50</lines>
+        <body>needs a dedicated exception for this. If we can't find an list of object element we can't process further.</body>
+        <file>src/main/java/com/aivinog1/cardpay/parse/impl/JsonConverterService.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T06:26:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/aivinog1/test-cardpay/issues/35">35</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-cd269940</id>
+        <lines>54-54</lines>
+        <body>needs to improve this. If a file contains many empty strings before - this doesn't works.</body>
+        <file>src/main/java/com/aivinog1/cardpay/parse/impl/JsonConverterService.java</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradov.a.i.93@gmail.com</email>
+        <time>2019-09-07T06:26:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/19" closed="2019-09-08T10:39:25+00:00">19</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-6042c3b2</id>
+    <lines>39-39</lines>
+    <body>Let's move configuration of the Executor in configuration files. That gives us more flexibility.</body>
+    <file>src/main/java/com/aivinog1/cardpay/AppConfiguration.java</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-07T04:49:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/39" closed="2019-09-08T10:39:27+00:00">39</issue>
+    <ticket>26</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>26-869e73a1</id>
+    <lines>61-61</lines>
+    <body>Let's move parameters of {@link ThreadPoolTaskExecutor} to the configuration for extended flexibility.</body>
+    <file>src/main/java/com/aivinog1/cardpay/AppConfiguration.java</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-07T06:59:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/51">51</issue>
+    <ticket>2</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>2-88da6450</id>
+    <lines>33-33</lines>
+    <body>Let's process this exception later. For now it's just rethrowing RuntimeException</body>
+    <file>src/main/java/com/aivinog1/cardpay/parse/impl/CsvCovertService.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-08T14:41:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/52">52</issue>
+    <ticket>2</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>2-b0a8228e</id>
+    <lines>46-46</lines>
+    <body>We need to process this exception later. For now it's just rethrowing.</body>
+    <file>src/main/java/com/aivinog1/cardpay/parse/impl/CsvCovertService.java</file>
+    <author>@aivinog1</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-08T14:41:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/aivinog1/test-cardpay/issues/53">53</issue>
+    <ticket>2</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>2-432ca409</id>
+    <lines>27-27</lines>
+    <body>Let's properly handle this exception. For now it's just rethrowing such exception.</body>
+    <file>src/main/java/com/aivinog1/cardpay/parse/csv/CsvParser.java</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradov.a.i.93@gmail.com</email>
+    <time>2019-09-08T14:41:33Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

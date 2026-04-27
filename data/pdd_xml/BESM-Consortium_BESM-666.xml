@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-12-21T09:50:26+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/4" closed="2023-09-06T20:36:26+00:00">4</issue>
+    <ticket>2238</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>2238-26731182</id>
+    <lines>2-5</lines>
+    <body>Aboba Aboba AbobaAboba Aboba Aboba Aboba AbobaAboba AbobaAboba Aboba AbobaAboba Aboba Aboba Aboba AbobaAboba AbobaAboba Aboba AbobaAboba Aboba @return 0.</body>
+    <file>TEST_C_FILE_TO_CHECK_PDD.c</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-09-06T20:33:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/31">31</issue>
+    <ticket>24</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>24-9e1534dc</id>
+    <lines>6-10</lines>
+    <body>This wraps will be used in unit test. I really don't know, how to wrap syscall mmap, munmap in unit test without changing the besm666 source code, because gtest uses this syscalls too. I'm looking for better solutions.....</body>
+    <file>include/besm-666/memory/mmap-wrapper.hpp</file>
+    <author>@mmamayka</author>
+    <email>55717770+mmamayka@users.noreply.github.com</email>
+    <time>2023-09-15T22:56:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/37">37</issue>
+    <ticket>10</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>10-a8e04775</id>
+    <lines>8-9</lines>
+    <body>Generate this file with matrix instead of copypaste from the current raw generator.</body>
+    <file>include/besm-666/autogen/opcodes-to-format.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-09-20T09:39:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/38">38</issue>
+    <ticket>10</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>10-bbd9bfd5</id>
+    <lines>8-9</lines>
+    <body>Generate this file instead of copypaste from the current raw generator.</body>
+    <file>include/besm-666/autogen/operations-matrix.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-09-20T09:39:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/39" closed="2023-09-28T13:05:19+00:00">39</issue>
+    <ticket>1ILLEGAL</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1ILLEGAL-994f1784</id>
+    <lines>133-135</lines>
+    <body>Implement the functions of I format. Now it is just a stub. We need to implement every of them and test. ALARM: pay attention to 0b1110011 opcode.</body>
+    <file>include/besm-666/decoder/decoder.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-09-20T09:39:19Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/BESM-Consortium/BESM-666/issues/56">56</issue>
+        <ticket>39</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>39-226025d4</id>
+        <lines>145-148</lines>
+        <body>Implement processing of 0b0001111 opcode. According to the new specification https://raw.githubusercontent.com/riscv/riscv-isa-manual/8176af1a46bfe2e15f8cdb170d74e52e1ba6efa2/src/rv-32-64g.adoc there are not FENCE only but also FENCE.TSO and PAUSE with</body>
+        <file>src/decoder/decoder.cpp</file>
+        <author>@levBagryansky</author>
+        <email>28lev11@gmail.com</email>
+        <time>2023-09-26T19:26:46Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/BESM-Consortium/BESM-666/issues/78">78</issue>
+        <ticket>39</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>39-d4f5358f</id>
+        <lines>20-22</lines>
+        <body>We can place all jump instructions consequently in InstructionOp enum and check the condition of kind 'does the current instruction fit in jump operations range'.</body>
+        <file>include/besm-666/instruction.hpp</file>
+        <author>@c71n93</author>
+        <email>70313618+c71n93@users.noreply.github.com</email>
+        <time>2023-10-31T20:35:55Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/BESM-Consortium/BESM-666/issues/88">88</issue>
+        <ticket>39</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>39-909bf924</id>
+        <lines>144-145</lines>
+        <body>Make autogen for rv-instruction-op.hpp header and this array to keep them consistent (handler index is enum value of operation)</body>
+        <file>include/besm-666/sim/hart.hpp</file>
+        <author>Roman Korostinskiy</author>
+        <email>70313618+c71n93@users.noreply.github.com</email>
+        <time>2023-12-21T09:49:56Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/40" closed="2023-09-28T13:05:24+00:00">40</issue>
+    <ticket>1ILLEGAL</ticket>
+    <estimate>9</estimate>
+    <role>DEV</role>
+    <id>1ILLEGAL-85d23a2b</id>
+    <lines>144-145</lines>
+    <body>Implement the functions of S format. Now it is just a stub. We need to implement every of them and test.</body>
+    <file>include/besm-666/decoder/decoder.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-09-20T09:39:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/41" closed="2023-09-28T13:05:29+00:00">41</issue>
+    <ticket>1ILLEGAL</ticket>
+    <estimate>9</estimate>
+    <role>DEV</role>
+    <id>1ILLEGAL-459ddeca</id>
+    <lines>153-154</lines>
+    <body>Implement the functions of B format. Now it is just a stub. We need to implement every of them and test.</body>
+    <file>include/besm-666/decoder/decoder.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-09-20T09:39:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/42" closed="2023-09-21T22:15:30+00:00">42</issue>
+    <ticket>1ILLEGAL</ticket>
+    <estimate>9</estimate>
+    <role>DEV</role>
+    <id>1ILLEGAL-efd03d21</id>
+    <lines>162-163</lines>
+    <body>Implement the functions of U format. Now it is just a stub. We need to implement every of them and test.</body>
+    <file>include/besm-666/decoder/decoder.hpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-09-20T09:39:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/43" closed="2023-09-28T13:05:33+00:00">43</issue>
+    <ticket>1ILLEGAL</ticket>
+    <estimate>9</estimate>
+    <role>DEV</role>
+    <id>1ILLEGAL-0236ddfd</id>
+    <lines>171-172</lines>
+    <body>Implement the functions of J format. Now it is just a stub. We need to implement every of them and test.</body>
+    <file>include/besm-666/decoder/decoder.hpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-09-20T09:39:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/50">50</issue>
+    <ticket>9</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>9-94319f6c</id>
+    <lines>66-66</lines>
+    <body>to check that elf does not require dynamic linking</body>
+    <file>src/util/elf-parser.cpp</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-09-22T17:45:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/77">77</issue>
+    <ticket>71</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>71-243ec437</id>
+    <lines>12-13</lines>
+    <body>Implement TagFunction and HashFunction and get rid of keeping tag in CacheEntry</body>
+    <file>include/besm-666/util/assotiative-cache.hpp</file>
+    <author>@vany-egorov</author>
+    <email>104271817+ivan-egorov42@users.noreply.github.com</email>
+    <time>2023-10-31T19:17:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/85" closed="2023-12-21T09:50:09+00:00">85</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>82-d0f6b6a9</id>
+    <lines>36-37</lines>
+    <body>remove this branch by adding another functionality to cache</body>
+    <file>src/sim/hart.cpp</file>
+    <author>Ivan Egorov</author>
+    <email>104271817+ivan-egorov42@users.noreply.github.com</email>
+    <time>2023-11-15T20:26:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/BESM-Consortium/BESM-666/issues/89">89</issue>
+    <ticket>81</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>81-442096c2</id>
+    <lines>110-110</lines>
+    <body>to be implemented</body>
+    <file>include/besm-666/sim/hart.hpp</file>
+    <author>@c71n93</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-12-21T09:49:56Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

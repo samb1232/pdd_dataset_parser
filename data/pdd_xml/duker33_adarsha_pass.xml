@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-03-14T08:53:33+00:00" version="0.30.21">
+  <puzzle alive="true">
+    <issue href="https://github.com/duker33/adarsha_pass/issues/12">12</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-f51b6a0a</id>
+    <lines>27-27</lines>
+    <body>Drop ssl_adapter module.</body>
+    <file>bot/drivers/http.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-10-19T14:06:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/duker33/adarsha_pass/issues/13" closed="2020-03-14T08:53:33+00:00">13</issue>
+    <ticket>1</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>1-fbb229ae</id>
+    <lines>45-46</lines>
+    <body>Implement drivers.http.confirm method. And invoke it in existing tests.</body>
+    <file>bot/drivers/http.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-10-19T13:00:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/duker33/adarsha_pass/issues/14">14</issue>
+    <ticket>1</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>1-e03ba720</id>
+    <lines>50-52</lines>
+    <body>Implement drivers.http.cancel method. And invoke it in existing tests. It's not trivial tasks since http request building is required.</body>
+    <file>bot/drivers/http.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-10-19T13:00:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/duker33/adarsha_pass/issues/15">15</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-d0f707fb</id>
+    <lines>72-72</lines>
+    <body>Cast Message to dataclass.</body>
+    <file>bot/app.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-10-19T14:06:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/duker33/adarsha_pass/issues/16">16</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-109bf0a0</id>
+    <lines>4-5</lines>
+    <body>Implement server for bot. It should receive stop/start signals and restart correctly.</body>
+    <file>main.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-10-19T13:00:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/duker33/adarsha_pass/issues/17">17</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-d852b738</id>
+    <lines>13-14</lines>
+    <body>Response to user with error message. Make bot to clearly response to user in case of error message.</body>
+    <file>main.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-10-19T13:00:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/duker33/adarsha_pass/issues/22">22</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-dfc16cc1</id>
+    <lines>46-46</lines>
+    <body>Implement CLI for passes pack creating.</body>
+    <file>cli.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2020-01-11T12:10:58Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

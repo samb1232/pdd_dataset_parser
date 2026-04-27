@@ -1,0 +1,619 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2017-11-08T16:11:02+00:00" version="0.25.7">
+  <puzzle alive="true">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/15">15</issue>
+    <ticket>9</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>9-5675a4ac</id>
+    <lines>44-44</lines>
+    <body>Add more examples of usage here</body>
+    <file>README.md</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-04-15T11:19:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/17">17</issue>
+    <ticket>14</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>14-62b34c59</id>
+    <lines>37-39</lines>
+    <body>Implement and unit test JsonNotifications (implements Notifications) and add method notifications() here, to fetch the authenticated user's notifications info.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Authenticated.java</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-04-18T06:57:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/19">19</issue>
+    <ticket>11</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>11-fc83fc4d</id>
+    <lines>35-37</lines>
+    <body>Provide RtComments implementation and unit tests. The class should work with a given request and username or simply fetch the authenticated user's comments if no username is given.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Comments.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-04-18T07:28:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/33">33</issue>
+        <ticket>19</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>19-576c7749</id>
+        <lines>38-40</lines>
+        <body>Provide a method to return a Paging, which should offer information about the current page, number of pages etc. See src/test/resources/comments.json to see how paging looks like.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/Comments.java</file>
+        <author>Mihai Emil Andronache</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-04-21T08:34:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/20">20</issue>
+    <ticket>11</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>11-51606277</id>
+    <lines>35-37</lines>
+    <body>Provide RtFavorites implementation and unit tests. The class should work with a given request and username or simply fetch the authenticated user's favorites if no username is given.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Favorites.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-04-18T07:28:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/40">40</issue>
+        <ticket>20</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>20-6a798f06</id>
+        <lines>38-39</lines>
+        <body>Provide integration and unit tests for RtFavorites and RtFavorite.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/Favorites.java</file>
+        <author>Mihai Emil Andronache</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-04-27T13:12:31Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/decorators-squad/versioneye-api/issues/42">42</issue>
+            <ticket>40</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>40-c1757649</id>
+            <lines>52-52</lines>
+            <body>Add integration tests for RtFavorites.</body>
+            <file>src/test/java/com/amihaiemil/versioneye/RtFavoritesTestCase.java</file>
+            <author>sherif</author>
+            <email>sherifwaly95@gmail.com</email>
+            <time>2017-04-28T11:24:56Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/21">21</issue>
+    <ticket>11</ticket>
+    <estimate>30</estimate>
+    <role>D</role>
+    <id>11-99090d22</id>
+    <lines>38-41</lines>
+    <body>This class should have more ctors in order to leverage unit testing and usage. It should have at least one ctor where it takes a Request object (so we can pass Fake requests when unit testing). Also, the user might want to configure the original HTTP request.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/RtVersionEye.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-04-18T07:28:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/22">22</issue>
+    <ticket>11</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>11-77a18dea</id>
+    <lines>71-72</lines>
+    <body>Implement and unit test this method after we have a working implementation of Comments in place.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/RtMe.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-04-18T07:28:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/23">23</issue>
+    <ticket>11</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>11-b1984bcc</id>
+    <lines>82-83</lines>
+    <body>Implement and unit test this method after we have a working implementation of Favorites in place.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/RtMe.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-04-18T07:28:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/24">24</issue>
+    <ticket>14</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>14-16d6cb26</id>
+    <lines>37-39</lines>
+    <body>Implement and unit test RtNotifications (implements Notifications) and add method notifications() here, to fetch the authenticated user's notifications info.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Authenticated.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-04-18T07:28:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/31">31</issue>
+    <ticket>29</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>29-855dab61</id>
+    <lines>58-58</lines>
+    <body>Add more tests to check that HTTP reached server.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/VersionEye.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-04-19T12:44:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/35">35</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-9c31931b</id>
+    <lines>38-38</lines>
+    <body>Provide RtOrganizations and unit tests for it.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Organizations.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-04-23T16:39:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/44">44</issue>
+        <ticket>35</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>35-79647dcf</id>
+        <lines>46-46</lines>
+        <body>Provide unit tests for this class.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/RtOrganizations.java</file>
+        <author>sherif</author>
+        <email>sherifwaly95@gmail.com</email>
+        <time>2017-05-03T12:34:52Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/45">45</issue>
+        <ticket>35</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>35-de23b30b</id>
+        <lines>12-13</lines>
+        <body>Implement, unit test this class and add methods for the organization attributes as (api_key).</body>
+        <file>src/main/java/com/amihaiemil/versioneye/RtOrganization.java</file>
+        <author>sherif</author>
+        <email>sherifwaly95@gmail.com</email>
+        <time>2017-05-03T12:34:52Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/decorators-squad/versioneye-api/issues/47">47</issue>
+            <ticket>45</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>45-46f15e48</id>
+            <lines>39-39</lines>
+            <body>implement and test `teams()` and `projects()` methods.</body>
+            <file>src/main/java/com/amihaiemil/versioneye/RtOrganization.java</file>
+            <author>sherif</author>
+            <email>sherifwaly95@gmail.com</email>
+            <time>2017-05-04T11:24:48Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/36">36</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-8445ad5b</id>
+    <lines>35-36</lines>
+    <body>Provide RtOrganization as implementation and unit tests. The class should work with a given request and organization name.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Organization.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-04-23T16:39:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/37">37</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-93a42626</id>
+    <lines>35-36</lines>
+    <body>Provide RtTeams implementation and unit tests. The class should work with a given request and organization name.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Teams.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-04-23T16:39:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/49">49</issue>
+        <ticket>37</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>37-8087fd76</id>
+        <lines>39-39</lines>
+        <body>implement and test `projects()` method.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/RtOrganization.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-05-04T13:20:13Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/38">38</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-ddff6a9c</id>
+    <lines>35-36</lines>
+    <body>Provide RtProjects implementation and unit tests. The class should work with a given request and organization name.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Projects.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-04-23T16:39:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/76">76</issue>
+        <ticket>38</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>38-9ba47f0d</id>
+        <lines>8-8</lines>
+        <body>Provide and unit test RtProject.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/Project.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-05-12T15:00:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/77">77</issue>
+        <ticket>38</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>38-6124748b</id>
+        <lines>40-40</lines>
+        <body>Implement and unit test method fetch().</body>
+        <file>src/main/java/com/amihaiemil/versioneye/RtProjects.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-05-12T15:00:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/53">53</issue>
+    <ticket>51</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>51-cac787c7</id>
+    <lines>39-40</lines>
+    <body>Implement and unit-test FavoritesPage (see how CommentsPage is done).</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Favorites.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-05-07T14:01:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/56">56</issue>
+    <ticket>13</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>13-64d6efce</id>
+    <lines>37-38</lines>
+    <body>Continue implementing the mock API. Mocks for Users, Organizations Teams etc are needed,</body>
+    <file>src/main/java/com/amihaiemil/versioneye/MkVersionEye.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-05-08T10:18:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/60">60</issue>
+    <ticket>57</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>57-244db6f8</id>
+    <lines>39-40</lines>
+    <body>Change ``post()`` method in ``Me`` by passing a ``MkUser`` to the ``MkVersionEye`` ctor. (See #59 review)</body>
+    <file>src/main/java/com/amihaiemil/versioneye/MkVersionEye.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-05-10T09:12:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/68">68</issue>
+    <ticket>63</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>63-77eb9a24</id>
+    <lines>46-49</lines>
+    <body>Refactor implementation of MkMe so that it uses the user's username rather that the Authenticated user. Pass Authenticated user to ``authenticate()`` method so that the authenticated user won't be retained.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/MkVersionEye.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-05-11T19:49:30Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/70">70</issue>
+        <ticket>68</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>68-193eff96</id>
+        <lines>48-50</lines>
+        <body>write a synchronized decorator for this, to make it thread-safe. We need it is used by MkServer, which may be used by more instances of MkVersionEye at once.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/NfJsonObjectBuilderImpl.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-05-12T07:41:13Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/72">72</issue>
+    <ticket>13</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>13-9719886d</id>
+    <lines>42-44</lines>
+    <body>Continue implementing the mock API. Mocks for Users, Organizations Teams etc are needed. This puzzle was readded after being removed by mistake.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/MkVersionEye.java</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-05-12T12:35:08Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/108">108</issue>
+        <ticket>72</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>72-33f7b683</id>
+        <lines>42-43</lines>
+        <body>Continue implementing the mock API. Mocks for Organizations, Teams etc are needed.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/MkVersionEye.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-06-01T09:53:44Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/85">85</issue>
+    <ticket>83</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>83-a5042414</id>
+    <lines>39-40</lines>
+    <body>Implement a way of fetching the vulnerabilities for a given project.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Project.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-05-15T11:48:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/86">86</issue>
+    <ticket>83</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>83-50f37eac</id>
+    <lines>39-40</lines>
+    <body>Unit test this class, similar to how CommentsPage and FavoritesPage are tested.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/VulnerabilitiesPage.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-05-15T11:48:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/93">93</issue>
+        <ticket>86</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>86-34f96df2</id>
+        <lines>35-36</lines>
+        <body>Implement and unit test the methods for a vulnerability, as it is returned by the API.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/Vulnerability.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-05-18T10:43:03Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/decorators-squad/versioneye-api/issues/119">119</issue>
+            <ticket>93</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>93-1f7876d6</id>
+            <lines>40-42</lines>
+            <body>Implement a way of fetching the vulnerabilities for a given Product. This is pending the implementation of the Products/Product Search API.</body>
+            <file>src/main/java/com/amihaiemil/versioneye/Security.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2017-07-16T16:45:03Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/decorators-squad/versioneye-api/issues/120">120</issue>
+            <ticket>93</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>93-4084be8f</id>
+            <lines>37-37</lines>
+            <body>Implement the Product/Products Search API.</body>
+            <file>src/main/java/com/amihaiemil/versioneye/VersionEye.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2017-07-16T16:45:03Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/88">88</issue>
+    <ticket>81</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>81-882850d7</id>
+    <lines>35-36</lines>
+    <body>Complete implementations and unit tests for RtRepository.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Repository.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-05-15T14:36:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/89">89</issue>
+    <ticket>81</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>81-7a3e2fdc</id>
+    <lines>38-40</lines>
+    <body>Complete Github API methods and move fetch/paging to a repositories interface. You can also filter repositories by orga_name, prog. language, etc.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/Github.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-05-15T14:54:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/100">100</issue>
+        <ticket>89</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>89-21f03952</id>
+        <lines>46-47</lines>
+        <body>Refactor code to make the class immutable and add more unit tests.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/RtRepositories.java</file>
+        <author>sherif</author>
+        <email>sherifwaly95@gmail.com</email>
+        <time>2017-05-19T11:29:32Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/versioneye-api/issues/101">101</issue>
+        <ticket>89</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>89-09582e09</id>
+        <lines>37-37</lines>
+        <body>Complete Github API methods.</body>
+        <file>src/main/java/com/amihaiemil/versioneye/Github.java</file>
+        <author>sherif</author>
+        <email>sherifwaly95@gmail.com</email>
+        <time>2017-05-18T14:59:27Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/decorators-squad/versioneye-api/issues/112">112</issue>
+            <ticket>101</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>101-27d97a0d</id>
+            <lines>37-39</lines>
+            <body>Complete Github API methods. When possible, think that you can implement those methods on a Project. (e.g. see Project.hook()).</body>
+            <file>src/main/java/com/amihaiemil/versioneye/Github.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2017-06-06T17:29:52Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/decorators-squad/versioneye-api/issues/114">114</issue>
+                <ticket>112</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>112-09216f58</id>
+                <lines>46-48</lines>
+                <body>Modify repository(repositoryKey) method to return a DetailedRepository as json returned is incompatible with Repository one.</body>
+                <file>src/main/java/com/amihaiemil/versioneye/RtRepositories.java</file>
+                <author>sherif</author>
+                <email>sherifwaly95@gmail.com</email>
+                <time>2017-06-08T19:16:17Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/90">90</issue>
+    <ticket>81</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>81-f19828ab</id>
+    <lines>46-46</lines>
+    <body>Unit test this class.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/RtGithub.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-05-15T14:36:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/91">91</issue>
+    <ticket>81</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>81-4d9fd085</id>
+    <lines>39-40</lines>
+    <body>Write some unit tests for this class. They should be simmilar to those for CommentsPage.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/RepositoriesPage.java</file>
+    <author>Mihai Emil Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-05-15T15:55:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/versioneye-api/issues/105">105</issue>
+    <ticket>103</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>103-bf2c0843</id>
+    <lines>41-41</lines>
+    <body>Implement versionEye() method for Team, Projects, etc.</body>
+    <file>src/main/java/com/amihaiemil/versioneye/RtVersionEye.java</file>
+    <author>sherif</author>
+    <email>sherifwaly95@gmail.com</email>
+    <time>2017-05-25T14:48:22Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

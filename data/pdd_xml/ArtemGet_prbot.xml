@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-03-13T14:37:56+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/3">3</issue>
+    <ticket>1</ticket>
+    <estimate>10</estimate>
+    <role>DEV</role>
+    <id>1-dd1ce70f</id>
+    <lines>35-37</lines>
+    <body>move this class into &lt;a href="https://github.com/ArtemGet/teleroute"&gt;teleroute&lt;/a&gt; thus it would be useful in other bots. Tests required.</body>
+    <file>src/io/github/artemget/prbot/bot/match/Not.java</file>
+    <author>@ArtemGet</author>
+    <email>re910@yandex.ru</email>
+    <time>2025-02-20T13:19:06Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/ArtemGet/prbot/issues/8" closed="2025-02-24T11:01:45+00:00">8</issue>
+        <ticket>3</ticket>
+        <estimate>120</estimate>
+        <role>DEV</role>
+        <id>3-810ec173</id>
+        <lines>92-96</lines>
+        <body>move http request to message wrapping to separate class. Message have to include attributes required to track pr's reviewers, assigners, comments, approves etc.</body>
+        <file>src/io/github/artemget/prbot/webhook/TkHookGitlab.java</file>
+        <author>@ArtemGet</author>
+        <email>65287006+ArtemGet@users.noreply.github.com</email>
+        <time>2025-02-24T11:00:07Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/4">4</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-59cfeb84</id>
+    <lines>38-41</lines>
+    <body>move this class to &lt;a href="https://github.com/ArtemGet/teleroute"&gt;teleroute&lt;/a&gt;, thus it would be useful in other bots. Tests required. Note that this class is extendable.</body>
+    <file>src/io/github/artemget/prbot/bot/route/RouteEnvelope.java</file>
+    <author>@ArtemGet</author>
+    <email>re910@yandex.ru</email>
+    <time>2025-02-20T13:19:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/5">5</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-8b16a7e6</id>
+    <lines>27-29</lines>
+    <body>move this package to separate repository due to it would be useful in other bots.</body>
+    <file>src/io/github/artemget/prbot/config/package-info.java</file>
+    <author>@ArtemGet</author>
+    <email>re910@yandex.ru</email>
+    <time>2025-02-20T13:19:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ArtemGet/prbot/issues/9" closed="2025-03-08T12:05:39+00:00">9</issue>
+    <ticket>6</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>6-810ec173</id>
+    <lines>92-96</lines>
+    <body>move http request to message wrapping to separate class. Message have to include attributes required to track pr's reviewers, assigners, comments, approves etc.</body>
+    <file>src/io/github/artemget/prbot/webhook/TkHookGitlab.java</file>
+    <author>@ArtemGet</author>
+    <email>re910@yandex.ru</email>
+    <time>2025-02-24T11:01:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/11">11</issue>
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-b134db43</id>
+    <lines>37-41</lines>
+    <body>message should be edited at all selected chats. &#x2705; sign should replace &#x2610; in right reviewer order. Assigner should be notified via personal message if number of approves exceed limit set up for a project. See message template in readme.</body>
+    <file>src/io/github/artemget/prbot/bot/command/CmdPrApprove.java</file>
+    <author>@ArtemGet</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/12">12</issue>
+    <ticket>6</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>6-3973026a</id>
+    <lines>37-42</lines>
+    <body>message should be edited at all selected chats. If message has linked requests, reaction &#x274C; should be set only if all of them are closed. Otherwise pull request should be marked as cancelled via strikethrough. Assigner should be notified via personal messages. See message template in readme.</body>
+    <file>src/io/github/artemget/prbot/bot/command/CmdPrClose.java</file>
+    <author>@ArtemGet</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/13">13</issue>
+    <ticket>6</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>6-ce532b5d</id>
+    <lines>37-39</lines>
+    <body>message should be edited at all selected chats. Assigner should be notified via personal messages. See message template in readme.</body>
+    <file>src/io/github/artemget/prbot/bot/command/CmdPrMerge.java</file>
+    <author>@ArtemGet</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/14">14</issue>
+    <ticket>6</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>6-4086a18b</id>
+    <lines>37-46</lines>
+    <body>update should be sent to all selected chats. Update should include: 1)Tag assigner and reviewers 2)If ASAP trigger word is present in pull request message - notify assigner via personal message. 3)Link pull request in a group if there are any other pull requests with the same issue number. In this case there should not be a new message sent but previous updated. See message template in readme.</body>
+    <file>src/io/github/artemget/prbot/bot/command/CmdPrOpen.java</file>
+    <author>@ArtemGet</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/15">15</issue>
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-c25d57df</id>
+    <lines>37-39</lines>
+    <body>message should be edited at all selected chats. &#x274C; sign should replace &#x2610; or &#x2705; in right reviewer order. See message template in readme.</body>
+    <file>src/io/github/artemget/prbot/bot/command/CmdPrReject.java</file>
+    <author>@ArtemGet</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/16">16</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-32ff68b8</id>
+    <lines>35-38</lines>
+    <body>move {@link MatchEnvelope} class to &lt;a href="https://github.com/ArtemGet/teleroute"&gt;teleroute&lt;/a&gt;, thus it would be useful in other bots. Tests required. Note that this class is extendable.</body>
+    <file>src/io/github/artemget/prbot/bot/match/MatchEnvelope.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/17">17</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-ddfc04c2</id>
+    <lines>37-40</lines>
+    <body>move {@link MatchJson} class to &lt;a href="https://github.com/ArtemGet/teleroute"&gt;teleroute&lt;/a&gt;, thus it would be useful in other bots. Tests required. Note that this class is extendable.</body>
+    <file>src/io/github/artemget/prbot/bot/match/MatchJson.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/18">18</issue>
+    <ticket>6</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>6-444a69ce</id>
+    <lines>49-52</lines>
+    <body>divide this class to separate classes: RouteHkAuth - routes if token matches. RouteHkGitlab - routes if gitp matches gitlab. Rename this calss to RouteHk</body>
+    <file>src/io/github/artemget/prbot/bot/route/RouteHkGitlab.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/19">19</issue>
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-2a24678c</id>
+    <lines>176-179</lines>
+    <body>refactor this private static method. I suggest using junit's {@link ParameterResolver} to create mocked {@link Update} with provided text.</body>
+    <file>test/io/github/artemget/prbot/bot/route/RouteHkGitlabTest.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-02-25T17:25:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/22">22</issue>
+    <ticket>20</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>20-e282d7f0</id>
+    <lines>210-215</lines>
+    <body>We have plenty of dependency check suppression including duplicates, declared unused dependencies etc. Lets remove suppression for each dependency and then fix qulice issues. I assume you to fix some exclusions and then creating new pdd issue describing how to fix others. To run qulice check use: mvn clean install -Pqulice</body>
+    <file>pom.xml</file>
+    <author>@ArtemGet</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-03-08T12:05:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/23">23</issue>
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-18111afc</id>
+    <lines>59-62</lines>
+    <body>rewrite this structure to support strict json format. Check resources dir to find strict format. Probably move this logic to separate class with name MatchJsonStrict.</body>
+    <file>src/io/github/artemget/prbot/bot/match/MatchJsonVal.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-03-08T12:05:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ArtemGet/prbot/issues/24" closed="2025-03-08T17:02:06+00:00">24</issue>
+    <ticket>20</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>20-0a6497e4</id>
+    <lines>33-39</lines>
+    <body>{@link io.github.artemget.prbot.domain.pr.ProjJson} and {@link io.github.artemget.prbot.domain.pr.PrJsonStrict} is not covered by tests. Lets cover it's methods. I suggest using &lt;a href="https://github.com/joshka/junit-json-params"&gt;joshka/junit-json-params&lt;/a&gt; with it's @JsonSource annotation, test sources is placed under resources dir. Note that using of junit-json-params requires to switch javax.json to jakarta.json.</body>
+    <file>src/io/github/artemget/prbot/domain/pr/ProjJson.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-03-08T12:05:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/25">25</issue>
+    <ticket>6</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>6-d4577254</id>
+    <lines>38-41</lines>
+    <body>{@link io.github.artemget.prbot.domain.pr.ReqHkGitlab} and {@link io.github.artemget.prbot.domain.pr.ReqHkStrict} should be implemented. You could find test request samples under resources dir.</body>
+    <file>src/io/github/artemget/prbot/domain/pr/ReqHkGitlab.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-03-08T12:05:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ArtemGet/prbot/issues/26">26</issue>
+    <ticket>6</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>6-c8d48883</id>
+    <lines>80-84</lines>
+    <body>implement parsing any webhook to strict json format. See strict format under resources dir. After that go to tests {@link io.github.artemget.prbot.webhook.TkHookGitlab}, fix them and remove @Disabled annotation.</body>
+    <file>src/io/github/artemget/prbot/domain/pr/RequestWebhook.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-03-08T12:05:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ArtemGet/prbot/issues/28" closed="2025-03-13T11:46:52+00:00">28</issue>
+    <ticket>20</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>20-6b8cccea</id>
+    <lines>37-41</lines>
+    <body>remove {@link JsonHas}, {@link io.github.artemget.prbot.bot.match.JsonValueIs} and {@link io.github.artemget.prbot.bot.match.StringIsJson} from this project when &lt;a href="https://github.com/g4s8/matchers-json/issues/16"&gt;matchers-json jakarta issue&lt;/a&gt; would be closed. Add matchers-json dependency and fix used imports through the project.</body>
+    <file>src/io/github/artemget/prbot/bot/match/JsonHas.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-03-08T17:02:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ArtemGet/prbot/issues/29" closed="2025-03-13T14:37:55+00:00">29</issue>
+    <ticket>20</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>20-bca4ff2a</id>
+    <lines>33-37</lines>
+    <body>{@link io.github.artemget.prbot.domain.pr.ProjJson} and {@link io.github.artemget.prbot.domain.pr.PrJsonStrict} is not covered by tests. Lets cover it's methods. I suggest using &lt;a href="https://github.com/joshka/junit-json-params"&gt;joshka/junit-json-params&lt;/a&gt; with it's @JsonSource annotation, test sources is placed under resources dir.</body>
+    <file>src/io/github/artemget/prbot/domain/pr/ProjJson.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-03-08T17:02:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>20</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>20-92c7bfde</id>
+    <lines>88-89</lines>
+    <body>Intellij generates equals and hashcode not the elegant way. Lets add custom template for equals.</body>
+    <file>src/io/github/artemget/prbot/domain/pr/AccJson.java</file>
+    <author>Artem Getmanskii</author>
+    <email>65287006+ArtemGet@users.noreply.github.com</email>
+    <time>2025-03-13T14:37:49Z</time>
+    <children/>
+    <issue href="https://github.com/ArtemGet/prbot/issues/32">32</issue>
+  </puzzle>
+</puzzles>

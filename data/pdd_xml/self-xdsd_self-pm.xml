@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-11-04T14:01:40+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-pm/issues/18" closed="2020-07-08T20:55:38+00:00">18</issue>
+    <ticket>14</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>14-3124d36c</id>
+    <lines>39-41</lines>
+    <body>Continue implementing the github webhook endpoint once we can access the Projects in self-core. At the moment, we can only access them if we log in.</body>
+    <file>src/main/java/com/selfxdsd/selfpm/Webhooks.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-08T14:46:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-pm/issues/23" closed="2020-07-29T12:44:06+00:00">23</issue>
+    <ticket>21</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>21-b5218979</id>
+    <lines>72-75</lines>
+    <body>We need to modify self-core so that Project has the method String :: webHookToken(). Also, method Project.resolve should not expect the secret anymore. After that is done, modify this method accordingly.</body>
+    <file>src/main/java/com/selfxdsd/selfpm/Webhooks.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-29T11:19:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-pm/issues/26" closed="2020-07-29T13:45:20+00:00">26</issue>
+    <ticket>24</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>24-e4b4d83f</id>
+    <lines>70-72</lines>
+    <body>Build up the Event based on the payload and "event" header (see Github docs) and send it to the Project to be resolved (at the moment, null is sent).</body>
+    <file>src/main/java/com/selfxdsd/selfpm/Webhooks.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-29T12:34:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-pm/issues/57">57</issue>
+    <ticket>54</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>54-0ae87900</id>
+    <lines>47-48</lines>
+    <body>In the github Webhook, if the event is "push", make sure to receive and return the latest Commit from the Event.</body>
+    <file>src/main/java/com/selfxdsd/selfpm/Webhooks.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-11-04T11:09:12Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

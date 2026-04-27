@@ -1,0 +1,1567 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-01-27T13:27:57+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/3" closed="2018-03-28T15:15:14+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-606fe8a1</id>
+    <lines>33-34</lines>
+    <body>Start implementing the other parts of the API, such as Swarm, Nodes, Services etc.</body>
+    <file>src/main/java/com/amihaiemil/docker/Docker.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-01-28T10:34:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/70" closed="2018-04-04T11:23:01+00:00">70</issue>
+        <ticket>3</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>3-e861473a</id>
+        <lines>40-43</lines>
+        <body>Implement all of the Swarm operations. See https://docs.docker.com/engine/api/v1.35/#tag/Swarm for reference and also the roadmap laid out here: https://github.com/amihaiemil/docker-java-api/issues/3#issuecomment-375821822</body>
+        <file>src/main/java/com/amihaiemil/docker/Swarm.java</file>
+        <author>Mihai A</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-03-28T15:15:03Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/77" closed="2018-05-02T15:29:15+00:00">77</issue>
+            <ticket>70</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>70-0fb5bff7</id>
+            <lines>40-43</lines>
+            <body>Continue implementing all of the Swarm operations. See https://docs.docker.com/engine/api/v1.35/#tag/Swarm for reference and also the roadmap laid out here: https://github.com/amihaiemil/docker-java-api/issues/3#issuecomment-375821822</body>
+            <file>src/main/java/com/amihaiemil/docker/Swarm.java</file>
+            <author>Mihai A</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2018-04-04T11:22:53Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/95">95</issue>
+                <ticket>77</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>77-48853626</id>
+                <lines>40-43</lines>
+                <body>Continue implementing the rest of the Swarm operations. See https://docs.docker.com/engine/api/v1.35/#tag/Swarm for reference and also the roadmap laid out here: https://github.com/amihaiemil/docker-java-api/issues/3#issuecomment-375821822</body>
+                <file>src/main/java/com/amihaiemil/docker/Swarm.java</file>
+                <author>Mihai A</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-05-02T15:11:18Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/71" closed="2018-04-19T18:53:22+00:00">71</issue>
+        <ticket>3</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>3-571befa7</id>
+        <lines>35-36</lines>
+        <body>Continue implementing the rest of the Docker API (except for Swarm, which is being handled in another ticket).</body>
+        <file>src/main/java/com/amihaiemil/docker/Docker.java</file>
+        <author>Mihai A</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-03-28T15:15:03Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/83" closed="2018-05-07T06:15:32+00:00">83</issue>
+            <ticket>71</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>71-994768b7</id>
+            <lines>36-37</lines>
+            <body>Continue implementing the rest of the operations for the Images interface. See the docs referenced above for more details.</body>
+            <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-04-19T18:46:03Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/98" closed="2018-10-23T13:46:36+00:00">98</issue>
+                <ticket>83</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>83-f448d301</id>
+                <lines>37-38</lines>
+                <body>Keep implementing the rest of the operations for the Images interface. See the docs referenced above for more details.</body>
+                <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+                <author>Mihai A</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-05-07T06:15:26Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/docker-java-api/issues/170" closed="2019-01-03T12:16:36+00:00">170</issue>
+                    <ticket>98</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>98-994768b7</id>
+                    <lines>37-38</lines>
+                    <body>Continue implementing the rest of the operations for the Images interface. See the docs referenced above for more details.</body>
+                    <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+                    <author>Mihai A</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2018-05-15T07:32:52Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/amihaiemil/docker-java-api/issues/254" closed="2019-01-08T09:09:40+00:00">254</issue>
+                        <ticket>170</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>170-7ce1b713</id>
+                        <lines>39-41</lines>
+                        <body>Continue implementing the rest of the operations for the Images interface. Already made the tests for import an image in RtImagesTestCase. See the docs referenced above for more details.</body>
+                        <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+                        <author>Paulo Lobo</author>
+                        <email>pauloeduardolobo@gmail.com</email>
+                        <time>2018-12-27T12:06:44Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/amihaiemil/docker-java-api/issues/276" closed="2019-01-10T11:45:39+00:00">276</issue>
+                            <ticket>254</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>254-a138a3f9</id>
+                            <lines>43-46</lines>
+                            <body>Implement importImage method and create tests. Please note that this method is implemented using Docker API Image Create method. See https://docs.docker.com/engine/api/v1.35/#operation/ImageCreate for more details.</body>
+                            <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+                            <author>@amihaiemil</author>
+                            <email>amihaiemil@gmail.com</email>
+                            <time>2019-01-08T09:05:17Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/amihaiemil/docker-java-api/issues/277" closed="2019-01-14T13:18:50+00:00">277</issue>
+                            <ticket>254</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>254-cfdd63b2</id>
+                            <lines>47-49</lines>
+                            <body>ImportFromTar method should return Image instead of void. Find a way to read the imported Image's identifier, maybe add a new implementation of Image for this case.</body>
+                            <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+                            <author>@amihaiemil</author>
+                            <email>amihaiemil@gmail.com</email>
+                            <time>2019-01-08T09:05:17Z</time>
+                            <children/>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/99" closed="2018-10-23T14:06:45+00:00">99</issue>
+                <ticket>83</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>83-127c3a0c</id>
+                <lines>96-100</lines>
+                <body>Several API calls required an authentication header as explained here: https://docs.docker.com/engine/api/v1.35/#section/Authentication (including Images.create()). Find a way to make a reusable object from that action and introduce it here.</body>
+                <file>src/main/java/com/amihaiemil/docker/RtImages.java</file>
+                <author>Mihai A</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-05-07T06:15:26Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/docker-java-api/issues/171" closed="2018-11-27T07:57:06+00:00">171</issue>
+                    <ticket>99</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>99-9320c256</id>
+                    <lines>34-36</lines>
+                    <body>Implement a new auth named 'Token' that will hold the user's identity token from the auth endpoint. Implement some operation that would call the /auth endpoint and obtain a token.</body>
+                    <file>src/main/java/com/amihaiemil/docker/Auth.java</file>
+                    <author>rultor</author>
+                    <email>me@rultor.com</email>
+                    <time>2018-05-23T14:58:11Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/amihaiemil/docker-java-api/issues/193" closed="2018-12-14T12:19:46+00:00">193</issue>
+                        <ticket>171</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>171-ffb27b82</id>
+                        <lines>34-36</lines>
+                        <body>We have implemented all forms of Auth. We also have the AuthHttpClient. Figure out how to make the library decorate the base HttpClient with the AuthHttpClient in a seemless manner.</body>
+                        <file>src/main/java/com/amihaiemil/docker/Auth.java</file>
+                        <author>rultor</author>
+                        <email>me@rultor.com</email>
+                        <time>2018-11-27T07:56:30Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/docker-java-api/issues/172" closed="2018-12-06T13:46:31+00:00">172</issue>
+                    <ticket>99</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>99-3f73ab5f</id>
+                    <lines>45-46</lines>
+                    <body>Start decorating our internal HttpClients with this one for calls that require authentication headers.</body>
+                    <file>src/main/java/com/amihaiemil/docker/AuthHttpClient.java</file>
+                    <author>rultor</author>
+                    <email>me@rultor.com</email>
+                    <time>2018-05-23T14:58:11Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/173" closed="2018-12-17T16:35:51+00:00">173</issue>
+                <ticket>83</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>83-3eb2f332</id>
+                <lines>33-34</lines>
+                <body>Implement Networks and Network interfaces. See https://docs.docker.com/engine/api/v1.35/#tag/Network.</body>
+                <file>src/main/java/com/amihaiemil/docker/Networks.java</file>
+                <author>George Aristy</author>
+                <email>george.aristy@securekey.com</email>
+                <time>2018-09-11T18:26:38Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/84" closed="2018-10-24T07:02:17+00:00">84</issue>
+            <ticket>71</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>71-cf823270</id>
+            <lines>46-48</lines>
+            <body>Images should extend Iterable&lt;Image&gt;. Refactor so that the user should not have to call this `iterate()` method and instead just iterate on 'docker.images()'.</body>
+            <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-04-19T18:46:03Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue>unknown</issue>
+                <ticket>84</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>84-82b341b9</id>
+                <lines>141-144</lines>
+                <body>Should return an Iterator&lt;? extends JsonResource&gt; which would take a Request, a HttpClient and a Mapper in its ctor, to know how to map each JsonObject to its resource type (Image, Containter etc)</body>
+                <file>src/main/java/com/amihaiemil/docker/RtImages.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2018-05-23T14:58:11Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/174" closed="2018-12-14T14:34:31+00:00">174</issue>
+                <ticket>84</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>84-f1c39634</id>
+                <lines>39-40</lines>
+                <body>Write some unit tests for this class, it is currently only tested by RtImagesITCase#iteratesImages.</body>
+                <file>src/main/java/com/amihaiemil/docker/ReadJsonArray.java</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2018-05-27T12:35:42Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/85" closed="2018-10-24T11:06:25+00:00">85</issue>
+            <ticket>71</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>71-99102c6f</id>
+            <lines>35-36</lines>
+            <body>Continue implementing the rest of the Docker API (except for Swarm and Images, which are being handled in another ticket).</body>
+            <file>src/main/java/com/amihaiemil/docker/Docker.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-04-19T18:46:03Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/175" closed="2018-12-14T12:12:55+00:00">175</issue>
+                <ticket>85</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>85-90def642</id>
+                <lines>35-36</lines>
+                <body>Continue implementing the rest of the Docker API (except for Network, Swarm and Images, which are being handled in other tickets).</body>
+                <file>src/main/java/com/amihaiemil/docker/Docker.java</file>
+                <author>George Aristy</author>
+                <email>george.aristy@securekey.com</email>
+                <time>2018-09-11T18:26:38Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/86" closed="2018-05-02T15:37:20+00:00">86</issue>
+            <ticket>71</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>71-e9dc77f9</id>
+            <lines>34-35</lines>
+            <body>Implement the operations that affect a single docker image, see the link referenced above.</body>
+            <file>src/main/java/com/amihaiemil/docker/Image.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-04-19T18:46:03Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/96" closed="2018-05-10T13:36:58+00:00">96</issue>
+                <ticket>86</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>86-390ec7ae</id>
+                <lines>37-38</lines>
+                <body>Continue implementing the operations that affect a single docker image. See the link referenced above.</body>
+                <file>src/main/java/com/amihaiemil/docker/Image.java</file>
+                <author>amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-04-26T16:22:02Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/docker-java-api/issues/103" closed="2018-11-04T16:45:50+00:00">103</issue>
+                    <ticket>96</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>96-6bad42df</id>
+                    <lines>37-39</lines>
+                    <body>Finish implementing the operations that affect a single docker image (I think `tag` is the only one remaining). See the link referenced above.</body>
+                    <file>src/main/java/com/amihaiemil/docker/Image.java</file>
+                    <author>Mihai A</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2018-05-10T13:36:52Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/72" closed="2018-04-03T20:12:20+00:00">72</issue>
+        <ticket>3</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>3-b7c517df</id>
+        <lines>42-44</lines>
+        <body>The code for inspect() is essentially copy-pasta from RtContainer.inspect(). Considering that there will be more "inspect" methods down the road, we should make this code reusable somehow.</body>
+        <file>src/main/java/com/amihaiemil/docker/RtSwarm.java</file>
+        <author>Mihai A</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-03-28T15:15:03Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/4" closed="2018-01-28T15:59:11+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-36a37d16</id>
+    <lines>35-37</lines>
+    <body>Add the first implementation of Docker, RtDocker (Restful Docker) which should be the only public class inside the API, the entry point.</body>
+    <file>src/main/java/com/amihaiemil/docker/Docker.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-01-28T10:34:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/7" closed="2018-01-28T18:09:29+00:00">7</issue>
+        <ticket>4</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>4-aaff06c1</id>
+        <lines>41-44</lines>
+        <body>Implement a jcabi-http request which can work with unix sockets; local daemon host works over a unix socker. This library could be a good fit for unix sockets handling: https://github.com/jnr/jnr-unixsocket</body>
+        <file>src/main/java/com/amihaiemil/docker/RtDocker.java</file>
+        <author>Mihai Andronache</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-01-28T15:50:42Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/9" closed="2018-01-30T20:36:12+00:00">9</issue>
+            <ticket>7</ticket>
+            <estimate>30</estimate>
+            <role>IMP</role>
+            <id>7-ed06e452</id>
+            <lines>110-111</lines>
+            <body>Implement this method, use UnixSocketAddress to send the request via the unix socket.</body>
+            <file>src/main/java/com/amihaiemil/docker/UnixSocket.java</file>
+            <author>Mihai Andronache</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2018-01-28T17:57:34Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/13" closed="2018-02-22T19:38:37+00:00">13</issue>
+                <ticket>9</ticket>
+                <estimate>30</estimate>
+                <role>IMP</role>
+                <id>9-0048a495</id>
+                <lines>44-45</lines>
+                <body>Write a test that will open a socket to which this request is sent.</body>
+                <file>src/main/java/com/amihaiemil/docker/UnixSocket.java</file>
+                <author>Mihai Andronache</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-01-30T20:27:06Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/14" closed="2018-02-04T16:51:37+00:00">14</issue>
+                <ticket>9</ticket>
+                <estimate>30</estimate>
+                <role>IMP</role>
+                <id>9-b2c9a2a2</id>
+                <lines>119-121</lines>
+                <body>We need an implementation of Response (to be returned by method send(...)) which will animate the output received from the server.</body>
+                <file>src/main/java/com/amihaiemil/docker/UnixSocket.java</file>
+                <author>Mihai Andronache</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-01-30T20:27:06Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/docker-java-api/issues/18" closed="2018-02-04T17:48:36+00:00">18</issue>
+                    <ticket>14</ticket>
+                    <estimate>30</estimate>
+                    <role>IMP</role>
+                    <id>14-aa715a86</id>
+                    <lines>39-39</lines>
+                    <body>Implement and test the headers() method.</body>
+                    <file>src/main/java/com/amihaiemil/docker/SocketResponse.java</file>
+                    <author>Mihai Andronache</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2018-02-04T16:33:14Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/docker-java-api/issues/19" closed="2018-02-04T19:27:43+00:00">19</issue>
+                    <ticket>14</ticket>
+                    <estimate>30</estimate>
+                    <role>IMP</role>
+                    <id>14-ad81abd3</id>
+                    <lines>40-41</lines>
+                    <body>Refine the body reading logic. Have to take into account the Transfer-Encoding header and cover the empty body case.</body>
+                    <file>src/main/java/com/amihaiemil/docker/SocketResponse.java</file>
+                    <author>Mihai Andronache</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2018-02-04T16:33:14Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/23" closed="2018-03-26T06:32:59+00:00">23</issue>
+    <ticket>11</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>11-6dd03fe4</id>
+    <lines>35-36</lines>
+    <body>Implement RemoteDocker which will make the requests over a tcp socket and TLS if certificates are provided.</body>
+    <file>src/main/java/com/amihaiemil/docker/RtDocker.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-02-04T19:53:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/67" closed="2018-05-08T07:14:27+00:00">67</issue>
+        <ticket>23</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>23-d9c71050</id>
+        <lines>48-50</lines>
+        <body>Add path for certificates as a parameter and, with those certificates, register the http/https protocols, similar to how "unix" is registered in UnixHttpClient.</body>
+        <file>src/main/java/com/amihaiemil/docker/SslHttpClient.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-03-26T06:32:35Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/100" closed="2018-11-04T16:45:52+00:00">100</issue>
+            <ticket>67</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>67-80672d59</id>
+            <lines>50-52</lines>
+            <body>Using the provided certificates, register the http/https protocols, similar to how "unix" is registered in UnixHttpClient.</body>
+            <file>src/main/java/com/amihaiemil/docker/SslHttpClient.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2018-05-08T07:07:07Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/176" closed="2018-11-27T08:02:54+00:00">176</issue>
+                <ticket>100</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>100-cc573336</id>
+                <lines>53-55</lines>
+                <body>Add a plain HTTP client for use. It is possible for users to disable TLS on docker's API. See https://docs.docker.com/registry/insecure/.</body>
+                <file>src/main/java/com/amihaiemil/docker/SslHttpClient.java</file>
+                <author>Mihai A</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-05-29T14:36:02Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/177" closed="2018-12-17T19:35:20+00:00">177</issue>
+                <ticket>100</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>100-d6a25331</id>
+                <lines>42-43</lines>
+                <body>Add more tests for the SslHttpClient, especially integration tests.</body>
+                <file>src/test/java/com/amihaiemil/docker/SslHttpClientTestCase.java</file>
+                <author>Mihai A</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-05-29T14:36:02Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/68" closed="2018-11-04T16:45:52+00:00">68</issue>
+        <ticket>23</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>23-6815c522</id>
+        <lines>42-43</lines>
+        <body>RemoteDocker: implement the rest of the test cases (including integration tests) for RemoteDocker.</body>
+        <file>src/test/java/com/amihaiemil/docker/RemoteDockerTestCase.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-03-26T06:32:35Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/178" closed="2018-12-04T09:38:30+00:00">178</issue>
+            <ticket>68</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>68-39eec482</id>
+            <lines>39-41</lines>
+            <body>Implement integration tests for RemoteDocker. We have to figure out how to create a remote Docker host and connect to it from Travis. Also, it will probably have to be paid (some machine on AWS or DO?).</body>
+            <file>src/main/java/com/amihaiemil/docker/RemoteDocker.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2018-05-23T07:59:58Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/196" closed="2018-12-04T09:42:06+00:00">196</issue>
+                <ticket>178</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>178-6995c526</id>
+                <lines>40-42</lines>
+                <body>Based on the input from https://github.com/amihaiemil/docker-java-api/issues/178#issuecomment-444029856 we should setup a "remote" Docker instance in Travis, for Integration testing.</body>
+                <file>src/main/java/com/amihaiemil/docker/RemoteDocker.java</file>
+                <author>Mihai A</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-12-04T09:38:23Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/197" closed="2018-12-11T13:46:18+00:00">197</issue>
+                <ticket>178</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>178-91930edc</id>
+                <lines>40-42</lines>
+                <body>Based on the input from https://github.com/amihaiemil/docker-java-api/issues/178#issuecomment-444029856 we should setup a Docker instance in Travis, for Integration testing.</body>
+                <file>src/main/java/com/amihaiemil/docker/RemoteDocker.java</file>
+                <author>Mihai A</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2018-12-04T09:38:23Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/24" closed="2018-02-04T20:56:46+00:00">24</issue>
+    <ticket>11</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>11-1ec3d76b</id>
+    <lines>37-37</lines>
+    <body>Implement method ping() to check Docker's availability.</body>
+    <file>src/main/java/com/amihaiemil/docker/RtDocker.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-02-04T19:53:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/29" closed="2018-02-24T17:07:36+00:00">29</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-7964fdea</id>
+    <lines>41-43</lines>
+    <body>Build an HttpClient which works over unix socket. The actual Socket can be created using the jnr-unixsocket library. Then, pass the created socket to a connection pool used by the HttpClientBuilder.</body>
+    <file>src/main/java/com/amihaiemil/docker/LocalDocker.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-02-22T19:32:10Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/32" closed="2018-03-11T15:55:12+00:00">32</issue>
+        <ticket>29</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>29-9f250f40</id>
+        <lines>47-48</lines>
+        <body>Implement a ConnectionSocketFactory which builds UnixSocket objects.</body>
+        <file>src/main/java/com/amihaiemil/docker/UnixHttpClient.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-02-24T16:51:08Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/36" closed="2018-03-11T19:37:39+00:00">36</issue>
+            <ticket>32</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>32-472ade5c</id>
+            <lines>39-41</lines>
+            <body>Reimplement ping() with the new HttpClient architecture. It should create an HttpGet method and send it with the encapsulated client.</body>
+            <file>src/main/java/com/amihaiemil/docker/RtDocker.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2018-03-11T15:54:56Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/38" closed="2018-03-13T15:11:18+00:00">38</issue>
+    <ticket>39</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>39-a863f6f1</id>
+    <lines>39-42</lines>
+    <body>Implement a unix socket server so we can also unit test the calls made with UnixHttpClient. The user should be able to specify what response it expected with each request to a certain path.</body>
+    <file>src/test/java/com/amihaiemil/docker/LocalDockerTestCase.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-03-11T19:28:58Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/41" closed="2018-04-04T13:45:22+00:00">41</issue>
+        <ticket>38</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>38-ae2c79c8</id>
+        <lines>50-52</lines>
+        <body>Implement a unix socket server so that we can also test the calls made with UnixHttpClient. The user should be able to specify what response it expected with each request to a certain path.</body>
+        <file>src/test/java/com/amihaiemil/docker/UnixHttpClientTestCase.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-13T15:05:17Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/79" closed="2018-04-19T18:53:24+00:00">79</issue>
+            <ticket>41</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>41-7d61f78a</id>
+            <lines>132-133</lines>
+            <body>Make the response from this buffer configurable and then implement some tests.</body>
+            <file>src/test/java/com/amihaiemil/docker/mock/UnixServer.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-04-04T13:38:51Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/87" closed="2018-11-04T16:45:53+00:00">87</issue>
+                <ticket>79</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>79-46d0f4fe</id>
+                <lines>54-56</lines>
+                <body>The 'asString()' method needs a little more work (fix the formatting on the date header value, etc) and then test the 'printTo()' method in conjunction with the UnixServer.</body>
+                <file>src/test/java/com/amihaiemil/docker/mock/Response.java</file>
+                <author>George Aristy</author>
+                <email>george.aristy@gmail.com</email>
+                <time>2018-04-19T18:46:03Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/docker-java-api/issues/10" closed="2018-02-22T19:38:38+00:00">10</issue>
+                    <ticket>87</ticket>
+                    <estimate>60</estimate>
+                    <role>IMP</role>
+                    <id>87-bd2cb401</id>
+                    <lines>464-470</lines>
+                    <body>Implement and unit test method formParam(String, Object) Details &lt;a href="http://stackoverflow.com/ questions/8659808/how-does-http-file-upload-work"&gt;here&lt;/a&gt; (second answer). &lt;br&gt; e.g. While FormEncodedBody.formParam adds the param to a body with enctype application/x-www-form-urlencoded, method MultipartFormBody.formParam should add it to a body with enctype multipart/form-data.</body>
+                    <file>src/main/java/com/amihaiemil/docker/BaseRequest.java</file>
+                    <author>Mihai Andronache</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2018-01-28T17:57:34Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/42" closed="2018-03-14T18:21:40+00:00">42</issue>
+        <ticket>38</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>38-1586cf52</id>
+        <lines>52-55</lines>
+        <body>Figure out how to let the user specify the failure message for each condition in case a test on the request fails. This way, if the request does not meet a given condition, then the test's error will show the reason why it didn't.</body>
+        <file>src/test/java/com/amihaiemil/docker/mock/AssertRequest.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-13T15:05:17Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/45" closed="2018-03-23T14:08:20+00:00">45</issue>
+    <ticket>26</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>26-85773a93</id>
+    <lines>44-47</lines>
+    <body>We should handle unexpected responses somehow, responses that are not part of the happy flow (e.g. response 500 instead of 201 on create). We could implement an exception which would parse the HttpResonse and provide a meaningful, well-formatted message.</body>
+    <file>src/main/java/com/amihaiemil/docker/RtContainers.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-03-13T19:24:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/46" closed="2018-03-19T18:26:01+00:00">46</issue>
+    <ticket>26</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>26-c1e6c3eb</id>
+    <lines>13-15</lines>
+    <body>This class represents a Container. It has to implement the API's methods which are acting upon a docker Container like inspect, logs, delete, start, stop etc).</body>
+    <file>src/main/java/com/amihaiemil/docker/RtContainer.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-03-13T19:24:35Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/57" closed="2018-04-03T21:06:33+00:00">57</issue>
+        <ticket>46</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>46-f470c157</id>
+        <lines>19-21</lines>
+        <body>This class represents a Container. It has to implement the API's methods which are acting upon a docker Container like logs, delete, stop etc).</body>
+        <file>src/main/java/com/amihaiemil/docker/RtContainer.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-03-19T18:21:10Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/76" closed="2018-04-19T18:53:24+00:00">76</issue>
+            <ticket>57</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>57-4a6d0f49</id>
+            <lines>42-44</lines>
+            <body>Keep implementing the rest of the Container operations. See the Docker API Docs for reference: https://docs.docker.com/engine/api/v1.35/#tag/Container</body>
+            <file>src/main/java/com/amihaiemil/docker/RtContainer.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-04-03T17:53:58Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/88" closed="2018-05-02T15:45:29+00:00">88</issue>
+                <ticket>76</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>76-2de819bd</id>
+                <lines>42-44</lines>
+                <body>Continue implementing the rest of the Container operations. See the Docker API Docs for reference: https://docs.docker.com/engine/api/v1.35/#tag/Container</body>
+                <file>src/main/java/com/amihaiemil/docker/RtContainer.java</file>
+                <author>George Aristy</author>
+                <email>george.aristy@gmail.com</email>
+                <time>2018-04-19T18:46:03Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/docker-java-api/issues/97" closed="2018-11-04T16:45:53+00:00">97</issue>
+                    <ticket>88</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>88-49a98f92</id>
+                    <lines>42-44</lines>
+                    <body>Continue implementing the rest of the Container operations (pause, unpause, rename, logs etc) See the Docker API Docs for reference: https://docs.docker.com/engine/api/v1.35/#tag/Container</body>
+                    <file>src/main/java/com/amihaiemil/docker/RtContainer.java</file>
+                    <author>amihaiemil</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2018-04-25T19:17:24Z</time>
+                    <children>
+                      <puzzle alive="true">
+                        <issue href="https://github.com/amihaiemil/docker-java-api/issues/179">179</issue>
+                        <ticket>97</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>97-657d9f49</id>
+                        <lines>42-44</lines>
+                        <body>Continue implementing the rest of the Container operations (pause, unpause, logs etc) See the Docker API Docs for reference: https://docs.docker.com/engine/api/v1.35/#tag/Container</body>
+                        <file>src/main/java/com/amihaiemil/docker/RtContainer.java</file>
+                        <author>amihaiemil</author>
+                        <email>amihaiemil@gmail.com</email>
+                        <time>2018-05-10T13:26:00Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/amihaiemil/docker-java-api/issues/205" closed="2018-12-12T11:22:19+00:00">205</issue>
+                            <ticket>179</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>179-c7050a34</id>
+                            <lines>38-38</lines>
+                            <body>Continue implementing create and remove volume operations.</body>
+                            <file>src/main/java/com/amihaiemil/docker/Volume.java</file>
+                            <author>Boris Kuzmic</author>
+                            <email>boris.kuzmic@ericsson.com</email>
+                            <time>2018-12-06T12:51:23Z</time>
+                            <children/>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/58" closed="2018-11-04T16:45:53+00:00">58</issue>
+        <ticket>46</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>46-21e68db8</id>
+        <lines>22-24</lines>
+        <body>Once we have the CI environment properly setup with a Docker instance, write integration tests for this class as well (RtContainerITCase).</body>
+        <file>src/main/java/com/amihaiemil/docker/RtContainer.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-03-19T18:21:10Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/180" closed="2018-12-14T12:48:18+00:00">180</issue>
+            <ticket>58</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>58-31e59a6b</id>
+            <lines>45-47</lines>
+            <body>Now that we have the CI environment properly setup with a Docker instance, continue integration tests for RtContainer(s) and other parts of the API.</body>
+            <file>src/main/java/com/amihaiemil/docker/RtContainer.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2018-05-15T13:33:40Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/docker-java-api/issues/206" closed="2018-12-10T11:58:52+00:00">206</issue>
+                <ticket>180</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>180-9bad4f6c</id>
+                <lines>34-34</lines>
+                <body>Continue implementing prune volumes operation.</body>
+                <file>src/main/java/com/amihaiemil/docker/Volumes.java</file>
+                <author>Boris Kuzmic</author>
+                <email>boris.kuzmic@ericsson.com</email>
+                <time>2018-12-06T12:51:23Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/47" closed="2018-03-16T08:13:11+00:00">47</issue>
+    <ticket>26</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>26-a8980bc9</id>
+    <lines>33-35</lines>
+    <body>Write unit tests for all the methods of RtContainers. AssertRequest should be passed in the ctor, with the right expected response and predicates.</body>
+    <file>src/test/java/com/amihaiemil/docker/RtContainersTestCase.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-03-13T19:24:35Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/53" closed="2018-03-20T14:06:11+00:00">53</issue>
+        <ticket>47</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>47-15f4a258</id>
+        <lines>47-48</lines>
+        <body>Implement tests on the rest of the methods of RtContainers. Currently only testing the create(String name) method.</body>
+        <file>src/test/java/com/amihaiemil/docker/RtContainersTestCase.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-15T21:12:13Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/54" closed="2018-03-24T16:24:59+00:00">54</issue>
+        <ticket>47</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>47-dbe85f1e</id>
+        <lines>49-52</lines>
+        <body>Impediment: once #45 is done, unignore the following tests and refactor accordingly if needed: ioErrorIfResponseIs400, ioErrorIfResponseIs404, ioErrorIfResponseIs406, ioErrorIfResponseIs409, ioErrorIfResponseIs500.</body>
+        <file>src/test/java/com/amihaiemil/docker/RtContainersTestCase.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-15T21:12:13Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/51">51</issue>
+    <ticket>44</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>44-50450105</id>
+    <lines>49-51</lines>
+    <body>This should be un-ignored and refactored after #41 is done. The unix socket server needs to be spooled up, and the url changed accordingly.</body>
+    <file>src/test/java/com/amihaiemil/docker/UnixHttpClientITCase.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-15T21:26:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/52" closed="2018-03-20T14:01:23+00:00">52</issue>
+    <ticket>44</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>44-0db77e9f</id>
+    <lines>57-58</lines>
+    <body>Connection pooling is currently hardcoded at 10 connections max. Figure out how to make this configurable.</body>
+    <file>src/main/java/com/amihaiemil/docker/UnixHttpClient.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-15T21:26:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>93</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>93-7fa72147</id>
+    <lines>40-42</lines>
+    <body>Use this ResponseHandler to get rid of the status code checking logic which is duplicated in many places like RtContainer and RtImages.</body>
+    <file>src/main/java/com/amihaiemil/docker/MatchStatus.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-05-11T06:42:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/181">181</issue>
+    <ticket>114</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>114-bb7b9082</id>
+    <lines>43-48</lines>
+    <body>Continue making other Json resources from the API (e.g. Image), extend this class, so we can avoid the N+1 query problem. Through this mechanism, each resource holds the JsonObject that was returned by the API at the moment of its creation. If the client would like to make sure that the resource's JsonObject is updated, they should call the inspect() method.</body>
+    <file>src/main/java/com/amihaiemil/docker/JsonResource.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-05-17T10:28:38Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/207" closed="2018-12-12T15:58:29+00:00">207</issue>
+        <ticket>181</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>181-eb4c5380</id>
+        <lines>39-42</lines>
+        <body>Finish implementation here, add a Map to this class, that would hold the actual filters and apply them when making the call in the iterator() method. Also, more ctors should be available, at least one with filters and one without filters.</body>
+        <file>src/main/java/com/amihaiemil/docker/ListedVolumes.java</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2018-12-06T12:51:23Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/214" closed="2018-12-21T08:24:07+00:00">214</issue>
+            <ticket>207</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>207-c4751857</id>
+            <lines>40-42</lines>
+            <body>Finish implementation here, add a Map to this class, that would hold the actual filters and apply them when making the call in the iterator() method. Then uncomment filtering test in ListedVolumesTestCase.</body>
+            <file>src/main/java/com/amihaiemil/docker/ListedVolumes.java</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2018-12-12T15:57:54Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>105</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>105-9c313fee</id>
+    <lines>45-47</lines>
+    <body>This test is now failing with an IOException. Un-ignore it and fix it. There error can be found here: https://travis-ci.org/amihaiemil/docker-java-api/jobs/382740284#L1972</body>
+    <file>src/test/java/com/amihaiemil/docker/RtContainerITCase.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-05-24T13:29:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/182">182</issue>
+    <ticket>108</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>108-8ad4a268</id>
+    <lines>41-41</lines>
+    <body>Add tests for PayloadOf.</body>
+    <file>src/main/java/com/amihaiemil/docker/PayloadOf.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-05-31T14:13:05Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/208" closed="2018-12-18T06:54:57+00:00">208</issue>
+        <ticket>182</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>182-2f110c5f</id>
+        <lines>46-49</lines>
+        <body>Based on the input from https://github.com/amihaiemil/docker-java-api/issues/172#issuecomment-444049472 there should be a different implementation for request requiring authentication.</body>
+        <file>src/main/java/com/amihaiemil/docker/AuthHttpClient.java</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2018-12-06T11:40:58Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/221" closed="2018-12-28T14:13:18+00:00">221</issue>
+            <ticket>208</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>208-b6677773</id>
+            <lines>34-36</lines>
+            <body>Continue implementing Plugins API methods. More information about available methods: https://docs.docker.com/engine/api/v1.35/#tag/Plugin</body>
+            <file>src/main/java/com/amihaiemil/docker/Plugins.java</file>
+            <author>Boris Kuzmic</author>
+            <email>boris.kuzmic@ericsson.com</email>
+            <time>2018-12-14T09:22:06Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>128</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>128-34e05d97</id>
+    <lines>37-39</lines>
+    <body>Continue implementing this class (fetch and follow) and also take into consideration the query parameters as described here: https://docs.docker.com/engine/api/v1.35/#operation/ContainerLogs</body>
+    <file>src/main/java/com/amihaiemil/docker/RtLogs.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-06-04T09:03:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>130</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>130-9d9400d8</id>
+    <lines>40-42</lines>
+    <body>Continue implementing this class (method fetch) and also take into consideration the query parameters as described here: https://docs.docker.com/engine/api/v1.35/#operation/ContainerLogs</body>
+    <file>src/main/java/com/amihaiemil/docker/RtLogs.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-06-08T07:32:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/183" closed="2019-01-03T20:48:04+00:00">183</issue>
+    <ticket>130</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>130-0345812b</id>
+    <lines>43-46</lines>
+    <body>Write some ITCase for the fetch() method. We might have to implement the stream decoding (in case TTY is disabled when the Container is created), as explained here, in "Stream format" paragraph: https://docs.docker.com/engine/api/v1.37/#operation/ContainerAttach</body>
+    <file>src/main/java/com/amihaiemil/docker/RtLogs.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-06-08T07:32:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/213" closed="2019-01-04T11:47:15+00:00">213</issue>
+        <ticket>183</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>183-9aed8aaf</id>
+        <lines>36-38</lines>
+        <body>Extend create with options to specify driver, driver options and add labels as specified at: https://docs.docker.com/engine/api/v1.35/#operation/VolumeCreate</body>
+        <file>src/main/java/com/amihaiemil/docker/Volumes.java</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2018-12-10T14:14:37Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/184">184</issue>
+    <ticket>135</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>135-7b38f89f</id>
+    <lines>40-45</lines>
+    <body>Continue implementing this class, take into consideration the query parameters as described here: https://docs.docker.com/engine/api/v1.35/#operation/ContainerLogs Since the class should be immutable, the parameters should come in the ctor and appended to the requests when they are performed. Let's leave this part for v0.0.3 or later, it's not urgent now.</body>
+    <file>src/main/java/com/amihaiemil/docker/RtLogs.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-06-12T12:54:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>144</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>144-b98bde3b</id>
+    <lines>40-43</lines>
+    <body>Add the filter(Map&lt;String, String&gt;) method which will filter the given instance of Images. If filter() is called more times, all of the specified filters should amount and be applied to the last resulting Images instance.</body>
+    <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-08-26T08:24:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/185">185</issue>
+    <ticket>152</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>152-6918ce7a</id>
+    <lines>44-47</lines>
+    <body>Add Fake implementations of Images and Image, in order to unit test method save() and other future methods which may require more than 1 HTTP request. Currently, the unit testing infrastructure does not support more than 1 HTTP request..</body>
+    <file>src/main/java/com/amihaiemil/docker/Images.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-08-26T08:24:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/186" closed="2018-12-04T12:45:33+00:00">186</issue>
+    <ticket>144</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>144-eb4c5380</id>
+    <lines>38-41</lines>
+    <body>Finish implementation here, add a Map to this class, that would hold the actual filters and apply them when making the call in the iterator() method. Also, more ctors should be available, at least one with filters and one without filters.</body>
+    <file>src/main/java/com/amihaiemil/docker/ListedImages.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-08-26T08:24:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/187">187</issue>
+    <ticket>153</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>153-ba83999e</id>
+    <lines>38-38</lines>
+    <body>Add integration tests for filters.</body>
+    <file>src/test/java/com/amihaiemil/docker/RtImagesITCase.java</file>
+    <author>Mihai A</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-10-15T06:56:15Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/309">309</issue>
+        <ticket>187</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>187-99b12eee</id>
+        <lines>69-72</lines>
+        <body>To have multiple controlled images for filtering and not the ubuntu image dependency for this test will be nice to have the build Images implemented as described here: https://docs.docker.com/engine/api/v1.37/#operation/ImageBuild.</body>
+        <file>src/test/java/com/amihaiemil/docker/RtImagesITCase.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-12-17T08:35:55Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/191" closed="2018-12-06T13:14:48+00:00">191</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-c2961002</id>
+    <lines>34-34</lines>
+    <body>Continue the implementation of Volume.</body>
+    <file>src/main/java/com/amihaiemil/docker/Volume.java</file>
+    <author>unstablemark</author>
+    <email>marcoo.teixeira@gmail.com</email>
+    <time>2018-11-19T11:35:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/192" closed="2018-12-06T13:14:49+00:00">192</issue>
+    <ticket>169</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>169-8d95e5a4</id>
+    <lines>33-34</lines>
+    <body>Extend Iterable of Volumes to continue implementing the rest of the operations for the volume.</body>
+    <file>src/main/java/com/amihaiemil/docker/Volumes.java</file>
+    <author>unstablemark</author>
+    <email>marcoo.teixeira@gmail.com</email>
+    <time>2018-11-19T11:35:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/224" closed="2018-12-20T07:47:48+00:00">224</issue>
+    <ticket>209</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>209-9b3b61fc</id>
+    <lines>35-37</lines>
+    <body>Extend create with options to specify driver, driver options, IPAM and add labels as specified at: https://docs.docker.com/engine/api/v1.35/#operation/NetworkCreate.</body>
+    <file>src/main/java/com/amihaiemil/docker/Networks.java</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2018-12-17T13:56:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/235" closed="2019-01-02T10:51:18+00:00">235</issue>
+        <ticket>224</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>224-36c37640</id>
+        <lines>36-39</lines>
+        <body>Extend create with options to specify driver, driver options, IPAM and add labels as specified at: https://docs.docker.com/engine/api/v1.35/#operation/NetworkCreate. Then remove Ignore annotation from RtNetworksTest.createWithParametersOk</body>
+        <file>src/main/java/com/amihaiemil/docker/Networks.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-12-20T07:47:19Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/225" closed="2018-12-20T08:07:41+00:00">225</issue>
+    <ticket>210</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>210-80602123</id>
+    <lines>38-40</lines>
+    <body>Implement Network methods: inspect, remove, connect and disconnect like specified at: https://docs.docker.com/engine/api/v1.35/#tag/Network.</body>
+    <file>src/main/java/com/amihaiemil/docker/Network.java</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2018-12-17T13:56:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/236" closed="2019-01-03T19:56:17+00:00">236</issue>
+        <ticket>225</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>225-64e49112</id>
+        <lines>38-41</lines>
+        <body>Implement Network methods: inspect, remove, connect and disconnect like specified at: https://docs.docker.com/engine/api/v1.35/#tag/Network. Then remove @Ignore annotaton from all network tests in RtNetworkTestCase.</body>
+        <file>src/main/java/com/amihaiemil/docker/Network.java</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2018-12-18T11:29:43Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/226" closed="2018-12-20T11:50:15+00:00">226</issue>
+    <ticket>211</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>211-924fe80a</id>
+    <lines>36-37</lines>
+    <body>Implement ListedNetworks iterator with filtering using Map. See ListedImages or ListedVolumes as examples.</body>
+    <file>src/main/java/com/amihaiemil/docker/ListedNetworks.java</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2018-12-17T13:56:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/237" closed="2019-01-03T12:03:36+00:00">237</issue>
+        <ticket>226</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>226-beabec1e</id>
+        <lines>39-41</lines>
+        <body>Implement ListedNetworks iterator with filtering using Map. Then remove Ignore annotations from ListedNetworkTestCase methods. See ListedImages or ListedVolumes as examples.</body>
+        <file>src/main/java/com/amihaiemil/docker/ListedNetworks.java</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2018-12-18T12:34:44Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/227" closed="2018-12-20T12:11:21+00:00">227</issue>
+    <ticket>211</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>211-26937e13</id>
+    <lines>47-49</lines>
+    <body>Finish implementing unit tests for RtNetwork methods connect, disconnect and add negative test cases for remove(). Remove dummy operation not supported tests.</body>
+    <file>src/test/java/com/amihaiemil/docker/RtNetworkTestCase.java</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2018-12-17T13:56:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/240" closed="2018-12-26T08:46:25+00:00">240</issue>
+        <ticket>227</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>227-a6ee3f80</id>
+        <lines>73-79</lines>
+        <body>we should take out this functionality in a URIBuilder decorator. It should be used like this: &lt;pre&gt; final URIBuilder buidler = new Filtered( new UncheckedUriBuilder(...), filters ); &lt;/pre&gt;</body>
+        <file>src/main/java/com/amihaiemil/docker/UncheckedUriBuilder.java</file>
+        <author>Mihai A</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-12-21T08:22:51Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/243" closed="2019-01-03T12:16:47+00:00">243</issue>
+            <ticket>240</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>240-9a51919f</id>
+            <lines>73-74</lines>
+            <body>Finish FilteredUriBuilder implementation moving this method to that class and uncommenting test in FilteredUriBuilderTests</body>
+            <file>src/main/java/com/amihaiemil/docker/UncheckedUriBuilder.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2018-12-24T18:48:19Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/250" closed="2019-01-07T09:37:49+00:00">250</issue>
+    <ticket>232</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>232-809c2fc5</id>
+    <lines>35-37</lines>
+    <body>Implement getting plugin privileges. More information about API method can be found at: https://docs.docker.com/engine/api/v1.35/#operation/GetPluginPrivileges</body>
+    <file>src/main/java/com/amihaiemil/docker/Plugins.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-28T14:12:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/251" closed="2019-01-07T10:52:13+00:00">251</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-26b2fef3</id>
+    <lines>36-37</lines>
+    <body>Implement ListedPlugins iterator with filtering using Map. See ListedImages or ListedVolumes as examples.</body>
+    <file>src/main/java/com/amihaiemil/docker/ListedPlugins.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-28T14:12:39Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/266" closed="2019-01-06T18:51:08+00:00">266</issue>
+        <ticket>251</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>251-3182eb87</id>
+        <lines>37-39</lines>
+        <body>Continue implementing rest of the Plugin methods. More information about API methods can be found at: https://docs.docker.com/engine/api/v1.35/#tag/Plugin</body>
+        <file>src/main/java/com/amihaiemil/docker/Plugin.java</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2019-01-04T11:35:13Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/268" closed="2019-01-09T09:37:19+00:00">268</issue>
+            <ticket>266</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>266-a4a8ef70</id>
+            <lines>37-39</lines>
+            <body>Continue implementing rest of the Plugin methods besides enable and disable. More information about API methods can be found at: https://docs.docker.com/engine/api/v1.35/#tag/Plugin</body>
+            <file>src/main/java/com/amihaiemil/docker/Plugin.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-01-04T23:34:02Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/269" closed="2019-01-09T09:00:25+00:00">269</issue>
+            <ticket>266</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>266-a7f3093d</id>
+            <lines>47-49</lines>
+            <body>Implement Plugin#enable and Plugin#disable methods. The tests are already coded, so after the implementation just remove the ignore annotation from these tests</body>
+            <file>src/test/java/com/amihaiemil/docker/RtPluginTestCase.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-01-04T23:34:02Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/283" closed="2019-01-11T07:56:50+00:00">283</issue>
+            <ticket>266</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>266-4b137964</id>
+            <lines>55-56</lines>
+            <body>Extract method stringPayloadOf to class to reuse in other test cases (like in RtPluginsTestCase.createOk() method)</body>
+            <file>src/test/java/com/amihaiemil/docker/RtPluginTestCase.java</file>
+            <author>Boris Kuzmic</author>
+            <email>boris.kuzmic@ericsson.com</email>
+            <time>2019-01-08T13:27:29Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/docker-java-api/issues/284" closed="2019-01-11T08:11:46+00:00">284</issue>
+            <ticket>266</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>266-797919e3</id>
+            <lines>37-40</lines>
+            <body>Implement Plugin#configure method. The tests are already coded, so after the implementation just remove the ignore annotation from these tests. More information about Configure API method can be found at: https://docs.docker.com/engine/api/v1.35/#operation/PluginSet</body>
+            <file>src/main/java/com/amihaiemil/docker/Plugin.java</file>
+            <author>Boris Kuzmic</author>
+            <email>boris.kuzmic@ericsson.com</email>
+            <time>2019-01-08T13:27:29Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/252" closed="2019-01-17T10:00:37+00:00">252</issue>
+    <ticket>241</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>241-dc39c29f</id>
+    <lines>42-46</lines>
+    <body>Fix Volumes object return problem. Volumes is returning an JsonObject instead of JsonArray. Its return must be according its documentation: https://docs.docker.com/engine/api/v1.30/#operation/VolumeList and what is defined in #241.</body>
+    <file>src/test/java/com/amihaiemil/docker/LocalDockerITCase.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-12-27T11:35:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/258" closed="2019-01-08T11:00:24+00:00">258</issue>
+    <ticket>256</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>256-b806f1e5</id>
+    <lines>46-50</lines>
+    <body>Apparently, either stderr or stdout are mandatory params when reading the logs. At the moment, we specify both as "true", but we should give the user the option to chose. Let's implement Logs.stderr(), Logs.stdout() and Logs.all() -- all 3 methods should return Logs. As usual, RtLogs should remain immutable.</body>
+    <file>src/main/java/com/amihaiemil/docker/RtLogs.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-03T20:29:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/docker-java-api/issues/278" closed="2019-01-09T13:29:45+00:00">278</issue>
+        <ticket>258</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>258-bab15301</id>
+        <lines>46-48</lines>
+        <body>Find a way to create more elegant solution for optional parameters like stdout and stderr. There are more optional parameters so, maybe use a Map instead of separate class attributes.</body>
+        <file>src/main/java/com/amihaiemil/docker/RtLogs.java</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2019-01-08T09:33:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/259">259</issue>
+    <ticket>256</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>256-2502f853</id>
+    <lines>41-45</lines>
+    <body>Fix the IT case for follow(), it is currently failing. We might have to implement the stream decoding (in case TTY is disabled when the Container is created), as explained here, in "Stream format" paragraph: https://docs.docker.com/engine/api/v1.37/#operation/ContainerAttach</body>
+    <file>src/test/java/com/amihaiemil/docker/RtLogsITCase.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-03T20:27:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/docker-java-api/issues/263" closed="2019-01-08T11:04:47+00:00">263</issue>
+    <ticket>244</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>244-6ed263ee</id>
+    <lines>37-40</lines>
+    <body>Replace hardcoded version with the one loaded from properties file. For example, create new version.properties file with property: build.version=${project.version}, add to src/main/resources and Maven filtering will do the rest.</body>
+    <file>src/main/java/com/amihaiemil/docker/UserAgentRequestHeader.java</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@gmail.com</email>
+    <time>2019-01-03T21:23:46Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

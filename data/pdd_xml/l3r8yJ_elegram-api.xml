@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-02-11T22:16:34+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/11" closed="2022-12-01T01:24:30+00:00">11</issue>
+    <ticket>zero</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>zero-b81553ce</id>
+    <lines>25-26</lines>
+    <body>test issue for zero puzzle. Make new issue via 0pdd.</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/DefaultBot.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-01T01:23:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/14" closed="2022-12-01T17:07:27+00:00">14</issue>
+    <ticket>13</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>13-7fb64fb6</id>
+    <lines>25-25</lines>
+    <body>implement RqDefaultTelegram</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/DefaultCommand.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-01T02:18:01Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/l3r8yJ/elegram-api/issues/15" closed="2022-12-02T12:16:07+00:00">15</issue>
+        <ticket>14</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>14-c8c47b94</id>
+        <lines>28-28</lines>
+        <body>implement default command which sending RqDefaultTelegram</body>
+        <file>src/main/java/com/l3r8yj/elegramapi/DefaultCommand.java</file>
+        <author>@l3r8yJ</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2022-12-01T02:18:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/18" closed="2022-12-01T13:25:33+00:00">18</issue>
+    <ticket>16</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>16-da63b381</id>
+    <lines>25-25</lines>
+    <body>implement body test.</body>
+    <file>src/test/java/com/l3r8yj/elegramapi/RqGetMeTelegramTest.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-01T10:39:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/31" closed="2022-12-02T11:52:11+00:00">31</issue>
+    <ticket>Refactor</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>Refactor-e3929720</id>
+    <lines>25-25</lines>
+    <body>refactor design of this class, for now it's a bit wrong.</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/RqDefaultTelegram.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-02T11:19:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/32" closed="2022-12-02T12:16:10+00:00">32</issue>
+    <ticket>Tests</ticket>
+    <estimate>0</estimate>
+    <role>R</role>
+    <id>Tests-4d66defb</id>
+    <lines>25-25</lines>
+    <body>write tests for this class.</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/RqFileTelegram.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-02T11:19:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/40" closed="2022-12-02T21:04:16+00:00">40</issue>
+    <ticket>37</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>37-9e147dd0</id>
+    <lines>25-26</lines>
+    <body>Abstraction level. After closing #38 we should this class abstract.</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/RqDefaultTelegram.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-02T12:49:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/43" closed="2022-12-02T20:44:39+00:00">43</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>41-799b7fcf</id>
+    <lines>29-33</lines>
+    <body>Design/ change scope. In RqDefaultTelegram we have to change the scope of the ADDR field to private and change the Ctors in the inheritors. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/RqDefaultTelegram.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-02T20:21:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/44" closed="2022-12-02T21:04:19+00:00">44</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>41-ea093216</id>
+    <lines>35-38</lines>
+    <body>Design/ add request encapsulation. RqDefaultTelegram have to encapsulate the Request on main ctor. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/RqDefaultTelegram.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-02T20:21:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/45" closed="2022-12-02T21:17:38+00:00">45</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>41-bb081e63</id>
+    <lines>25-27</lines>
+    <body>Add file path encapsulation. RqFileTelegram must encapsulate the file path. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/RqFileTelegram.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-02T20:21:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/55" closed="2023-01-14T13:37:02+00:00">55</issue>
+    <ticket>53</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>53-fde8e0d2</id>
+    <lines>25-27</lines>
+    <body>Design/ Update change. We have to rework design of Update interface. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/update/Update.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-04T15:35:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/56" closed="2023-01-14T13:37:07+00:00">56</issue>
+    <ticket>53</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>53-7efc8f97</id>
+    <lines>25-28</lines>
+    <body>Design/ UpdatedBot change. We have to rework design of UpdatedBot. Implement some interaction with updates. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/bot/UpdatedBot.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-04T15:35:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>60</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60-b481fc5e</id>
+    <lines>25-28</lines>
+    <body>Core/ Implement Update. Implement mapping from/to JSON with all fields from docs of telegram-api. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/update/DefaultUpdate.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-01-14T12:48:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>60</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60-15677383</id>
+    <lines>25-28</lines>
+    <body>Design/ Update change. We have to rework design of Update interface. Write all fields from telegram api documentation. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/update/Update.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-01-14T12:48:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>70</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>70-3d00acb6</id>
+    <lines>25-27</lines>
+    <body>Design/ Implement run(). Need to design proper implementation for DefaultBot. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/bot/DefaultBot.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-01-14T12:48:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>60</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60-7d61ce0e</id>
+    <lines>29-33</lines>
+    <body>Design/ Handling. Base handling written we have to write the handling from messages after 91 line. Add handling for each type of response. Warning implementation of handleUpdates is experimental! */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/bot/DefaultBot.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-01-14T12:48:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>60</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60-10c141ee</id>
+    <lines>35-37</lines>
+    <body>Design/ Testing. Write tests for DefaultBot class after closing other issues in DefaultBot class. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/bot/DefaultBot.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-01-14T12:48:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>60</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60-37d07b17</id>
+    <lines>25-27</lines>
+    <body>Core/ Implement message. Implement all fields and mapping from/to JSON. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/message/Message.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-01-14T12:48:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/75" closed="2023-02-10T23:46:42+00:00">75</issue>
+    <ticket>73</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>73-aa4c306e</id>
+    <lines>25-27</lines>
+    <body>Design/ Implement or add methods. We have to add methods such as send message and etc. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/bot/DefaultBot.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-01-16T03:04:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/79" closed="2023-02-10T23:55:38+00:00">79</issue>
+    <ticket>72</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>72-7e5cd918</id>
+    <lines>25-27</lines>
+    <body>TRqSendMessage change design. Change ctor for sending message data via JSON. */</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/request/TRqSendMessage.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-01-18T02:26:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/elegram-api/issues/106" closed="2023-02-11T22:16:08+00:00">106</issue>
+    <ticket>94</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>94-926f09b4</id>
+    <lines>25-29</lines>
+    <body>Change request to send message. Need to change this {@link com.l3r8yj.elegramapi.request.TRqWithChatId}, {@link com.l3r8yj.elegramapi.request.TRqWithOffset}, {@link com.l3r8yj.elegramapi.request.TRqSendMessage} to fix multiple sending requests.</body>
+    <file>src/main/java/com/l3r8yj/elegramapi/request/TelegramRequest.java</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-02-11T16:04:29Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/l3r8yJ/elegram-api/issues/115">115</issue>
+        <ticket>106</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>106-92a1f24f</id>
+        <lines>29-32</lines>
+        <body>Fix #handleUpdates. This method work unpredictable, need to fix work with incoming updates. */</body>
+        <file>src/main/java/com/l3r8yj/elegramapi/bot/BtDefault.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2023-02-11T22:14:50Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

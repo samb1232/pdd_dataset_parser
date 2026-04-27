@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-07-04T08:40:58+00:00" version="0.31.9">
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-intellij-plugin/issues/28">28</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-10bfcecf</id>
+    <lines>46-47</lines>
+    <body>Make compile action complete adding remaining compile actions (assemble, transpile etc.)</body>
+    <file>src/main/java/org/eolang/jetbrains/EoCompileAction.java</file>
+    <author>@mximp</author>
+    <email>mxim.petrov@gmail.com</email>
+    <time>2022-08-18T11:13:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-intellij-plugin/issues/29">29</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-388ae4cb</id>
+    <lines>48-49</lines>
+    <body>Create tests for the action @checkstyle LineLengthCheck (30 lines)</body>
+    <file>src/main/java/org/eolang/jetbrains/EoCompileAction.java</file>
+    <author>@mximp</author>
+    <email>mxim.petrov@gmail.com</email>
+    <time>2022-08-18T11:13:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-intellij-plugin/issues/47">47</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-9a6919a2</id>
+    <lines>49-51</lines>
+    <body>Enable the tests. Since new grammar was added to eolang need to update antlr4 grammar, remake and refactor parsing tests. Don't forget to get codecov coverage level up before resolving this task.</body>
+    <file>src/test/java/org/eolang/jetbrains/test/EoParsingTest.java</file>
+    <author>maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2023-07-04T08:28:32Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

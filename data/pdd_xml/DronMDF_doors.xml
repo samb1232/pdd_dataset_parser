@@ -1,0 +1,1195 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-07-21T21:19:59+00:00" version="0.30.18">
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/6">6</issue>
+    <ticket>4</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>4-87880296</id>
+    <lines>15-15</lines>
+    <body>Convert command to class</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-02-20T20:20:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/7" closed="2019-02-22T15:17:15+00:00">7</issue>
+    <ticket>4</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>4-e8896619</id>
+    <lines>21-21</lines>
+    <body>Make inventory request and parse reply</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-02-20T20:20:08Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/9" closed="2019-02-23T10:30:45+00:00">9</issue>
+        <ticket>7</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>7-1f462d1d</id>
+        <lines>37-37</lines>
+        <body>Specify protocol in Protocol.h</body>
+        <file>util/main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-02-22T15:17:10Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/13" closed="2019-03-03T19:48:45+00:00">13</issue>
+    <ticket>3</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>3-5b358131</id>
+    <lines>41-43</lines>
+    <body>&#x42D;&#x442;&#x43E;&#x442; &#x43A;&#x43B;&#x430;&#x441;&#x441; &#x432;&#x437;&#x44F;&#x442; &#x438;&#x437; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x430; &#x438; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x435;&#x442; &#x44D;&#x445;&#x43E;&#x43C; &#x414;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x44D;&#x43C;&#x443;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43F;&#x43E;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x430;&#x43C;&#x43A;&#x430; &#x438; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x438;&#x43D;&#x432;&#x435;&#x43D;&#x442;&#x430;&#x440;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;</body>
+    <file>comulator/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-02-27T20:10:36Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/17" closed="2019-04-01T19:55:22+00:00">17</issue>
+        <ticket>13</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>13-4170dcc1</id>
+        <lines>15-15</lines>
+        <body>&#x412;&#x44B;&#x43D;&#x435;&#x441;&#x442;&#x438; &#x43A;&#x43B;&#x430;&#x441;&#x441; &#x432; &#x43E;&#x442;&#x434;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x444;&#x430;&#x439;&#x43B;, &#x438; &#x43F;&#x435;&#x440;&#x435;&#x438;&#x43C;&#x435;&#x43D;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x43E;&#x434;&#x43D;&#x43E;.</body>
+        <file>comulator/main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-03-03T19:48:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/18" closed="2019-04-03T20:14:22+00:00">18</issue>
+        <ticket>13</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>13-56c77e3d</id>
+        <lines>56-57</lines>
+        <body>&#x41D;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x44C; &#x43E;&#x442;&#x432;&#x435;&#x442; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x43C;&#x44B;&#x43C; &#x438; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x43C;&#x43E;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x43E; &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x43E;&#x430;&#x442;&#x44C; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x430;&#x43C; &#x44D;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x430;.</body>
+        <file>comulator/main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-03-03T19:48:40Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/doors/issues/49" closed="2019-04-04T20:53:59+00:00">49</issue>
+            <ticket>18</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>18-f1d42150</id>
+            <lines>38-40</lines>
+            <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442; &#x442;&#x438;&#x43F;&#x430; InventoryReply, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x431;&#x443;&#x434;&#x435;&#x442; &#x444;&#x43E;&#x440;&#x43C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x438;&#x437; request'&#x430; &#x438; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x44F;&#x442;&#x44C;&#x441;&#x44F; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x43E;&#x43C; &#x437;&#x430;&#x43C;&#x43A;&#x43E;&#x432;. &#x418;&#x437; &#x432;&#x441;&#x435;&#x433;&#x43E; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x434;&#x43E;&#x431;&#x440;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; &#x441;&#x444;&#x43E;&#x440;&#x43C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D; &#x431;&#x430;&#x439;&#x442;&#x43E;&#x432;&#x44B;&#x439; &#x43C;&#x430;&#x441;&#x441;&#x438;&#x432; asBytes()</body>
+            <file>core/InventoryAction.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-04-03T20:14:16Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/doors/issues/51" closed="2019-04-05T19:31:43+00:00">51</issue>
+                <ticket>49</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>49-c91e6077</id>
+                <lines>70-70</lines>
+                <body>lock_count &#x43D;&#x435; &#x432;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x432; reply, &#x43D;&#x430;&#x434;&#x43E; &#x43F;&#x430;&#x440;&#x441;&#x438;&#x442;&#x44C; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x435; &#x431;&#x430;&#x439;&#x442;&#x44B;</body>
+                <file>util/main.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-04-04T20:53:53Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/14" closed="2019-02-28T20:10:35+00:00">14</issue>
+    <ticket>3</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>3-155938a3</id>
+    <lines>54-54</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441;&#x435;&#x442;&#x435;&#x432;&#x43E;&#x439; &#x43F;&#x43E;&#x440;&#x44F;&#x434;&#x43E;&#x43A; &#x431;&#x430;&#x439;&#x442; &#x434;&#x43B;&#x44F; &#x432;&#x435;&#x440;&#x441;&#x438;&#x438; &#x438; &#x434;&#x43B;&#x44F; &#x43A;&#x43E;&#x434;&#x43E;&#x432;</body>
+    <file>include/Protocol.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-02-27T20:10:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/20">20</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>2-af79bb66</id>
+    <lines>43-44</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x442;&#x430;&#x439;&#x43C;&#x430;&#x443;&#x442; &#x43D;&#x430; &#x434;&#x430;&#x43D;&#x43D;&#x443;&#x44E; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x44E;. 3 &#x441;&#x435;&#x43A;&#x443;&#x43D;&#x434;&#x44B; &#x43D;&#x430;&#x432;&#x435;&#x440;&#x43D;&#x43E;&#x435; &#x445;&#x432;&#x430;&#x442;&#x438;&#x442; c &#x433;&#x43E;&#x43B;&#x43E;&#x432;&#x43E;&#x439;</body>
+    <file>util/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-03-04T19:59:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/21" closed="2019-03-05T21:10:25+00:00">21</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>2-56e98e4a</id>
+    <lines>43-46</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x434;&#x438;&#x441;&#x43F;&#x435;&#x442;&#x447;&#x435;&#x440; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x439; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x43C;&#x443; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43F;&#x440;&#x438;&#x432;&#x44F;&#x437;&#x430;&#x442;&#x44C; &#x43A;&#x430;&#x43A; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x44B; &#x43A; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x443;, &#x442;&#x430;&#x43A; &#x438; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x44B; &#x43A; &#x44D;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x443; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x430;. &#x418; &#x44D;&#x442;&#x43E;&#x442; &#x43A;&#x43B;&#x430;&#x441;&#x441; &#x441;&#x442;&#x430;&#x43D;&#x435;&#x442; &#x443;&#x43D;&#x438;&#x432;&#x435;&#x440;&#x441;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x43C;.</body>
+    <file>server/Listener.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-03-04T19:59:21Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/23" closed="2019-03-26T20:13:39+00:00">23</issue>
+        <ticket>21</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>21-7a1ecae9</id>
+        <lines>27-28</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E; &#x43D;&#x43E;&#x43C;&#x435;&#x440;&#x443; &#x43A;&#x43B;&#x44E;&#x447;&#x430; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x44C; &#x432;&#x441;&#x44E; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x443;&#x44E; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44E; &#x438;&#x437; &#x411;&#x414;, &#x438;&#x43B;&#x438; &#x438;&#x437; &#x43A;&#x435;&#x448;&#x430;.</body>
+        <file>server/StatusAction.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-03-05T21:10:20Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/24" closed="2019-03-09T20:56:43+00:00">24</issue>
+        <ticket>21</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>21-95ee8e19</id>
+        <lines>45-46</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;-&#x441;&#x43E;&#x43A;&#x435;&#x442;, &#x432; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x44C; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x41F;&#x440;&#x438;&#x447;&#x435;&#x43C; &#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x43E; &#x43D;&#x435; &#x441;&#x435;&#x439;&#x447;&#x430;&#x441; &#x438; &#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x43D;&#x43E;, &#x430; &#x43F;&#x43E;&#x442;&#x43E;&#x43C;. &#x418; &#x44D;&#x442;&#x43E;&#x442; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442; &#x441;&#x44A;&#x435;&#x441;&#x442; do_send</body>
+        <file>server/Listener.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-03-05T21:10:20Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/doors/issues/26" closed="2019-07-21T14:50:01+00:00">26</issue>
+            <ticket>24</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>24-052ad241</id>
+            <lines>58-58</lines>
+            <body>&#x41B;&#x43E;&#x433;&#x438;&#x43A;&#x430; &#x43D;&#x430; &#x438;&#x441;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F;&#x445;</body>
+            <file>server/Listener.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-03-09T20:56:38Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/doors/issues/27" closed="2019-03-28T20:08:37+00:00">27</issue>
+            <ticket>24</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>24-c4e3931f</id>
+            <lines>108-108</lines>
+            <body>&#x420;&#x430;&#x437;&#x43E;&#x431;&#x440;&#x430;&#x442;&#x44C; status &#x43E;&#x442;&#x432;&#x435;&#x442; &#x43E;&#x442; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x430;</body>
+            <file>util/main.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-03-09T20:56:38Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/DronMDF/doors/issues/46">46</issue>
+                <ticket>27</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>27-16b79f1c</id>
+                <lines>22-26</lines>
+                <body>&#x41C;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x434;&#x43D;&#x43E;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x43D;&#x44B;&#x445; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x439; &#x43F;&#x43E; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x43A;&#x435; &#x41C;&#x43E;&#x436;&#x43D;&#x43E; &#x43B;&#x438; &#x432;&#x441;&#x435; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x44B; &#x438;&#x43D;&#x43A;&#x430;&#x43F;&#x441;&#x443;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x43C; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x435;? &#x41D;&#x43E; &#x43F;&#x43E;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x443; &#x43D;&#x430;&#x431;&#x43E;&#x440;&#x44B; &#x43F;&#x43E;&#x43B;&#x435;&#x439; &#x440;&#x430;&#x437;&#x43D;&#x44B;&#x435; - &#x43D;&#x435; &#x432;&#x441;&#x435; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x438; &#x432; &#x44D;&#x442;&#x43E;&#x43C; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x435; &#x431;&#x443;&#x434;&#x443;&#x442; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x438;&#x43C;&#x44B; &#x432; &#x43E;&#x434;&#x438;&#x43D;&#x430;&#x43A;&#x43E;&#x432;&#x43E;&#x439; &#x441;&#x442;&#x435;&#x43F;&#x435;&#x43D;&#x438;. &#x418;&#x43B;&#x438; &#x432;&#x441;&#x435;&#x442;&#x430;&#x43A;&#x438; &#x43D;&#x430; &#x43A;&#x430;&#x436;&#x434;&#x443;&#x44E; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x443; &#x43E;&#x442;&#x434;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x432;&#x440;&#x430;&#x43F;&#x43F;&#x435;&#x440;?</body>
+                <file>util/main.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-03-28T20:08:26Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/31" closed="2019-03-27T20:35:41+00:00">31</issue>
+    <ticket>29</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>29-72a9bf77</id>
+    <lines>28-28</lines>
+    <body>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x43A;&#x43B;&#x430;&#x441;&#x441; &#x434;&#x438;&#x441;&#x43F;&#x435;&#x442;&#x447;&#x435;&#x440; &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x437;&#x440;&#x443;&#x43B;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x43E;&#x432;</body>
+    <file>server/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-03-13T19:56:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/44" closed="2019-07-21T14:50:04+00:00">44</issue>
+        <ticket>31</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>31-cf265bc5</id>
+        <lines>16-16</lines>
+        <body>&#x41F;&#x440;&#x438; &#x442;&#x430;&#x43A;&#x43E;&#x439; &#x440;&#x435;&#x430;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; DispatchedAction &#x43D;&#x435;&#x442; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x432; &#x43A;&#x43E;&#x434;&#x435; &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x442;&#x430;</body>
+        <file>server.core/Action.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-03-27T20:35:35Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/34" closed="2019-03-22T20:07:44+00:00">34</issue>
+    <ticket>32</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>32-5f0d9657</id>
+    <lines>26-26</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C; &#x43E;&#x431;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441; &#x43A; &#x445;&#x440;&#x430;&#x43D;&#x438;&#x43B;&#x438;&#x449;&#x443;.</body>
+    <file>server/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-03-17T20:03:42Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/38" closed="2019-03-26T20:13:41+00:00">38</issue>
+        <ticket>34</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>34-c6cfc339</id>
+        <lines>34-36</lines>
+        <body>&#x418;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441; &#x434;&#x43B;&#x44F; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430; &#x43A; &#x434;&#x435;&#x444;&#x43E;&#x43B;&#x442;&#x43D;&#x44B;&#x43C; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F;&#x43C; &#x41F;&#x43E;&#x43A;&#x430; &#x43D;&#x435;&#x442; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430; &#x43A; 1&#x421;, &#x411;&#x414; &#x43D;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x430; &#x444;&#x435;&#x439;&#x43B;&#x438;&#x442;&#x44C; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;, &#x430; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x430;, &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x434;&#x435;&#x43A;&#x43E;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x430;, &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x442;&#x44C; &#x434;&#x435;&#x444;&#x43E;&#x43B;&#x442;&#x43D;&#x44B;&#x435; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F;.</body>
+        <file>server/main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-03-22T20:02:43Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/doors/issues/41">41</issue>
+            <ticket>38</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>38-c13e5a90</id>
+            <lines>28-29</lines>
+            <body>&#x421;&#x43B;&#x43E;&#x432;&#x43E; balance &#x43B;&#x443;&#x447;&#x448;&#x435; &#x43F;&#x43E;&#x434;&#x445;&#x43E;&#x434;&#x438;&#x442;</body>
+            <file>server.test/StatusActionTest.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-03-26T20:13:32Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/doors/issues/42" closed="2019-05-12T18:54:32+00:00">42</issue>
+            <ticket>38</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>38-7b44d5f1</id>
+            <lines>23-24</lines>
+            <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x438;&#x442;&#x44C; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;. &#x417;&#x434;&#x435;&#x441;&#x44C; &#x43A;&#x430;&#x43A;&#x440;&#x430;&#x437; &#x43F;&#x43E;&#x434;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x435;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x43E;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x430;&#x442;&#x44C; &#x441;&#x442;&#x440;&#x43E;&#x447;&#x43A;&#x443; &#x432; &#x43B;&#x43E;&#x433;</body>
+            <file>server.core/DefaultStorage.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-03-26T20:13:32Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/54">54</issue>
+    <ticket>52</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>52-b414bbbe</id>
+    <lines>54-54</lines>
+    <body>List32Bytes &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x432;&#x445;&#x43E;&#x434; json array</body>
+    <file>core/StatusTask.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-04-05T15:09:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/55">55</issue>
+    <ticket>52</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>52-fab87cb3</id>
+    <lines>137-137</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C; BytesKeyStatus &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x437;&#x431;&#x43E;&#x440;&#x430; &#x432;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x438;&#x445; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x43E;&#x432;</body>
+    <file>util/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-04-05T15:09:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/66" closed="2019-04-26T20:12:29+00:00">66</issue>
+    <ticket>64</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>64-c7c642e4</id>
+    <lines>32-32</lines>
+    <body>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; HTTP &#x445;&#x440;&#x430;&#x43D;&#x438;&#x43B;&#x438;&#x449;&#x435;</body>
+    <file>server/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-04-15T20:17:57Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/85" closed="2019-05-12T18:54:34+00:00">85</issue>
+        <ticket>66</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>66-58d90e8f</id>
+        <lines>19-19</lines>
+        <body>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x443;&#x431;&#x438;&#x442;&#x44C; &#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x43D;&#x43E;&#x435; API &#x432; Storage</body>
+        <file>core/Storage.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-04-26T20:12:20Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/doors/issues/100">100</issue>
+            <ticket>85</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>85-3668ef79</id>
+            <lines>68-69</lines>
+            <body>InventoryAction &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442; &#x430;&#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x43D;&#x43E;. &#x41C;&#x44B; &#x432;&#x441;&#x435; &#x434;&#x435;&#x43B;&#x430;&#x435;&#x43C; &#x430;&#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x43D;&#x43E;.</body>
+            <file>core/InventoryAction.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-05-12T18:54:25Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/doors/issues/101" closed="2019-05-29T19:57:01+00:00">101</issue>
+            <ticket>85</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>85-53c2b1ac</id>
+            <lines>12-13</lines>
+            <body>&#x414;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43B;&#x438; handler &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x442;&#x44C; &#x435;&#x449;&#x435; &#x43A;&#x43E;&#x434; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x438;? &#x427;&#x442;&#x43E; &#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C;, &#x435;&#x441;&#x43B;&#x438; storage &#x43D;&#x435; &#x432; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x438; &#x43F;&#x440;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442;?</body>
+            <file>core/Storage.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-05-12T18:54:25Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/DronMDF/doors/issues/153">153</issue>
+                <ticket>101</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>101-70d93e7b</id>
+                <lines>10-11</lines>
+                <body>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x43E; PredefinedStorageResponse &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x430; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x431;&#x44B;&#x43B;&#x43E; &#x431;&#x44B; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; JsonStorageResponse, &#x435;&#x441;&#x43B;&#x438; &#x431;&#x44B; &#x443; &#x43D;&#x430;&#x441; &#x442;&#x430;&#x43A;&#x43E;&#x439; &#x431;&#x44B;&#x43B;.</body>
+                <file>core/PredefinedStorage.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-05-29T19:56:53Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/86" closed="2019-05-12T18:54:35+00:00">86</issue>
+        <ticket>66</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>66-1961af39</id>
+        <lines>22-22</lines>
+        <body>&#x41F;&#x43E;&#x43A;&#x430; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x444;&#x43E;&#x440;&#x43C;&#x430; http &#x441; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x438;&#x435;&#x43C; &#x43F;&#x43E;&#x440;&#x442;&#x430;</body>
+        <file>core/HttpStorage.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-04-26T20:12:20Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/87" closed="2019-05-12T20:27:34+00:00">87</issue>
+        <ticket>66</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>66-6e09eedb</id>
+        <lines>80-80</lines>
+        <body>&#x41E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x447;&#x435;&#x440;&#x435;&#x437; HttpStorage</body>
+        <file>core/HttpStorage.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-04-26T20:12:20Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/doors/issues/105">105</issue>
+            <ticket>87</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>87-10e363ec</id>
+            <lines>26-27</lines>
+            <body>Storage::update &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x432;&#x445;&#x43E;&#x434; callback &#x427;&#x435;&#x440;&#x435;&#x437; &#x43A;&#x43E;&#x43B;&#x43B;&#x431;&#x435;&#x43A; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x440;&#x435;&#x442;&#x440;&#x430;&#x43D;&#x441;&#x43C;&#x438;&#x442;&#x44B; &#x438;&#x43B;&#x438; &#x440;&#x430;&#x43F;&#x43E;&#x440;&#x442;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43E;&#x431; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x430;&#x445;.</body>
+            <file>core/Storage.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-05-12T20:14:03Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/88">88</issue>
+        <ticket>66</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>66-dbc4f669</id>
+        <lines>207-207</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x430;&#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x43D;&#x43E;&#x435; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x435;</body>
+        <file>core/NetIoService.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-04-26T20:12:20Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/89" closed="2019-05-15T20:22:37+00:00">89</issue>
+        <ticket>66</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>66-e3bae68d</id>
+        <lines>221-221</lines>
+        <body>copy-paste from HttpStorage</body>
+        <file>core/NetIoService.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-04-26T20:12:20Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/67" closed="2019-04-16T20:35:47+00:00">67</issue>
+    <ticket>64</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>64-af0d56d7</id>
+    <lines>25-26</lines>
+    <body>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x434;&#x430;&#x447;&#x443; &#x43D;&#x430; &#x438;&#x43D;&#x432;&#x435;&#x43D;&#x442;&#x430;&#x440;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44E; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x430; &#x412; &#x441;&#x442;&#x440;&#x443;&#x43A;&#x442;&#x443;&#x440;&#x435; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442;&#x441;&#x44F; &#x430;&#x434;&#x440;&#x435;&#x441; &#x438; &#x43F;&#x43E;&#x440;&#x442;</body>
+    <file>core/BootstrapTask.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-04-15T20:17:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/70">70</issue>
+        <ticket>67</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>67-877f4126</id>
+        <lines>36-37</lines>
+        <body>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x43F;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43E;&#x442;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x443;&#x44E; &#x437;&#x430;&#x434;&#x430;&#x447;&#x443; &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x43D;&#x443;&#x44E; &#x438;&#x43D;&#x432;&#x435;&#x43D;&#x442;&#x430;&#x440;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44E; &#x447;&#x435;&#x440;&#x435;&#x437; &#x447;&#x430;&#x441;?</body>
+        <file>core/BootstrapTask.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-04-16T20:35:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/71" closed="2019-04-23T19:31:03+00:00">71</issue>
+        <ticket>67</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>67-95871b70</id>
+        <lines>26-28</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x44C; &#x44D;&#x442;&#x443; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x44E; &#x430;&#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x43D;&#x43E; &#x41D;&#x43E; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x430; &#x432; &#x442;&#x43E;&#x43C;, &#x447;&#x442;&#x43E; &#x43E;&#x43D;&#x430; &#x43F;&#x43E;&#x440;&#x43E;&#x436;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x438;&#x437; booststrap, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x43D;&#x438;&#x447;&#x435;&#x433;&#x43E; &#x43D;&#x435; &#x437;&#x43D;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E; ioservice... &#x445;&#x43C;</body>
+        <file>core/InventoryTask.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-04-16T20:35:40Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/doors/issues/82">82</issue>
+            <ticket>71</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>71-3c77cb8b</id>
+            <lines>41-43</lines>
+            <body>endpoint &#x432; &#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x43C; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x435; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x440;&#x438; &#x43F;&#x440;&#x438;&#x445;&#x43E;&#x434;&#x435; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x430; &#x41D;&#x43E; &#x43C;&#x44B; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x43C; &#x441; &#x43A;&#x43E;&#x43D;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x44B;&#x43C;, &#x438; &#x43D;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x442;&#x44C; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x44B; &#x43E;&#x442; &#x434;&#x440;&#x443;&#x433;&#x438;&#x445;. &#x42D;&#x442;&#x43E; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x43F;&#x440;&#x435;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43A;&#x430;&#x43A; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x443;</body>
+            <file>core/NetIoService.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-04-23T19:30:48Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/68" closed="2019-04-23T20:47:50+00:00">68</issue>
+    <ticket>64</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>64-eae80a1f</id>
+    <lines>13-13</lines>
+    <body>&#x410;&#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x43D;&#x44B;&#x435; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x438;&#x43C;&#x435;&#x442;&#x44C; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x439; API, &#x441; &#x43A;&#x43E;&#x43B;&#x43B;&#x431;&#x435;&#x43A;&#x430;&#x43C;&#x438;</body>
+    <file>core/Storage.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-04-15T20:17:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/74" closed="2019-04-19T20:10:34+00:00">74</issue>
+    <ticket>72</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>72-8b84238f</id>
+    <lines>20-21</lines>
+    <body>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x442;&#x43E;&#x447;&#x43A;&#x443; &#x432;&#x445;&#x43E;&#x434;&#x430; &#x434;&#x43B;&#x44F; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x430; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x43E;&#x432; GET /controller &#x42D;&#x442;&#x430; &#x442;&#x43E;&#x447;&#x43A;&#x430; &#x432;&#x44B;&#x434;&#x430;&#x441;&#x442; &#x43F;&#x43E;&#x43B;&#x43D;&#x44B;&#x439; &#x441;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x432; &#x432;&#x438;&#x434;&#x435; xlm, c&#x445;&#x435;&#x43C;&#x443; &#x43F;&#x440;&#x438;&#x43A;&#x440;&#x443;&#x442;&#x438;&#x43C; &#x43F;&#x43E;&#x442;&#x43E;&#x43C;</body>
+    <file>web/web/urls.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-04-17T20:41:32Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/77" closed="2019-04-21T08:34:03+00:00">77</issue>
+        <ticket>74</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>74-294cb101</id>
+        <lines>3-3</lines>
+        <body>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; coverage &#x432; web</body>
+        <file>web/CMakeLists.txt</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-04-19T20:10:26Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/75" closed="2019-05-11T19:46:47+00:00">75</issue>
+    <ticket>72</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>72-eeea2729</id>
+    <lines>22-25</lines>
+    <body>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x442;&#x43E;&#x447;&#x43A;&#x443; &#x432;&#x445;&#x43E;&#x434;&#x430; &#x434;&#x43B;&#x44F; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x432; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x435; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x430; &#x437;&#x430;&#x43C;&#x43A;&#x43E;&#x432; PUT /controller/address:port/locks &#x42D;&#x442;&#x430; &#x442;&#x43E;&#x447;&#x43A;&#x430; &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x435;&#x442; &#x441;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x437;&#x430;&#x43C;&#x43A;&#x43E;&#x432;, &#x438; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x44F;&#x435;&#x442; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x43C;&#x43E;&#x435; &#x431;&#x430;&#x437;&#x44B;. &#x412;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x441;&#x442;&#x43E;&#x438;&#x442; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x43C;&#x43A;&#x438; &#x43D;&#x435; &#x441;&#x442;&#x438;&#x440;&#x430;&#x435;&#x43C;&#x44B;&#x43C;&#x438;, &#x430; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x43C;&#x44B;&#x43C;&#x438;. &#x417;&#x430;&#x43C;&#x43E;&#x43A; &#x442;&#x438;&#x43F;&#x430; &#x438;&#x441;&#x447;&#x435;&#x437;.</body>
+    <file>web/web/urls.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-04-17T20:41:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/95" closed="2019-05-25T19:16:45+00:00">95</issue>
+    <ticket>93</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>93-6868c605</id>
+    <lines>11-14</lines>
+    <body>IoService &#x43D;&#x430;&#x440;&#x443;&#x448;&#x430;&#x435;&#x442; SRP &#x41D;&#x430; &#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x43C; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435; &#x445;&#x43E;&#x440;&#x43E;&#x448;&#x43E; &#x432;&#x438;&#x434;&#x43D;&#x43E;, &#x447;&#x442;&#x43E; &#x44F; &#x43D;&#x435; &#x43C;&#x43E;&#x433;&#x443; &#x43F;&#x43E;&#x434;&#x441;&#x443;&#x43D;&#x443;&#x442;&#x44C; &#x434;&#x432;&#x430; &#x440;&#x430;&#x437;&#x43D;&#x44B;&#x445; &#x440;&#x435;&#x441;&#x43F;&#x43E;&#x43D;&#x437;&#x430; &#x412;&#x435;&#x440;&#x43E;&#x44F;&#x442;&#x43D;&#x43E; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x434;&#x432;&#x430; &#x440;&#x430;&#x437;&#x43D;&#x44B;&#x445; &#x441;&#x435;&#x440;&#x432;&#x438;&#x441;&#x430;</body>
+    <file>test/TestIoService.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-07T20:34:42Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/143" closed="2019-05-26T19:19:46+00:00">143</issue>
+        <ticket>95</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>95-589bb57b</id>
+        <lines>18-19</lines>
+        <body>StorageHandler &#x43D;&#x435; &#x441;&#x430;&#x43C;&#x44B;&#x439; &#x43F;&#x43E;&#x434;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x438;&#x439; &#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x447;&#x438;&#x43A; &#x434;&#x43B;&#x44F; HttpService, &#x414;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x431;&#x44B;&#x442;&#x44C; HttpHandler</body>
+        <file>core/HttpService.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-05-25T19:16:37Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/doors/issues/145" closed="2019-05-27T20:14:05+00:00">145</issue>
+            <ticket>143</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>143-177a8f00</id>
+            <lines>14-16</lines>
+            <body>&#x412; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x430;&#x440;&#x433;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430; handle &#x414;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x442;&#x44C; HttpResponse &#x41A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x43D;&#x430; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x43C; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435; &#x43B;&#x43E;&#x433;&#x438;&#x43A;&#x438; &#x43F;&#x430;&#x440;&#x441;&#x438;&#x442;&#x441;&#x44F; &#x442;&#x430;&#x43A;, &#x43A;&#x430;&#x43A; &#x43D;&#x430;&#x434;&#x43E;. &#x418; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x438;&#x43D;&#x43A;&#x430;&#x43F;&#x441;&#x443;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x432; &#x441;&#x435;&#x431;&#x44F; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x443;</body>
+            <file>core/HttpService.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-05-26T19:19:39Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/97" closed="2019-05-14T19:36:14+00:00">97</issue>
+    <ticket>92</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>92-de14a6f5</id>
+    <lines>24-25</lines>
+    <body>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x441;&#x440;&#x430;&#x432;&#x43D;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x438; &#x437;&#x430;&#x43C;&#x43A;&#x43E;&#x432; &#x441; &#x438;&#x43C;&#x435;&#x44E;&#x449;&#x438;&#x43C;&#x438;&#x441;&#x44F; &#x418; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x44C; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x435;&#x441;&#x43B;&#x438; &#x437;&#x430;&#x43C;&#x43E;&#x43A; &#x43D;&#x43E;&#x432;&#x44B;&#x439;</body>
+    <file>web/doors/views.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-11T19:46:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/98">98</issue>
+    <ticket>92</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>92-06ed538e</id>
+    <lines>12-13</lines>
+    <body>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x443; &#x438;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x41A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x432;&#x43E;&#x432;&#x441;&#x435; &#x43D;&#x435; &#x43E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x441;&#x43E;&#x432;&#x43F;&#x430;&#x434;&#x430;&#x435;&#x442; &#x441; pk.</body>
+    <file>web/doors/models.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-11T19:46:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/118">118</issue>
+    <ticket>116</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>116-acccbb7d</id>
+    <lines>15-16</lines>
+    <body>&#x41E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x438; &#x432;&#x432;&#x43E;&#x434;&#x430;-&#x432;&#x44B;&#x432;&#x43E;&#x434;&#x430; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x442;&#x440;&#x430;&#x441;&#x441;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430;&#x43F;&#x438;&#x441;&#x430;&#x432; &#x434;&#x435;&#x43A;&#x43E;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x43D;&#x430; IoService &#x418; &#x43D;&#x430; Storage &#x442;&#x43E;&#x436;&#x435;...</body>
+    <file>core/IoService.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-16T20:21:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/119" closed="2019-07-18T20:04:30+00:00">119</issue>
+    <ticket>116</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>116-e55fec98</id>
+    <lines>18-18</lines>
+    <body>&#x412; Action::process c&#x442;&#x43E;&#x438;&#x442; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x442;&#x44C; Bytes</body>
+    <file>core/Action.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-16T20:21:45Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/208">208</issue>
+        <ticket>119</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>119-bfecade2</id>
+        <lines>12-12</lines>
+        <body>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; BytesLock &#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x442;&#x43E;&#x440; &#x438;&#x437; Bytes</body>
+        <file>core/BytesLock.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-07-18T20:04:23Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/209" closed="2019-07-21T21:19:59+00:00">209</issue>
+        <ticket>119</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>119-19a7427f</id>
+        <lines>12-12</lines>
+        <body>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43A; RawBytes &#x43F;&#x435;&#x440;&#x432;&#x438;&#x447;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x442;&#x43E;&#x440; &#x438;&#x437; &#x432;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x430;</body>
+        <file>core/RawBytes.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-07-18T20:04:23Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/121" closed="2019-05-20T19:38:09+00:00">121</issue>
+    <ticket>113</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>113-8b114594</id>
+    <lines>21-23</lines>
+    <body>&#x415;&#x441;&#x43B;&#x438; delay &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D; - &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x44E; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x44C; &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x442;&#x43E;&#x433;&#x43E;, &#x43A;&#x430;&#x43A; &#x432;&#x44B;&#x439;&#x434;&#x435;&#x442; &#x43E;&#x442;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F;. &#x41D;&#x435; &#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x443;&#x44E;&#x44F; &#x435;&#x441;&#x442;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x43E; &#x43E;&#x441;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435;.</body>
+    <file>core/AsioScheduler.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-18T19:49:31Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/128">128</issue>
+        <ticket>121</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>121-7bb4aed2</id>
+        <lines>31-33</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43A;&#x443;&#x434;&#x430;-&#x442;&#x43E; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x44C; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x438;, &#x41D;&#x43E; &#x434;&#x43B;&#x44F; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x43D;&#x443;&#x436;&#x435;&#x43D; &#x441;&#x43F;&#x435;&#x446;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43A;&#x430;&#x43D;&#x430;&#x43B; &#x434;&#x43B;&#x44F; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x430; &#x43E;&#x448;&#x438;&#x431;&#x43E;&#x43A;. &#x41D;&#x430; &#x44D;&#x43A;&#x440;&#x430;&#x43D; &#x438;&#x445; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x430;&#x442;&#x44C; &#x43D;&#x435;&#x43B;&#x44C;&#x437;&#x44F;.</body>
+        <file>core/AsioScheduler.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-05-20T19:37:57Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/122">122</issue>
+    <ticket>113</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>113-cc2010c5</id>
+    <lines>25-27</lines>
+    <body>&#x412; &#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x447;&#x438;&#x43A;&#x435; LockReplyHandler &#x43B;&#x43E;&#x433;&#x438;&#x43A;&#x430; &#x43D;&#x430; &#x438;&#x441;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F;&#x445; &#x41C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x43C;&#x43D;&#x435; &#x432; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x43A;&#x43E;&#x43B;&#x43B;&#x431;&#x435;&#x43A;&#x43E;&#x432; &#x43A; &#x441;&#x435;&#x440;&#x432;&#x438;&#x441;&#x443; &#x43D;&#x430;&#x432;&#x435;&#x448;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x44D;&#x43A;&#x448;&#x438;&#x43D;&#x44B;? &#x422;&#x430;&#x43C; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; DispatchedAction &#x438; &#x440;&#x430;&#x437;&#x440;&#x443;&#x43B;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x44B;...</body>
+    <file>comulator/LockTask.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-18T19:49:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/123" closed="2019-05-21T20:08:33+00:00">123</issue>
+    <ticket>113</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>113-b4059845</id>
+    <lines>31-31</lines>
+    <body>&#x415;&#x441;&#x43B;&#x438; &#x437;&#x430;&#x43C;&#x43E;&#x43A; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x43B;&#x441;&#x44F; - &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x437;&#x430;&#x43F;&#x43B;&#x430;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x435;</body>
+    <file>comulator/LockTask.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-18T19:49:31Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/134">134</issue>
+        <ticket>123</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>123-af118c1e</id>
+        <lines>62-66</lines>
+        <body>&#x414;&#x43B;&#x44F; UDP &#x441;&#x435;&#x440;&#x432;&#x438;&#x441;&#x430; &#x430;&#x434;&#x440;&#x435;&#x441; &#x438; &#x43F;&#x43E;&#x440;&#x442; &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x448;&#x438;&#x432;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x432; &#x438;&#x43D;&#x43A;&#x430;&#x43F;&#x441;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x44E;. &#x414;&#x43E;&#x432;&#x43E;&#x43B;&#x44C;&#x43D;&#x43E; &#x43D;&#x435;&#x443;&#x434;&#x43E;&#x431;&#x43D;&#x43E; &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E; &#x442;&#x430;&#x441;&#x43A;&#x430;&#x442;&#x44C; &#x438;&#x445; &#x43F;&#x43E; &#x432;&#x441;&#x435;&#x43C; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x430;&#x43C;. &#x412;&#x435;&#x440;&#x43E;&#x44F;&#x442;&#x43D;&#x43E; &#x43C;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x43C; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x431;&#x430;&#x437;&#x43E;&#x432;&#x44B;&#x439; udp_io, &#x438; &#x43D;&#x430;&#x432;&#x435;&#x448;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x43D;&#x435;&#x433;&#x43E; &#x430;&#x434;&#x440;&#x435;&#x441; endpoint, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x432; &#x432; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x430;&#x445; &#x418; &#x435;&#x441;&#x43B;&#x438; &#x433;&#x43E;&#x432;&#x43E;&#x440;&#x438;&#x43C; &#x43F;&#x440;&#x43E; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x44B; - &#x44D;&#x442;&#x43E;&#x442; &#x441;&#x43E;&#x43A;&#x435;&#x442; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x437;&#x430;&#x440;&#x430;&#x43D;&#x435;&#x435; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x438; &#x432;&#x441;&#x435;&#x433;&#x434;&#x430; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x438;&#x43C;.</body>
+        <file>comulator/LockTask.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-05-21T20:08:23Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/124">124</issue>
+    <ticket>113</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>113-fae4ce78</id>
+    <lines>34-35</lines>
+    <body>&#x415;&#x441;&#x43B;&#x438; &#x437;&#x430;&#x43C;&#x43E;&#x43A; &#x43D;&#x435; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x43B;&#x441;&#x44F; - &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x43D;&#x43E; &#x43E;&#x431;&#x440;&#x430;&#x442;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x443;. &#x41D;&#x43E; &#x44D;&#x442;&#x438; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x438; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x431;&#x44B;&#x442;&#x44C; &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x44B;</body>
+    <file>comulator/LockTask.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-18T19:49:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/125" closed="2019-05-19T20:30:13+00:00">125</issue>
+    <ticket>113</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>113-6de43cf5</id>
+    <lines>57-58</lines>
+    <body>&#x422;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x440;&#x435;&#x430;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; LockBytes make_shared&lt;LockBytes&gt;(lock_id, 0x123456789ABCDEF),</body>
+    <file>comulator/LockTask.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-18T19:49:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/131" closed="2019-05-21T20:46:22+00:00">131</issue>
+    <ticket>129</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>129-9669d531</id>
+    <lines>46-46</lines>
+    <body>&#x421;&#x435;&#x440;&#x432;&#x435;&#x440; &#x43E;&#x431;&#x440;&#x430;&#x431;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x44B; &#x43D;&#x430; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x435; &#x437;&#x430;&#x43C;&#x43A;&#x430;</body>
+    <file>server/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-20T20:11:15Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/136" closed="2019-06-11T20:19:23+00:00">136</issue>
+        <ticket>131</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>131-28e38a2c</id>
+        <lines>16-16</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x434;&#x432;&#x435;&#x440;&#x434;&#x438;&#x442;&#x44C; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x434;&#x44B;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x430;&#x43C;&#x43A;&#x430; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x43C; &#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43C;</body>
+        <file>core/UnlockAction.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-05-21T20:41:24Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/doors/issues/176">176</issue>
+            <ticket>136</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>136-2ce19bca</id>
+            <lines>43-44</lines>
+            <body>&#x412; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x435; UnlockActionStorageHandler &#x438; &#x432; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x435; LockActionStorageHandler &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x442;&#x44C; &#x438;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;. T&#x430;&#x441;&#x43A;&#x430;&#x442;&#x44C; &#x432;&#x435;&#x441;&#x44C; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x441; &#x441;&#x43E;&#x431;&#x43E;&#x439; &#x43D;&#x435; &#x43E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;.</body>
+            <file>core/UnlockAction.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-06-11T20:18:58Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/doors/issues/177">177</issue>
+            <ticket>136</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>136-c89e696d</id>
+            <lines>60-61</lines>
+            <body>&#x412; unlock &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x435; &#x43D;&#x435; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442;&#x441;&#x44F; &#x43D;&#x43E;&#x43C;&#x435;&#x440; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x430; &#x415;&#x433;&#x43E; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x44C; &#x447;&#x435;&#x440;&#x435;&#x437; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440; &#x411;&#x414;, &#x43D;&#x43E; &#x44D;&#x442;&#x43E; &#x43D;&#x443;&#x436;&#x435;&#x43D; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;</body>
+            <file>core/UnlockAction.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-06-11T20:18:58Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/132" closed="2019-06-06T21:06:14+00:00">132</issue>
+    <ticket>129</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>129-a4b43f47</id>
+    <lines>16-16</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x434;&#x432;&#x435;&#x440;&#x434;&#x438;&#x442;&#x44C; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x434;&#x44B;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x430;&#x43C;&#x43A;&#x430; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x43C; &#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43C;</body>
+    <file>core/LockAction.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-20T20:11:15Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/171">171</issue>
+        <ticket>132</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>132-b455cd1b</id>
+        <lines>58-59</lines>
+        <body>&#x412; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x435; &#x43D;&#x435; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442;&#x441;&#x44F; &#x43D;&#x43E;&#x43C;&#x435;&#x440; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x430; &#x415;&#x433;&#x43E; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x44C; &#x447;&#x435;&#x440;&#x435;&#x437; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440; &#x411;&#x414;, &#x43D;&#x43E; &#x44D;&#x442;&#x43E; &#x43D;&#x443;&#x436;&#x435;&#x43D; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;</body>
+        <file>core/LockAction.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-06-06T21:05:58Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/150">150</issue>
+    <ticket>140</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>140-c840bba2</id>
+    <lines>65-68</lines>
+    <body>&#x412;&#x440;&#x435;&#x43C;&#x44F;, &#x43E;&#x442;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43D;&#x430; HTTP &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x432;&#x430;&#x440;&#x44C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x432; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x43E;&#x442; &#x442;&#x43E;&#x433;&#x43E;, &#x43A;&#x430;&#x43A;&#x443;&#x44E; &#x437;&#x430;&#x434;&#x430;&#x447;&#x443; &#x43C;&#x44B; &#x440;&#x435;&#x448;&#x430;&#x435;&#x43C;. &#x412; &#x43D;&#x435;&#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x445; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x44F;&#x445; &#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43A; &#x441;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43D;&#x435; &#x442;&#x430;&#x43A; &#x432;&#x44B;&#x441;&#x43E;&#x43A;&#x438; &#x41F;&#x43E;&#x43A;&#x430; &#x442;&#x430;&#x439;&#x43C;&#x430;&#x443;&#x442; &#x43F;&#x440;&#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D; &#x436;&#x435;&#x441;&#x442;&#x43A;&#x43E; - 5&#x441;&#x435;&#x43A;.</body>
+    <file>core/AsioHttpService.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-28T20:29:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/155" closed="2019-06-03T18:47:15+00:00">155</issue>
+    <ticket>151</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>151-1614a937</id>
+    <lines>172-175</lines>
+    <body>&#x412; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x435; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x438;&#x435;&#x43C;&#x430; &#x440;&#x435;&#x441;&#x43F;&#x43E;&#x43D;&#x437;&#x430; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x442;&#x430;&#x439;&#x43C;&#x435;&#x440;, &#x441;&#x440;&#x430;&#x431;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x418;&#x437; &#x437;&#x430; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x434;&#x44B;&#x432;&#x430;&#x436;&#x434;&#x44B; &#x441;&#x440;&#x430;&#x431;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x445;&#x430;&#x43D;&#x434;&#x43B;&#x435;&#x440; &#x438; &#x438; &#x437;&#x430;&#x434;&#x432;&#x430;&#x438;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x440;&#x435;&#x442;&#x440;&#x430;&#x43D;&#x441;&#x43C;&#x438;&#x442;</body>
+    <file>core/AsioHttpService.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-05-31T20:57:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/159" closed="2019-06-04T20:10:41+00:00">159</issue>
+    <ticket>139</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>139-a7669c22</id>
+    <lines>38-40</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x438;&#x442;&#x44C; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x43D;&#x44B;&#x435; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x438; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x438; &#x447;&#x435;&#x440;&#x435;&#x437; UdpService. &#x422;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x44D;&#x442;&#x438; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x438; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x431;&#x44B;&#x442;&#x44C; &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x44B;. &#x41D;&#x43E; &#x432; &#x44D;&#x442;&#x443; &#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D;&#x443; &#x44F; &#x435;&#x449;&#x435; &#x43D;&#x435; &#x434;&#x443;&#x43C;&#x430;&#x43B;.</body>
+    <file>server/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-06-03T19:53:42Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/164" closed="2019-06-04T20:23:16+00:00">164</issue>
+        <ticket>159</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>159-b172ab59</id>
+        <lines>119-121</lines>
+        <body>&#x412; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x435; &#x441;&#x440;&#x430;&#x431;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x442;&#x430;&#x439;&#x43C;&#x435;&#x440;&#x430; AsioUdpRequest &#x421;&#x43E;&#x43A;&#x435;&#x442; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x438; &#x43D;&#x430; handle_recv &#x43C;&#x44B; &#x441;&#x43D;&#x43E;&#x432;&#x430; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x435;&#x43C; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x443; handler &#x432;&#x44B;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x434;&#x432;&#x430;&#x436;&#x434;&#x44B;. &#x41C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x443;&#x431;&#x440;&#x430;&#x442;&#x44C; handler &#x43E;&#x442;&#x441;&#x44E;&#x434;&#x430;?</body>
+        <file>core/AsioUdpService.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-06-04T19:59:47Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/165">165</issue>
+        <ticket>159</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>159-73d08482</id>
+        <lines>16-17</lines>
+        <body>&#x41E;&#x447;&#x435;&#x43D;&#x44C; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x432; &#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x442;&#x43E;&#x440;&#x430; &#x443; InventoryTask. &#x41E;&#x434;&#x43D;&#x430; &#x438;&#x437; &#x438;&#x434;&#x435;&#x439; #134 - &#x43E;&#x431;&#x44A;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x44C; &#x430;&#x434;&#x440;&#x435;&#x441; &#x438; &#x43F;&#x43E;&#x440;&#x442;, &#x43D;&#x43E; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43C;&#x430;&#x43B;&#x43E;.</body>
+        <file>core/InventoryTask.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-06-04T19:59:47Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/160" closed="2019-06-04T19:31:31+00:00">160</issue>
+    <ticket>139</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>139-3f4bf1e6</id>
+    <lines>44-44</lines>
+    <body>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x441;&#x43E;&#x43A;&#x435;&#x442;&#x430; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x43D;&#x435;&#x441;&#x442;&#x438; &#x432; AsioUdpRequest</body>
+    <file>core/AsioUdpService.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-06-03T19:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/161">161</issue>
+    <ticket>139</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>139-88ad3644</id>
+    <lines>62-65</lines>
+    <body>&#x412;&#x440;&#x435;&#x43C;&#x44F;, &#x43E;&#x442;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43D;&#x430; UDP &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x432;&#x430;&#x440;&#x44C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x432; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x43E;&#x442; &#x442;&#x43E;&#x433;&#x43E;, &#x43A;&#x430;&#x43A;&#x443;&#x44E; &#x437;&#x430;&#x434;&#x430;&#x447;&#x443; &#x43C;&#x44B; &#x440;&#x435;&#x448;&#x430;&#x435;&#x43C;. &#x412; &#x43D;&#x435;&#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x445; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x44F;&#x445; &#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43A; &#x441;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43D;&#x435; &#x442;&#x430;&#x43A; &#x432;&#x44B;&#x441;&#x43E;&#x43A;&#x438; &#x41F;&#x43E;&#x43A;&#x430; &#x442;&#x430;&#x439;&#x43C;&#x430;&#x443;&#x442; &#x43F;&#x440;&#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D; &#x436;&#x435;&#x441;&#x442;&#x43A;&#x43E; - 5&#x441;&#x435;&#x43A;.</body>
+    <file>core/AsioUdpService.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-06-03T19:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/179" closed="2019-06-13T20:53:33+00:00">179</issue>
+    <ticket>174</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>174-948a7a5a</id>
+    <lines>34-37</lines>
+    <body>LockTask &#x43D;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43F;&#x43B;&#x430;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44E;, &#x41D;&#x43E; &#x434;&#x43B;&#x44F; &#x443;&#x432;&#x435;&#x434;&#x43E;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x44B;&#x448;&#x435;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x435;&#x439; &#x438;&#x43D;&#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x431;&#x44B;&#x442;&#x44C; &#x43A;&#x43E;&#x43B;&#x43B;&#x431;&#x435;&#x43A;. &#x41A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x431;&#x443;&#x434;&#x435;&#x442; &#x432;&#x44B;&#x437;&#x44B;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x432; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x435; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x437;&#x430;&#x43C;&#x43A;&#x430;. &#x412; &#x43A;&#x43E;&#x43B;&#x43B;&#x431;&#x435;&#x43A;&#x435; &#x436;&#x435; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x43E;&#x43B;&#x438;&#x442;&#x438;&#x43A;&#x430; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;.</body>
+    <file>comulator/LockTask.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-06-12T21:12:59Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/182" closed="2019-06-13T21:14:48+00:00">182</issue>
+        <ticket>179</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>179-cc08ca2e</id>
+        <lines>56-59</lines>
+        <body>&#x414;&#x43B;&#x44F; &#x431;&#x435;&#x43D;&#x447;&#x43C;&#x430;&#x440;&#x43A;&#x430; &#x43D;&#x443;&#x436;&#x435;&#x43D; &#x441;&#x43F;&#x435;&#x446;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x447;&#x438;&#x43A;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43F;&#x43B;&#x430;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x435;&#x43C;&#x435;&#x434;&#x43B;&#x435;&#x43D;&#x43D;&#x43E; &#x438; &#x441;&#x447;&#x438;&#x442;&#x430;&#x442;&#x44C; &#x441;&#x442;&#x430;&#x442;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x443; &#x43F;&#x43E; &#x43F;&#x43E;&#x442;&#x435;&#x440;&#x44F;&#x43D;&#x43D;&#x44B;&#x43C; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;&#x43C;</body>
+        <file>comulator/main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-06-13T20:53:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/180" closed="2019-06-17T06:46:35+00:00">180</issue>
+    <ticket>174</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>174-6ea3c48d</id>
+    <lines>31-34</lines>
+    <body>UnlockTask &#x43D;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43F;&#x43B;&#x430;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44E;, &#x41D;&#x43E; &#x434;&#x43B;&#x44F; &#x443;&#x432;&#x435;&#x434;&#x43E;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x44B;&#x448;&#x435;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x435;&#x439; &#x438;&#x43D;&#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x431;&#x44B;&#x442;&#x44C; &#x43A;&#x43E;&#x43B;&#x43B;&#x431;&#x435;&#x43A;. &#x41A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x431;&#x443;&#x434;&#x435;&#x442; &#x432;&#x44B;&#x437;&#x44B;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x432; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x435; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x437;&#x430;&#x43C;&#x43A;&#x430; &#x438;&#x43B;&#x438; &#x43D;&#x435;&#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;&#x433;&#x43E;... &#x422;&#x430;&#x43C; &#x436;&#x435; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x43E;&#x43B;&#x438;&#x442;&#x438;&#x43A;&#x430; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</body>
+    <file>comulator/UnlockTask.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-06-12T21:12:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/doors/issues/188">188</issue>
+    <ticket>141</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>141-7dd243ff</id>
+    <lines>22-25</lines>
+    <body>&#x412; REST &#x441;&#x442;&#x43E;&#x438;&#x442; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x447;&#x438;&#x441;&#x43B;&#x43E;. &#x43F;&#x43E;&#x44D;&#x442;&#x43E;&#x43C;&#x443; &#x441;&#x435;&#x439;&#x447;&#x430;&#x441; &#x44F; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44E; controllers &#x434;&#x43B;&#x44F; web. &#x41C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x44F; &#x441;&#x43C;&#x43E;&#x433;&#x443; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x442;&#x43E; &#x436;&#x435; &#x430;&#x43F;&#x438; &#x438; &#x434;&#x43B;&#x44F; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x430;? &#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x432; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x443; xml.</body>
+    <file>web/web/urls.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-06-18T20:32:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/189" closed="2019-06-19T21:15:53+00:00">189</issue>
+    <ticket>141</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>141-615463ab</id>
+    <lines>43-43</lines>
+    <body>&#x41D;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x44C; controllers.xml context &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x435;&#x439; &#x43E; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x430;&#x445;</body>
+    <file>web/doors/views.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-06-18T20:32:21Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/191" closed="2019-06-25T20:32:18+00:00">191</issue>
+        <ticket>189</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>189-7d4938f6</id>
+        <lines>9-9</lines>
+        <body>&#x41D;&#x435; &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x43C;&#x43E;&#x435; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x430; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x43E;&#x432; --&gt;</body>
+        <file>web/doors/static/controllers.xsl</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-06-19T21:15:44Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/doors/issues/195" closed="2019-06-30T21:05:34+00:00">195</issue>
+    <ticket>193</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>193-59618d9e</id>
+    <lines>33-33</lines>
+    <body>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x443;&#x440;&#x43B; &#x434;&#x43B;&#x44F; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x439; &#x441; &#x437;&#x430;&#x43C;&#x43A;&#x43E;&#x43C; locks/&lt;pk&gt;/</body>
+    <file>web/web/urls.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-06-26T19:54:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/doors/issues/198" closed="2019-07-02T21:06:14+00:00">198</issue>
+        <ticket>195</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>195-0d5f21e1</id>
+        <lines>14-14</lines>
+        <body>&#x421;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x43C;&#x43A;&#x430; &#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x441;&#x44F; &#x432; &#x411;&#x414; &#x438; &#x43F;&#x440;&#x43E;&#x431;&#x440;&#x430;&#x441;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x447;&#x435;&#x440;&#x435;&#x437; API --&gt;</body>
+        <file>web/doors/static/lock.xsl</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-06-30T21:05:27Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/doors/issues/202">202</issue>
+            <ticket>198</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>198-9c17c910</id>
+            <lines>32-33</lines>
+            <body>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x438;&#x442;&#x44C; &#x43D;&#x430;&#x43B;&#x438;&#x447;&#x438;&#x435; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x430; &#x438; &#x43D;&#x430;&#x43B;&#x438;&#x447;&#x438;&#x435; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x430;&#x43C;&#x43A;&#x430; &#x410; &#x43F;&#x43E;&#x442;&#x43E;&#x43C; &#x435;&#x449;&#x435; &#x434;&#x43E;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43A;&#x43B;&#x44E;&#x447;&#x430; &#x434;&#x43B;&#x44F; &#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x430;&#x43C;&#x43A;&#x430;</body>
+            <file>web/doors/views.py</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-07-02T21:06:07Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/doors/issues/203" closed="2019-07-03T20:01:28+00:00">203</issue>
+            <ticket>198</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>198-52a3e263</id>
+            <lines>34-34</lines>
+            <body>&#x43E;&#x442;&#x440;&#x430;&#x437;&#x438;&#x442;&#x44C; &#x432; &#x411;&#x414; &#x43D;&#x43E;&#x432;&#x43E;&#x435; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x43C;&#x43A;&#x430; (&#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;/&#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;)</body>
+            <file>web/doors/views.py</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-07-02T21:06:07Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/199">199</issue>
+        <ticket>195</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>195-738dfcfb</id>
+        <lines>32-33</lines>
+        <body>&#x415;&#x441;&#x43B;&#x438; &#x43C;&#x44B; &#x445;&#x43E;&#x442;&#x438;&#x43C; &#x43E;&#x431;&#x440;&#x430;&#x449;&#x430;&#x442;&#x44C;&#x441;&#x44F;, &#x43A; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x443; &#x43F;&#x43E; &#x430;&#x434;&#x440;&#x435;&#x441;&#x443;/&#x43F;&#x43E;&#x440;&#x442;&#x443; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x43E;&#x431;&#x440;&#x430;&#x449;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x43A; controllers &#x438; &#x444;&#x43E;&#x440;&#x43C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;.</body>
+        <file>web/web/urls.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-06-30T21:05:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/doors/issues/200">200</issue>
+        <ticket>195</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>195-20ef7f51</id>
+        <lines>35-36</lines>
+        <body>&#x415;&#x441;&#x43B;&#x438; &#x43C;&#x44B; &#x445;&#x43E;&#x442;&#x438;&#x43C; &#x43C;&#x43E;&#x434;&#x438;&#x444;&#x438;&#x446;&#x438;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x43C;&#x43A;&#x430; &#x43F;&#x43E; hwid, &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x43E;&#x431;&#x440;&#x430;&#x449;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x443;. &#x41A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x441;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x442; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x432; lock.id</body>
+        <file>web/web/urls.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-06-30T21:05:27Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-07-12T15:31:40+00:00" version="0.30.18">
+  <puzzle alive="true">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/8">8</issue>
+    <ticket>7</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>7-d9ecba86</id>
+    <lines>70-70</lines>
+    <body>separate methods by domain</body>
+    <file>src/main/java/one/ryd/insider/resources/SessionResource.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-04T14:40:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/9" closed="2018-10-12T12:21:27+00:00">9</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-464eaf99</id>
+    <lines>54-54</lines>
+    <body>account owner must be able to view own users</body>
+    <file>src/main/java/one/ryd/insider/resources/UserResource.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-04T14:40:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/10" closed="2018-10-12T12:21:29+00:00">10</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-f727790d</id>
+    <lines>60-60</lines>
+    <body>re-factor the user-listing endpoint</body>
+    <file>src/main/java/one/ryd/insider/resources/UserResource.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-04T14:40:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/11" closed="2018-10-12T12:21:30+00:00">11</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-97d91178</id>
+    <lines>46-46</lines>
+    <body>move out dsInsider and dsSession objects</body>
+    <file>src/main/java/one/ryd/insider/resources/DeviceResource.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-04T14:40:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/12">12</issue>
+    <ticket>7</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>7-182b2a01</id>
+    <lines>57-57</lines>
+    <body>move the morphia instance to a separate bundle</body>
+    <file>src/main/java/one/ryd/insider/ApiApplication.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-04T14:40:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/15">15</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-b066bc1f</id>
+    <lines>65-65</lines>
+    <body>make role and type configurable via the annotation</body>
+    <file>src/main/java/one/ryd/insider/resources/filter/ThingBelongsToTheUserFilter.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-12T12:21:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/16">16</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-f714d3bb</id>
+    <lines>75-75</lines>
+    <body>make roles configurable via the annotation</body>
+    <file>src/main/java/one/ryd/insider/resources/filter/AccountBelongsToTheUserFilter.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-12T12:21:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/17">17</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-330e806e</id>
+    <lines>26-26</lines>
+    <body>move these kind of annotations out</body>
+    <file>src/main/java/one/ryd/insider/resources/annotation/AccountBelongsToTheUser.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-12T12:21:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/18">18</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-8bd3e373</id>
+    <lines>110-110</lines>
+    <body>remove the delete_me endpoint</body>
+    <file>src/main/java/one/ryd/insider/ApiApplication.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2018-10-12T12:21:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>7</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>7-0ac13e4f</id>
+    <lines>226-226</lines>
+    <body>move maxspeed to a separate field in the db (also in highlights)</body>
+    <file>src/main/java/one/ryd/insider/resources/SessionResource.java</file>
+    <author>Kanstantsin Kamkou</author>
+    <email>me@2ka.by</email>
+    <time>2019-07-12T15:30:46Z</time>
+    <children/>
+    <issue href="https://github.com/ThinxNet/ryd-insider-program-api/issues/27">27</issue>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2021-05-15T13:57:57+00:00" version="0.30.23">
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/20" closed="2019-01-27T19:50:05+00:00">20</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-0cc4122b</id>
+    <lines>43-47</lines>
+    <body>All the matchers should implement describeMismatchSafely and their tests must verify that the implementation of the descriptions are satisfactory. The matchers should not expose publicly the xxxSafely method and the tests should rely on actual real use with assertThat. See ScalarHasValueTest for an example of a satisfactory result.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/InputHasContent.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2018-05-19T17:15:13Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/230">230</issue>
+        <ticket>20</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>20-e1bad078</id>
+        <lines>43-45</lines>
+        <body>Replace all the tests in this file that are directly calling the match and mismatch methods of Throws with tests that uses Mismatches instead.</body>
+        <file>src/test/java/org/llorllale/cactoos/matchers/ThrowsTest.java</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2021-02-13T18:12:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/36" closed="2018-12-06T01:46:01+00:00">36</issue>
+    <ticket>32</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>32-2540e9c8</id>
+    <lines>64-66</lines>
+    <body>Add the opportunity to print the exp values to the description in order to avoid abstract message like "The function applied to X,Y,Z is failed".</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/HasValues.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-11-27T00:59:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/44" closed="2018-12-08T01:05:18+00:00">44</issue>
+        <ticket>36</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>36-7ebfe74b</id>
+        <lines>47-49</lines>
+        <body>HasValuesMatching that accepts matching function. For example, the "non-null", "startWith", "endsWith", "greaterThan" etc. The HasValue matcher should work only with pre-defined set of expected items</body>
+        <file>src/main/java/org/llorllale/cactoos/matchers/HasValues.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-04T14:10:59Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/37" closed="2018-12-06T01:46:04+00:00">37</issue>
+    <ticket>32</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>32-59ea1519</id>
+    <lines>63-67</lines>
+    <body>Matcher to test {@link org.hamcrest.Matcher} objects. In order to check the matchers we should verify that - error message is correct in case false status - the status of testing is correct itself. The possible name - {@code IsMatcherOf}.</body>
+    <file>src/test/java/org/llorllale/cactoos/matchers/HasValuesTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-11-27T00:59:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/52" closed="2019-01-16T01:47:37+00:00">52</issue>
+    <ticket>18</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>18-b493cd89</id>
+    <lines>71-73</lines>
+    <body>Replace all uses of MatcherAssert.assertThat() with Assertion, and ban all overloads of the former in forbidden-apis.txt. We should also look into banning common matchers like Matchers.is(), etc.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/Assertion.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-12-08T18:09:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/80" closed="2019-02-02T02:14:28+00:00">80</issue>
+        <ticket>52</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>52-f2eb48e2</id>
+        <lines>40-42</lines>
+        <body>Ban all overloads of the former in forbidden-apis.txt. We should also look into banning common static matchers like Matchers.is(), etc.</body>
+        <file>src/test/java/org/llorllale/cactoos/matchers/EndsWithTest.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-15T16:35:59Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/cactoos-matchers/issues/99" closed="2019-02-26T00:31:29+00:00">99</issue>
+            <ticket>80</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>80-ce342b3c</id>
+            <lines>40-42</lines>
+            <body>We should also look into banning common static matchers like Matchers.is(), etc. Those static matchers should be added to the forbidden-apis.txt file.</body>
+            <file>src/test/java/org/llorllale/cactoos/matchers/EndsWithTest.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2019-02-02T02:12:27Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/81" closed="2019-01-19T14:57:57+00:00">81</issue>
+        <ticket>52</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>52-ccaad1a2</id>
+        <lines>38-40</lines>
+        <body>Replace all uses of MatcherAssert.assertThat() with Assertion. Ensure that the tests behavior wasn't changed during this refactoring. Each test should have single Assertion statement.</body>
+        <file>src/test/java/org/llorllale/cactoos/matchers/TextIsTest.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-15T16:35:59Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/cactoos-matchers/issues/84" closed="2019-02-02T02:14:30+00:00">84</issue>
+            <ticket>81</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>81-ccaad1a2</id>
+            <lines>43-45</lines>
+            <body>Replace all uses of MatcherAssert.assertThat() with Assertion. Ensure that the tests behavior wasn't changed during this refactoring. Each test should have single Assertion statement.</body>
+            <file>src/test/java/org/llorllale/cactoos/matchers/ScalarHasValueTest.java</file>
+            <author>igor</author>
+            <email>ceigor94@gmail.com</email>
+            <time>2019-01-19T11:13:38Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/53" closed="2019-01-22T01:26:04+00:00">53</issue>
+    <ticket>18</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>18-a9679abd</id>
+    <lines>74-77</lines>
+    <body>Assertion relies on the operation under test to be idempotent in order to match "error matchers" such as `Throws` as expected. This may not be the case for all operations and could be a problem. Investigate if there's a way around/through this.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/Assertion.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-12-08T18:09:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/88" closed="2019-04-21T12:47:43+00:00">88</issue>
+        <ticket>53</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>53-0c767106</id>
+        <lines>111-115</lines>
+        <body>Avoid the overloading ctor to accept subtype. Throws is a Matcher and thus there should be no need to give it a special treatment. The fact that we're currently being forced to do so smells, and might mean we may end up having to rethink these abstractions.</body>
+        <file>src/main/java/org/llorllale/cactoos/matchers/Assertion.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-21T16:32:23Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/cactoos-matchers/issues/110" closed="2019-04-24T11:31:35+00:00">110</issue>
+            <ticket>88</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>88-bbf98b56</id>
+            <lines>67-69</lines>
+            <body>Phase out the original Assertion class and replace with Assertion2 instead. When done, delete the original Assertion and rename Assertion2 to 'Assertion'.</body>
+            <file>src/main/java/org/llorllale/cactoos/matchers/Assertion2.java</file>
+            <author>@llorllale</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2019-04-18T23:03:34Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/llorllale/cactoos-matchers/issues/113" closed="2019-04-26T11:35:59+00:00">113</issue>
+                <ticket>110</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>110-bae5f26c</id>
+                <lines>67-69</lines>
+                <body>Continue phasing out the original Assertion class and replacing with Assertion2 instead. When done, delete the original Assertion and rename Assertion2 to 'Assertion'.</body>
+                <file>src/main/java/org/llorllale/cactoos/matchers/Assertion2.java</file>
+                <author>@llorllale</author>
+                <email>george.aristy@gmail.com</email>
+                <time>2019-04-21T14:20:22Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/llorllale/cactoos-matchers/issues/116" closed="2019-04-26T22:41:30+00:00">116</issue>
+                    <ticket>113</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>113-840654f6</id>
+                    <lines>67-69</lines>
+                    <body>Delete the original Assertion and rename Assertion2 to 'Assertion'. Then refactor all uses of 'Assertion2' to switch back to Assertion again.</body>
+                    <file>src/main/java/org/llorllale/cactoos/matchers/Assertion2.java</file>
+                    <author>@llorllale</author>
+                    <email>george.aristy@gmail.com</email>
+                    <time>2019-04-25T11:19:22Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/54" closed="2018-12-17T00:11:26+00:00">54</issue>
+    <ticket>16</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>16-acf734f9</id>
+    <lines>39-42</lines>
+    <body>Extends the envelope in TextIs, TextHasString, StartsWith, EndsWith. Most of operations with text like startsWith, endsWith, contains, equals, etc has the same algorithm. There is only difference in the function which should be applied to text.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/TextMatcherEnvelope.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-08T15:35:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/60" closed="2018-12-17T00:11:28+00:00">60</issue>
+    <ticket>35</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>35-b5eec46c</id>
+    <lines>72-86</lines>
+    <body>The TextMatcherEnvelope should support the description for actual/expected values separately. For example, for now we are using single `TextMatcherEnvelope#TextMatcherEnvelope(Matcher, String)` description object which describe actual/expected objects and leads to uninformative message in case of failure of MatchesRegexp. For example &lt;pre&gt;{@code java.lang.AssertionError: Expected: Text matches "^.*know\sit\.$" but: Text matches "I'm simple." }&lt;/pre&gt; Its better to have this error message &lt;pre&gt;{@code java.lang.AssertionError: Expected: Text matches "^.*know\sit\.$" but: Text is "I'm simple." }&lt;/pre&gt;</body>
+    <file>src/test/java/org/llorllale/cactoos/matchers/MatchesRegexTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-09T07:48:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/68" closed="2019-04-06T13:30:36+00:00">68</issue>
+    <ticket>58</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>58-b44e1a44</id>
+    <lines>46-48</lines>
+    <body>Delete TeeInputHasResult from the library. It's too specific. Users should use InputHasContent instead. Should be moved to test packages in cactoos.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/TeeInputHasResult.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-03T14:57:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/69" closed="2019-01-10T01:53:53+00:00">69</issue>
+    <ticket>58</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>58-21ae45f3</id>
+    <lines>36-38</lines>
+    <body>NotBlank should be changed to `IsBlank`. Users should be able to negate it by simply decorating it with `IsNot`. Update the README once done.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/NotBlank.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-03T14:57:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/93" closed="2020-07-05T11:30:00+00:00">93</issue>
+    <ticket>75</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>75-33ff5101</id>
+    <lines>37-39</lines>
+    <body>Remove checkstyle suppression when qulice will fix this issue See https://github.com/teamed/qulice/issues/985. When new version will be released, update qulice and remove this puzzle.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/InputHasContent.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-27T19:48:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/94" closed="2019-04-30T11:34:49+00:00">94</issue>
+    <ticket>75</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>75-c754358f</id>
+    <lines>43-45</lines>
+    <body>Refactor other matchers to extend MatcherEnvelope. If you do not know how to do it please refer to InputHasContent class as the example.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/MatcherEnvelope.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-27T19:48:01Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/120" closed="2019-06-16T19:19:12+00:00">120</issue>
+        <ticket>94</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>94-c754358f</id>
+        <lines>43-45</lines>
+        <body>Refactor other matchers to extend MatcherEnvelope. If you do not know how to do it please refer to InputHasContent class as the example.</body>
+        <file>src/main/java/org/llorllale/cactoos/matchers/MatcherEnvelope.java</file>
+        <author>@vzurauskas</author>
+        <email>zurauskas.vytautas@gmail.com</email>
+        <time>2019-04-28T14:09:18Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/cactoos-matchers/issues/129" closed="2019-07-20T20:23:34+00:00">129</issue>
+            <ticket>120</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>120-c754358f</id>
+            <lines>43-45</lines>
+            <body>Refactor other matchers to extend MatcherEnvelope. If you do not know how to do it please refer to InputHasContent class as the example.</body>
+            <file>src/main/java/org/llorllale/cactoos/matchers/MatcherEnvelope.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2019-06-08T14:00:13Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/llorllale/cactoos-matchers/issues/139" closed="2020-07-17T16:16:32+00:00">139</issue>
+                <ticket>129</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>129-c754358f</id>
+                <lines>43-45</lines>
+                <body>Refactor other matchers to extend MatcherEnvelope. If you do not know how to do it please refer to InputHasContent class as the example.</body>
+                <file>src/main/java/org/llorllale/cactoos/matchers/MatcherEnvelope.java</file>
+                <author>Victor No&#xEB;l</author>
+                <email>victor.noel@crazydwarves.org</email>
+                <time>2019-06-30T09:52:13Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/121" closed="2019-06-29T19:07:13+00:00">121</issue>
+        <ticket>94</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>94-45419d52</id>
+        <lines>47-50</lines>
+        <body>Write unit tests for MatcherEnvelope. Create MatcherEnvelopeTest class and write tests to cover the whole functionality. Since MatcherEnvelope is abstract, create a private nested child class and use it for tests.</body>
+        <file>src/main/java/org/llorllale/cactoos/matchers/MatcherEnvelope.java</file>
+        <author>@vzurauskas</author>
+        <email>zurauskas.vytautas@gmail.com</email>
+        <time>2019-04-28T14:09:18Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/114" closed="2019-09-15T16:42:43+00:00">114</issue>
+    <ticket>65</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>65-01fd6042</id>
+    <lines>38-41</lines>
+    <body>Add two more tests for the mismatch message, testing both the case when a key is absent and a value is incorrect, if possible using the Mismatches Matcher introduced by https://github.com/llorllale/cactoos-matchers/issues/106.</body>
+    <file>src/test/java/org/llorllale/cactoos/matchers/HasEntryTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-04-25T01:27:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/136" closed="2020-07-17T16:16:37+00:00">136</issue>
+    <ticket>106</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>106-7cce08fb</id>
+    <lines>55-57</lines>
+    <body>Convert all the Matcher tests to use Mismatches instead of checking directly the output of mismatch methods or the exception of Assertion.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/Mismatches.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-06-22T15:49:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/164" closed="2021-02-22T11:37:55+00:00">164</issue>
+        <ticket>136</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>136-fc001f3f</id>
+        <lines>31-34</lines>
+        <body>Replace the combination of IsNot and Matches with Mismatches. This combination does not check textual output of Matcher, only boolean value. It's up for discussion if checking the output is too exhaustive or not, leave a comment to this task clarify that.</body>
+        <file>src/main/java/org/llorllale/cactoos/matchers/package-info.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2020-07-17T16:10:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/137" closed="2021-02-17T18:50:49+00:00">137</issue>
+    <ticket>106</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>106-33b58c37</id>
+    <lines>58-61</lines>
+    <body>Add extra tests for this class to validate all the different constructors (also add a constructor taking message as a String) and ensure they are coherent with how Assertion is working and throwing errors.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/Mismatches.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-06-22T15:49:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/138" closed="2021-01-16T11:37:58+00:00">138</issue>
+    <ticket>106</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>106-02263f65</id>
+    <lines>131-133</lines>
+    <body>Add a description in case the mismatch fails. And then introduce some tests to validate that the description is properly constructed.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/Mismatches.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-06-22T15:49:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/146" closed="2020-09-11T11:57:02+00:00">146</issue>
+    <ticket>133</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>133-30a4a37a</id>
+    <lines>73-76</lines>
+    <body>Currently MatchesBefore directly throws a TimeoutException but instead it should populate the mismatch message so that it can be properly tested with Mismatches. Unignore and update this test to validate it is correctly implemented</body>
+    <file>src/test/java/org/llorllale/cactoos/matchers/MatchesBeforeTest.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2019-09-15T10:31:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/160" closed="2021-02-17T18:50:53+00:00">160</issue>
+    <ticket>67</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>67-1f1425d4</id>
+    <lines>70-73</lines>
+    <body>Assertion should rely on mismatch description when forming error message (as assertThat does). Currently 'was' is being used by this class as part of description, it causes duplication of the word with Matchers derived from BaseMatcher, such as IsEqual.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/Assertion.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2020-07-09T14:05:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/165" closed="2021-01-26T13:32:14+00:00">165</issue>
+    <ticket>135</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>135-e0b9c886</id>
+    <lines>49-51</lines>
+    <body>Remove all constructors except the last one so that every matcher implemented using MatcherOf take care of properly describe itself and the mismatch.</body>
+    <file>src/main/java/org/llorllale/cactoos/matchers/MatcherOf.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2020-07-17T16:10:24Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/224">224</issue>
+        <ticket>165</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>165-d4e7ec1b</id>
+        <lines>58-60</lines>
+        <body>We need an InputMatcher similar to {@link TextMatcher} that would be in charge of caching the value of the {@link Input} so that it is ready only once per invocation of the {@link Matcher}.</body>
+        <file>src/main/java/org/llorllale/cactoos/matchers/HasContent.java</file>
+        <author>@baudoliver7</author>
+        <email>baudolivier.oura@gmail.com</email>
+        <time>2021-01-17T08:31:55Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/cactoos-matchers/issues/225" closed="2021-05-15T13:57:57+00:00">225</issue>
+        <ticket>165</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>165-c099c2ad</id>
+        <lines>51-52</lines>
+        <body>Introduce a ComparatorMatcher that encapsulates comparison logic here. It would only take a {@code Comparator&lt;X&gt;} and an expected X for example.</body>
+        <file>src/main/java/org/llorllale/cactoos/matchers/IsNumber.java</file>
+        <author>@baudoliver7</author>
+        <email>baudolivier.oura@gmail.com</email>
+        <time>2021-01-17T08:31:55Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>1411</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1411-6ab83915</id>
+    <lines>78-81</lines>
+    <body>Migrate existing tests to JUnit 5. It mainly means changing the imports and move from Ignore to Disabled annotation as well as replace rules with corresponding annotations. Once this is done remove the dependency for junit 4 and junit-vintage-engine below.</body>
+    <file>pom.xml</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2020-07-17T17:31:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/170" closed="2021-01-14T18:22:43+00:00">170</issue>
+    <ticket>162</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>162-6ab83915</id>
+    <lines>78-81</lines>
+    <body>Migrate existing tests to JUnit 5. It mainly means changing the imports and move from Ignore to Disabled annotation as well as replace rules with corresponding annotations. Once this is done remove the dependency for junit 4 and junit-vintage-engine below.</body>
+    <file>pom.xml</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victornoel@users.noreply.github.com</email>
+    <time>2020-09-07T15:11:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/175" closed="2021-04-06T10:45:25+00:00">175</issue>
+    <ticket>83</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>83-98884b90</id>
+    <lines>40-42</lines>
+    <body>Add windows-2019 to the test matrix after fixing quite a few errors happening on windows. Don't forget to add it to the list of required status checks in the repo's settings. See errors in the build log: https://github.com/llorllale/cactoos-matchers/runs/1082946792.</body>
+    <file>.github/workflows/build.yml</file>
+    <author>@llorllale</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2020-09-07T19:34:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/cactoos-matchers/issues/220" closed="2021-02-13T13:40:44+00:00">220</issue>
+    <ticket>159</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>159-5a01dc84</id>
+    <lines>162-169</lines>
+    <body>This plugin execution was disabled (phase was set to `package` before) because it prevents cactoos from actually using cactoos-matchers since the interfaces provided by cactoos (`Text`, `Func`, `Scalar`, etc) and those expected by cactoos-matchers do no match! Let's find a solution to this situation (not shading the interfaces for example?) and re-enable this plugin. The best solution should be discussed with ARC in this todo's ticket.</body>
+    <file>pom.xml</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2020-09-27T10:15:54Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-10-12T14:43:50+00:00" version="0.31.7">
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/167">167</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-3275c8ef</id>
+    <lines>15-15</lines>
+    <body>maybe we should expand list type from List&lt;EOCopy&gt; to List&lt;EOExpr&gt;?</body>
+    <file>src/main/kotlin/org/polystat/j2eo/eotree/EOMetaObjects.kt</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/168">168</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-36dec5cb</id>
+    <lines>16-16</lines>
+    <body>dec is ClassDeclaration is not always true</body>
+    <file>src/main/kotlin/org/polystat/j2eo/util/StaticGenerator.kt</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/169">169</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-9b0226eb</id>
+    <lines>10-10</lines>
+    <body>introduce logic considering packages and classes</body>
+    <file>src/main/kotlin/org/polystat/j2eo/util/Naming.kt</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/170">170</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-69e8a8b1</id>
+    <lines>41-41</lines>
+    <body>We should implement this.typeList(1) for PERMITS (Java 17)</body>
+    <file>src/main/kotlin/org/polystat/j2eo/treeMapper/TreeMappings.kt</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/171">171</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-3136b4aa</id>
+    <lines>191-191</lines>
+    <body>return Block(null, ...). Is it always null?</body>
+    <file>src/main/kotlin/org/polystat/j2eo/treeMapper/TreeMappings.kt</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/172">172</issue>
+    <ticket>165</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>165-68fc53fd</id>
+    <lines>470-470</lines>
+    <body>Maybe type arguments are somewhere else?</body>
+    <file>src/main/kotlin/org/polystat/j2eo/treeMapper/TreeMappings.kt</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/173">173</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-9702eeda</id>
+    <lines>190-190</lines>
+    <body>We should check if we can use iterator inside of statement</body>
+    <file>src/main/kotlin/org/polystat/j2eo/translator/Statements.kt</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/174">174</issue>
+    <ticket>165</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>165-e5579042</id>
+    <lines>32-32</lines>
+    <body>We should add license to EOLicense()</body>
+    <file>src/main/kotlin/org/polystat/j2eo/translator/Translator.kt</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/175">175</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-f07e3f3a</id>
+    <lines>184-184</lines>
+    <body>Support for type should be added</body>
+    <file>src/main/kotlin/org/polystat/j2eo/translator/Expressions.kt</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/176">176</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-538b1f07</id>
+    <lines>293-293</lines>
+    <body>Add automatic casting for primitive types</body>
+    <file>src/main/kotlin/org/polystat/j2eo/translator/Expressions.kt</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/177">177</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-1cf62450</id>
+    <lines>295-295</lines>
+    <body>Populate with all Java binary operators</body>
+    <file>src/main/kotlin/org/polystat/j2eo/translator/Expressions.kt</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/178">178</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-24ecaa6d</id>
+    <lines>297-298</lines>
+    <body>in val function double check is needed for some TokenCodes: NonEqual, DoubleVertical, DoubleAmpersand, Ampersand, Vertical, Caret</body>
+    <file>src/main/kotlin/org/polystat/j2eo/translator/Expressions.kt</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/179">179</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-25a42f66</id>
+    <lines>73-73</lines>
+    <body>Create state object to store binding of expression</body>
+    <file>src/main/kotlin/org/polystat/j2eo/translator/MethodInvocations.kt</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/180">180</issue>
+    <ticket>165</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>165-887e92f6</id>
+    <lines>1-1</lines>
+    <body>method() is left for the future</body>
+    <file>src/test/resources/test_ready/ch_8_classes/sec_8_4_method_declarations/sec_8_4_3_method_modifiers/sec_8_4_3_4_native_methods/SampleTest.java</file>
+    <author>Aleksandr Mishin</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-22T13:49:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/181">181</issue>
+    <ticket>162</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>162-7440c42a</id>
+    <lines>69-70</lines>
+    <body>Add modules for runtime and plugins here. The location of files in src/main and in src/test should be rewatched.</body>
+    <file>pom.xml</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-23T10:41:48Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/polystat/j2eo/issues/188">188</issue>
+        <ticket>181</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>181-9b6edbbd</id>
+        <lines>392-393</lines>
+        <body>Add dependency from j2ast repo. --&gt;</body>
+        <file>pom.xml</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2022-10-01T17:57:20Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/polystat/j2eo/issues/182" closed="2022-10-01T17:57:42+00:00">182</issue>
+    <ticket>162</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>162-89bfa4fd</id>
+    <lines>87-88</lines>
+    <body>Add developers who were mentioned in build.gradle.kts --&gt;</body>
+    <file>pom.xml</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-23T10:41:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/j2eo/issues/183">183</issue>
+    <ticket>162</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>162-a61abee6</id>
+    <lines>122-123</lines>
+    <body>Add CI management with bot rultor. --&gt;</body>
+    <file>pom.xml</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-23T10:41:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/polystat/j2eo/issues/184" closed="2022-10-01T17:57:45+00:00">184</issue>
+    <ticket>162</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>162-251e7a1d</id>
+    <lines>131-132</lines>
+    <body>Add dependencies from build.gradle.kts --&gt;</body>
+    <file>pom.xml</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-09-23T10:41:48Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

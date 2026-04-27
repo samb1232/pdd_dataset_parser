@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2026-01-05T14:24:28+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/26" closed="2024-09-22T17:13:41+00:00">26</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-6d3c8164</id>
+    <lines>6-6</lines>
+    <body>fix npx eslint . cause 'Warning: React version not specified in eslint-plugin-react settings.'</body>
+    <file>eslint.config.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T19:30:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/27" closed="2024-09-21T19:39:46+00:00">27</issue>
+    <ticket>0</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>0-0bd9a41c</id>
+    <lines>6-6</lines>
+    <body>rename to withName</body>
+    <file>lib/GitBranch.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T19:30:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/28" closed="2024-09-22T16:17:32+00:00">28</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-7340b3d0</id>
+    <lines>19-20</lines>
+    <body>decompose to separate SwitchCommand and CreateCommand then remove ugly fail fallback</body>
+    <file>lib/SwitchCommand.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T19:30:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/29" closed="2025-08-14T17:46:15+00:00">29</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-cde23681</id>
+    <lines>4-4</lines>
+    <body>add tests</body>
+    <file>lib/UserInput.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T19:30:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/30" closed="2025-08-14T17:46:16+00:00">30</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-8e102fe7</id>
+    <lines>5-5</lines>
+    <body>press 'y' or 'n' without Enter should be sufficient</body>
+    <file>lib/UserInput.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T19:30:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/31">31</issue>
+    <ticket>0</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>0-5c498fd3</id>
+    <lines>5-5</lines>
+    <body>move to lib/commands/Push, lib/commands/Switch, etc.</body>
+    <file>mr.js</file>
+    <author>jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T19:30:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/32" closed="2024-10-05T10:09:20+00:00">32</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-33860e14</id>
+    <lines>5-5</lines>
+    <body>improve file coverage at least funcs % 70</body>
+    <file>tests/GitBranch.js</file>
+    <author>jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T19:30:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/36" closed="2024-09-24T16:45:24+00:00">36</issue>
+    <ticket>0</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>0-8194f58f</id>
+    <lines>17-17</lines>
+    <body>move to currentBranch.current ()</body>
+    <file>lib/MergeCommand.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T20:02:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/37" closed="2024-09-24T16:45:26+00:00">37</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-81ec3da8</id>
+    <lines>23-25</lines>
+    <body>implement branch dependency merge e.g. merge to main should cause merge to release also store branch dependency specific for project using 'git config' keys</body>
+    <file>lib/MergeCommand.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T20:02:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/38" closed="2024-09-24T16:45:27+00:00">38</issue>
+    <ticket>0</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>0-a313dd59</id>
+    <lines>61-61</lines>
+    <body>use PushCommand instead</body>
+    <file>lib/MergeCommand.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T20:02:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/39" closed="2025-01-26T10:57:47+00:00">39</issue>
+    <ticket>0</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>0-250afd3c</id>
+    <lines>8-12</lines>
+    <body>remove need of 'to' to mimic old syntax less key presses, e.g.: mr TASK-42 from origin/release git commit -m "TASK-42: commit msg" mr TASK-42 release</body>
+    <file>lib/ParsedArgs.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T20:02:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/40" closed="2024-09-25T17:07:55+00:00">40</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-390e150c</id>
+    <lines>10-11</lines>
+    <body>run npm test before push use 'git config' to specify project specific test command</body>
+    <file>lib/PushCommand.js</file>
+    <author>jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T20:02:07Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jonny64/mr-git-cli/issues/56" closed="2024-09-30T19:27:00+00:00">56</issue>
+        <ticket>40</ticket>
+        <estimate>120</estimate>
+        <role>ARC</role>
+        <id>40-954d3423</id>
+        <lines>29-29</lines>
+        <body>remove typeof</body>
+        <file>lib/RunCommand.js</file>
+        <author>@jonny64</author>
+        <email>mgruzdev@cheby.ru</email>
+        <time>2024-09-25T17:07:47Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jonny64/mr-git-cli/issues/61">61</issue>
+        <ticket>40</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>40-c373c188</id>
+        <lines>38-38</lines>
+        <body>move all console.log to injected LogCommand</body>
+        <file>lib/GitRepo.js</file>
+        <author>@jonny64</author>
+        <email>mgruzdev@cheby.ru</email>
+        <time>2024-09-26T16:45:56Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/41" closed="2026-01-05T14:24:26+00:00">41</issue>
+    <ticket>0</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>0-359a5cef</id>
+    <lines>3-5</lines>
+    <body>decompose runSilent go to ShellCommand run go to ShellCommandLogged</body>
+    <file>lib/ShellCommand.js</file>
+    <author>jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T20:02:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/43">43</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-ec441661</id>
+    <lines>25-26</lines>
+    <body>use --test-coverage-exclude to exclude tests from cov when https://github.com/nodejs/node/pull/53553 is landed and node 18 EOL</body>
+    <file>.github/workflows/test.yml</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T20:12:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/44">44</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-d6939bde</id>
+    <lines>27-28</lines>
+    <body>use --test-coverage-branches when https://github.com/nodejs/node/pull/54429 is landed and node 18 EOL</body>
+    <file>.github/workflows/test.yml</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-21T20:12:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/53" closed="2024-09-25T17:07:56+00:00">53</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-84268f00</id>
+    <lines>59-59</lines>
+    <body>run 'npm test' BEFORE push, set up by 'git config' as per #37</body>
+    <file>lib/MergeCommand.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-24T17:30:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/54" closed="2025-08-14T16:57:02+00:00">54</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-dbba62c7</id>
+    <lines>23-23</lines>
+    <body>add help --version with usage examples</body>
+    <file>mr.js</file>
+    <author>jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-24T17:30:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/64" closed="2024-09-30T19:27:02+00:00">64</issue>
+    <ticket>62</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>62-005a26b8</id>
+    <lines>46-46</lines>
+    <body>move to constructor</body>
+    <file>lib/GitBranch.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-26T17:43:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/72">72</issue>
+    <ticket>70</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>70-641913a6</id>
+    <lines>65-65</lines>
+    <body>replace catch by --default '' when git 2.11 EOL</body>
+    <file>lib/GitRepo.js</file>
+    <author>@jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-09-30T19:26:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/123" closed="2026-01-05T14:24:28+00:00">123</issue>
+    <ticket>120</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>120-ec0db7a9</id>
+    <lines>31-31</lines>
+    <body>move to injected ShellCommandFuzz</body>
+    <file>lib/ShellCommand.js</file>
+    <author>jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2024-12-31T14:02:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jonny64/mr-git-cli/issues/160" closed="2025-08-24T19:23:20+00:00">160</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-fdae78f3</id>
+    <lines>7-7</lines>
+    <body>check minimal node version and exit if too old</body>
+    <file>mr.js</file>
+    <author>jonny64</author>
+    <email>mgruzdev@cheby.ru</email>
+    <time>2025-08-14T16:56:56Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

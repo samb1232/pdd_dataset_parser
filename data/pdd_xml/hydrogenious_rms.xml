@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.0pdd.com/puzzles.xsd" date="2026-04-27T06:50:13+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/hydrogenious/rms/issues/10">10</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>1-6fd59159</id>
+    <lines>11-11</lines>
+    <body>Create rms module with this application</body>
+    <file>rms-core/src/main/java/com/hydrogenious/rms/RmsApplication.java</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2017-09-14T03:47:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/hydrogenious/rms/issues/11">11</issue>
+    <ticket>2</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>2-a5c0dbb6</id>
+    <lines>17-17</lines>
+    <body>Add ReferenceTerm repository</body>
+    <file>rms-core/src/main/java/com/hydrogenious/rms/referenceterms/impl/ReferenceTermsApiWeb.java</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2017-09-14T03:47:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/hydrogenious/rms/issues/15">15</issue>
+    <ticket>2h</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>2h-0ae270f5</id>
+    <lines>18-18</lines>
+    <body>get and return requirements from git repository</body>
+    <file>rms-core/src/main/java/com/hydrogenious/rms/referenceterms/impl/GitReferenceTerm.java</file>
+    <author>GooKv</author>
+    <email>gookven@gmail.com</email>
+    <time>2017-09-18T09:24:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/hydrogenious/rms/issues/21">21</issue>
+    <ticket>0</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>0-9758a6bd</id>
+    <lines>6-6</lines>
+    <body>add logger and log ignored exception</body>
+    <file>rms-core/src/main/java/com/hydrogenious/rms/util/DoSafe.java</file>
+    <author>kven_goo</author>
+    <email>gookven@gmail.com</email>
+    <time>2017-09-28T07:52:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/hydrogenious/rms/issues/22">22</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>2-2f38143e</id>
+    <lines>9-9</lines>
+    <body>create generic interface for Revision and retrieve revision history for requirement</body>
+    <file>rms-core/src/main/java/com/hydrogenious/rms/requirement/impl/GitRequirement.java</file>
+    <author>kven_goo</author>
+    <email>gookven@gmail.com</email>
+    <time>2017-09-28T07:52:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>28</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>28-da718397</id>
+    <lines>25-25</lines>
+    <body>new GitReferenceTerms(repositoriesRootPath).asJson()</body>
+    <file>rms-core/src/main/java/com/hydrogenious/rms/referenceterms/impl/ReferenceTermsApiWeb.java</file>
+    <author>Alexey Nikitin</author>
+    <email>nikialeksey@gmail.com</email>
+    <time>2017-10-25T07:22:08Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

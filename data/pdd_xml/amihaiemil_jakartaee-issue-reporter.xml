@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-06-11T18:21:25+00:00" version="0.30.18">
+  <puzzle alive="true">
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-027f5952</id>
+    <lines>40-42</lines>
+    <body>Continue implementing a service which reads the Github coordinates (token + repo) from the system properties or from the environment and opens a Github ticket.</body>
+    <file>src/main/java/com/amihaiemil/jir/GithubWatcherInterceptor.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-06-11T18:17:42Z</time>
+    <children/>
+    <issue href="https://github.com/amihaiemil/jakartaee-issue-reporter/issues/12">12</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>6</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>6-b518ab2c</id>
+    <lines>43-46</lines>
+    <body>Implement logging sing slf4J. If the annotation's "log" flag is set to true, the exception should be logged. Also, it shouldn't be possible to have both "rethrow" and "log" set to false (the exception would completely be swalloed.</body>
+    <file>src/main/java/com/amihaiemil/jir/GithubWatcherInterceptor.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-06-11T18:17:42Z</time>
+    <children/>
+    <issue href="https://github.com/amihaiemil/jakartaee-issue-reporter/issues/13">13</issue>
+  </puzzle>
+</puzzles>

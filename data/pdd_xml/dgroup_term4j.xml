@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-05-25T20:42:08+00:00" version="0.30.17">
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/term4j/issues/2" closed="2019-01-26T09:42:35+00:00">2</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0dc5d931</id>
+    <lines>33-39</lines>
+    <body>Use jansi lib in order to print colored text: - &lt;em&gt;Green&lt;/em&gt;; - &lt;em&gt;Red&lt;/em&gt;; - &lt;em&gt;Yellow&lt;/em&gt;; - &lt;em&gt;White&lt;/em&gt;; - &lt;em&gt;Black&lt;/em&gt;; and &lt;em&gt;Bold&lt;/em&gt; to make the text more expressively.</body>
+    <file>src/main/java/io/github/dgroup/term4j/Highlighted.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T15:07:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/term4j/issues/3" closed="2019-01-28T17:13:29+00:00">3</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-78d7cf6b</id>
+    <lines>33-34</lines>
+    <body>Fill 'Get started' section in readme.md: "How to manipulate with cli arguments".</body>
+    <file>src/main/java/io/github/dgroup/term4j/Arg.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T15:07:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/term4j/issues/4">4</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f4ddbf1f</id>
+    <lines>43-46</lines>
+    <body>Multiple labels support: Replace 'String label()' by object. Sometimes the arguments have several labels with short and long names like "-t" and "--threads". Now the arguments are supports only 1 label per argument.</body>
+    <file>src/main/java/io/github/dgroup/term4j/Arg.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T15:07:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/term4j/issues/5" closed="2019-03-10T15:09:47+00:00">5</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-553def65</id>
+    <lines>29-34</lines>
+    <body>FirstIn argument (similar to switch statement) which allows to instantiate the first value from the list of the arguments. For example, the same parameter might be defined: - command-line argument &lt;em&gt;-prop&lt;/em&gt;, - java property &lt;em&gt;-Dprop&lt;/em&gt; - env property &lt;em&gt;${PROP}&lt;/em&gt;</body>
+    <file>src/main/java/io/github/dgroup/term4j/arg/package-info.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T15:07:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/term4j/issues/6">6</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7920a2ed</id>
+    <lines>34-35</lines>
+    <body>Help: simple mechanism to print the help info from the classpath resource.</body>
+    <file>src/main/java/io/github/dgroup/term4j/package-info.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T15:07:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/term4j/issues/7" closed="2019-01-28T17:13:30+00:00">7</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-64f09d93</id>
+    <lines>33-34</lines>
+    <body>Fill 'Get started' section in readme.md: "How to manipulate with cli std output within the unit tests".</body>
+    <file>src/main/java/io/github/dgroup/term4j/Std.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T15:07:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/term4j/issues/8">8</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-65a70c0d</id>
+    <lines>110-110</lines>
+    <body>Upgrade the hamcrest-all library to the latest release of hamcrest-java --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T15:07:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/term4j/issues/9">9</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-08faa53a</id>
+    <lines>132-132</lines>
+    <body>Activate de.thetaphi:forbiddenapis in order to forbid the usage of forbidden API like static matchers, etc --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T15:07:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/term4j/issues/11" closed="2019-01-28T18:03:48+00:00">11</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8256b87e</id>
+    <lines>32-32</lines>
+    <body>Rename fakes considering type</body>
+    <file>src/main/java/io/github/dgroup/term4j/runtime/Fake.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-28T17:44:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/term4j/issues/16" closed="2019-02-03T08:17:04+00:00">16</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2f3418a3</id>
+    <lines>36-36</lines>
+    <body>Rename Envelopes considering their types.</body>
+    <file>src/main/java/io/github/dgroup/term4j/arg/scalar/Envs.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-03T07:51:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/term4j/issues/28" closed="2019-03-09T13:43:34+00:00">28</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-eb957d7b</id>
+    <lines>33-33</lines>
+    <body>Arg should extends {@link org.cactoos.Scalar}</body>
+    <file>src/main/java/io/github/dgroup/term4j/Arg.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-01T21:16:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/term4j/issues/45">45</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5d86c8b6</id>
+    <lines>90-91</lines>
+    <body>Find a way how to avoid several constructors which do the initialisation. Remote the PMD OnlyOneConstructorShouldDoInitialization violation.</body>
+    <file>src/main/java/io/github/dgroup/term4j/runtime/AppException.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-05-13T16:10:40Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

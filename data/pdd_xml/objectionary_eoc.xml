@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-11-30T11:27:01+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eoc/issues/434" closed="2025-11-30T11:27:01+00:00">434</issue>
+    <ticket>368</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>368-0468e9f4</id>
+    <lines>37-38</lines>
+    <body>Wrap logs in 'elapsed' It is necessary to use 'elapsed' in all logging cases that require output of elapsed time</body>
+    <file>src/commands/java/compile.js</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-12-16T17:09:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eoc/issues/435" closed="2025-11-30T03:04:29+00:00">435</issue>
+    <ticket>368</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>368-518cf6cc</id>
+    <lines>39-40</lines>
+    <body>Decide if the `elapsed` utility function is in the right place, consider relocating it and its test file if needed</body>
+    <file>src/elapsed.js</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-12-16T17:09:43Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

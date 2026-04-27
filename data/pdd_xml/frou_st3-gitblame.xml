@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-11-20T11:34:06+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/st3-gitblame/issues/40" closed="2019-11-20T11:34:06+00:00">40</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-1493e11a</id>
+    <lines>52-52</lines>
+    <body>Since we now use *InputHandlers, make a PR to package_control_channel to bump the minimum required sublime build to 3170 https://github.com/wbond/package_control_channel/blob/master/repository/g.json</body>
+    <file>commit_skipping.py</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-06-30T12:05:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/st3-gitblame/issues/41">41</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-a3b5cdc3</id>
+    <lines>59-59</lines>
+    <body>When presenting commit-skipping modes in the Command Palette, preselect the one currently in effect</body>
+    <file>commit_skipping.py</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-06-30T12:05:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/st3-gitblame/issues/42" closed="2019-06-30T13:37:55+00:00">42</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-464c449e</id>
+    <lines>17-17</lines>
+    <body>Move the HTML/CSS templates to a separate source file.</body>
+    <file>blame.py</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-06-30T12:05:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/st3-gitblame/issues/43" closed="2019-06-30T14:35:01+00:00">43</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-aeb99a62</id>
+    <lines>126-126</lines>
+    <body>Factor out loading of the commit-skipping mode so that BlameShowAllCommand can use it too.</body>
+    <file>blame.py</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-06-30T12:05:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/st3-gitblame/issues/44" closed="2019-06-30T13:37:57+00:00">44</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-ab198b1b</id>
+    <lines>238-238</lines>
+    <body>Move BlameShowAllCommand to its own source file</body>
+    <file>blame.py</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-06-30T12:05:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/st3-gitblame/issues/45" closed="2019-06-30T12:43:58+00:00">45</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-6d3c3a33</id>
+    <lines>394-394</lines>
+    <body>Move the utility functions to their own source file.</body>
+    <file>blame.py</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-06-30T12:05:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/st3-gitblame/issues/46">46</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-043a8f06</id>
+    <lines>31-31</lines>
+    <body>Factor out loading of the commit-skipping mode so that the BlameShowAll command can use it too.</body>
+    <file>src/blame.py</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-06-30T13:50:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/frou/st3-gitblame/issues/47" closed="2019-07-01T09:16:59+00:00">47</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-8a291d47</id>
+    <lines>27-27</lines>
+    <body>Add a Key Bindings entry to the Settings menu that opens a 2-column editor (DefaultCurrentPlatform,UserCurrentPlatform)</body>
+    <file>Menus/Main.sublime-menu</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-06-30T14:34:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/frou/st3-gitblame/issues/50">50</issue>
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-6c89ef62</id>
+    <lines>15-16</lines>
+    <body>Add a [Prev] button to the phantom, that causes it to reflect the previous commit that changed the line. This has some overlap with the "commit-skipping" feature and possibly obsoletes it?</body>
+    <file>src/blame.py</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-11-01T12:02:25Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

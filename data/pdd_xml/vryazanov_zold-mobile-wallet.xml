@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-03-28T20:34:36+00:00" version="0.30.16">
+  <puzzle alive="false">
+    <issue href="https://github.com/vryazanov/zold-mobile-wallet/issues/3" closed="2019-02-24T18:07:32+00:00">3</issue>
+    <ticket>2</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>2-1781171d</id>
+    <lines>2-4</lines>
+    <body>I've added `react-navigation` package to requirements. Introduce here routes and their components for the following pages: policy, terms of use. Find the way how to show texts from https://www.zerocracy.com/terms.html and https://www.zerocracy.com/policy.html</body>
+    <file>src/routes.js</file>
+    <author>Vadim Ryazanov</author>
+    <email>vadimvoronezh@yandex.ru</email>
+    <time>2019-02-23T15:09:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/vryazanov/zold-mobile-wallet/issues/17">17</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-950ce2f6</id>
+    <lines>6-7</lines>
+    <body>continue implementation of Balance, we should pull wallet after login, and fetching balance untill it's not fetched.</body>
+    <file>src/components/Balance.js</file>
+    <author>Vlad Arefev</author>
+    <email>arefyev@gdeetotdom.ru</email>
+    <time>2019-02-25T21:28:12Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-12-24T09:54:54+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/dejump/issues/33" closed="2022-09-10T12:05:42+00:00">33</issue>
+    <ticket>25</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>25-cede29ff</id>
+    <lines>9-10</lines>
+    <body>Add template for objects before that ones, that has attribute @uniq.</body>
+    <file>src/main/resources/org/eolang/dejump/flags-to-memory.xsl</file>
+    <author>Mikhail Lipanin</author>
+    <email>95661085+MikhailLipanin@users.noreply.github.com</email>
+    <time>2022-09-07T13:31:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/dejump/issues/54" closed="2022-10-24T11:46:36+00:00">54</issue>
+    <ticket>52</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>52-0474ee38</id>
+    <lines>75-118</lines>
+    <body>Rewrite as OOP-style of applying functions and comparing results in MatcherAssert */ for (int idx = 0; idx &lt; first.size(); idx++) { if (first.get(idx).contains("flag_")) { first.set( idx, String.format( "%sflag", first.get(idx).substring(0, first.get(idx).indexOf("flag_")) ) ); second.set( idx, String.format( "%sflag", second.get(idx).substring(0, second.get(idx).indexOf("flag_")) ) ); } if (first.get(idx).contains("g_")) { first.set( idx, String.format( "%srem", first.get(idx).substring(0, first.get(idx).indexOf("g_")) ) ); second.set( idx, String.format( "%srem", second.get(idx).substring(0, second.get(idx).indexOf("g_")) ) ); } } MatcherAssert.assertThat( first, Matchers.is(second) );</body>
+    <file>src/test/java/org/eolang/dejump/MainTest.java</file>
+    <author>@MikhailLipanin</author>
+    <email>95661085+MikhailLipanin@users.noreply.github.com</email>
+    <time>2022-09-29T21:38:53Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/dejump/issues/57">57</issue>
+        <ticket>54</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>54-9dfd549f</id>
+        <lines>45-46</lines>
+        <body>add RemoveGotoTest */</body>
+        <file>src/main/java/org/eolang/dejump/RemoveGoto.java</file>
+        <author>@MikhailLipanin</author>
+        <email>95661085+MikhailLipanin@users.noreply.github.com</email>
+        <time>2022-10-03T10:01:06Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/dejump/issues/58" closed="2022-10-05T00:35:40+00:00">58</issue>
+        <ticket>54</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>54-13754047</id>
+        <lines>134-135</lines>
+        <body>Configure slf4j Logger and replace these line to Logger.debug */</body>
+        <file>src/main/java/org/eolang/dejump/RemoveGoto.java</file>
+        <author>@MikhailLipanin</author>
+        <email>95661085+MikhailLipanin@users.noreply.github.com</email>
+        <time>2022-10-03T10:01:06Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/dejump/issues/76">76</issue>
+    <ticket>52</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>52-b84f6231</id>
+    <lines>42-44</lines>
+    <body>Rewrite for loop in fullRun method as OOP-style of applying functions and comparing results in MatcherAssert</body>
+    <file>src/test/java/org/eolang/dejump/MainTest.java</file>
+    <author>@MikhailLipanin</author>
+    <email>95661085+MikhailLipanin@users.noreply.github.com</email>
+    <time>2022-10-24T11:46:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/dejump/issues/109">109</issue>
+    <ticket>5</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>5-f89f8d5a</id>
+    <lines>35-35</lines>
+    <body>Resolve all tests, that are blocked due "todo" array.</body>
+    <file>src/test/resources/org/eolang/dejump/generate.groovy</file>
+    <author>@MikhailLipanin</author>
+    <email>mikhail.lipanin@gmail.com</email>
+    <time>2022-12-23T17:10:19Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

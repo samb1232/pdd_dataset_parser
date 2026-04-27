@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-12-14T12:32:16+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/polystat/polystat/issues/3" closed="2021-12-15T14:47:54+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-9db318e4</id>
+    <lines>80-83</lines>
+    <body>The current implementation of the method is not perfect, because Xsline doesn't allow anything aside from XSL to be inside it. I suggest we add new functionality to Xsline and let it have not only XSL but also Cactoos Func-s inside.</body>
+    <file>src/main/java/org/polystat/far/Reverses.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2021-07-02T05:12:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/polystat/polystat/issues/4" closed="2022-11-28T14:00:08+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-408fd3a6</id>
+    <lines>44-47</lines>
+    <body>The current implementation is very primitive and doesn't support the case of fetching an object with a locator longer than just something inside \Phi. Try to make an object with children and fetch a child.</body>
+    <file>src/main/java/org/polystat/XMIR.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2021-07-02T05:16:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/polystat/issues/5">5</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-f1256350</id>
+    <lines>37-39</lines>
+    <body>Let's use some library for command line arguments parsing. The current implementation in this class is super primitive and must be replaced by something decent.</body>
+    <file>src/main/java/org/polystat/Polystat.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2021-07-02T05:28:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/polystat/polystat/issues/6" closed="2022-11-30T12:28:07+00:00">6</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-6f8eb0a3</id>
+    <lines>70-76</lines>
+    <body>For some reason, the Logger.info() doesn't print anything to the console when the JAR is run via command line. It does print during testing, but doesn't show anything when being run as a JAR-with-dependencies. I didn't manage to find the reason, that's why added these "printf" instructions. Let's fix it, make sure Logger works in the JAR-with-dependencies, and remove this.stdout from this class at all.</body>
+    <file>src/main/java/org/polystat/Polystat.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2021-07-02T05:28:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/polystat/polystat/issues/7" closed="2021-12-15T14:47:57+00:00">7</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-0cf4e1de</id>
+    <lines>34-36</lines>
+    <body>I suggest we refactor this class into a parametrized unit test. As inputs we should probably have the expressions and the output should be the expected result of the Expr class.</body>
+    <file>src/test/java/org/polystat/far/ExprTest.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2021-07-02T05:30:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/polystat/issues/76">76</issue>
+    <ticket>63</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>63-ba441b05</id>
+    <lines>48-50</lines>
+    <body>Almost all PolystatITCase tests are broken and don't start inside maven jobs. These tests affirm that end-2-end usage is working, thus we should enable it and make sure everything is working properly.</body>
+    <file>src/test/java/org/polystat/PolystatITCase.java</file>
+    <author>@silverCase</author>
+    <email>serebrennikov.oleg.p@gmail.com</email>
+    <time>2022-12-12T13:13:18Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

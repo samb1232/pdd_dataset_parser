@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-05-12T02:34:19+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/30" closed="2023-04-19T16:46:25+00:00">30</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-2ddb3c6a</id>
+    <lines>6-11</lines>
+    <body>Implement authentication route. Should be ability to log in with username and password. The raw password that passed from a user should be hashed and compared with the hashed password from the database. If the hashed passwords are equal than we should provide the user some token/session identifier to authenticate the following requests.</body>
+    <file>backend/src/main/kotlin/com/github/plplmax/chat/auth/AuthRoutes.kt</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-19T16:40:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/31" closed="2023-04-20T15:42:17+00:00">31</issue>
+    <ticket>5</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>5-9202692c</id>
+    <lines>4-4</lines>
+    <body>Implement the user repository.</body>
+    <file>backend/src/main/kotlin/com/github/plplmax/chat/user/UserRepository.kt</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-19T16:45:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/32" closed="2023-04-20T15:42:22+00:00">32</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-a0fca80e</id>
+    <lines>6-11</lines>
+    <body>Implement authentication routes. Should be ability to log in with username and password. The raw password that passed from a user should be hashed and compared with the hashed password from the database. If the hashed passwords are equal than we should provide the user some token/session identifier to authenticate the following requests.</body>
+    <file>backend/src/main/kotlin/com/github/plplmax/chat/auth/AuthRoutes.kt</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-19T16:45:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/34" closed="2023-04-20T22:59:17+00:00">34</issue>
+    <ticket>5</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>5-393da341</id>
+    <lines>4-4</lines>
+    <body>Implement the user repository. Use the Exposed library.</body>
+    <file>backend/src/main/kotlin/com/github/plplmax/chat/user/UserRepositoryImpl.kt</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-20T15:40:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/35" closed="2023-04-21T19:06:04+00:00">35</issue>
+    <ticket>5</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>5-34d5b4df</id>
+    <lines>17-17</lines>
+    <body>Should be returned UserIdPrincipal or something like.</body>
+    <file>backend/src/main/kotlin/com/github/plplmax/chat/auth/AuthRoutes.kt</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-20T15:40:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/36" closed="2023-04-21T15:35:31+00:00">36</issue>
+    <ticket>5</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>5-dcd2653b</id>
+    <lines>4-5</lines>
+    <body>Implement encoding password and matching encoded passwords. It's recommended to use some cutting-edge library for this.</body>
+    <file>backend/src/main/kotlin/com/github/plplmax/chat/auth/EncodedPasswordOf.kt</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-20T15:40:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/41" closed="2023-05-12T02:04:24+00:00">41</issue>
+    <ticket>4</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>4-6a15c6c0</id>
+    <lines>5-5</lines>
+    <body>Implement handling 401 error when token has expired (e.g. navigate to the '/').</body>
+    <file>frontend/src/axios.js</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-22T00:35:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/42" closed="2023-05-01T09:29:08+00:00">42</issue>
+    <ticket>4</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>4-49fef48b</id>
+    <lines>27-27</lines>
+    <body>Redirect to the chat screen.</body>
+    <file>frontend/src/views/LoginView.vue</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-22T00:35:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/43" closed="2023-05-01T09:29:13+00:00">43</issue>
+    <ticket>4</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>4-14c32943</id>
+    <lines>30-30</lines>
+    <body>Show an error message when authentication failed.</body>
+    <file>frontend/src/views/LoginView.vue</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-22T00:35:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/51" closed="2023-05-12T02:34:19+00:00">51</issue>
+    <ticket>45</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>45-b7d950f8</id>
+    <lines>77-77</lines>
+    <body>Increase font-size value on the high-density screens */</body>
+    <file>frontend/src/assets/base.css</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-23T16:49:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/52">52</issue>
+    <ticket>45</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>45-d1dbae4d</id>
+    <lines>42-42</lines>
+    <body>Replace background-color value with the constant */</body>
+    <file>frontend/src/components/chat/MessageItem.vue</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-23T16:49:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/55" closed="2023-05-01T09:29:17+00:00">55</issue>
+    <ticket>46</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>46-8a3ae704</id>
+    <lines>8-9</lines>
+    <body>Implement error handling when the fetching messages failed. It's recommended to add the ability to retry request by the user.</body>
+    <file>frontend/src/views/ChatView.vue</file>
+    <author>Maksim Ploski</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-04-24T01:48:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/plplmax/unicorn-team-chat/issues/59">59</issue>
+    <ticket>48</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>48-89970988</id>
+    <lines>32-33</lines>
+    <body>When a message is edited and the user wants to edit the same message, user sees an outdated content in the textarea. Maybe we can use computed() here?</body>
+    <file>frontend/src/components/chat/MessageItem.vue</file>
+    <author>@plplmax</author>
+    <email>50287455+plplmax@users.noreply.github.com</email>
+    <time>2023-05-01T22:22:23Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-03-27T17:20:24+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/1" closed="2020-01-15T16:51:53+00:00">1</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-997a1e22</id>
+    <lines>73-75</lines>
+    <body>The test should simulate the case when change set was applied to database, then someone have changed the file accidentally, committed the changes, and migration was triggered in prod.</body>
+    <file>test/vcs4sql/sqlite/migration_test.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-15T11:54:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/2">2</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ca77ad7c</id>
+    <lines>39-41</lines>
+    <body>Raise the exception in case if - this.* are empty or null - conn is empty or null</body>
+    <file>lib/vcs4sql/changelog.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-15T11:54:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/3">3</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b327c8c7</id>
+    <lines>43-46</lines>
+    <body>Wrap the sql's execution to separate blocks which will: - catch the error - provide the detailed description - populate the error code</body>
+    <file>lib/vcs4sql/changelog.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-15T11:54:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/4">4</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-20cb5df8</id>
+    <lines>63-65</lines>
+    <body>Lock the upgrade procedure in order to avoid the cases when multiple processes are going to modify/upgrade the same database schema. No concurrent upgrades is allowed so far.</body>
+    <file>lib/vcs4sql/sqlite/migration.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-15T11:54:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/5">5</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4e0c8599</id>
+    <lines>47-48</lines>
+    <body>Add verification of array usage over index. The changelog shouldn't be a null.</body>
+    <file>lib/vcs4sql/sqlite/applied.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-15T11:54:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/6">6</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-41a82912</id>
+    <lines>56-58</lines>
+    <body>Add verification that connection not a null, throw error with proper error code in order to explain the problem. Potentially we need to define the class with error codes.</body>
+    <file>lib/vcs4sql/sqlite/applied.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-15T11:54:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/7">7</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b96fff30</id>
+    <lines>63-65</lines>
+    <body>Raise an exception in case if any of arguments are null or empty. Potentially we may add verification of the type, but this is optional.</body>
+    <file>lib/vcs4sql/sqlite/expected.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-15T11:54:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/9">9</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-1214b7cd</id>
+    <lines>1-2</lines>
+    <body>Enable Travis CI as second CI server once the project became a public. This might be alternative for Circle CI (just in case)</body>
+    <file>todo.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-16T16:50:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/10">10</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7f4f0ad5</id>
+    <lines>4-5</lines>
+    <body>Explain in readme.md how to use the project, add more instructions and generic guide.</body>
+    <file>todo.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-16T16:50:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/11">11</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0cebd13d</id>
+    <lines>7-8</lines>
+    <body>There a lot of badges in readme which aren't enabled for now. Let's enable them.</body>
+    <file>todo.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-16T16:50:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/12">12</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f11c7ae3</id>
+    <lines>10-11</lines>
+    <body>Publish a gem to the rubygems.org. Add this instructions to the @Rultor. No manual actions required.</body>
+    <file>todo.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-16T16:50:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/13">13</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-dab00982</id>
+    <lines>13-14</lines>
+    <body>Migrate to ruby 2.7.0. For now the project has 2.6.5. The project is new, it shouldn't be so expensive.</body>
+    <file>todo.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-16T16:50:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/vcs4sql/issues/14">14</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7d90d09b</id>
+    <lines>16-34</lines>
+    <body>Think about support of Postgres, MySQL, Oracle and others. We need to reuse the existing structure as much as we can. Most of classes which are oriented on SQLite should be modified. The structure of potential upgrade folder might be the following ... |- lib |- test |- upgrade ||||- sqlite ||||||||- 00-define-initial-structure.sql ||||||||- 02-add-missing-foreign-keys.sql ||||||||- 03-add-missing-indexes.sql ||||||||- 99-add.testdata.sql ||||- postgres ||||||||- ... |||||- mysql ||||||||- ... |- Gemfile ...</body>
+    <file>todo.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-16T16:50:44Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

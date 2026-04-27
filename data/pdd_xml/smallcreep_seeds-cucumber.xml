@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-11-19T08:04:32+00:00" version="0.30.11">
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/101" closed="2018-11-06T13:39:44+00:00">101</issue>
+    <ticket>63</ticket>
+    <estimate>30</estimate>
+    <role>TEST</role>
+    <id>63-19a2d4ae</id>
+    <lines>62-65</lines>
+    <body>Add integration test to this method. For example this test must insert to exist database table. To create table can use liquibase, see for example usage https://www.yegor256.com/2014/07/20/liquibase-in-maven.html</body>
+    <file>seeds-db/src/main/java/com/github/smallcreep/cucumber/seeds/rows/RwDefault.java</file>
+    <author>Ilia</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2018-10-26T06:28:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/smallcreep/seeds-cucumber/issues/119" closed="2018-11-19T08:04:32+00:00">119</issue>
+        <ticket>101</ticket>
+        <estimate>15</estimate>
+        <role>TEST</role>
+        <id>101-74486c02</id>
+        <lines>50-52</lines>
+        <body>Add assertion to correct inserted values after implemented method insert into table(#117) and added info of inserted rows to properties(#116).</body>
+        <file>seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java</file>
+        <author>Ilia Rogozhin</author>
+        <email>ilia.rogozhin@adsterra.com</email>
+        <time>2018-11-01T08:41:07Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/102">102</issue>
+    <ticket>10</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>10-367b8283</id>
+    <lines>41-45</lines>
+    <body>Extract to hamcrest matcher, check value cucumber annotations, inspect all annotations. Add configure for checking timeout. Maybe more than one annotation. Bad idea use many methods in test.</body>
+    <file>seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/db/steps/StpDefConnectionTest.java</file>
+    <author>Ilia</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2018-10-26T06:28:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/103">103</issue>
+    <ticket>10</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>10-30907043</id>
+    <lines>106-109</lines>
+    <body>Need remove using public static method. But I don't know how fixed it. This mistake in cucumber. If not resolved this problem need remove this comment and add doc why we use it.</body>
+    <file>seeds-core/src/main/java/com/github/smallcreep/cucumber/seeds/suit/StSmart.java</file>
+    <author>Ilia</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2018-10-26T06:28:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/114" closed="2018-10-31T09:06:44+00:00">114</issue>
+    <ticket>94</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>94-befb72b3</id>
+    <lines>124-126</lines>
+    <body>Move the same code with PlaceholderEncryptionMd5 and PlaceholderRandomStringLength. Method apply has many duplicate codes. Move this code to new class.</body>
+    <file>seeds-generator/src/main/java/com/github/smallcreep/cucumber/seeds/generator/placeholders/PlaceholderEncryptionMd5.java</file>
+    <author>Ilia Rogozhin</author>
+    <email>ilia.rogozhin@adsterra.com</email>
+    <time>2018-10-30T16:26:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/128" closed="2018-11-13T16:39:26+00:00">128</issue>
+    <ticket>122</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>122-78c12a67</id>
+    <lines>105-107</lines>
+    <body>DEV change xpath for finding table. table name should be a value in tag table not a parameter. Need change xpath and test data.</body>
+    <file>seeds-db/src/main/java/com/github/smallcreep/cucumber/seeds/schema/SchemaXml.java</file>
+    <author>Ilia</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2018-11-13T16:03:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/129" closed="2018-11-13T16:39:27+00:00">129</issue>
+    <ticket>122</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>122-e3790f96</id>
+    <lines>92-94</lines>
+    <body>DEV change xpath for finding column. column name should be a value in tag column not a parameter. Need change xpath and test data.</body>
+    <file>seeds-db/src/main/java/com/github/smallcreep/cucumber/seeds/table/TableXml.java</file>
+    <author>Ilia</author>
+    <email>ilia.rogozhin@gmail.com</email>
+    <time>2018-11-13T16:03:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/135" closed="2018-11-14T06:46:08+00:00">135</issue>
+    <ticket>133</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>133-bee01bce</id>
+    <lines>56-59</lines>
+    <body>Add type Serial to sql value. Serial is pseudo-type. for more information read this docs http://www.postgresqltutorial.com/postgresql-tutorial/postgresql-serial/ This is the same Integer types.</body>
+    <file>seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java</file>
+    <author>Ilia Rogozhin</author>
+    <email>ilia.rogozhin@adsterra.com</email>
+    <time>2018-11-14T05:59:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/136" closed="2018-11-14T07:12:54+00:00">136</issue>
+    <ticket>133</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>133-ad63dee7</id>
+    <lines>60-63</lines>
+    <body>Add type Text to sql value. The text data type can store a string with unlimited length. for more information read this docs http://www.postgresqltutorial.com/postgresql-char-varchar-text/</body>
+    <file>seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java</file>
+    <author>Ilia Rogozhin</author>
+    <email>ilia.rogozhin@adsterra.com</email>
+    <time>2018-11-14T05:59:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/137" closed="2018-11-14T07:44:12+00:00">137</issue>
+    <ticket>133</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>133-7a2239c0</id>
+    <lines>64-67</lines>
+    <body>Add type Bytea to sql value. The bytea data type allows storage of binary strings. for more information read this docs https://www.postgresql.org/docs/9.6/datatype-binary.html</body>
+    <file>seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java</file>
+    <author>Ilia Rogozhin</author>
+    <email>ilia.rogozhin@adsterra.com</email>
+    <time>2018-11-14T05:59:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/138" closed="2018-11-14T08:33:18+00:00">138</issue>
+    <ticket>133</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>133-a3da16f6</id>
+    <lines>92-100</lines>
+    <body>add correct exception if not found in this.value value, because now threw java.lang.NullPointerException with next stacktrace: at com.github.smallcreep.cucumber.seeds.table.TableXml .lambda$null$0(TableXml.java:107) at org.cactoos.map.MapOf.lambda$new$0(MapOf.java:83) at org.cactoos.func.UncheckedFunc.lambda$apply$0(UncheckedFunc.java:56) at org.cactoos.scalar.CheckedScalar.value(CheckedScalar.java:76) at org.cactoos.scalar.IoCheckedScalar.value(IoCheckedScalar.java:63)</body>
+    <file>seeds-db/src/main/java/com/github/smallcreep/cucumber/seeds/table/TableXml.java</file>
+    <author>Ilia Rogozhin</author>
+    <email>ilia.rogozhin@adsterra.com</email>
+    <time>2018-11-14T05:59:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/smallcreep/seeds-cucumber/issues/147" closed="2018-11-14T16:35:13+00:00">147</issue>
+    <ticket>142</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>142-9e40c68c</id>
+    <lines>56-58</lines>
+    <body>Placeholders with parameters may brake regexp. For example #Encryption#Md5(').*) need escape string before replace. Need change PlaceholderWithParams. This is very big problem.</body>
+    <file>seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java</file>
+    <author>Ilia Rogozhin</author>
+    <email>ilia.rogozhin@adsterra.com</email>
+    <time>2018-11-14T11:01:59Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/smallcreep/seeds-cucumber/issues/149" closed="2018-11-15T06:25:43+00:00">149</issue>
+        <ticket>147</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>147-9b75008c</id>
+        <lines>56-59</lines>
+        <body>Add escaping to single quotes in sql, because generated sql not valid. For example Varchar column with value 'not'escaped value' threw org.postgresql.util.PSQLException: Unterminated identifier started at position.</body>
+        <file>seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java</file>
+        <author>Ilia Rogozhin</author>
+        <email>ilia.rogozhin@adsterra.com</email>
+        <time>2018-11-14T16:06:09Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/smallcreep/seeds-cucumber/issues/151" closed="2018-11-15T06:55:24+00:00">151</issue>
+            <ticket>149</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>149-bee5465d</id>
+            <lines>57-59</lines>
+            <body>Placeholders with parameters not correct replaced. If text in parameter have close bracket then string after this bracket not use in function. This is big problem.</body>
+            <file>seeds-db/src/test/java/com/github/smallcreep/cucumber/seeds/rows/RwDefaultItCase.java</file>
+            <author>Ilia Rogozhin</author>
+            <email>ilia.rogozhin@adsterra.com</email>
+            <time>2018-11-15T06:04:00Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

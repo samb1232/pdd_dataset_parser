@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-12-24T14:16:13+00:00" version="0.30.13">
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/zold/issues/124">124</issue>
+    <ticket>70</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>70-ffaafc4f</id>
+    <lines>35-37</lines>
+    <body>Let's make it smarter. Instead of returning the full path let's substract the prefix from it if it's equal to the current directory in Dir.pwd.</body>
+    <file>lib/zold/wallets.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-06-02T06:56:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/125" closed="2018-06-05T17:56:11+00:00">125</issue>
+    <ticket>64</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>64-220d800a</id>
+    <lines>35-38</lines>
+    <body>Let's get rid of this and find a way to pass that $log global variable to all tests. Now it's defined inside test__helper.rb, but there should be a better solution. I posted a question about it: https://stackoverflow.com/questions/50418822</body>
+    <file>.rubocop.yml</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-06-02T06:56:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/214" closed="2018-08-04T16:53:55+00:00">214</issue>
+    <ticket>212</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>212-37109e23</id>
+    <lines>71-73</lines>
+    <body>The test is skipped because it crashes sporadically. I don't know why. Let's investigate, find the cause and fix it properly: http://www.rultor.com/t/14887-396655530</body>
+    <file>test/node/test_front.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-06-12T16:59:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/241" closed="2018-08-06T12:56:33+00:00">241</issue>
+    <ticket>239</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>239-8451ca17</id>
+    <lines>87-90</lines>
+    <body>This tests is skipped since it crashes sporadically. Let's investigate and make it stable. I don't really know what's going on, but suspect some collision between threads: http://www.rultor.com/t/14940-397702802</body>
+    <file>test/node/test_front.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-06-15T18:58:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/264" closed="2018-07-01T05:03:20+00:00">264</issue>
+    <ticket>262</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>262-ee9602d6</id>
+    <lines>45-48</lines>
+    <body>This test is skipped because it doesn't work. I can't understand why. It seems that File.open() creates an empty file first which is then being read by File.read() in another thread. Let's find out and make AtomicFile truly thread-safe.</body>
+    <file>test/test_atomic_file.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-06-21T03:00:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/322" closed="2018-07-11T14:54:15+00:00">322</issue>
+    <ticket>279</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>279-4664e37c</id>
+    <lines>3-5</lines>
+    <body>Write unit tests for the alias command. It should test all the subcommands (set, remove and show) and any options.</body>
+    <file>test/commands/test_alias.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-07-02T06:05:13Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/zold-io/zold/issues/377">377</issue>
+        <ticket>322</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>322-7828612a</id>
+        <lines>8-9</lines>
+        <body>Implement the set command and unskip this test. The syntax is already documented in the alias command in the help.</body>
+        <file>test/commands/test_alias.rb</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-07-11T14:49:51Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/zold-io/zold/issues/378">378</issue>
+        <ticket>322</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>322-58c2b412</id>
+        <lines>20-21</lines>
+        <body>Implement the remove command and unskip this test. The syntax is already documented in the alias command in the help.</body>
+        <file>test/commands/test_alias.rb</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-07-11T14:49:51Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/zold-io/zold/issues/379">379</issue>
+        <ticket>322</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>322-c77a5ea1</id>
+        <lines>35-36</lines>
+        <body>Implement the show command and unskip this test. The syntax is already documented in the alias command in the help.</body>
+        <file>test/commands/test_alias.rb</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-07-11T14:49:51Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/zold/issues/323">323</issue>
+    <ticket>279</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>279-d44ca5ec</id>
+    <lines>31-33</lines>
+    <body>Implement command handling. As in other commands, there should be case/when command/end loop and commands should be implemented as methods.</body>
+    <file>lib/zold/commands/alias.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-07-02T06:05:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/zold/issues/326">326</issue>
+    <ticket>285</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>285-7d7687a1</id>
+    <lines>12-14</lines>
+    <body>Replace this stub with functionality. We need to run the script (`yield`) if the version of the script is between the saved version and the current one.</body>
+    <file>lib/zold/version_file.rb</file>
+    <author>James C Russell</author>
+    <email>james@101ideas.cz</email>
+    <time>2018-07-02T09:08:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/327" closed="2018-07-13T08:53:08+00:00">327</issue>
+    <ticket>285</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>285-214c18b0</id>
+    <lines>12-15</lines>
+    <body>Write the upgrade manager tests that ensure: - Nothing breaks without the version file. - The upgrade scripts run when there is a version file and there are pending upgrade scripts. - Make sure *only* the correct upgrade scripts run.</body>
+    <file>lib/zold/upgrades.rb</file>
+    <author>James C Russell</author>
+    <email>james@101ideas.cz</email>
+    <time>2018-06-30T15:33:07Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/zold-io/zold/issues/365">365</issue>
+        <ticket>327</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>327-60adc21c</id>
+        <lines>31-32</lines>
+        <body>Uncomment, when you're ready to work on upgrade manager's test case of absent version file. Start with running the test first.</body>
+        <file>test/test_upgrades.rb</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-07-07T22:40:20Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/zold-io/zold/issues/366">366</issue>
+        <ticket>327</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>327-2e6b0869</id>
+        <lines>44-46</lines>
+        <body>Uncomment, when you're ready to work on upgrade manager's test case of running only pending upgrade scripts (i.e. the scripts with versions greater than those in the version file).</body>
+        <file>test/test_upgrades.rb</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-07-07T22:40:20Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/zold/issues/328">328</issue>
+    <ticket>292</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>292-732aceea</id>
+    <lines>95-103</lines>
+    <body>Group options by subcommands Having all the options in one place _rather than grouping them by subcommands_ makes the help totally misleading and hard to read. Not all the options are valid for every command - that's the key here. The option below (`--max-nodes`) is an example. **Next actions:** - Implement the suggestion above. - Remove note from the --max-nodes option saying that it applies to the select subcommand only.</body>
+    <file>lib/zold/commands/remote.rb</file>
+    <author>James C Russell</author>
+    <email>james@101ideas.cz</email>
+    <time>2018-06-30T13:46:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/329" closed="2018-07-12T08:42:37+00:00">329</issue>
+    <ticket>292</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>292-3bcf6540</id>
+    <lines>254-255</lines>
+    <body>Implement the logic of selecting the nodes as per #292. The strongest n nodes should be selected, where n = opts['max-nodes'].</body>
+    <file>lib/zold/commands/remote.rb</file>
+    <author>James C Russell</author>
+    <email>james@101ideas.cz</email>
+    <time>2018-06-30T13:46:13Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/zold/issues/388" closed="2018-11-19T07:09:04+00:00">388</issue>
+        <ticket>329</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>329-08487f44</id>
+        <lines>120-122</lines>
+        <body>Verify that the nodes that are being selected are really the strongest ones. The strongest nodes are the ones with the highest score.</body>
+        <file>test/commands/test_remote.rb</file>
+        <author>James C Russell</author>
+        <email>james@101ideas.cz</email>
+        <time>2018-07-06T14:06:53Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/333" closed="2018-12-16T13:10:43+00:00">333</issue>
+    <ticket>280</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>280-c0152986</id>
+    <lines>6-7</lines>
+    <body>Add to the queue. Once in there, try to pull it as soon as possible as is described in #280.</body>
+    <file>lib/zold/hungry_wallets.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-07-03T08:23:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/342" closed="2018-11-02T15:01:09+00:00">342</issue>
+    <ticket>79</ticket>
+    <estimate>40</estimate>
+    <role>DEV</role>
+    <id>79-aed0d144</id>
+    <lines>110-112</lines>
+    <body>Extract message cretion into a separate method for easier testing. Add tests for when in debt and not. Extract to a module, possibly Notify.</body>
+    <file>lib/zold/commands/pay.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-07-04T08:42:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/zold/issues/370">370</issue>
+    <ticket>357</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>357-e0152e73</id>
+    <lines>93-94</lines>
+    <body>Test that the headers are being set correctly. Currently there are no tests at all that would verify the headers.</body>
+    <file>lib/zold/node/front.rb</file>
+    <author>James C Russell</author>
+    <email>james@101ideas.cz</email>
+    <time>2018-07-09T18:12:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/385" closed="2018-11-30T11:15:53+00:00">385</issue>
+    <ticket>384</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>384-9943eeb2</id>
+    <lines>141-143</lines>
+    <body>This is a workaround, move this code into Upgrades, somehow. We should find a way to run these arbitrary scripts and pass arguments to them. Each of them may need its own set of arguments.</body>
+    <file>bin/zold</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-07-11T19:43:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/389" closed="2018-12-16T12:50:20+00:00">389</issue>
+    <ticket>306</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>306-7716d232</id>
+    <lines>42-44</lines>
+    <body>This test is failing from time to time We should find a way to check that tests involved in thread concurrency are always working</body>
+    <file>test/commands/test_node.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-07-12T11:07:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/393" closed="2018-11-01T12:17:18+00:00">393</issue>
+    <ticket>98</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>98-ed836320</id>
+    <lines>53-58</lines>
+    <body>The following two statements are seen as issues by rubocop raising a Lint/AmbiguousBlockAssociation offense. It is somthing that could be solved by changing the TargetRubyVersion in .rubocop.yml that is already taken care of in another issue. I am leaving a todo to check that rubocop doesn't complain anymore, otherwise find another solution</body>
+    <file>lib/zold/http.rb</file>
+    <author>Emiliano Della Casa</author>
+    <email>emiliano.dellacasa@gmail.com</email>
+    <time>2018-07-12T15:42:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/394" closed="2018-07-26T08:56:49+00:00">394</issue>
+    <ticket>98</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>98-a72851ba</id>
+    <lines>23-26</lines>
+    <body>Right now only Score and Http classes have been refactored for using dry-types, even tough the issue has been boosted refactoring the whole project is very cumbersome. Please refer to Score and Http class on how to perform all the changes for the project to adopt dry-types</body>
+    <file>lib/zold/type.rb</file>
+    <author>Emiliano Della Casa</author>
+    <email>emiliano.dellacasa@gmail.com</email>
+    <time>2018-07-12T15:42:16Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/zold-io/zold/issues/421" closed="2018-11-01T12:17:20+00:00">421</issue>
+        <ticket>394</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>394-fda9e6d8</id>
+        <lines>23-27</lines>
+        <body>Right now only Score, Http, Zold::Remotes and Zold::Remote classes have been refactored for using dry-types, even tough the issue has been boosted refactoring the whole project is very cumbersome. Please refer to Score and Http class on how to perform all the changes for the project to adopt dry-types</body>
+        <file>lib/zold/type.rb</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-07-26T08:49:28Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/511" closed="2018-11-28T10:38:26+00:00">511</issue>
+    <ticket>507</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>507-040930f5</id>
+    <lines>54-56</lines>
+    <body>I don't understand why this test doesn't work. It's not mission critical, since we don't have spaces in our paths, mostly. But still, would be great to fix it.</body>
+    <file>test/test_dir_items.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-10-30T15:14:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/514" closed="2018-12-12T07:50:02+00:00">514</issue>
+    <ticket>513</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>513-3d9ea123</id>
+    <lines>430-432</lines>
+    <body>This method is temporarily disabled since it takes a lot of time (when the amount of wallets is big, like 40K). However, we must find a way to count them somehow faster.</body>
+    <file>lib/zold/node/front.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-10-31T12:29:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zold-io/zold/issues/529">529</issue>
+    <ticket>527</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>527-2b511bc2</id>
+    <lines>62-67</lines>
+    <body>This test takes too long. The speed should be less than a few milliseconds, however, if you run it a few times, you will see that it is over 100ms sometimes. This is way too slow. I can't understand what's going on. It seems that IO.read() is taking too long sometimes. Try to measure its time of execution in Farm.load() and you will see that it's usually a few microseconds, but sometimes over 200ms.</body>
+    <file>test/node/test_farm.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-11-05T07:20:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zold-io/zold/issues/560" closed="2018-12-24T14:16:13+00:00">560</issue>
+    <ticket>444</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>444-c6c7b248</id>
+    <lines>114-118</lines>
+    <body>It's obvious that the test works (I can see that in the console, but for some weird reason it doesn't work in Minitest. Try to run it: ruby test/test_http.rb -n test_sends_correct_http_headers If fails because of PUT HTTP request timeout. Let's find the problem, fix it, and un-skip the test.</body>
+    <file>test/test_http.rb</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2018-11-19T13:32:07Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

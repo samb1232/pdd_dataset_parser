@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2026-02-26T06:02:46+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/115" closed="2025-10-17T14:33:48+00:00">115</issue>
+    <ticket>98</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>98-ccf056c0</id>
+    <lines>251-262</lines>
+    <body>I assumed that the test `test_different_properties_when_concurrent_inserts` would be passed. I see like this: ``` [2024-08-22 21:14:53.962] ERROR -- Expected: 1 Actual: 0: nil [2024-08-22 21:14:53.962] ERROR -- Expected: 1 Actual: 0: nil test_different_properties_when_concurrent_inserts ERROR (0.01s) Minitest::UnexpectedError: RuntimeError: Only 0 out of 5 threads completed successfully /home/suban/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/threads-0.4.0/lib/threads.rb:73:in `assert' test/test_factbase.rb:265:in `test_different_properties_when_concurrent_inserts' ```</body>
+    <file>test/test_factbase.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-08-22T16:28:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/factbase/issues/116">116</issue>
+    <ticket>98</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>98-6370f6bf</id>
+    <lines>278-285</lines>
+    <body>I assumed that the test `test_concurrent_transactions_inserts` would be passed. I see like this: ``` Expected: 100 Actual: 99 D:/a/factbase/factbase/test/test_factbase.rb:281:in `test_concurrent_transactions_inserts' ``` See details here https://github.com/yegor256/factbase/actions/runs/10492255419/job/29068637032</body>
+    <file>test/test_factbase.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-08-22T16:28:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/117" closed="2025-10-18T05:09:54+00:00">117</issue>
+    <ticket>98</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>98-8aa17f83</id>
+    <lines>327-338</lines>
+    <body>I assumed that the test `test_concurrent_queries` would be passed. I see like this: ``` [2024-08-22 17:40:19.224] ERROR -- Expected: [0, 1] Actual: [0, 0]: nil [2024-08-22 17:40:19.224] ERROR -- Expected: [0, 1] Actual: [0, 0]: nil test_concurrent_queries ERROR (0.00s) Minitest::UnexpectedError: RuntimeError: Only 0 out of 2 threads completed successfully /home/suban/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/threads-0.4.0/lib/threads.rb:73:in `assert' test/test_factbase.rb:329:in `test_concurrent_queries' ```</body>
+    <file>test/test_factbase.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-08-22T16:28:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/330" closed="2025-12-08T05:16:29+00:00">330</issue>
+    <ticket>302</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>302-0da7696f</id>
+    <lines>8-10</lines>
+    <body>Remove this module and move its methods to Factbase::TermBase. Currently, we use it because we are required to inject all thesse methods into Factbase::Term. When all the terms will inherit from Factbase::TermBase, we can remove this module.</body>
+    <file>lib/factbase/terms/shared.rb</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-10-16T10:46:31Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/factbase/issues/442" closed="2026-02-26T06:02:46+00:00">442</issue>
+        <ticket>330</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>330-d3182961</id>
+        <lines>349-362</lines>
+        <body>Fix the flaky test 'test_txn_performance_degradation'. The 'test_txn_performance_degradation' sometimes fails, sometimes passes. The reason is not clear yet. I got the following error message: ``` In indexed+cached+rules+plain, the trend is up: 2.483, 2.567, 2.872, 2.785, 2.798, 2.895, 3.114, 3.152, 3.087, 3.094. Expected 5 to be &lt; 5. test/factbase/test_query.rb:366:in 'block in TestQuery#test_txn_performance_degradation' test/factbase/test_query.rb:496:in 'Hash#each' test/factbase/test_query.rb:496:in 'TestQuery#with_factbases' test/factbase/test_query.rb:352:in 'TestQuery#test_txn_performance_degradation' ``` It needs investigation.</body>
+        <file>test/factbase/test_query.rb</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2025-12-08T05:16:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/357" closed="2025-11-11T12:43:32+00:00">357</issue>
+    <ticket>302</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>302-2566871e</id>
+    <lines>68-71</lines>
+    <body>Remove the _arithmetic method. Currently, we use it because we are required to inject all thesse methods into Factbase::Term. But we have Factbase::Arithmetic class for arithmetic operations. When all the 'math' terms will use from Factbase::Arithmetic, we can remove this method.</body>
+    <file>lib/factbase/terms/math.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-01T10:06:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/365" closed="2025-11-09T12:04:26+00:00">365</issue>
+    <ticket>249</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>249-13330610</id>
+    <lines>145-148</lines>
+    <body>Enable unique prediction tests. Right now these tests are disabled because unique prediction is not implemented yet. When it's done we should enable the tests and make sure they work as expected. Don't forget to remove the puzzle.</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-09T06:20:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/367" closed="2026-02-11T05:30:44+00:00">367</issue>
+    <ticket>249</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>249-dbaa3264</id>
+    <lines>22-24</lines>
+    <body>Improve prediction for 'unique' term. Current prediction is quite naive and returns many false positives because it just filters facts which have exactly the same set of keys regardless the values. We should introduce more smart prediction.</body>
+    <file>lib/factbase/indexed/indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-09T12:04:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/370" closed="2025-11-12T12:26:53+00:00">370</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-56f9dfcf</id>
+    <lines>37-39</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'one' term to separated class IndexedOne, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-11-10T16:09:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/374" closed="2025-11-12T13:06:06+00:00">374</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-3e1331b8</id>
+    <lines>27-29</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'exists' term to separated class IndexedExists, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-12T10:54:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/378" closed="2026-02-17T14:57:33+00:00">378</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-766882fb</id>
+    <lines>16-19</lines>
+    <body>Introduce new test for indexed 'absent' term. We've moved the logic for prediction 'absent' term from IndexedTerm class to a separated IndexedAbsent class. But for some reason there's no test for the term in this TestIndexedTerm. Let's introduce it and move to a separated test class like it's done with TestIndexedOne.</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-12T12:52:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/382" closed="2025-11-14T14:48:46+00:00">382</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-5ba60f44</id>
+    <lines>129-131</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'unqieu' term to separated class IndexedUnique, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-13T06:34:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/383" closed="2025-11-14T14:48:28+00:00">383</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-ce25b778</id>
+    <lines>21-23</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'eq' term to separated class IndexedEq, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-13T06:35:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/394" closed="2025-11-17T12:43:21+00:00">394</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-32a641fe</id>
+    <lines>100-102</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'lt' term to separated class IndexedLt, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-14T14:49:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/397" closed="2025-11-23T04:46:05+00:00">397</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-0ff68155</id>
+    <lines>81-83</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'gt' term to separated class IndexedGt, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-15T10:24:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/399" closed="2025-11-23T04:46:25+00:00">399</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-c5700afa</id>
+    <lines>31-33</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'and' term to separated class IndexedAnd, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-15T18:19:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/406" closed="2025-11-24T15:29:13+00:00">406</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-5b3c468e</id>
+    <lines>58-60</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'or' term to separated class IndexedOr, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-18T12:28:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/407" closed="2025-11-23T16:00:02+00:00">407</issue>
+    <ticket>363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>363-45cff659</id>
+    <lines>21-23</lines>
+    <body>Move the test to a separated class. Since we've moved prediction of 'not' term to separated class IndexedNot, let's move this test to a separated test class too in order to be consistent with rule 'one class - one test class'</body>
+    <file>test/factbase/indexed/test_indexed_term.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-18T14:24:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/445" closed="2026-02-17T14:57:34+00:00">445</issue>
+    <ticket>424</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>424-00be419f</id>
+    <lines>10-13</lines>
+    <body>Add dedicated unit tests for LazyTapedArray class. Currently this class is tested indirectly through LazyTaped tests. We should add explicit tests for all public methods including each, [], to_a, any?, &lt;&lt;, and uniq! to ensure proper copy-on-write behavior.</body>
+    <file>lib/factbase/lazy_taped_array.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-12-11T13:25:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/factbase/issues/446" closed="2026-02-17T14:57:36+00:00">446</issue>
+    <ticket>424</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>424-092ae895</id>
+    <lines>11-14</lines>
+    <body>Add dedicated unit tests for LazyTapedHash class. Currently this class is tested indirectly through LazyTaped tests. We should add explicit tests for all public methods including keys, map, bracket access, bracket assignment, and the copy-on-write behavior.</body>
+    <file>lib/factbase/lazy_taped_hash.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-12-11T13:25:26Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

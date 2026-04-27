@@ -1,0 +1,636 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-03-14T09:03:29+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/4" closed="2023-10-05T18:29:32+00:00">4</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>2-8395abd8</id>
+    <lines>35-38</lines>
+    <body>Add dummy test using gtest and run it on ci. - name: Test working-directory: ${{github.workspace}}/build run: ctest --test-dir ${{github.workspace}}/build/besm-666</body>
+    <file>.github/workflows/cmake.yml</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-05T16:07:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/6" closed="2023-10-18T11:40:05+00:00">6</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>2-d49e06eb</id>
+    <lines>35-35</lines>
+    <body>Add dummy test using gtest and run it on ci.</body>
+    <file>.github/workflows/cmake.yml</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-05T18:29:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/14" closed="2023-10-09T17:15:28+00:00">14</issue>
+    <ticket>8</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>8-d77d3c08</id>
+    <lines>16-17</lines>
+    <body>Implement decode method. It should firstly fetch instruction and then parse it.</body>
+    <file>src/ChaiVM/interpreter/decoder.cpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-07T11:19:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/15" closed="2023-10-31T10:43:26+00:00">15</issue>
+    <ticket>8</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>8-7b1130e7</id>
+    <lines>1-1</lines>
+    <body>Finish this script and genereate operations.hpp via yml file</body>
+    <file>tools/opcode2operation-generator.py</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-07T11:19:20Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/Tea-club/ChaiVM/issues/49">49</issue>
+        <ticket>15</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>15-cdb3f64a</id>
+        <lines>12-12</lines>
+        <body>Generate autogen/operations.hpp into build directory.</body>
+        <file>CMakeLists.txt</file>
+        <author>@levBagryansky</author>
+        <email>32939651+levBagryansky@users.noreply.github.com</email>
+        <time>2023-10-31T10:43:17Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/18" closed="2023-10-15T12:14:38+00:00">18</issue>
+    <ticket>8</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>8-cc9cbab0</id>
+    <lines>24-24</lines>
+    <body>Implement the method below.</body>
+    <file>include/ChaiVM/interpreter/code-manager.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-09T17:15:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/19">19</issue>
+    <ticket>8</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>8-1520e82f</id>
+    <lines>27-27</lines>
+    <body>Check arithmetic instruction on overflow.</body>
+    <file>include/ChaiVM/interpreter/executor.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-09T17:15:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/20" closed="2023-10-15T19:13:15+00:00">20</issue>
+    <ticket>8</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>8-d09df369</id>
+    <lines>13-15</lines>
+    <body>Now this method processes R and RR formats only. It should also work with I type. We need smth like Instr2Format for it.</body>
+    <file>test/ChaiVM/interpreter/executor_test.cpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-09T17:15:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/21" closed="2023-10-15T19:13:19+00:00">21</issue>
+    <ticket>8</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>8-58f17781</id>
+    <lines>36-37</lines>
+    <body>Implement this method clearer. Now it use the trick that opcodes and enum values of corresponding operations are the same.</body>
+    <file>test/ChaiVM/interpreter/executor_test.cpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-09T17:15:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/34" closed="2023-10-15T19:13:24+00:00">34</issue>
+    <ticket>32</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>32-cab74994</id>
+    <lines>10-11</lines>
+    <body>Make the methods "instr2Raw" implemented only once. For example in utils.</body>
+    <file>bench/codeman-wrapper.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-15T12:14:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/35">35</issue>
+    <ticket>32</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>32-e5a361e3</id>
+    <lines>20-20</lines>
+    <body>Measure mips here</body>
+    <file>bench/interpreter_bench.cpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-15T12:14:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/39" closed="2023-10-28T14:41:53+00:00">39</issue>
+    <ticket>37</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>37-0019e1f7</id>
+    <lines>18-18</lines>
+    <body>Make address sanitizer work on MacOS with ARM</body>
+    <file>test/CMakeLists.txt</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-18T11:39:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/45">45</issue>
+    <ticket>37</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>37-d4e9ebc7</id>
+    <lines>18-18</lines>
+    <body>Make address and leak and undefined sanitizer work on MacOS with ARM</body>
+    <file>test/CMakeLists.txt</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-28T14:41:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/46">46</issue>
+    <ticket>37</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>37-082f295d</id>
+    <lines>22-22</lines>
+    <body>Make thread sanitizer work on MacOS with ARM</body>
+    <file>test/CMakeLists.txt</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-10-28T14:41:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/52">52</issue>
+    <ticket>42</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>42-994681db</id>
+    <lines>245-246</lines>
+    <body>Implement the instruction with object ref when objects will be introduced in chai.</body>
+    <file>src/ChaiVM/interpreter/executor.cpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-11-01T10:38:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/53">53</issue>
+    <ticket>42</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>42-a69e7a05</id>
+    <lines>252-253</lines>
+    <body>Implement the instruction with object ref when chai objects will be introduced.</body>
+    <file>src/ChaiVM/interpreter/executor.cpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-11-01T10:38:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/54" closed="2024-02-19T17:15:05+00:00">54</issue>
+    <ticket>42</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>42-1789e504</id>
+    <lines>31-31</lines>
+    <body>Rename all load methods to more appropriate names.</body>
+    <file>test/ChaiVM/interpreter/executor_test.cpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-11-01T10:38:08Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/Tea-club/ChaiVM/issues/82">82</issue>
+        <ticket>54</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>54-89a87874</id>
+        <lines>11-11</lines>
+        <body>add template parameter by format and refactor naming</body>
+        <file>src/ChaiVM/utils/instr2Raw.cpp</file>
+        <author>Lev Bagryansky</author>
+        <email>32939651+levBagryansky@users.noreply.github.com</email>
+        <time>2024-02-19T17:14:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/Tea-club/ChaiVM/issues/83">83</issue>
+        <ticket>54</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>54-d786432f</id>
+        <lines>70-70</lines>
+        <body>do something to add this functionality to load Immediate</body>
+        <file>test/ChaiVM/interpreter/executor-test-fixture.hpp</file>
+        <author>Lev Bagryansky</author>
+        <email>32939651+levBagryansky@users.noreply.github.com</email>
+        <time>2024-02-19T17:14:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <ticket>54</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>54-ecedcccd</id>
+        <lines>67-68</lines>
+        <body>do something to add this functionality to load Immediate (todo duplication)</body>
+        <file>test/ChaiVM/interpreter/garbage-collector-test.cpp</file>
+        <author>Lev Bagryansky</author>
+        <email>32939651+levBagryansky@users.noreply.github.com</email>
+        <time>2025-03-14T09:03:05Z</time>
+        <children/>
+        <issue href="https://github.com/Tea-club/ChaiVM/issues/115">115</issue>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/63" closed="2024-06-10T11:09:20+00:00">63</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-083ca17e</id>
+    <lines>70-70</lines>
+    <body>We can avoid using dispatch_ anywhere via inheritance.</body>
+    <file>include/ChaiVM/interpreter/code-manager/code-manager.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-11-09T16:03:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/64">64</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-b9389013</id>
+    <lines>80-81</lines>
+    <body>We can use chai::utils::fileformat::FuncInfo here somehow. Read to structure and then work with their fields.</body>
+    <file>src/ChaiVM/interpreter/code-manager/code-manager.cpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-11-09T16:03:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/70">70</issue>
+    <ticket>41</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>41-6e48b51c</id>
+    <lines>29-29</lines>
+    <body>Implement adequate processing of the main function</body>
+    <file>include/frontend/assembler/assembler.hpp</file>
+    <author>@c71n93</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-12-19T08:35:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/71" closed="2024-06-10T11:09:22+00:00">71</issue>
+    <ticket>41</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>41-4dc1c56c</id>
+    <lines>43-44</lines>
+    <body>Refactor this function. Or maybe it is better to kill myself?</body>
+    <file>include/frontend/assembler/assembler.hpp</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-12-19T08:35:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/72" closed="2024-03-28T21:07:43+00:00">72</issue>
+    <ticket>41</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>41-a25bae73</id>
+    <lines>176-177</lines>
+    <body>Implement it in OpString class. Also rename OpString class</body>
+    <file>include/frontend/assembler/assembler.hpp</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-12-19T08:35:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/73" closed="2024-03-28T21:07:45+00:00">73</issue>
+    <ticket>41</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>41-1dc4ad84</id>
+    <lines>9-9</lines>
+    <body>Rename this class</body>
+    <file>include/frontend/assembler/op-string.hpp</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-12-19T08:35:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/74">74</issue>
+    <ticket>41</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>41-a7e93de4</id>
+    <lines>27-27</lines>
+    <body>OP_TO_FORMAT is generated incorrectly. Need to be fixed (add Unknown type for all possible instructions)!</body>
+    <file>tools/opcode2operation-generator.py</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-12-19T08:35:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/75">75</issue>
+    <ticket>41</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>41-08341c3f</id>
+    <lines>28-28</lines>
+    <body>Generate OperationFormat enum automatically</body>
+    <file>tools/opcode2operation-generator.py</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-12-19T08:35:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/80">80</issue>
+    <ticket>78</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>78-920cdfba</id>
+    <lines>28-29</lines>
+    <body>Check if the constant is already in pool_. Then not add it again in order to avoid duplication of constant.</body>
+    <file>src/ChaiVM/utils/file-format/chai-file.cpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2023-12-19T22:50:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/90">90</issue>
+    <ticket>76</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>76-b32f7d66</id>
+    <lines>76-76</lines>
+    <body>Add function description to assembler</body>
+    <file>include/frontend/assembler/assembler.hpp</file>
+    <author>@c71n93</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2024-06-10T11:09:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/91">91</issue>
+    <ticket>76</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>76-5ab331a4</id>
+    <lines>79-80</lines>
+    <body>Add function to constant pool before parsing instructions (for recursion)</body>
+    <file>include/frontend/assembler/assembler.hpp</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2024-06-10T11:09:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/92">92</issue>
+    <ticket>87</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>87-19a57d9f</id>
+    <lines>75-76</lines>
+    <body>Do something with unused variables. Don't forget to disable diagnostic suppress.</body>
+    <file>src/ChaiVM/interpreter/code-manager/code-manager.cpp</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2024-06-10T11:09:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/98">98</issue>
+    <ticket>94</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>94-179b6abd</id>
+    <lines>91-92</lines>
+    <body>Figure out why this is necessary and add commentary or remove.</body>
+    <file>include/ChaiVM/utils/file-format/chai-file.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2024-06-12T11:27:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/100" closed="2024-06-13T13:15:58+00:00">100</issue>
+    <ticket>97</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>97-491954b0</id>
+    <lines>84-84</lines>
+    <body>Implement array of objects.</body>
+    <file>include/ChaiVM/interpreter/executor.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2024-06-12T18:17:13Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/Tea-club/ChaiVM/issues/108">108</issue>
+        <ticket>100</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>100-5c7c5a8c</id>
+        <lines>12-12</lines>
+        <body>Figure out how to designate such a class.</body>
+        <file>include/ChaiVM/interpreter/objects.hpp</file>
+        <author>@levBagryansky</author>
+        <email>32939651+levBagryansky@users.noreply.github.com</email>
+        <time>2024-06-13T13:15:54Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/101" closed="2024-06-13T13:16:00+00:00">101</issue>
+    <ticket>97</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>97-0dcc99de</id>
+    <lines>10-10</lines>
+    <body>Add allocator here.</body>
+    <file>include/ChaiVM/interpreter/objects.hpp</file>
+    <author>@levBagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2024-06-12T18:17:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/102">102</issue>
+    <ticket>97</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>97-fe6e6775</id>
+    <lines>19-20</lines>
+    <body>Consider refactoring object to just cast it from raw pointer. It can be faster.</body>
+    <file>include/ChaiVM/interpreter/objects.hpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2024-06-12T18:17:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/107">107</issue>
+    <ticket>104</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>104-658a2470</id>
+    <lines>184-187</lines>
+    <body>Currently instructions that has type RI uses immediate dirrectly without constant pool (because it is offset). So it was decided to simplify logic of this function comparing to `processI`. It looks like nothing going to chang, but who knows.</body>
+    <file>include/frontend/assembler/assembler.hpp</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2024-06-13T11:22:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>111</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>111-59e82bd9</id>
+    <lines>41-41</lines>
+    <body>use custom allocator here</body>
+    <file>include/ChaiVM/interpreter/frame.hpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2025-03-14T09:03:05Z</time>
+    <children/>
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/116">116</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>111</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>111-e9a79b10</id>
+    <lines>19-20</lines>
+    <body>check if we already collected this root object.</body>
+    <file>src/ChaiVM/interpreter/garbage-collector.cpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2025-03-14T09:03:05Z</time>
+    <children/>
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/117">117</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>111</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>111-816a6f7e</id>
+    <lines>30-31</lines>
+    <body>check if we already collected this root object (todo duplication).</body>
+    <file>src/ChaiVM/interpreter/garbage-collector.cpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2025-03-14T09:03:05Z</time>
+    <children/>
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/118">118</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>111</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>111-755c3f1a</id>
+    <lines>38-40</lines>
+    <body>multiple roots can refer to the similar object, so this assert will fail even in correct situations. assert(!root.isMarked());</body>
+    <file>src/ChaiVM/interpreter/garbage-collector.cpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2025-03-14T09:03:05Z</time>
+    <children/>
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/119">119</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>111</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>111-3eb76792</id>
+    <lines>55-55</lines>
+    <body>check if member references to array</body>
+    <file>src/ChaiVM/interpreter/garbage-collector.cpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2025-03-14T09:03:05Z</time>
+    <children/>
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/120">120</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>111</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>111-dae0f680</id>
+    <lines>71-71</lines>
+    <body>check if elem references to array</body>
+    <file>src/ChaiVM/interpreter/garbage-collector.cpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2025-03-14T09:03:05Z</time>
+    <children/>
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/121">121</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>111</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>111-9d96d7cb</id>
+    <lines>87-88</lines>
+    <body>to remove freed allocation here instead of additional loop</body>
+    <file>src/ChaiVM/interpreter/garbage-collector.cpp</file>
+    <author>Lev Bagryansky</author>
+    <email>32939651+levBagryansky@users.noreply.github.com</email>
+    <time>2025-03-14T09:03:05Z</time>
+    <children/>
+    <issue href="https://github.com/Tea-club/ChaiVM/issues/122">122</issue>
+  </puzzle>
+</puzzles>

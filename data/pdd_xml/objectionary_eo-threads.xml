@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-10-20T13:46:11+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-threads/issues/24" closed="2022-09-26T16:59:21+00:00">24</issue>
+    <ticket>14</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>14-d4ce4bb2</id>
+    <lines>69-72</lines>
+    <body>Implement handling of Interrupted Exaption when the get method will throw it. We need to wait for changes in eo repository to do that.</body>
+    <file>src/main/java/EOorg/EOeolang/EOthreads/DataizingThread.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-09-08T16:45:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-threads/issues/33" closed="2022-10-17T11:39:27+00:00">33</issue>
+    <ticket>12</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>12-aaf1d833</id>
+    <lines>33-35</lines>
+    <body>We need to count numbers of locks and releases in order to throw exceptions if there were more releases then locks</body>
+    <file>src/main/eo/org/eolang/threads/mutex.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-09-15T08:12:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/eo-threads/issues/51" closed="2022-10-06T02:26:16+00:00">51</issue>
+        <ticket>33</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>33-42a5749e</id>
+        <lines>106-110</lines>
+        <body>Implement test with numerous threads that will acquire and releasse mutex in parallel We need to wait for solving a problem with different hashcodes.</body>
+        <file>src/test/eo/org/eolang/threads/mutex-test.eo</file>
+        <author>@levBagryansky</author>
+        <email>28lev11@gmail.com</email>
+        <time>2022-10-01T10:45:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/eo-threads/issues/52" closed="2022-10-12T17:52:27+00:00">52</issue>
+        <ticket>33</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>33-016de260</id>
+        <lines>78-82</lines>
+        <body>Uncomment this test when problem of the of same hashcodes in parallel threads will be solved. This test proves new Phi objects created in parallel threads can have repeated hashcodes</body>
+        <file>src/test/java/EOorg/EOeolang/EOthreads/EOmutexTest.java</file>
+        <author>@levBagryansky</author>
+        <email>28lev11@gmail.com</email>
+        <time>2022-10-01T10:45:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/eo-threads/issues/53" closed="2022-10-06T14:44:33+00:00">53</issue>
+        <ticket>33</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>33-5c60b9c8</id>
+        <lines>112-115</lines>
+        <body>Implement test like the test below where new Phi objects are created in parallel instead of one thread. We need to wait for the solving of hashcode problem</body>
+        <file>src/test/java/EOorg/EOeolang/EOthreads/EOmutexTest.java</file>
+        <author>@levBagryansky</author>
+        <email>28lev11@gmail.com</email>
+        <time>2022-10-01T10:45:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-threads/issues/34" closed="2022-10-07T08:09:49+00:00">34</issue>
+    <ticket>12</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>12-c377ed5d</id>
+    <lines>85-89</lines>
+    <body>Implement test of mutex with 2 threads that acquires mutex, sleep and then releas. So in fact they must sleep in series, not parallely. You can do it when sys-call will be released.</body>
+    <file>src/test/eo/org/eolang/threads/mutex-test.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-09-15T08:12:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-threads/issues/45" closed="2022-09-26T16:59:26+00:00">45</issue>
+    <ticket>14</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>14-371bfc16</id>
+    <lines>160-163</lines>
+    <body>Impplement test that stops a thread and checks if the thread is running. We need is-running attribute to use it</body>
+    <file>src/test/eo/org/eolang/threads/thread-test.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-09-25T13:33:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-threads/issues/67" closed="2022-10-20T13:46:11+00:00">67</issue>
+    <ticket>61</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>61-0d624b73</id>
+    <lines>108-111</lines>
+    <body>Implement this test with using list and reduced of the list. So we need to create the list of threads and start them in list.reduced</body>
+    <file>src/test/eo/org/eolang/threads/mutex-test.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-10-16T16:41:45Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.0pdd.com/puzzles.xsd" date="2026-01-06T03:34:31+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/pages-action/issues/480" closed="2026-01-01T11:06:03+00:00">480</issue>
+    <ticket>413</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>413-cd35478a</id>
+    <lines>87-89</lines>
+    <body>The call of displayOutdatedWarning() is hardcoded here. This is a wrong place to call this function. Consider making a separate call outside updateTimeDisplay()</body>
+    <file>js/outdated.js</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-12-03T10:03:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zerocracy/pages-action/issues/509">509</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>31-1ed016f1</id>
+    <lines>74-74</lines>
+    <body>Implement dark palette.</body>
+    <file>sass/main.scss</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-01-01T10:03:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/zerocracy/pages-action/issues/510">510</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>31-7225d0ba</id>
+    <lines>105-105</lines>
+    <body>Implement mild palette.</body>
+    <file>sass/main.scss</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-01-01T10:03:50Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

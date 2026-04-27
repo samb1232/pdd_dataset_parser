@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-10-28T20:27:30+00:00" version="0.30.8">
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/26" closed="2018-03-09T13:19:06+00:00">26</issue>
+    <ticket>23</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>23-70304dc3</id>
+    <lines>22-22</lines>
+    <body>Add ability to pass some listeners to JUnitCore.</body>
+    <file>sunshine/src/main/java/io/github/tatools/sunshine/Junit4Engine.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-13T13:33:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/tatools/sunshine/issues/34" closed="2018-03-09T13:19:07+00:00">34</issue>
+        <ticket>26</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>26-7df0d1ab</id>
+        <lines>20-20</lines>
+        <body>Remove this interface as now we can pass listeners to an engine.</body>
+        <file>sunshine/src/main/java/io/github/tatools/sunshine/TestNGConfiguration.java</file>
+        <author>Dmytro Serdiuk</author>
+        <email>dmytro.serdiuk@gmail.com</email>
+        <time>2017-04-18T08:45:32Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/tatools/sunshine/issues/35" closed="2018-03-09T13:19:08+00:00">35</issue>
+        <ticket>26</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>26-83dbf9ec</id>
+        <lines>19-19</lines>
+        <body>Move this logic as a separate part os sunshine, not TestNGEngine configuration.</body>
+        <file>sunshine/src/main/java/io/github/tatools/sunshine/TestNGChangeOutputsDirectory.java</file>
+        <author>Dmytro Serdiuk</author>
+        <email>dmytro.serdiuk@gmail.com</email>
+        <time>2017-04-18T08:45:32Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/27" closed="2018-10-28T20:27:22+00:00">27</issue>
+    <ticket>23</ticket>
+    <estimate>120</estimate>
+    <role>IMP</role>
+    <id>23-1be4ca16</id>
+    <lines>6-6</lines>
+    <body>Add ability to generate jnit xmls by default</body>
+    <file>sunshine/src/main/java/io/github/tatools/sunshine/SunshineJunit4.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-13T13:33:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/28" closed="2018-10-28T20:27:23+00:00">28</issue>
+    <ticket>23</ticket>
+    <estimate>60</estimate>
+    <role>IMP</role>
+    <id>23-ce10b9e9</id>
+    <lines>20-21</lines>
+    <body>It's a bad idea to allow to modify TestNG instance. Need to consider another way to allow set up listeners.</body>
+    <file>sunshine/src/main/java/io/github/tatools/sunshine/TestNGConfiguration.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-13T13:33:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/29" closed="2018-10-28T20:27:23+00:00">29</issue>
+    <ticket>23</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>23-5ef08dcb</id>
+    <lines>10-10</lines>
+    <body>TestNGLocationRunner.class has to use Tests interface as a constructor arguments.</body>
+    <file>sunshine/src/main/java/io/github/tatools/sunshine/TestNGLocationRunner.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-13T13:33:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/tatools/sunshine/issues/32" closed="2018-10-28T20:27:24+00:00">32</issue>
+        <ticket>29</ticket>
+        <estimate>120</estimate>
+        <role>IMP</role>
+        <id>29-4bcf4b9b</id>
+        <lines>10-10</lines>
+        <body>We have to remove this engine's impl and move logic to an impl of {@link Tests}</body>
+        <file>sunshine/src/main/java/io/github/tatools/sunshine/TestNGXmlRunner.java</file>
+        <author>Dmytro Serdiuk</author>
+        <email>dmytro.serdiuk@gmail.com</email>
+        <time>2017-04-13T13:53:23Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/tatools/sunshine/issues/36" closed="2018-10-28T20:27:25+00:00">36</issue>
+        <ticket>29</ticket>
+        <estimate>120</estimate>
+        <role>IMP</role>
+        <id>29-4dd19e2d</id>
+        <lines>13-13</lines>
+        <body>We have to remove this engine's impl and move logic to an impl of {@link Tests}.</body>
+        <file>sunshine/src/main/java/io/github/tatools/sunshine/TestNGXmlRunner.java</file>
+        <author>Dmytro Serdiuk</author>
+        <email>dmytro.serdiuk@gmail.com</email>
+        <time>2017-04-18T08:45:32Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/tatools/sunshine/issues/45" closed="2018-10-28T20:27:25+00:00">45</issue>
+            <ticket>36</ticket>
+            <estimate>20</estimate>
+            <role>IMP</role>
+            <id>36-9922e029</id>
+            <lines>9-9</lines>
+            <body>Extract an interface from this class.</body>
+            <file>sunshine/src/main/java/io/github/tatools/sunshine/WritableFile.java</file>
+            <author>Dmytro Serdiuk</author>
+            <email>dmytro.serdiuk@gmail.com</email>
+            <time>2017-04-19T12:35:49Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/30" closed="2018-10-28T20:27:26+00:00">30</issue>
+    <ticket>23</ticket>
+    <estimate>180</estimate>
+    <role>IMP</role>
+    <id>23-174cdfb8</id>
+    <lines>19-19</lines>
+    <body>Move to property file. It allow to reuse this value for all engines.</body>
+    <file>sunshine/src/main/java/io/github/tatools/sunshine/SunshineTestNG.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-13T13:33:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/tatools/sunshine/issues/53" closed="2018-10-28T20:27:26+00:00">53</issue>
+        <ticket>30</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>30-2626c916</id>
+        <lines>5-5</lines>
+        <body>Consider to move logic of properties loading to separate project.</body>
+        <file>sunshine/src/main/java/io/github/tatools/sunshine/Config.java</file>
+        <author>Dmytro Serdiuk</author>
+        <email>dmytro.serdiuk@gmail.com</email>
+        <time>2017-04-21T18:17:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/52" closed="2018-10-28T20:27:26+00:00">52</issue>
+    <ticket>49</ticket>
+    <estimate>180</estimate>
+    <role>IMP</role>
+    <id>49-7eb24613</id>
+    <lines>10-10</lines>
+    <body>Add ability to release to Sonatype</body>
+    <file>.rultor.yml</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-25T15:00:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/60" closed="2018-10-28T20:27:26+00:00">60</issue>
+    <ticket>46</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>46-54b9d0cb</id>
+    <lines>20-20</lines>
+    <body>Rename SunshineTestNG to Sunshine.</body>
+    <file>sunshine-testng/src/main/java/io/github/tatools/sunshine/testng/SunshineTestNG.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-28T09:23:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/61" closed="2018-10-28T20:27:26+00:00">61</issue>
+    <ticket>46</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>46-d4807ff6</id>
+    <lines>14-14</lines>
+    <body>Rename SunshineJunit4 to Sunshine.</body>
+    <file>sunshine-junit4/src/main/java/io/github/tatools/sunshine/junit4/SunshineJunit4.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-28T09:23:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/62" closed="2018-10-28T20:27:27+00:00">62</issue>
+    <ticket>23</ticket>
+    <estimate>120</estimate>
+    <role>IMP</role>
+    <id>23-eb379235</id>
+    <lines>17-17</lines>
+    <body>Add ability to generate junit xmls by default. Update javadoc in the class.</body>
+    <file>sunshine-junit4/src/main/java/io/github/tatools/sunshine/junit4/SunshineJunit4.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-28T09:23:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/66" closed="2018-10-28T20:27:27+00:00">66</issue>
+    <ticket>57</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>57-79c35964</id>
+    <lines>13-13</lines>
+    <body>This class has to implement FsPath interface. Also it has to be public.</body>
+    <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/Artifact.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-28T18:01:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/67" closed="2018-10-28T20:27:27+00:00">67</issue>
+    <ticket>57</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>57-0ac5d255</id>
+    <lines>9-13</lines>
+    <body>Review all implementations: - make them final - make TurnProperty as part of interface - create unit tests */</body>
+    <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/Property.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-04-28T18:01:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/74" closed="2018-10-28T20:27:27+00:00">74</issue>
+    <ticket>18</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>18-ab73b9ee</id>
+    <lines>13-13</lines>
+    <body>Add maven central badge here.</body>
+    <file>README.md</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-05T19:41:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/75" closed="2018-10-28T20:27:28+00:00">75</issue>
+    <ticket>18</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>18-31fa9f1f</id>
+    <lines>59-59</lines>
+    <body>Add an example of Sunshine and Maven integration.</body>
+    <file>README.md</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-05T19:41:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/76" closed="2018-10-28T20:27:28+00:00">76</issue>
+    <ticket>18</ticket>
+    <estimate>120</estimate>
+    <role>IMP</role>
+    <id>18-7ac7dfde</id>
+    <lines>65-65</lines>
+    <body>Describe how to configure custom TestNG run.</body>
+    <file>README.md</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-05T19:41:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/77" closed="2018-10-28T20:27:28+00:00">77</issue>
+    <ticket>18</ticket>
+    <estimate>120</estimate>
+    <role>IMP</role>
+    <id>18-3d82abbe</id>
+    <lines>69-69</lines>
+    <body>Describe how to configure custom Junit 4 run.</body>
+    <file>README.md</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-05T19:41:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/84" closed="2018-10-28T20:27:28+00:00">84</issue>
+    <ticket>70</ticket>
+    <estimate>120</estimate>
+    <role>IMP</role>
+    <id>70-054d7555</id>
+    <lines>18-20</lines>
+    <body>Use some temporary directory instead of pre-configured for storing TestNG XML suite file. Our goal is to run tests and not provide some XML suite file for a user. */</body>
+    <file>sunshine-testng/src/main/java/io/github/tatools/sunshine/testng/Sunshine.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-10T17:58:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/88" closed="2018-10-28T20:27:28+00:00">88</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>82-d0011c1b</id>
+    <lines>8-8</lines>
+    <body>Review all implementations and make sure all of them have proper names.</body>
+    <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/Rule.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-10T20:16:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/89" closed="2018-10-28T20:27:28+00:00">89</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>82-c2fdbb0d</id>
+    <lines>11-11</lines>
+    <body>Review a usage of LocationException exception. According to Fail Fast strategy it needs to be checked.</body>
+    <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/LocationException.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-10T19:57:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/90" closed="2018-10-28T20:27:29+00:00">90</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>82-9d27527e</id>
+    <lines>12-14</lines>
+    <body>Review a usage of TestClassException exception. According to Fail Fast strategy it needs to be checked. And need to decide where it can be handled. Also, it will be great to have a common parent for all Sunshine's exceptions.</body>
+    <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/TestClassException.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-10T20:30:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/tatools/sunshine/issues/99" closed="2018-10-28T20:27:29+00:00">99</issue>
+        <ticket>90</ticket>
+        <estimate>120</estimate>
+        <role>IMP</role>
+        <id>90-c2a01578</id>
+        <lines>12-12</lines>
+        <body>Remove this interface and replace with Suite's implementations.</body>
+        <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/Location.java</file>
+        <author>Dmytro Serdiuk</author>
+        <email>dmytro.serdiuk@gmail.com</email>
+        <time>2017-06-14T18:42:59Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/tatools/sunshine/issues/106" closed="2018-10-28T20:27:30+00:00">106</issue>
+            <ticket>99</ticket>
+            <estimate>60</estimate>
+            <role>IMP</role>
+            <id>99-3fe53b4d</id>
+            <lines>12-12</lines>
+            <body>Make names self-explained for SunshineSuite implementaions.</body>
+            <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/BaseSuite.java</file>
+            <author>Dmytro Serdiuk</author>
+            <email>dmytro.serdiuk@gmail.com</email>
+            <time>2017-06-19T16:13:08Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/tatools/sunshine/issues/100" closed="2018-10-28T20:27:30+00:00">100</issue>
+        <ticket>90</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>90-019e6c1b</id>
+        <lines>16-16</lines>
+        <body>Create separate exception for Engine errors.</body>
+        <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/Engine.java</file>
+        <author>Dmytro Serdiuk</author>
+        <email>dmytro.serdiuk@gmail.com</email>
+        <time>2017-06-14T18:42:59Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tatools/sunshine/issues/91" closed="2018-10-28T20:27:30+00:00">91</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>82-8b2fcc7c</id>
+    <lines>9-11</lines>
+    <body>Review IOException exception. According to Fail Fast strategy it needs to be checked. May it's possible to use standard Java exception instead. */</body>
+    <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/IOException.java</file>
+    <author>Dmytro Serdiuk</author>
+    <email>dmytro.serdiuk@gmail.com</email>
+    <time>2017-06-10T19:57:25Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/tatools/sunshine/issues/105" closed="2018-10-28T20:27:30+00:00">105</issue>
+        <ticket>91</ticket>
+        <estimate>60</estimate>
+        <role>IMP</role>
+        <id>91-bd8a705b</id>
+        <lines>11-11</lines>
+        <body>Rename to FileSystemPath. Make sure all implementaions have self-explained names.</body>
+        <file>sunshine-core/src/main/java/io/github/tatools/sunshine/core/FsPath.java</file>
+        <author>Dmytro Serdiuk</author>
+        <email>dmytro.serdiuk@gmail.com</email>
+        <time>2017-06-19T16:13:08Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

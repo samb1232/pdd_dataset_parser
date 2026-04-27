@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.25.7" date="2017-11-12T05:41:59+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>86-f6617969</id>
+    <ticket>86</ticket>
+    <file>src/it/basics/verify.groovy</file>
+    <lines>68-69</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:03:37Z</time>
+    <body>This validation doesn't work because maven-site-plugin produces invalid HTML5 output (still using TT element, which is obsolete in</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>86-09ac1c10</id>
+    <ticket>86</ticket>
+    <file>src/it/basics/verify.groovy</file>
+    <lines>77-80</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:03:37Z</time>
+    <body>This validation doesn't work because maven-site-plugin produces invalid HTML5 output (it is using an obsolete NAME attribute on some HTML elements). We're expecting exactly one warning here, because of that.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>86-326486e3</id>
+    <ticket>86</ticket>
+    <file>src/it/basics/verify.groovy</file>
+    <lines>68-70</lines>
+    <estimate>30</estimate>
+    <body>This validation doesn't work because maven-site-plugin produces invalid HTML5 output (still using TT element, which is obsolete in HTML5). We're expecting exactly one error here, because of that.</body>
+    <role>IMP</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2014-09-22T08:34:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>86-e55ac8b8</id>
+    <ticket>86</ticket>
+    <file>src/it/basics/verify.groovy</file>
+    <lines>77-83</lines>
+    <estimate>30</estimate>
+    <body>This validation doesn't work because maven-site-plugin produces invalid HTML5 output (it is using an obsolete NAME attribute on some HTML elements). We're expecting exactly one warning here, because of that. Most validation error solved. Pending only the one related to https://github.com/jcabi/jcabi-w3c/issues/35 obsolete-interface error.</body>
+    <role>IMP</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2012-11-11T07:43:19Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

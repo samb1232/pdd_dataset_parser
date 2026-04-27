@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-08-18T18:54:57+00:00" version="0.30.18">
+  <puzzle alive="true">
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-44f7eec3</id>
+    <lines>33-33</lines>
+    <body>If Go 1.13 gains NullTime in the stdlib, use that instead.</body>
+    <file>pg2go.sql</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-18T18:54:25Z</time>
+    <children/>
+    <issue href="https://github.com/frou/pg2go/issues/2">2</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>0</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>0-464a4719</id>
+    <lines>115-119</lines>
+    <body>Make generated constants extra type-safe by delcaring a new type (e.g. `type foo string`) then using that type for each of the constants (e.g. `const ( fooBar foo = "..." ...)`). For this to work, I think at least an implementation of https://godoc.org/database/sql/driver#Valuer would have to be generated too.</body>
+    <file>pg2go.sql</file>
+    <author>Duncan Holm</author>
+    <email>duncan@holm.scot</email>
+    <time>2019-08-18T18:54:25Z</time>
+    <children/>
+    <issue href="https://github.com/frou/pg2go/issues/3">3</issue>
+  </puzzle>
+</puzzles>

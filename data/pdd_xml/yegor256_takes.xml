@@ -1,0 +1,1751 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2025-10-14T08:49:33+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>101-0be068b8</id>
+    <ticket>101</ticket>
+    <file>src/main/java/org/takes/facets/slf4j/TkLogged.java</file>
+    <lines>74-79</lines>
+    <estimate>30</estimate>
+    <body>I expect implementations of Response and Take interfaces will be able convert itself to a loggable string but they don't have this feature. See details here https://github.com/yegor256/takes/issues/101 We will use toConsole() in this way this.target.log("...", this.origin.toConsole(), resp.toConsole, ...)</body>
+    <role>DEV</role>
+    <author>Dmitry Zaystev</author>
+    <email>dmitry.zaytsev@gmail.com</email>
+    <time>2015-04-03T02:37:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>101-e83253e2</id>
+    <ticket>101</ticket>
+    <file>src/main/java/org/takes/facets/slf4j/TkLogged.java</file>
+    <lines>72-77</lines>
+    <estimate>30</estimate>
+    <body>I expect implementations of Response and Take interfaces will be able convert itself to a loggable string but they don't have this feature. See details here https://github.com/yegor256/take/issues/101 We will use toConsole() in this way this.target.log("...", this.origin.toConsole(), resp.toConsole, ...)</body>
+    <role>DEV</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2015-04-05T19:41:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>28-4e517112</id>
+    <ticket>28</ticket>
+    <file>src/main/java/org/takes/facets/slf4j/TsLogged.java</file>
+    <lines>38-42</lines>
+    <estimate>30</estimate>
+    <body>This class not implemented yet, but has to be. Please implement it like TkLogged and don't forget about unit tests. In addition, need to be implement classes BkLogged, FtLogged, PsLogged which will make loggable interfaces Back, Front, Pass. They should all be implemented also like TkLogged.</body>
+    <role>DEV</role>
+    <author>Dmitry Zaytsev</author>
+    <email>dmzaytsev@users.noreply.github.com</email>
+    <time>2015-04-01T09:18:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>12-159d303e</id>
+    <ticket>12</ticket>
+    <file>src/test/java/org/takes/facets/auth/social/PsLinkedinTest.java</file>
+    <lines>42-48</lines>
+    <estimate>30</estimate>
+    <body>This class not implemented yet, but has to be. Please implement it. Mocked OAuth server is one of the possible solutions. In this case, we could use some library like WireMock (see http://www.wiremock.org), which allows make stub for web service. We'll need to make some changes in PsLinkedin, that allow to change API url, and use local stubbed http server during unit test.</body>
+    <role>DEV</role>
+    <author>Dmitry Zaystev</author>
+    <email>dmitry.zaytsev@gmail.com</email>
+    <time>2015-04-04T16:18:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>11-790c0445</id>
+    <ticket>11</ticket>
+    <file>src/test/java/org/takes/facets/auth/social/PsTwitterTest.java</file>
+    <lines>42-47</lines>
+    <estimate>30</estimate>
+    <body>Test to be implemented for PsTwitter using a oauth mock library (eg:wiremock). Need to modify PsTwitter to accept url from configurations, so that url can be changed for test and real env accordingly. Response to be stubbed for both token and verify_credentials calls and assertions to be performed for the values returned.</body>
+    <role>DEV</role>
+    <author>Prasath Premkumar</author>
+    <email>popprem@gmail.com</email>
+    <time>2015-04-20T12:25:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>220-30ba5607</id>
+    <ticket>220</ticket>
+    <file>src/test/java/org/takes/http/BkParallelTest.java</file>
+    <lines>32-34</lines>
+    <estimate>30</estimate>
+    <body>This unit test not implemented but has to be. E.g. you could pass your own a ExecutorService implementation to the ctor and verify execute() calls. But feel free to try another way.</body>
+    <role>DEV</role>
+    <author>Dmitry Zaytsev</author>
+    <email>dmzaytsev@users.noreply.github.com</email>
+    <time>2015-04-29T13:37:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>229-401562da</id>
+    <ticket>229</ticket>
+    <file>src/main/java/org/takes/facets/auth/social/PsGithub.java</file>
+    <lines>54-56</lines>
+    <estimate>30</estimate>
+    <body>There is currently no unit test in PsGithubTest that checks that the request parameters are passed to the request body, instead of the URI. Let's add this test.</body>
+    <role>IMP</role>
+    <author>cyberone</author>
+    <email>alopen@yandex.ru</email>
+    <time>2015-05-01T13:20:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>160-f5eebf68</id>
+    <ticket>160</ticket>
+    <file>src/main/java/org/takes/rs/RsWithHeaders.java</file>
+    <lines>55-60</lines>
+    <estimate>30</estimate>
+    <body>To implement the concatenation and transformation with conjunction of Concat class and Transform class to get rid of the use of List.add() in the anonymous Response class head() method. That is, we are going to do something like this: return new Concat(res.head(), new Transform(headers, new Trim()))</body>
+    <role>DEV</role>
+    <author>super132</author>
+    <email>super132j@yahoo.com</email>
+    <time>2015-05-08T01:50:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>160-fc7f658c</id>
+    <ticket>160</ticket>
+    <file>src/main/java/org/takes/rs/RsWithStatus.java</file>
+    <lines>97-101</lines>
+    <estimate>30</estimate>
+    <body>To implement concatenation and selection with the conjunction Concat and Select class to get rid of List.add() between line 118 to line 127. That is, replacing the block using something like this: return new Concat(head,new Select(origin.head(),new FilterFirstCond()))</body>
+    <role>DEV</role>
+    <author>super132</author>
+    <email>super132j@yahoo.com</email>
+    <time>2015-05-08T01:45:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>252-d7f3c72e</id>
+    <ticket>252</ticket>
+    <file>src/main/java/org/takes/rq/RqMultipart.java</file>
+    <lines>404-424</lines>
+    <estimate>30</estimate>
+    <body>New ctor should be created and expect instances of Request as dispositions. Dispositions should be multipart request body holder. New ctor should call {@code RqMultipart.Base}. {@code Fake.fakebody} method should be refactored and Fake(final Request req, final String... dispositions) ctor should call new constructor using dispositions like {@code this( req, new RqWithHeader( req, // @checkstyle LineLength (1 line) new RqLive(req.head().iterator().next() + "\r\n" + "Content-Disposition", "form-data; name=\"address\"") ), new RqWithHeader( req, // @checkstyle LineLength (1 line) new RqLive(req.head().iterator().next() + "\r\n" + "Content-Disposition", "form-data; name=\"file\"") ) ); }</body>
+    <role>DEV</role>
+    <author>erim erturk</author>
+    <email>erimerturk@gmail.com</email>
+    <time>2015-05-27T20:07:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>258-12a59dfa</id>
+    <ticket>258</ticket>
+    <file>src/main/java/org/takes/tk/TkCORS.java</file>
+    <lines>82-87</lines>
+    <estimate>30</estimate>
+    <body>RqHeaders.Smart should have a `single(string, string)` method. That method should be similar to the method found in `RqHref.Smart`). The first parameter is the key that you are looking for and the second one is the default value if it was not found. Don't forget to remove the checkstyle comment.</body>
+    <role>IMP</role>
+    <author>Endrigo Antonini</author>
+    <email>eantonini@eidoscode.com</email>
+    <time>2015-06-06T00:40:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>260-de67913e</id>
+    <ticket>260</ticket>
+    <file>src/main/java/org/takes/facets/hamcrest/HmRqHeader.java</file>
+    <lines>45-52</lines>
+    <estimate>30</estimate>
+    <body>Implement additional constructors. According to #260 there should be also available such constructors: public HmRsHeader(final Matcher
+
+? extends Map.Entry
+
+&gt; mtchr); public HmRsHeader(final String header, final Matcher
+
+? extends Iterable
+
+&gt; mtchr); public HmRsHeader(final String header, final Matcher
+
+? extends String
+
+mtchr); public HmRsHeader(final String header, final String value);</body>
+    <role>IMP</role>
+    <author>Eugene Kondrashev</author>
+    <email>eugene.kondrashev@gmail.com</email>
+    <time>2015-10-01T09:45:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>260-1c71c6a2</id>
+    <ticket>260</ticket>
+    <file>src/main/java/org/takes/facets/hamcrest/HmRsHeader.java</file>
+    <lines>46-53</lines>
+    <estimate>30</estimate>
+    <body>Implement additional constructors. According to #260 there should be also available such constructors public HmRsHeader(final Matcher
+
+? extends Map.Entry
+
+&gt; mtchr); public HmRsHeader(final String header, final Matcher
+
+? extends Iterable
+
+&gt; mtchr); public HmRsHeader(final String header, final Matcher
+
+? extends String
+
+mtchr); public HmRsHeader(final String header, final String value);</body>
+    <role>IMP</role>
+    <author>Eugene Kondrashev</author>
+    <email>eugene.kondrashev@gmail.com</email>
+    <time>2015-10-01T09:45:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>306-0f8af5fd</id>
+    <ticket>306</ticket>
+    <file>src/test/java/org/takes/http/BkReuseTest.java</file>
+    <lines>46-49</lines>
+    <estimate>30</estimate>
+    <body>Implement missing BkReuse.accept method to support HTTP persistent connections and to pass below three tests. BkReuse.accept should handles more than one HTTP requests in one connection and return correct HTTP status when Content-Length is not specified.</body>
+    <role>IMP</role>
+    <author>Piotr Pradzynski</author>
+    <email>prondzyn@gmail.com</email>
+    <time>2015-10-22T07:04:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>306-07904f4e</id>
+    <ticket>306</ticket>
+    <file>src/test/java/org/takes/http/BkReuseTest.java</file>
+    <lines>50-53</lines>
+    <estimate>30</estimate>
+    <body>Replace mockito statements with fake sockets objects as described in http://www.yegor256.com/2014/09/23/built-in-fake-objects.html. Fake objects should improve tests readability and maintainability in the future.</body>
+    <role>IMP</role>
+    <author>Piotr Pradzynski</author>
+    <email>prondzyn@gmail.com</email>
+    <time>2015-10-25T13:14:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/458" closed="2017-10-27T18:53:54+00:00">458</issue>
+    <id>377-e6ce369a</id>
+    <ticket>377</ticket>
+    <file>src/test/java/org/takes/tk/TkProxyTest.java</file>
+    <lines>40-42</lines>
+    <estimate>30</estimate>
+    <body>We need more tests for TkProxy. The tests should verify the different HTTP methods (GET, POST, etc), as well as the different combinations of request/response headers.</body>
+    <role>DEV</role>
+    <author>bdragan</author>
+    <email>bozanovicdr@gmail.com</email>
+    <time>2015-12-07T20:55:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>458-ca123cf9</id>
+        <ticket>458</ticket>
+        <file>src/test/java/org/takes/tk/TkProxyTest.java</file>
+        <lines>52-54</lines>
+        <estimate>30</estimate>
+        <body>We need more tests for TkProxy. The tests should verify different combinations of request/response headers. This is the continuation of the issue #377.</body>
+        <role>DEV</role>
+        <author>Sebin George</author>
+        <email>Sebin.George@datacash.com</email>
+        <time>2016-03-15T10:58:32Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>445-5323c196</id>
+    <ticket>445</ticket>
+    <file>src/main/java/org/takes/rq/RqHref.java</file>
+    <lines>83-86</lines>
+    <estimate>30</estimate>
+    <body>RqMethod already validates Request-Line and extracts HTTP Method from it. We should extract all important information from Request-Line (HTTP method, URI and HTTP version) in one place to enforce DRY principle.</body>
+    <role>DEV</role>
+    <author>Ikar Sokolov</author>
+    <email>happy.neko@gmail.com</email>
+    <time>2015-12-15T11:32:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>490-c74fee69</id>
+    <ticket>490</ticket>
+    <file>src/main/java/org/takes/rq/RqHeaders.java</file>
+    <lines>93-98</lines>
+    <estimate>30</estimate>
+    <body>We need to implement a VerboseList and its tests like VerboseIterable. It should provide means to throw an exception with a given error message when it otherwise throws an IndexOutOfBoundsException. With this we must wrap the returned list otherwise the diagnostic messages are lost: https://github.com/yegor256/takes/pull/503/files#diff-a01b0291ad72ac6fd8e264f47f844b3bL101</body>
+    <role>IMP</role>
+    <author>El&#xE9;na Ihde-Simon</author>
+    <email>elena.ihde-simon@posteo.de</email>
+    <time>2016-01-08T18:42:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/519" closed="2017-10-27T18:53:55+00:00">519</issue>
+    <id>306-b987400a</id>
+    <ticket>306</ticket>
+    <file>src/test/java/org/takes/http/BkBasicTest.java</file>
+    <lines>57-60</lines>
+    <estimate>30</estimate>
+    <body>At the moment we don't support HTTP persistent connections. Would be great to implement this feature. BkBasic.accept should handle more than one HTTP request in one connection.</body>
+    <role>IMP</role>
+    <author>Maksimenko Vladimir</author>
+    <email>xupypr@xupypr.com</email>
+    <time>2016-01-11T17:15:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>519-af7d4687</id>
+        <ticket>519</ticket>
+        <file>src/main/java/org/takes/rq/RqLive.java</file>
+        <lines>47-49</lines>
+        <estimate>30</estimate>
+        <body>Refactor the parse method into a new class. This method is too long and too much if-else statements. Covert this into an IfElseClass.</body>
+        <role>IMP</role>
+        <author>Sebin George</author>
+        <email>Sebin.George@datacash.com</email>
+        <time>2016-03-13T09:49:52Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>516-c8aa6c8f</id>
+    <ticket>516</ticket>
+    <file>src/test/java/org/takes/http/BkBasicTest.java</file>
+    <lines>67-68</lines>
+    <estimate>30</estimate>
+    <body>It will be nice to refactor tests with Socket usage and replace them to real statements. See usage of BkBasicTest.createMockSocket.</body>
+    <role>IMP</role>
+    <author>lexx</author>
+    <email>lexx@i-free.com</email>
+    <time>2016-01-21T11:08:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/725" closed="2018-10-11T00:56:56+00:00">725</issue>
+    <id>516-ffc97ad1</id>
+    <ticket>516</ticket>
+    <file>src/test/java/org/takes/http/BkBasicTest.java</file>
+    <lines>69-71</lines>
+    <estimate>15</estimate>
+    <body>Move header names from BkBasic to public constants. Reusable header names will help in many situations. For example - in new integration tests.</body>
+    <role>IMP</role>
+    <author>lexx</author>
+    <email>lexx@i-free.com</email>
+    <time>2016-01-21T12:44:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>438-dcc4d707</id>
+    <ticket>438</ticket>
+    <file>src/test/java/org/takes/rq/RqChunkTest.java</file>
+    <lines>40-43</lines>
+    <estimate>45</estimate>
+    <body>Implement reading chunked message body in {@link RqChunk} class to pass the tests. The request body should be treated as a serie of chunks and be capped to the chunks sizes sum.</body>
+    <role>IMP</role>
+    <author>HDouss</author>
+    <email>douss.hamdi@gmail.com</email>
+    <time>2015-12-27T12:46:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/558" closed="2017-10-27T18:53:56+00:00">558</issue>
+    <id>530-0ac0fcef</id>
+    <ticket>530</ticket>
+    <file>pom.xml</file>
+    <lines>313-317</lines>
+    <estimate>30</estimate>
+    <body>Below excludes were created during migration from qulice 0.13 to qulice 0.15.4. New qulice finds new additional issues in the code that need to be fixed. Checktyle issues were fixed in scope of #530, remaining PMD and XML issues to be fixed in scope of this puzzle.</body>
+    <role>IMP</role>
+    <author>Andrey Eliseev</author>
+    <email>andrey.eliseev@db.com</email>
+    <time>2016-01-22T15:36:52Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-ffd45315</id>
+        <ticket>558</ticket>
+        <file>pom.xml</file>
+        <lines>308-310</lines>
+        <estimate>30</estimate>
+        <body>Upgrade Qulice to 0.16. Fix all checkstyle violations (mostly `AtclauseOrderCheck`). Fix or add puzzle for PMD, findbugs and other types of violations.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-08T18:24:26Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-4ea33ea6</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/facets/auth/PsAll.java</file>
+        <lines>56-60</lines>
+        <estimate>30</estimate>
+        <body>PsAll ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-7b985928</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/facets/auth/PsBasic.java</file>
+        <lines>226-230</lines>
+        <estimate>30</estimate>
+        <body>Default ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-7db66253</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/facets/auth/codecs/CcAES.java</file>
+        <lines>91-95</lines>
+        <estimate>30</estimate>
+        <body>CcAES ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-b4a12ea6</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/facets/fork/FkHitRefresh.java</file>
+        <lines>117-121</lines>
+        <estimate>30</estimate>
+        <body>FkHitRefresh ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-12fc4eff</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/facets/fork/MediaType.java</file>
+        <lines>62-66</lines>
+        <estimate>30</estimate>
+        <body>MediaType ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-7c5810e9</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/http/BkTimeable.java</file>
+        <lines>67-71</lines>
+        <estimate>30</estimate>
+        <body>BkThreads ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-e98f4792</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/http/Options.java</file>
+        <lines>71-75</lines>
+        <estimate>30</estimate>
+        <body>Options ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-d5ffb2ba</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/misc/Href.java</file>
+        <lines>76-80</lines>
+        <estimate>30</estimate>
+        <body>Href ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-79259f7e</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/rq/RqForm.java</file>
+        <lines>290-294</lines>
+        <estimate>30</estimate>
+        <body>Fake ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>558-afc1c081</id>
+        <ticket>558</ticket>
+        <file>src/main/java/org/takes/rq/RqMultipart.java</file>
+        <lines>131-135</lines>
+        <estimate>30</estimate>
+        <body>Base ctor. According to new qulice version, constructor must contain only variables initialization and other constructor calls. Refactor code according to that rule and remove `ConstructorOnlyInitializesOrCallOtherConstructors` warning suppression.</body>
+        <role>IMP</role>
+        <author>Maksimenko Vladimir</author>
+        <email>xupypr@xupypr.com</email>
+        <time>2016-02-07T12:18:27Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/574" closed="2017-10-27T18:53:57+00:00">574</issue>
+    <id>517-9858229b</id>
+    <ticket>517</ticket>
+    <file>pom.xml</file>
+    <lines>360-362</lines>
+    <estimate>30</estimate>
+    <body>Continue fixing FindBugs violations started in #517. #517 turned on the FindBugs, temporarily excluding some classes. Remove all excludes of FindBugs below and fix the issues.</body>
+    <role>IMP</role>
+    <author>sxg</author>
+    <email>Sebin.George@datacash.com</email>
+    <time>2016-01-31T17:25:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/624" closed="2017-10-27T18:53:58+00:00">624</issue>
+        <id>574-2964594e</id>
+        <ticket>574</ticket>
+        <file>pom.xml</file>
+        <lines>373-375</lines>
+        <estimate>30</estimate>
+        <body>Continue fixing FindBugs violations started in #574. #574 turned on the FindBugs, temporarily excluding some classes. Remove all excludes of FindBugs below and fix the issues.</body>
+        <role>IMP</role>
+        <author>sxg</author>
+        <email>Sebin.George@datacash.com</email>
+        <time>2016-02-09T20:31:43Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/takes/issues/660" closed="2017-10-27T18:53:59+00:00">660</issue>
+            <id>624-78dfe52a</id>
+            <ticket>624</ticket>
+            <file>pom.xml</file>
+            <lines>338-340</lines>
+            <estimate>30</estimate>
+            <body>Continue fixing FindBugs violations started in #624. #624 turned on the FindBugs, temporarily excluding some classes. Remove all excludes of FindBugs below and fix the issues.</body>
+            <role>IMP</role>
+            <author>Dal&#xED; Freire</author>
+            <email>dalifreire@gmail.com</email>
+            <time>2016-03-29T10:01:49Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/takes/issues/678" closed="2017-10-27T18:54:00+00:00">678</issue>
+                <id>660-949a08e1</id>
+                <ticket>660</ticket>
+                <file>src/main/java/org/takes/HttpException.java</file>
+                <lines>34-36</lines>
+                <estimate>30</estimate>
+                <body>Remove the SuppressWarnings PMD.BeanMembersShouldSerialize once the next release of Qulice will be available as it has been removed by https://github.com/teamed/qulice/issues/675</body>
+                <role>IMP</role>
+                <author>Nicolas Filotto</author>
+                <email>nicolas.filotto@gmail.com</email>
+                <time>2016-04-24T14:32:17Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/takes/issues/684" closed="2017-10-27T18:54:01+00:00">684</issue>
+                    <id>678-b4f3ecf4</id>
+                    <ticket>678</ticket>
+                    <file>pom.xml</file>
+                    <lines>344-346</lines>
+                    <estimate>30</estimate>
+                    <body>After upgrade to qulice 0.16.4 we have to fix AbbreviationAsWordInNameCheck checkstyle warings in next classes. Fix issues and remove all excludes of PMD here.</body>
+                    <role>IMP</role>
+                    <author>Maksimenko Vladimir</author>
+                    <email>xupypr@xupypr.com</email>
+                    <time>2016-06-04T13:40:55Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue>unknown</issue>
+                        <id>684-70270140</id>
+                        <ticket>684</ticket>
+                        <file>src/main/java/org/takes/tk/TkCors.java</file>
+                        <lines>53-56</lines>
+                        <estimate>15</estimate>
+                        <body>Remove PMD.AvoidDuplicateLiterals exclude here and in {@link RsPrettyJson}, {@link RsPrettyXml}. Note that this puzzle depends on https://github.com/teamed/qulice/issues/760. Note that this puzzle has partially overlap with https://github.com/yegor256/takes/issues/686</body>
+                        <role>IMP</role>
+                        <author>Maksimenko Vladimir</author>
+                        <email>xupypr@xupypr.com</email>
+                        <time>2016-06-18T15:49:05Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/takes/issues/686" closed="2017-10-27T18:54:02+00:00">686</issue>
+                    <id>678-832c7c24</id>
+                    <ticket>678</ticket>
+                    <file>pom.xml</file>
+                    <lines>380-382</lines>
+                    <estimate>30</estimate>
+                    <body>After upgrade to qulice 0.16.4 we have to fix AvoidDuplicateLiterals PMD warings in next classes. Fix issues and remove all excludes of PMD here.</body>
+                    <role>IMP</role>
+                    <author>Maksimenko Vladimir</author>
+                    <email>xupypr@xupypr.com</email>
+                    <time>2016-06-04T13:40:55Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue>unknown</issue>
+                        <id>686-832c7c24</id>
+                        <ticket>686</ticket>
+                        <file>pom.xml</file>
+                        <lines>344-346</lines>
+                        <estimate>30</estimate>
+                        <body>After upgrade to qulice 0.16.4 we have to fix AvoidDuplicateLiterals PMD warings in next classes. Fix issues and remove all excludes of PMD here.</body>
+                        <role>IMP</role>
+                        <author>Dal&#xED; Freire</author>
+                        <email>dalifreire@gmail.com</email>
+                        <time>2016-06-19T23:04:19Z</time>
+                        <children/>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue>unknown</issue>
+                        <id>686-55806871</id>
+                        <ticket>686</ticket>
+                        <file>src/main/java/org/takes/facets/flash/RsFlash.java</file>
+                        <lines>103-105</lines>
+                        <estimate>15</estimate>
+                        <body>After upgrade to qulice 0.16.4 we have to fix SingularField PMD warings in this class. Fix this warning and rid of the PMD suppression here.</body>
+                        <role>IMP</role>
+                        <author>Dal&#xED; Freire</author>
+                        <email>dalifreire@gmail.com</email>
+                        <time>2016-06-21T00:44:25Z</time>
+                        <children/>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue>unknown</issue>
+                        <id>686-bac26563</id>
+                        <ticket>686</ticket>
+                        <file>src/test/java/org/takes/facets/auth/social/PsLinkedinTest.java</file>
+                        <lines>57-59</lines>
+                        <estimate>30</estimate>
+                        <body>After upgrade to qulice 0.16.4 we have to fix ExcessiveMethodLength PMD warings in this classe. Fix this warning and rid of the PMD suppression here.</body>
+                        <role>IMP</role>
+                        <author>Dal&#xED; Freire</author>
+                        <email>dalifreire@gmail.com</email>
+                        <time>2016-06-19T23:34:01Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>254-d68bc52e</id>
+    <ticket>254</ticket>
+    <file>src/main/java/org/takes/rq/CapInputStream.java</file>
+    <lines>37-40</lines>
+    <estimate>30</estimate>
+    <body>CapInputStream should delegate all standard InputStream calls to it's origin. It's very important in context of closing stream - right code should close the stream but default InputStream implementation just throws IOException</body>
+    <role>IMP</role>
+    <author>Andrey Eliseev</author>
+    <email>andrey.eliseev@db.com</email>
+    <time>2016-01-22T20:13:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>254-40a8e0fe</id>
+    <ticket>254</ticket>
+    <file>src/main/java/org/takes/rq/RqMultipart.java</file>
+    <lines>241-244</lines>
+    <estimate>30</estimate>
+    <body>in order to delete temporary files InputStream instance on Request.body should be closed. In context of multipart requests that means that body of all parts should be closed once they are not needed anymore.</body>
+    <role>IMP</role>
+    <author>Andrey Eliseev</author>
+    <email>andrey.eliseev@db.com</email>
+    <time>2016-01-22T20:13:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>620-91883c6a</id>
+    <ticket>620</ticket>
+    <file>src/test/java/org/takes/rq/RqMultipartTest.java</file>
+    <lines>91-98</lines>
+    <estimate>30</estimate>
+    <body>This test is using RqGreedy in order to survive. If you remove RqGreedy, the test will crash. I can't find out why exactly it's happening. But the main problem is that somehow inside RqMultipart.Fake we're reading body() of dispositions twice or more times. That's why RqGreedy is required now. I order to always return the same content. Let's find what exactly is the problem and remove RqGreedy from this test and three other test methods below.</body>
+    <role>IMP</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2016-02-22T23:48:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>651-43df2f64</id>
+    <ticket>651</ticket>
+    <file>src/main/java/org/takes/rq/multipart/RqMtBase.java</file>
+    <lines>80-83</lines>
+    <estimate>30</estimate>
+    <body>This class is highly coupled, it should be refactored in order to be able to reduce the overall coupling of this class which will allow to remove the violations ClassDataAbstractionCouplingCheck and PMD.ExcessiveImports.</body>
+    <role>IMP</role>
+    <author>Nicolas Filotto</author>
+    <email>nicolas.filotto@gmail.com</email>
+    <time>2016-04-18T19:58:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>664-ddd2c9b3</id>
+    <ticket>664</ticket>
+    <file>src/main/java/org/takes/rs/RsXSLT.java</file>
+    <lines>143-145</lines>
+    <estimate>30</estimate>
+    <body>continue removing usage StandardCharsets.UTF_8 from takes code (remove usage not only from this class but also from other parts of project). Please look at #664 for more details.</body>
+    <role>IMP</role>
+    <author>Maksimenko Vladimir</author>
+    <email>xupypr@xupypr.com</email>
+    <time>2016-04-25T17:40:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/687" closed="2017-10-27T18:54:03+00:00">687</issue>
+    <id>667-ace435e8</id>
+    <ticket>667</ticket>
+    <file>src/main/java/org/takes/rq/RqForm.java</file>
+    <lines>69-71</lines>
+    <estimate>30</estimate>
+    <body>Refacor this class to reduce the data abstraction coupling in order to get rid of the checkstyle suppression of ClassDataAbstractionCouplingCheck</body>
+    <role>IMP</role>
+    <author>Dal&#xED; Freire</author>
+    <email>dalifreire@gmail.com</email>
+    <time>2016-05-06T21:41:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>687-65dc14c7</id>
+        <ticket>687</ticket>
+        <file>src/main/java/org/takes/rq/form/RqFormBase.java</file>
+        <lines>56-58</lines>
+        <estimate>30</estimate>
+        <body>Refactor this class to reduce the data abstraction coupling in order to get rid of the checkstyle suppression of ClassDataAbstractionCouplingCheck.</body>
+        <role>IMP</role>
+        <author>Rui Castro</author>
+        <email>rui.castro@gmail.com</email>
+        <time>2016-06-25T00:49:32Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>687-875c0e1d</id>
+        <ticket>687</ticket>
+        <file>src/main/java/org/takes/rq/form/package-info.java</file>
+        <lines>38-40</lines>
+        <estimate>15</estimate>
+        <body>Improve documentation for package org.takes.rq.form explaining what a form is, providing code examples of usage of existing classes and other info that may be relevant.</body>
+        <role>IMP</role>
+        <author>Rui Castro</author>
+        <email>rui.castro@gmail.com</email>
+        <time>2016-06-25T01:09:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/730" closed="2018-02-14T22:55:58+00:00">730</issue>
+    <ticket>712</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>712-e6a34ddb</id>
+    <lines>44-46</lines>
+    <body>Prepare implementation for empty response body test and unignore returnsAnEmptyResponseBody test to fix such error which was reported in #712.</body>
+    <file>src/test/java/org/takes/tk/TkSlf4jTest.java</file>
+    <author>Piotr Pradzynski</author>
+    <email>prondzyn@gmail.com</email>
+    <time>2017-02-15T14:01:07Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/800" closed="2018-11-18T19:00:26+00:00">800</issue>
+        <ticket>730</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>730-80b57821</id>
+        <lines>55-58</lines>
+        <body>Fix FtRemote for empty response body test case and unignore returnsAnEmptyResponseBody. After that the {@link org.takes.tk.TkSlf4jRemoteTest} should be fixed and relevant test case should be unignored.</body>
+        <file>src/test/java/org/takes/http/FtRemoteTest.java</file>
+        <author>Izbassar Tolegen</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-02-13T11:21:48Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/takes/issues/869" closed="2019-11-26T10:53:04+00:00">869</issue>
+            <ticket>800</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>800-fe5f523c</id>
+            <lines>55-59</lines>
+            <body>We can't assert if FtRemote returns an empty body because some bug in jcabi-http (reported in https://github.com/jcabi/jcabi-http/issues/177). After this bug is fixed, the {@link org.takes.tk.TkSlf4jRemoteTest} should be fixed and relevant test case should be unignored.</body>
+            <file>src/test/java/org/takes/http/FtRemoteTest.java</file>
+            <author>Victor No&#xEB;l</author>
+            <email>victor.noel@crazydwarves.org</email>
+            <time>2018-11-18T09:55:14Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/731" closed="2018-01-17T14:51:11+00:00">731</issue>
+    <ticket>712</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>712-65dc14c7</id>
+    <lines>47-49</lines>
+    <body>Refactor this class to reduce the data abstraction coupling in order to get rid of the checkstyle suppression of ClassDataAbstractionCouplingCheck.</body>
+    <file>src/test/java/org/takes/tk/TkSlf4jTest.java</file>
+    <author>Piotr Pradzynski</author>
+    <email>prondzyn@gmail.com</email>
+    <time>2016-12-14T06:03:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/780" closed="2018-02-21T19:52:58+00:00">780</issue>
+    <ticket>218</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>218-f14916a5</id>
+    <lines>36-41</lines>
+    <body>Implement Condition.Range that should select elements within given range of indexes. It should be constructable with specified ranges and with starting position. Having that we can implement Condition.Skip that will simply negate Condition.Range so that elements are skipped that are inside the given range or from given starting position.</body>
+    <file>src/main/java/org/takes/misc/Condition.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-01-29T17:37:00Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/806" closed="2018-10-11T01:46:09+00:00">806</issue>
+        <ticket>780</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>780-9da18957</id>
+        <lines>37-39</lines>
+        <body>Bring Cactoos dependency to the project. Replace Select and Condition usages by Cactoos analogues. The Condition.Skip should be also available in Cactoos.</body>
+        <file>src/main/java/org/takes/misc/Condition.java</file>
+        <author>Izbassar Tolegen</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-02-16T17:41:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/781" closed="2018-02-20T19:12:58+00:00">781</issue>
+    <ticket>373</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>373-b5720fa6</id>
+    <lines>37-39</lines>
+    <body>Document usage of Front interface in README.md. Provide information about implementations and how and when they can be used in client's code.</body>
+    <file>src/main/java/org/takes/http/Front.java</file>
+    <author>Tolegen Izbassar</author>
+    <email>tolegen.izbassar@ubs.com</email>
+    <time>2018-01-26T14:42:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/782" closed="2018-02-26T20:41:48+00:00">782</issue>
+    <ticket>373</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>373-5aec50f1</id>
+    <lines>38-40</lines>
+    <body>Document usage of Back interface in README.md. Provide information about implementations and how and when they can be used in client's code.</body>
+    <file>src/main/java/org/takes/http/Back.java</file>
+    <author>Tolegen Izbassar</author>
+    <email>tolegen.izbassar@ubs.com</email>
+    <time>2018-01-26T14:42:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/794" closed="2018-03-05T14:55:12+00:00">794</issue>
+    <ticket>485</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>485-ca1df145</id>
+    <lines>43-58</lines>
+    <body>Right now we can only check that InputStream have the same content as other InputStream. This is very limited usage. Task is to introduce `HmTextBody` that will make available to us to use useful string matchers from hamcrest. The usage will be like that: ``` MatcherAssert.assertThat( response, new HmRsTextBody&lt;&gt;(Matchers.startsWith("&lt;html&gt;")) ); ``` The default constructor should use `Matcher.containsString` as default matcher, which is used for matching string to body. Current implementation of `AbstractHmBody` should be converted to `HmBytesBody` that will check equality of bytes. We can think of improving that class lately.</body>
+    <file>src/main/java/org/takes/facets/hamcrest/AbstractHmBody.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-02-09T11:31:26Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/819" closed="2018-11-29T01:32:53+00:00">819</issue>
+        <ticket>794</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>794-b5119934</id>
+        <lines>45-49</lines>
+        <body>Implement describeMismatchSafely and cover mismatch descriptions with relevant test cases. Update describeTo implementation to be more informative and add relevant test cases for that. Both should show, what was expected, what was actually in the body and text description for clear understanding.</body>
+        <file>src/main/java/org/takes/facets/hamcrest/AbstractHmTextBody.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-03-05T14:38:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/820" closed="2018-10-11T03:47:43+00:00">820</issue>
+        <ticket>794</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>794-9c47f19f</id>
+        <lines>43-45</lines>
+        <body>Current implementation of `AbstractHmBody` should be converted to `HmBytesBody` that will check equality of bytes. We can think of improving that class lately.</body>
+        <file>src/main/java/org/takes/facets/hamcrest/AbstractHmBody.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2018-03-05T14:38:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/859" closed="2018-10-11T19:51:02+00:00">859</issue>
+        <ticket>794</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>794-c85dda7b</id>
+        <lines>48-50</lines>
+        <body>Current implementation of `HmBody` should be converted to `HmBytesBody` that will check equality of bytes. We can think of improving that class lately.</body>
+        <file>src/main/java/org/takes/facets/hamcrest/HmBody.java</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2018-09-04T18:26:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/795" closed="2018-03-17T15:54:16+00:00">795</issue>
+    <ticket>485</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>485-6f864529</id>
+    <lines>60-63</lines>
+    <body>Right now the describeTo doesn't properly show the reason behind mismatch. It should show expected bytes and actual bytes for better clarification for end user. Also describeMismatchSafely should be implemented.</body>
+    <file>src/main/java/org/takes/facets/hamcrest/AbstractHmBody.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-02-09T11:31:26Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/832" closed="2018-10-14T15:41:17+00:00">832</issue>
+        <ticket>795</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>795-077f3980</id>
+        <lines>65-67</lines>
+        <body>Right now the describeTo method do not covered with tests. Cover this method with unit test to increase coverage of the class.</body>
+        <file>src/main/java/org/takes/facets/hamcrest/AbstractHmBody.java</file>
+        <author>Tolegen Izbassar</author>
+        <email>t.izbassar@gmail.com</email>
+        <time>2018-03-13T09:51:31Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/796" closed="2018-03-01T14:11:01+00:00">796</issue>
+    <ticket>793</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>793-49ae4191</id>
+    <lines>85-87</lines>
+    <body>Replace this class usages with RqHref(req).href() or simply Href when the issue with parsing anchors is fixed and delete this implementation for good</body>
+    <file>src/main/java/org/takes/tk/TkRedirect.java</file>
+    <author>Valeriy Zhirnov</author>
+    <email>neonailol@gmail.com</email>
+    <time>2018-02-04T20:51:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/802" closed="2019-01-04T16:04:22+00:00">802</issue>
+    <ticket>744</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>744-7f6a14c2</id>
+    <lines>246-248</lines>
+    <body>`null` constant usage in the function `directoryUpdated` is violating the key principles, defined in README.md file and must be eliminated.</body>
+    <file>src/main/java/org/takes/facets/fork/FkHitRefresh.java</file>
+    <author>Kapralov Sergey</author>
+    <email>skapralov@mail.ru</email>
+    <time>2018-02-15T11:36:52Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/935" closed="2019-01-16T22:27:04+00:00">935</issue>
+        <ticket>802</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>802-a1804963</id>
+        <lines>237-240</lines>
+        <body>Continue removing nulls from the codebase, which still exist in the code. The way it is violates the key principles, defined in the README.md file and should be deleted.</body>
+        <file>src/main/java/org/takes/facets/fork/FkHitRefresh.java</file>
+        <author>marceloamadeu</author>
+        <email>marceloandradeamadeu@gmail.com</email>
+        <time>2019-01-04T14:56:05Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/812" closed="2018-11-22T23:29:20+00:00">812</issue>
+    <ticket>778</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>778-192143c0</id>
+    <lines>75-78</lines>
+    <body>Fix flushHeadEvenWhenExceptionHappens test and remove Ignore annotation. Implementation could not rely on simple try-finally block as OutputStreamWriter do not call to the flush() of OutputStream. It has additional checks.</body>
+    <file>src/test/java/org/takes/rs/RsPrintTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-02-26T20:07:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/865" closed="2019-01-24T16:48:59+00:00">865</issue>
+    <ticket>682</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>682-74f1da61</id>
+    <lines>44-47</lines>
+    <body>Continue to integrate with Servlet API, see https://github.com/yegor256/takes/pull/836 discussion for details. Also add unit tests for servlet related classes: SrvTake, RqFrom and ResponseOf.</body>
+    <file>src/main/java/org/takes/servlet/SrvTake.java</file>
+    <author>Kirill</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2018-10-24T16:20:05Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/953" closed="2019-01-25T19:33:26+00:00">953</issue>
+        <ticket>865</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>865-bfce408b</id>
+        <lines>42-44</lines>
+        <body>Continue to integrate with Servlet API, see https://github.com/yegor256/takes/pull/865 discussion for details. Also add unit tests for servlet related class SrvTake.</body>
+        <file>src/main/java/org/takes/servlet/SrvTake.java</file>
+        <author>Fabricio Cabral</author>
+        <email>fabriciofx@gmail.com</email>
+        <time>2019-01-24T16:18:00Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/yegor256/takes/issues/955">955</issue>
+            <ticket>953</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>953-05f5c26f</id>
+            <lines>42-45</lines>
+            <body>Integration with Servlets Session API, see https://github.com/yegor256/takes/pull/865 discussion for details. Add support and tests to Servlet Session. This implementation will able store data in the server side, as a session does.</body>
+            <file>src/main/java/org/takes/servlet/SrvTake.java</file>
+            <author>Fabricio Cabral</author>
+            <email>fabriciofx@gmail.com</email>
+            <time>2019-01-25T18:53:23Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/866" closed="2019-01-11T15:29:20+00:00">866</issue>
+    <ticket>682</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>682-06e5396c</id>
+    <lines>44-46</lines>
+    <body>Servlet request and response adapters are not unit-tested. There should be tests for reading headers and body from servlet request and test for validating servlet response after applying takes request.</body>
+    <file>src/main/java/org/takes/servlet/ResponseOf.java</file>
+    <author>g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2018-04-09T05:16:36Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/938" closed="2019-01-24T16:49:02+00:00">938</issue>
+        <ticket>866</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>866-ccba7032</id>
+        <lines>39-41</lines>
+        <body>Servlet request adapter is not unit-tested. There should be tests for reading headers and body from servlet request. See https://github.com/yegor256/takes/pull/865 discussion for details.</body>
+        <file>src/main/java/org/takes/servlet/RqFrom.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-01-11T15:10:43Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/880" closed="2018-12-12T19:50:24+00:00">880</issue>
+    <ticket>837</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>837-241b1372</id>
+    <lines>373-377</lines>
+    <body>Upgrade qulice to latest 0.17.x and if possible to latest 0.18.x and fix all the issues it detects for the build to pass. In 0.17.6, some changes impact a lot of file, while in 0.18 there should be less new issues. Don't forget about the IT test ran by maven-invoker-plugin.</body>
+    <file>pom.xml</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2018-11-28T17:39:27Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/takes/issues/894">894</issue>
+        <ticket>880</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>880-4ac1935a</id>
+        <lines>100-105</lines>
+        <body>Once Cactoos is updated to qulice &gt;=0.18.5 remove all references to Files.newXXX static methods and replace them with OO objects such as InputOf or OutputOf depending on the need. See https://github.com/yegor256/takes/pull/886#issuecomment-446030223 for details.</body>
+        <file>pom.xml</file>
+        <author>Victor No&#xEB;l</author>
+        <email>victor.noel@crazydwarves.org</email>
+        <time>2018-12-11T18:12:55Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/881" closed="2018-12-12T12:04:02+00:00">881</issue>
+    <ticket>837</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>837-e35739d6</id>
+    <lines>378-383</lines>
+    <body>Finish the upgrade to qulice 0.17.5 by reviewing all diamond usage: it was required until now to explicit the type in generics but it is not needed anymore. For example in BkTimetable line 65, new ConcurrentHashMap&lt;Thread, Long&gt;(1) should be new ConcurrentHashMap&lt;&gt;(1). There are around 70 cases like that.</body>
+    <file>pom.xml</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2018-12-01T17:39:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/882" closed="2018-12-26T16:52:17+00:00">882</issue>
+    <ticket>837</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>837-89c97f66</id>
+    <lines>390-393</lines>
+    <body>Un-exclude findbugs from qulice checks and fix the bugs it detects for the build to pass. Most of those are related to reliance on default encoding and synchronization problems.</body>
+    <file>pom.xml</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2018-11-28T17:39:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/887" closed="2019-01-19T01:06:57+00:00">887</issue>
+    <ticket>804</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>804-84fdf636</id>
+    <lines>41-45</lines>
+    <body>Make Body extends Cactoos's Input and replace input method with stream method. Once this is done, rewrite the tests (such as BodyTest) so that they do not use guava but Cactoos objects and cactoos-matchers InputHasContent. When there is no more need for the method input, remove it.</body>
+    <file>src/main/java/org/takes/rs/Body.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2018-11-24T11:19:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/888" closed="2019-02-21T16:57:45+00:00">888</issue>
+    <ticket>804</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>804-1f63803d</id>
+    <lines>45-53</lines>
+    <body>Continue removing Guava's code from tests, starting with all the calls to Joiner by replacing them with Cactoos JoinedText and the use of cactoos-matchers TextIs or TextHasContent coupled with this class RsPrint as a Text as it was started in #804. When there is no more use for the method print, remove it and extract printHead and printBody in two different classes BodyPrint and HeadPrint both implementing Text and start again replacing guava in tests in the same manner. Create new todos until guava is removed and Takes is much more Cactoos oriented as started with #804.</body>
+    <file>src/main/java/org/takes/rs/RsPrint.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2018-11-24T11:19:11Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/968" closed="2019-06-01T13:10:04+00:00">968</issue>
+        <ticket>888</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>888-1f63803d</id>
+        <lines>45-53</lines>
+        <body>Continue removing Guava's code from tests, starting with all the calls to Joiner by replacing them with Cactoos JoinedText and the use of cactoos-matchers TextIs or TextHasContent coupled with this class RsPrint as a Text as it was started in #804. When there is no more use for the method print, remove it and extract printHead and printBody in two different classes BodyPrint and HeadPrint both implementing Text and start again replacing guava in tests in the same manner. Create new todos until guava is removed and Takes is much more Cactoos oriented as started with #804.</body>
+        <file>src/main/java/org/takes/rs/RsPrint.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-02-21T16:35:52Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/takes/issues/984" closed="2020-06-29T18:07:37+00:00">984</issue>
+            <ticket>968</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>968-1f63803d</id>
+            <lines>45-53</lines>
+            <body>Continue removing Guava's code from tests, starting with all the calls to Joiner by replacing them with Cactoos JoinedText and the use of cactoos-matchers TextIs or TextHasContent coupled with this class RsPrint as a Text as it was started in #804. When there is no more use for the method print, remove it and extract printHead and printBody in two different classes BodyPrint and HeadPrint both implementing Text and start again replacing guava in tests in the same manner. Create new todos until guava is removed and Takes is much more Cactoos oriented as started with #804.</body>
+            <file>src/main/java/org/takes/rs/RsPrint.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2019-06-01T12:48:24Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/takes/issues/1054" closed="2020-09-11T04:11:40+00:00">1054</issue>
+                <ticket>984</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>984-c7848b91</id>
+                <lines>48-52</lines>
+                <body>Extract printHead and printBody in two different classes BodyPrint and HeadPrint both implementing Text and start again replacing guava in tests in the same manner. Create new todos until guava is removed and Takes is much more Cactoos oriented as started with #804.</body>
+                <file>src/main/java/org/takes/rs/RsPrint.java</file>
+                <author>andreoss</author>
+                <email>andreoss@sdf.org</email>
+                <time>2020-06-23T01:52:50Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/takes/issues/1073" closed="2021-09-01T18:07:54+00:00">1073</issue>
+                    <ticket>1054</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1054-12508176</id>
+                    <lines>42-44</lines>
+                    <body>Continue replacing guava in tests. Create new todos until guava is removed and Takes is much more Cactoos oriented as started with #804.</body>
+                    <file>src/main/java/org/takes/rs/RsPrint.java</file>
+                    <author>Fabr&#xED;cio Cabral</author>
+                    <email>fabriciofx@gmail.com</email>
+                    <time>2020-08-23T05:59:41Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/takes/issues/1074" closed="2021-03-21T13:52:28+00:00">1074</issue>
+                    <ticket>1054</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1054-0458805c</id>
+                    <lines>101-104</lines>
+                    <body>Remove the #print(OutputStream) methods. After the creation of {@link HeadPrint} and {@link BodyPrint} classes, these methods lost sense and need be removed from these classes and all tests that uses #print() method.</body>
+                    <file>src/main/java/org/takes/rs/RsPrint.java</file>
+                    <author>Fabr&#xED;cio Cabral</author>
+                    <email>fabriciofx@gmail.com</email>
+                    <time>2020-09-11T02:35:34Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/yegor256/takes/issues/1075" closed="2021-03-21T13:52:33+00:00">1075</issue>
+                    <ticket>1054</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1054-a8efe282</id>
+                    <lines>42-44</lines>
+                    <body>Develop tests for {@link HeadPrint} and {@link BodyPrint}. Although these classes are tested by {@link RsPrint} they need their own unit tests.</body>
+                    <file>src/main/java/org/takes/rs/HeadPrint.java</file>
+                    <author>Fabr&#xED;cio Cabral</author>
+                    <email>fabriciofx@gmail.com</email>
+                    <time>2020-09-11T02:35:34Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/yegor256/takes/issues/1055" closed="2020-07-28T20:28:08+00:00">1055</issue>
+                <ticket>984</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>984-b6700210</id>
+                <lines>41-43</lines>
+                <body>This class should implement Text in accordance with RsPrint. Make it implement text, then clean up code from `new TextOf(new RqPrint(...).print())` idiom and remove method `print`.</body>
+                <file>src/main/java/org/takes/rq/RqPrint.java</file>
+                <author>andreoss</author>
+                <email>andreoss@sdf.org</email>
+                <time>2020-06-23T01:52:50Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/889" closed="2018-12-21T20:02:32+00:00">889</issue>
+    <ticket>804</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>804-8078cfde</id>
+    <lines>31-35</lines>
+    <body>Make this implements Cactoos Bytes and Text and make the places in Takes that use it be able to directly take either a Bytes or a Text depending on the situation. For example RsWithBody should take Bytes and Text in its constructors. Also reimplement this class with BytesOf.</body>
+    <file>src/main/java/org/takes/misc/Utf8String.java</file>
+    <author>Victor No&#xEB;l</author>
+    <email>victor.noel@crazydwarves.org</email>
+    <time>2018-11-24T11:19:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/895" closed="2022-08-22T06:07:40+00:00">895</issue>
+    <ticket>877</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>877-052482c8</id>
+    <lines>42-46</lines>
+    <body>replace all org.junit.Test occurrences in the project by JUnit 5 equivalent org.junit.jupiter.api.Test and replaces all expected Exceptions by Assertions.assertThrows. Check org.takes.facets.auth.codecs.CcAesTest or org.takes.facets.auth.codecs.CcSaltedTest as examples.</body>
+    <file>src/test/java/org/takes/facets/auth/codecs/CcStrictTest.java</file>
+    <author>oridan</author>
+    <email>oridan@gmail.com</email>
+    <time>2018-12-14T12:36:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/takes/issues/917">917</issue>
+    <ticket>863</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>863-4448a93c</id>
+    <lines>48-49</lines>
+    <body>Continue removing nulls from the code base, there are still some places that use it and can be replaced with better code constructs.</body>
+    <file>src/main/java/org/takes/facets/fork/FkHitRefresh.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-26T15:09:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/948" closed="2022-08-22T06:07:46+00:00">948</issue>
+    <ticket>893</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>893-3412ae8c</id>
+    <lines>96-99</lines>
+    <body>Continue removing static class Matchers. Use the classes IdentityTest.java, PsAllTest.java, PsBasicDefaultTest.java, PsChainTest.java, HmBodyTest.java, HmRqTextBodyTest.java, HmRsStatusTest.java, and HmRsTextBodyTest.java as an example.</body>
+    <file>src/test/java/org/takes/facets/hamcrest/HmBodyTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-16T16:22:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/950" closed="2021-03-21T14:29:51+00:00">950</issue>
+    <ticket>577</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>577-dcc6f7a1</id>
+    <lines>368-372</lines>
+    <body>The test below fails with the message "header "Content-Disposition" is mandatory". The error disappears when `new RqFake(new ListOf&lt;&gt;(""), "")` is changed to `new RqFake(new ListOf&lt;&gt;(""), "someValue")`. Fix the underlying problem and remove the `@Ignore` annotation.</body>
+    <file>src/test/java/org/takes/rq/multipart/RqMtFakeTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-19T23:43:54Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/takes/issues/1095">1095</issue>
+        <ticket>950</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>950-0b2d9fd8</id>
+        <lines>128-133</lines>
+        <body>Remove code from this ctor, leaving only initialization. Currently this constructor access body of the request and triggers its evaluation. This breaks composition of multiple request, as it can be seen in {@link RqMtFake}. When this task is done, remove explicit lazy evaluation for RqMtFake.</body>
+        <file>src/main/java/org/takes/rq/multipart/RqMtBase.java</file>
+        <author>@andreoss</author>
+        <email>andreoss@sdf.org</email>
+        <time>2020-10-22T10:44:36Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/998" closed="2020-02-10T14:41:22+00:00">998</issue>
+    <ticket>918</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>918-4b25f3bd</id>
+    <lines>31-34</lines>
+    <body>Remove this class in favour of {@link org.cactoos.text.Lowered} which does the same. Find all usages of this class in the project and replace by suggested {@link org.cactoos.text.Lowered} class.</body>
+    <file>src/main/java/org/takes/misc/EnglishLowerCase.java</file>
+    <author>@fanifieiev</author>
+    <email>fevzi.anifyeyev@gmail.com</email>
+    <time>2019-11-20T16:02:00Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1008" closed="2020-02-13T18:40:45+00:00">1008</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-598741c4</id>
+        <lines>54-57</lines>
+        <body>The method 'getHeaders' is broken. Please fix that. The {@link org.takes.servlet.HttpServletResponseFakeTest} can use any value when using 'getHeaders(param)' method and the tests will pass successfully. So the tests are invalid as well.</body>
+        <file>src/main/java/org/takes/servlet/HttpServletResponseFake.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-12-02T18:07:24Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1009" closed="2025-09-01T04:32:32+00:00">1009</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-afb3a7a5</id>
+        <lines>42-44</lines>
+        <body>Replace the usage of {@link java.lang.String}.format in the project and leverage {@link org.cactoos.text.FormattedText} decorator as it is an elegant object oriented way.</body>
+        <file>src/main/java/org/takes/package-info.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-12-02T18:07:24Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1010" closed="2020-02-11T18:13:00+00:00">1010</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-bf531c2b</id>
+        <lines>45-47</lines>
+        <body>Replace the usage of {@link java.lang.String}.trim in the project and leverage {@link org.cactoos.text.Trimmed} decorator as it is an elegant object oriented way.</body>
+        <file>src/main/java/org/takes/package-info.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-12-02T18:07:24Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1011" closed="2020-03-12T19:54:40+00:00">1011</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-930f99e9</id>
+        <lines>48-51</lines>
+        <body>Replace the usage of {@link java.lang.String}.startsWith in the project and leverage the future functionality described in the issue https://github.com/yegor256/cactoos/issues/1265 as it is an elegant object oriented way.</body>
+        <file>src/main/java/org/takes/package-info.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-12-24T16:30:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1012" closed="2020-03-18T20:36:14+00:00">1012</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-4e007535</id>
+        <lines>33-38</lines>
+        <body>Please remove this class and use {@link org.cactoos.io.BytesOf} decorator instead of this class. Use {@link org.cactoos.text.TextOf} decorator where required with combination of {@link org.cactoos.io.BytesOf}. The {@link org.cactoos.io.BytesOf} contains several different constructors for most of the inputs and supports UTF-8.</body>
+        <file>src/main/java/org/takes/misc/Utf8String.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-11-29T17:13:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1013" closed="2020-02-13T16:38:30+00:00">1013</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-391a4461</id>
+        <lines>33-36</lines>
+        <body>Please remove this class and use {@link org.cactoos.io.ReaderOf} decorator instead of this class. The {@link org.cactoos.io.ReaderOf} contains several different constructors for most of the inputs and supports UTF-8.</body>
+        <file>src/main/java/org/takes/misc/Utf8InputStreamContent.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-11-29T17:13:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1014" closed="2020-05-01T22:09:52+00:00">1014</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-179b06ba</id>
+        <lines>34-37</lines>
+        <body>Please remove this class and also {@link org.takes.misc.TransformAction} and leverage one of the followings {@link org.cactoos.iterable.Mapped}, {@link org.cactoos.iterator.Mapped}, {@link org.cactoos.list.Mapped} decorators.</body>
+        <file>src/main/java/org/takes/misc/Transform.java</file>
+        <author>@fanifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-11-29T17:13:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1015" closed="2020-04-23T03:39:53+00:00">1015</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-c07e6e60</id>
+        <lines>35-38</lines>
+        <body>Please remove this class and use {@link org.cactoos.text.FormattedText} decorator instead of this class. The {@link org.cactoos.text.FormattedText} does the same job and supports decorating functionality of other {@link org.cactoos.Text} objects.</body>
+        <file>src/main/java/org/takes/misc/Sprintf.java</file>
+        <author>Fevzi Anifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-11-29T17:13:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1016" closed="2020-04-23T03:13:10+00:00">1016</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-44c9d907</id>
+        <lines>34-37</lines>
+        <body>Please remove this class and use {@link org.cactoos.io.BytesOf} decorator instead of this class. The {@link org.cactoos.io.BytesOf} contains several different constructors for most of the inputs and supports UTF-8</body>
+        <file>src/main/java/org/takes/misc/Utf8PrintStream.java</file>
+        <author>Fevzi Anifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-11-29T17:13:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1017" closed="2020-04-23T03:27:44+00:00">1017</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-37169ad0</id>
+        <lines>33-36</lines>
+        <body>Please remove this class and use {@link org.cactoos.io.WriterTo} decorator instead of this class. The {@link org.cactoos.io.WriterTo} contains several different constructors for most of the inputs and supports UTF-8.</body>
+        <file>src/main/java/org/takes/misc/Utf8OutputStreamContent.java</file>
+        <author>Fevzi Anifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-11-29T17:13:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1018" closed="2025-10-14T08:49:33+00:00">1018</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-8713353e</id>
+        <lines>39-44</lines>
+        <body>Please use {@link org.cactoos.text.Split} instead of {@link String.split} as an elegant way. To completely leverage the {@link org.cactoos.text.Split} here, it is required for the completion of issue https://github.com/yegor256/cactoos/issues/1251 and upgrading to that version of Cactoos.</body>
+        <file>src/main/java/org/takes/facets/fork/MediaType.java</file>
+        <author>Fevzi Anifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-12-24T16:30:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1019" closed="2020-04-23T03:51:47+00:00">1019</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-08523712</id>
+        <lines>51-55</lines>
+        <body>Use {@link org.cactoos.scalar.Ternary} scalar here for conditionally evaluated result. Please refere to https://github.com/yegor256/cactoos/blob/master/src/main/java/org/cactoos/ scalar/Ternary.java class for javadoc on how to use this scalar in an elegant way.</body>
+        <file>src/main/java/org/takes/facets/fork/FkHost.java</file>
+        <author>Fevzi Anifieiev</author>
+        <email>fevzi.anifyeyev@gmail.com</email>
+        <time>2019-12-02T18:07:24Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/takes/issues/1451">1451</issue>
+        <ticket>998</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>998-74a81973</id>
+        <lines>22-24</lines>
+        <body>Replace the usage of {@link java.lang.String}.format in the project and leverage {@link org.cactoos.text.FormattedText} decorator as it is an elegant object-oriented way.</body>
+        <file>src/main/java/org/takes/package-info.java</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2025-09-01T04:32:18Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/999" closed="2020-10-16T00:48:27+00:00">999</issue>
+    <ticket>918</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>918-a277e748</id>
+    <lines>36-38</lines>
+    <body>Please use {@link org.cactoos.scalar.Sticky} decorator class so that multiple calls to body() would produce the same cached result rather than throwing an exception.</body>
+    <file>src/main/java/org/takes/rq/RqOnce.java</file>
+    <author>@fanifieiev</author>
+    <email>fevzi.anifyeyev@gmail.com</email>
+    <time>2019-11-20T16:02:00Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1080" closed="2022-01-18T07:21:32+00:00">1080</issue>
+        <ticket>999</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>999-c596aa68</id>
+        <lines>40-42</lines>
+        <body>Please use {@link org.cactoos.text.Sticky} decorator class instead of inner anonymous class below, which prevents input from being read twice by caching results of first call internally.</body>
+        <file>src/main/java/org/takes/rq/RqOnce.java</file>
+        <author>andreoss</author>
+        <email>andreoss@sdf.org</email>
+        <time>2020-09-16T20:36:00Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/yegor256/takes/issues/1117">1117</issue>
+            <ticket>1080</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1080-c1d53f7a</id>
+            <lines>41-43</lines>
+            <body>Please make two decorators (HeadOnce and BodyOnce) that prevent multiple reads of their contents. Introduce some units tests for these new classes.</body>
+            <file>src/main/java/org/takes/rq/RqOnce.java</file>
+            <author>@LightPro-Inc</author>
+            <email>baudolivier.oura@gmail.com</email>
+            <time>2021-03-25T05:10:07Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/takes/issues/1000">1000</issue>
+    <ticket>918</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>918-47bb7809</id>
+    <lines>49-52</lines>
+    <body>{@link TkFallback} class is very complicated, hard to read. Please consider removing static methods and replace them by dedicated elegant classes according to https://www.yegor256.com/2017/02/07/private-method-is-new-class.html</body>
+    <file>src/main/java/org/takes/facets/fallback/TkFallback.java</file>
+    <author>@fanifieiev</author>
+    <email>fevzi.anifyeyev@gmail.com</email>
+    <time>2019-11-20T16:02:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/1062" closed="2021-09-01T17:17:44+00:00">1062</issue>
+    <ticket>1050</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1050-5153da16</id>
+    <lines>51-54</lines>
+    <body>Text lacks a decorator for caching its value. The anonymous implementation here probably belongs to cactoos. Extract it as a separate class. After that add a new puzzle to do the same for the rest of Text implementing classes (such as RsPrint).</body>
+    <file>src/main/java/org/takes/rq/RqPrint.java</file>
+    <author>andreoss</author>
+    <email>andreoss@sdf.org</email>
+    <time>2020-07-26T20:07:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/1068" closed="2025-08-08T11:23:44+00:00">1068</issue>
+    <ticket>1058</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1058-ab240961</id>
+    <lines>366-374</lines>
+    <body>This test address the bug reported by issue #1058. The problem is {@link Href#createUri} method is recursive and isn't working properly (the index doesn't match with the correct position). But even fixing it, this leave a other question: should or not Takes send a 400 Bad Request response? By the HTTP protocol, the answer is yes. So, you should: 1) fix the recursive call in {@link Href#createUri} 2) change {@link BkBasic#print} to return a 400 Bad Request response and finally 3) unignore this test (that should pass).</body>
+    <file>src/test/java/org/takes/http/BkBasicTest.java</file>
+    <author>Fabr&#xED;cio Cabral</author>
+    <email>fabriciofx@gmail.com</email>
+    <time>2020-09-03T14:11:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/1088" closed="2021-11-15T05:59:25+00:00">1088</issue>
+    <ticket>1067</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1067-ac9afd75</id>
+    <lines>489-492</lines>
+    <body>This limits are set according to current metrics. Improve test coverage and increase a limit, than update this task. Remove this task when 0.99 is reached for each metric.</body>
+    <file>pom.xml</file>
+    <author>andreoss</author>
+    <email>andreoss@sdf.org</email>
+    <time>2020-10-23T23:51:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/takes/issues/1112" closed="2022-08-05T04:33:53+00:00">1112</issue>
+        <ticket>1088</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1088-ac9afd75</id>
+        <lines>472-475</lines>
+        <body>This limits are set according to current metrics. Improve test coverage and increase a limit, than update this task. Remove this task when 0.99 is reached for each metric.</body>
+        <file>pom.xml</file>
+        <author>@LightPro-Inc</author>
+        <email>baudolivier.oura@gmail.com</email>
+        <time>2021-03-12T07:02:04Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/1108" closed="2022-08-22T06:07:51+00:00">1108</issue>
+    <ticket>997</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>997-5bcbe378</id>
+    <lines>49-51</lines>
+    <body>We introduced a test to show issue that have been described in ticket #997. Now, we have to fix it and enable this test.</body>
+    <file>src/test/java/org/takes/rq/multipart/CopyBytesUntilBoundaryTest.java</file>
+    <author>Olivier B. OURA</author>
+    <email>baudolivier.oura@gmail.com</email>
+    <time>2021-04-17T15:17:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/takes/issues/1113" closed="2022-08-05T04:33:58+00:00">1113</issue>
+    <ticket>1110</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1110-00e4d7db</id>
+    <lines>317-319</lines>
+    <body>There are 18 tests that fail now, mostly due to versions upgrade (or an old Mockito version). We must fix them ASAP and then remove the next line</body>
+    <file>pom.xml</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2021-11-14T05:34:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/takes/issues/1114">1114</issue>
+    <ticket>958</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>958-e512fbf3</id>
+    <lines>392-395</lines>
+    <body>duplicate-finder-maven-plugin found module-info as duplicate and different class in [javax.json:javax.json-api:1.1,javax.xml.bind:jaxb-api:2.3.0]. After resolving duplicatefinder in Qulice, remove this plugin and configure qulice plugin to enable these exclusions (see at https://www.qulice.com/qulice-maven-plugin/example-exclude.html).</body>
+    <file>pom.xml</file>
+    <author>@baudoliver7</author>
+    <email>baudoliver7@gmail.com</email>
+    <time>2021-11-30T22:15:58Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

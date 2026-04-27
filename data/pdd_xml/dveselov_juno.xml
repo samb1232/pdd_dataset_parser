@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-01-19T09:52:36+00:00" version="0.30.21">
+  <puzzle alive="true">
+    <issue href="https://github.com/dveselov/juno/issues/2">2</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-2a971e69</id>
+    <lines>152-152</lines>
+    <body>Use token expiration time from env variables</body>
+    <file>internal/routes/authentication.go</file>
+    <author>Dima Veselov</author>
+    <email>d.veselov@itransition.com</email>
+    <time>2020-01-18T15:20:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dveselov/juno/issues/3">3</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-e000d88e</id>
+    <lines>8-8</lines>
+    <body>Write some documentation about JWT middleware usage</body>
+    <file>pkg/middleware/middleware.go</file>
+    <author>Dima Veselov</author>
+    <email>d.veselov@itransition.com</email>
+    <time>2020-01-18T15:34:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dveselov/juno/issues/4">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-16d18e0a</id>
+    <lines>37-37</lines>
+    <body>Implement config variables check on startup</body>
+    <file>internal/config/config.go</file>
+    <author>Dima Veselov</author>
+    <email>d.veselov@itransition.com</email>
+    <time>2020-01-18T15:34:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dveselov/juno/issues/5">5</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-f8b4e5b7</id>
+    <lines>52-52</lines>
+    <body>Wrap routes to /api/v1 group</body>
+    <file>cmd/api/main.go</file>
+    <author>Dima Veselov</author>
+    <email>d.veselov@itransition.com</email>
+    <time>2020-01-18T15:34:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dveselov/juno/issues/6">6</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-65019a57</id>
+    <lines>50-50</lines>
+    <body>Use VerificationCodeTTL from env config</body>
+    <file>internal/authentication/providers/interface.go</file>
+    <author>Dima Veselov</author>
+    <email>d.veselov@itransition.com</email>
+    <time>2020-01-18T15:54:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dveselov/juno/issues/7">7</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-42d93e0a</id>
+    <lines>8-8</lines>
+    <body>Write tests for utils module</body>
+    <file>internal/utils/phone_number.go</file>
+    <author>Dima Veselov</author>
+    <email>d.veselov@itransition.com</email>
+    <time>2020-01-19T09:48:52Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

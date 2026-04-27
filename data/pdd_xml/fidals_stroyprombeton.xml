@@ -1,0 +1,2931 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-07-26T08:10:12+00:00" version="0.30.18">
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/118" closed="2017-12-20T08:27:21+00:00">118</issue>
+    <ticket>117</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>117-cb0461b4</id>
+    <lines>15-15</lines>
+    <body>run backup before deploy</body>
+    <file>docker/Makefile</file>
+    <author>Dima Veselov</author>
+    <email>d.a.veselov@yandex.ru</email>
+    <time>2017-10-11T12:01:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/121" closed="2018-06-22T08:49:20+00:00">121</issue>
+    <ticket>106</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>106-4167c824</id>
+    <lines>18-19</lines>
+    <body>&#x412;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x432; dev-&#x441;&#x440;&#x435;&#x434;&#x435; django-debug-toolbar &#x43F;&#x43E;-&#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E; &#x41D;&#x43E; &#x432; CI &#x435;&#x433;&#x43E; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x44C;, &#x442;.&#x43A;. &#x432;&#x43E;&#x437;&#x43D;&#x438;&#x43A;&#x430;&#x44E;&#x442; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x438;</body>
+    <file>stroyprombeton/settings/dev.py</file>
+    <author>Dima Veselov</author>
+    <email>d.a.veselov@yandex.ru</email>
+    <time>2017-10-13T16:44:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/140" closed="2018-10-23T13:01:52+00:00">140</issue>
+    <ticket>85</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>85-600a6da3</id>
+    <lines>16-17</lines>
+    <body>Create active() shortcut filter instead of using .filter(page__is_active=True)</body>
+    <file>stroyprombeton/views/search.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2017-11-20T17:28:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/157" closed="2018-05-30T15:05:12+00:00">157</issue>
+    <ticket>TABLEEDITOR-TEST</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>TABLEEDITOR-TEST-675949b7</id>
+    <lines>502-504</lines>
+    <body>Fix a TableEditor.test_new_entity_creation test. test_new_entity_creation does not pass. You can find error traceback here: https://ci.fidals.com/fidals/stroyprombeton/106</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2017-12-22T13:07:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/159" closed="2018-12-19T05:58:55+00:00">159</issue>
+    <ticket>150</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>150-9a03496d</id>
+    <lines>42-43</lines>
+    <body>Validate if `.env` is full Is full means '.env` contains all keynames from `.env.dist`</body>
+    <file>docker/docker-compose.yml</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2017-12-26T10:15:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/162" closed="2018-05-30T15:05:14+00:00">162</issue>
+    <ticket>160</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>160-a0d43631</id>
+    <lines>446-447</lines>
+    <body>Repair Search test `stroyprombeton.tests.tests_selenium.Search#test_autocomplete_see_all_item`</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-01-13T07:32:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/163" closed="2018-05-07T12:05:24+00:00">163</issue>
+    <ticket>160</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>160-956c9262</id>
+    <lines>231-233</lines>
+    <body>List mail recipients in config Remove `EMAIL_RECIPIENT` and `SHOP_EMAIL` settings and env vars. And add EMAIL_RECIPIENTS</body>
+    <file>stroyprombeton/settings/base.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-01-13T07:32:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/191" closed="2019-01-25T12:39:18+00:00">191</issue>
+    <ticket>137</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>137-7a497511</id>
+    <lines>14-14</lines>
+    <body>Remove the rest of wait(...) calls in favor of explicit the WebDriverWait.</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-05-30T15:05:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/192">192</issue>
+    <ticket>137</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>137-e5de5ce7</id>
+    <lines>259-260</lines>
+    <body>Fix test_tree_redirect_to_entity_site_page test. This test shouldn't work because of new tab opening.</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-05-30T15:05:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/193">193</issue>
+    <ticket>137</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>137-a7a31c49</id>
+    <lines>232-236</lines>
+    <body>Setting a number of items flush all other fields on order page. Steps to reproduce the bug: 1. Add products to a cart and open an order page 2. Fill the fields (name, email, phone, etc.) 2. Change the number of any item</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-05-30T15:05:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/205">205</issue>
+    <ticket>142</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>142-0169d767</id>
+    <lines>67-68</lines>
+    <body>Resurrect backup system. Right now it's too dangerous and not used.</body>
+    <file>docker/Makefile</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-15T22:34:41Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/409">409</issue>
+        <ticket>205</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>205-8bf36106</id>
+        <lines>147-148</lines>
+        <body>Process private key for backups Create a script for backups to ask private key and host if they are missed.</body>
+        <file>docker/docker-compose-production.yml</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-01-29T17:23:28Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/410">410</issue>
+        <ticket>205</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>205-1d2c7d44</id>
+        <lines>583-583</lines>
+        <body>Resurrect `test_autocomplete_item_link`</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-01-29T17:23:28Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/411">411</issue>
+        <ticket>205</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>205-d9bc7f89</id>
+        <lines>3-4</lines>
+        <body>Enable rsync --backup option. To leave changed and/or deleted media files saved.</body>
+        <file>etc/backup/backup-entrypoint.sh</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-01-29T17:23:28Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/412">412</issue>
+        <ticket>205</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>205-4a2e6e8d</id>
+        <lines>10-11</lines>
+        <body>Do textual db backups. Use pgdump utility.</body>
+        <file>etc/backup/backup-entrypoint.sh</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-01-29T17:23:28Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/206" closed="2018-08-06T01:46:36+00:00">206</issue>
+    <ticket>142</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>142-b10915e2</id>
+    <lines>59-60</lines>
+    <body>Check why rabbitmq exposes it's ports to host machine. And write doc or request some fix.</body>
+    <file>docker/docker-compose.yml</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-15T22:34:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/207" closed="2018-06-16T00:51:57+00:00">207</issue>
+    <ticket>142</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>142-a64f413d</id>
+    <lines>83-84</lines>
+    <body>Resurrect coala. Already done it at se#302.</body>
+    <file>docker/docker-compose.yml</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-15T22:34:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/208" closed="2018-06-16T00:51:58+00:00">208</issue>
+    <ticket>142</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>142-2b52b0ff</id>
+    <lines>61-63</lines>
+    <body>Explore why drone `lint` and `docker-build` use .env Both of them should not as it seems. Write doc why or rm them. in case if "Push Hooks" is enabled in Drone settings GUI</body>
+    <file>.drone.yml</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-15T22:34:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/209" closed="2018-07-20T06:40:26+00:00">209</issue>
+    <ticket>142</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>142-c68e564e</id>
+    <lines>450-450</lines>
+    <body>Resurrect test for expanding of autocomplete</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-15T22:34:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/210" closed="2018-07-20T06:40:27+00:00">210</issue>
+    <ticket>142</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>142-32237ef1</id>
+    <lines>477-477</lines>
+    <body>Resurrect test for see all link of autocomplete</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-15T22:34:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/211" closed="2019-04-21T04:01:10+00:00">211</issue>
+    <ticket>142</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>142-0a53b98c</id>
+    <lines>81-82</lines>
+    <body>Move tests custom data to test_db. Use this command `stroyprombeton/management/commands/test_db.py`</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-15T22:34:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/212" closed="2018-08-17T12:14:42+00:00">212</issue>
+    <ticket>200</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>200-b0d7eb7f</id>
+    <lines>208-209</lines>
+    <body>Fix test_change_count_in_cart test. Traceback: https://ci.fidals.com/fidals/stroyprombeton/72/8</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-16T00:51:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/224" closed="2018-08-11T05:32:16+00:00">224</issue>
+    <ticket>218</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>218-2254cca6</id>
+    <lines>471-472</lines>
+    <body>Resurrect test_price_list test. See it's traceback here: https://ci.fidals.com/fidals/stroyprombeton/110/8</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-06-20T15:39:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/235" closed="2018-07-14T11:45:34+00:00">235</issue>
+    <ticket>215</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>215-3296d73b</id>
+    <lines>568-568</lines>
+    <body>Fill two Product's mark fields for fixtures and fix a related test</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>chelovek-18</author>
+    <email>chelovek-18@yandex.ru</email>
+    <time>2018-07-05T13:44:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/245" closed="2018-07-13T07:27:38+00:00">245</issue>
+    <ticket>236</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>236-a96a2aaa</id>
+    <lines>29-32</lines>
+    <body>Add CMD command to nodejs/Dockerfile. CMD must call "gulp watch" or "gulp build" depending on the presence of frontend built files. A command example: bash -c "[ '$(ls -A /usr/app/src_front/front)' ] &amp;&amp; gulp watch || gulp build"</body>
+    <file>docker/images/node/Dockerfile</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-07-11T18:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/246" closed="2018-07-13T07:27:39+00:00">246</issue>
+    <ticket>236</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>236-e4f4cc6e</id>
+    <lines>25-26</lines>
+    <body>Remove the app service's depedency from a nodejs service. We can take prebuilt frontend files through host machine.</body>
+    <file>docker/docker-compose.yml</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-07-11T18:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/255" closed="2019-01-25T12:39:19+00:00">255</issue>
+    <ticket>238</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>238-9c5eed31</id>
+    <lines>566-567</lines>
+    <body>Resurrect test `test_mark_search_on_table_editor` Fill two Product's mark fields for fixtures and fix a related test.</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-07-14T11:45:26Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/404">404</issue>
+        <ticket>255</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>255-c2970170</id>
+        <lines>405-405</lines>
+        <body>Find a way to wait search input in selenium tests</body>
+        <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-01-25T12:39:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/266" closed="2018-07-28T07:52:47+00:00">266</issue>
+    <ticket>257</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>257-f16bf56d</id>
+    <lines>147-155</lines>
+    <body>Cleanup front/build usage. Now different places stores front/build dir by different ways without no reason: - Host machine stores it at ./front/build - App dev - in ./build - App prod - in ./front/build - Nodejs - in ./build Store all this stuff in the similar way. Change `build` name for some more clear.</body>
+    <file>stroyprombeton/settings/base.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-07-20T06:42:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/274" closed="2018-12-04T13:55:59+00:00">274</issue>
+        <ticket>266</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>266-0bc83b3c</id>
+        <lines>231-231</lines>
+        <body>Resurrect test `test_tree_redirect_to_entity_edit_page`</body>
+        <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-07-28T07:52:41Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/273" closed="2018-08-06T00:42:10+00:00">273</issue>
+    <ticket>269</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>269-cd112c07</id>
+    <lines>8-10</lines>
+    <body>Implement tracking of certain actions on front-end for YA and GA. Actions: clear cart, changing products count on the order page. See the parent issue for a detail and se#434, that solves the same.</body>
+    <file>front/js/shared/services/tracking.es6</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-07-27T16:47:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/279" closed="2018-08-09T08:10:00+00:00">279</issue>
+    <ticket>268</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>268-fa7566a2</id>
+    <lines>18-18</lines>
+    <body>Resurrect js lint.</body>
+    <file>.coafile</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-08-02T09:45:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/296" closed="2018-12-19T05:58:55+00:00">296</issue>
+    <ticket>289</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>289-cdb3e4e2</id>
+    <lines>62-66</lines>
+    <body>Save fixture images to `media` folder. se2 Now `test_db` django command goes like this: - take file from tests folder - generate filename and path using timestamp - save generated path into db</body>
+    <file>stroyprombeton/management/commands/test_db.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-08-13T05:38:01Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/384">384</issue>
+        <ticket>296</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>296-027bf696</id>
+        <lines>62-62</lines>
+        <body>Test image uploading with admin panel.</body>
+        <file>stroyprombeton/management/commands/test_db.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-12-19T05:58:50Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/297">297</issue>
+    <ticket>172</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>172-cb2747c2</id>
+    <lines>98-101</lines>
+    <body>Set "news" parent-page by default. At stb#172 PO had problems with creating news. Then dev should do 1h research to reinvent manually adding "news" parent-page rule.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-08-13T05:38:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/313" closed="2018-12-17T15:41:44+00:00">313</issue>
+    <ticket>187</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>187-5270833f</id>
+    <lines>44-45</lines>
+    <body>Fix tags markup Now added only html tags and now markup.</body>
+    <file>templates/catalog/category.html</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:27:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/314" closed="2018-12-19T16:12:12+00:00">314</issue>
+    <ticket>187</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>187-5cc04a8d</id>
+    <lines>499-501</lines>
+    <body>Rm code doubled method in tests SE contains this method too. Move it to refarm side.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:27:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/315" closed="2018-11-14T13:58:48+00:00">315</issue>
+    <ticket>187</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>187-0b6de8e4</id>
+    <lines>542-542</lines>
+    <body>Resurrect CatalogTags tests</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:27:35Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/335">335</issue>
+        <ticket>315</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>315-9094883c</id>
+        <lines>662-662</lines>
+        <body>Render tags on product page</body>
+        <file>stroyprombeton/tests/tests_views.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-11-14T13:58:40Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/468" closed="2019-03-21T11:11:56+00:00">468</issue>
+            <ticket>335</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>335-112a70ee</id>
+            <lines>95-96</lines>
+            <body>Adapt order button to Options. Now this button puts product to cart, but should put option.</body>
+            <file>templates/catalog/product.html</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-02-27T13:21:44Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/fidals/stroyprombeton/issues/526">526</issue>
+                <ticket>468</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>468-ef699901</id>
+                <lines>33-34</lines>
+                <body>Rename position_key to 'option' at js files. All `position_key` values at this file will become 'option'.</body>
+                <file>stroyprombeton/views/ecommerce.py</file>
+                <author>duker33</author>
+                <email>duker33@gmail.com</email>
+                <time>2019-03-21T11:11:44Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/316" closed="2019-01-25T12:39:21+00:00">316</issue>
+    <ticket>187</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>187-1700602f</id>
+    <lines>294-295</lines>
+    <body>Stabilize TableEditor selenium tests Write them on event based model instead of plain waits.</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:27:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/317" closed="2019-01-25T12:39:22+00:00">317</issue>
+    <ticket>187</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>187-a69d0658</id>
+    <lines>476-476</lines>
+    <body>Resurrect selenium test `test_save_and_drop_custom_filters`</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:27:35Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/405">405</issue>
+        <ticket>317</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>317-e1224271</id>
+        <lines>360-361</lines>
+        <body>Fix missing "Tags" field selenium admin tests. It not appears as table column when selected in the list with fields.</body>
+        <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-01-25T12:39:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/318">318</issue>
+    <ticket>187</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>187-598bff5b</id>
+    <lines>24-24</lines>
+    <body>Move url's arg `category_id` to `slug` as on SE</body>
+    <file>stroyprombeton/urls.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:27:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/319">319</issue>
+    <ticket>187</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>187-fbf98a1b</id>
+    <lines>2-6</lines>
+    <body>Move catalog's js code to refarm.catalog app. `refarm.catalog` sided js module should contain this functions: Tags, Pagination and DBTemplate. But see full feature set to implement on refarm side in refarm.catalog.context.</body>
+    <file>front/js/category.es6</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:27:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/320">320</issue>
+    <ticket>187</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>187-bccbbf6e</id>
+    <lines>8-10</lines>
+    <body>Take selenium tests for category page. And fix some front bugs: currently front has some. I don't describe them, tests will do it.</body>
+    <file>front/js/category.es6</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:27:35Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/340" closed="2019-01-25T12:39:23+00:00">340</issue>
+        <ticket>320</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>320-eb49c2d0</id>
+        <lines>210-211</lines>
+        <body>Take CatalogTags tests from SE. `shopelectro.tests.tests_views.CatalogTags`</body>
+        <file>stroyprombeton/tests/tests_views.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-11-17T06:51:18Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/406">406</issue>
+            <ticket>340</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>340-6466f49e</id>
+            <lines>69-70</lines>
+            <body>Move TestPageMixin to some PageData class. And remove CategoryTable().response field.</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>@duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-01-25T12:39:11Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/341" closed="2018-11-24T12:38:49+00:00">341</issue>
+        <ticket>320</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>320-689ffef4</id>
+        <lines>15-17</lines>
+        <body>- Import `models` module to it's own var. Do `from stroyprombeton import models as stb_models` for all file. Other `models` modules too.</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-11-17T06:51:18Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/342" closed="2018-11-24T12:38:51+00:00">342</issue>
+        <ticket>320</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>320-df28331d</id>
+        <lines>355-356</lines>
+        <body>Move category page loading to test side. Now `CategoryPage.setUp()` do it.</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-11-17T06:51:18Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/343" closed="2018-11-24T12:38:52+00:00">343</issue>
+        <ticket>320</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>320-b90e1577</id>
+        <lines>406-406</lines>
+        <body>Create non-selenium test for load_more.</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-11-17T06:51:18Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/344" closed="2018-11-24T12:38:54+00:00">344</issue>
+        <ticket>320</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>320-6fdba2ab</id>
+        <lines>470-473</lines>
+        <body>Move get_category_path to top of the module. se2 STB tests_views and SE has the same get_category_url method. We should reuse this method among all tests on project side. Also move `reverse_catalog_url` to refarm side.</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-11-17T06:51:18Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/321" closed="2018-10-31T12:30:25+00:00">321</issue>
+    <ticket>232</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>232-b6438654</id>
+    <lines>35-37</lines>
+    <body>Create separated DB for stage. Stage should have it's own data independent of production. We'll test content change scripts with PO there.</body>
+    <file>docker/docker-compose-production.yml</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-24T08:36:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/327">327</issue>
+    <ticket>rf169</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>rf169-bd7c6c62</id>
+    <lines>17-20</lines>
+    <body>Fix model.Manager inheritance problem Category model ignores parent's manager. ``` In [1]: from stroyprombeton.models import Category</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-10-23T13:01:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/336" closed="2018-12-19T16:12:14+00:00">336</issue>
+    <ticket>328</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>328-3afa2059</id>
+    <lines>148-148</lines>
+    <body>Move get_item filter to pages_extras. se2</body>
+    <file>stroyprombeton/templatetags/stb_extras.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-11-14T13:58:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/352" closed="2018-11-24T12:38:56+00:00">352</issue>
+    <ticket>339</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>339-cacaa4c4</id>
+    <lines>315-315</lines>
+    <body>Test tags filter "flush" button</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-11-19T10:38:35Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/359" closed="2019-01-25T12:39:24+00:00">359</issue>
+        <ticket>352</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>352-ef4c6710</id>
+        <lines>542-543</lines>
+        <body>autocomplete selenium test. Now it fails in some cases, but not in all.</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-11-24T12:38:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/358" closed="2018-11-26T14:04:20+00:00">358</issue>
+    <ticket>348</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>348-883da686</id>
+    <lines>59-60</lines>
+    <body>Create a test runner, that will check, that each test is tagged. See commets for detail: https://github.com/fidals/stroyprombeton/pull/349</body>
+    <file>.drone.yml</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-11-22T16:34:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/365">365</issue>
+    <ticket>303</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>303-30170dc3</id>
+    <lines>2-5</lines>
+    <body>Send `purchase` event to YA and GA after a success purchase. This will allow us to send order's id. Currently we send the event after submitting of the purchase button with the dummy order's id. See the parent issue for a detail.</body>
+    <file>front/js/shared/services/tracking.es6</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-11-28T10:19:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/366">366</issue>
+    <ticket>303</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>303-f7f52310</id>
+    <lines>7-7</lines>
+    <body>Send info about product's brand to YA and GA.</body>
+    <file>front/js/shared/services/tracking.es6</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-11-28T10:19:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/371" closed="2018-12-19T16:12:15+00:00">371</issue>
+    <ticket>347</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>347-0c474edb</id>
+    <lines>592-593</lines>
+    <body>Run test_inactive_product_not_in_search_autocomplete without selenium. The test only checks correctness of the backend's logic, but not of frontend.</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-12-04T13:55:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/373">373</issue>
+    <ticket>665</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>665-4996d06c</id>
+    <lines>4-6</lines>
+    <body>Resurrect InvalidLinkBear. Now it failed on CI. https://ci.fidals.com/fidals/stroyprombeton/554/11</body>
+    <file>.coafile</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-11T13:14:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/374" closed="2018-12-17T15:41:45+00:00">374</issue>
+    <ticket>362</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>362-37ae24cb</id>
+    <lines>777-778</lines>
+    <body>Collapse too tags on category page. See test below and parent task for details.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-11T13:14:45Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/379" closed="2019-01-25T12:39:25+00:00">379</issue>
+        <ticket>374</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>374-3d4dc0fa</id>
+        <lines>813-814</lines>
+        <body>Create test for from_index, to_index correctness. Dangerous case: ['1 &#x43C;', '2 &#x43C;', '11 &#x43C;'] -&gt; '&#x43E;&#x442; 1 &#x43C; &#x434;&#x43E; 2 &#x43C;'</body>
+        <file>stroyprombeton/tests/tests_views.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-12-17T15:41:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/380" closed="2019-01-25T12:39:27+00:00">380</issue>
+        <ticket>374</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>374-d720f0b9</id>
+        <lines>477-477</lines>
+        <body>Resurrect `test_apply_filter_state`</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-12-17T15:41:37Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/234" closed="2018-07-20T06:40:29+00:00">234</issue>
+            <ticket>380</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>380-0244f860</id>
+            <lines>473-473</lines>
+            <body>Resurrect test `test_autocomplete_item_link`</body>
+            <file>stroyprombeton/tests/tests_selenium.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2018-07-05T13:00:22Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/248" closed="2018-07-14T11:45:36+00:00">248</issue>
+            <ticket>380</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>380-a9650120</id>
+            <lines>566-566</lines>
+            <body>Resurrect test `test_mark_search_on_table_editor`</body>
+            <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+            <author>duker</author>
+            <email>duker33@gmail.com</email>
+            <time>2018-07-09T16:57:11Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/385" closed="2019-01-25T12:39:28+00:00">385</issue>
+    <ticket>RF220</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>RF220-1d2c7d44</id>
+    <lines>564-564</lines>
+    <body>Resurrect `test_autocomplete_item_link`</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-19T10:18:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/386" closed="2019-01-25T12:39:30+00:00">386</issue>
+    <ticket>RF220</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>RF220-00877b66</id>
+    <lines>574-574</lines>
+    <body>Resurrect `test_autocomplete_see_all_item`</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-19T10:18:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/407" closed="2019-02-27T13:22:22+00:00">407</issue>
+    <ticket>SE432</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>SE432-bb2f9735</id>
+    <lines>62-63</lines>
+    <body>Resurrect product.diameter_out field render Now tests are failed with segmentation fault because of the field.</body>
+    <file>templates/catalog/product.html</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-25T12:39:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/413" closed="2019-02-06T18:24:56+00:00">413</issue>
+    <ticket>396</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>396-bdb2fc78</id>
+    <lines>17-18</lines>
+    <body>Adapt static gen to Options. Upgrade this modules: price, remove_product_duplicates, sitemaps</body>
+    <file>stroyprombeton/management/commands/price.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/414" closed="2019-01-31T16:57:56+00:00">414</issue>
+    <ticket>396</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>396-bd7ee888</id>
+    <lines>2-2</lines>
+    <body>Explore fake_db command and write comment about it.</body>
+    <file>stroyprombeton/management/commands/fake_db.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/415" closed="2019-01-31T16:57:57+00:00">415</issue>
+    <ticket>396</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>396-defb3772</id>
+    <lines>24-24</lines>
+    <body>Adapt fake_db to Options</body>
+    <file>stroyprombeton/management/commands/fake_db.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/416" closed="2019-02-06T18:24:58+00:00">416</issue>
+    <ticket>396</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>396-cce8dc93</id>
+    <lines>192-193</lines>
+    <body>Adapt test_db command to Options. Then remove `null=True, blank=True` from Product.options field.</body>
+    <file>stroyprombeton/management/commands/test_db.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/417" closed="2019-01-31T16:57:58+00:00">417</issue>
+    <ticket>396</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>396-09bb25d2</id>
+    <lines>4-5</lines>
+    <body>Import the whole module `catalog_models, page_models, mptt_models -&gt; catalog.models, page.models, mptt.models`</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/418" closed="2019-06-15T10:44:36+00:00">418</issue>
+    <ticket>396</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>396-65609d67</id>
+    <lines>17-17</lines>
+    <body>Adapt ecommerce to Options.</body>
+    <file>stroyprombeton/views/ecommerce.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/419" closed="2019-02-21T09:55:16+00:00">419</issue>
+    <ticket>396</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>396-420da051</id>
+    <lines>20-20</lines>
+    <body>Adapt views to Options</body>
+    <file>stroyprombeton/views/catalog.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/455" closed="2019-03-24T10:42:54+00:00">455</issue>
+        <ticket>419</ticket>
+        <estimate>120</estimate>
+        <role>DEV</role>
+        <id>419-566f5d69</id>
+        <lines>194-194</lines>
+        <body>Cleanup product model after Options integration.</body>
+        <file>stroyprombeton/models.py</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-22T20:34:22Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/489" closed="2019-03-24T10:42:56+00:00">489</issue>
+            <ticket>455</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>455-0f1b7856</id>
+            <lines>115-116</lines>
+            <body>Rm null and blanks from relation fields. Only `stb.models` module from every place where it's redundant .</body>
+            <file>stroyprombeton/models.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-03-11T17:02:53Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/490" closed="2019-04-11T17:29:36+00:00">490</issue>
+            <ticket>455</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>455-327a87c6</id>
+            <lines>125-126</lines>
+            <body>Resurrect Product admin page fields set. And it's test.</body>
+            <file>stroyprombeton/tests/tests_admin.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-03-11T17:02:53Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/491" closed="2019-03-20T07:48:13+00:00">491</issue>
+            <ticket>455</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>455-206ee520</id>
+            <lines>546-547</lines>
+            <body>Resurrect pdf view. And it's test.</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-03-11T17:02:53Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/492" closed="2019-03-26T14:23:17+00:00">492</issue>
+            <ticket>455</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>455-7b29044c</id>
+            <lines>648-649</lines>
+            <body>Resurrect `test_tag_titles_content_conjunction`. To fix it define where tag groups with no related tags came from.</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-03-11T17:02:53Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/456" closed="2019-03-18T09:31:50+00:00">456</issue>
+        <ticket>419</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>419-b67d3c69</id>
+        <lines>134-134</lines>
+        <body>Fetch options and products with one query.</body>
+        <file>stroyprombeton/context.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-22T20:34:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/457">457</issue>
+        <ticket>419</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>419-10606646</id>
+        <lines>172-172</lines>
+        <body>Rename 'products' template var to 'positions'</body>
+        <file>stroyprombeton/context.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-22T20:34:22Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/280" closed="2018-08-06T09:43:27+00:00">280</issue>
+            <ticket>457</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>457-03c18b41</id>
+            <lines>18-22</lines>
+            <body>Rm npm step. Currently npm fails, when we touch it. https://ci.fidals.com/fidals/stroyprombeton/318/8 Example code from SE: https://github.com/fidals/shopelectro/pull/462</body>
+            <file>.drone.yml</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2018-08-02T09:45:26Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/458">458</issue>
+        <ticket>419</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>419-ddcc10c0</id>
+        <lines>196-197</lines>
+        <body>Rm models creation in favour of fixtures. At the tests.</body>
+        <file>stroyprombeton/tests/tests_views.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-22T20:34:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/459">459</issue>
+        <ticket>419</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>419-93ad88ac</id>
+        <lines>436-436</lines>
+        <body>Create fast search tests.</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-22T20:34:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/460" closed="2019-03-05T13:13:52+00:00">460</issue>
+        <ticket>419</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>419-4eba6ffa</id>
+        <lines>9-9</lines>
+        <body>Move search module to Options.</body>
+        <file>stroyprombeton/views/search.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-22T20:34:22Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/488" closed="2019-04-11T17:29:37+00:00">488</issue>
+            <ticket>460</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>460-5651cc3c</id>
+            <lines>516-517</lines>
+            <body>Integrate Option model to autocomplete It doesn't search by Option fields</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2019-03-05T13:13:45Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/420">420</issue>
+    <ticket>396</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>396-08f06279</id>
+    <lines>216-216</lines>
+    <body>Resurrect `test_tree_fetch_data`</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/421">421</issue>
+    <ticket>396</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>396-eab9312d</id>
+    <lines>235-235</lines>
+    <body>Resurrect `test_tree_redirect_to_table_editor_page`</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/422">422</issue>
+    <ticket>396</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>396-901e3638</id>
+    <lines>296-297</lines>
+    <body>Resurrect TableEditor. It's design will not be actual after Tags feature realizing.</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/423">423</issue>
+    <ticket>396</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>396-52167789</id>
+    <lines>160-160</lines>
+    <body>Adapt forms to Options</body>
+    <file>stroyprombeton/forms.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/424" closed="2019-02-07T09:53:33+00:00">424</issue>
+    <ticket>396</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>396-6d2bc254</id>
+    <lines>178-178</lines>
+    <body>Adapt admin panel to Options</body>
+    <file>stroyprombeton/admin.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-01-30T06:00:55Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/433" closed="2019-04-11T17:29:38+00:00">433</issue>
+        <ticket>424</ticket>
+        <estimate>120</estimate>
+        <role>DEV</role>
+        <id>424-3f91fbfa</id>
+        <lines>178-178</lines>
+        <body>Integrate new Option model to django's admin.</body>
+        <file>stroyprombeton/admin.py</file>
+        <author>Artemiy</author>
+        <email>wertins71@gmail.com</email>
+        <time>2019-02-07T09:53:25Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/589" closed="2019-04-14T22:51:50+00:00">589</issue>
+            <ticket>433</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>433-55979dd3</id>
+            <lines>19-19</lines>
+            <body>Drop Stb prefix for admin class definitions.</body>
+            <file>stroyprombeton/admin.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2019-04-11T17:29:23Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/590" closed="2019-04-14T22:51:51+00:00">590</issue>
+            <ticket>433</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>433-4bf0652c</id>
+            <lines>21-21</lines>
+            <body>Create separate module for admin features instead of admin.py file.</body>
+            <file>stroyprombeton/admin.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2019-04-11T17:29:23Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/591" closed="2019-04-17T03:53:21+00:00">591</issue>
+            <ticket>433</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>433-a94ade77</id>
+            <lines>244-245</lines>
+            <body>Determine relevance of CharacteristicsEqualityFilter. Either drop in case of obsoleteness or integrate with new Option model.</body>
+            <file>stroyprombeton/admin.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2019-04-11T17:29:23Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/fidals/stroyprombeton/issues/615">615</issue>
+                <ticket>591</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>591-05ff5077</id>
+                <lines>37-37</lines>
+                <body>Implement duplicates filter by tags, mark and series.</body>
+                <file>stroyprombeton/admin/filters.py</file>
+                <author>Artemiy</author>
+                <email>wertins71@gmail.com</email>
+                <time>2019-04-17T03:53:12Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/592" closed="2019-04-16T00:33:11+00:00">592</issue>
+            <ticket>433</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>433-88ad9d61</id>
+            <lines>247-247</lines>
+            <body>Integrate PriceRange with new Option model.</body>
+            <file>stroyprombeton/admin.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2019-04-11T17:29:23Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/432" closed="2019-02-12T18:01:57+00:00">432</issue>
+    <ticket>396</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>396-22e7f5ca</id>
+    <lines>16-17</lines>
+    <body>Adapt static gen to Options. Upgrade this modules: remove_product_duplicates, sitemaps</body>
+    <file>stroyprombeton/management/commands/price.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-02-06T18:24:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/436">436</issue>
+    <ticket>396</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>396-64050826</id>
+    <lines>5-5</lines>
+    <body>Adapt sitemaps for Option model.</body>
+    <file>stroyprombeton/sitemaps.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-02-12T18:01:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/443" closed="2019-02-21T09:55:17+00:00">443</issue>
+    <ticket>431</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>431-8ca0a87d</id>
+    <lines>22-24</lines>
+    <body>Move fetch_products to new context. Rm `settings.PRODUCTS_ON_PAGE_*` after moving. And rm old context code.</body>
+    <file>stroyprombeton/views/catalog.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-19T12:52:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/449" closed="2019-03-18T09:31:51+00:00">449</issue>
+        <ticket>443</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>443-950c8195</id>
+        <lines>47-51</lines>
+        <body>Improve context classes arch. Move `Catalog.select_tags` and `Catalog.filter_products` to some common area. Reuse the methods at pretty separated `Catalog` and `FetchProducts` classes. Move `sliced_products` inside of `context` method for both classes. Move `FetchProducts.filter_` and `FetchProducts.LOOKUPS` to some search entity.</body>
+        <file>stroyprombeton/context.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-21T09:55:04Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/514" closed="2019-03-20T07:48:14+00:00">514</issue>
+            <ticket>449</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>449-e2222af9</id>
+            <lines>207-210</lines>
+            <body>Remove FetchPositions class. Create a new context class to search and filter positions. Move filter_options and slice_products methods to a created class. FilteredOptions created from `Catalog.filter_positions` is the example.</body>
+            <file>stroyprombeton/context.py</file>
+            <author>@duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-03-18T09:31:39Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/fidals/stroyprombeton/issues/518">518</issue>
+                <ticket>514</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>514-68c1876e</id>
+                <lines>214-215</lines>
+                <body>Regroup `test_fetch_products_*` tests. Create a separated class for them.</body>
+                <file>stroyprombeton/tests/tests_views.py</file>
+                <author>duker33</author>
+                <email>duker33@gmail.com</email>
+                <time>2019-03-20T07:48:02Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/fidals/stroyprombeton/issues/519">519</issue>
+                <ticket>514</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>514-5a2bb059</id>
+                <lines>113-115</lines>
+                <body>Create PaginatedOptions class. Without code doubling between the new class and `context.products.PaginatedProducts` one.</body>
+                <file>stroyprombeton/context.py</file>
+                <author>duker33</author>
+                <email>duker33@gmail.com</email>
+                <time>2019-03-20T07:48:02Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/fidals/stroyprombeton/issues/520" closed="2019-04-12T15:34:05+00:00">520</issue>
+                <ticket>514</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>514-b42584c1</id>
+                <lines>180-182</lines>
+                <body>Improve Options contexts structure. Move all Options context classes to separated module. And create base class for them to remove code doubling.</body>
+                <file>stroyprombeton/context.py</file>
+                <author>duker33</author>
+                <email>duker33@gmail.com</email>
+                <time>2019-03-20T07:48:02Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/fidals/stroyprombeton/issues/598">598</issue>
+                    <ticket>520</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>520-5d49b072</id>
+                    <lines>227-227</lines>
+                    <body>Resurrect `test_tree_redirect_to_entity_edit_page`</body>
+                    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+                    <author>duker33</author>
+                    <email>duker33@gmail.com</email>
+                    <time>2019-04-12T15:33:46Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/fidals/stroyprombeton/issues/521" closed="2019-04-12T15:34:07+00:00">521</issue>
+                <ticket>514</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>514-c9968d1e</id>
+                <lines>271-274</lines>
+                <body>Pass Context objects inside every context class. Every class in the current module. should receive `Context` object as `options` arg, Now they receive `OptionsQuerySet` objects.</body>
+                <file>stroyprombeton/context.py</file>
+                <author>duker33</author>
+                <email>duker33@gmail.com</email>
+                <time>2019-03-20T07:48:02Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/515" closed="2019-03-20T07:48:15+00:00">515</issue>
+            <ticket>449</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>449-164f9109</id>
+            <lines>411-411</lines>
+            <body>Create fast test for search in with "fetch_products" view.</body>
+            <file>stroyprombeton/tests/tests_selenium.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-03-18T09:31:39Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/450" closed="2019-03-18T09:31:51+00:00">450</issue>
+        <ticket>443</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>443-35b41d1a</id>
+        <lines>107-107</lines>
+        <body>Create ContextDict type on refarm side. se2</body>
+        <file>stroyprombeton/context.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-21T09:55:04Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/451" closed="2019-03-17T07:05:33+00:00">451</issue>
+        <ticket>443</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>443-3dae6fc3</id>
+        <lines>55-57</lines>
+        <body>Check FetchProducts post params. Raise Http400 if categoryId not exists. See `Http400` error on SE for example.</body>
+        <file>stroyprombeton/request_data.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-02-21T09:55:04Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/511">511</issue>
+            <ticket>451</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>451-a44c90fb</id>
+            <lines>24-25</lines>
+            <body>Create middleware to for http errors. se2 Middleware should transform http exceptions to http errors errors.</body>
+            <file>stroyprombeton/views/catalog.py</file>
+            <author>@duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-03-17T07:05:10Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/444">444</issue>
+    <ticket>431</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>431-8de31c4b</id>
+    <lines>91-91</lines>
+    <body>Share base page to refarm side. se2</body>
+    <file>stroyprombeton/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-19T12:52:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/445" closed="2019-02-21T09:55:19+00:00">445</issue>
+    <ticket>431</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>431-e6857908</id>
+    <lines>134-134</lines>
+    <body>Create type hints for context on refarm side. se2</body>
+    <file>stroyprombeton/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-19T12:52:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/446" closed="2019-03-20T07:48:16+00:00">446</issue>
+    <ticket>431</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>431-c42d5a52</id>
+    <lines>180-182</lines>
+    <body>Move total_products to a relevant context class. At SE side "paginated" context var somehow contains "total_products" field. And move the relevant `test_tag_button_filter_products` test to the fast tests side.</body>
+    <file>stroyprombeton/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-19T12:52:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/522" closed="2019-03-31T15:52:24+00:00">522</issue>
+        <ticket>446</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>446-0314230a</id>
+        <lines>161-163</lines>
+        <body>Create catalog pagination tests. Take `shopelectro.tests.tests_views.CatalogPagination` as the example. Resurrect seo pagination functions if their are broken. See `templates/catalog/seo_links.html`</body>
+        <file>stroyprombeton/tests/tests_views.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-03-20T07:48:02Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/542" closed="2019-04-03T15:02:22+00:00">542</issue>
+            <ticket>522</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>522-471289ea</id>
+            <lines>342-346</lines>
+            <body>Fix catalog pagination Page navigation isn't implemented. There should be links to next and previos pages. See these issues for details: https://github.com/fidals/shopelectro/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aclosed+pagination</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2019-03-31T15:52:16Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/543" closed="2019-04-03T15:02:23+00:00">543</issue>
+            <ticket>522</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>522-f16cbc05</id>
+            <lines>368-369</lines>
+            <body>Add canonical pagination links They are missed. See SE implementation as a reference</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2019-03-31T15:52:16Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/447" closed="2019-03-17T07:05:35+00:00">447</issue>
+    <ticket>431</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>431-05aa5c70</id>
+    <lines>7-7</lines>
+    <body>Move Request class to refarm side. se2</body>
+    <file>stroyprombeton/request_data.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-19T12:52:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/469" closed="2019-03-01T08:14:34+00:00">469</issue>
+    <ticket>465</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>465-ed5b16ac</id>
+    <lines>140-141</lines>
+    <body>Implement `Tags.filter_by_options` method. Instead of refarm's `filter_by_products`</body>
+    <file>stroyprombeton/views/catalog.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-27T13:21:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/470">470</issue>
+    <ticket>465</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>465-310c2658</id>
+    <lines>287-289</lines>
+    <body>Improve tests_views.Product Use only fixtures, create shared response helper like `shopelectro.tests.tests_views.BaseCatalogTestCase#get_category_page` does.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-27T13:21:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/471">471</issue>
+    <ticket>355</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>355-941bd795</id>
+    <lines>40-42</lines>
+    <body>Make positions table adaptive. And fix mobile test below. Now it's failing because "order" button is not visible on mobile page.</body>
+    <file>stroyprombeton/tests/tests_selenium_mobile.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-27T13:21:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/493">493</issue>
+    <ticket>483</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>483-bd5c387d</id>
+    <lines>29-31</lines>
+    <body>Implement search by option. Return back searching by `option.specification` field. And test it of course.</body>
+    <file>stroyprombeton/views/search.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-11T17:02:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/494">494</issue>
+    <ticket>483</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>483-11f026a3</id>
+    <lines>31-32</lines>
+    <body>Explore `Category.specification` field purpose. Then document or rename it.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-11T17:02:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/495" closed="2019-03-24T10:42:57+00:00">495</issue>
+    <ticket>483</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>483-3a707bc2</id>
+    <lines>194-194</lines>
+    <body>Remove product tags</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-11T17:02:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/529" closed="2019-04-03T10:46:55+00:00">529</issue>
+        <ticket>495</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>495-765673ed</id>
+        <lines>800-801</lines>
+        <body>Resurrect `test_filter_options_by_tags`. Seems response parsing is needed here.</body>
+        <file>stroyprombeton/tests/tests_views.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-03-24T10:42:46Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/530" closed="2019-04-03T10:46:56+00:00">530</issue>
+        <ticket>495</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>495-16cfc6e1</id>
+        <lines>507-510</lines>
+        <body>Stabilize tests group. Get tag from DB with it's category instead of using hardcoded name to filter. Reuse a new code everywhere TAG_ID_TEMPLATE is used.</body>
+        <file>stroyprombeton/tests/tests_selenium.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-03-24T10:42:46Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/496" closed="2019-03-24T10:42:58+00:00">496</issue>
+    <ticket>483</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>483-f2f590b6</id>
+    <lines>207-207</lines>
+    <body>Drop `Product.is_popular` field.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-11T17:02:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/497">497</issue>
+    <ticket>483</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>483-c985428f</id>
+    <lines>121-122</lines>
+    <body>Resurrect admin's product price filter feature. And make test working.</body>
+    <file>stroyprombeton/tests/tests_selenium_admin.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-11T17:02:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/498" closed="2019-04-03T10:46:57+00:00">498</issue>
+    <ticket>483</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>483-8ac8288a</id>
+    <lines>219-220</lines>
+    <body>Resurrect `test_change_count_in_cart`. Depends on #468</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-11T17:02:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/546" closed="2019-04-12T14:26:53+00:00">546</issue>
+        <ticket>498</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>498-c440aac6</id>
+        <lines>889-891</lines>
+        <body>Create Product.catalog_name property. It'll consist of `f'{product.name} {product.mark}'` string. Use it at the templates and in this test.</body>
+        <file>stroyprombeton/tests/tests_views.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-03T10:46:46Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/594">594</issue>
+            <ticket>546</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>546-afbbad5c</id>
+            <lines>35-36</lines>
+            <body>Leaked Positions abstraction at templates. Models class Position has no field catalog_name, but this template uses it.</body>
+            <file>templates/ecommerce/order/email.html</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-04-12T14:26:42Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/499" closed="2019-04-03T10:46:57+00:00">499</issue>
+    <ticket>483</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>483-71f0695a</id>
+    <lines>241-242</lines>
+    <body>Resurrect `test_order_email`. Depends on #468</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-11T17:02:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/504">504</issue>
+    <ticket>500</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>500-7647c779</id>
+    <lines>71-74</lines>
+    <body>Improve tags table performance clearly. Drop `get_tag_name` template tag. It spawns O(n) queries to DB. Prepare tags structure at the view side instead. This approach requires just few queries.</body>
+    <file>stroyprombeton/templatetags/stb_extras.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-12T14:32:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/550" closed="2019-04-04T06:45:13+00:00">550</issue>
+    <ticket>532</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>532-90fd506d</id>
+    <lines>2-4</lines>
+    <body>Hide pagination links with JS instead of CSS We have already done this for SE. You may find it here: https://github.com/fidals/shopelectro/issues/402</body>
+    <file>templates/catalog/seo_links.html</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-04-03T15:01:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/558" closed="2019-06-26T07:47:59+00:00">558</issue>
+    <ticket>510</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>510-d7a1e1df</id>
+    <lines>48-50</lines>
+    <body>Create Series navigation. See the parent's task body for details about navigation. This task depends on Series page creation.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-05T12:27:17Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/599">599</issue>
+        <ticket>558</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>558-649a2a5f</id>
+        <lines>6-8</lines>
+        <body>Remove "category" words from series templates. Series templates are using some code copied from category ones. See all series templates and a related scss/js code.</body>
+        <file>templates/catalog/series_about.html</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-13T08:38:52Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/600" closed="2019-05-16T08:34:37+00:00">600</issue>
+        <ticket>558</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>558-04e9186b</id>
+        <lines>9-9</lines>
+        <body>Slice series list into four columns.</body>
+        <file>templates/catalog/series_matrix.html</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-13T08:38:52Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/601" closed="2019-04-18T08:45:19+00:00">601</issue>
+        <ticket>558</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>558-46d1764e</id>
+        <lines>190-191</lines>
+        <body>Create custom page for series matrix page. It will provide page and seo features: h1, content, metadata and so on.</body>
+        <file>stroyprombeton/views/catalog.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-13T08:38:52Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/559" closed="2019-06-26T07:48:00+00:00">559</issue>
+    <ticket>510</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>510-b8de40bc</id>
+    <lines>59-60</lines>
+    <body>Translate "Series" term. And "series" too. It's used in the relation with Product.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-05T12:27:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/560" closed="2019-04-07T10:43:11+00:00">560</issue>
+    <ticket>510</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>510-76a28a7b</id>
+    <lines>72-73</lines>
+    <body>Create Series page. And create "All Series page" after that.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-05T12:27:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/568" closed="2019-04-12T14:26:54+00:00">568</issue>
+        <ticket>560</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>560-497606ea</id>
+        <lines>40-41</lines>
+        <body>Rename `category_products.html` to `positions.html` Or maybe `options`. Make this decision for both #457 task and this one.</body>
+        <file>templates/catalog/series.html</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-07T10:43:00Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/569" closed="2019-04-11T08:16:19+00:00">569</issue>
+        <ticket>560</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>560-9d82911e</id>
+        <lines>192-192</lines>
+        <body>Use series slug instead of id for series url.</body>
+        <file>stroyprombeton/views/catalog.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-07T10:43:00Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/583">583</issue>
+            <ticket>569</ticket>
+            <estimate>120</estimate>
+            <role>DEV</role>
+            <id>569-bf910e66</id>
+            <lines>86-87</lines>
+            <body>Design unified slug autogenerating mech. Now it's doubled here and in several places at catalog.models.</body>
+            <file>stroyprombeton/models.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-04-11T08:16:03Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/570" closed="2019-04-11T08:16:20+00:00">570</issue>
+        <ticket>560</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>560-909f1e70</id>
+        <lines>194-195</lines>
+        <body>Test series page. Take some tests from category page.</body>
+        <file>stroyprombeton/views/catalog.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-07T10:43:00Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/309" closed="2019-01-25T12:39:20+00:00">309</issue>
+            <ticket>570</ticket>
+            <estimate>120</estimate>
+            <role>DEV</role>
+            <id>570-b7fb1b1b</id>
+            <lines>1-4</lines>
+            <body>Upgrade python to 3.7 3.7 version raises segfault and hangs up a test process. segfault log: https://ci.fidals.com/fidals/stroyprombeton/408/9 hanging up log: https://ci.fidals.com/fidals/stroyprombeton/405</body>
+            <file>docker/images/python/Dockerfile.dev</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2018-09-14T21:11:02Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/584" closed="2019-06-26T07:48:02+00:00">584</issue>
+            <ticket>570</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>570-e576fe87</id>
+            <lines>959-960</lines>
+            <body>Implement search on series. And resurrect the test below.</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-04-11T08:16:03Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/585" closed="2019-05-14T16:07:45+00:00">585</issue>
+            <ticket>570</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>570-7e520a1a</id>
+            <lines>1006-1008</lines>
+            <body>Implement product images on series page. Take this feature from categories. Depends from #565 - images repairing.</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-04-11T08:16:03Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/567" closed="2019-04-11T06:32:51+00:00">567</issue>
+    <ticket>556</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>556-3bf482e5</id>
+    <lines>73-76</lines>
+    <body>Show root categories as matrix. We have no mockup for it. Propose your own solution. Currently we have problem with many categories. Screen: http://prntscr.com/n802pt</body>
+    <file>stroyprombeton/views/catalog.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-07T10:08:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/581" closed="2019-04-12T13:33:21+00:00">581</issue>
+        <ticket>567</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>567-f4982695</id>
+        <lines>15-18</lines>
+        <body>Update top menu "Category" item dropdown content. Now the dropdown contains root categories. Make it to contain only several second level categories and "see more" link. We have no mockups, manage UI in your own way.</body>
+        <file>templates/catalog/catalog.html</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-11T06:32:39Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/593">593</issue>
+            <ticket>581</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>581-002c49f3</id>
+            <lines>25-28</lines>
+            <body>Move empty roots to empty second level. At fixtures remove empty roots, but create 100 empty second level categories. We'll not have many root categories at prod DB.</body>
+            <file>stroyprombeton/management/commands/test_db.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-04-12T13:33:11Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/582" closed="2019-04-12T13:33:22+00:00">582</issue>
+        <ticket>567</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>567-de1c738a</id>
+        <lines>82-85</lines>
+        <body>Create CategoryQS.bind_fields() method at the refarm side. Three code rows below should move to the new method. `catalog.models.CategoryQuerySet` is the proper class name for the new method.</body>
+        <file>stroyprombeton/views/catalog.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-11T06:32:39Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/574" closed="2019-05-14T16:07:46+00:00">574</issue>
+    <ticket>565</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>565-ac65ab55</id>
+    <lines>328-330</lines>
+    <body>Fix failed product images on the front side. The test below proofs that `product_images` context var works fine. Templates and front logic are left to explore.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-09T07:00:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/609">609</issue>
+    <ticket>596</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>596-604ecf4c</id>
+    <lines>43-47</lines>
+    <body>Rename "category-filter" props family. Series use them too. Use a new name like "items-filter" or "catalog-filter". Don't forget to check names in depth. For example `$m-category-filter-margin-right` should be renamed too.</body>
+    <file>templates/catalog/category.html</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-16T09:55:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/610" closed="2019-04-18T08:45:21+00:00">610</issue>
+    <ticket>596</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>596-2284720f</id>
+    <lines>190-194</lines>
+    <body>Filter options by category on Series page. Category page contains links on series pages. This link should look like `/series/&lt;series_slug&gt;/category/&lt;category_id&gt;`. And lead to the Series page with options filtered by this category. You should propose some UI decision to enable/disable this filter.</body>
+    <file>stroyprombeton/views/catalog.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-16T09:55:11Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/617">617</issue>
+        <ticket>610</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>610-ea79f4ac</id>
+        <lines>34-35</lines>
+        <body>Use css margin between blocks on series page. Instead of set of "br" html tags.</body>
+        <file>templates/catalog/series.html</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-17T07:35:38Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/618">618</issue>
+        <ticket>610</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>610-3110274b</id>
+        <lines>52-54</lines>
+        <body>Reverse series-category url instead of hardcoding it. See the `a.href` property below. Reverse the url at the views or at the templates.</body>
+        <file>templates/catalog/category.html</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-17T07:35:38Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/619" closed="2019-04-21T04:01:12+00:00">619</issue>
+        <ticket>610</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>610-5746c113</id>
+        <lines>227-227</lines>
+        <body>Return 404 if options list is empty not found.</body>
+        <file>stroyprombeton/views/catalog.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-17T07:35:38Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/631">631</issue>
+            <ticket>619</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>619-70cad134</id>
+            <lines>209-214</lines>
+            <body>Prevent code doubling in series views. Now series and series_matrix have doubled code. Possible solutions: - Use only one view for series and series+category. As category page does - Use view context system. Category view does it too. Those solutions don't except each other.</body>
+            <file>stroyprombeton/views/catalog.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-04-21T04:00:58Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/611" closed="2019-06-29T09:49:39+00:00">611</issue>
+    <ticket>597</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>597-ce108e86</id>
+    <lines>61-63</lines>
+    <body>Check mptt's `get_descendants` default optimization. Check if the method already contains relevant prefetch/select_related for parent, children fields.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-16T09:55:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/612">612</issue>
+    <ticket>597</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>597-9f986740</id>
+    <lines>252-254</lines>
+    <body>Implement `ProductQuerySet.get_series` method. Then reuse it at existing `Product.get_series` method. Use this ProductQuerySet class as Product queryset.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-16T09:55:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/613">613</issue>
+    <ticket>597</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>597-89e08fd0</id>
+    <lines>312-312</lines>
+    <body>Remove Product.price field</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-16T09:55:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/632">632</issue>
+    <ticket>622</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>622-d7fa0399</id>
+    <lines>597-599</lines>
+    <body>Fix search engine logic. If query fully equals some product.name, search results should return this product as the first results entry.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-04-21T04:00:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/634">634</issue>
+    <ticket>626</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>626-0b4d6445</id>
+    <lines>591-591</lines>
+    <body>Bring back a search query to search results page's input.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-04-23T00:51:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/640" closed="2019-05-31T11:57:19+00:00">640</issue>
+    <ticket>624</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>624-df5905de</id>
+    <lines>91-91</lines>
+    <body>Create SeriesInline and autocomplete on admin series-list page.</body>
+    <file>stroyprombeton/admin/models.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-04-29T12:17:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/650" closed="2019-06-07T19:43:16+00:00">650</issue>
+    <ticket>30m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>30m-ce3faa75</id>
+    <lines>1040-1042</lines>
+    <body>Make product/option ids out of sync. Now current product.id is equal to it's option id. See the assertion below.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-05-14T16:07:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/651">651</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-1d4cf566</id>
+    <lines>569-572</lines>
+    <body>Create arch for the Search tests. Create code, that will be able to test search by dataset presented in pattern "term -&gt; results". Maybe hypothesis lib will be helpful for it.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-05-15T17:26:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/664">664</issue>
+    <ticket>656</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>656-98af2788</id>
+    <lines>143-143</lines>
+    <body>Create tests for product siblings.</body>
+    <file>stroyprombeton/views/catalog.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-05-22T09:33:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/681">681</issue>
+    <ticket>665</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>665-8c96ce77</id>
+    <lines>267-268</lines>
+    <body>In tests get product-option with image from DB. Reuse the getting all over the tests.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-07T19:42:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/682">682</issue>
+    <ticket>675</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>675-dd5eb11c</id>
+    <lines>458-460</lines>
+    <body>At the fixtures create category with a few options. "A few options" means with less then options per_page limit count. See the code below.</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-07T19:42:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/683" closed="2019-06-17T13:55:31+00:00">683</issue>
+    <ticket>662</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>662-97154e41</id>
+    <lines>12-13</lines>
+    <body>Fix on product detail event publishing. Now it takes option details instead of product ones.</body>
+    <file>front/js/product.es6</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-08T07:27:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/684" closed="2019-06-17T13:55:35+00:00">684</issue>
+    <ticket>665</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>665-b7a31ca2</id>
+    <lines>162-162</lines>
+    <body>Fix the wrong product page's count input.</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-08T07:27:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/685" closed="2019-06-17T13:55:36+00:00">685</issue>
+    <ticket>662</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>662-dbfe2213</id>
+    <lines>170-171</lines>
+    <body>Fix input value changing on the product page. Now it's always "1". Launch the test below.</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-08T07:27:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/686" closed="2019-06-15T10:44:37+00:00">686</issue>
+    <ticket>665</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>665-a5aa9e4e</id>
+    <lines>266-267</lines>
+    <body>Fix email order. It became broken after options integration to the cart.</body>
+    <file>stroyprombeton/tests/tests_selenium.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-08T07:27:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/688">688</issue>
+    <ticket>663</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>663-0bea6a89</id>
+    <lines>4-4</lines>
+    <body>Test series crumbs. #}</body>
+    <file>templates/catalog/series.html</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-09T11:11:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/697" closed="2019-06-29T09:49:40+00:00">697</issue>
+    <ticket>692</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>692-fd8e891c</id>
+    <lines>21-21</lines>
+    <body>Implement min_price for non-leaf category.</body>
+    <file>stroyprombeton/tests/tests_models.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-18T12:29:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/701" closed="2019-07-04T09:29:38+00:00">701</issue>
+    <ticket>669</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>669-02688a32</id>
+    <lines>267-268</lines>
+    <body>Create sections navigation. Top menu link, matrix page, links from and to categories.</body>
+    <file>stroyprombeton/views/catalog.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/721" closed="2019-07-05T09:29:59+00:00">721</issue>
+        <ticket>701</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>701-fa2d2f00</id>
+        <lines>46-51</lines>
+        <body>Link between sections and category pages. Category should link on sections it already links on series. But don't copy SeriesByCategory functionality. Link on the plain section page. Section should link to categories with your's UI. Start from the code below.</body>
+        <file>templates/catalog/category.html</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-07-04T09:29:25Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/724" closed="2019-07-06T10:26:30+00:00">724</issue>
+            <ticket>721</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>721-c5864803</id>
+            <lines>9-10</lines>
+            <body>Show categories list from section page. We have no mockups. Create your own UI.</body>
+            <file>templates/catalog/section.html</file>
+            <author>@duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-07-05T09:29:50Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/725" closed="2019-07-18T08:54:20+00:00">725</issue>
+            <ticket>721</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>721-947d61a9</id>
+            <lines>302-303</lines>
+            <body>Fix category links on series. Launch the test below to get details.</body>
+            <file>stroyprombeton/tests/tests_views.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-07-05T09:29:50Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/702">702</issue>
+    <ticket>669</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>669-e87026f9</id>
+    <lines>1-2</lines>
+    <body>Explore seo_texts command. Either document or remove it.</body>
+    <file>stroyprombeton/management/commands/seo_texts.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/703" closed="2019-06-28T07:21:46+00:00">703</issue>
+    <ticket>669</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>669-92706ca5</id>
+    <lines>1089-1091</lines>
+    <body>Create tests for Section. Use Section tests draft below. Rm current SectionFirst draft. Create fixtures with sections.</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/704" closed="2019-06-28T07:21:48+00:00">704</issue>
+    <ticket>699</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>699-0168785b</id>
+    <lines>1128-1128</lines>
+    <body>Implement `OptionsQS.default_order` method. se2</body>
+    <file>stroyprombeton/tests/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/705">705</issue>
+    <ticket>669</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>669-7e706acd</id>
+    <lines>156-157</lines>
+    <body>Remove `Series.slug` field. Series page already contains it.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/706" closed="2019-06-30T08:03:56+00:00">706</issue>
+    <ticket>669</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>669-54df6c9d</id>
+    <lines>218-218</lines>
+    <body>Add Sections to the admin panel.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/707" closed="2019-07-09T12:20:38+00:00">707</issue>
+    <ticket>669</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>669-d7479e24</id>
+    <lines>219-219</lines>
+    <body>Get rid of Category-Series-Section models code doubling.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/708" closed="2019-07-09T12:20:39+00:00">708</issue>
+    <ticket>669</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>669-4e4d9868</id>
+    <lines>228-230</lines>
+    <body>Doc section concept. What problem it solves, who required it. Why we solved problem in this way.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/709" closed="2019-06-27T14:38:06+00:00">709</issue>
+    <ticket>510</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>510-fa306f38</id>
+    <lines>238-239</lines>
+    <body>Translate "Section" term. And "series" too. It's used in the relation with Product.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/710" closed="2019-06-29T09:49:41+00:00">710</issue>
+    <ticket>669</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>669-b068266e</id>
+    <lines>255-260</lines>
+    <body>Implement `Section.get_min_price` method. And look at the get_min_price arch in a whole. Maybe only ProductsQS and OptionsQS should have min_price, but Section and Series should not. Category, Series and Product page templates at the production DB contains series min price usage.</body>
+    <file>stroyprombeton/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-06-26T07:47:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/740" closed="2019-07-11T06:31:01+00:00">740</issue>
+    <ticket>736</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>736-3fd74c60</id>
+    <lines>9-12</lines>
+    <body>Show example catalog items at the menu header. Show some catalog items to clarify catalog terms with UX. We had been shown such examples already. See comments of the parent task.</body>
+    <file>templates/components/navigation_menu.html</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-07-09T12:20:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/749" closed="2019-07-18T08:54:22+00:00">749</issue>
+        <ticket>740</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>740-543c3432</id>
+        <lines>9-12</lines>
+        <body>Show example Series and Sections in top menu. Mobile too. As categories already shown. Then show all the examples stuff at the mobile version. See pr#737 with removed mobile version template code.</body>
+        <file>templates/components/navigation_menu.html</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-07-11T06:30:51Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/741" closed="2019-07-16T09:53:00+00:00">741</issue>
+    <ticket>736</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>736-bb965292</id>
+    <lines>83-84</lines>
+    <body>Parse stalbeton pages. See "parse it" comments inside the classes.</body>
+    <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-07-10T08:57:40Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/759">759</issue>
+        <ticket>741</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>741-521eea6b</id>
+        <lines>25-26</lines>
+        <body>Parse work docs from stalbeton. Don't create series entity. It's for another task.</body>
+        <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-07-16T09:52:36Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/fidals/stroyprombeton/issues/536">536</issue>
+            <ticket>759</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>759-9c56c7bb</id>
+            <lines>9-10</lines>
+            <body>Create tests for eCommerce tracking. Test all events, that perform tracking operations.</body>
+            <file>front/js/shared/services/tracking.es6</file>
+            <author>@artemiy312</author>
+            <email>wertins71@gmail.com</email>
+            <time>2019-03-27T08:19:53Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/760">760</issue>
+        <ticket>741</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>741-0ee87234</id>
+        <lines>84-86</lines>
+        <body>Implement parse_stalbeton.Category.children() method. And reuse it as polymorphic method in subclasses. The task has pros and cons, so, we'll discuss it for the first.</body>
+        <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-07-16T09:52:36Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/761">761</issue>
+        <ticket>741</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>741-8977a8e5</id>
+        <lines>104-104</lines>
+        <body>Parse stalbeton's options.</body>
+        <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-07-16T09:52:36Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue>unknown</issue>
+            <ticket>761</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>761-cc7146fb</id>
+            <lines>107-111</lines>
+            <body>Implement parse_stalbeton.Properties class. It full name is `OptionPropertiesSet`. We can extract property dimensions only from html tag class names. For ex the same property Length can have either 'unit_length_mm' or 'unit_length_m' class name.</body>
+            <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+            <author>duker33</author>
+            <email>duker33@gmail.com</email>
+            <time>2019-07-26T08:10:01Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/762">762</issue>
+        <ticket>741</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>741-29682897</id>
+        <lines>107-109</lines>
+        <body>Parse series from stalbeton. Series are already parsed as text strings. Parse them as separated pages to get options-series relation.</body>
+        <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-07-16T09:52:36Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/763">763</issue>
+        <ticket>741</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>741-d9d9a206</id>
+        <lines>122-124</lines>
+        <body>Create parse_stalbeton.Categories class. And hide children list assembling there. See PR #758 discussion for example.</body>
+        <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-07-16T09:52:36Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/stroyprombeton/issues/764">764</issue>
+        <ticket>741</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>741-c3a9fcaf</id>
+        <lines>128-131</lines>
+        <body>Save parsed stalbeton to a DB. DB isn't required to be high performance. It can be sqlite or postgres or pickle lib or whatever else. DB is required to analyze data without loading stalbeton site every time.</body>
+        <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-07-16T09:52:36Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/742" closed="2019-07-16T09:53:02+00:00">742</issue>
+    <ticket>736</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>736-8fdc8f25</id>
+    <lines>86-88</lines>
+    <body>Try to use stalbeton sitemap.xml. To get all category links. If you'll be succeed, use it instead of nested category parsing, drafted with the code below.</body>
+    <file>stroyprombeton/management/commands/parse_stalbeton.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-07-10T08:57:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/755">755</issue>
+    <ticket>744</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>744-1635fcf3</id>
+    <lines>4-4</lines>
+    <body>Move all tags related context classes in this file.</body>
+    <file>stroyprombeton/context/tags.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-07-12T19:15:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/stroyprombeton/issues/756">756</issue>
+    <ticket>744</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>744-aee0ac14</id>
+    <lines>58-58</lines>
+    <body>Render an option's tags for pdf price list #}</body>
+    <file>templates/catalog/product_pdf_price.html</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-07-12T19:15:28Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2021-03-27T02:17:09+00:00" version="0.30.23">
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/enumerable4j/issues/2">2</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8084d74e</id>
+    <lines>7-16</lines>
+    <body>Configure the deployment to dev maven repository in Github in order to work with RC and snapshots. The dev repo should be Github for master branch + bugfix branches if needed. As a plan B, we can consider promoting using Nexus+OSSRH: https://help.sonatype.com/repomanager2/staging-releases/staging-overview https://help.sonatype.com/repomanager2/staging-releases/configuring-your-project-for-deployment https://nvie.com/posts/a-successful-git-branching-model https://github.com/nvie/gitflow https://gist.github.com/lemiorhan/97b4f827c08aed58a9d8 https://github.com/jgitver/jgitver https://danielkummer.github.io/git-flow-cheatsheet/index.html</body>
+    <file>.rultor.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-03-06T15:05:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/enumerable4j/issues/3" closed="2021-03-07T23:59:28+00:00">3</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c5e35e81</id>
+    <lines>19-19</lines>
+    <body>Generate a new key for signing and publishing artifacts to Maven Central.</body>
+    <file>.rultor.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-03-06T15:05:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/enumerable4j/issues/4">4</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-08faa53a</id>
+    <lines>146-146</lines>
+    <body>Activate de.thetaphi:forbiddenapis in order to forbid the usage of forbidden API like static matchers, etc --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-03-06T15:05:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/enumerable4j/issues/5">5</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5f4df571</id>
+    <lines>196-196</lines>
+    <body>Activate JMH for testing on JDK8</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-03-06T15:05:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/enumerable4j/issues/6" closed="2021-03-06T20:36:59+00:00">6</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-498a8074</id>
+    <lines>11-12</lines>
+    <body>Think about matrix build for linux,osx and win OS. https://stackoverflow.com/questions/57946173/github-actions-run-step-on-specific-os</body>
+    <file>.github/workflows/build.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-03-06T15:05:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/enumerable4j/issues/7" closed="2021-03-06T16:08:03+00:00">7</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-edd83387</id>
+    <lines>18-18</lines>
+    <body>Enable Java8 for this project. For now the default config is used for JDK15.</body>
+    <file>.github/workflows/build.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-03-06T15:05:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/enumerable4j/issues/8" closed="2021-03-06T20:00:16+00:00">8</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e6452ef8</id>
+    <lines>57-57</lines>
+    <body>Setup codebeat with enumerable4j and fix badge in the readme.md file --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-03-06T16:07:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/enumerable4j/issues/28" closed="2021-03-27T02:17:09+00:00">28</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9c5b6638</id>
+    <lines>39-39</lines>
+    <body>Use empty enumerable in case if no func provided to method map.</body>
+    <file>src/main/java/io/github/dgroup/enumerable4j/EnumerableOf.java</file>
+    <author>@smithros</author>
+    <email>kovalr2000@gmail.com</email>
+    <time>2021-03-10T18:57:01Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

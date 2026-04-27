@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-05-25T11:27:14+00:00" version="0.30.26">
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/91" closed="2021-01-20T23:56:24+00:00">91</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-edcc4266</id>
+    <lines>56-56</lines>
+    <body>Implement it.</body>
+    <file>src/main/java/io/github/shiruka/api/command/CommandResult.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2020-12-26T15:07:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/100" closed="2020-12-27T01:18:55+00:00">100</issue>
+    <ticket>1</ticket>
+    <estimate>5</estimate>
+    <role>DEV</role>
+    <id>1-0546e497</id>
+    <lines>38-38</lines>
+    <body>remove all getters for the interface classes which are singleton.</body>
+    <file>src/main/java/io/github/shiruka/api/Server.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2020-12-27T00:08:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/101" closed="2020-12-27T01:19:00+00:00">101</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-35342f16</id>
+    <lines>39-40</lines>
+    <body>create a new interface provider system that you can register and get interface's implementations from the interface class.</body>
+    <file>src/main/java/io/github/shiruka/api/Server.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2020-12-27T00:19:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/107" closed="2021-02-14T14:55:53+00:00">107</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-b1ddbb54</id>
+    <lines>97-97</lines>
+    <body>Fill simple JavaDocs.</body>
+    <file>src/main/java/io/github/shiruka/api/resourcepack/ResourcePackManifest.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2020-12-28T11:57:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/108" closed="2021-03-03T15:26:24+00:00">108</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-a2af19b7</id>
+    <lines>98-98</lines>
+    <body>Make jackson like java class creator from json using minimal-json then replace each load method.</body>
+    <file>src/main/java/io/github/shiruka/api/resourcepack/ResourcePackManifest.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2020-12-28T11:57:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/153" closed="2021-02-14T14:55:57+00:00">153</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-77bb2188</id>
+    <lines>34-34</lines>
+    <body>Fill Javadocs of the exception fields.</body>
+    <file>src/main/java/io/github/shiruka/api/command/CommandException.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2021-01-13T13:04:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/188" closed="2021-08-08T12:55:13+00:00">188</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-9ac36362</id>
+    <lines>42-42</lines>
+    <body>Implement JavaPlugin methods.</body>
+    <file>src/main/java/net/shiruka/api/plugin/java/JavaPlugin.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2021-01-20T14:09:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/191" closed="2021-08-08T12:55:17+00:00">191</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-f8cb5d0c</id>
+    <lines>34-34</lines>
+    <body>Implement succeed and failed correctly method.</body>
+    <file>src/main/java/net/shiruka/api/command/CommandResult.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2021-01-20T23:56:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/255" closed="2021-08-08T12:55:21+00:00">255</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-980253ad</id>
+    <lines>332-332</lines>
+    <body>Add language support for all the errors when parsing the plugin file.</body>
+    <file>src/main/java/net/shiruka/api/plugin/PluginDescriptionFile.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2021-02-26T18:52:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/shiruka/api/issues/445" closed="2022-05-25T11:27:14+00:00">445</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-b90d1269</id>
+    <lines>4-4</lines>
+    <body>Move this package into a brand new repository or protocol.</body>
+    <file>src/main/java/io/github/shiruka/api/nbt/package-info.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2021-10-10T19:12:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/shiruka/api/issues/447">447</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-0c13f381</id>
+    <lines>4-4</lines>
+    <body>Move these classes into a new repository.</body>
+    <file>src/main/java/io/github/shiruka/api/common/package-info.java</file>
+    <author>@portlek</author>
+    <email>utsukushihito@outlook.com</email>
+    <time>2021-10-10T23:42:24Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.25.4" date="2017-11-06T14:13:03+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>13-c0692295</id>
+    <ticket>13</ticket>
+    <file>pom.xml</file>
+    <lines>69-69</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T10:08:45Z</time>
+    <body>There is a problem with version 5.1.0.Beta1</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>18-d2cf5a94</id>
+    <ticket>18</ticket>
+    <file>pom.xml</file>
+    <lines>267-267</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T10:08:45Z</time>
+    <body>This test fails with Maven 3.2.x --&gt;</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>3-d3538f0a</id>
+    <ticket>3</ticket>
+    <file>src/it/mirror-usage/verify.groovy</file>
+    <lines>33-35</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T10:08:45Z</time>
+    <body>Maven Invoker Plugin doesn't provide an easy way to get maven settings used in a project, when it does we can refactor Aether and enable this test.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-aether/issues/20" closed="2017-11-02T06:39:39+00:00">20</issue>
+    <id>143-298f5335</id>
+    <ticket>143</ticket>
+    <file>src/main/java/com/jcabi/aether/Aether.java</file>
+    <lines>86-88</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T10:08:45Z</time>
+    <body>This class should be @Immutable, but RemoteRepository is not immutable. Let's create a new class to encapsulate all necessary properties from RemoteRepository.</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>20-271b1ced</id>
+        <ticket>20</ticket>
+        <file>src/main/java/com/jcabi/aether/Aether.java</file>
+        <lines>87-89</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T10:08:45Z</time>
+        <body>This class should be @Immutable, but Proxy and Authentication parameters of Repository are not immutable. Let's create a new classes to encapsulate all necessary properties from them.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>51-d858c329</id>
+    <ticket>51</ticket>
+    <file>src/main/java/com/jcabi/aether/Aether.java</file>
+    <lines>142-147</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T10:08:45Z</time>
+    <body>This "filter IF NOT NULL" validation is a workaround, since I don't know what the actual problem is. Looks like sometimes (for some unknown reason) #classpathFilter() returns NULL. When exactly this may happen I have no idea. That's why this workaround. Sometime later we should do a proper testing and reproduce this defect in a test.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>51-1760f3f9</id>
+    <ticket>51</ticket>
+    <file>src/main/java/com/jcabi/aether/Aether.java</file>
+    <lines>211-213</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T10:08:45Z</time>
+    <body>This catch of NPE is a temporary measure. I don't know why Aether throws NPE in case of non-resolvable artifact. This is the best I can do at the moment in order to protect clients of the class.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-aether/issues/28" closed="2017-11-02T06:39:41+00:00">28</issue>
+    <id>4-e727794d</id>
+    <ticket>4</ticket>
+    <file>src/main/java/com/jcabi/aether/MavenRootArtifact.java</file>
+    <lines>110-115</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T10:08:45Z</time>
+    <body>Retrieve list of children of given artifact from repository that will not depend on sonatype aether or eclipse aether. Test ClasspathTest.hasToStringWithBrokenDependency and RootArtifactTest.gracefullyResolvesBrokenRootArtifact and RootArtifactTest.resolvesRootArtifact should pass when the method is updated to work in new eclipse aether.</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>28-40ea2a55</id>
+        <ticket>28</ticket>
+        <file>src/test/java/com/jcabi/aether/MavenClasspathTest.java</file>
+        <lines>101-101</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T10:08:45Z</time>
+        <body>Add handling of broken dependencies in toString.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>250-9862dcd5</id>
+    <ticket>250</ticket>
+    <file>src/test/java/com/jcabi/aether/AetherTest.java</file>
+    <lines>171-173</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T10:08:45Z</time>
+    <body>This test doesn't work for some strange reason. I suspect that the problem is with the existence of two constructors in Aether class - aspectj fails to weave them both.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-aether/issues/97">97</issue>
+    <id>11-2b91e5db</id>
+    <ticket>11</ticket>
+    <file>src/main/java/com/jcabi/aether/Aether.java</file>
+    <lines>94-97</lines>
+    <estimate>30</estimate>
+    <body>Create an integration test for reading proxy information from maven settings.xml file that will mock an HTTP server using jcabi-http, provide a maven configuration file with proxy settings and verify the expected HTTP requests have been sent to the mocked server.</body>
+    <role>IMP</role>
+    <author>Adam Siemion</author>
+    <email>adam.siemion+github@gmail.com</email>
+    <time>2015-03-08T08:36:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>69-fd6545e6</id>
+    <ticket>69</ticket>
+    <file>src/main/java/com/jcabi/aether/Aether.java</file>
+    <lines>97-97</lines>
+    <estimate>30</estimate>
+    <body>Fix NullPointerExceptions in CL build for Open JDK6.</body>
+    <role>IMP</role>
+    <author>Igor Piddubnyi</author>
+    <email>igor.piddubnyi@solvians.com</email>
+    <time>2016-01-25T17:25:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-aether/issues/98">98</issue>
+    <id>69-46002db1</id>
+    <ticket>69</ticket>
+    <file>src/main/java/com/jcabi/aether/Aether.java</file>
+    <lines>98-98</lines>
+    <estimate>30</estimate>
+    <body>Fix UnsupportedClassVersionError in CL build for Open JDK6.</body>
+    <role>IMP</role>
+    <author>Igor Piddubnyi</author>
+    <email>igor.piddubnyi@solvians.com</email>
+    <time>2016-01-27T12:10:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>82-ba434d45</id>
+    <ticket>82</ticket>
+    <file>src/main/java/com/jcabi/aether/Aether.java</file>
+    <lines>97-100</lines>
+    <estimate>30</estimate>
+    <body>Clean unnecessary docker setup (src/docler/Dockerfile), make the configuration minimal. Set versions to the used packages (e.g. lock java version instead of default jdk). After changes, the file needs to be uploaded to Dockerhub and be built there.</body>
+    <role>IMP</role>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2016-04-07T05:13:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-aether/issues/99">99</issue>
+    <id>70-7b24e628</id>
+    <ticket>70</ticket>
+    <file>src/test/java/com/jcabi/aether/RootArtifactTest.java</file>
+    <lines>53-56</lines>
+    <estimate>30</estimate>
+    <body>Implement RootArtifact#parent method. It should resolves parent of this root artifact. Do not hesitate change method signature if any additional parameter will be required. Afterwards remove @Ignore marker from RootArtifactTest#resolvesParent test.</body>
+    <role>IMP</role>
+    <author>Piotr Pradzynski</author>
+    <email>prondzyn@gmail.com</email>
+    <time>2016-09-28T07:17:49Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

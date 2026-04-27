@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-03-04T07:27:29+00:00" version="0.30.16">
+  <puzzle alive="false">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/2" closed="2019-03-02T15:20:56+00:00">2</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-24be1bb0</id>
+    <lines>14-14</lines>
+    <body>Replace with library Clotho-Desktop (https://github.com/LarryHsiao/Clotho-Desktop)</body>
+    <file>src/main/java/com/silverhetch/vesta/jfx/util/ExceptionDialog.java</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-02-10T21:15:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/LarryHsiao/Vesta/issues/4" closed="2019-02-15T02:33:20+00:00">4</issue>
+        <ticket>2</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>2-98aea276</id>
+        <lines>11-11</lines>
+        <body>Tag-Target mapping table</body>
+        <file>src/main/java/com/silverhetch/vesta/VestaImpl.kt</file>
+        <author>@LarryHsiao</author>
+        <email>larryhsiao@silverhetch.com</email>
+        <time>2019-02-12T07:18:37Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/3">3</issue>
+    <ticket>TEST-1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>TEST-1-8a819780</id>
+    <lines>6-6</lines>
+    <body>UI test for [VestaApplication]</body>
+    <file>src/test/java/com/silverhetch/vesta/jfx/VestaApplicationTest.kt</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-02-10T21:21:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/LarryHsiao/Vesta/issues/5" closed="2019-02-14T04:28:51+00:00">5</issue>
+        <ticket>3</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>3-cb3fbe07</id>
+        <lines>6-9</lines>
+        <body>Implementation of Downloads - multi threading - continue download if interrupted last time which have multiple file not complete - (Servery)Progress and uri recording</body>
+        <file>src/main/java/com/silverhetch/vesta/downloads/Downloads.kt</file>
+        <author>@LarryHsiao</author>
+        <email>larryhsiao@silverhetch.com</email>
+        <time>2019-02-14T03:08:29Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/LarryHsiao/Vesta/issues/13" closed="2019-02-18T09:30:02+00:00">13</issue>
+            <ticket>5</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5-2c4abd37</id>
+            <lines>10-10</lines>
+            <body>Implementation of Tag management.</body>
+            <file>src/main/java/com/silverhetch/vesta/jfx/TagManagementView.kt</file>
+            <author>@LarryHsiao</author>
+            <email>larryhsiao@silverhetch.com</email>
+            <time>2019-02-14T17:30:04Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/14">14</issue>
+    <ticket>file-1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>file-1-33fd0971</id>
+    <lines>23-23</lines>
+    <body>handles file system changed</body>
+    <file>src/main/java/com/silverhetch/vesta/target/VestaTargets.kt</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-02-15T02:33:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/15" closed="2019-02-19T03:00:17+00:00">15</issue>
+    <ticket>6</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>6-c225bd43</id>
+    <lines>10-10</lines>
+    <body>Implement target list view</body>
+    <file>src/main/java/com/silverhetch/vesta/jfx/TargetListView.kt</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-02-14T17:30:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/16" closed="2019-02-19T03:00:19+00:00">16</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-43a96921</id>
+    <lines>12-12</lines>
+    <body>Handles event to attach tag and remove</body>
+    <file>src/main/java/com/silverhetch/vesta/jfx/TargetListView.kt</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-02-14T17:30:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/19" closed="2019-03-02T08:01:31+00:00">19</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-72e3d9f1</id>
+    <lines>22-22</lines>
+    <body>Handles event to attach tag</body>
+    <file>src/main/java/com/silverhetch/vesta/jfx/target/TargetManagementView.kt</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-02-19T03:00:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/27">27</issue>
+    <ticket>10</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>10-2887cfca</id>
+    <lines>44-44</lines>
+    <body>download failure tests</body>
+    <file>src/test/java/com/silverhetch/vesta/downloads/DownloadServiceImplTest.kt</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-03-02T09:02:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/30">30</issue>
+    <ticket>11</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>11-95ff3ccc</id>
+    <lines>16-16</lines>
+    <body>implement with singleton pattern</body>
+    <file>src/main/java/com/silverhetch/vesta/downloads/DownloadServiceImpl.kt</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-03-03T02:06:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/LarryHsiao/Vesta/issues/31">31</issue>
+    <ticket>12</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>12-50e4b8ff</id>
+    <lines>18-18</lines>
+    <body>observer pattern for updating current download list.</body>
+    <file>src/main/java/com/silverhetch/vesta/downloads/DownloadServiceImpl.kt</file>
+    <author>@LarryHsiao</author>
+    <email>larryhsiao@silverhetch.com</email>
+    <time>2019-03-03T02:06:44Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

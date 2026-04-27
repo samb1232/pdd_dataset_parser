@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.31.6" date="2022-09-23T03:36:57+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>8-abdd4627</id>
+    <ticket>8</ticket>
+    <file>src/main/java/com/jcabi/dynamo/mock/MkTable.java</file>
+    <lines>106-107</lines>
+    <estimate>30</estimate>
+    <body>Implement MkTable.delete() operation. delete() method added to Table interface and implemented in AwsTable class so far.</body>
+    <role>IMP</role>
+    <author>Nikolay Popov</author>
+    <email>dementla7@rambler.ru</email>
+    <time>2015-01-28T13:27:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>8-81cf3845</id>
+    <ticket>8</ticket>
+    <file>src/main/java/com/jcabi/dynamo/retry/ReTable.java</file>
+    <lines>101-102</lines>
+    <estimate>30</estimate>
+    <body>Implement ReTable.delete() operation. delete() method added to Table interface and implemented in AwsTable class so far.</body>
+    <role>IMP</role>
+    <author>Nikolay Popov</author>
+    <email>dementla7@rambler.ru</email>
+    <time>2015-01-28T13:27:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>10-d74a245f</id>
+    <ticket>10</ticket>
+    <file>src/main/java/com/jcabi/dynamo/Throughput.java</file>
+    <lines>76-76</lines>
+    <estimate>30</estimate>
+    <body>The exact algorithm for figuring out read and write</body>
+    <role>IMP</role>
+    <author>Suseika</author>
+    <email>wlasowegor@gmail.com</email>
+    <time>2015-06-16T06:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>56-be65f863</id>
+    <ticket>56</ticket>
+    <file>src/test/java/com/jcabi/dynamo/AwsIteratorITCase.java</file>
+    <lines>51-53</lines>
+    <estimate>30</estimate>
+    <body>Integration test fail when adding @NotNull constraint this should be fixed in methods AwsIteratorITCase.iteratesItems() and AwsIteratorITCase.iteratesItemsAndDeletes(). Also see RegionITCase</body>
+    <role>DEV</role>
+    <author>tkjee</author>
+    <email>teckkong.jee@gmail.com</email>
+    <time>2015-10-05T13:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>56-9ee1f8fe</id>
+    <ticket>56</ticket>
+    <file>src/test/java/com/jcabi/dynamo/RegionITCase.java</file>
+    <lines>53-56</lines>
+    <estimate>30</estimate>
+    <body>integration test fails when adding @notnull to constraints this needs to be fixed in methods RegionITCase.worksWithAmazon() and RegionITCase.retrievesAttributesFromDynamo(). Also see AwsIteratorITCase.</body>
+    <role>DEV</role>
+    <author>tkjee</author>
+    <email>teckkong.jee@gmail.com</email>
+    <time>2015-10-05T13:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-dynamo/issues/88">88</issue>
+    <id>10-41088ed2</id>
+    <ticket>10</ticket>
+    <file>src/main/java/com/jcabi/dynamo/Throughput.java</file>
+    <lines>72-74</lines>
+    <estimate>30</estimate>
+    <body>The exact algorithm for figuring out read and write capacities should be based on a CloudWatch metric accessed with credentials of this.table.region().aws().</body>
+    <role>IMP</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2016-02-23T20:45:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-dynamo/issues/97" closed="2022-09-23T03:36:57+00:00">97</issue>
+    <ticket>28</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>28-4427f443</id>
+    <lines>147-150</lines>
+    <body>H2Data doesn't support COLUMNS with ".", "-" or digits but I don't know for sure should it support these symbols or not. It's needed to be confirmed and test should be uncommented when H2Data will be supporting mentioned symbols.</body>
+    <file>src/test/java/com/jcabi/dynamo/mock/H2DataTest.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2017-12-24T17:49:32Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

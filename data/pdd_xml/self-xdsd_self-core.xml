@@ -1,0 +1,2217 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-10-26T11:44:48+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/10" closed="2020-05-16T11:37:51+00:00">10</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-66625a17</id>
+    <lines>12-14</lines>
+    <body>Continue implementing Self's API (Java Interfaces). We should continue with an Iterable of Project (interface Projects) and also introduce the Contributor. A Project has one or many Contributors.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Project.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-16T10:28:39Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/12" closed="2020-05-19T19:12:10+00:00">12</issue>
+        <ticket>10</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>10-7b5d7cf5</id>
+        <lines>34-36</lines>
+        <body>Continue implementing Self's API (Java Interfaces). We should introduce the Contributor. A Project can have one or more contributors. Each contributor has an hourly rate.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Project.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-05-16T11:31:42Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/45" closed="2020-05-20T20:23:09+00:00">45</issue>
+            <ticket>12</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>12-9eb2412e</id>
+            <lines>41-43</lines>
+            <body>Method contracts(). Continue implementing the Storage (and the mock InMemory) for the Contributor/Project many-to-many relation, via the Contract association.</body>
+            <file>self-api/src/main/java/com/selfxdsd/api/storage/StoredProject.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-05-19T19:00:51Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/50" closed="2020-05-20T19:39:18+00:00">50</issue>
+                <ticket>45</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>45-26649917</id>
+                <lines>44-47</lines>
+                <body>Implement method int::Project.projectId(). Changes will also be needed inside StoredProjectManager.assign(...) -- the Project should be instantiated and returned from the Storage, since that's the place where the id is generated.</body>
+                <file>self-api/src/main/java/com/selfxdsd/api/storage/StoredProject.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-05-20T17:51:36Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/13" closed="2020-05-16T13:17:31+00:00">13</issue>
+        <ticket>10</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>10-6d2570b5</id>
+        <lines>29-31</lines>
+        <body>Start implementing these interfaces. We should start with an implementation for this interface, as well as Repos, Repo, User etc.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Self.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-05-16T11:31:42Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/15" closed="2020-05-16T15:55:13+00:00">15</issue>
+            <ticket>13</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>13-b311c7f8</id>
+            <lines>38-40</lines>
+            <body>Implement User.repos(). It should return a Repos instance which should represent the user's repository from the provider's platform (Github, Bitbucket etc).</body>
+            <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubSelf.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-05-16T13:14:16Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/20" closed="2020-05-17T18:45:39+00:00">20</issue>
+                <ticket>15</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>15-5c5b51d8</id>
+                <lines>37-40</lines>
+                <body>Implement User.repos(). It should return a Repos instance which should represent the user's repository from the provider's platform (Github, Bitbucket etc). GithubRepo is already implemented, we can start with Github Repos.</body>
+                <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubSelf.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-05-16T15:49:28Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/self-xdsd/self-core/issues/26" closed="2020-05-17T20:00:13+00:00">26</issue>
+                    <ticket>20</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>20-8927304b</id>
+                    <lines>35-37</lines>
+                    <body>Implemented method repo(). Write unit tests, as well as integration tests for it. This method assumes that the repo in question is a user-owned and public.</body>
+                    <file>self-core-impl/src/main/java/com/selfxdsd/core/Github.java</file>
+                    <author>@amihaiemil</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2020-05-17T18:34:11Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/self-xdsd/self-core/issues/28" closed="2020-06-28T12:04:17+00:00">28</issue>
+                        <ticket>26</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>26-e68b9b1a</id>
+                        <lines>36-38</lines>
+                        <body>Bring in Gizzly mock HTTP Server (see jcabi-http), so we can mock the Github server and write unit tests for the methods that perform HTTP Requests.</body>
+                        <file>self-core-impl/src/main/java/com/selfxdsd/core/Github.java</file>
+                        <author>@amihaiemil</author>
+                        <email>amihaiemil@gmail.com</email>
+                        <time>2020-05-17T19:36:15Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/21" closed="2020-05-18T17:13:04+00:00">21</issue>
+                <ticket>15</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>15-b8fdffc7</id>
+                <lines>36-38</lines>
+                <body>Implement and test activation of this Github repository. Activating a repository means creating and persisting a Project that will be managed by the platform later.</body>
+                <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubRepo.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-05-16T15:48:30Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/16" closed="2020-05-19T12:58:27+00:00">16</issue>
+            <ticket>13</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>13-32838750</id>
+            <lines>33-36</lines>
+            <body>Write unit tests for all the InMemory mock infrastructure. These are tools used in Self's unit tests which should also be tested themselves. Self's unit tests should fail only if there's a problem with Self.</body>
+            <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemory.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-05-16T13:14:16Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/39" closed="2020-05-24T06:02:26+00:00">39</issue>
+                <ticket>16</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>16-dcb763b9</id>
+                <lines>18-20</lines>
+                <body>Continue writing unit tests for the InMemory storage infrastructure. In the end all classes and methods should be covered with unit tests so we can rely 100% on them.</body>
+                <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryTestCase.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-05-19T12:50:56Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/self-xdsd/self-core/issues/82" closed="2020-05-24T11:47:24+00:00">82</issue>
+                    <ticket>39</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>39-dcb763b9</id>
+                    <lines>23-25</lines>
+                    <body>Continue writing unit tests for the InMemory storage infrastructure. In the end all classes and methods should be covered with unit tests so we can rely 100% on them.</body>
+                    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryProjectsTestCase.java</file>
+                    <author>HoreaPetrila</author>
+                    <email>horea.petrila99@e-uvt.ro</email>
+                    <time>2020-05-23T20:40:33Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/31" closed="2020-05-19T17:49:53+00:00">31</issue>
+    <ticket>29</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>29-494905a9</id>
+    <lines>34-36</lines>
+    <body>Implement the assign(Repo) method. This repo should store create a Project, link it to this PM and then return it back. Don't forget ot test this method.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/StoredProjectManager.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-18T15:31:34Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/self-xdsd/self-core/issues/42">42</issue>
+        <ticket>31</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>31-902d1319</id>
+        <lines>33-35</lines>
+        <body>Implement the deactivate method which should remove the Project form the DB (it means Self will stop managing it). Return the corresponding Repo when done. Don't forget the tests.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/StoredProject.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-05-19T16:22:34Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/53" closed="2020-05-21T16:48:29+00:00">53</issue>
+            <ticket>42</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>42-89e036d3</id>
+            <lines>36-38</lines>
+            <body>Implement this class and write some unit tests for Project.contracts(). Then go further and implement Contributor.contracts()</body>
+            <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryContracts.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-05-20T20:09:20Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/32" closed="2020-05-18T21:42:03+00:00">32</issue>
+    <ticket>29</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>29-ee978689</id>
+    <lines>36-38</lines>
+    <body>Implement the projects() storage. A Project has an incremented integer id, a foreign key to its PM and some other stuff that are not yet decided.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemory.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-18T15:31:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/47">47</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-ef64e245</id>
+    <lines>37-37</lines>
+    <body>Continue adding integration tests for Gitlab provider.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/Gitlab.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-05-20T13:52:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/65">65</issue>
+    <ticket>59</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>59-f2a3b904</id>
+    <lines>39-42</lines>
+    <body>Implement and test method register(...). It should register the repo with respect to the fact that this is a User's Projects, meaning the given Repo has to belong to this User, the PM has to work for the same provider etc.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/UserProjects.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-22T12:30:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/73" closed="2020-05-23T08:57:27+00:00">73</issue>
+    <ticket>71</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>71-377a5e3f</id>
+    <lines>37-40</lines>
+    <body>Implement method Contracts.addContract(...). Implement ProjectContracts to replace the anonymous class used here inside ofProject(...). Once we can test this class, write some unit tests for it.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryContracts.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-23T06:57:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/77" closed="2020-05-23T14:33:03+00:00">77</issue>
+        <ticket>73</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>73-94622f1f</id>
+        <lines>39-40</lines>
+        <body>Implement method Contracts.addContract(...). Once we can test this class, write some unit tests for it.</body>
+        <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryContracts.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-05-23T08:50:57Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/79" closed="2020-05-24T17:26:26+00:00">79</issue>
+    <ticket>74</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>74-6fc04657</id>
+    <lines>40-42</lines>
+    <body>When Storage API has contributors available, update InMemoryContracts#getContributorById() to use storage. Then update InMemoryContractsTestCase tests to reflect that.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryContracts.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-05-23T11:12:41Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/94" closed="2020-05-25T07:44:36+00:00">94</issue>
+        <ticket>79</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>79-580e807d</id>
+        <lines>32-34</lines>
+        <body>Implement and test StoredContract, following the pattern of StoredContributor and others. This is a good ticket for first-time contributors.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Contract.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-05-24T17:16:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/95" closed="2020-05-25T10:03:54+00:00">95</issue>
+        <ticket>79</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>79-282aa471</id>
+        <lines>40-42</lines>
+        <body>Write some unit tests for this class, make sure it works fine. This is a good starting point if you want to start contributing to self-core.</body>
+        <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryContributors.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-05-24T17:16:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/96" closed="2020-05-25T17:03:35+00:00">96</issue>
+        <ticket>79</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>79-2e30e1fe</id>
+        <lines>41-43</lines>
+        <body>Implement and test Project :: Projects.getById(...). Once that is ready, use it here and remove the private method getProjectById(...).</body>
+        <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryContracts.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-05-24T17:16:25Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/108" closed="2020-05-26T08:30:06+00:00">108</issue>
+            <ticket>96</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>96-dea5d869</id>
+            <lines>23-25</lines>
+            <body>Provide implementation of {@link Projects#getProjectById(int)} for each class implementation and create unit tests.</body>
+            <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryProjectsTestCase.java</file>
+            <author>Bogdan Adrian</author>
+            <email>bogdanadrian102@gmail.com</email>
+            <time>2020-05-25T10:36:39Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/83" closed="2020-05-24T08:41:30+00:00">83</issue>
+    <ticket>68</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>68-34d53a58</id>
+    <lines>38-39</lines>
+    <body>Add ProjectManager with gitlab provider to the pms map. Refactor {@link this#pick(String)} to take into consideration the provider.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryProjectManagers.java</file>
+    <author>Bogdan Adrian</author>
+    <email>bogdanadrian102@gmail.com</email>
+    <time>2020-05-24T06:49:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/86" closed="2020-05-24T15:05:17+00:00">86</issue>
+    <ticket>69</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>69-62299523</id>
+    <lines>38-41</lines>
+    <body>Add to the ability for {@link ProjectManagers} to add a project manager `addProjectManager(...)` and then test that using {@link InMemoryProjectManagers#getById(int)} and {@link InMemoryProjectManagers#pick(String)}</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryProjectManagers.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-05-24T08:10:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/100" closed="2020-09-07T16:30:02+00:00">100</issue>
+    <ticket>97</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>97-bcc117e9</id>
+    <lines>32-34</lines>
+    <body>Implement Comments::Issue.comments(). This method should be the entry point to an Issue's comments and have methods for both listing and posting new comments.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Issue.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-24T19:21:36Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/244" closed="2020-07-02T06:43:56+00:00">244</issue>
+        <ticket>100</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>100-a80e16f6</id>
+        <lines>14-15</lines>
+        <body>Implement and test the remaining methods in GithubIssueComments.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubIssueComments.java</file>
+        <author>cristianpela</author>
+        <email>cristypela05@gmail.com</email>
+        <time>2020-06-30T16:09:57Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/self-xdsd/self-core/issues/249">249</issue>
+        <ticket>100</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>100-24fff222</id>
+        <lines>20-22</lines>
+        <body>Provide a pagination solution in iterator() using Github response headers, when {@link Resource} API has access to http response headers (issue #241).</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubIssueComments.java</file>
+        <author>cristianpela</author>
+        <email>cristypela05@gmail.com</email>
+        <time>2020-07-01T16:04:09Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/101" closed="2020-05-25T14:10:24+00:00">101</issue>
+    <ticket>97</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>97-8b9168b0</id>
+    <lines>37-40</lines>
+    <body>Implement and unit test method json() here. It should call Github's API to fetch the Issue json and then use it to return a GithubIssue. If the API returns 404 or 204, then the method should return null.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/issues/GithubIssues.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-24T19:21:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/102" closed="2020-05-27T20:28:32+00:00">102</issue>
+    <ticket>97</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>97-617dbb3c</id>
+    <lines>36-37</lines>
+    <body>Write unit tests for this class and for GithubRepo.issues.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/issues/GithubIssue.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-24T19:21:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/112" closed="2020-05-26T09:52:35+00:00">112</issue>
+    <ticket>110</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>110-e3027d6c</id>
+    <lines>44-47</lines>
+    <body>Implement and unit testContributorContracts.addContract. A Contract added via this method can only belong to the Contributor who owns these Contracts. Check ProjectContracts.addContract(...) for a similar example.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/contracts/ContributorContracts.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-25T19:16:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/121" closed="2020-06-07T09:55:33+00:00">121</issue>
+    <ticket>97</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>97-08232f72</id>
+    <lines>34-36</lines>
+    <body>In the "contributors" package of self-core-impl create ProjectContributors and test it. This class will be used to implement Contributors.ofProject(id).</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Project.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-05-26T19:22:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/123" closed="2020-05-27T18:44:15+00:00">123</issue>
+    <ticket>116</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>116-8dc0f12b</id>
+    <lines>30-31</lines>
+    <body>Start implementing Tasks.getById and InMemoryTasks. Don't forget the unit tests.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Tasks.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-27T12:41:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/125" closed="2020-05-28T18:08:27+00:00">125</issue>
+        <ticket>123</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>123-f40507f6</id>
+        <lines>30-32</lines>
+        <body>Add method register(projectId, Issue), to register a new Issue as a Task in the given Project. Don't forget about unit tests.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Tasks.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-05-27T18:35:04Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/133" closed="2020-05-29T15:01:46+00:00">133</issue>
+            <ticket>125</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>125-c81f1ae0</id>
+            <lines>30-32</lines>
+            <body>Implement and unit test Project.tasks() and Contributor.tasks(). They each should return their own implementation of interface Tasks.</body>
+            <file>self-api/src/main/java/com/selfxdsd/api/Tasks.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-05-28T17:52:20Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/136" closed="2020-05-30T07:34:20+00:00">136</issue>
+                <ticket>133</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>133-7376f99a</id>
+                <lines>30-31</lines>
+                <body>Implement and unit test Contributor.tasks(). It should return its own implementation of Tasks.</body>
+                <file>self-api/src/main/java/com/selfxdsd/api/Tasks.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-05-29T14:55:21Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/137" closed="2020-05-30T05:50:18+00:00">137</issue>
+                <ticket>133</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>133-30481f08</id>
+                <lines>42-44</lines>
+                <body>Implement and unit test method ofProject(...) which should return the specified Project tasks using class {@link com.selfxdsd.core.tasks.ProjectTasks}.</body>
+                <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryTasks.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-05-29T14:55:21Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>128</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>128-bc49fe1d</id>
+    <lines>37-39</lines>
+    <body>Initially, all the Issues will have the DEV or REV role. In a future version, we will set an Issue's role based on labels set by the user.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/issues/GithubIssue.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-27T20:15:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/141" closed="2020-05-30T15:08:37+00:00">141</issue>
+    <ticket>134</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>134-f73a4154</id>
+    <lines>21-24</lines>
+    <body>In `InMemoryTasks.java` Implement and unit test method ofContributor(...) which should return the specified Contributor tasks using class {@link com.selfxdsd.core.tasks.ContributorTasks}.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/ContributorTasks.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-05-30T06:28:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/144">144</issue>
+    <ticket>135</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>135-200b416a</id>
+    <lines>37-39</lines>
+    <body>Finish 'getTasksOfContributor()' test case when API permits that; as in when a Task can be assigned to a Contributor.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryTasksTestCase.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-05-30T14:37:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/146" closed="2020-05-31T11:17:05+00:00">146</issue>
+    <ticket>142</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>142-5967597e</id>
+    <lines>35-38</lines>
+    <body>At the moment the User's accessToken is never used. This token should be passed on to the Provider implementation, which in turn will use it to make API Requests which require user authentication.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/StoredUser.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-05-30T16:54:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/164" closed="2020-06-07T19:03:59+00:00">164</issue>
+    <ticket>163</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>163-912d9b79</id>
+    <lines>11-12</lines>
+    <body>Implement and test InMemoryInvoices. Also implement Storage#invoices().</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Invoices.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-06-06T12:36:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/167" closed="2020-06-06T15:13:34+00:00">167</issue>
+    <ticket>165</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>165-5a08baef</id>
+    <lines>35-37</lines>
+    <body>Implement method issue(). It should read the Issue from the Project's repository. We need a change in interface Issues: method getById should expect String, rather than Integer.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/StoredTask.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-06T14:51:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/175" closed="2020-06-08T13:42:48+00:00">175</issue>
+    <ticket>165</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>165-63222a61</id>
+    <lines>19-23</lines>
+    <body>Refactor and test ContractInvoices to be part of self-impl API . Also InvoiceTask should have its own concrete implementation in self-impl. Use that in InMemoryInvoices. Continue testing InMemoryInvoices.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryInvoices.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-06-07T11:44:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/184" closed="2020-06-21T16:39:29+00:00">184</issue>
+    <ticket>181</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>181-f7ddabbd</id>
+    <lines>19-20</lines>
+    <body>Refactor and test ContractInvoices to be part of self-impl API.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryInvoices.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-06-08T09:07:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/193" closed="2020-06-10T12:24:44+00:00">193</issue>
+    <ticket>190</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>190-567012ff</id>
+    <lines>20-21</lines>
+    <body>Implement and test unassigned() for ProjectTasks and InMemoryTasks, using UnassignedTasks.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/UnassignedTasks.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-06-09T11:55:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/199">199</issue>
+    <ticket>192</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>192-5ba266e8</id>
+    <lines>35-39</lines>
+    <body>Method tasks() here should return the tasks with respect ot the encapsulated Contracts. If the Contracts exist (!= null), then the method should only return the Tasks from these contracts. Otherwise, it should return all the Tasks of the contributor, as it does now.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/contributors/StoredContributor.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-11T05:30:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/203" closed="2020-06-13T15:27:12+00:00">203</issue>
+    <ticket>204</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>204-4a2ef409</id>
+    <lines>33-35</lines>
+    <body>Finish implementing and testing ContractTasks, that will be used later to implement tasks() in ProjectTasks, ContributorTasks and InMemoryTasks.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Contract.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-06-11T13:07:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/207" closed="2020-06-22T15:07:55+00:00">207</issue>
+        <ticket>203</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>203-be4943c6</id>
+        <lines>19-21</lines>
+        <body>Implement and test ofContract() in ProjectTasks, ContributorTasks and in InMemoryTasks, using ContractTasks.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/ContractTasks.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-06-13T15:26:54Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/223" closed="2020-07-06T07:42:27+00:00">223</issue>
+            <ticket>207</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>207-01b671c5</id>
+            <lines>19-21</lines>
+            <body>Method Tasks.ofContract() has been implemented everywhere. However, some unit tests are missing. Write unit tests for all the implementations where they are missing.</body>
+            <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/ContractTasks.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-06-22T15:00:00Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/262" closed="2020-07-06T21:09:25+00:00">262</issue>
+                <ticket>223</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>223-49114d3d</id>
+                <lines>43-44</lines>
+                <body>It needs to implement the unit test for the method Tasks.ofContract() of the class ContributorTasks.</body>
+                <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/ProjectTasks.java</file>
+                <author>@ANadrowski</author>
+                <email>aislan.nadrowski@gmail.com</email>
+                <time>2020-07-06T01:19:57Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/216" closed="2020-06-22T09:27:18+00:00">216</issue>
+    <ticket>214</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>214-78b57c14</id>
+    <lines>19-22</lines>
+    <body>Implement and write tests for InvoicedTasks. This interface will represent some finished tasks that have been invoiced (attached to the active invoice of a Contract). Interface Invoice should have the method InvoicedTasks :: tasks().</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryInvoices.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-21T10:15:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/220" closed="2020-06-22T14:31:34+00:00">220</issue>
+        <ticket>216</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>216-e1db1cae</id>
+        <lines>32-34</lines>
+        <body>Implement and write unit tests for methods int :: estimation() and BigDecimal :: hourlyRate() so we can calculate the Task's value when we add it to an Invoice.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Task.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-06-22T09:21:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>212</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>212-4e897150</id>
+    <lines>39-40</lines>
+    <body>Test equals and hashcode methods for each Stored* classes (StoredProjectManager, StoredProject etc.).</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/StoredProjectManager.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-21T10:15:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/225" closed="2020-06-22T20:20:58+00:00">225</issue>
+    <ticket>190</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>190-3d425bb7</id>
+    <lines>44-46</lines>
+    <body>Add an implementation of interface Invitation, called GithubInvitation, which will take the invitation's JSON and work with it.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubRepoInvitations.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-22T16:49:57Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/228" closed="2020-10-18T09:01:05+00:00">228</issue>
+        <ticket>225</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>225-a1140b0d</id>
+        <lines>39-40</lines>
+        <body>When accepting an invitation, get the response status code and if it's different from 204 NO CONTENT, log a warning or something.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubInvitation.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-06-22T20:09:23Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/226" closed="2020-06-28T12:04:20+00:00">226</issue>
+    <ticket>190</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>190-ecea2376</id>
+    <lines>40-43</lines>
+    <body>Abstract all the HTTP calls behind an implementation of an interface called JsonResources. JsonResources will have a runtime implementation called HttpJsonResources and a mock implementation used for unit testing.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/Github.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-06-22T16:49:57Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/234" closed="2020-06-28T13:13:20+00:00">234</issue>
+        <ticket>226</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>226-70fb6f35</id>
+        <lines>40-44</lines>
+        <body>Add other methods such as post, patch etc and continue abstracting the HTTP calls away from the Provider's implementations (Issues, Comments etc). After that is done, we should add a mock implementation of JsonResources, which we will use in writing unit tests for the providers.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/JsonResources.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-06-28T11:59:57Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/237" closed="2020-07-01T14:25:34+00:00">237</issue>
+            <ticket>234</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>234-54720845</id>
+            <lines>40-45</lines>
+            <body>Add other methods such as post, patch etc and continue abstracting the HTTP calls away from the Provider's implementations (Issues, Comments etc). Make sure to offer alternatives with accessToken as well. After that is done, we should add a mock implementation of JsonResources, which we will use in writing unit tests for the providers.</body>
+            <file>self-core-impl/src/main/java/com/selfxdsd/core/JsonResources.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-06-28T13:08:53Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/246" closed="2020-07-02T07:15:10+00:00">246</issue>
+                <ticket>237</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>237-bafb0c68</id>
+                <lines>40-45</lines>
+                <body>Add other methods such as delete, patch etc and continue abstracting the HTTP calls away from the Provider's implementations (Issues, Comments etc). Make sure to offer alternatives with accessToken as well. After that is done, we should add a mock implementation of JsonResources, which we will use in writing unit tests for the providers.</body>
+                <file>self-core-impl/src/main/java/com/selfxdsd/core/JsonResources.java</file>
+                <author>amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-07-01T14:17:04Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/235" closed="2020-06-28T13:48:38+00:00">235</issue>
+        <ticket>226</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>226-b27bdc42</id>
+        <lines>45-46</lines>
+        <body>Bring in Grizzly in-memory HTTP Server (see project jcabi-github), so we can write integration tests for class JdkHttp.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/JsonResources.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-06-28T11:59:57Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/251" closed="2020-07-02T09:22:26+00:00">251</issue>
+    <ticket>248</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>248-4312ce52</id>
+    <lines>41-43</lines>
+    <body>Pass the JsonResources to the GithubInvitation as well so we can remove the HTTP calls from there as well. Don't forget about testing.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubRepoInvitations.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-02T06:55:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/252" closed="2020-07-02T07:37:14+00:00">252</issue>
+    <ticket>248</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>248-f065cfa2</id>
+    <lines>40-44</lines>
+    <body>Add other methods such as delete, patch etc and continue abstracting the HTTP calls away from the Provider's implementations (Issues, Comments etc). After that is done, we should add a mock implementation of JsonResources, which we will use in writing unit tests for the providers.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/JsonResources.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-02T06:42:35Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/254" closed="2020-07-06T09:40:34+00:00">254</issue>
+        <ticket>252</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>252-820887a6</id>
+        <lines>40-44</lines>
+        <body>Add other methods such as delete and continue abstracting the HTTP calls away from the Provider's implementations (Issues, Comments etc). After that is done, we should add a mock implementation of JsonResources, which we will use in writing unit tests for the providers.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/JsonResources.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-07-02T07:29:01Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/self-xdsd/self-core/issues/263">263</issue>
+        <ticket>252</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>252-9dba75c4</id>
+        <lines>40-42</lines>
+        <body>Add other methods such as delete and continue abstracting the HTTP calls away from the Provider's implementations (Issues, Comments etc).</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/JsonResources.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-07-02T07:29:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/259" closed="2020-07-09T10:53:21+00:00">259</issue>
+    <ticket>122</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>122-8525164d</id>
+    <lines>8-9</lines>
+    <body>Start implementing Github Organizations of which the authenticated User has admin rights.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Organizations.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-07-02T09:36:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/272" closed="2020-07-10T15:36:56+00:00">272</issue>
+    <ticket>270</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>270-83d7f545</id>
+    <lines>39-41</lines>
+    <body>Continue implementation of the resolve(...) method. It should decide what kind of event has occurred and delegate it further to the ProjectManager who will deal with it.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/StoredProject.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-08T19:25:08Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/284" closed="2020-07-11T08:49:59+00:00">284</issue>
+        <ticket>272</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>272-7c5879a1</id>
+        <lines>38-41</lines>
+        <body>Continue implementation of the resolve(...) method. It should decide what kind of event has occurred and delegate it further to the ProjectManager who will deal with it. We still need the Issue Reopened case and Comment Created case.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/StoredProject.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-07-10T15:28:53Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/275" closed="2020-07-09T14:28:17+00:00">275</issue>
+    <ticket>122</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>122-8be42be5</id>
+    <lines>14-15</lines>
+    <body>Continue to implement and test Github Organization Repos for the authenticated User.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubOrganization.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-07-09T10:28:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>277</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>277-e4f1192a</id>
+    <lines>30-31</lines>
+    <body>Allow {@link User} interface to have access to {@link Organizations}.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/User.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-07-09T14:06:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/285" closed="2020-07-18T12:51:09+00:00">285</issue>
+    <ticket>278</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>278-d86e619b</id>
+    <lines>30-31</lines>
+    <body>Implement and test Organizations for Gitlab provider.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/User.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-07-10T09:28:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/289">289</issue>
+    <ticket>278</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>278-0caa54b3</id>
+    <lines>38-41</lines>
+    <body>Continue implementation of the resolve(...) method. It should decide what kind of event has occurred and delegate it further to the ProjectManager who will deal with it. We still need the Issue Assigned case and Comment Created case.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/StoredProject.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-11T08:42:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/303">303</issue>
+    <ticket>300</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>300-8b838371</id>
+    <lines>36-37</lines>
+    <body>Gitlab Invitations: implement and test invitations for Gitlab provider.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/Gitlab.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-07-18T14:27:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>305</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>305-e93af154</id>
+    <lines>41-43</lines>
+    <body>Labels API: should be able to list and add labels for Provider resources (Repo, Issue). Labels will be used mainly for an Issue to get its estimation.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubIssue.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-07-22T11:33:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/317" closed="2020-07-26T10:15:23+00:00">317</issue>
+    <ticket>315</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>315-3e2d84bd</id>
+    <lines>13-15</lines>
+    <body>An Invoice should have the method #register(Task). This method should check if the Invoice is active. If it is, register the Task to the invoice.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Invoice.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-26T08:41:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/327" closed="2020-08-07T10:03:17+00:00">327</issue>
+    <ticket>324</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>324-de3d5d88</id>
+    <lines>33-35</lines>
+    <body>Implement a Step which invites the PM to the project's Repo and also a Step which sets up the project Webhook in the Repo.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/pm/Step.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-30T10:31:11Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/348" closed="2020-08-09T07:44:58+00:00">348</issue>
+        <ticket>327</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>327-e59edc6b</id>
+        <lines>33-34</lines>
+        <body>Implement a Step which sets up the project Webhook in the Repo.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/pm/Step.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-07T09:46:50Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/355" closed="2020-08-07T13:40:30+00:00">355</issue>
+            <ticket>348</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>348-1471771f</id>
+            <lines>36-38</lines>
+            <body>Implement and test Repo.webhooks().add(...) method, which will setup a webhook in the Repo. Afterwards, continue implementing and testing this class.</body>
+            <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/SetupWebhook.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-08-07T12:14:21Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/357" closed="2020-08-09T18:52:52+00:00">357</issue>
+                <ticket>355</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>355-a0b82922</id>
+                <lines>35-36</lines>
+                <body>Implement and test Webhooks for the Gitlab repository.</body>
+                <file>self-core-impl/src/main/java/com/selfxdsd/core/GitlabRepo.java</file>
+                <author>@amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-08-07T12:56:42Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/self-xdsd/self-core/issues/358" closed="2020-08-07T14:32:02+00:00">358</issue>
+                <ticket>355</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>355-e7106a95</id>
+                <lines>38-40</lines>
+                <body>Implement and write tests for method add(Project). It should set up a webhook. Please see PR #292 for how the webhook should be configured.</body>
+                <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubWebhooks.java</file>
+                <author>amihaiemil</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2020-08-07T12:56:42Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/349" closed="2020-08-07T10:46:15+00:00">349</issue>
+        <ticket>327</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>327-196b193e</id>
+        <lines>38-39</lines>
+        <body>Create classes for permissions constants in both Github and Gitlab.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/InvitePm.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-07T09:46:50Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/350" closed="2020-08-07T11:56:30+00:00">350</issue>
+        <ticket>327</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>327-e55cf50f</id>
+        <lines>40-43</lines>
+        <body>Add method ProjectManager.userId() which should return the user ID (not username) registered with the Provider. Then, modify the invitation logic to use the user ID in case of GitLab. After this, don't forget to write unit tests for this class.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/InvitePm.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-07T09:46:50Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/330" closed="2020-08-01T18:24:47+00:00">330</issue>
+    <ticket>328</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>328-f56725d1</id>
+    <lines>38-39</lines>
+    <body>Implement the GitLab Collaborators, especially the invite(...) method. Don't forget about the tests.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GitlabRepo.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-30T12:02:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/331" closed="2020-07-31T12:24:17+00:00">331</issue>
+    <ticket>328</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>328-bf9f2d94</id>
+    <lines>35-36</lines>
+    <body>Implement the invite method using JsonResources.put. Don't forget about unit tests.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubCollaborators.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-31T10:50:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/343" closed="2020-08-06T07:37:20+00:00">343</issue>
+    <ticket>333</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>333-0a2c981a</id>
+    <lines>85-91</lines>
+    <body>The method Provider.repo(name) has been changed to Provider.repo(owner, name), where owner is either the User's login or the Organization's name. This change was necessary because it's not correct to assume that the User is always the actual owner -- a repo can also be owned by an Organization. In this task, figure out what value needs to be passed bellow (currently, we always pass empty string).</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GitlabOrganizationRepos.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-05T14:48:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/353" closed="2020-08-09T07:30:46+00:00">353</issue>
+    <ticket>346</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>346-3112900e</id>
+    <lines>45-46</lines>
+    <body>Write unit tests for paging InMemoryProjects, PmProjects and UserProjects.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryProjects.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-06T09:22:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/363" closed="2020-08-10T07:55:48+00:00">363</issue>
+    <ticket>290</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>290-4f83021f</id>
+    <lines>42-43</lines>
+    <body>Unit tests have been added for class Authenticated. We should also add unit tests for class PmUser.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/StoredProjectManager.java</file>
+    <author>Aislan Nadrowski</author>
+    <email>aislan.nadrowski@gmail.com</email>
+    <time>2020-08-07T23:06:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/364" closed="2020-08-09T18:43:25+00:00">364</issue>
+    <ticket>360</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>360-6b8f3473</id>
+    <lines>9-10</lines>
+    <body>Provide paging implementation for other Self entities: Collaborators, Contracts, Contributors, Tasks, Invoices, InvoicedTasks.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/storage/Paged.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-07T18:10:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/371" closed="2020-08-20T14:18:05+00:00">371</issue>
+    <ticket>366</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>366-f7a7e029</id>
+    <lines>9-11</lines>
+    <body>Provide paging implementation for other Self entities: Contributors, Contracts, Invoices, InvoicedTasks, Tasks. As guidance use implementation for Projects: Pm/User/InMemoryProjects.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/storage/Paged.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-09T13:25:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/378" closed="2020-08-30T12:45:14+00:00">378</issue>
+    <ticket>376</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>376-1e018104</id>
+    <lines>42-44</lines>
+    <body>At the moment the wallet() method always returns the Missing wallet. Implement the walletId DB column and attribute of a Project and return a real Wallet if this id exists (!= null).</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/StoredProject.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-11T07:18:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/379" closed="2020-08-11T08:15:42+00:00">379</issue>
+    <ticket>376</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>376-b4f38c4d</id>
+    <lines>45-46</lines>
+    <body>Change this class to encapsulate the whole Project, not just its ID. We need the Project in order to access its Wallet.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/contributors/ProjectContributors.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-11T07:33:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/380" closed="2020-08-11T13:10:20+00:00">380</issue>
+    <ticket>376</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>376-eb663e41</id>
+    <lines>47-50</lines>
+    <body>Once we have the Project encapsulated here, adapt the election algorithm to make sure that we only elect contributors whom we can afford to pay (the would-be Task value has to be less than the available cash in the Wallet).</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/contributors/ProjectContributors.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-11T07:33:59Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/384" closed="2020-08-11T16:14:44+00:00">384</issue>
+        <ticket>380</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>380-c7c335ec</id>
+        <lines>32-34</lines>
+        <body>Implement the Invoice :: Wallet.pay(Invoice) method, which will perform the payment and return the Invoice with the trasactionId and payment timestamp set.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Wallet.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-11T12:43:05Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/395" closed="2020-08-14T14:05:43+00:00">395</issue>
+    <ticket>393</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>393-8cb94068</id>
+    <lines>30-31</lines>
+    <body>Method register(...): make sure to also accept the PM's commission (BigDecimal) as parameter.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/ProjectManagers.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-14T12:54:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/396" closed="2020-08-15T08:56:59+00:00">396</issue>
+    <ticket>393</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>393-882ba2c8</id>
+    <lines>43-44</lines>
+    <body>Take the PM's commission into account when electing a Contributor (to make sure we can afford to pay everything).</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/contributors/ProjectContributors.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-14T12:54:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/403" closed="2020-08-15T09:28:09+00:00">403</issue>
+    <ticket>400</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>400-bb6375ab</id>
+    <lines>14-15</lines>
+    <body>Addapt method register to also accept the PMs commission as BigDecimal.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/contracts/invoices/StoredInvoice.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-15T08:16:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/404" closed="2020-08-15T10:40:01+00:00">404</issue>
+    <ticket>402</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>402-0cf23d35</id>
+    <lines>43-44</lines>
+    <body>When electing a contributor for a task, we must make sure that ProjectContributors's contract Project matches Task's Project.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/contributors/ProjectContributors.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-15T08:41:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/410" closed="2020-08-16T12:18:44+00:00">410</issue>
+    <ticket>408</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>408-cc11e464</id>
+    <lines>14-15</lines>
+    <body>StoredInvoice should encapsulate its invoiced tasks, rather than reading them from the storage every time.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/contracts/invoices/StoredInvoice.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-16T11:10:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/412" closed="2020-08-16T12:33:31+00:00">412</issue>
+        <ticket>410</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>410-bc32691d</id>
+        <lines>13-16</lines>
+        <body>Remove the first constructor, since it is not needed. When creating an Invoice, we'll make an INSERT via JOOQ, which means this constructor is only needed for the InMemoryInvoices (which is just present for scaffolding reasons and will be removed later).</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/contracts/invoices/StoredInvoice.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-16T12:11:41Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/420" closed="2020-08-17T14:23:20+00:00">420</issue>
+    <ticket>418</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>418-e7efccc1</id>
+    <lines>38-40</lines>
+    <body>Method issue() here should fetch the Issue from the PM's repository, so that the PMs authentication token is encapsulated and we can post comments on the PMs behalf.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/StoredTask.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-17T07:18:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/423" closed="2020-08-17T10:43:46+00:00">423</issue>
+        <ticket>420</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>420-955836a7</id>
+        <lines>319-320</lines>
+        <body>Rewrite this test, as well as handlesNewIssueEvent, so they use only mocks and no real objects.</body>
+        <file>self-core-impl/src/test/java/com/selfxdsd/core/managers/StoredProjectManagerTestCase.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-17T08:44:19Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/421" closed="2020-08-18T07:51:09+00:00">421</issue>
+    <ticket>418</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>418-842c5bb8</id>
+    <lines>43-44</lines>
+    <body>Finish the unassignedTasks method once we have a way of assigning a Task to a Contributor.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/StoredProjectManager.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-17T07:16:45Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/427" closed="2020-08-17T14:56:50+00:00">427</issue>
+        <ticket>421</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>421-1f3ca14f</id>
+        <lines>30-31</lines>
+        <body>Implement and test Contributor.contract(...), which should return the contract, if found. If not, then return null.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Contributor.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-17T14:22:04Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/430" closed="2020-08-17T16:05:08+00:00">430</issue>
+            <ticket>427</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>427-faf325d8</id>
+            <lines>40-41</lines>
+            <body>Implement method Tasks.assign(Task, Contract), to assign a given Task to a given Contract.</body>
+            <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/StoredTask.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-08-17T15:10:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/431" closed="2020-08-18T17:35:33+00:00">431</issue>
+            <ticket>427</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>427-4eee3dd1</id>
+            <lines>42-43</lines>
+            <body>Implement and test method Task::Task.unassign(). This method should remove the assignee and leave the Task unassigned.</body>
+            <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/StoredTask.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-08-17T15:11:45Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/428" closed="2020-08-17T16:54:00+00:00">428</issue>
+        <ticket>421</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>421-6e1bdcba</id>
+        <lines>38-39</lines>
+        <body>Continue implementing method assign(...) here, once we have method Contributor.contract(...).</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/tasks/StoredTask.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-17T14:22:04Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/435" closed="2020-08-18T08:31:13+00:00">435</issue>
+        <ticket>421</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>421-18e2f379</id>
+        <lines>43-44</lines>
+        <body>When assigning a Task to a Contributor, make sure to also assign the Issue as well. Don't forget about updating the tests.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/StoredProjectManager.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-18T07:53:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/443" closed="2020-08-21T06:31:03+00:00">443</issue>
+    <ticket>439</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>439-396801f4</id>
+    <lines>40-41</lines>
+    <body>Update InMemoryTasks assign() and unassign() to use Task#issueId() then test them.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryTasksTestCase.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-18T17:16:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/446" closed="2020-08-19T11:08:03+00:00">446</issue>
+    <ticket>441</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>441-5ef8b246</id>
+    <lines>32-35</lines>
+    <body>Add the first implementation of Conversation, which should be named Understand and should use the project's Language to understand the comment and set the event's type accordingly.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/pm/Conversation.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-18T17:49:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/449" closed="2020-08-19T12:15:15+00:00">449</issue>
+        <ticket>446</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>446-2aa4416d</id>
+        <lines>35-36</lines>
+        <body>Add an implementation of Step which sends a reply to the event comment.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/Understand.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-19T10:58:05Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/450" closed="2020-08-19T13:22:02+00:00">450</issue>
+        <ticket>446</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>446-d17e5fc9</id>
+        <lines>37-38</lines>
+        <body>Add the next implementation of Conversation, called Hello, which will send a reply if the event type is "hello".</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/Understand.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-19T10:58:05Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/451" closed="2020-08-19T16:39:43+00:00">451</issue>
+        <ticket>446</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>446-a770e22e</id>
+        <lines>39-41</lines>
+        <body>Add the Confused implementation of Conversation, which will send a "didn't understand" reply, if the event type is "confused".</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/Understand.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-19T10:58:05Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/457" closed="2020-08-20T07:26:33+00:00">457</issue>
+    <ticket>454</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>454-764e6990</id>
+    <lines>36-38</lines>
+    <body>We must implement a Step where we should validate that the comment's author is indeed the task's assignee. After that, we also need a Step to actually unassign the Task.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/Resign.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-19T16:11:13Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/459" closed="2020-08-20T08:30:33+00:00">459</issue>
+        <ticket>457</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>457-7bc91db1</id>
+        <lines>36-38</lines>
+        <body>Implement and test an Intermediary step which unassigns the event's task. Once that is ready, complete the composition in method start(...) here.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/Resign.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-20T07:17:58Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/465">465</issue>
+    <ticket>462</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>462-31b3b28d</id>
+    <lines>9-11</lines>
+    <body>Provide paging implementation for other Self entities: Contracts, Invoices, InvoicedTasks, Tasks. As guidance use implementation for Projects: Pm/User/InMemoryProjects.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/storage/Paged.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-20T10:22:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/472" closed="2020-08-23T13:51:19+00:00">472</issue>
+    <ticket>470</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>470-0c95486b</id>
+    <lines>38-39</lines>
+    <body>Finish implementing RemoveTask when Tasks api allows to remove a Task. Then write tests for it and Deregister.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/RemoveTask.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-20T16:55:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/478" closed="2020-08-24T13:23:54+00:00">478</issue>
+    <ticket>476</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>476-448b8be8</id>
+    <lines>30-32</lines>
+    <body>Update filter implementations of Tasks#getById to not use issue() when doing queries (like getById), but use Task#project() and Task#issueId() instead. ProjectTasks is already updated.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Tasks.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-21T16:45:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/489" closed="2020-08-25T14:16:14+00:00">489</issue>
+        <ticket>478</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>478-71d5692f</id>
+        <lines>39-41</lines>
+        <body>Implement an intermediary step where the event's Issue is registered as a Task and finish the composition of the register steps here.</body>
+        <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/Register.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-25T09:38:45Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/491" closed="2020-08-25T14:31:02+00:00">491</issue>
+            <ticket>489</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>489-893054ff</id>
+            <lines>38-42</lines>
+            <body>Add a simple constructor which only takes the String reply and sets a Final next step which only logs "Conversation ended". Usually, SendReply is the last step in any Conversation, so this will simplify the code a lot in most places where SendReply is used.</body>
+            <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/SendReply.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-08-25T14:06:28Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/487" closed="2020-08-25T09:49:19+00:00">487</issue>
+    <ticket>470</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>470-9318b89e</id>
+    <lines>37-39</lines>
+    <body>Implement an intermediary step which checks if the Issue in question is already registered or not. Then, use it together with AuthorHasRoles (any) to build and return the steps.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/Register.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-25T08:11:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/496" closed="2020-08-29T14:51:52+00:00">496</issue>
+    <ticket>462</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>462-18da03fe</id>
+    <lines>40-42</lines>
+    <body>Implement and write tests for a Task's resignations. It will be a class named TaskResignations implementing interface Resignations.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryResignations.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-29T13:26:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/502" closed="2020-08-30T14:27:53+00:00">502</issue>
+    <ticket>499</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>499-c992814d</id>
+    <lines>36-41</lines>
+    <body>Add methods cash() which should return all the available cash in the wallet (what available() is doing now). Add also the method debt() which should return all the debt the project still has (the current value of all the contracts). Change method available() to return the difference between the cash and the debt.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Wallet.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-30T12:37:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/503" closed="2020-08-30T15:21:24+00:00">503</issue>
+    <ticket>499</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>499-38b411f6</id>
+    <lines>43-45</lines>
+    <body>At the moment the wallet() method always returns the Missing wallet. Implement the reading of the project's active Wallet from the storage.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/StoredProject.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-30T12:35:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/504">504</issue>
+    <ticket>499</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>499-d1da8a5e</id>
+    <lines>40-42</lines>
+    <body>As soon as we have the Stripe wallet implemented, modify the register(...) method here to take it into account, according to the given type (at the moment, it always registers the Missing wallet).</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryWallets.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-30T11:12:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/511" closed="2020-08-31T08:42:58+00:00">511</issue>
+    <ticket>498</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>498-73b39da9</id>
+    <lines>33-35</lines>
+    <body>Task api should expose resignations(), for easier access in ProjectContributors#elect(Task) algorithm, in order to filter out previously resigned contributors from Task.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Task.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-30T16:37:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/527" closed="2020-09-07T18:38:07+00:00">527</issue>
+    <ticket>525</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>525-0b11017a</id>
+    <lines>32-33</lines>
+    <body>Implement method Issue.close() which should use the "Update Issue" endpoint to close it.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Issue.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-07T16:11:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>524</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>524-1af26f28</id>
+    <lines>34-36</lines>
+    <body>Replace old custom exceptions InvoiceAlreadyPaidExeption, RepoAlreadyActiveException, RepoNotFoundException with Self exceptions (Repo and Invoice).</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/exceptions/SelfException.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-07T09:28:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/530" closed="2020-09-09T14:40:12+00:00">530</issue>
+    <ticket>526</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>526-213a6cc8</id>
+    <lines>35-37</lines>
+    <body>Write custom SelfExceptions for Contracts (NotFound, Duplicate, etc...), and replace the existent IllegalStateExceptions with them.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Contracts.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-08T08:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/534" closed="2020-09-10T19:13:20+00:00">534</issue>
+    <ticket>532</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>532-1a0d1d21</id>
+    <lines>32-33</lines>
+    <body>Write custom SelfExceptions for Contributors and replace the existent IllegalStateExceptions with them.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Contributors.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-09T10:01:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/535" closed="2020-09-10T08:25:51+00:00">535</issue>
+    <ticket>531</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>531-d334ba72</id>
+    <lines>40-42</lines>
+    <body>Implement methods register and ofProject(...) of this class, once we have an implementation of PayoutMethod (we will start with the Stripe payment method) and class ContributorPayoutMethods.</body>
+    <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryPayoutMethods.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-09T14:22:41Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/538" closed="2020-09-10T12:54:18+00:00">538</issue>
+        <ticket>535</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>535-d1f88dd7</id>
+        <lines>39-41</lines>
+        <body>Implement methods register of this class, once we have an implementation of PayoutMethod (we will start with the Stripe payment method).</body>
+        <file>self-core-impl/src/test/java/com/selfxdsd/core/mock/InMemoryPayoutMethods.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-09-10T08:00:31Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/540" closed="2020-09-10T13:51:32+00:00">540</issue>
+            <ticket>538</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>538-e2c71d0d</id>
+            <lines>30-33</lines>
+            <body>Implement method PayoutMethod::createStripeAccount() which will first check if the contributor doesn't already have a Stripe PayoutMethod, then use Stripe's API cu create an account and finally register the PayoutMethod.</body>
+            <file>self-api/src/main/java/com/selfxdsd/api/Contributor.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-09-10T12:53:22Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/self-xdsd/self-core/issues/541" closed="2020-09-10T14:49:34+00:00">541</issue>
+            <ticket>538</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>538-6c60ba7a</id>
+            <lines>33-36</lines>
+            <body>Implement Stripe API call to check if the contributor has finished the onboarding process for this payout method. Then, implement an API call to see if there are any more actions that the Contributor needs to take in order for the account to be fully active.</body>
+            <file>self-core-impl/src/main/java/com/selfxdsd/core/contributors/StripePayoutMethod.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-09-10T12:53:22Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/544" closed="2020-09-10T19:11:45+00:00">544</issue>
+    <ticket>519</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>519-be5395a8</id>
+    <lines>67-71</lines>
+    <body>Replace this method with method Contributor::User.asContributor(). This way, we will have access to all of the user's stuff (contracts, tasks, payout methods etc). If the User is not a Contributor, the method should return null.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/User.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-10T14:51:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/546" closed="2020-09-17T14:08:09+00:00">546</issue>
+    <ticket>536</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>536-f6f2e44e</id>
+    <lines>32-33</lines>
+    <body>Write custom SelfExceptions for Projects and replace the existent IllegalStateExceptions with them.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Projects.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-09T17:02:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/550" closed="2020-09-19T13:18:53+00:00">550</issue>
+    <ticket>548</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>548-3fa180bc</id>
+    <lines>32-35</lines>
+    <body>Implement and test Contributors::Contributors#ofProvider(String). Also iterating over all contributors should be restricted in favor of ofProvider() (throwing SelfException).</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Contributors.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-11T08:28:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/549" closed="2020-09-17T14:08:16+00:00">549</issue>
+        <ticket>550</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>550-0614a150</id>
+        <lines>33-34</lines>
+        <body>Write custom SelfExceptions for Tasks and replace the existent IllegalStateExceptions with them.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Task.java</file>
+        <author>cristianpela</author>
+        <email>cristypela05@gmail.com</email>
+        <time>2020-09-11T09:10:27Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-core/issues/555">555</issue>
+    <ticket>552</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>552-d847b7f6</id>
+    <lines>8-10</lines>
+    <body>Finish writing custom Self Exception for Invoices (InvoicesException). Also include the already written InvoiceException into InvoicesExceptions as InvoicesException.Single.</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/Invoices.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-17T08:29:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/564" closed="2020-10-01T12:13:17+00:00">564</issue>
+    <ticket>562</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>562-63248b5a</id>
+    <lines>45-47</lines>
+    <body>When reviewing the assigned tasks (assignedTasks(Event)), if the deadline of the task has expired, we should resign the Contributor and inform them about it via an Issue comment.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/StoredProjectManager.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-26T09:59:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/572" closed="2020-10-01T14:35:58+00:00">572</issue>
+    <ticket>571</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>571-e9749a10</id>
+    <lines>46-48</lines>
+    <body>When checking if task deadline is missed in assignedTasks(...), we should take into account the hours and minutes as well. Right now we checking it against days left.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/StoredProjectManager.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-30T08:13:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/576" closed="2020-10-02T14:23:19+00:00">576</issue>
+    <ticket>570</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>570-dcd501ea</id>
+    <lines>32-35</lines>
+    <body>Add a Conversation implementation where we should ignore the comment if it comes from any other PMs. We should not allow the PMs to talk to each other because they will most likely end up in an infinite loop of "Sorry, I don't understand that".</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/pm/Conversation.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-01T18:17:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/594" closed="2020-10-10T08:17:50+00:00">594</issue>
+    <ticket>581</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>581-6cae0f5d</id>
+    <lines>43-45</lines>
+    <body>Continue implementing the createStripeMethod here. It should create a Customer via Stripe API (using the Project ID), then register and return the new stripe Wallet.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/StoredProject.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-09T09:50:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/598" closed="2020-10-13T07:42:09+00:00">598</issue>
+        <ticket>594</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>594-abba5903</id>
+        <lines>36-40</lines>
+        <body>A project's Wallet should have one or more PaymentMethods, which will represent the cards or other payment methods that the Project's owner has registered for the project. Only one of these methods should be active or primary and it will be the first one we try to use when making payments.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Wallet.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-10-10T07:55:18Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-core/issues/599" closed="2020-10-13T09:22:30+00:00">599</issue>
+        <ticket>594</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>594-984a648d</id>
+        <lines>41-46</lines>
+        <body>A Wallet should have the method updateCash(...) which will update the amount of cash that we are allowed to use. In other words, this cash value will act as a limit that the user sets for us -- when this limit reaches zero, we will not make any more payments and they will have to go on the web dashboard to update this value.</body>
+        <file>self-api/src/main/java/com/selfxdsd/api/Wallet.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-10-10T07:55:18Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/595" closed="2020-10-10T08:08:03+00:00">595</issue>
+    <ticket>581</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>581-6471a6d6</id>
+    <lines>50-54</lines>
+    <body>When reviewing the unassigned tasks (unassignedTasks(...)), the PM should check if the Issue is already assigned to someone and, if it is, it should assign the Task to that contributor. If the Issue is assigned to someone who is not a registered to someone who is not a Contributor, they should be unassigned and a Contributor should be elected.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/StoredProjectManager.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-09T09:50:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/603" closed="2020-10-11T10:59:39+00:00">603</issue>
+    <ticket>585</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>585-676e2a39</id>
+    <lines>39-41</lines>
+    <body>When unassigning the Task, we should also remove the Issue assignee (if any) and leave a comment to let them know about it.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/managers/UnassignTask.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-10T12:10:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/606" closed="2020-10-15T16:34:04+00:00">606</issue>
+    <ticket>604</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>604-dc7ff9e3</id>
+    <lines>36-38</lines>
+    <body>Implement method pay(...) here as soon as we have a Wallets PaymentMethods available. We should always try to use the active PaymentMethod first.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/StripeWallet.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-10T13:01:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/612" closed="2020-10-12T14:36:30+00:00">612</issue>
+    <ticket>610</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>610-65b8cb4e</id>
+    <lines>42-43</lines>
+    <body>Implement and test method search(...) here, by using class FoundIssues to represent the found issues.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubIssues.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-11T17:24:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/615" closed="2020-10-15T16:43:43+00:00">615</issue>
+    <ticket>608</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>608-b4f8136c</id>
+    <lines>30-31</lines>
+    <body>Provide implementation and unit tests for PaymentMethods#ofWallet(...).</body>
+    <file>self-api/src/main/java/com/selfxdsd/api/PaymentMethods.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-10-10T13:34:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/616" closed="2020-10-16T16:50:02+00:00">616</issue>
+    <ticket>609</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>609-53389968</id>
+    <lines>40-41</lines>
+    <body>Implement equals() and hashCode() for StripeWallet since StoredPaymentMethod is using Wallet for its equals and hashCode methods.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/projects/StripeWallet.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-10-12T07:50:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/632" closed="2020-10-26T11:44:48+00:00">632</issue>
+    <ticket>629</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>629-041ddd1b</id>
+    <lines>40-41</lines>
+    <body>After we have the method Repo.star() implemented, finish implementation of method accept here to actually star the repo.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubInvitation.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-18T08:50:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-core/issues/641" closed="2020-10-26T10:08:03+00:00">641</issue>
+    <ticket>630</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>630-7e246601</id>
+    <lines>18-22</lines>
+    <body>Write some unit tests for method add() here. They should follow the same pattern as other unit tests and make use of class MockJsonResources. As example of usage, see how tests GithubIssueTestCase.reopensOk() and GithubIssueTestCase.reopensNotFound() are implemented.</body>
+    <file>self-core-impl/src/main/java/com/selfxdsd/core/GithubStars.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-25T20:41:33Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

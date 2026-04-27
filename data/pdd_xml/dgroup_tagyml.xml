@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-01-06T04:23:30+00:00" version="0.30.21">
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/tagyml/issues/9">9</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-08faa53a</id>
+    <lines>137-137</lines>
+    <body>Activate de.thetaphi:forbiddenapis in order to forbid the usage of forbidden API like static matchers, etc --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-01T06:55:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/tagyml/issues/10">10</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-85c94c26</id>
+    <lines>29-30</lines>
+    <body>Migrate unit tests to Assertion from cactoos-matchers once v0.13 is released.</body>
+    <file>src/test/java/org/dgroup/yaml/package-info.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-01T06:32:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/tagyml/issues/27" closed="2019-01-14T08:25:24+00:00">27</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9b5f6a90</id>
+    <lines>30-32</lines>
+    <body>Rename to Yaml and extends Scalar. It shouldn't be focused on top on snakeyaml only, thus the implementation YamlOf should support other frameworks through the passing of org.cactoos.Scalar or org.cactoos.Func.</body>
+    <file>src/main/java/io/github/dgroup/yaml/YamlFile.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-13T15:06:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/tagyml/issues/28" closed="2019-01-14T08:25:26+00:00">28</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-1900b3b7</id>
+    <lines>29-32</lines>
+    <body>Avoid compound names within the classes. The fix is required for the following packages: - {@link io.github.dgroup.yaml.file} - {@link io.github.dgroup.yaml.tag}, where TagIs rename to TagHas</body>
+    <file>src/main/java/io/github/dgroup/yaml/package-info.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-13T15:06:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/tagyml/issues/31" closed="2019-01-14T08:32:19+00:00">31</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-1567f494</id>
+    <lines>29-32</lines>
+    <body>Avoid compound names within the classes. The fix is required for the following packages: - {@link io.github.dgroup.tagyml.yaml} - {@link io.github.dgroup.tagyml.tag}, where TagIs rename to TagHas</body>
+    <file>src/main/java/io/github/dgroup/tagyml/package-info.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-01-13T15:06:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/tagyml/issues/45">45</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5c50c062</id>
+    <lines>27-47</lines>
+    <body>Activate JDK11, 12 for CI process.addons: For now its disabled due to 'https://travis-ci.org/dgroup/tagyml/jobs/579535606' Exception in thread "main" java.lang.reflect.InvocationTargetException at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.base/java.lang.reflect.Method.invoke(Method.java:566) at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513) at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525) Caused by: java.lang.RuntimeException: Class java/util/UUID could not be instrumented. at org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:140) at org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:101) FATAL ERROR in native method: processing of -javaagent failed at org.jacoco.agent.rt.internal_8ff85ea.PreMain.createRuntime(PreMain.java:55) at org.jacoco.agent.rt.internal_8ff85ea.PreMain.premain(PreMain.java:47) ... 6 more Caused by: java.lang.NoSuchFieldException: $jacocoAccess at java.base/java.lang.Class.getField(Class.java:2000) at org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:138) ... 9 more Aborted (core dumped)</body>
+    <file>.travis.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-09-01T20:27:14Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

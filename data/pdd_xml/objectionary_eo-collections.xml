@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-10-17T09:20:12+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/22" closed="2022-09-15T15:59:17+00:00">22</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-927fb05d</id>
+    <lines>62-64</lines>
+    <body>min. DEPRICATED, please remove after update of objectionary/eo. string.joined in objectionary/eo still use reducei so wnen it will be changed delete that</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-08-11T14:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/23" closed="2022-09-16T09:48:01+00:00">23</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-de1ffbeb</id>
+    <lines>93-95</lines>
+    <body>min. DEPRICATED, please remove after update of objectionary/eo. bytes.as-hash in objectionary/eo still use reduce so wnen it will be changed delete that</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-08-11T14:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/24" closed="2022-09-16T08:53:21+00:00">24</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-9333caf2</id>
+    <lines>125-127</lines>
+    <body>min. DEPRICATED, please remove after update of objectionary/eo. some objects in objectionary/eo still use map so wnen it will be changed delete that</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2022-08-11T14:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/37" closed="2022-10-24T10:48:07+00:00">37</issue>
+    <ticket>33</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>33-d756e29b</id>
+    <lines>61-65</lines>
+    <body>We need to remove this nop object after fixing the problem with incorrect computng of hash method in org.eolang.string, and when we uncommenting all tests related to this problem in objectionary/eo</body>
+    <file>src/test/eo/org/eolang/collections/multimap-tests.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-07T14:21:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/65" closed="2022-12-26T13:28:34+00:00">65</issue>
+    <ticket>31</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>31-0ed67cde</id>
+    <lines>231-234</lines>
+    <body>We need to implement "filtered" object too. It should filter list with the function "f", without using index. So the function "f" should have only one attribute.</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-10-20T17:48:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/69">69</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-849ae648</id>
+    <lines>167-171</lines>
+    <body>We have to make this function faster. expectation of the number of elements with a certain hash is 1. Thus, it makes sense for us to start searching for elements from a given index, and thus reducing the average running time from linear to constant.</body>
+    <file>src/main/eo/org/eolang/collections/multimap.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-08T18:09:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/70">70</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-ce39b299</id>
+    <lines>31-34</lines>
+    <body>Current implementation using rebuild. We should implement all methods only via using rebuilded method, because it was implemented on eo. May be we will need to disable some tests or simplify them. Also we should remove rebuild method in multimap file</body>
+    <file>src/main/eo/org/eolang/collections/map.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-08T18:09:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/71">71</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-ef4bc9a4</id>
+    <lines>120-123</lines>
+    <body>This test was temporary disabled here. As we have problems with little size of stack, this test falls down because of huge count of operations inside them. Next, there are two more side puzzles.</body>
+    <file>src/test/eo/org/eolang/collections/multimap-tests.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-08T18:09:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/72">72</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-332c85d8</id>
+    <lines>154-157</lines>
+    <body>This test was temporary disabled here. As we have problems with little size of stack, this test falls down because of huge count of operations inside them Next, there is one more side puzzle.</body>
+    <file>src/test/eo/org/eolang/collections/multimap-tests.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-08T18:09:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/73">73</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-96820566</id>
+    <lines>180-182</lines>
+    <body>This test was temporary disabled here. As we have problems with little size of stack, this test falls down because of huge count of operations inside them</body>
+    <file>src/test/eo/org/eolang/collections/multimap-tests.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-11-08T18:09:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/85">85</issue>
+    <ticket>83</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>83-153555c7</id>
+    <lines>36-39</lines>
+    <body>To remove all nop objects from this tests. When 'while' objects behaviour was changed, list.sorted tests started to fail. We need to redo list.sorted object somehow and remove 'nop' objects from these tests.</body>
+    <file>src/test/eo/org/eolang/collections/list-tests.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-12-22T08:27:41Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/eo-collections/issues/136">136</issue>
+        <ticket>85</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>85-22081d9d</id>
+        <lines>571-574</lines>
+        <body>Fix sorting with list with 0. For some reason `(list * 3 2 0).sorted` fails with "Can't #at(3) the 4th element of the array, there are just 3 of them". Check also complex-objects-list-sorted-with-zero test</body>
+        <file>src/test/eo/org/eolang/collections/list-tests.eo</file>
+        <author>levBagryansky</author>
+        <email>28lev11@gmail.com</email>
+        <time>2023-02-15T16:22:20Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/137" closed="2023-02-16T22:38:57+00:00">137</issue>
+    <ticket>103</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>103-b2bfabb1</id>
+    <lines>162-165</lines>
+    <body>list.concat have to return list object instead of array. When we call a concat method on an list object, we want to get list as a result, as other list methods. Also we should add some tests to check object type.</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-02-15T16:22:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/138">138</issue>
+    <ticket>99</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>99-3b38c32b</id>
+    <lines>293-295</lines>
+    <body>This method must return list type. As we have in other methods the result should be wrapped in a list. Also we have to add methods to check return type.</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-02-15T16:22:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/139" closed="2023-08-01T17:38:08+00:00">139</issue>
+    <ticket>112</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>112-e29f5725</id>
+    <lines>325-328</lines>
+    <body>Make list.head understand negative index. Right now we can use negative index and the result would be an empty list. It would be better to make this index as index from the end of the list.</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-02-15T16:22:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/140">140</issue>
+    <ticket>120</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>120-91874f0a</id>
+    <lines>30-33</lines>
+    <body>Optimize set. Current implementation of set is quite heavy and takes a lot of memory. Set should be refactored so he "rebuild" itself only once and when every new element is added he just checks if such element exists and adds it</body>
+    <file>src/main/eo/org/eolang/collections/set.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-02-15T16:22:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/147">147</issue>
+    <ticket>111</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>111-1d19c5c1</id>
+    <lines>364-370</lines>
+    <body>We need implement list comparison methods. Below we have 4 methods for comparing lists: gt, gte, lt, lte. We should implement them on eo and unwrap tests with them. Since all elements are comparable (i.e. an order relation is given for any two pairs), we only need to implement `gt` and `gte`, and we obtain the remaining comparison operators from their negations.</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-16T14:49:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/151">151</issue>
+    <ticket>119</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>119-ba53ee0a</id>
+    <lines>47-50</lines>
+    <body>We should implement map.contains-value. As we have contains-key, we have to implement contains-value method, which will check if value exists in current map. This method should return bool value.</body>
+    <file>src/main/eo/org/eolang/collections/map.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-22T01:12:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/175" closed="2023-05-29T09:55:43+00:00">175</issue>
+    <ticket>156</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>156-e1f116f6</id>
+    <lines>71-73</lines>
+    <body>Replace all "as-hash" object usings with "hash-code-of". In order to make "eo-runtime" independent of "eo-collections" need to replace all "as-hash" objects with new "hash-code-of" object.</body>
+    <file>src/main/eo/org/eolang/collections/map.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-05-24T10:57:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/176" closed="2023-10-09T20:17:24+00:00">176</issue>
+    <ticket>156</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>156-50c73486</id>
+    <lines>31-33</lines>
+    <body>Add more tests for hash-code-of object. It would be interesting to test floating numbers and, maybe, big numbers (or some corner cases)</body>
+    <file>src/test/eo/org/eolang/collections/hash-code-of-tests.eo</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-05-24T10:57:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/184" closed="2023-05-31T23:48:49+00:00">184</issue>
+    <ticket>182</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>182-0835ea5c</id>
+    <lines>259-263</lines>
+    <body>Object "rec-filtered" inside "filteredi" can be simplified without using object "seq". To achieve that object "rec-filtered" should check if "index" is equals to length of "carr" at the beginning. If it's TRUE - "new-list" should be returned. If it's FALSE - new recursive iteration should be started. Use "list.reducedi" as an example.</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2023-05-31T14:42:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-collections/issues/187" closed="2023-06-01T23:56:53+00:00">187</issue>
+    <ticket>181</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>181-fed906c0</id>
+    <lines>62-67</lines>
+    <body>Wrong order of the attributes of object "f". For some reason "reducedi" is the only object that walks through array and where function has attributes in next order: accumulator, index, item. All other objects like mappedi, filteredi, eachi have attributes in the next order: item, index. So "index" must be after "item" object. Also need to change the order of attributes in all other objects that use "reducedi"</body>
+    <file>src/main/eo/org/eolang/collections/list.eo</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2023-06-01T12:33:20Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/eo-collections/issues/189">189</issue>
+        <ticket>187</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>187-e846d736</id>
+        <lines>242-245</lines>
+        <body>Activate the test when `eo-strings` will use fixed list.reducedi. eo-strings depends on and uses objects from eo-collection. Since list.reducedi was changed &#x2013; need to make changes to eo-strings, release it and activate the test.</body>
+        <file>src/test/eo/org/eolang/collections/list-tests.eo</file>
+        <author>@maxonfjvipon</author>
+        <email>mtrunnikov@gmail.com</email>
+        <time>2023-06-01T15:45:09Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/objectionary/eo-collections/issues/194">194</issue>
+            <ticket>189</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>189-7dcfd9f0</id>
+            <lines>110-114</lines>
+            <body>Resolve list.withi with negative index. Implementation of list.head was changed. If provided index &lt; 0 it returns list with (-1 * index) elements from the tail. It broke a logic inside list.withi object and the test below is no longer working as expected. Need to refactor logic inside list.withi and enable the test.</body>
+            <file>src/test/eo/org/eolang/collections/list-tests.eo</file>
+            <author>@maxonfjvipon</author>
+            <email>mtrunnikov@gmail.com</email>
+            <time>2023-07-31T15:22:31Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-collections/issues/207">207</issue>
+    <ticket>156</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>156-ae0041f6</id>
+    <lines>91-94</lines>
+    <body>Enable this test after fixing issue #205 Now all strings of the same length has same hash-code. This behavior is incorrect and need to be fixed. Don't forget to rename this test.</body>
+    <file>src/test/eo/org/eolang/collections/hash-code-of-tests.eo</file>
+    <author>Roman Korostinskiy</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-10-09T12:25:43Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

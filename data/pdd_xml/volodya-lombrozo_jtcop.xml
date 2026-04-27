@@ -1,0 +1,802 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-05-19T09:47:05+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/101" closed="2024-09-13T08:09:32+00:00">101</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-e3e1b034</id>
+    <lines>37-40</lines>
+    <body>Enable ML tests when caching will be implemented. For not tests related to ML take lots of time and it's hard to develop in that mode. We have to implement a caching or increase the speed of tests in order to use them in every-day development.</body>
+    <file>src/test/java/com/github/lombrozo/testnames/rules/ml/ModelSourceFileSystemTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-04-16T20:32:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/103" closed="2023-05-15T16:43:19+00:00">103</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-a4943eee</id>
+    <lines>41-44</lines>
+    <body>Add documentation for RuleAllTestsHaveProductionClass rule. We have to add documentation to that rule and place it under the docs/rules directory. The documentation should contain the rule description, examples of correct and incorrect test class names.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/rules/RuleAllTestsHaveProductionClass.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-04-18T08:58:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/110" closed="2023-04-27T16:35:12+00:00">110</issue>
+    <ticket>78</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>78-8a69c43a</id>
+    <lines>41-43</lines>
+    <body>Add test cases and implementation for classes with several annotations. We have to add test cases and handling logic for cases where class has several annotations and one annotation has several different values.</body>
+    <file>src/test/java/com/github/lombrozo/testnames/javaparser/TestClassJavaParserTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-04-25T16:30:01Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/volodya-lombrozo/jtcop/issues/114" closed="2023-04-28T15:32:21+00:00">114</issue>
+        <ticket>110</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>110-ea4c930c</id>
+        <lines>36-39</lines>
+        <body>Handle suppressed rules. We have to handle suppressed rules in the cop. Maybe it is better to add one more class or interface hierarchy for the Cop, like SuppressedCop, and then use it in the main cop, but I'm not sure here.</body>
+        <file>src/main/java/com/github/lombrozo/testnames/Cop.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-04-27T16:27:36Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/volodya-lombrozo/jtcop/issues/117" closed="2023-05-08T17:58:16+00:00">117</issue>
+            <ticket>114</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>114-06a65fb1</id>
+            <lines>33-36</lines>
+            <body>Redesign SuppressWarnings solution. We are suppressing only RuleAllTestsHaveProductionClass for now because the implementation for all rules requires redesign of the current solution. Maybe we can add more class SuppressedRule or something like that.</body>
+            <file>src/main/java/com/github/lombrozo/testnames/Rule.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-04-28T15:20:52Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/volodya-lombrozo/jtcop/issues/125" closed="2023-07-18T16:24:09+00:00">125</issue>
+                <ticket>117</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>117-45f9bfaa</id>
+                <lines>37-42</lines>
+                <body>Continue refactoring of RuleSuppressed class. We can't apply RuleSuppressed for all cases like RuleAllTestsHaveProduction class (separate issue.) Moreover, as it was investigated all suppress annotations have to be treated as tree like structure. For example, if we have @SuppressWarnings("RulePresentTense") on a class level then we have to apply that suppressing for all test cases in that class. Current implementation of RuleSuppressed doesn't solve that problem.</body>
+                <file>src/main/java/com/github/lombrozo/testnames/rules/RuleSuppressed.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-05-08T17:50:41Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/volodya-lombrozo/jtcop/issues/126" closed="2023-07-17T17:25:37+00:00">126</issue>
+                <ticket>117</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>117-9ac9e7ed</id>
+                <lines>116-120</lines>
+                <body>Remove isNotSuppressed method from RuleAllTestsHaveProductionClass. We have to remove isNotSuppressed method from RuleAllTestsHaveProductionClass because we already implemented the suppression mechanism in the RuleSuppressed rule. The main point here to keep backward compatibility in order to not break the build for all dependent projects.</body>
+                <file>src/main/java/com/github/lombrozo/testnames/rules/RuleAllTestsHaveProductionClass.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-05-08T17:50:41Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/volodya-lombrozo/jtcop/issues/115" closed="2023-05-07T14:33:41+00:00">115</issue>
+        <ticket>110</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>110-5dbff97d</id>
+        <lines>37-39</lines>
+        <body>Implement suppressed method in TestCaseJavaParser. The method should return a list of suppressed rules. Similar to the method in TestClass. Also we have to add tests for the method.</body>
+        <file>src/main/java/com/github/lombrozo/testnames/javaparser/TestCaseJavaParser.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-04-27T16:27:36Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/135" closed="2023-05-25T16:45:31+00:00">135</issue>
+    <ticket>129</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>129-9c6d8687</id>
+    <lines>41-44</lines>
+    <body>Add tests for test classes and suppressed rules. We need to add tests for suppressed rules that was excluded for entire project. In other words, the test should check that the rules are excluded for the entire project and for all classes produced by `testClasses` method.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/javaparser/ProjectJavaParser.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-05-18T15:18:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/136" closed="2023-05-21T12:30:52+00:00">136</issue>
+    <ticket>129</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>129-b088bc9b</id>
+    <lines>64-66</lines>
+    <body>Add integration tests for ValidateMojo exclusions. We have to add integration tests for ValidateMojo exclusions. The integration test will check that we don't apply rules that are excluded.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/ValidateMojo.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-05-18T15:18:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/137" closed="2023-05-19T15:42:45+00:00">137</issue>
+    <ticket>129</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>129-21e7ffe8</id>
+    <lines>44-46</lines>
+    <body>Refactor TestClassJavaParserTest in order to remove duplication of literals. This class has a lot of duplication of literals. We should refactor it in order to remove duplication of literals. After implementing the issue we should remove the SuppressWarnings.</body>
+    <file>src/test/java/com/github/lombrozo/testnames/javaparser/TestClassJavaParserTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-05-18T15:18:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/145" closed="2023-06-19T16:25:59+00:00">145</issue>
+    <ticket>67</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>67-5ff30542</id>
+    <lines>38-42</lines>
+    <body>Add RuleAssertionMessage to the Cop checking pipeline. We have to add the RuleAssertionMessage rule to the Cop checking pipeline. For now, it's just added to repository and doesn't work during the entire check. I believe it makes sense to add this rule when it will work without any problems and we will have integration tests that check it.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/rules/RuleAssertionMessage.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-05-30T16:12:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/146" closed="2023-06-21T16:08:37+00:00">146</issue>
+    <ticket>67</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>67-d6c80cb6</id>
+    <lines>43-47</lines>
+    <body>Continue implementation of TestCaseJavaParser#assertions. We have to implement the method assertions() in TestCaseJavaParser. The method should return a list of assertions from different libraries like Hamcrest, AssertJ, JUnit, etc. Also we have to have a list of tests that check new functionality.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/javaparser/TestCaseJavaParser.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-05-30T16:12:39Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/volodya-lombrozo/jtcop/issues/149" closed="2023-06-01T17:49:31+00:00">149</issue>
+        <ticket>146</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>146-ff001db1</id>
+        <lines>54-56</lines>
+        <body>Continue implementation of TestCaseJavaParser#suppressed. We have to refactor the method assertions() in TestCaseJavaParser. Now it looks ugly. Moreover, we have to handle more corner cases.</body>
+        <file>src/main/java/com/github/lombrozo/testnames/javaparser/TestCaseJavaParser.java</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2023-05-31T16:54:03Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/volodya-lombrozo/jtcop/issues/151">151</issue>
+            <ticket>149</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>149-7bfb5a09</id>
+            <lines>32-35</lines>
+            <body>Add support of Hamcrest assertions. For now we support only JUnit assertions, the next step would be to add Harcrest assertions. We will have to change the library scope to 'compile' and parse it the same way as {@link AssertionOfJUnit}.</body>
+            <file>src/main/java/com/github/lombrozo/testnames/javaparser/ParsedAssertion.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-06-01T16:47:25Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/volodya-lombrozo/jtcop/issues/160" closed="2023-06-07T19:05:54+00:00">160</issue>
+                <ticket>151</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>151-e98ae4f7</id>
+                <lines>40-43</lines>
+                <body>Continue Implementation of the AssertionOfHamcrest methods. AssertionOfHamcrest should parse all hamcrest assertions and messages. Now it is not implemented. When it is done, remove @Disabled annotation from all tests in this class.</body>
+                <file>src/test/java/com/github/lombrozo/testnames/javaparser/AssertionOfHamcrestTest.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-06-06T16:58:41Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/164" closed="2023-06-12T09:37:00+00:00">164</issue>
+                    <ticket>160</ticket>
+                    <estimate>90</estimate>
+                    <role>DEV</role>
+                    <id>160-c72f60f2</id>
+                    <lines>34-37</lines>
+                    <body>Add unit tests for AssertionOfJavaParser. For now we don't have tests for AssertionOfJava parser and don't check how different implementations like {@link AssertionOfHamcrest} and {@link AssertionOfJUnit} work together. So, it's better to test that interaction and then remove that puzzle.</body>
+                    <file>src/main/java/com/github/lombrozo/testnames/javaparser/AssertionOfJavaParser.java</file>
+                    <author>@volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-06-07T18:54:26Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/volodya-lombrozo/jtcop/issues/170" closed="2023-06-13T15:39:23+00:00">170</issue>
+                        <ticket>164</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>164-408f295d</id>
+                        <lines>40-43</lines>
+                        <body>Enable AssertionOfJavaParserTest#extractMessagesFromAllAssertions test. This test is disabled because it fails. Apparently, we have the bug in the parser of JUnit assertions. We need to fix it. After that, we should enable this test: {@link AssertionOfJavaParserTest#extractsMessagesFromAllAssertions()}</body>
+                        <file>src/test/java/com/github/lombrozo/testnames/javaparser/AssertionOfJavaParserTest.java</file>
+                        <author>@volodya-lombrozo</author>
+                        <email>volodya.lombrozo@gmail.com</email>
+                        <time>2023-06-12T09:27:57Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/volodya-lombrozo/jtcop/issues/173" closed="2023-06-14T15:00:04+00:00">173</issue>
+                            <ticket>170</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>170-63afaedd</id>
+                            <lines>103-107</lines>
+                            <body>Code duplication between AssertionOfJUnit and AssertionOfHamcrest. We have the same code in both classes in the 'message' method. We need to: Extract the common code to a new class. The new class should be used by both AssertionOfJUnit and AssertionOfHamcrest. After that, we should remove the puzzle.</body>
+                            <file>src/main/java/com/github/lombrozo/testnames/javaparser/AssertionOfJUnit.java</file>
+                            <author>@volodya-lombrozo</author>
+                            <email>volodya.lombrozo@gmail.com</email>
+                            <time>2023-06-13T15:25:08Z</time>
+                            <children/>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/volodya-lombrozo/jtcop/issues/171" closed="2023-06-15T16:18:35+00:00">171</issue>
+                        <ticket>164</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>164-71efc66f</id>
+                        <lines>30-34</lines>
+                        <body>Move MethodNotFound class into appropriate place. It should be placed somewhere in order to remove the JTCOP.RuleAllTestsHaveProductionClass warning. You can read more about the check right &lt;a href="https://github.com/volodya-lombrozo/jtcop/blob/main/docs/rules/all-have-production-class.md"&gt;here&lt;/a&gt; When you move the class, please, remove the warning suppression from that class.</body>
+                        <file>src/test/java/com/github/lombrozo/testnames/javaparser/MethodNotFound.java</file>
+                        <author>@volodya-lombrozo</author>
+                        <email>volodya.lombrozo@gmail.com</email>
+                        <time>2023-06-12T09:27:57Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/165" closed="2023-06-08T15:29:06+00:00">165</issue>
+                    <ticket>160</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>160-68205df1</id>
+                    <lines>43-46</lines>
+                    <body>UNKNOWN_MESSAGE constant duplication. The UNKNOWN_MESSAGE constant is duplicated in AssertionOfJUnit and AssertionOfHamcrest. It should be moved to the ParsedAssertion interface or to the separate class. When it's done, remove this puzzle.</body>
+                    <file>src/main/java/com/github/lombrozo/testnames/javaparser/AssertionOfHamcrest.java</file>
+                    <author>@volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-06-07T18:54:26Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/166" closed="2023-06-11T10:03:31+00:00">166</issue>
+                    <ticket>160</ticket>
+                    <estimate>90</estimate>
+                    <role>DEV</role>
+                    <id>160-2711be69</id>
+                    <lines>40-43</lines>
+                    <body>Enable AssertionOfHamcrestTest#ignoresJUnitAssertions test. For now it's really hard to prepare correct test environment for ignoresJUnitAssertions test. We have to create several supportive classes which will make it convenient. When we have done it, just enable the test and remove that puzzle.</body>
+                    <file>src/test/java/com/github/lombrozo/testnames/javaparser/AssertionOfHamcrestTest.java</file>
+                    <author>@volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-06-07T18:54:26Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/volodya-lombrozo/jtcop/issues/161" closed="2023-06-15T15:59:55+00:00">161</issue>
+                <ticket>151</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>151-740debe3</id>
+                <lines>146-149</lines>
+                <body>The method AssertionOfHamcrestTest#method is duplicated. The method AssertionOfHamcrestTest#method is duplicated in the class AssertionOfJUnitTest. It's better to move it to the separate class and use it from both classes. When it's done, remove this puzzle.</body>
+                <file>src/test/java/com/github/lombrozo/testnames/javaparser/AssertionOfHamcrestTest.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-06-06T16:58:41Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/volodya-lombrozo/jtcop/issues/152" closed="2023-06-03T06:42:14+00:00">152</issue>
+            <ticket>149</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>149-9bf870fd</id>
+            <lines>41-45</lines>
+            <body>Implement more flexible mechanism of assertions parsing. Currently, we are using a hardcoded list of allowed methods and number of arguments to reason about junit assertions. This is not flexible enough and doesn't count all cases. We have to add more tests for JUnit assertions and implement a more flexible mechanism of parsing.</body>
+            <file>src/main/java/com/github/lombrozo/testnames/javaparser/AssertionOfJUnit.java</file>
+            <author>@volodya-lombrozo</author>
+            <email>volodya.lombrozo@gmail.com</email>
+            <time>2023-06-01T16:47:25Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/volodya-lombrozo/jtcop/issues/155" closed="2023-06-03T08:43:38+00:00">155</issue>
+                <ticket>152</ticket>
+                <estimate>90</estimate>
+                <role>DEV</role>
+                <id>152-b7acdda8</id>
+                <lines>41-44</lines>
+                <body>Continue with implementing more flexible mechanism of assertions parsing. We have added approximate implementation of JUnit assertions parsing. However, it is not enough. I believe we have to check all tests and cases one more time. Also it would be nice to add integration test for JUnit assertions.</body>
+                <file>src/main/java/com/github/lombrozo/testnames/javaparser/AssertionOfJUnit.java</file>
+                <author>@volodya-lombrozo</author>
+                <email>volodya.lombrozo@gmail.com</email>
+                <time>2023-06-02T15:40:09Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/157" closed="2023-06-06T07:11:55+00:00">157</issue>
+                    <ticket>155</ticket>
+                    <estimate>90</estimate>
+                    <role>DEV</role>
+                    <id>155-2eda9aee</id>
+                    <lines>38-40</lines>
+                    <body>Enable all tests in AssertionOfJUnitTest and fix all related problems. Currently, some tests are disabled because of the problems with parsing of JUnit assertions. We need to fix all problems and enable all tests. After that, we can remove this puzzle.</body>
+                    <file>src/test/java/com/github/lombrozo/testnames/javaparser/AssertionOfJUnitTest.java</file>
+                    <author>@volodya-lombrozo</author>
+                    <email>volodya.lombrozo@gmail.com</email>
+                    <time>2023-06-03T08:10:54Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/182" closed="2023-07-09T14:18:33+00:00">182</issue>
+    <ticket>180</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>180-d1da7234</id>
+    <lines>1-4</lines>
+    <body>Add documentation for the RuleNotSpam. The documentation should be added to the `docs/rules/not-spam.md` file. The documentation should contain the description of the rule and the examples of the correct and incorrect code.</body>
+    <file>docs/rules/not-spam.md</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-06-20T16:28:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/183">183</issue>
+    <ticket>180</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>180-c527e625</id>
+    <lines>1-4</lines>
+    <body>Add documentation for the RuleNotContainsTestWord. The documentation should be added to the `docs/rules/test-word.md` file. The documentation should contain the description of the rule and the examples of the correct and incorrect code.</body>
+    <file>docs/rules/test-word.md</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-06-20T16:28:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/184" closed="2023-07-08T17:11:26+00:00">184</issue>
+    <ticket>180</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>180-c5c6cd5e</id>
+    <lines>1-4</lines>
+    <body>Add documentation for the `RuleNotUsesSpecialCharacters` rule. The documentation should be added to the `docs/rules/not-special-characters.md` file. The documentation should contain the description of the rule and the examples of the correct and incorrect code.</body>
+    <file>docs/rules/not-special-characters.md</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-06-20T16:28:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/189">189</issue>
+    <ticket>187</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>187-1a74d1bd</id>
+    <lines>111-115</lines>
+    <body>Provide refactoring for JavaParserClass and TestClassJavaParser. The JavaParserClass and TestClassJavaParser classes are very similar. They share some logic and have similar methods. The refactoring should be provided to make the code more readable and maintainable. Also we have to count the different cases like records and package-info classes, inner classes and so on. For each case we must have a test.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/javaparser/JavaParserClass.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-06-22T07:56:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/201">201</issue>
+    <ticket>178</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>178-544f068b</id>
+    <lines>44-48</lines>
+    <body>Add BytecodeProject to the Cop. The Cop should be able to work with both ProjectJavaParser and BytecodeProject together. It will be able to check the test names in the compiled classes. We also have to add integration tests for the RuleAllTestsHaveProductionClass that will be able to check the test names in the compiled classes.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/ValidateMojo.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-06-29T16:31:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/208" closed="2023-07-06T16:16:59+00:00">208</issue>
+    <ticket>193</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>193-8e3fe201</id>
+    <lines>71-74</lines>
+    <body>Replace with isJUnitExtension method. The method isJUnitExtension should be implemented in TestClass interface instead of parents() method. The method should return true if the test class is a JUnit extension. By this we will increase the encapsulation of the implementations of TestClass interface.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/TestClass.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-07-05T16:05:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/volodya-lombrozo/jtcop/issues/210" closed="2023-07-07T15:30:55+00:00">210</issue>
+        <ticket>208</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>208-8e8b1db4</id>
+        <lines>37-40</lines>
+        <body>Implement isJUnitExtension method in BytecodeTestClass. This method should return true if the test class is a JUnit extension. For example, if the test class implements the {@link org.junit.jupiter.api.extension.Extension} interface. When this method is implemented, remove that puzzle.</body>
+        <file>src/main/java/com/github/lombrozo/testnames/bytecode/BytecodeTestClass.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-07-06T16:05:58Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/215" closed="2023-07-13T17:59:08+00:00">215</issue>
+    <ticket>195</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>195-08571968</id>
+    <lines>35-37</lines>
+    <body>Apply RuleCorrectTestName to the Cop checking pipeline. When the RuleCorrectTestName is will be ready, it should be applied to the Cop checking pipeline. We also have to add integration tests for the RuleCorrectTestName.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/rules/RuleCorrectTestName.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-07-10T16:24:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/216" closed="2023-07-11T15:59:47+00:00">216</issue>
+    <ticket>195</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>195-ac417c52</id>
+    <lines>37-40</lines>
+    <body>Continue implementing RuleIntegrationTestName. The rule should successfully check that the name of an integration test class ends with "IT" or "ITCase". When the rule is ready, remove the puzzle and enable all the tests inside {@link RuleCorrectTestNameTest}.</body>
+    <file>src/test/java/com/github/lombrozo/testnames/rules/RuleCorrectTestNameTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-07-10T16:24:28Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/volodya-lombrozo/jtcop/issues/218" closed="2023-07-14T19:49:57+00:00">218</issue>
+        <ticket>216</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>216-b249dc68</id>
+        <lines>1-1</lines>
+        <body>Add documentation for the RuleCorrectTestName.</body>
+        <file>docs/rules/test-class-name.md</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-07-11T15:48:47Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/230" closed="2023-07-30T19:21:12+00:00">230</issue>
+    <ticket>194</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>194-f69b44c1</id>
+    <lines>1-4</lines>
+    <body>Add documentation for the RuleOnlyTestMethods. The documentation should be added to the `docs/rules/only-test-methods.md` file. The documentation should contain the description of the rule and the examples of the correct and incorrect code.</body>
+    <file>docs/rules/only-test-methods.md</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-07-19T17:43:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/231">231</issue>
+    <ticket>194</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>194-471738e3</id>
+    <lines>38-40</lines>
+    <body>Incorporate this rule into the Cop class. This rule should be incorporated into the Cop class. When this is done, we should add integration tests for that rule and remove this puzzle.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/rules/RuleOnlyTestMethods.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-07-19T17:43:05Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/volodya-lombrozo/jtcop/issues/245" closed="2023-08-13T10:59:13+00:00">245</issue>
+        <ticket>231</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>231-d4337ae8</id>
+        <lines>36-41</lines>
+        <body>Refactor Cop and CopExperimental. We need to refactor Cop and CopExperimental classes because they both have significant code duplication. In order to do so we have to decide if we introduce one more interface for Cop, or just make Cop more suitable for experimental features, or create one more abstraction. It worth mention that Cop and Rule interface rather similar. So, maybe it makes sense to create a tree of rules instead.</body>
+        <file>src/main/java/com/github/lombrozo/testnames/CopExperimental.java</file>
+        <author>@volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-07-26T14:25:53Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/volodya-lombrozo/jtcop/issues/266">266</issue>
+            <ticket>245</ticket>
+            <estimate>90</estimate>
+            <role>DEV</role>
+            <id>245-9c2054e6</id>
+            <lines>29-34</lines>
+            <body>The Suspect class is a plain DTO. We should refactor this class to make it more object-oriented. Why it is bed, you can read in that &lt;a href="https://www.yegor256.com/2016/07/06/data-transfer-object.html"&gt;blog post.&lt;/a&gt; The main idea to make this class alive. Moreover, we have to add more tests for this class.</body>
+            <file>src/main/java/com/github/lombrozo/testnames/Suspect.java</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2023-08-13T10:57:32Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/232" closed="2023-07-26T13:09:34+00:00">232</issue>
+    <ticket>194</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>194-9a6337ee</id>
+    <lines>34-37</lines>
+    <body>Add tests for all the methods from CharacteristicsJavaParser class. The tests should be added to CharacteristicsJavaParserTest class for all methods from {@link com.github.lombrozo.testnames.javaparser.CharacteristicsJavaParser}. When we implement the tests, we should remove the that puzzle from this class.</body>
+    <file>src/test/java/com/github/lombrozo/testnames/javaparser/CharacteristicsJavaParserTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-07-19T17:43:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/233" closed="2023-07-25T17:58:46+00:00">233</issue>
+    <ticket>194</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>194-1194a6bc</id>
+    <lines>39-42</lines>
+    <body>Add tests for all the methods from BytecodeTestClassCharacteristics class. The tests should be added to BytecodeTestClassCharacteristicsTest class for all methods from {@link com.github.lombrozo.testnames.bytecode.BytecodeTestClassCharacteristics}. When we implement the tests, we should remove the that puzzle from this class.</body>
+    <file>src/test/java/com/github/lombrozo/testnames/bytecode/BytecodeTestClassCharacteristicsTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-07-19T17:43:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/254" closed="2023-11-24T08:31:56+00:00">254</issue>
+    <ticket>242</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>242-8ff5fee6</id>
+    <lines>1-1</lines>
+    <body>Add documentation for the RuleAssertTrueHitter.</body>
+    <file>docs/rules/line-hitter.md</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-08-02T11:43:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/318" closed="2025-01-13T06:07:10+00:00">318</issue>
+    <ticket>314</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>314-5b0e41c8</id>
+    <lines>3-3</lines>
+    <body>Add documentation for the RuleInheritenceInTests.java.</body>
+    <file>docs/rules/inheritance-in-tests.md</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-01-20T14:20:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/359" closed="2024-08-24T08:47:56+00:00">359</issue>
+    <ticket>357</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>357-a463583f</id>
+    <lines>100-102</lines>
+    <body>Refactor 'flatStatements' method to make it more readable. The method 'flatStatements' is too complex and hard to read. It should be refactored to make it more readable and maintainable.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/javaparser/JavaParserMethod.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-04-18T15:19:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/360" closed="2024-08-24T08:47:57+00:00">360</issue>
+    <ticket>357</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>357-4ec3ee26</id>
+    <lines>156-159</lines>
+    <body>Refactor 'flatStatements' method to make it more readable. The method 'flatStatements' is too complex and hard to read. It should be refactored to make it more readable and maintainable. The method should be split into smaller methods with clear responsibilities.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/javaparser/JavaParserMethod.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2024-04-18T15:19:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/396" closed="2024-07-29T13:59:06+00:00">396</issue>
+    <ticket>393</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>393-9c344e41</id>
+    <lines>58-62</lines>
+    <body>Refactor Cop ctor to accept number of arguments. We should refactor ctor to accept a number of argument from one object with them. For instance: new Args(new Arg("maxNumberOfMocks", 2), ...). The same object should be applied to Cop#regular method. We should adjust RuleCorrectTestCases ctor too.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/Cop.java</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-11T18:05:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/397">397</issue>
+    <ticket>393</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>393-43f49e36</id>
+    <lines>37-40</lines>
+    <body>Add support for detecting mocks from other frameworks. We should add support for detecting not only Mockito mocks, but mocks from other frameworks too. We should even try to detect "generic" mocks without a need to stick to the specific framework or library.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/rules/RuleTestCaseContainsMockery.java</file>
+    <author>h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-11T18:05:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/398" closed="2024-07-17T18:20:55+00:00">398</issue>
+    <ticket>393</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>393-ce5b79b8</id>
+    <lines>37-39</lines>
+    <body>Create #doesNotComplants unit test for positive scenarios too. We should introduce a unit test(s) for positive scenarios too. We should check allowed number of mocks and if testcase has a respected suppression.</body>
+    <file>src/test/java/com/github/lombrozo/testnames/rules/RuleTestCaseContainsMockeryTest.java</file>
+    <author>h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-11T18:05:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/433">433</issue>
+    <ticket>248</ticket>
+    <estimate>25</estimate>
+    <role>DEV</role>
+    <id>248-d3746d23</id>
+    <lines>96-98</lines>
+    <body>Enable passesOnPlural test when plural speech detection will be implemented in {@link RulePresentSimpleMl}. Let's test that the following pattern: $pluralNoun_$pluralVerb... passes.</body>
+    <file>src/test/java/com/github/lombrozo/testnames/rules/ml/RulePresentSimpleMlTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-09-16T07:30:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/484" closed="2025-01-28T11:29:59+00:00">484</issue>
+    <ticket>482</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>482-5a736931</id>
+    <lines>156-159</lines>
+    <body>Refactor {@link JavaParserProject#resolver()} ()} method. Currently we use this method in tests. We should invent more simple way to create resolver for tests. Moreover, we duplicate SymbolResolver parameter in many methods. We should refactor it.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/javaparser/JavaParserProject.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-01-27T11:39:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/489">489</issue>
+    <ticket>482</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>482-19e300c3</id>
+    <lines>146-149</lines>
+    <body>Refactor {@link JavaParserProject#resolver()} method. Currently we use this method in tests. We should invent more simple way to create resolver for tests. Moreover, we duplicate SymbolResolver parameter in many methods. We should refactor it.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/javaparser/JavaParserProject.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2025-01-28T11:18:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/512" closed="2025-03-28T14:21:37+00:00">512</issue>
+    <ticket>302</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>302-373739b4</id>
+    <lines>1-1</lines>
+    <body>Add documentation for the RuleProhibitStaticFields. The</body>
+    <file>docs/rules/prohibit-static-fields.md</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2025-03-27T14:30:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/513" closed="2025-03-29T06:56:05+00:00">513</issue>
+    <ticket>302</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>302-8fc9fe42</id>
+    <lines>43-45</lines>
+    <body>Allow suppression of the RuleProhibitStaticFields in the field level. The RuleProhibitStaticFields should be suppressed in the field level. Currently, the RuleProhibitStaticFields is suppressed in the class level only.</body>
+    <file>src/it/assertions/src/test/java/AssertionsTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2025-03-27T14:30:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/514" closed="2025-03-28T14:10:46+00:00">514</issue>
+    <ticket>302</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>302-c46ea2ff</id>
+    <lines>40-42</lines>
+    <body>Add an integration test for the RuleProhibitStaticFields check. The test should check that the RuleProhibitStaticFields check works correctly. The test should contain a test class with a static and instance fields.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/rules/RuleProhibitStaticFields.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2025-03-27T14:30:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/volodya-lombrozo/jtcop/issues/532">532</issue>
+    <ticket>527</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>527-ca626637</id>
+    <lines>34-40</lines>
+    <body>Add line and filename to the complaint message. Currently, we don't have such attributes, but it can be helpful to include line number and filename into the complaint message. E.g.: ```text [org/foo/bar/Foo.java:12]: ... (RuleNotContainsTestWord) ``` Note, that filename path should be relativized to the `src/test/java` directory.</body>
+    <file>src/main/java/com/github/lombrozo/testnames/complaints/ComplaintWithRule.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-05-19T08:54:14Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

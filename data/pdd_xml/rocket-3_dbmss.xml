@@ -1,0 +1,1172 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-08-25T12:40:57+00:00" version="0.31.5">
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/7" closed="2021-09-19T23:16:54+00:00">7</issue>
+    <ticket>4</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>4-25281969</id>
+    <lines>25-25</lines>
+    <body>Redesign the purpose of this code.</body>
+    <file>src/main/java/org/fusionsoft/database/DbmsVersion.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-03T15:24:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/8" closed="2021-09-19T23:16:58+00:00">8</issue>
+    <ticket>5</ticket>
+    <estimate>999</estimate>
+    <role>DEV</role>
+    <id>5-c0f8ee19</id>
+    <lines>24-24</lines>
+    <body>Re-desing DBD format structure</body>
+    <file>src/main/java/org/fusionsoft/database/description/dbd/DBD.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-03T15:24:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/9" closed="2021-09-20T02:51:27+00:00">9</issue>
+    <ticket>3</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>3-0305cc6e</id>
+    <lines>18-18</lines>
+    <body>add JavaDoc for package.</body>
+    <file>src/main/java/org/fusionsoft/database/package-info.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-03T15:24:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/10" closed="2021-09-19T23:17:03+00:00">10</issue>
+    <ticket>4</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>4-6d0e1ce9</id>
+    <lines>24-24</lines>
+    <body>Redesign without constants</body>
+    <file>src/main/java/org/fusionsoft/database/DbObjectType.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-03T15:24:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/11" closed="2021-09-20T02:51:32+00:00">11</issue>
+    <ticket>3</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>3-aabc625b</id>
+    <lines>29-29</lines>
+    <body>Add more description.</body>
+    <file>src/main/java/org/fusionsoft/lib/yaml/artefacts/KeysFromYamlNode.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-03T15:24:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/22" closed="2021-09-20T02:51:36+00:00">22</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-1eca2abb</id>
+    <lines>24-24</lines>
+    <body>Implement later in dbd-related puzzle.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/DatabaseInfoOfDbd.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/23" closed="2021-09-20T02:51:40+00:00">23</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-f88fe613</id>
+    <lines>22-22</lines>
+    <body>Figure out what format we use for ObjectNames.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/ObjectNames.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/24" closed="2021-09-20T02:51:45+00:00">24</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-20ecee3c</id>
+    <lines>21-21</lines>
+    <body>Implement DbObjects in other parent puzzle</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/DbObjects.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/25" closed="2021-09-20T02:51:49+00:00">25</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-9d6d7af9</id>
+    <lines>22-22</lines>
+    <body>Implement ObjectsWithNames later in other parent puzzle</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/ObjectsWithNames.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/26" closed="2021-09-20T02:51:53+00:00">26</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-444bd0a7</id>
+    <lines>24-24</lines>
+    <body>Implement later objects-related puzzle</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/ObjectsFromServerMentionedInDbd.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/27" closed="2021-09-20T02:51:57+00:00">27</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-b2794e9a</id>
+    <lines>29-29</lines>
+    <body>Implement method `writeTo` correct behaviour.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/writable/SnapshotInfo.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:11:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/28" closed="2021-09-20T02:52:02+00:00">28</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-c9fc0f45</id>
+    <lines>26-26</lines>
+    <body>Implement later TableDataFilesOfObjects in other parent puzzle</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/writable/TableDataFilesOfObjects.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/29" closed="2021-09-20T02:52:06+00:00">29</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-27706ba6</id>
+    <lines>27-27</lines>
+    <body>Implement later DbdYamlOfObjects in other parent puzzle</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/writable/DbdYamlOfObjects.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/30" closed="2021-09-20T02:52:11+00:00">30</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-c64c2939</id>
+    <lines>26-26</lines>
+    <body>Implement correct `path` method behaviour.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/SnapshotFolder.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:11:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/31" closed="2021-09-20T02:52:16+00:00">31</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-460f6a11</id>
+    <lines>21-21</lines>
+    <body>Implement AstronomicalTime representation behaviours.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/AstronomicalTime.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/32" closed="2021-09-20T02:52:20+00:00">32</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-b5f7d1b3</id>
+    <lines>22-22</lines>
+    <body>Relax the contract of `writeTo`.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/Writable.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:11:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/33" closed="2021-09-20T02:52:25+00:00">33</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-86e50292</id>
+    <lines>24-24</lines>
+    <body>Implement hashing of AstronomicalTime.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/HashTextOfTime.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/34" closed="2021-09-20T02:52:29+00:00">34</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-f8fc30af</id>
+    <lines>26-26</lines>
+    <body>specify where's Dbd file placed related to the DbGit repo.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/DbGitRepoOfDbdFile.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:11:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/35" closed="2021-09-20T02:52:33+00:00">35</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-a615d96b</id>
+    <lines>25-25</lines>
+    <body>Implement ConfigurationTablesOfDbd in other puzzle</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/ConfigurationTablesOfDbd.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/36" closed="2021-09-20T02:52:38+00:00">36</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-cb0e58a8</id>
+    <lines>22-22</lines>
+    <body>Implement DatabaseInfo behaviour.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/DatabaseInfo.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/37" closed="2021-09-20T02:52:42+00:00">37</issue>
+    <ticket>15</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>15-f88715a1</id>
+    <lines>22-22</lines>
+    <body>Figure out, what contracts we need about DbdFile.</body>
+    <file>src/main/java/org/fusionsoft/database/DbdFile.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:14:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/38" closed="2021-09-20T02:52:46+00:00">38</issue>
+    <ticket>15</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>15-2cf02a37</id>
+    <lines>38-38</lines>
+    <body>Think what about ClassDataAbstractionCouplingCheck</body>
+    <file>src/main/java/org/fusionsoft/database/SnapshotCreateProcedure.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-19T23:11:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/45" closed="2021-09-21T16:32:16+00:00">45</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-62cd4ca9</id>
+    <lines>24-24</lines>
+    <body>Obtain database info from Dbd file.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/DatabaseInfoOfDbd.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/57" closed="2021-09-21T14:52:25+00:00">57</issue>
+        <ticket>45</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>45-e939928f</id>
+        <lines>22-22</lines>
+        <body>Design DatabaseInfo contract and basic impl.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/DatabaseInfo.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-09-21T13:02:59Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/rocket-3/dbmss/issues/60" closed="2021-10-02T01:13:35+00:00">60</issue>
+            <ticket>57</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>57-0cc9dbe5</id>
+            <lines>28-28</lines>
+            <body>Design an enumeration of DBMS kinds.</body>
+            <file>src/main/java/org/fusionsoft/database/snapshot/DatabaseInfo.java</file>
+            <author>rocket</author>
+            <email>gamingdas@gmail.com</email>
+            <time>2021-09-21T14:46:59Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/58" closed="2021-09-21T16:23:31+00:00">58</issue>
+        <ticket>45</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>45-4630f9ab</id>
+        <lines>22-23</lines>
+        <body>Design DbdFile contract with priority to DatabaseInfo can be obtained from there for now.</body>
+        <file>src/main/java/org/fusionsoft/database/DbdFile.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-09-21T13:02:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/64" closed="2021-09-23T22:44:38+00:00">64</issue>
+        <ticket>45</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>45-6691d2e3</id>
+        <lines>26-26</lines>
+        <body>Implement methods and create a unit test.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/databaseinfo/DatabaseInfoOfDbd.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-09-21T16:29:30Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/46" closed="2021-10-20T07:03:35+00:00">46</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-543b06eb</id>
+    <lines>24-24</lines>
+    <body>Obtain db objects from database</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/ObjectsFromServerMentionedInDbd.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/81" closed="2021-10-08T08:46:14+00:00">81</issue>
+        <ticket>46</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>46-f5aa57ae</id>
+        <lines>25-25</lines>
+        <body>Implement corresponding classes.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/ObjectsInDbdPredicate.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-05T19:14:02Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/82" closed="2021-10-08T06:33:48+00:00">82</issue>
+        <ticket>46</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>46-f36965a5</id>
+        <lines>35-35</lines>
+        <body>Implement iterator scalar.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/ObjectsOfDbdRootMapping.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-05T19:14:02Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/83" closed="2021-10-20T16:01:32+00:00">83</issue>
+        <ticket>46</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>46-b601826e</id>
+        <lines>28-28</lines>
+        <body>Start implementing.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/ObjectsFromDatabase.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-05T19:14:02Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/rocket-3/dbmss/issues/88" closed="2021-10-20T07:03:40+00:00">88</issue>
+            <ticket>83</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>83-7aab6a71</id>
+            <lines>24-24</lines>
+            <body>Continue implementing corresponding classes.</body>
+            <file>src/main/java/org/fusionsoft/database/snapshot/objects/ObjectsFromDatabaseInfo.java</file>
+            <author>rocket</author>
+            <email>gamingdas@gmail.com</email>
+            <time>2021-10-08T16:41:36Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/47">47</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-40e28c55</id>
+    <lines>29-29</lines>
+    <body>Implement `SnapshotInfo` `Writable`.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/writable/SnapshotInfo.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/48" closed="2022-02-05T20:42:51+00:00">48</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-c8b7a150</id>
+    <lines>26-26</lines>
+    <body>Implement `TableDataFilesOfObjects` `Writable`</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/writable/TableDataFilesOfObjects.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/49" closed="2021-10-20T14:48:56+00:00">49</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-824f09d2</id>
+    <lines>27-27</lines>
+    <body>Implement `DbdYamlOfObjects` `Writable`</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/writable/DbdYamlOfObjects.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/90" closed="2021-10-16T01:06:34+00:00">90</issue>
+        <ticket>49</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>49-3a17a10b</id>
+        <lines>33-33</lines>
+        <body>Implement ctor.</body>
+        <file>src/main/java/org/fusionsoft/database/mapping/dbd/DbdTablesMappingOfObjects.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-11T02:59:31Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/50" closed="2021-09-27T13:24:59+00:00">50</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-73002ed7</id>
+    <lines>21-21</lines>
+    <body>Design AstronomicalTime contract.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/AstronomicalTime.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/51" closed="2021-09-29T13:42:23+00:00">51</issue>
+    <ticket>39</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>39-f14b25bb</id>
+    <lines>22-22</lines>
+    <body>Create basic `Writable` implementation.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/Writable.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/52" closed="2021-09-27T13:25:04+00:00">52</issue>
+    <ticket>40</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>40-86e50292</id>
+    <lines>24-24</lines>
+    <body>Implement hashing of AstronomicalTime.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/HashTextOfTime.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/53" closed="2021-10-20T15:11:48+00:00">53</issue>
+    <ticket>40</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>40-81b52590</id>
+    <lines>26-26</lines>
+    <body>Specify relation of `Dbd file` and `DbGit repo`.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/DbGitRepoOfDbdFile.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/54" closed="2021-10-05T19:16:43+00:00">54</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-e9c75716</id>
+    <lines>25-25</lines>
+    <body>Implement ConfigurationTablesOfDbd.java</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/ConfigurationTablesOfDbd.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/55" closed="2021-10-20T07:03:45+00:00">55</issue>
+    <ticket>39</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>39-af0ac0d1</id>
+    <lines>38-38</lines>
+    <body>Refactor and fix Qulice checks suppressions</body>
+    <file>src/main/java/org/fusionsoft/database/SnapshotCreateProcedure.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-09-20T02:47:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/69" closed="2021-10-05T14:41:22+00:00">69</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-714c17a2</id>
+    <lines>31-31</lines>
+    <body>Implement DatabaseInfoOfDbd::connection method.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/databaseinfo/DatabaseInfoOfDbd.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-10-02T01:09:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/72" closed="2021-10-04T01:28:46+00:00">72</issue>
+    <ticket>40</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>40-85f74a47</id>
+    <lines>18-19</lines>
+    <body>extract DbdServerYamlMapping return type in YamlRepresentative implementations.</body>
+    <file>src/main/java/org/fusionsoft/database/package-info.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-10-03T16:49:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/73" closed="2021-10-04T03:44:53+00:00">73</issue>
+    <ticket>40</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>40-de9f018a</id>
+    <lines>23-23</lines>
+    <body>Create basic DbdFile implementation.</body>
+    <file>src/main/java/org/fusionsoft/database/DbdFile.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-10-03T16:49:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/84" closed="2021-10-16T06:10:11+00:00">84</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-b7a94db8</id>
+    <lines>26-26</lines>
+    <body>Implement 'apply' method.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/objects/ObjectIsDbdConfigurationTablePredicate.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-10-05T19:14:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/96" closed="2021-10-20T16:15:31+00:00">96</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>40-83cdfe0f</id>
+    <lines>31-31</lines>
+    <body>:60min Obtain db objects from database</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/objects/composite/ObjectsFromServerMentionedInDbd.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-10-20T06:57:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/101" closed="2021-10-25T03:22:31+00:00">101</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-fad15741</id>
+    <lines>25-25</lines>
+    <body>Create skeleton of class hierarchy.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/ObjectsFromPostgres.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-10-20T16:13:41Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/104" closed="2021-11-02T16:52:25+00:00">104</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-1716c7eb</id>
+        <lines>26-26</lines>
+        <body>Implement fetching tables and columns from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgTables.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/105" closed="2021-11-10T04:13:46+00:00">105</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-7b89c858</id>
+        <lines>27-27</lines>
+        <body>Adapt query for enums from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgEnums.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/106" closed="2022-01-09T18:54:49+00:00">106</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-03d56aec</id>
+        <lines>26-26</lines>
+        <body>Consider solutions hierarchy for fetching data.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgData.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/rocket-3/dbmss/issues/132">132</issue>
+            <ticket>106</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>106-65328a04</id>
+            <lines>25-25</lines>
+            <body>Finish implementing classes of ValueFormat iface.</body>
+            <file>src/main/java/org/fusionsoft/database/snapshot/data/ValueFormat.java</file>
+            <author>rocket</author>
+            <email>gamingdas@gmail.com</email>
+            <time>2022-01-09T18:26:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/rocket-3/dbmss/issues/133">133</issue>
+            <ticket>106</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>106-752434a9</id>
+            <lines>27-27</lines>
+            <body>Split into float and integer formats.</body>
+            <file>src/main/java/org/fusionsoft/database/snapshot/data/ValueFormatNumber.java</file>
+            <author>rocket</author>
+            <email>gamingdas@gmail.com</email>
+            <time>2022-01-09T18:26:52Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/107" closed="2022-08-24T19:06:57+00:00">107</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-39baa98c</id>
+        <lines>26-26</lines>
+        <body>Adapt query for tablespaces from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgTableSpace.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/108" closed="2021-11-03T17:05:15+00:00">108</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-c3f8a322</id>
+        <lines>27-27</lines>
+        <body>Adapt query for indexes from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgIndexes.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/109" closed="2021-11-03T17:05:20+00:00">109</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-0d1f5812</id>
+        <lines>27-27</lines>
+        <body>Adapt query for sequences from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgSequences.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/111" closed="2021-11-10T03:23:58+00:00">111</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-99785e90</id>
+        <lines>26-26</lines>
+        <body>Adapt query for UDT's (tuples) from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgTuples.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/112" closed="2021-11-03T17:05:24+00:00">112</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-bfe05f4b</id>
+        <lines>27-27</lines>
+        <body>Adapt query for constraints from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgConstraints.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/113" closed="2021-11-08T04:56:36+00:00">113</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-57b2725e</id>
+        <lines>27-27</lines>
+        <body>Adapt query for procedures from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgProcedures.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/114" closed="2021-11-04T14:30:35+00:00">114</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-dee23cb4</id>
+        <lines>26-26</lines>
+        <body>Adapt query for views from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgViews.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/115" closed="2021-11-07T20:10:33+00:00">115</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-87f2a68d</id>
+        <lines>27-27</lines>
+        <body>Adapt query for functions from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgFunctions.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/116" closed="2021-11-04T20:05:59+00:00">116</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-36be612f</id>
+        <lines>26-26</lines>
+        <body>Adapt query for triggers from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgTriggers.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/rocket-3/dbmss/issues/117" closed="2021-11-07T14:29:46+00:00">117</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-39d7d1eb</id>
+        <lines>26-26</lines>
+        <body>Adapt query for domains from DbGit.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/PgDomains.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-10-25T03:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/rocket-3/dbmss/issues/129">129</issue>
+        <ticket>101</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>101-ca10b8a0</id>
+        <lines>21-21</lines>
+        <body>Refactor the package, extract new SchemaOfResultSet.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/resultset/package-info.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-11-10T04:09:47Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/rocket-3/dbmss/issues/130">130</issue>
+        <ticket>101</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>101-2108ad91</id>
+        <lines>19-19</lines>
+        <body>Refactor classes of the package.</body>
+        <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/postgres/package-info.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2021-11-10T04:09:47Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/rocket-3/dbmss/issues/150">150</issue>
+        <ticket>101</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>101-4c7886a7</id>
+        <lines>26-27</lines>
+        <body>Adapt query for tablespaces from DbGit. @checkstyle StringLiteralsConcatenationCheck (100 lines)</body>
+        <file>src/main/java/ru/fusionsoft/database/snapshot/objects/ofdbms/pg/PgTableSpace.java</file>
+        <author>rocket</author>
+        <email>gamingdas@gmail.com</email>
+        <time>2022-05-14T16:52:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/122" closed="2022-08-24T19:07:02+00:00">122</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-915526f3</id>
+    <lines>38-38</lines>
+    <body>Fix eo-yaml block scalars rendering</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/objects/dbms/ViewOfResultSet.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2021-11-04T14:01:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/134" closed="2022-08-24T19:07:07+00:00">134</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-bf76a7ed</id>
+    <lines>27-27</lines>
+    <body>Refactor as PgMessageFormatQuery subtype.</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/query/pg/PgIndexesQuery.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-01-09T18:26:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/135">135</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-e1ce631e</id>
+    <lines>24-24</lines>
+    <body>Implement fetching of users</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/objects/signature/type/ObjectTypeUser.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-01-09T18:26:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/136">136</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-8c586603</id>
+    <lines>24-24</lines>
+    <body>Implement fetching of tablespaces</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/objects/signature/type/ObjectTypeTablespace.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-01-09T18:26:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/137">137</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-cab96508</id>
+    <lines>24-24</lines>
+    <body>Implement fetching of roles</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/objects/signature/type/ObjectTypeRole.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-01-09T18:26:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/139" closed="2022-08-24T19:07:11+00:00">139</issue>
+    <ticket>40</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>40-e18a5478</id>
+    <lines>32-32</lines>
+    <body>Implement parsing all of objects from DbdSchemaMapping</body>
+    <file>src/main/java/org/fusionsoft/database/snapshot/objects/ofdbd/ObjectsOfDbdSchemaMapping.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-01-09T18:26:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/140">140</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-0f3b9b81</id>
+    <lines>24-24</lines>
+    <body>Refactor of class, split 'number' types.</body>
+    <file>src/main/java/org/fusionsoft/database/mapping/value/IuTypeValues.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-01-09T18:26:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/143">143</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-96e0ca08</id>
+    <lines>27-27</lines>
+    <body>Clean existing data files before merge</body>
+    <file>src/main/java/ru/fusionsoft/database/api/DbdMergeProcedure.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-02-05T20:30:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/144" closed="2022-08-24T19:07:16+00:00">144</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-46cfdcaa</id>
+    <lines>34-34</lines>
+    <body>Add deleting previous data files Writable in primary ctor.</body>
+    <file>src/main/java/ru/fusionsoft/database/snapshot/writable/MergedWithServerDbdFiles.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-02-05T20:30:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/rocket-3/dbmss/issues/145" closed="2022-08-24T19:07:21+00:00">145</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-867cb2c8</id>
+    <lines>34-34</lines>
+    <body>Design filtered version of this.</body>
+    <file>src/main/java/ru/fusionsoft/database/snapshot/writable/CreatingDbdFilesOfServer.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-02-05T20:30:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/147">147</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-a85d6dd7</id>
+    <lines>33-33</lines>
+    <body>exclude declarative partition tables from list</body>
+    <file>src/main/java/ru/fusionsoft/database/snapshot/data/SeparateDataFilesOfTables.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-05-14T16:52:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/148">148</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-f008a5e4</id>
+    <lines>46-46</lines>
+    <body>Add HasValuesExactly matcher for all places</body>
+    <file>src/test/java/ru/fusionsoft/database/snapshot/objects/dependencies/ObjectsOfOneDependsOnAnotherTest.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-05-14T16:52:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/151">151</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-58933323</id>
+    <lines>27-28</lines>
+    <body>Refactor as PgMessageFormatQuery subtype. @checkstyle MagicNumberCheck (100 lines)</body>
+    <file>src/main/java/ru/fusionsoft/database/snapshot/query/pg/PgIndexesQuery.java</file>
+    <author>@rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-05-14T16:52:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/152">152</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-b2a6eee0</id>
+    <lines>35-36</lines>
+    <body>Add deleting previous data files Writable in primary ctor. @checkstyle ClassDataAbstractionCouplingCheck (100 lines)</body>
+    <file>src/main/java/ru/fusionsoft/database/snapshot/writable/DbdRepoWritableUpdatingFromDbdServer.java</file>
+    <author>@rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-05-14T16:52:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/153">153</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-4467e2dd</id>
+    <lines>35-36</lines>
+    <body>Design filtered version of this. @checkstyle ClassDataAbstractionCouplingCheck (100 lines)</body>
+    <file>src/main/java/ru/fusionsoft/database/snapshot/writable/DbdRepoWritableCreatingOfDatabaseUrl.java</file>
+    <author>@rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-05-14T16:52:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/154">154</issue>
+    <ticket>40</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>40-f1f1461e</id>
+    <lines>32-33</lines>
+    <body>Implement parsing all of objects from DbdSchemaMapping @checkstyle ClassDataAbstractionCouplingCheck (100 lines)</body>
+    <file>src/main/java/ru/fusionsoft/database/snapshot/objects/ofdbd/ObjectsOfDbdSchemaMapping.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-05-14T16:52:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/rocket-3/dbmss/issues/155">155</issue>
+    <ticket>40</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>40-4de948e2</id>
+    <lines>36-37</lines>
+    <body>Fix eo-yaml block scalars rendering @checkstyle ClassDataAbstractionCouplingCheck (100 lines)</body>
+    <file>src/main/java/ru/fusionsoft/database/snapshot/objects/ofresultset/ViewOfResultSet.java</file>
+    <author>rocket</author>
+    <email>gamingdas@gmail.com</email>
+    <time>2022-05-14T16:52:25Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-02-16T09:57:34+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/95">95</issue>
+    <ticket>35</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>35-1174530b</id>
+    <lines>43-48</lines>
+    <body>Remove code duplications. The CompositeErNamedClass#complaints and CompositeErNamedClass#checkWithErNamedClassRule are code duplication from CompositeMethodsContainsAssignment. Refactoring is necessary. */</body>
+    <file>src/main/java/ru/l3r8y/rule/CompositeErNamedClass.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-12-29T14:53:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/96">96</issue>
+    <ticket>81</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>81-df86a8f4</id>
+    <lines>92-95</lines>
+    <body>Introduce new class from #checkLongName private method. we should introduce new reusable class from private method #checkLongName. Don't forget to remove this puzzle.</body>
+    <file>src/main/java/ru/l3r8y/rule/CompositeLongClassName.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-12-29T14:53:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/97" closed="2024-01-03T15:25:08+00:00">97</issue>
+    <ticket>35</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>35-ba2ad0f0</id>
+    <lines>35-38</lines>
+    <body>Annotations to skip rule. It is necessary to create an annotation for cases when the suffix '-er' cannot be avoided. */</body>
+    <file>src/main/java/ru/l3r8y/rule/ErNamedClass.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-12-29T14:53:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/98">98</issue>
+    <ticket>81</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>81-f6754283</id>
+    <lines>71-74</lines>
+    <body>Introduce new class from #longerThanOk private method. we should introduce new reusable class from private method #longerThanOk. Don't forget to remove this puzzle.</body>
+    <file>src/main/java/ru/l3r8y/rule/LongClassNameCheck.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-12-29T14:53:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/99">99</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-e874a893</id>
+    <lines>25-26</lines>
+    <body>Write implementation to pass #failsWithoutThisKeyword test case Assigment must fails not only with 'this.' construction.</body>
+    <file>src/test/java/ru/l3r8y/rule/MethodContainsAssigmentTest.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-12-29T14:53:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/115">115</issue>
+    <ticket>38</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>38-1ad8783b</id>
+    <lines>40-44</lines>
+    <body>This class is too complex. We should decompose it on many small, cohesive objects. What's missing: an object for singe/many suppression check, this object will just aggregate all suppressions. Don't forget to remove this puzzle.</body>
+    <file>src/main/java/ru/l3r8y/parser/SuppressedChecks.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-01-03T15:13:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/116" closed="2024-01-05T14:02:39+00:00">116</issue>
+    <ticket>38</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>38-d8ac8ec9</id>
+    <lines>45-49</lines>
+    <body>This class lacks off unit testing. ClassOrInterfaceDeclaration can't be provided in tests, so we need to do something with it in order to create small unit tests for this and other classes (see puzzle above). Don't forget to remove this puzzle.</body>
+    <file>src/main/java/ru/l3r8y/parser/SuppressedChecks.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-01-03T15:13:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/117" closed="2024-01-08T20:46:44+00:00">117</issue>
+    <ticket>38</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>38-7c44aa58</id>
+    <lines>38-41</lines>
+    <body>Implement Linked decorator for Rule. We should implement decorator for Rule that attaches the link to the message. Don't forget to remove this puzzle.</body>
+    <file>src/main/java/ru/l3r8y/rule/ErSuffixCheck.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-01-03T15:13:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/126">126</issue>
+    <ticket>85</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>85-49dfa7ce</id>
+    <lines>82-85</lines>
+    <body>Make new class instead. Let's make a new class that will do the same what we are doing with class names but with methods. Don't forget to remove this puzzle.</body>
+    <file>src/main/java/ru/l3r8y/parser/ClassMethods.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-05T14:01:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/127" closed="2024-01-10T08:37:42+00:00">127</issue>
+    <ticket>85</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>85-415b3791</id>
+    <lines>86-88</lines>
+    <body>Resolve all available checks into one list. Let's merge all checks we got from ClassNames and here, ClassMethods. Merge them and resolve.</body>
+    <file>src/main/java/ru/l3r8y/parser/ClassMethods.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-05T14:01:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/oop-cop/issues/128" closed="2024-02-16T09:57:34+00:00">128</issue>
+    <ticket>85</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>85-56f28e18</id>
+    <lines>68-72</lines>
+    <body>Fetch check names from rule/* package (or check/*). Instead of hard-coding, we should fetch the ruleset from related package. Don't forget to remove this puzzle.</body>
+    <file>src/main/java/ru/l3r8y/parser/ClassNames.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-05T14:01:20Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

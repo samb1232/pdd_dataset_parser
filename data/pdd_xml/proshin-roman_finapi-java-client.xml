@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-02-04T19:33:56+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/13" closed="2018-11-05T12:23:57+00:00">13</issue>
+    <ticket>8</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>8-13f76134</id>
+    <lines>23-24</lines>
+    <body>Find a way to generalize paging stuff for input criterias. It should a single (or multiple) general implementation that allows to get rid of copy-pasting for paging.</body>
+    <file>src/main/java/org/proshin/finapi/bank/in/QueryCriteria.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-08-25T14:07:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/14" closed="2018-11-05T12:23:59+00:00">14</issue>
+    <ticket>8</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>8-aa4baa15</id>
+    <lines>21-21</lines>
+    <body>Fix state of Banks services: make sure all cases/services are implemented and fixed using unit tests.</body>
+    <file>src/main/java/org/proshin/finapi/bank/Banks.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-08-25T13:58:12Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/proshin-roman/finapi-java-client/issues/37">37</issue>
+        <ticket>14</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>14-fde3094d</id>
+        <lines>21-23</lines>
+        <body>Refactor AccessToken: leave accessToken only in this interface. Create two new interfaces UserAccessToken and ClientAccessToken with appropriate methods. Create new class SimpleAccessToken that receives a simple access token string. And finally get rid of FakeAccessToken.</body>
+        <file>src/main/java/org/proshin/finapi/accesstoken/AccessToken.java</file>
+        <author>Roman Proshin</author>
+        <email>roman@proshin.org</email>
+        <time>2018-08-26T14:27:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/proshin-roman/finapi-java-client/issues/38" closed="2018-10-13T19:42:24+00:00">38</issue>
+        <ticket>14</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>14-3c717faa</id>
+        <lines>47-47</lines>
+        <body>Implement paging for service "Banks - Get and search all banks" (find a way to make it generic)</body>
+        <file>src/main/java/org/proshin/finapi/bank/FpBanks.java</file>
+        <author>Roman Proshin</author>
+        <email>roman@proshin.org</email>
+        <time>2018-08-26T14:32:34Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/proshin-roman/finapi-java-client/issues/42" closed="2019-05-01T20:05:09+00:00">42</issue>
+            <ticket>38</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>38-5fdcd749</id>
+            <lines>22-22</lines>
+            <body>Write a test for FpPaging class.</body>
+            <file>src/main/java/org/proshin/finapi/primitives/FpPaging.java</file>
+            <author>Roman Proshin</author>
+            <email>roman@proshin.org</email>
+            <time>2018-10-13T19:34:56Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/proshin-roman/finapi-java-client/issues/43" closed="2019-01-19T13:30:30+00:00">43</issue>
+            <ticket>38</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>38-627238dd</id>
+            <lines>25-25</lines>
+            <body>Write a test for FpPage class.</body>
+            <file>src/main/java/org/proshin/finapi/primitives/FpPage.java</file>
+            <author>Roman Proshin</author>
+            <email>roman@proshin.org</email>
+            <time>2018-10-13T19:34:56Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/proshin-roman/finapi-java-client/issues/74" closed="2019-05-01T20:36:07+00:00">74</issue>
+        <ticket>14</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>14-3e81ebaf</id>
+        <lines>22-22</lines>
+        <body>Write tests for FpBank/FpBanks classes.</body>
+        <file>src/main/java/org/proshin/finapi/bank/Banks.java</file>
+        <author>Roman Proshin</author>
+        <email>roman@proshin.org</email>
+        <time>2018-11-05T12:19:45Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>16</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>16-d1c62362</id>
+    <lines>119-119</lines>
+    <body>Remove duplicated code by refactoring all "post..." methods into a single method or even a class.</body>
+    <file>src/main/java/org/proshin/finapi/endpoint/FpEndpoint.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-08-25T19:30:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/34" closed="2019-05-01T12:27:34+00:00">34</issue>
+    <ticket>32</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>32-187cdbbc</id>
+    <lines>86-86</lines>
+    <body>Test this method: assert that methods submits the right request</body>
+    <file>src/main/java/org/proshin/finapi/accesstoken/FpAccessTokens.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-08-26T13:02:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/46" closed="2019-02-16T11:01:43+00:00">46</issue>
+    <ticket>20</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>20-cd0c1d70</id>
+    <lines>36-36</lines>
+    <body>Cover FpBankConnections by unit tests with mocked JSON structures.</body>
+    <file>src/main/java/org/proshin/finapi/bankconnection/FpBankConnections.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-13T21:04:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/proshin-roman/finapi-java-client/issues/122" closed="2019-02-16T11:15:15+00:00">122</issue>
+        <ticket>46</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>46-9714cd58</id>
+        <lines>131-132</lines>
+        <body>Fix a path in org.proshin.finapi.bankconnection.FpBankConnections#query(java.lang.Iterable) - it should start with /</body>
+        <file>src/test/java/org/proshin/finapi/bankconnection/FpBankConnectionsTest.java</file>
+        <author>Roman Proshin</author>
+        <email>roman@proshin.org</email>
+        <time>2019-02-16T10:55:23Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/proshin-roman/finapi-java-client/issues/123" closed="2019-05-01T19:53:43+00:00">123</issue>
+        <ticket>46</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>46-db29cf43</id>
+        <lines>453-454</lines>
+        <body>Assert all fields of the bank connection and make sure they are parsed as expected. Think about refactoring this method to a new matcher.</body>
+        <file>src/test/java/org/proshin/finapi/bankconnection/FpBankConnectionsTest.java</file>
+        <author>Roman Proshin</author>
+        <email>roman@proshin.org</email>
+        <time>2019-02-16T10:55:23Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/47" closed="2019-05-01T19:53:44+00:00">47</issue>
+    <ticket>20</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>20-04e79bd8</id>
+    <lines>45-45</lines>
+    <body>Cover FpBankConnection by unit tests with mocked JSON structures.</body>
+    <file>src/main/java/org/proshin/finapi/bankconnection/FpBankConnection.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-13T21:04:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>19</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>19-99ebf4c3</id>
+    <lines>29-29</lines>
+    <body>Finish categories(), labels() and notificationRules() when appropriate classes are implemented.</body>
+    <file>src/main/java/org/proshin/finapi/user/FpAuthorizedUser.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-24T08:42:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/69" closed="2019-01-19T13:47:45+00:00">69</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-a5443397</id>
+    <lines>40-40</lines>
+    <body>Write unit tests for FpAccount class</body>
+    <file>src/main/java/org/proshin/finapi/account/FpAccount.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-24T21:19:00Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/proshin-roman/finapi-java-client/issues/108">108</issue>
+        <ticket>69</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>69-65086ef3</id>
+        <lines>62-63</lines>
+        <body>Think if account should create a lazy-loaded bank connection that contains only its identifier and only if necessary - loads the rest info</body>
+        <file>src/main/java/org/proshin/finapi/account/FpAccount.java</file>
+        <author>Roman Proshin</author>
+        <email>roman@proshin.org</email>
+        <time>2019-01-19T13:38:35Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/proshin-roman/finapi-java-client/issues/109" closed="2019-05-01T22:20:53+00:00">109</issue>
+        <ticket>69</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>69-1c011289</id>
+        <lines>163-164</lines>
+        <body>Create infrastructure for tests which will validate submitted data so that tests can assure that the library submits correct JSON structures to the API (valid URL + HTTP method + auth header + JSON body).</body>
+        <file>src/main/java/org/proshin/finapi/account/FpAccount.java</file>
+        <author>Roman Proshin</author>
+        <email>roman@proshin.org</email>
+        <time>2019-01-19T13:38:35Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-cc2d2d03</id>
+    <lines>170-170</lines>
+    <body>Implement money transfer</body>
+    <file>src/main/java/org/proshin/finapi/account/FpAccount.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-24T21:19:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-829188e3</id>
+    <lines>178-178</lines>
+    <body>Implement direct debit</body>
+    <file>src/main/java/org/proshin/finapi/account/FpAccount.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-24T21:19:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/70">70</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-51ebd5b2</id>
+    <lines>19-19</lines>
+    <body>This enum can be refactored to a general class - think about it</body>
+    <file>src/main/java/org/proshin/finapi/account/Type.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-24T21:19:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/71" closed="2019-04-21T13:58:34+00:00">71</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-ebdc1456</id>
+    <lines>26-26</lines>
+    <body>Write unit tests for FpAccounts</body>
+    <file>src/main/java/org/proshin/finapi/account/FpAccounts.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-24T21:19:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-c7c28d57</id>
+    <lines>68-68</lines>
+    <body>Implement daily balances for accounts endpoint</body>
+    <file>src/main/java/org/proshin/finapi/account/FpAccounts.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-10-24T21:19:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/81">81</issue>
+    <ticket>77</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>77-c5cfef39</id>
+    <lines>23-23</lines>
+    <body>Implement unit-tests for MocksAndTests class.</body>
+    <file>src/main/java/org/proshin/finapi/mock/MocksAndTests.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2018-11-05T15:26:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/138" closed="2019-02-16T13:49:26+00:00">138</issue>
+    <ticket>130</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>130-4183f3d2</id>
+    <lines>24-24</lines>
+    <body>Write a unit test for "Payments / Get payments" endpoint</body>
+    <file>src/main/java/org/proshin/finapi/payment/Payments.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-02-16T13:03:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/139" closed="2019-02-16T14:27:53+00:00">139</issue>
+    <ticket>130</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>130-c3cfd35c</id>
+    <lines>74-74</lines>
+    <body>Write a unit test for "Categories / Edit a category" endpoint</body>
+    <file>src/main/java/org/proshin/finapi/category/FpCategory.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-02-16T13:03:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/proshin-roman/finapi-java-client/issues/143" closed="2019-05-01T22:20:55+00:00">143</issue>
+        <ticket>139</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>139-69030b2f</id>
+        <lines>30-31</lines>
+        <body>Migrate existing tests which use this FakeEndpoint class to mock-server as it provides more flexible way specifying expectations/responses</body>
+        <file>src/test/java/org/proshin/finapi/fake/FakeEndpoint.java</file>
+        <author>Roman Proshin</author>
+        <email>roman@proshin.org</email>
+        <time>2019-02-16T14:21:41Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/169">169</issue>
+    <ticket>164</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>164-3cefcf91</id>
+    <lines>103-104</lines>
+    <body>Implement a new matcher that will match that the given instance submits the right JSON structure to the test server</body>
+    <file>src/test/java/org/proshin/finapi/client/FpClientTest.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-04-21T11:56:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/170">170</issue>
+    <ticket>164</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>164-4f8bbc5d</id>
+    <lines>23-24</lines>
+    <body>This method should not be a part of this interface. Because this interface is client-centric: it uses client's token for all methods.</body>
+    <file>src/main/java/org/proshin/finapi/user/Users.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-04-21T11:56:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/261" closed="2020-02-04T19:33:44+00:00">261</issue>
+    <ticket>240</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>240-0a8671b5</id>
+    <lines>21-21</lines>
+    <body>Define all parameters supported by "Edit a set of TPP credentials" endpoint</body>
+    <file>src/main/java/org/proshin/finapi/tppcredential/in/EditTppCredentialParameters.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-12-26T16:14:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/262" closed="2020-02-04T19:33:50+00:00">262</issue>
+    <ticket>240</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>240-f094b8d9</id>
+    <lines>23-23</lines>
+    <body>Define all parameters supported by "Get all TPP Authentication Groups" endpoint</body>
+    <file>src/main/java/org/proshin/finapi/tppcredential/in/QueryTppAuthenticationGroupsCriteria.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-12-26T16:14:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/263" closed="2020-02-04T19:33:56+00:00">263</issue>
+    <ticket>240</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>240-1cce1227</id>
+    <lines>23-23</lines>
+    <body>Define all parameters supported by "Get all TPP credentials" endpoint</body>
+    <file>src/main/java/org/proshin/finapi/tppcredential/in/QueryTppCredentialsCriteria.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-12-26T16:14:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/264" closed="2020-01-21T22:17:17+00:00">264</issue>
+    <ticket>240</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>240-aa44702e</id>
+    <lines>21-21</lines>
+    <body>Define all parameters supported by "Create new TPP credentials" endpoint</body>
+    <file>src/main/java/org/proshin/finapi/tppcredential/in/CreateTppCredentialParameters.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-12-26T16:14:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/265" closed="2020-01-21T22:10:37+00:00">265</issue>
+    <ticket>240</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>240-151bdcb9</id>
+    <lines>28-28</lines>
+    <body>Find and mark as deprecated all fields that became deprecated due to PSD2-related changes</body>
+    <file>src/main/java/org/proshin/finapi/account/Account.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-12-26T16:14:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/266" closed="2020-01-21T21:33:56+00:00">266</issue>
+    <ticket>240</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>240-b59b1e87</id>
+    <lines>23-23</lines>
+    <body>Define all parameters supported by "Get all certificates" endpoint</body>
+    <file>src/main/java/org/proshin/finapi/tppcertificate/in/QueryTppCertificatesCriteria.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-12-26T16:14:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/267" closed="2020-01-21T21:20:23+00:00">267</issue>
+    <ticket>240</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>240-b8d747ad</id>
+    <lines>21-21</lines>
+    <body>Define all parameters supported by "Create a new certificate" endpoint</body>
+    <file>src/main/java/org/proshin/finapi/tppcertificate/in/CreateTppCertificateParameters.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-12-26T16:14:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/proshin-roman/finapi-java-client/issues/268" closed="2020-01-21T21:13:37+00:00">268</issue>
+    <ticket>240</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>240-1a46962f</id>
+    <lines>21-21</lines>
+    <body>Add parameters of the Connect a new interface REST endpoint</body>
+    <file>src/main/java/org/proshin/finapi/bankconnection/in/ConnectInterfaceParameters.java</file>
+    <author>Roman Proshin</author>
+    <email>roman@proshin.org</email>
+    <time>2019-12-26T16:14:24Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

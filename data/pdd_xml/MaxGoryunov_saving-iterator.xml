@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-08-23T06:47:19+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/34" closed="2021-07-26T00:21:43+00:00">34</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-c333ea83</id>
+    <lines>15-17</lines>
+    <body>Let's introduce real fake objects which could be helpful for testing in the future. For example, a class which would contain a loop inside for easier Iterator checks.</body>
+    <file>tests/src/SavingIteratorTest.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-07-23T14:11:28Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/44" closed="2021-07-26T21:04:16+00:00">44</issue>
+        <ticket>34</ticket>
+        <estimate>20</estimate>
+        <role>DEV</role>
+        <id>34-3e386aad</id>
+        <lines>30-31</lines>
+        <body>Long test methods should be rewritten in one line, redundant variables should be removed.</body>
+        <file>tests/src/TransparentIteratorTest.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-07-25T20:03:22Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/51" closed="2021-07-30T20:59:11+00:00">51</issue>
+            <ticket>44</ticket>
+            <estimate>20</estimate>
+            <role>DEV</role>
+            <id>44-d8e690f3</id>
+            <lines>10-12</lines>
+            <body>Classes Let and The do not have proper type hints in constructor and methods. Workarounds with `@var` tags must be removed after that.</body>
+            <file>fakes/The.php</file>
+            <author>Max Goryunov</author>
+            <email>maximthehedgehog@yandex.ru</email>
+            <time>2021-07-26T13:35:59Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/64" closed="2021-08-05T23:25:57+00:00">64</issue>
+                <ticket>51</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>51-659aec35</id>
+                <lines>20-25</lines>
+                <body>It seems that The and Let new typehints have a negative effect on PHPStan in a way that when type coming to The or Let is not typehinted as plain `mixed` or `Closure` PHPStan starts complaining about types for `TransparentIterator` for example. It should probably be solved by prefixing tags for PHPStan with `phpstan`. It also causes IDE to complain about incorrect types(X or T or Y instead of some expected type).</body>
+                <file>tests/src/SavingIteratorTest.php</file>
+                <author>Max Goryunov</author>
+                <email>maximthehedgehog@yandex.ru</email>
+                <time>2021-07-30T20:41:59Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/52" closed="2021-08-03T00:05:19+00:00">52</issue>
+            <ticket>44</ticket>
+            <estimate>25</estimate>
+            <role>DEV</role>
+            <id>44-cdf39217</id>
+            <lines>10-11</lines>
+            <body>Classes Let and The contain some repeated cdde which could be extracted into a separate class.</body>
+            <file>fakes/Let.php</file>
+            <author>Max Goryunov</author>
+            <email>maximthehedgehog@yandex.ru</email>
+            <time>2021-07-26T13:35:59Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/68" closed="2021-08-25T20:34:09+00:00">68</issue>
+                <ticket>52</ticket>
+                <estimate>20</estimate>
+                <role>DEV</role>
+                <id>52-3176158a</id>
+                <lines>12-13</lines>
+                <body>Create test file for this class and maybe change tests for `Let` and `The`.</body>
+                <file>fakes/SurveyEnvelope.php</file>
+                <author>MaxGoryunov</author>
+                <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+                <time>2021-08-03T00:05:10Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/69" closed="2021-08-25T21:41:09+00:00">69</issue>
+                <ticket>52</ticket>
+                <estimate>15</estimate>
+                <role>DEV</role>
+                <id>52-c17a2651</id>
+                <lines>3-3</lines>
+                <body>add codecov strict analysis for 100% coverage.</body>
+                <file>codecov.yml</file>
+                <author>MaxGoryunov</author>
+                <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+                <time>2021-08-03T00:05:10Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/35" closed="2021-07-29T17:27:55+00:00">35</issue>
+    <ticket>7</ticket>
+    <estimate>10</estimate>
+    <role>DEV</role>
+    <id>7-4477297e</id>
+    <lines>10-11</lines>
+    <body>Add fakes directory back to infection.json.dist after fakes folder will be created</body>
+    <file>src/Indifferent.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-07-23T14:11:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/36" closed="2021-07-29T22:18:46+00:00">36</issue>
+    <ticket>7</ticket>
+    <estimate>10</estimate>
+    <role>DEV</role>
+    <id>7-3e566c00</id>
+    <lines>1-2</lines>
+    <body>add fakes folder back for PHPStan checks when it will be created.</body>
+    <file>phpstan.neon</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-07-23T14:11:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/40" closed="2021-07-26T15:21:38+00:00">40</issue>
+    <ticket>8</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>8-efc308e6</id>
+    <lines>19-20</lines>
+    <body>It is needed to test that `SavingIterator` works correctly with an empty Iterator.</body>
+    <file>tests/src/SavingIteratorTest.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-07-25T14:22:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/48" closed="2021-07-30T17:44:07+00:00">48</issue>
+        <ticket>40</ticket>
+        <estimate>40</estimate>
+        <role>DEV</role>
+        <id>40-d3a6e326</id>
+        <lines>10-12</lines>
+        <body>There is some code duplication for adding current iterator value to $saved array. It would be better to extract the code into a separate class.</body>
+        <file>src/SavingIterator.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-07-25T21:36:50Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/55" closed="2021-07-31T13:07:22+00:00">55</issue>
+    <ticket>45</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>45-d697e058</id>
+    <lines>27-28</lines>
+    <body>The minimum required MSI percentage should be 80%, but actual is 70%.</body>
+    <file>.github/workflows/php.yml</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-07-26T23:48:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/56" closed="2021-08-03T20:32:36+00:00">56</issue>
+    <ticket>45</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>45-a0c402e0</id>
+    <lines>10-12</lines>
+    <body>Class MaxGoryunov\SavingIterator\Src\TimesCalled implements generic interface MaxGoryunov\SavingIterator\Src\Scalar but does not specify its types: T</body>
+    <file>src/TimesCalled.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-07-26T23:40:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/82" closed="2021-08-29T20:25:40+00:00">82</issue>
+    <ticket>66</ticket>
+    <estimate>40</estimate>
+    <role>DEV</role>
+    <id>66-f5ef058e</id>
+    <lines>53-54</lines>
+    <body>Add a fake class for putting the values into Adding Iterator from source.</body>
+    <file>tests/src/ArrayAddingIteratorTest.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-22T20:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/83" closed="2021-09-18T21:01:32+00:00">83</issue>
+    <ticket>66</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>66-c5b6b085</id>
+    <lines>9-9</lines>
+    <body>Add implementation for this interface.</body>
+    <file>src/AddingIterator.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-17T23:32:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/118" closed="2021-10-29T10:22:28+00:00">118</issue>
+        <ticket>83</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>83-3bfdfca8</id>
+        <lines>54-54</lines>
+        <body>Replace algorithm with a fake class.</body>
+        <file>tests/src/OpenAddingIteratorTest.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-08-28T12:30:05Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/119" closed="2021-11-06T15:54:05+00:00">119</issue>
+        <ticket>83</ticket>
+        <estimate>20</estimate>
+        <role>DEV</role>
+        <id>83-53972e1c</id>
+        <lines>40-41</lines>
+        <body>Cover that Iterator works with an immutable iterator.</body>
+        <file>src/OpenAddingIterator.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-08-31T20:50:41Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/120" closed="2021-12-03T22:58:55+00:00">120</issue>
+        <ticket>83</ticket>
+        <estimate>20</estimate>
+        <role>DEV</role>
+        <id>83-b8f6701a</id>
+        <lines>44-44</lines>
+        <body>Assert that iterator does not add values if they are already stored.</body>
+        <file>src/OpenAddingIterator.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-08-31T20:50:41Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/121" closed="2021-11-06T15:33:29+00:00">121</issue>
+        <ticket>83</ticket>
+        <estimate>20</estimate>
+        <role>DEV</role>
+        <id>83-9115b04d</id>
+        <lines>89-89</lines>
+        <body>Assert that iterator rewinds original iterator.</body>
+        <file>src/OpenAddingIterator.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-08-31T20:50:41Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/122" closed="2021-11-02T11:29:21+00:00">122</issue>
+        <ticket>83</ticket>
+        <estimate>20</estimate>
+        <role>DEV</role>
+        <id>83-8a90ae8d</id>
+        <lines>38-40</lines>
+        <body>Current approach mutates existing object. If it is not reassigned but instead passed to some method variable which holds a reference to this object with be in an invalid state.</body>
+        <file>src/ArrayAddingIterator.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-08-24T21:49:46Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/84" closed="2021-09-09T00:36:13+00:00">84</issue>
+    <ticket>66</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>66-0f62b41f</id>
+    <lines>38-39</lines>
+    <body>Add a decorator for AddingIterator which does not allow to add values if source is not valid.</body>
+    <file>src/ArrayAddingIterator.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-22T20:54:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/85" closed="2021-08-27T21:30:05+00:00">85</issue>
+    <ticket>66</ticket>
+    <estimate>25</estimate>
+    <role>DEV</role>
+    <id>66-991314f2</id>
+    <lines>50-51</lines>
+    <body>Codebeat complains about similar code in two methods. It should be refactored.</body>
+    <file>src/SavingIterator.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-23T17:51:04Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/94" closed="2021-09-28T13:09:52+00:00">94</issue>
+        <ticket>85</ticket>
+        <estimate>40</estimate>
+        <role>DEV</role>
+        <id>85-d49ed4bf</id>
+        <lines>52-53</lines>
+        <body>There is a private function in this class. It should be removed without creating the code duplication problem again.</body>
+        <file>src/SavingIterator.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-08-25T20:18:48Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/127" closed="2021-11-08T19:56:55+00:00">127</issue>
+            <ticket>94</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>94-e20f17d2</id>
+            <lines>30-31</lines>
+            <body>Add a way to provide context which does not do anything.</body>
+            <file>tests/src/ContextVeilTest.php</file>
+            <author>Max Goryunov</author>
+            <email>maximthehedgehog@yandex.ru</email>
+            <time>2021-09-17T19:37:15Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/147" closed="2022-01-15T16:42:47+00:00">147</issue>
+                <ticket>127</ticket>
+                <estimate>60</estimate>
+                <role>DEV</role>
+                <id>127-70550927</id>
+                <lines>7-7</lines>
+                <body>Change ContextVeil to accept a Reaction.</body>
+                <file>src/Reaction.php</file>
+                <author>Max Goryunov</author>
+                <email>maximthehedgehog@yandex.ru</email>
+                <time>2021-10-30T00:04:32Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/128" closed="2022-01-15T20:04:32+00:00">128</issue>
+            <ticket>94</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>94-be7f4302</id>
+            <lines>58-59</lines>
+            <body>Add a way to provide one several contexts for different methods.</body>
+            <file>tests/src/ContextVeilTest.php</file>
+            <author>Max Goryunov</author>
+            <email>maximthehedgehog@yandex.ru</email>
+            <time>2021-09-17T19:37:15Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/100" closed="2021-08-30T00:27:16+00:00">100</issue>
+    <ticket>95</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>95-4bec69c8</id>
+    <lines>9-9</lines>
+    <body>Tests do not cover cases when context is called on subject.</body>
+    <file>fakes/The.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-28T00:52:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/101" closed="2021-09-05T20:45:02+00:00">101</issue>
+    <ticket>95</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>95-cfe71479</id>
+    <lines>28-29</lines>
+    <body>Increase the required min MSI and min covered MSI to at least 90 percent.</body>
+    <file>.github/workflows/php.yml</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-28T13:04:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/102" closed="2021-09-05T20:19:12+00:00">102</issue>
+    <ticket>95</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>95-3433bd46</id>
+    <lines>86-86</lines>
+    <body>Reset behaviour for array is not covered.</body>
+    <file>src/ArrayAddingIterator.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-28T00:52:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/103" closed="2021-08-30T21:20:02+00:00">103</issue>
+    <ticket>95</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>95-21b8f584</id>
+    <lines>74-75</lines>
+    <body>Reset functionality for encapsulated iterator is not covered.</body>
+    <file>src/TransparentIterator.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-28T00:52:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/109" closed="2021-10-24T14:35:34+00:00">109</issue>
+        <ticket>103</ticket>
+        <estimate>40</estimate>
+        <role>DEV</role>
+        <id>103-8defb5a0</id>
+        <lines>68-70</lines>
+        <body>Add a fake class or try to write a matcher for testing iterator rewinds. It often seems to be the method about which Infection complains.</body>
+        <file>tests/src/TransparentIteratorTest.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-08-29T00:46:47Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/129" closed="2021-12-04T18:11:37+00:00">129</issue>
+            <ticket>109</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>109-071d960d</id>
+            <lines>9-10</lines>
+            <body>Add Rewinding repetition or repetition which converts iterator to array for rewind tests and use it in iterator tests.</body>
+            <file>fakes/RepetitionEnvelope.php</file>
+            <author>Max Goryunov</author>
+            <email>maximthehedgehog@yandex.ru</email>
+            <time>2021-09-28T01:16:25Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/148" closed="2021-12-04T23:07:24+00:00">148</issue>
+                <ticket>129</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>129-e00ee433</id>
+                <lines>176-177</lines>
+                <body>Remove usage of The, Let and redundant variables where RpIteratorToArray was introduced.</body>
+                <file>tests/src/SavingIteratorTest.php</file>
+                <author>Max Goryunov</author>
+                <email>maximthehedgehog@yandex.ru</email>
+                <time>2021-10-29T10:08:37Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/123" closed="2021-11-02T20:25:00+00:00">123</issue>
+    <ticket>92</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>92-0dcb141b</id>
+    <lines>9-10</lines>
+    <body>Remove extension of SurveyEnvelope because it is not needed anymore.</body>
+    <file>fakes/The.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-28T14:14:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/124" closed="2021-11-03T23:33:06+00:00">124</issue>
+    <ticket>92</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>92-49160080</id>
+    <lines>9-10</lines>
+    <body>Remove extension of SurveyEnvelope from this class because it is not needed.</body>
+    <file>fakes/Let.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2021-08-29T21:53:24Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/146" closed="2022-01-13T12:48:27+00:00">146</issue>
+        <ticket>124</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>124-62b2aa83</id>
+        <lines>9-10</lines>
+        <body>Move common functionality from Let and The to the parent class.</body>
+        <file>fakes/Let.php</file>
+        <author>Max Goryunov</author>
+        <email>maximthehedgehog@yandex.ru</email>
+        <time>2021-11-03T23:16:33Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/179" closed="2022-11-30T15:09:02+00:00">179</issue>
+    <ticket>177</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>177-9672656d</id>
+    <lines>40-43</lines>
+    <body>Check for valid source is repeated in several classes: here, in SavingIterator and in IteratorTransfer. It would be better to move this common checking functionality to a separate small class and use it instead.</body>
+    <file>src/ValidAddingIterator.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2022-06-19T21:54:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/180" closed="2022-07-02T22:14:53+00:00">180</issue>
+    <ticket>177</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>177-6ad5429b</id>
+    <lines>40-42</lines>
+    <body>SavingIterator has most of its behavior in the encapsulated ContextVeil. It would be better remove all other methods and instead inherit from TransparentIterator.</body>
+    <file>src/SavingIterator.php</file>
+    <author>Max Goryunov</author>
+    <email>maximthehedgehog@yandex.ru</email>
+    <time>2022-06-19T21:54:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/202">202</issue>
+    <ticket>196</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>196-8eb9bde2</id>
+    <lines>32-35</lines>
+    <body>There are phpstan issues with ClosureReaction here and in ContextVeilTest. Now they are fixed by ignore-line stubs but need to be fixed according to phpstan ruleset.</body>
+    <file>src/SavingIterator.php</file>
+    <author>@MaxGoryunov</author>
+    <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+    <time>2025-08-22T18:25:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/203" closed="2025-08-23T06:47:19+00:00">203</issue>
+    <ticket>195</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>195-9abebe32</id>
+    <lines>10-12</lines>
+    <body>README has to mention that now it is not required to create ArrayAddingIterator and pass it into the constructor because now it is a default option.</body>
+    <file>src/SavingIterator.php</file>
+    <author>@MaxGoryunov</author>
+    <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+    <time>2025-08-22T20:52:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/MaxGoryunov/saving-iterator/issues/204" closed="2025-08-23T06:30:34+00:00">204</issue>
+    <ticket>194</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>194-308aaf56</id>
+    <lines>36-38</lines>
+    <body>README has to show that it is now possible to directly pass Generator Closures into constructor without having to manually call them.</body>
+    <file>src/SavingIterator.php</file>
+    <author>@MaxGoryunov</author>
+    <email>40582951+MaxGoryunov@users.noreply.github.com</email>
+    <time>2025-08-22T21:49:09Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

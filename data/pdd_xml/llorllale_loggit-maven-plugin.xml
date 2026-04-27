@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-03-07T21:09:37+00:00" version="0.29.3">
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/loggit-maven-plugin/issues/49" closed="2018-03-04T18:13:27+00:00">49</issue>
+    <ticket>36</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>36-6ed53b15</id>
+    <lines>42-44</lines>
+    <body>Handle NullPointerException thrown when the given ref is null. This will happen if the git repo has been initialized but no commits have been added. Then, stop ignoring the 'asXmlNoCommits' and 'asXmlIsValidAgainstSchema' tests and refactor as necessary.</body>
+    <file>src/test/java/org/llorllale/mvn/plgn/loggit/DefaultLogTest.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-02-26T15:45:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/llorllale/loggit-maven-plugin/issues/50">50</issue>
+    <ticket>29</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>29-71e94be2</id>
+    <lines>73-75</lines>
+    <body>Checkstyle: enforce use of the javadoc tag @since. Also enforce the semantic version format. Useful to know when something was added.</body>
+    <file>src/test/java/org/llorllale/mvn/plgn/loggit/DefaultCommitTest.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-02-26T15:45:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/loggit-maven-plugin/issues/51" closed="2018-02-26T19:54:07+00:00">51</issue>
+    <ticket>45</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>45-a2fae61b</id>
+    <lines>31-33</lines>
+    <body>Implement the markdown transform and add tests. Checkout the flexmark-java project in order to validate the output markdown (https://github.com/vsch/flexmark-java) or any other library.</body>
+    <file>src/test/java/org/llorllale/mvn/plgn/loggit/xsl/IdentityTest.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-02-26T15:45:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/loggit-maven-plugin/issues/52" closed="2018-03-07T21:09:37+00:00">52</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-c33780f3</id>
+    <lines>31-32</lines>
+    <body>We need to split the author parts into its own separate interface. As it is, this class, and especially its mock counterpart, handle too many details.</body>
+    <file>src/main/java/org/llorllale/mvn/plgn/loggit/DefaultCommit.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-02-26T15:45:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/loggit-maven-plugin/issues/55" closed="2018-03-02T22:40:29+00:00">55</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>47-c5356235</id>
+    <lines>36-38</lines>
+    <body>Implement some way to accept custom transformation files. The default markdown transformation may not suit everyone. Things like date formats and other stuff can go there.</body>
+    <file>src/main/java/org/llorllale/mvn/plgn/loggit/Changelog.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-02-26T19:53:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/loggit-maven-plugin/issues/71" closed="2018-03-06T20:01:30+00:00">71</issue>
+    <ticket>60</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>60-0191454c</id>
+    <lines>43-44</lines>
+    <body>Add new option to truncate the commits up to and including the tag provided by the user. Use the new "commit/taggedAs/tag" structure for this.</body>
+    <file>src/main/java/org/llorllale/mvn/plgn/loggit/Changelog.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-05T21:41:44Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

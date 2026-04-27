@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-02-18T09:59:28+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/prefixed-maven-plugin/issues/19">19</issue>
+    <ticket>8</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>8-249ba9e6</id>
+    <lines>25-30</lines>
+    <body>Rewrite test. In current condition tests just don't work properly, We need to rewrite test for 3 cases: - Project without violations. - Project with few violations. - Project with few violations, but failOnError will set to false.</body>
+    <file>src/test/java/ru/l3r8y/prefixed/PrefixedCopTest.java</file>
+    <author>@l3r8yJ</author>
+    <email>l3r8y@duck.com</email>
+    <time>2025-02-18T09:52:54Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

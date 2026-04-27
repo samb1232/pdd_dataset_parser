@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-09-12T23:54:09+00:00" version="0.30.21">
+  <puzzle alive="true">
+    <issue href="https://github.com/andreoss/etoile/issues/21">21</issue>
+    <ticket>0</ticket>
+    <estimate>1440</estimate>
+    <role>DEV</role>
+    <id>0-f7d4551b</id>
+    <lines>20-23</lines>
+    <body>Since #5 this class serves no purpose, and is black-listed for test coverage checks. It would be nice to have an ability to affect type conversions on this level. Though it's hard to test.</body>
+    <file>src/main/java/org/sdf/etoile/ExtraOracleDialect.java</file>
+    <author>andreoss</author>
+    <email>49783909+andreoss@users.noreply.github.com</email>
+    <time>2020-09-10T23:41:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/andreoss/etoile/issues/22">22</issue>
+    <ticket>0</ticket>
+    <estimate>1440</estimate>
+    <role>DEV</role>
+    <id>0-d657e925</id>
+    <lines>17-19</lines>
+    <body>Replace this Map with proper object for configuration. Take into account that prefix is stripped with {@link PrefixArgs} in many places.</body>
+    <file>src/main/java/org/sdf/etoile/Args.java</file>
+    <author>andreoss</author>
+    <email>49783909+andreoss@users.noreply.github.com</email>
+    <time>2020-09-10T23:41:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/andreoss/etoile/issues/23">23</issue>
+    <ticket>0</ticket>
+    <estimate>1440</estimate>
+    <role>DEV</role>
+    <id>0-3ef95e22</id>
+    <lines>17-18</lines>
+    <body>Find a way to reduce coupling in this class. The other way to setup a chain of transformations should be probably used.</body>
+    <file>src/main/java/org/sdf/etoile/Dump.java</file>
+    <author>andreoss</author>
+    <email>49783909+andreoss@users.noreply.github.com</email>
+    <time>2020-09-10T23:41:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/andreoss/etoile/issues/24">24</issue>
+    <ticket>0</ticket>
+    <estimate>1440</estimate>
+    <role>DEV</role>
+    <id>0-7e65ec47</id>
+    <lines>21-24</lines>
+    <body>Refactor to a simpler interface for type-based replacement. The base class from `spark-core` is especially bad. A dictionary for replacement could be probably reused for different operations, for example {@link MissingUDF}.</body>
+    <file>src/main/java/org/sdf/etoile/ReplacementMap.java</file>
+    <author>andreoss</author>
+    <email>49783909+andreoss@users.noreply.github.com</email>
+    <time>2020-09-10T23:41:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/andreoss/etoile/issues/25">25</issue>
+    <ticket>0</ticket>
+    <estimate>1440</estimate>
+    <role>DEV</role>
+    <id>0-6abe2942</id>
+    <lines>16-17</lines>
+    <body>Refactor IsMismatch &amp; IsOkay in order to reduce duplication. Probably IsMismatch can be replaced with IsNot &amp; IsOkay.</body>
+    <file>src/test/java/org/sdf/etoile/discrepancy/IsOkay.java</file>
+    <author>andreoss</author>
+    <email>49783909+andreoss@users.noreply.github.com</email>
+    <time>2020-09-10T23:41:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/andreoss/etoile/issues/26">26</issue>
+    <ticket>0</ticket>
+    <estimate>1440</estimate>
+    <role>DEV</role>
+    <id>0-7fca6304</id>
+    <lines>19-21</lines>
+    <body>Consider turning this class to Extension. Note that it works on per-fork basis, saving some time in tests. The temporary directory is not used by this class also.</body>
+    <file>src/test/java/org/sdf/etoile/SparkTestTemplate.java</file>
+    <author>andreoss</author>
+    <email>49783909+andreoss@users.noreply.github.com</email>
+    <time>2020-09-10T23:41:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/andreoss/etoile/issues/27">27</issue>
+    <ticket>0</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>0-5ea92391</id>
+    <lines>21-23</lines>
+    <body>Split this test case to several ones based on the feature. This could be related to coupling problems in Dump. After it's done remove the suppressions.</body>
+    <file>src/test/java/org/sdf/etoile/DumpTest.java</file>
+    <author>andreoss</author>
+    <email>49783909+andreoss@users.noreply.github.com</email>
+    <time>2020-09-10T23:41:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/andreoss/etoile/issues/36">36</issue>
+    <ticket>2</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>2-3e40097d</id>
+    <lines>282-282</lines>
+    <body>Qulice was disabled due to #qulice/878.</body>
+    <file>pom.xml</file>
+    <author>andreoss</author>
+    <email>andreoss@sdf.org</email>
+    <time>2020-09-12T23:28:22Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

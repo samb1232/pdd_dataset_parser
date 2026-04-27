@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2024-07-10T09:55:02+00:00">
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-aspects/issues/33" closed="2017-11-02T06:40:14+00:00">33</issue>
+    <id>133-94684a15</id>
+    <ticket>133</ticket>
+    <file>src/test/java/com/jcabi/aspects/ImmutableTest.java</file>
+    <lines>57-58</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>The test is disabled since in Java final arrays can still be modified (bloody Java!)</body>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-aspects/issues/242">242</issue>
+        <id>33-e5af3af3</id>
+        <ticket>33</ticket>
+        <file>src/main/java/com/jcabi/aspects/Immutable.java</file>
+        <lines>65-68</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T08:17:30Z</time>
+        <body>Let's prevent modifications to arrays having this annotation, somehow. Perhaps we can create an aspect that will throw an exception should something try to write into the array. See https://bugs.eclipse.org/bugs/show_bug.cgi?id=157031</body>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>61-1692fcb2</id>
+    <ticket>61</ticket>
+    <file>src/main/java/com/jcabi/aspects/aj/MethodValidator.java</file>
+    <lines>194-197</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>It's a temporary design, which enables only NotNull, Valid, and Pattern annotations. In the future we should use JSR-303 Validator, when they implement validation of values (see their appendix C).</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-aspects/issues/32" closed="2017-11-02T06:40:15+00:00">32</issue>
+    <id>1-b7897109</id>
+    <ticket>1</ticket>
+    <file>src/main/java/com/jcabi/aspects/Quietly.java</file>
+    <lines>44-47</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>This annotation has to be on methods returning void only. A compile-time APT processor needs to be created that will verify that only void methods have @Quietly annotations. In runtime it should throw an exception before executing of method body, if its return type is not void.</body>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-aspects/issues/41" closed="2017-11-02T06:40:16+00:00">41</issue>
+        <id>32-9b5b2ac8</id>
+        <ticket>32</ticket>
+        <file>src/main/java/com/jcabi/aspects/Quietly.java</file>
+        <lines>44-48</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T08:17:30Z</time>
+        <body>This annotation has to be on methods returning void only. We already have runtime checking of the return type, and any methods annotated with @Quietly that don't throw void throws an exception. Let's create a compile-time APT processor needs to be created that will verify that only void methods have @Quietly annotations.</body>
+        <children>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <id>41-28606be4</id>
+            <ticket>41</ticket>
+            <file>src/main/java/com/jcabi/aspects/aj/MethodAsyncRunner.java</file>
+            <lines>51-55</lines>
+            <estimate>30</estimate>
+            <author>unknown</author>
+            <email>unknown@0pdd.com</email>
+            <time>2016-12-14T08:17:30Z</time>
+            <body>It is meaningless for methods covered by this class if they return anything other than void or {@link java.util.concurrent.Future}. Currently, null is returned when the annotated method returns any other type. Let's make it throw an exception, instead, similar to how {@link QuietExceptionsLogger} does it.</body>
+            <role>IMP</role>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <id>41-c2ba08a7</id>
+            <ticket>41</ticket>
+            <file>src/main/java/com/jcabi/aspects/Async.java</file>
+            <lines>54-56</lines>
+            <estimate>30</estimate>
+            <author>unknown</author>
+            <email>unknown@0pdd.com</email>
+            <time>2016-12-14T08:17:30Z</time>
+            <body>We should create a compile-time APT processor that checks whether methods annotated with {@link Async} return either void or Future. The check should fail if that is not the case.</body>
+            <role>IMP</role>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>30-13669aa4</id>
+    <ticket>30</ticket>
+    <file>src/test/java/com/jcabi/aspects/AsyncTest.java</file>
+    <lines>77-78</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>This test is not stable during Maven build, for some reason. Let's fix and enable it.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>14-97704c5f</id>
+    <ticket>14</ticket>
+    <file>src/main/java/com/jcabi/aspects/aj/MethodCacher.java</file>
+    <lines>65-66</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>Split this class into smaller ones so it will have less responsibility and remove PMD.GodClass suppressed warning.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>86-2fc54a8a</id>
+    <ticket>86</ticket>
+    <file>src/main/java/com/jcabi/aspects/Loggable.java</file>
+    <lines>187-188</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>Let's document the usage of this parameter, including its effects and default setting, in the annotation-loggable.apt.vm page.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>85-4b96ddcb</id>
+    <ticket>85</ticket>
+    <file>src/main/java/com/jcabi/aspects/Loggable.java</file>
+    <lines>196-197</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>Let's document the usage of this parameter in the annotation-loggable.apt.vm site page.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>87-2655d0cc</id>
+    <ticket>87</ticket>
+    <file>src/main/java/com/jcabi/aspects/aj/MethodLogger.java</file>
+    <lines>175-176</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>Refactor this method into smaller ones and remove both PMD and Checkstyle suppress.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>104-259d589d</id>
+    <ticket>104</ticket>
+    <file>src/test/java/com/jcabi/aspects/ImmutableTest.java</file>
+    <lines>77-82</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>Assignment is not intersected, that's why this test doesn't work. We simply don't catch the moment when an object is assigned to the private filed of another object. That's why we can't tell when such a mutable class is being used. I think we should introduce a new AspectJ join point in ImmutabilityChecker, which will catch assignments.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>109-bb540c79</id>
+    <ticket>109</ticket>
+    <file>src/main/java/com/jcabi/aspects/aj/Mnemos.java</file>
+    <lines>289-290</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T08:17:30Z</time>
+    <body>Add handling of int, long, float, double, char and boolean arrays.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>128-1ba0b794</id>
+    <ticket>128</ticket>
+    <file>src/test/java/com/jcabi/aspects/ImmutableTest.java</file>
+    <lines>68-73</lines>
+    <estimate>30</estimate>
+    <body>This test and the next one are ignored because this functionality was removed in #128. It simply didn't work correctly and I didn't manage to reproduce it. I suspect that that the issue appears when one constructor is calling another constructor. Anyway, let's try to investigate and re-implement the functionality again.</body>
+    <role>IMP</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2015-01-20T08:36:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>124-0ed2a036</id>
+    <ticket>124</ticket>
+    <file>src/test/java/com/jcabi/aspects/CacheableTest.java</file>
+    <lines>57-58</lines>
+    <estimate>30</estimate>
+    <body>Make sure that this test runs under Java 8 and remove the Ignore annotation then.</body>
+    <role>IMP</role>
+    <author>Dmitri Pisarenko</author>
+    <email>dp@altruix.co</email>
+    <time>2015-01-16T11:20:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>169-0e4b9121</id>
+    <ticket>169</ticket>
+    <file>src/test/java/com/jcabi/aspects/JSR303Test.java</file>
+    <lines>61-64</lines>
+    <estimate>30</estimate>
+    <body>When I replaced our own validation with that of hibernate-validator for #34, this test stopped working in openJDK6, but remained working in all the other JDKs we're using on Travis CI. This test should pass without errors.</body>
+    <role>IMP</role>
+    <author>Suseika</author>
+    <email>wlasowegor@gmail.com</email>
+    <time>2015-07-09T10:00:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>167-78e42157</id>
+    <ticket>167</ticket>
+    <file>src/main/java/com/jcabi/aspects/aj/ImmutabilityChecker.java</file>
+    <lines>65-68</lines>
+    <estimate>30</estimate>
+    <body>Inserting correct version/buildnumber here and in other instances where Version.CURRENT is used (not only in this class, but in every class that uses Version.CURRENT) should be covered by a test.</body>
+    <role>IMP</role>
+    <author>Suseika</author>
+    <email>wlasowegor@gmail.com</email>
+    <time>2015-07-21T15:40:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>194-8b58eead</id>
+    <ticket>194</ticket>
+    <file>src/main/java/com/jcabi/aspects/aj/MethodValidator.java</file>
+    <lines>152-156</lines>
+    <estimate>30</estimate>
+    <body>We need to find a way to disable the constraint rule OverridingMethodMustNotAlterParameterConstraints instead of catching the exception. See https://hibernate.atlassian.net/browse/HV-1044 After that don't forget to enable test JSR303Test#overridesMessage()</body>
+    <role>IMP</role>
+    <author>Dmitry Zaytsev</author>
+    <email>dmitry.zaytsev@gmail.com</email>
+    <time>2016-01-08T13:26:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-aspects/issues/391">391</issue>
+    <ticket>210</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>210-9c505623</id>
+    <lines>38-41</lines>
+    <body>Add an integration test We need to add an integration test that will show how to work with gradle using show how to work with Gradle project and jcabi-aspects.</body>
+    <file>src/site/apt/example-weaving-gradle.apt.vm</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-07-10T09:08:16Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

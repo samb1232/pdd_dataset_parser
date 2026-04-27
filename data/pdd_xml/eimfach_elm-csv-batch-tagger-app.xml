@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2021-02-23T11:39:22+00:00" version="0.30.22">
+  <puzzle alive="true">
+    <issue href="https://github.com/eimfach/elm-csv-batch-tagger-app/issues/2">2</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-09d74669</id>
+    <lines>97-97</lines>
+    <body>Complete &amp; Integrate this into the float parsing chain</body>
+    <file>src/elm/Parsers.elm</file>
+    <author>Robin Gruenke</author>
+    <email>eimfach@me.com</email>
+    <time>2019-12-06T15:10:12Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/eimfach/elm-csv-batch-tagger-app/issues/4">4</issue>
+        <ticket>2</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>2-1772435b</id>
+        <lines>1420-1420</lines>
+        <body>The matching method is not performant enough. Every keystroke does update the search results. If</body>
+        <file>src/elm/Main.elm</file>
+        <author>Robin Gruenke</author>
+        <email>eimfach@me.com</email>
+        <time>2020-09-10T02:58:34Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eimfach/elm-csv-batch-tagger-app/issues/3">3</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-32b77974</id>
+    <lines>111-111</lines>
+    <body>Parsing Float Strings with additional thousands separators is not supported. The parsing will fail in this scenario. Consider using `Parser.loop` and `Parser.oneOf`. Also I think it should test if the created number is supported by the js runtime. There is an elm lib to do this. Maybe it is easy to implement it by yourself, and the lib is not needed. Also, should mixed separator 'types' be possible ? or could it cause a performance issue ? Right now it supports mixed decimal separators using `Parser.oneOf`</body>
+    <file>src/elm/Parsers.elm</file>
+    <author>Robin Gruenke</author>
+    <email>eimfach@me.com</email>
+    <time>2019-12-06T15:10:12Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-12-15T06:15:57+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/sibit/issues/35" closed="2019-10-10T07:37:18+00:00">35</issue>
+    <ticket>20</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>20-89012c92</id>
+    <lines>35-37</lines>
+    <body>For now, there haven't a proper method to check STDERR. In this test I've tried to check the output with Stdout contains but there is not working. Needs a proper alternative to check stderr.</body>
+    <file>features/cli.feature</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-07-09T03:23:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/sibit/issues/40" closed="2019-12-15T06:15:51+00:00">40</issue>
+        <ticket>35</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>35-b07582a4</id>
+        <lines>34-35</lines>
+        <body>For now, there is a warning when I run the test. Needs to replace the current call to not deprecated one.</body>
+        <file>features/cli.feature</file>
+        <author>Alexey Vinogradov</author>
+        <email>vinogradovai@bcs.ru</email>
+        <time>2019-07-29T06:44:49Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/sibit/issues/36" closed="2019-12-15T06:15:57+00:00">36</issue>
+    <ticket>20</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>20-0615e900</id>
+    <lines>59-60</lines>
+    <body>For now this feature is not implemented. Needs to be take this array and pass it in the Sibit constructor as new parameter</body>
+    <file>bin/sibit</file>
+    <author>Alexey Vinogradov</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-07-09T03:23:17Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

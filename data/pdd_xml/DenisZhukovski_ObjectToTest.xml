@@ -1,0 +1,1382 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-03-22T17:15:09+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/5" closed="2022-12-26T06:37:17+00:00">5</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-ac1f5531</id>
+    <lines>156-166</lines>
+    <body>Proper declaration format is expected. It would be nice to start each constructor argument on its own line with proper intend new WithTwoClassParamAndIntParam( new WithClassParam( new EmptyObject() ), new WithClassAndIntParams( 42, new EmptyObject() ), 42 )</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-08-25T11:22:31Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/71" closed="2022-11-29T13:50:16+00:00">71</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-cd4cb888</id>
+        <lines>11-20</lines>
+        <body>60m/DEV Implement proper formatting. Base puzzle with all rules for references. The rules are following: 1. if there is new operator in arguments, all arguments should be properly formatted. 2. spaces between arguments are required: (0, 0, 1) instead of (0,0,1). 3. Lambdas are always from new string. 4. Indention is 4 spaces. 5. Inner properties should be from separate lines. 6. Lines bigger than 80 characters should be properly formatted. 7. All arrays should be placed with proper formatting. 8. Dictionary should be formatted with separate set of rules.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/72" closed="2022-12-16T15:50:38+00:00">72</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-aba79164</id>
+        <lines>24-24</lines>
+        <body>60m/DEV Implement rule: if there is new operator in arguments, all arguments should be properly formatted.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/73" closed="2022-12-08T05:31:50+00:00">73</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-fee780ba</id>
+        <lines>28-28</lines>
+        <body>60m/DEV Implement rule: spaces between arguments are required: (0, 0, 1) instead of (0,0,1).</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/74" closed="2022-12-22T06:57:06+00:00">74</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-d0ce5b4b</id>
+        <lines>32-32</lines>
+        <body>60m/DEV Implement rule: Lambdas are always from new string.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/75" closed="2022-12-16T07:06:46+00:00">75</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-1eddb7ad</id>
+        <lines>36-36</lines>
+        <body>60m/DEV Implement rule: Indention is 4 spaces.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/76" closed="2022-12-22T06:57:11+00:00">76</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-de36cb8b</id>
+        <lines>40-40</lines>
+        <body>60m/DEV Implement rule: Inner properties should be from separate lines.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/150" closed="2023-02-23T12:38:12+00:00">150</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-b1461939</id>
+            <lines>31-31</lines>
+            <body>60m/DEV Add recursive parsing for assignments.</body>
+            <file>tests/ObjectToTest.UnitTests/WellFormattedCodeTests.cs</file>
+            <author>@DenisZhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/151" closed="2022-12-26T06:37:22+00:00">151</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-ab64b10e</id>
+            <lines>55-55</lines>
+            <body>60m/DEV Fix this.</body>
+            <file>tests/ObjectToTest.UnitTests/InstantiationStatementTests.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/152">152</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-962767e2</id>
+            <lines>12-22</lines>
+            <body>60m/DEV Add rules into documentation. The rules are following: 0. API should be compatible with old one. 1. if there is new operator in arguments, all arguments should be from new lines. 2. spaces between arguments are required if arguments list are in one line: (0, 0, 1) instead of (0,0,1). 3. Lambdas are always from new string. 4. Indention is 4 spaces. 5. Inner properties should be from separate lines. 6. Lines bigger than 80 characters should be properly formatted. 7. All arrays should be placed with proper formatting. Each argument on separate line. 8. Dictionary should be formatted with separate set of rules. Each pair on separate line.</body>
+            <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/153" closed="2023-02-23T12:38:17+00:00">153</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-41d35ef3</id>
+            <lines>26-26</lines>
+            <body>60m/DEV Implement rule: if there is an inline instantiation (new operator) in arguments, all arguments should be properly formatted.</body>
+            <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/154" closed="2023-02-23T12:38:23+00:00">154</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-d0ce5b4b</id>
+            <lines>30-30</lines>
+            <body>60m/DEV Implement rule: Lambdas are always from new string.</body>
+            <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/155" closed="2023-02-23T12:38:28+00:00">155</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-de36cb8b</id>
+            <lines>34-34</lines>
+            <body>60m/DEV Implement rule: Inner properties should be from separate lines.</body>
+            <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/156" closed="2023-02-23T12:38:33+00:00">156</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-8f445bc5</id>
+            <lines>38-38</lines>
+            <body>60m/DEV Implement rule: All arrays should be placed with proper formatting.</body>
+            <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/168" closed="2023-01-03T06:46:51+00:00">168</issue>
+                <ticket>156</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>156-9de53b53</id>
+                <lines>44-44</lines>
+                <body>60m/DEV InstantiationStatement is no capable to recognize anonymous array</body>
+                <file>tests/ObjectToTest.UnitTests/InstantiationStatementTests.cs</file>
+                <author>@DenisZhukovski</author>
+                <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+                <time>2022-12-26T08:41:06Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/157" closed="2023-02-23T12:38:37+00:00">157</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-3fa6ea22</id>
+            <lines>42-42</lines>
+            <body>60m/DEV Implement rule: Dictionary should be formatted with separate set of rules.</body>
+            <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/158" closed="2023-02-23T12:38:40+00:00">158</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-8f4cc3a8</id>
+            <lines>10-10</lines>
+            <body>60m/DEV Add assignment with type definition.</body>
+            <file>src/CodeFormatting/Syntax/Statements/Assignment/PossibleAssignments.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/159" closed="2023-02-23T12:38:43+00:00">159</issue>
+            <ticket>76</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>76-7d061f5d</id>
+            <lines>14-14</lines>
+            <body>60m/DEV Add assignment to variable.</body>
+            <file>src/CodeFormatting/Syntax/Statements/Assignment/PossibleAssignments.cs</file>
+            <author>Denis Zhukovski</author>
+            <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+            <time>2022-12-22T06:56:52Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/77" closed="2022-12-16T15:50:43+00:00">77</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-47d4c793</id>
+        <lines>44-44</lines>
+        <body>60m/DEV Implement rule: Lines bigger than 80 characters should be properly formatted.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/78" closed="2022-12-22T06:57:16+00:00">78</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-8f445bc5</id>
+        <lines>48-48</lines>
+        <body>60m/DEV Implement rule: All arrays should be placed with proper formatting.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/79" closed="2022-12-22T06:57:21+00:00">79</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-3fa6ea22</id>
+        <lines>52-52</lines>
+        <body>60m/DEV Implement rule: Dictionary should be formatted with separate set of rules.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/80" closed="2022-11-29T13:50:21+00:00">80</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-38b4cde6</id>
+        <lines>56-56</lines>
+        <body>60m/DEV In ToTestWellFormattedTests:</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/84" closed="2022-12-16T15:50:48+00:00">84</issue>
+            <ticket>80</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>80-2d20ab77</id>
+            <lines>25-25</lines>
+            <body>60m/DEV Describe formatting rules in readme file.</body>
+            <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+            <author>@Stanislau</author>
+            <email>Stanislau_Kanaplianik@epam.com</email>
+            <time>2022-11-29T13:50:02Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/85" closed="2022-11-30T15:46:10+00:00">85</issue>
+            <ticket>80</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>80-788167ac</id>
+            <lines>20-22</lines>
+            <body>60m/DEV Define approach for formatting. Possible option: IDecompiledCodeAsString|string object.ToString(IFormat), where IFormat can be abstract interface with implementation for each formatting rule.</body>
+            <file>src/Extensions/ObjectExtensions.cs</file>
+            <author>Stanislau</author>
+            <email>Stanislau_Kanaplianik@epam.com</email>
+            <time>2022-11-29T13:50:02Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/91" closed="2022-12-01T14:36:21+00:00">91</issue>
+                <ticket>85</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>85-ab01c3f2</id>
+                <lines>4-6</lines>
+                <body>60m/DEV Decompose code formatting to create syntax tree from code. Better to parse code and format it properly. It isolates existing functionality. Probably need to invest some time to find existing ability to create syntax tree from code.</body>
+                <file>src/CodeFormatting/WellFormattedCode.cs</file>
+                <author>Stanislau</author>
+                <email>Stanislau_Kanaplianik@epam.com</email>
+                <time>2022-11-30T15:45:56Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/96" closed="2022-12-16T15:50:53+00:00">96</issue>
+                    <ticket>91</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>91-86347da6</id>
+                    <lines>9-10</lines>
+                    <body>60m/DEV Define necessary properties Most likely: new [TypeDefinition]([Arguments]) {[InlinePropertiesAssignment]}</body>
+                    <file>src/CodeFormatting/Syntax/IInstantiationStatement.cs</file>
+                    <author>Stanislau</author>
+                    <email>Stanislau_Kanaplianik@epam.com</email>
+                    <time>2022-12-01T14:36:07Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/97" closed="2022-12-01T15:51:20+00:00">97</issue>
+                    <ticket>91</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>91-757bcd9b</id>
+                    <lines>9-10</lines>
+                    <body>60m/DEV Create an implementation for this. It should be responsible for splitting code to statements and providing statements of the right type.</body>
+                    <file>src/CodeFormatting/Syntax/ISyntaxTree.cs</file>
+                    <author>Stanislau</author>
+                    <email>Stanislau_Kanaplianik@epam.com</email>
+                    <time>2022-12-01T14:36:07Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/100" closed="2022-12-16T15:50:58+00:00">100</issue>
+                        <ticket>97</ticket>
+                        <estimate>0</estimate>
+                        <role>DEV</role>
+                        <id>97-c8441ae2</id>
+                        <lines>10-10</lines>
+                        <body>60m/DEV Implement different statements and register them here.</body>
+                        <file>src/CodeFormatting/Syntax/Implementation/PossibleCodeStatements.cs</file>
+                        <author>Stanislau</author>
+                        <email>Stanislau_Kanaplianik@epam.com</email>
+                        <time>2022-12-01T15:51:06Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/103" closed="2022-12-02T15:19:51+00:00">103</issue>
+                            <ticket>100</ticket>
+                            <estimate>0</estimate>
+                            <role>DEV</role>
+                            <id>100-1403ee85</id>
+                            <lines>11-11</lines>
+                            <body>60m/DEV Implement instantiation statement parsing.</body>
+                            <file>src/CodeFormatting/Syntax/Implementation/InstantiationStatement.cs</file>
+                            <author>Stanislau</author>
+                            <email>Stanislau_Kanaplianik@epam.com</email>
+                            <time>2022-12-02T11:37:14Z</time>
+                            <children>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/105" closed="2022-12-05T06:24:49+00:00">105</issue>
+                                <ticket>103</ticket>
+                                <estimate>0</estimate>
+                                <role>DEV</role>
+                                <id>103-1449c44a</id>
+                                <lines>10-10</lines>
+                                <body>60m/DEV Parse arguments.</body>
+                                <file>src/CodeFormatting/Syntax/Implementation/Arguments.cs</file>
+                                <author>Stanislau</author>
+                                <email>Stanislau_Kanaplianik@epam.com</email>
+                                <time>2022-12-02T15:19:37Z</time>
+                                <children/>
+                              </puzzle>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/106" closed="2022-12-22T06:57:25+00:00">106</issue>
+                                <ticket>103</ticket>
+                                <estimate>0</estimate>
+                                <role>DEV</role>
+                                <id>103-6f662a60</id>
+                                <lines>10-10</lines>
+                                <body>60m/DEV Parse properties.</body>
+                                <file>src/CodeFormatting/Syntax/Implementation/PropertyAssignments.cs</file>
+                                <author>Stanislau</author>
+                                <email>Stanislau_Kanaplianik@epam.com</email>
+                                <time>2022-12-02T15:19:37Z</time>
+                                <children>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/110" closed="2023-02-23T12:38:49+00:00">110</issue>
+                                    <ticket>106</ticket>
+                                    <estimate>0</estimate>
+                                    <role>DEV</role>
+                                    <id>106-e47b7527</id>
+                                    <lines>9-9</lines>
+                                    <body>60m/DEV Add lambdas support.</body>
+                                    <file>src/CodeFormatting/Syntax/Implementation/PossibleArguments.cs</file>
+                                    <author>Stanislau</author>
+                                    <email>Stanislau_Kanaplianik@epam.com</email>
+                                    <time>2022-12-05T06:24:36Z</time>
+                                    <children/>
+                                  </puzzle>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/111" closed="2022-12-06T12:57:08+00:00">111</issue>
+                                    <ticket>106</ticket>
+                                    <estimate>0</estimate>
+                                    <role>DEV</role>
+                                    <id>106-ab2b5e46</id>
+                                    <lines>10-10</lines>
+                                    <body>60m/DEV Adjust project structure.</body>
+                                    <file>src/CodeFormatting/Syntax/SyntaxTree.cs</file>
+                                    <author>Stanislau</author>
+                                    <email>Stanislau_Kanaplianik@epam.com</email>
+                                    <time>2022-12-05T06:24:36Z</time>
+                                    <children/>
+                                  </puzzle>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/112" closed="2023-02-23T12:38:54+00:00">112</issue>
+                                    <ticket>106</ticket>
+                                    <estimate>0</estimate>
+                                    <role>DEV</role>
+                                    <id>106-7b8c4b95</id>
+                                    <lines>24-24</lines>
+                                    <body>60m/DEV Change split implementation to consider closures, lambdas and inline initializations.</body>
+                                    <file>src/CodeFormatting/Syntax/SyntaxTree.cs</file>
+                                    <author>Stanislau</author>
+                                    <email>Stanislau_Kanaplianik@epam.com</email>
+                                    <time>2022-12-05T06:24:36Z</time>
+                                    <children/>
+                                  </puzzle>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/113" closed="2022-12-08T05:31:55+00:00">113</issue>
+                                    <ticket>106</ticket>
+                                    <estimate>0</estimate>
+                                    <role>DEV</role>
+                                    <id>106-5af0cf4e</id>
+                                    <lines>29-29</lines>
+                                    <body>60m/DEV Refactoring for all logic to be moved from constructor into lazy initializations or lazy executables.</body>
+                                    <file>src/CodeFormatting/Syntax/SyntaxTree.cs</file>
+                                    <author>Stanislau</author>
+                                    <email>Stanislau_Kanaplianik@epam.com</email>
+                                    <time>2022-12-05T06:24:36Z</time>
+                                    <children/>
+                                  </puzzle>
+                                </children>
+                              </puzzle>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/107" closed="2022-12-26T10:42:11+00:00">107</issue>
+                                <ticket>103</ticket>
+                                <estimate>0</estimate>
+                                <role>DEV</role>
+                                <id>103-aca9e7c5</id>
+                                <lines>11-11</lines>
+                                <body>60m/DEV Think about array assignment.</body>
+                                <file>src/CodeFormatting/Syntax/Implementation/InstantiationStatement.cs</file>
+                                <author>Stanislau</author>
+                                <email>Stanislau_Kanaplianik@epam.com</email>
+                                <time>2022-12-02T15:19:37Z</time>
+                                <children/>
+                              </puzzle>
+                            </children>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/98" closed="2022-12-08T05:32:00+00:00">98</issue>
+                    <ticket>91</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>91-b3afd652</id>
+                    <lines>4-4</lines>
+                    <body>60m/DEV Create hierarchy for code formatting based on ISyntaxTree.</body>
+                    <file>src/CodeFormatting/WellFormattedCode.cs</file>
+                    <author>Stanislau</author>
+                    <email>Stanislau_Kanaplianik@epam.com</email>
+                    <time>2022-12-01T14:36:07Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/124" closed="2023-02-23T12:38:59+00:00">124</issue>
+                        <ticket>98</ticket>
+                        <estimate>0</estimate>
+                        <role>DEV</role>
+                        <id>98-39e62256</id>
+                        <lines>212-212</lines>
+                        <body>60m/DEV This should work but is is not.</body>
+                        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+                        <author>Stanislau</author>
+                        <email>Stanislau_Kanaplianik@epam.com</email>
+                        <time>2022-12-08T05:31:35Z</time>
+                        <children/>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/125" closed="2022-12-16T15:51:03+00:00">125</issue>
+                        <ticket>98</ticket>
+                        <estimate>0</estimate>
+                        <role>DEV</role>
+                        <id>98-65555348</id>
+                        <lines>23-23</lines>
+                        <body>60m/DEV Rework infrastructure for code formatting.</body>
+                        <file>src/CodeFormatting/WellFormattedCode.cs</file>
+                        <author>Stanislau</author>
+                        <email>Stanislau_Kanaplianik@epam.com</email>
+                        <time>2022-12-08T05:31:35Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/137" closed="2022-12-22T06:57:30+00:00">137</issue>
+                            <ticket>125</ticket>
+                            <estimate>0</estimate>
+                            <role>DEV</role>
+                            <id>125-962767e2</id>
+                            <lines>13-23</lines>
+                            <body>60m/DEV Add rules into documentation. The rules are following: 0. API should be compatible with old one. 1. if there is new operator in arguments, all arguments should be from new lines. 2. spaces between arguments are required if arguments list are in one line: (0, 0, 1) instead of (0,0,1). 3. Lambdas are always from new string. 4. Indention is 4 spaces. 5. Inner properties should be from separate lines. 6. Lines bigger than 80 characters should be properly formatted. 7. All arrays should be placed with proper formatting. Each argument on separate line. 8. Dictionary should be formatted with separate set of rules. Each pair on separate line.</body>
+                            <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+                            <author>Stanislau</author>
+                            <email>Stanislau_Kanaplianik@epam.com</email>
+                            <time>2022-12-16T15:50:24Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/138" closed="2023-02-23T12:39:00+00:00">138</issue>
+                            <ticket>125</ticket>
+                            <estimate>0</estimate>
+                            <role>DEV</role>
+                            <id>125-b1d7e48e</id>
+                            <lines>11-11</lines>
+                            <body>60m/DEV Use Insert 0 instead of add.</body>
+                            <file>src/CodeFormatting/Formatting/Format.cs</file>
+                            <author>Stanislau</author>
+                            <email>Stanislau_Kanaplianik@epam.com</email>
+                            <time>2022-12-16T15:50:24Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/139" closed="2023-02-23T12:39:06+00:00">139</issue>
+                            <ticket>125</ticket>
+                            <estimate>0</estimate>
+                            <role>DEV</role>
+                            <id>125-614e355d</id>
+                            <lines>17-17</lines>
+                            <body>60m/DEV Rename Override to just ForArrayOf.</body>
+                            <file>src/CodeFormatting/Formatting/Format.cs</file>
+                            <author>Stanislau</author>
+                            <email>Stanislau_Kanaplianik@epam.com</email>
+                            <time>2022-12-16T15:50:24Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="true">
+                            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/140">140</issue>
+                            <ticket>125</ticket>
+                            <estimate>0</estimate>
+                            <role>DEV</role>
+                            <id>125-88fc4eb7</id>
+                            <lines>12-12</lines>
+                            <body>60m/DEV Implement invocation statement.</body>
+                            <file>src/CodeFormatting/Syntax/Statements/PossibleCodeStatements.cs</file>
+                            <author>Stanislau</author>
+                            <email>Stanislau_Kanaplianik@epam.com</email>
+                            <time>2022-12-16T15:50:24Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/141" closed="2023-02-23T12:39:12+00:00">141</issue>
+                            <ticket>125</ticket>
+                            <estimate>0</estimate>
+                            <role>DEV</role>
+                            <id>125-cfa6c346</id>
+                            <lines>16-16</lines>
+                            <body>60m/DEV Implement assignment statement.</body>
+                            <file>src/CodeFormatting/Syntax/Statements/PossibleCodeStatements.cs</file>
+                            <author>Stanislau</author>
+                            <email>Stanislau_Kanaplianik@epam.com</email>
+                            <time>2022-12-16T15:50:24Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/142" closed="2023-02-23T12:39:18+00:00">142</issue>
+                            <ticket>125</ticket>
+                            <estimate>0</estimate>
+                            <role>DEV</role>
+                            <id>125-d8a4f619</id>
+                            <lines>9-9</lines>
+                            <body>60m/LEAD IInstantiationStatement is ICodeStatement and IArgument at the same time.</body>
+                            <file>src/CodeFormatting/Syntax/Contracts/IInstantiationStatement.cs</file>
+                            <author>Stanislau</author>
+                            <email>Stanislau_Kanaplianik@epam.com</email>
+                            <time>2022-12-16T15:50:24Z</time>
+                            <children/>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/160" closed="2022-12-26T06:37:27+00:00">160</issue>
+                        <ticket>98</ticket>
+                        <estimate>0</estimate>
+                        <role>DEV</role>
+                        <id>98-016d53c1</id>
+                        <lines>199-199</lines>
+                        <body>60m/DEV This should work but it is not.</body>
+                        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+                        <author>Denis Zhukovski</author>
+                        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+                        <time>2022-12-22T06:56:52Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/92" closed="2022-12-01T09:26:00+00:00">92</issue>
+                <ticket>85</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>85-c9c8d051</id>
+                <lines>21-22</lines>
+                <body>60m/ARCH: Can we extend ObjectAsConstructor to be able to check if object created with issues? It is needed to define whether we need to format the code at all.</body>
+                <file>src/Extensions/ObjectExtensions.cs</file>
+                <author>Stanislau</author>
+                <email>Stanislau_Kanaplianik@epam.com</email>
+                <time>2022-11-30T15:45:56Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/81" closed="2022-11-29T13:50:26+00:00">81</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-a4cd6989</id>
+        <lines>62-62</lines>
+        <body>60m/DEV Implement a test to check rule: Lines bigger than 80 characters should be properly formatted..</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/82" closed="2022-11-29T13:50:31+00:00">82</issue>
+        <ticket>5</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>5-f769c879</id>
+        <lines>489-489</lines>
+        <body>Adjust this test with formatting rules.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-28T12:40:45Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/86" closed="2022-12-16T15:51:08+00:00">86</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-9186b939</id>
+        <lines>11-21</lines>
+        <body>60m/DEV Implement proper formatting. Base puzzle with all rules for references. The rules are following: 0. API should be compatible with old one. 1. if there is new operator in arguments, all arguments should be properly formatted. 2. spaces between arguments are required: (0, 0, 1) instead of (0,0,1). 3. Lambdas are always from new string. 4. Indention is 4 spaces. 5. Inner properties should be from separate lines. 6. Lines bigger than 80 characters should be properly formatted. 7. All arrays should be placed with proper formatting. 8. Dictionary should be formatted with separate set of rules.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>@Stanislau</author>
+        <email>Stanislau_Kanaplianik@epam.com</email>
+        <time>2022-11-29T13:50:02Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/143" closed="2022-12-22T06:57:35+00:00">143</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-41d35ef3</id>
+        <lines>27-27</lines>
+        <body>60m/DEV Implement rule: if there is an inline instantiation (new operator) in arguments, all arguments should be properly formatted.</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestWellFormattedTests.cs</file>
+        <author>Stanislau</author>
+        <email>Stanislau_Kanaplianik@epam.com</email>
+        <time>2022-12-16T15:50:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/6" closed="2022-08-26T08:21:16+00:00">6</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-213b64df</id>
+    <lines>197-197</lines>
+    <body>Make WithGenericArgument test to be green. Generic type constructors are not supported at the moment. Need to add the support.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-08-25T11:22:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/7" closed="2022-08-29T08:50:11+00:00">7</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-1ef53fb8</id>
+    <lines>209-209</lines>
+    <body>Make WithIEnumerableInt test to be green. Collection argument type constructors are not supported at the moment. Need to add the support.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-08-25T11:22:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/8" closed="2022-08-29T08:01:31+00:00">8</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-ac3331af</id>
+    <lines>230-230</lines>
+    <body>Make IncorrectArgumentsClass test to be green.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-08-25T11:22:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/11" closed="2022-10-25T14:40:00+00:00">11</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-90fcc3c8</id>
+    <lines>256-258</lines>
+    <body>Make CircularReferenceDetection test to be green. Now the circular references between the objects are not detected. It would be nice to fix the issue</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-08-26T08:52:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/37" closed="2022-10-25T14:40:10+00:00">37</issue>
+        <ticket>11</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>11-7e3ee3ee</id>
+        <lines>306-308</lines>
+        <body>Make ComplexCircularReferenceDetection test to be green. Now the circular references between the objects are not detected. It would be nice to fix the issue</body>
+        <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+        <author>@MaxShustov</author>
+        <email>max.shustov@hotmail.com</email>
+        <time>2022-09-18T08:31:00Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/38" closed="2022-10-03T09:25:33+00:00">38</issue>
+        <ticket>11</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>11-e081f816</id>
+        <lines>86-89</lines>
+        <body>Make CircularReferenceInitProperties test to be green. Now the circular references not initialized properly and does not detect that shared object has circular reference in its fields or properties. It would nice to fix the test.</body>
+        <file>tests/ObjectToTest.UnitTests/ObjectSharedArgumentsTests.cs</file>
+        <author>Maksym Shustov</author>
+        <email>max.shustov@hotmail.com</email>
+        <time>2022-09-18T08:31:00Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/46" closed="2022-09-30T12:33:33+00:00">46</issue>
+            <ticket>38</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>38-1a440fb4</id>
+            <lines>13-14</lines>
+            <body>Make HasCircularReference test to be green. HasCircularReference always returns false but the method should be able</body>
+            <file>tests/ObjectToTest.UnitTests/ObjectExtensionsTests.cs</file>
+            <author>Maksym Shustov</author>
+            <email>max.shustov@hotmail.com</email>
+            <time>2022-09-30T11:50:16Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/47" closed="2022-09-30T12:33:37+00:00">47</issue>
+            <ticket>38</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>38-547e639d</id>
+            <lines>34-36</lines>
+            <body>Make HasComplexCircularReference test to be green. HasCircularReference method should be able to detect the situation when object has a circular reference but not direct. Instead it uses the object that uses the other one which uses the original in its field or property.</body>
+            <file>tests/ObjectToTest.UnitTests/ObjectExtensionsTests.cs</file>
+            <author>Maksym Shustov</author>
+            <email>max.shustov@hotmail.com</email>
+            <time>2022-09-30T11:50:16Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/12" closed="2022-09-07T08:31:15+00:00">12</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-ac170357</id>
+    <lines>274-276</lines>
+    <body>Make TheSameObjectDetection test to be green. Now the same object detection is not implemented. It would be nice to fix the issue.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-08-26T08:52:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/18" closed="2022-09-06T08:07:25+00:00">18</issue>
+        <ticket>12</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>12-d42c7aa9</id>
+        <lines>13-18</lines>
+        <body>Improve the test: Ideally the test should compare the result that returned by Argument method with some manually created argument that wraps the original object. Assert.Equal( new Argument(user), new ObjectSharedArguments(withUser).Argument(user) );</body>
+        <file>tests/ObjectToTest.UnitTests/ObjectSharedArgumentsTests.cs</file>
+        <author>@DenisZhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-09-05T09:17:10Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/19" closed="2022-09-05T11:16:16+00:00">19</issue>
+        <ticket>12</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>12-615eb024</id>
+        <lines>22-34</lines>
+        <body>The method should try to find the same argument inside the target object and check if its the shared one. It means the argument is used more than 1 time inside the target object fileds or properties: The example below shows sych case when user object is the shared one. var user = new User("user name"); var withUser = new WithUserArgument( user, new WithUserPublicProperty { User = user } ); The Test: ObjectSharedArgumentsTests.SharedArgument should be green</body>
+        <file>src/ObjectSharedArguments.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-09-05T09:17:10Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/21" closed="2022-09-17T10:48:06+00:00">21</issue>
+        <ticket>12</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>12-77aedd72</id>
+        <lines>37-37</lines>
+        <body>ObjectSharedArguments should be able to support nulls for shared objects.</body>
+        <file>tests/ObjectToTest.UnitTests/ObjectSharedArgumentsTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-09-05T11:16:05Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/22" closed="2022-09-06T06:07:00+00:00">22</issue>
+        <ticket>12</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>12-2adcea6a</id>
+        <lines>70-84</lines>
+        <body>ObjectSharedArguments class should return as a string the piepce of code that initializes the shared object arguments. For example: var user = new User("user name"); var withUser = new WithUserArgument( user, new WithUserPublicProperty { User = user } ); ToString method should return: var user = new User("user name"); If object has no shared objects in its internal state the method should return empty string.</body>
+        <file>tests/ObjectToTest.UnitTests/ObjectSharedArgumentsTests.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-09-05T11:16:05Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/23" closed="2022-09-06T06:07:05+00:00">23</issue>
+        <ticket>12</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>12-bf97e2bc</id>
+        <lines>29-30</lines>
+        <body>Make a code refactoring for this property. The property is too big and it looks like Loops for Fields and Properties are pretty the same.</body>
+        <file>src/ObjectSharedArguments.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-09-05T11:16:05Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/25" closed="2022-09-11T08:48:07+00:00">25</issue>
+        <ticket>12</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>12-25ff0d1d</id>
+        <lines>54-55</lines>
+        <body>Make a code refactoring for this method. The method is too big and complex. It looks like the Loops for Fields and Properties are pretty the same.</body>
+        <file>src/ObjectSharedArguments.cs</file>
+        <author>Denis Zhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-09-05T16:19:49Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/15" closed="2022-09-12T17:08:03+00:00">15</issue>
+    <ticket>30m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>30m-3d61cad0</id>
+    <lines>242-242</lines>
+    <body>Make CtorWithDictionaryIntString test to be green. Dictionary argument type constructors are not supported at the moment. Need to add the support.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@MaxShustov</author>
+    <email>max.shustov@hotmail.com</email>
+    <time>2022-08-29T08:50:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/20" closed="2022-12-02T11:30:28+00:00">20</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>ARCH</role>
+    <id>60m-92217446</id>
+    <lines>10-11</lines>
+    <body>Need to create Interface/Class diagram that describes the solution on high level Ideally this diagram should be put into Docs folder of the repository and referenced in Readme file.</body>
+    <file>src/ObjectAsConstructor.cs</file>
+    <author>Denis Zhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-09-05T09:17:10Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/63" closed="2022-12-02T11:30:33+00:00">63</issue>
+        <ticket>20</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>20-65f0b286</id>
+        <lines>15-15</lines>
+        <body>60m/ARCH Need to complete the diagram ObjectToTest/docs/ObjectToTest.drawio</body>
+        <file>src/ObjectAsConstructor.cs</file>
+        <author>@MaxShustov</author>
+        <email>max.shustov@hotmail.com</email>
+        <time>2022-11-24T09:17:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/29" closed="2022-11-09T12:56:36+00:00">29</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-de6b1700</id>
+    <lines>309-310</lines>
+    <body>Make SingletonAsArgument test to be green. Now the singletons are not detected. It would be nice to fix the issue</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-09-07T08:55:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/35" closed="2022-10-30T13:00:16+00:00">35</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>LEAD</role>
+    <id>60m-c0ddede6</id>
+    <lines>340-341</lines>
+    <body>Warning comment when object has an internal state that can not be initialized through the constructor. It means that the state of an object has been changed after its been created and it's happened through the method or event</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@MaxShustov</author>
+    <email>max.shustov@hotmail.com</email>
+    <time>2022-09-17T10:58:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/43" closed="2022-11-08T12:08:30+00:00">43</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-833141ed</id>
+    <lines>245-246</lines>
+    <body>Make CtorWithFuncArgument test to be green. Now constructor with Func arguments are not supported. Need to be fixed</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@MaxShustov</author>
+    <email>max.shustov@hotmail.com</email>
+    <time>2022-09-28T15:31:35Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/52" closed="2022-11-08T12:08:35+00:00">52</issue>
+        <ticket>43</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>43-e812cfe8</id>
+        <lines>21-22</lines>
+        <body>Make FuncCtor test to be green. Now DelegateConstructor does not support delegate body generation.</body>
+        <file>tests/ObjectToTest.UnitTests/DelegateConstructorTests.cs</file>
+        <author>@DenisZhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-10-26T10:18:13Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/53" closed="2022-11-08T12:08:41+00:00">53</issue>
+        <ticket>43</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>43-7268d76e</id>
+        <lines>37-38</lines>
+        <body>Make FuncCtorWith1Param test to be green. Now DelegateConstructor does not support delegate body generation.</body>
+        <file>tests/ObjectToTest.UnitTests/DelegateConstructorTests.cs</file>
+        <author>@DenisZhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-10-26T10:18:13Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/54" closed="2022-12-05T06:32:03+00:00">54</issue>
+        <ticket>43</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>43-1f7b68b6</id>
+        <lines>86-87</lines>
+        <body>Make ActionCtorWith2ParamsAndBody test to be green. Now DelegateConstructor does not support delegate body generation.</body>
+        <file>tests/ObjectToTest.UnitTests/DelegateConstructorTests.cs</file>
+        <author>@DenisZhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-10-26T10:18:13Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/44" closed="2022-10-26T10:18:25+00:00">44</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-1c83a860</id>
+    <lines>260-261</lines>
+    <body>Make WithActionArgument test to be green. Now constructor with Action arguments are not supported. Need to be fixed</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@MaxShustov</author>
+    <email>max.shustov@hotmail.com</email>
+    <time>2022-09-28T15:31:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/57" closed="2022-12-05T09:15:52+00:00">57</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-52d1da88</id>
+    <lines>261-262</lines>
+    <body>Make OtherObjectMethodReferenceAsArgument test to be green. Now DelegateConstructor does not support object method as reference.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-11-08T12:08:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/64" closed="2022-11-26T15:41:49+00:00">64</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>ARCH</role>
+    <id>60m-ed924176</id>
+    <lines>17-17</lines>
+    <body>Need to implement object dependencies tracing logic.</body>
+    <file>src/Core/ObjectDependenciesTrace.cs</file>
+    <author>@MaxShustov</author>
+    <email>max.shustov@hotmail.com</email>
+    <time>2022-11-24T09:17:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/89" closed="2022-12-01T14:44:43+00:00">89</issue>
+        <ticket>64</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>64-b89c1043</id>
+        <lines>15-17</lines>
+        <body>60m/DEV InvalidConstructor returns Arguments as empty list The class should be able to calculate the target object constructor and return the list of its arguments</body>
+        <file>tests/ObjectToTest.UnitTests/InvalidConstructorTests.cs</file>
+        <author>@DenisZhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-30T13:54:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/90" closed="2022-12-01T14:44:48+00:00">90</issue>
+        <ticket>64</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>64-52c16d09</id>
+        <lines>34-35</lines>
+        <body>60m/DEV ObjectDependenciesTrace does not support recursive analyzes for invalid constructor arguments. The test should be fixed and recursive analyzes implemented.</body>
+        <file>tests/ObjectToTest.UnitTests/ObjectDependenciesTraceTests.cs</file>
+        <author>@DenisZhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-11-30T13:54:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/116" closed="2022-12-23T11:11:34+00:00">116</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-13211a65</id>
+    <lines>283-285</lines>
+    <body>Make SharedOtherObjectMethodsReferenceAsArgument test to be green. Now DelegateConstructor does not support shared objects. DelegateConstructor should be able to generate code with shared arguments in such cases.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@MaxShustov</author>
+    <email>max.shustov@hotmail.com</email>
+    <time>2022-12-05T09:15:38Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/122" closed="2022-12-23T11:11:39+00:00">122</issue>
+        <ticket>116</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>116-50c12a8f</id>
+        <lines>91-91</lines>
+        <body>60m/DEV ObjectSharedArguments can not initialize the target of function delegate.</body>
+        <file>tests/ObjectToTest.UnitTests/ObjectSharedArgumentsTests.cs</file>
+        <author>@DenisZhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-12-06T14:42:37Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/162" closed="2022-12-22T14:30:52+00:00">162</issue>
+            <ticket>122</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>122-1de999dd</id>
+            <lines>6-11</lines>
+            <body>60m/DEV SharedObjects summary is a little bit difficult for quick understanding. Need to rephrase it The entity finds the objects that are part of current object internal state but also used in more than one object entity. https://github.com/DenisZhukovski/ObjectToTest/wiki/Shared-Objects-Detection &lt;/summary&gt;</body>
+            <file>src/Core/SharedObjects.cs</file>
+            <author>Eugene Puntus</author>
+            <email>kapral.20.it@gmail.com</email>
+            <time>2022-12-22T14:16:10Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/119">119</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>LEAD</role>
+    <id>60m-29085618</id>
+    <lines>454-455</lines>
+    <body>Warning comment when object has an internal state that can not be initialized through the constructor. It means that the state of an object has been changed after its been created and it's happened through the method or event.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-12-06T13:42:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/120">120</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>ARCH</role>
+    <id>60m-a60ec9c0</id>
+    <lines>12-17</lines>
+    <body>ObjectAsConstructor class has to be structurally fixed to support logging as decorator. Now when the class does not work as expected its not an easy one to understand how the logic works. Ideally we should be able to wrap the original object with Logged one to be able to see the whole execution process. It seems it was a bad idea to use extension method for some crucial pieces of code.</body>
+    <file>src/ObjectAsConstructor.cs</file>
+    <author>Denis Zhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-12-06T13:42:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/127" closed="2022-12-08T11:27:20+00:00">127</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-c03a3736</id>
+    <lines>426-427</lines>
+    <body>When constructor argument is shared object the name and return type is not correct because of the custom object class name which does not fir the argument name and type</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-12-08T08:39:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/130" closed="2022-12-09T08:59:35+00:00">130</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-99c1dd43</id>
+    <lines>449-449</lines>
+    <body>When shared object is used several times its children also considered as shared objects</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-12-08T11:27:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/134" closed="2022-12-22T06:57:39+00:00">134</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-ef372b2f</id>
+    <lines>284-286</lines>
+    <body>Make SharedArgumentWhenSeveralTimesAsCtorArgument test to be green. Now when object is used several times as the same ctor argument it's not detected as shared object. The issue need ot be fixed.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-12-09T10:51:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/146" closed="2022-12-22T06:57:45+00:00">146</issue>
+        <ticket>134</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>134-2e67643f</id>
+        <lines>99-100</lines>
+        <body>60m/DEV Make SeveralTimesCtorArgumentAsShared test to be green. The problem is that SharedObjects is not implemented properly.</body>
+        <file>tests/ObjectToTest.UnitTests/SharedObjectsTests.cs</file>
+        <author>@DenisZhukovski</author>
+        <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+        <time>2022-12-20T09:46:10Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/166" closed="2022-12-26T10:01:52+00:00">166</issue>
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>ARCH</role>
+    <id>60m-6081b6c6</id>
+    <lines>61-69</lines>
+    <body>SyntaxTree ToString should show the syntax hierarchy. Something similar to the example 'new TimeSpan(18, 17, 34, 24, 5)': - InstantiationStatement: TimeSpan - Arguments: 5 - Argument: Int32(18) - Argument: Int32(17) - Argument: Int32(34) - Argument: Int32(24) - Argument: Int32(5)</body>
+    <file>tests/ObjectToTest.UnitTests/SyntaxTreeTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2022-12-26T06:37:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/185" closed="2023-03-14T14:45:38+00:00">185</issue>
+    <ticket>180</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>180-470c4360</id>
+    <lines>124-124</lines>
+    <body>60m/DEV SharedObjects should be empty for HttpClient. The test should be green.</body>
+    <file>tests/ObjectToTest.UnitTests/SharedObjectsTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2023-02-23T09:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/186">186</issue>
+    <ticket>180</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>180-a57c516e</id>
+    <lines>517-517</lines>
+    <body>60m/DEV HttpClient should be recreated properly, The test should be green.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2023-02-23T09:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/187" closed="2023-03-14T14:45:44+00:00">187</issue>
+    <ticket>180</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>180-828a6e9f</id>
+    <lines>12-12</lines>
+    <body>60m/DEV ObjectsUsageGraph should be empty for HttpClient. The test should be green.</body>
+    <file>tests/ObjectToTest.UnitTests/ObjectsUsageGraphTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2023-02-23T09:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/188" closed="2023-03-14T14:45:51+00:00">188</issue>
+    <ticket>180</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>180-64fe7295</id>
+    <lines>202-202</lines>
+    <body>60m/DEV ObjectSharedArguments should be empty for HttpClient. The test should be green.</body>
+    <file>tests/ObjectToTest.UnitTests/ObjectSharedArgumentsTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2023-02-23T09:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/189" closed="2023-03-14T14:45:57+00:00">189</issue>
+    <ticket>180</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>180-b1140a42</id>
+    <lines>55-55</lines>
+    <body>60m/DEV SharedCircularProperties should be empty for HttpClient. The test should be green.</body>
+    <file>tests/ObjectToTest.UnitTests/SharedCircularPropertiesTests.cs</file>
+    <author>Denis Zhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2023-02-23T09:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-9aa5e31b</id>
+    <lines>556-556</lines>
+    <body>Object With NotImplemented properties should be able to instantiate.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>@DenisZhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2025-03-22T17:15:02Z</time>
+    <children/>
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/195">195</issue>
+  </puzzle>
+  <puzzle alive="true">
+    <ticket>60m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>60m-0d2c1876</id>
+    <lines>568-568</lines>
+    <body>Object With Type properties should be able to instantiate.</body>
+    <file>tests/ObjectToTest.UnitTests/ToTestTests.cs</file>
+    <author>Denis Zhukovski</author>
+    <email>46710314+DenisZhukovski@users.noreply.github.com</email>
+    <time>2025-03-22T17:15:02Z</time>
+    <children/>
+    <issue href="https://github.com/DenisZhukovski/ObjectToTest/issues/196">196</issue>
+  </puzzle>
+</puzzles>

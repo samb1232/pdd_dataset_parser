@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-01-18T21:34:31+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/gitnotifier/issues/2" closed="2022-12-07T17:49:35+00:00">2</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-2429223c</id>
+    <lines>28-29</lines>
+    <body>Implement some logic. This is a fake puzzle for 0pdd puzzler.</body>
+    <file>lib/gitnotifier/gitnotifier.rb</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-07T16:56:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/gitnotifier/issues/6" closed="2022-12-08T01:29:10+00:00">6</issue>
+    <ticket>telegram</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>telegram-c11eae57</id>
+    <lines>30-32</lines>
+    <body>Bot/ Add auth. We have to implement auth via github token. Token has to be only with notifications access.</body>
+    <file>lib/gitnotifier/gitnotifier.rb</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-08T01:22:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/gitnotifier/issues/10">10</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-b59b352a</id>
+    <lines>29-30</lines>
+    <body>Tests/ test user. We have to write integration and unit tests for User class.</body>
+    <file>lib/gitnotifier/user.rb</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-08T10:36:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/gitnotifier/issues/11">11</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-5a1ef0f0</id>
+    <lines>30-31</lines>
+    <body>Tests/ test bot. We have to write integration and unit tests for Notifier class.</body>
+    <file>lib/gitnotifier/notifier.rb</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-08T10:36:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/gitnotifier/issues/15" closed="2022-12-08T15:44:14+00:00">15</issue>
+    <ticket>auth</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>auth-b6f880d8</id>
+    <lines>59-60</lines>
+    <body>Create reset. We have to impelement command which resets the GH token.</body>
+    <file>lib/gitnotifier/notifier.rb</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-08T14:32:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/l3r8yJ/gitnotifier/issues/18" closed="2022-12-08T16:24:34+00:00">18</issue>
+        <ticket>15</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>15-a27dbfb9</id>
+        <lines>33-35</lines>
+        <body>Design/ Notifier class. Remove code duplications where it's possible. save/update user methods in priority.</body>
+        <file>lib/gitnotifier/notifier.rb</file>
+        <author>@l3r8yJ</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2022-12-08T15:52:26Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/l3r8yJ/gitnotifier/issues/21">21</issue>
+    <ticket>13</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>13-603df7b2</id>
+    <lines>32-33</lines>
+    <body>Design/ The user class must be separated. It is necessary to decompose into several other classes.</body>
+    <file>lib/gitnotifier/user.rb</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-09T13:27:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/gitnotifier/issues/22" closed="2022-12-09T20:30:52+00:00">22</issue>
+    <ticket>13</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>13-e3667bac</id>
+    <lines>72-73</lines>
+    <body>Fix git class. Here we got a problem when trying to "require_relative 'client'".</body>
+    <file>lib/gitnotifier/notifier.rb</file>
+    <author>@l3r8yJ</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2022-12-09T13:27:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/l3r8yJ/gitnotifier/issues/24" closed="2022-12-10T14:08:09+00:00">24</issue>
+        <ticket>22</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>22-433bc2b3</id>
+        <lines>46-48</lines>
+        <body>Bug/ check on new notifications. Fix the way to check new notifications. It's should reacts only to new notifications.</body>
+        <file>lib/gitnotifier/client.rb</file>
+        <author>@l3r8yJ</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2022-12-09T20:25:38Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/l3r8yJ/gitnotifier/issues/28" closed="2022-12-11T17:29:04+00:00">28</issue>
+            <ticket>24</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>24-460a8fd5</id>
+            <lines>27-29</lines>
+            <body>Tokens safety. Encrypt tokens before storing them in the database, and decrypt them after receiving them.</body>
+            <file>lib/gitnotifier/encryption_body.rb</file>
+            <author>@l3r8yJ</author>
+            <email>clicker.heroes.acg@gmail.com</email>
+            <time>2022-12-10T14:01:14Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/l3r8yJ/gitnotifier/issues/32" closed="2022-12-12T11:29:35+00:00">32</issue>
+                <ticket>28</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>28-4de08344</id>
+                <lines>27-29</lines>
+                <body>Decompose class. Decompose this class into two decorators for string. First should be Encrypted, second one should be Decrypted</body>
+                <file>lib/gitnotifier/encryption_body.rb</file>
+                <author>@l3r8yJ</author>
+                <email>clicker.heroes.acg@gmail.com</email>
+                <time>2022-12-11T17:23:11Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/l3r8yJ/gitnotifier/issues/33" closed="2022-12-12T01:49:22+00:00">33</issue>
+                <ticket>28</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>28-7cd3ba91</id>
+                <lines>48-49</lines>
+                <body>Take out the keys. Take out the iv and key into .yml configuration.</body>
+                <file>lib/gitnotifier/encryption_body.rb</file>
+                <author>@l3r8yJ</author>
+                <email>clicker.heroes.acg@gmail.com</email>
+                <time>2022-12-11T17:23:11Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/l3r8yJ/gitnotifier/issues/25" closed="2022-12-10T17:44:18+00:00">25</issue>
+        <ticket>22</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>22-e7e5950c</id>
+        <lines>57-58</lines>
+        <body>Bug/ fetch only on success. Users.fetch must be called only when /auth or /reset was successful.</body>
+        <file>lib/gitnotifier/notifier.rb</file>
+        <author>@l3r8yJ</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2022-12-09T20:25:38Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/l3r8yJ/gitnotifier/issues/26" closed="2022-12-10T23:44:12+00:00">26</issue>
+        <ticket>22</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>22-7fabdb7b</id>
+        <lines>71-72</lines>
+        <body>Bug/ reset fails. Handle error when reset was failed same as /auth.</body>
+        <file>lib/gitnotifier/notifier.rb</file>
+        <author>@l3r8yJ</author>
+        <email>clicker.heroes.acg@gmail.com</email>
+        <time>2022-12-09T20:25:38Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/l3r8yJ/gitnotifier/issues/41" closed="2024-01-18T21:34:31+00:00">41</issue>
+    <ticket>38</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>38-e41228d9</id>
+    <lines>25-26</lines>
+    <body>Redesign user and users class. It should be more think about perfomance.</body>
+    <file>lib/gitnotifier/users.rb</file>
+    <author>@ivan</author>
+    <email>clicker.heroes.acg@gmail.com</email>
+    <time>2023-02-25T03:21:18Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

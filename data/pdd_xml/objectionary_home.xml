@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2026-04-20T17:03:36+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/23" closed="2022-05-19T12:50:38+00:00">23</issue>
+    <ticket>15</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>15-a67283bc</id>
+    <lines>27-29</lines>
+    <body>I assumed that we need to add more tests of .any-of matcjher (e.g. several different matchers, nested matchers etc.) after fixing issue in objectionary/eo#623</body>
+    <file>tests/org/eolang/hamcrest/any-of-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-05-19T09:14:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/24" closed="2022-05-19T12:50:42+00:00">24</issue>
+    <ticket>14</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>14-989b9606</id>
+    <lines>27-30</lines>
+    <body>I assumed that we need to add more tests with .all-of matcher (e.g. several different matchers and nested matchers) after fixing issue in objectionary/eo#623</body>
+    <file>tests/org/eolang/hamcrest/all-of-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-05-19T09:14:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/25" closed="2022-05-19T12:50:48+00:00">25</issue>
+    <ticket>16</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>16-4d253faa</id>
+    <lines>27-30</lines>
+    <body>I assumed that we need to add more tests of .described-as matcher and more varargs values after fixing issue in objectionary/eo#623</body>
+    <file>tests/org/eolang/hamcrest/described-as-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-05-19T09:14:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/26" closed="2022-05-19T12:50:53+00:00">26</issue>
+    <ticket>17</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>17-30c88f18</id>
+    <lines>261-263</lines>
+    <body>Here we got an object printed instead of data. The .map [i] i.as-string didn't work. We need to convert varargs to data[] somehow.</body>
+    <file>objects/org/eolang/hamcrest/assert-that.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-05-19T09:14:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/33" closed="2022-06-18T03:55:43+00:00">33</issue>
+    <ticket>755</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>755-95cd94b4</id>
+    <lines>299-302</lines>
+    <body>We need to remove the anything matcher. We can do it only after fixing the eo-hamcrest library when new EO version will be released.</body>
+    <file>tests/org/eolang/runtime-tests.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2022-06-18T03:29:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/110" closed="2023-02-22T13:05:57+00:00">110</issue>
+    <ticket>1060</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1060-a940be9c</id>
+    <lines>29-32</lines>
+    <body>The method .empty is not nessesary. Make the create of tuple possible just by using the object name, i.e `tuple &gt; a` and remove this method.</body>
+    <file>objects/org/eolang/tuple.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2023-02-22T12:34:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/250" closed="2024-10-29T13:57:47+00:00">250</issue>
+    <ticket>3251</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3251-7a787eb5</id>
+    <lines>207-210</lines>
+    <body>The object does not work. After moving `list` object to eo-runtime this is the only method which does not work because it's quite hard to implement properly, especially after big changes in EO semantic. We need to get it done and write some tests for it.</body>
+    <file>objects/org/eolang/structs/list.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-10-29T12:42:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/251" closed="2024-10-29T13:57:49+00:00">251</issue>
+    <ticket>3251</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3251-6874868e</id>
+    <lines>105-112</lines>
+    <body>Find a way to link hash code and index of key. Right now map is implemented as `tuple` of objects where every element is composition of three entities: hash, key and value. When we try to find an element in hash map by key (K1) we're calculating hash of K1 (H1) and trying to find the entity where `entity.hash` (H2) is equal to H1. This search is implemented by simple reducing initial hash map `tuple` and obviously slow - O(n). We need to find a way to get a right index of entity in hash map</body>
+    <file>objects/org/eolang/structs/map.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-10-29T12:42:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/293" closed="2025-02-10T15:57:35+00:00">293</issue>
+    <ticket>3481</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3481-02ddf8e7</id>
+    <lines>36-39</lines>
+    <body>Remove all +unlit broken-ref from EO source code. These suppressions were added in order to be compile EO when @ref attribute from XMIR is removed, by it's checked by LintMojo. We need to remove these suppressions when `lints` repository is fixed and new version is used in EO.</body>
+    <file>objects/org/eolang/txt/text.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-01-27T12:59:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/305" closed="2025-03-11T15:04:11+00:00">305</issue>
+    <ticket>3648</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3648-8639da36</id>
+    <lines>22-26</lines>
+    <body>Remove all `+unlint rt-without-atoms`, `+unlint empty-object` and `+unlit decorated-formation` metas from `eo-runtime`. These metas were added after we removed `@atom` attribute from XMIR. Now atoms have empty object with greek lambda as `@name` attribute. When these changes are fixed in `lints` repository we should update its version and remove all the possible `+unlint` metas.</body>
+    <file>objects/org/eolang/try.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-03-11T14:38:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/396" closed="2026-04-20T17:03:32+00:00">396</issue>
+    <ticket>4096</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>4096-477dc52a</id>
+    <lines>290-292</lines>
+    <body>Enable tests-resolves-and-touches unit test. Now its disabled because of: "Can't #take("path"), the attribute is absent among other test 34 attrs. After we fix it, we should enable the test.</body>
+    <file>objects/fs/file.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-14T16:49:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/397" closed="2026-04-20T15:55:38+00:00">397</issue>
+    <ticket>4475</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>4475-c4f74bf0</id>
+    <lines>70-72</lines>
+    <body>Enable `writes-larger-data-than-provided-block` after resize will be implemented. If the provided memory block is not large enough for the data to write, a runtime error happens. However we can use `malloc.of.allocated.resized` to increase the size of the block.</body>
+    <file>objects/io/malloc-as-output.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-14T16:49:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/398" closed="2026-04-20T15:55:40+00:00">398</issue>
+    <ticket>4751</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>4751-14ad8ad2</id>
+    <lines>18-21</lines>
+    <body>Move `ln` to a separate object with it's tests. It's atom, don't forget change `EOreal$EOln`. For more information check this ticket: https://github.com/objectionary/eo/issues/4751</body>
+    <file>objects/ms/real.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-14T16:49:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/399" closed="2026-04-20T17:03:34+00:00">399</issue>
+    <ticket>4235</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>4235-fabe62dd</id>
+    <lines>19-21</lines>
+    <body>Move all tests from `runtime.eo` to other objects. For now runtime is just a set of runtime tests. Instead of having this, let's move its tests to the other objects, which tests are most suitable for.</body>
+    <file>objects/runtime.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-14T16:49:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/home/issues/400" closed="2026-04-20T17:03:36+00:00">400</issue>
+    <ticket>4411</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>4411-1af760bf</id>
+    <lines>85-89</lines>
+    <body>Replace all left usages of `$ &gt; oname`. We should remove all the usages like `$ &gt; matched` from the syntax, and from the runtime objects. Currently, it is not possible because syntax sugar for object idempotency is not fully implemented, and we cannot remove some edge case usages, like here, in `matched`. Don't forget to remove this puzzle.</body>
+    <file>objects/tt/regex.eo</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-04-14T16:49:03Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

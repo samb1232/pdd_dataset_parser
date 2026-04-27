@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-12-19T14:52:10+00:00" version="0.30.13">
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/youtrack-api/issues/166" closed="2018-05-01T19:47:21+00:00">166</issue>
+    <ticket>161</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>161-af52ca76</id>
+    <lines>25-27</lines>
+    <body>Modify ctor to accept the Login interface. This interface must be propagated to collaborators through their ctors. Wrap the given login in the new CachedLogin implementation.</body>
+    <file>src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-31T14:32:01Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/youtrack-api/issues/196" closed="2018-05-02T17:50:16+00:00">196</issue>
+        <ticket>166</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>166-496efef5</id>
+        <lines>25-26</lines>
+        <body>Continue making all implementations accept a Login instead of a Session. Wrap the given login in the new CachedLogin implementation.</body>
+        <file>src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-05-01T19:47:15Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/youtrack-api/issues/168" closed="2018-03-31T21:13:38+00:00">168</issue>
+    <ticket>164</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>164-782b906d</id>
+    <lines>203-205</lines>
+    <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step.</body>
+    <file>pom.xml</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-31T17:15:00Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/youtrack-api/issues/171" closed="2018-03-31T23:07:41+00:00">171</issue>
+        <ticket>168</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>168-5f0e7803</id>
+        <lines>203-205</lines>
+        <body>Continued: &lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step.</body>
+        <file>pom.xml</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-31T21:13:33Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/youtrack-api/issues/173" closed="2018-03-31T23:51:15+00:00">173</issue>
+            <ticket>171</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>171-ffcedfbe</id>
+            <lines>203-205</lines>
+            <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+            <file>pom.xml</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-03-31T23:07:35Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/llorllale/youtrack-api/issues/175" closed="2018-04-01T01:07:16+00:00">175</issue>
+                <ticket>173</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>173-ffcedfbe</id>
+                <lines>203-205</lines>
+                <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                <file>pom.xml</file>
+                <author>George Aristy</author>
+                <email>george.aristy@gmail.com</email>
+                <time>2018-03-31T23:51:06Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/llorllale/youtrack-api/issues/177" closed="2018-04-01T16:45:29+00:00">177</issue>
+                    <ticket>175</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>175-ffcedfbe</id>
+                    <lines>203-205</lines>
+                    <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                    <file>pom.xml</file>
+                    <author>George Aristy</author>
+                    <email>george.aristy@gmail.com</email>
+                    <time>2018-04-01T01:07:10Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/llorllale/youtrack-api/issues/179" closed="2018-04-01T17:49:02+00:00">179</issue>
+                        <ticket>177</ticket>
+                        <estimate>0</estimate>
+                        <role>DEV</role>
+                        <id>177-ffcedfbe</id>
+                        <lines>203-205</lines>
+                        <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                        <file>pom.xml</file>
+                        <author>George Aristy</author>
+                        <email>george.aristy@gmail.com</email>
+                        <time>2018-04-01T16:45:24Z</time>
+                        <children>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/llorllale/youtrack-api/issues/181" closed="2018-04-01T19:20:40+00:00">181</issue>
+                            <ticket>179</ticket>
+                            <estimate>0</estimate>
+                            <role>DEV</role>
+                            <id>179-ffcedfbe</id>
+                            <lines>203-205</lines>
+                            <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                            <file>pom.xml</file>
+                            <author>George Aristy</author>
+                            <email>george.aristy@gmail.com</email>
+                            <time>2018-04-01T17:48:53Z</time>
+                            <children>
+                              <puzzle alive="false">
+                                <issue href="https://github.com/llorllale/youtrack-api/issues/183" closed="2018-04-04T18:09:52+00:00">183</issue>
+                                <ticket>181</ticket>
+                                <estimate>0</estimate>
+                                <role>DEV</role>
+                                <id>181-ffcedfbe</id>
+                                <lines>426-428</lines>
+                                <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                                <file>pom.xml</file>
+                                <author>George Aristy</author>
+                                <email>george.aristy@gmail.com</email>
+                                <time>2018-04-01T19:20:29Z</time>
+                                <children>
+                                  <puzzle alive="false">
+                                    <issue href="https://github.com/llorllale/youtrack-api/issues/186" closed="2018-04-06T20:54:26+00:00">186</issue>
+                                    <ticket>183</ticket>
+                                    <estimate>0</estimate>
+                                    <role>DEV</role>
+                                    <id>183-ffcedfbe</id>
+                                    <lines>426-428</lines>
+                                    <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                                    <file>pom.xml</file>
+                                    <author>George Aristy</author>
+                                    <email>george.aristy@gmail.com</email>
+                                    <time>2018-04-04T18:09:46Z</time>
+                                    <children>
+                                      <puzzle alive="false">
+                                        <issue href="https://github.com/llorllale/youtrack-api/issues/188" closed="2018-04-13T19:50:55+00:00">188</issue>
+                                        <ticket>186</ticket>
+                                        <estimate>0</estimate>
+                                        <role>DEV</role>
+                                        <id>186-ffcedfbe</id>
+                                        <lines>426-428</lines>
+                                        <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                                        <file>pom.xml</file>
+                                        <author>George Aristy</author>
+                                        <email>george.aristy@gmail.com</email>
+                                        <time>2018-04-06T20:54:17Z</time>
+                                        <children>
+                                          <puzzle alive="false">
+                                            <issue href="https://github.com/llorllale/youtrack-api/issues/190" closed="2018-04-16T19:16:17+00:00">190</issue>
+                                            <ticket>188</ticket>
+                                            <estimate>0</estimate>
+                                            <role>DEV</role>
+                                            <id>188-ffcedfbe</id>
+                                            <lines>426-428</lines>
+                                            <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                                            <file>pom.xml</file>
+                                            <author>George Aristy</author>
+                                            <email>george.aristy@gmail.com</email>
+                                            <time>2018-04-13T19:50:49Z</time>
+                                            <children>
+                                              <puzzle alive="false">
+                                                <issue href="https://github.com/llorllale/youtrack-api/issues/192" closed="2018-04-16T20:14:52+00:00">192</issue>
+                                                <ticket>190</ticket>
+                                                <estimate>0</estimate>
+                                                <role>DEV</role>
+                                                <id>190-ffcedfbe</id>
+                                                <lines>426-428</lines>
+                                                <body>&lt;sourceDirectory&gt; should be '${basedir}/src' in order to include test sources in the checks, but there are MANY failures triggered there. Will need to fix those step by step. Keep going.</body>
+                                                <file>pom.xml</file>
+                                                <author>George Aristy</author>
+                                                <email>george.aristy@gmail.com</email>
+                                                <time>2018-04-16T19:16:12Z</time>
+                                                <children/>
+                                              </puzzle>
+                                            </children>
+                                          </puzzle>
+                                        </children>
+                                      </puzzle>
+                                    </children>
+                                  </puzzle>
+                                </children>
+                              </puzzle>
+                            </children>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/youtrack-api/issues/204" closed="2018-06-01T14:36:40+00:00">204</issue>
+    <ticket>202</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>202-33686010</id>
+    <lines>35-37</lines>
+    <body>Continue using llorllale/cactoos-matchers for tests where ever possible. Also, wherever possible, stop using static methods from Matcher and start using their object counterparts.</body>
+    <file>src/test/java/org/llorllale/youtrack/api/CachedLoginTest.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-05-31T21:12:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/youtrack-api/issues/206" closed="2018-06-07T20:38:41+00:00">206</issue>
+        <ticket>204</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>204-33686010</id>
+        <lines>35-37</lines>
+        <body>Continue using llorllale/cactoos-matchers for tests where ever possible. Also, wherever possible, stop using static methods from Matcher and start using their object counterparts.</body>
+        <file>src/test/java/org/llorllale/youtrack/api/DefaultIssueTimeTrackingTest.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-06-01T14:36:34Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/llorllale/youtrack-api/issues/219">219</issue>
+            <ticket>206</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>206-33686010</id>
+            <lines>35-37</lines>
+            <body>Continue using llorllale/cactoos-matchers for tests where ever possible. Also, wherever possible, stop using static methods from Matcher and start using their object counterparts.</body>
+            <file>src/test/java/org/llorllale/youtrack/api/DefaultIssueTimeTrackingTest.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-06-07T20:38:35Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/youtrack-api/issues/208" closed="2018-06-03T15:33:57+00:00">208</issue>
+    <ticket>71</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>71-9315671c</id>
+    <lines>27-29</lines>
+    <body>Add an attribute to Attachment for its contents. This would return an InputStream with the attachment's contents. Add another attribute for the attachment's content-type.</body>
+    <file>src/main/java/org/llorllale/youtrack/api/Attachment.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-06-01T15:25:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/youtrack-api/issues/216" closed="2018-07-09T17:42:51+00:00">216</issue>
+        <ticket>208</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>208-edc51acf</id>
+        <lines>34-37</lines>
+        <body>The HTTP client configured for XmlIssue is the default one that only pools 2 connection that are not being released for reuse. Therefore the code hangs after a few calls to issue.attachments() and everything else accessible from there. This problem is probably present in the rest of the implementations.</body>
+        <file>src/main/java/org/llorllale/youtrack/api/XmlIssue.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-06-03T15:33:51Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/youtrack-api/issues/222" closed="2018-09-21T21:51:43+00:00">222</issue>
+            <ticket>216</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>216-3cbd571f</id>
+            <lines>25-27</lines>
+            <body>Even though DefaultHttpClient is pooling connections, we must take care to release each connection so that it can be reused. We should ensure that all Http entities are consumed and that all responses are closed, for example.</body>
+            <file>src/main/java/org/llorllale/youtrack/api/DefaultClient.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-07-09T17:42:41Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/llorllale/youtrack-api/issues/240" closed="2018-11-16T21:19:11+00:00">240</issue>
+                <ticket>222</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>222-dda41031</id>
+                <lines>26-31</lines>
+                <body>Now that all HTTPClients and HTTPResponses are closeable, we need to start making sure that the underlying connections are being released when we are done with the http responses. For reference, read: - https://stackoverflow.com/a/31659073/1623885 - Sections 1.1.5 and 1.1.6 of https://hc.apache.org/httpcomponents-client-4.5.x/tutorial/html/fundamentals.html</body>
+                <file>src/main/java/org/llorllale/youtrack/api/http/Client.java</file>
+                <author>George Aristy</author>
+                <email>george.aristy@gmail.com</email>
+                <time>2018-09-21T21:51:38Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/llorllale/youtrack-api/issues/244">244</issue>
+                    <ticket>240</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>240-d2ce6279</id>
+                    <lines>51-54</lines>
+                    <body>Concurrency tests have been implemented. However, the build is failing with errors internal to youtrack, similar to "jetbrains.exodus.ExodusException: Can't read full bytes from log [/opt/youtrack/data/youtrack] with address 1245184". After that is fixed, make sure all connections are released as per #240, and make sure these tests pass.</body>
+                    <file>src/test/java/org/llorllale/youtrack/api/ConcurrencyIT.java</file>
+                    <author>George Aristy</author>
+                    <email>george.aristy@gmail.com</email>
+                    <time>2018-11-16T21:19:04Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/youtrack-api/issues/223" closed="2018-07-10T03:47:01+00:00">223</issue>
+            <ticket>216</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>216-2d921078</id>
+            <lines>46-48</lines>
+            <body>DefaultYoutrack is now taking in an HttpClient as parameter, and this client is being passed to some parts of the API implementations. Finish making all implementations accept this client.</body>
+            <file>src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-07-09T17:42:41Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/llorllale/youtrack-api/issues/228" closed="2018-07-10T12:40:13+00:00">228</issue>
+                <ticket>223</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>223-5ca94c9b</id>
+                <lines>46-48</lines>
+                <body>Continue making all implementations accept an HttpClient in order to enable concurrency. Right now major parts of the API are hanging when multiple threads are accessing them.</body>
+                <file>src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java</file>
+                <author>George Aristy</author>
+                <email>george.aristy@gmail.com</email>
+                <time>2018-07-10T03:46:48Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/llorllale/youtrack-api/issues/231" closed="2018-07-10T19:10:41+00:00">231</issue>
+                    <ticket>228</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>228-5ca94c9b</id>
+                    <lines>46-48</lines>
+                    <body>Continue making all implementations accept an HttpClient in order to enable concurrency. Right now major parts of the API are hanging when multiple threads are accessing them.</body>
+                    <file>src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java</file>
+                    <author>George Aristy</author>
+                    <email>george.aristy@gmail.com</email>
+                    <time>2018-07-10T12:40:06Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/llorllale/youtrack-api/issues/233" closed="2018-07-10T22:04:13+00:00">233</issue>
+                        <ticket>231</ticket>
+                        <estimate>0</estimate>
+                        <role>DEV</role>
+                        <id>231-5ca94c9b</id>
+                        <lines>46-48</lines>
+                        <body>Continue making all implementations accept an HttpClient in order to enable concurrency. Right now major parts of the API are hanging when multiple threads are accessing them.</body>
+                        <file>src/main/java/org/llorllale/youtrack/api/DefaultYouTrack.java</file>
+                        <author>George Aristy</author>
+                        <email>george.aristy@gmail.com</email>
+                        <time>2018-07-10T19:10:28Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/youtrack-api/issues/217" closed="2018-07-10T03:21:31+00:00">217</issue>
+        <ticket>208</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>208-1962a091</id>
+        <lines>87-91</lines>
+        <body>The YouTrack API inside the test docker container is returning 'fileUrl/@url' without the mapped port number for the docker container. This is probably because the service inside uses port 80. Figure out a way to make it so that the returned '@url' is a URL that can be readily accessed from outside the container, and then un-ignore this test.</body>
+        <file>src/test/java/org/llorllale/youtrack/api/XmlAttachmentIT.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-06-03T15:33:51Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/youtrack-api/issues/209" closed="2018-06-01T17:07:46+00:00">209</issue>
+    <ticket>71</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>71-9c1a88dc</id>
+    <lines>25-26</lines>
+    <body>Implement Attachments interface. It is a stream (as anticipated in #200), and will in the future support creation of attachments.</body>
+    <file>src/main/java/org/llorllale/youtrack/api/Attachments.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-06-01T15:25:53Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

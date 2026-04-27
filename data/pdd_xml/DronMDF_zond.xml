@@ -1,0 +1,1235 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-02-12T08:10:47+00:00" version="0.30.16">
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/3" closed="2018-11-15T09:39:40+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-c86b2d15</id>
+    <lines>11-11</lines>
+    <body>add style check</body>
+    <file>CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-14T19:46:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/4" closed="2018-11-15T12:45:50+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-42bba7ab</id>
+    <lines>12-12</lines>
+    <body>add unittest</body>
+    <file>CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-14T19:46:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/17" closed="2018-11-21T20:50:53+00:00">17</issue>
+    <ticket>15</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>15-a9f3b6c8</id>
+    <lines>13-13</lines>
+    <body>Move Session to separate file</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-19T07:44:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/18" closed="2018-11-22T20:28:01+00:00">18</issue>
+    <ticket>15</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>15-800502de</id>
+    <lines>46-46</lines>
+    <body>Parse request and handle it</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-19T07:44:22Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/zond/issues/33">33</issue>
+        <ticket>18</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>18-11f6b7fe</id>
+        <lines>21-21</lines>
+        <body>Create multythreaded pool of workers</body>
+        <file>main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-11-22T20:26:01Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/zond/issues/34">34</issue>
+        <ticket>18</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>18-bc7a9d10</id>
+        <lines>26-27</lines>
+        <body>Need to control asio::read time Use deadline_timer for that</body>
+        <file>Session.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-11-22T20:26:01Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/35" closed="2018-11-23T07:59:44+00:00">35</issue>
+        <ticket>18</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>18-bc039e2d</id>
+        <lines>57-58</lines>
+        <body>Read Http body size of body keep in Content-Length header field</body>
+        <file>Session.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-11-22T20:26:01Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/38" closed="2018-12-03T19:52:49+00:00">38</issue>
+            <ticket>35</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>35-e8b5a80f</id>
+            <lines>83-83</lines>
+            <body>Create HttpRequest With header and body</body>
+            <file>Session.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-11-23T07:59:40Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/39" closed="2018-11-23T20:38:02+00:00">39</issue>
+            <ticket>35</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>35-808023e7</id>
+            <lines>16-16</lines>
+            <body>Get field value from header content</body>
+            <file>HttpHeader.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-11-23T07:59:40Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/zond/issues/42" closed="2018-12-05T12:44:25+00:00">42</issue>
+                <ticket>39</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>39-8b60ff5f</id>
+                <lines>7-8</lines>
+                <body>Filelist are copy pasted this cause double compilation</body>
+                <file>test/CMakeLists.txt</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2018-11-23T20:28:50Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/zond/issues/19">19</issue>
+    <ticket>15</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>15-0293916b</id>
+    <lines>66-66</lines>
+    <body>Use maybe_unused attrib when compiler is updated to version 7</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-19T07:44:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/20" closed="2018-11-22T14:26:49+00:00">20</issue>
+    <ticket>15</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>15-c6828878</id>
+    <lines>87-87</lines>
+    <body>Move Listener to separate file</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-19T07:44:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/47" closed="2018-11-29T19:17:06+00:00">47</issue>
+    <ticket>45</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>45-71360c6e</id>
+    <lines>8-11</lines>
+    <body>Create Enrty interface and inherite NotFoundEntry from Entry. Entry::process should give HttpRequest as arg and return HttpResponse</body>
+    <file>NotFoundEntry.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-29T06:46:28Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/50" closed="2018-11-29T19:46:17+00:00">50</issue>
+        <ticket>47</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>47-2272f727</id>
+        <lines>11-11</lines>
+        <body>Entry::process should return HttpResponse</body>
+        <file>Entry.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-11-29T19:12:19Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/48" closed="2018-11-29T20:11:32+00:00">48</issue>
+    <ticket>45</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>45-27ac64d0</id>
+    <lines>85-85</lines>
+    <body>Entries tree should be create once and pass from top level</body>
+    <file>Session.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-29T06:46:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/55" closed="2018-12-04T20:18:15+00:00">55</issue>
+    <ticket>53</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>53-01497aa5</id>
+    <lines>20-20</lines>
+    <body>Select right entry by request</body>
+    <file>SelectedEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-30T19:19:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/59" closed="2018-12-06T20:04:40+00:00">59</issue>
+        <ticket>55</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>55-024087d7</id>
+        <lines>23-23</lines>
+        <body>Select entry from entries list by regex</body>
+        <file>SelectedEntry.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-04T20:18:07Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/69" closed="2018-12-07T20:03:54+00:00">69</issue>
+            <ticket>59</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>59-215f80ef</id>
+            <lines>22-28</lines>
+            <body>Create chained ctor for SelectedEntry Like this: SelectedEntry( _"GET", "/version", entry1, _"PUT", "/wallet/, entry2, _... )</body>
+            <file>http/SelectedEntry.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-06T20:04:32Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/70" closed="2018-12-09T19:17:00+00:00">70</issue>
+            <ticket>59</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>59-22a89800</id>
+            <lines>33-33</lines>
+            <body>Select entry by method</body>
+            <file>http/SelectedEntry.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-06T20:04:32Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/zond/issues/71">71</issue>
+            <ticket>59</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>59-a9892121</id>
+            <lines>34-34</lines>
+            <body>Select entry by uri by regexp</body>
+            <file>http/SelectedEntry.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-06T20:04:32Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/60" closed="2018-12-05T20:09:37+00:00">60</issue>
+        <ticket>55</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>55-ad78d241</id>
+        <lines>51-51</lines>
+        <body>Construct HttpRequest with two string</body>
+        <file>test/SelectedEntryTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-04T20:18:07Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/61" closed="2018-12-05T19:57:33+00:00">61</issue>
+        <ticket>55</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>55-09fdf7bc</id>
+        <lines>17-17</lines>
+        <body>Get uri from HtttpRequestHeader</body>
+        <file>HttpRequest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-04T20:18:07Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/56" closed="2019-01-31T20:24:16+00:00">56</issue>
+    <ticket>53</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>53-357ee882</id>
+    <lines>13-13</lines>
+    <body>Return right server version</body>
+    <file>GetVersionEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-11-30T19:19:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/212" closed="2019-02-01T08:53:34+00:00">212</issue>
+        <ticket>56</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>56-1f1dad53</id>
+        <lines>31-32</lines>
+        <body>After update 2out to 0.6 - use multiple matching "ContentLehgth: 5\r\n"</body>
+        <file>test/GetVersionEntryTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-01-31T20:24:05Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/74" closed="2018-12-07T20:45:23+00:00">74</issue>
+    <ticket>72</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>72-7504e66a</id>
+    <lines>11-11</lines>
+    <body>EqualCriterion should compare by method too</body>
+    <file>http/EqualCriterion.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-07T09:49:25Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/79" closed="2018-12-08T18:14:24+00:00">79</issue>
+        <ticket>74</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>74-de2402e3</id>
+        <lines>27-27</lines>
+        <body>Match requests by method</body>
+        <file>main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-07T20:42:14Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/80" closed="2018-12-08T20:22:22+00:00">80</issue>
+        <ticket>74</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>74-de83ddf1</id>
+        <lines>11-11</lines>
+        <body>MethodCriterion should wrap other Criterion</body>
+        <file>http/MethodCriterion.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-07T20:42:14Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/81" closed="2018-12-07T20:53:59+00:00">81</issue>
+        <ticket>74</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>74-921b4181</id>
+        <lines>28-28</lines>
+        <body>get method from HttpHeader</body>
+        <file>http/HttpRequest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-07T20:42:14Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/82" closed="2018-12-08T20:26:54+00:00">82</issue>
+        <ticket>74</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>74-981affe5</id>
+        <lines>23-24</lines>
+        <body>Unskip MethodCriterion success test after HttpRequest return method</body>
+        <file>test/MethodCriterionTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-07T20:42:14Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/91" closed="2019-01-24T15:10:45+00:00">91</issue>
+            <ticket>82</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>82-86cc26c2</id>
+            <lines>15-15</lines>
+            <body>Add Score to Info response</body>
+            <file>http/GetInfoEntry.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-09T19:34:29Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/zond/issues/182" closed="2019-01-24T20:05:09+00:00">182</issue>
+                <ticket>91</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>91-2662d750</id>
+                <lines>18-18</lines>
+                <body>Convert Score to json</body>
+                <file>http/GetInfoEntry.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-01-24T15:10:38Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/DronMDF/zond/issues/184">184</issue>
+                    <ticket>182</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>182-e982e56c</id>
+                    <lines>21-22</lines>
+                    <body>Convert time to string is typical operation. copypaste ftom PrefixString</body>
+                    <file>http/PrefixJson.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2019-01-24T20:04:54Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/92" closed="2018-12-11T20:10:21+00:00">92</issue>
+            <ticket>82</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>82-277b92c5</id>
+            <lines>40-40</lines>
+            <body>Add GET /remotes entry</body>
+            <file>main.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-09T19:34:29Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/DronMDF/zond/issues/97">97</issue>
+                <ticket>92</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>92-f0b21cdf</id>
+                <lines>20-20</lines>
+                <body>Fill /remotes response</body>
+                <file>http/GetRemotesEntry.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2018-12-11T20:10:14Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/zond/issues/93">93</issue>
+            <ticket>82</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>82-f1713ee2</id>
+            <lines>41-41</lines>
+            <body>Add GET /wallet/xxx entry</body>
+            <file>main.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-09T19:34:29Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/zond/issues/94">94</issue>
+            <ticket>82</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>82-dae42f76</id>
+            <lines>43-43</lines>
+            <body>Add PUT /wallet/xxx entry</body>
+            <file>main.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-09T19:34:29Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/zond/issues/95">95</issue>
+    <ticket>83</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>83-0e51628a</id>
+    <lines>42-42</lines>
+    <body>Add GET /wallet/xxx/balance entry</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-09T19:34:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/100" closed="2018-12-13T21:23:23+00:00">100</issue>
+    <ticket>98</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>98-41e44d91</id>
+    <lines>17-18</lines>
+    <body>Create HttpResponse header by content Question about Content-Length</body>
+    <file>http/GetInfoEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-12T13:59:42Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/102" closed="2018-12-20T20:36:58+00:00">102</issue>
+        <ticket>100</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>100-559aed99</id>
+        <lines>9-9</lines>
+        <body>Rename HttpResponse to Response</body>
+        <file>http/HttpResponse.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-13T20:46:56Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/104" closed="2018-12-24T20:07:56+00:00">104</issue>
+        <ticket>100</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>100-4df491d7</id>
+        <lines>9-9</lines>
+        <body>Rename StringHttpResponse to RawResponse</body>
+        <file>http/StringHttpResponse.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-13T20:52:15Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/108" closed="2018-12-17T14:34:47+00:00">108</issue>
+    <ticket>105</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>105-ecd4ed6c</id>
+    <lines>20-21</lines>
+    <body>EntryRepr copypasted from SelectedEntryTest Need to extract this class</body>
+    <file>test/ZoldProtocolEntryTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-16T19:37:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/109" closed="2018-12-17T20:05:26+00:00">109</issue>
+    <ticket>105</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>105-02caf293</id>
+    <lines>13-15</lines>
+    <body>need share result method This is not acceptable for 2out library, but acceptable for project, tested with 2out</body>
+    <file>test/ZoldProtocolEntryTest.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-16T19:37:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/110" closed="2018-12-20T20:15:10+00:00">110</issue>
+    <ticket>105</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>105-c67b9a68</id>
+    <lines>20-21</lines>
+    <body>Add header field to Response - this is common patten. Need to extract this code to new class</body>
+    <file>http/ZoldProtocolEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-16T19:37:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/117" closed="2019-01-07T20:38:56+00:00">117</issue>
+    <ticket>111</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>111-3bca7abf</id>
+    <lines>23-23</lines>
+    <body>Set server version</body>
+    <file>http/ZoldProtocolEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-21T20:15:05Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/zond/issues/145">145</issue>
+        <ticket>117</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>117-fce557bf</id>
+        <lines>28-28</lines>
+        <body>Get options from config file</body>
+        <file>main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-01-07T20:35:33Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/zond/issues/146">146</issue>
+        <ticket>117</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>117-3d2dd896</id>
+        <lines>29-29</lines>
+        <body>Options::enabled should raise except if flag is not defined</body>
+        <file>http/MultipleSourcesOptions.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-01-07T20:35:33Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/DronMDF/zond/issues/147">147</issue>
+        <ticket>117</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>117-b3705294</id>
+        <lines>23-23</lines>
+        <body>ZoldProtocolEntry without Options is not work</body>
+        <file>http/ZoldProtocolEntry.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-01-07T20:35:33Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/118" closed="2018-12-27T09:10:48+00:00">118</issue>
+    <ticket>111</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>111-fa096b5d</id>
+    <lines>26-26</lines>
+    <body>Set current server score</body>
+    <file>http/ZoldProtocolEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-21T20:15:05Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/123" closed="2018-12-27T20:01:32+00:00">123</issue>
+        <ticket>118</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>118-8e581f8f</id>
+        <lines>17-17</lines>
+        <body>Create string representation of score</body>
+        <file>http/ScoreString.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-26T21:02:25Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/126" closed="2019-01-05T20:00:48+00:00">126</issue>
+            <ticket>123</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>123-1601729a</id>
+            <lines>17-17</lines>
+            <body>Create string representation for prefix</body>
+            <file>http/PrefixString.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-27T20:01:22Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/zond/issues/138" closed="2019-02-11T20:39:58+00:00">138</issue>
+                <ticket>126</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>126-f36c8664</id>
+                <lines>22-23</lines>
+                <body>gmtime is not threadsafe, but gmtime_r is noisely. Need to find more elegant way to convert time_potint to string</body>
+                <file>http/PrefixString.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-01-05T20:00:40Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/124" closed="2018-12-27T20:26:18+00:00">124</issue>
+        <ticket>118</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>118-c8600ce8</id>
+        <lines>53-53</lines>
+        <body>Pass StrongestScores to ZoldProtocolEntry</body>
+        <file>main.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2018-12-26T21:02:25Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/128" closed="2019-01-04T16:08:25+00:00">128</issue>
+            <ticket>124</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>124-b6ab7752</id>
+            <lines>12-12</lines>
+            <body>Select strongest score from ActiveScores</body>
+            <file>http/StrongestScores.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2018-12-27T20:21:22Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/DronMDF/zond/issues/133">133</issue>
+                <ticket>128</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>128-f4e80c09</id>
+                <lines>20-20</lines>
+                <body>Extract ScoreStrength to another class</body>
+                <file>http/StrongestScores.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-01-04T16:08:15Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/131" closed="2019-01-04T19:38:05+00:00">131</issue>
+    <ticket>129</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>129-3b75c977</id>
+    <lines>55-56</lines>
+    <body>Get server options from comandline/config pass it to ZoldProtocolEntry</body>
+    <file>main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2018-12-28T11:13:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/136" closed="2019-01-05T20:13:43+00:00">136</issue>
+    <ticket>134</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>134-d6a08b9d</id>
+    <lines>15-16</lines>
+    <body>ActiveScores should keep scores for mining This class should drop old scores</body>
+    <file>http/ActiveScores.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-04T19:37:57Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/139" closed="2019-02-10T20:49:02+00:00">139</issue>
+        <ticket>136</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>136-5b9be3d6</id>
+        <lines>15-15</lines>
+        <body>Create invoice class</body>
+        <file>http/ServerPrefix.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-01-05T20:00:40Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/141" closed="2019-01-16T19:31:34+00:00">141</issue>
+        <ticket>136</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>136-55341486</id>
+        <lines>22-22</lines>
+        <body>ActiveScores need method for extent existing score with new suffixes</body>
+        <file>http/ActiveScores.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-01-05T19:43:03Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/169" closed="2019-01-20T20:04:55+00:00">169</issue>
+            <ticket>141</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>141-4351c327</id>
+            <lines>44-44</lines>
+            <body>ScoreString is wrong base for mining new</body>
+            <file>http/MiningThread.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-01-16T19:31:25Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/170" closed="2019-01-16T20:24:14+00:00">170</issue>
+            <ticket>141</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>141-bbe161e3</id>
+            <lines>17-17</lines>
+            <body>Check score</body>
+            <file>http/ScoreValid.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-01-16T19:31:25Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/zond/issues/172" closed="2019-01-20T19:48:21+00:00">172</issue>
+                <ticket>170</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>170-40fdf8f5</id>
+                <lines>30-30</lines>
+                <body>ScoreValid check only last level of hash - this is wrong</body>
+                <file>http/ScoreValid.cpp</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-01-16T20:17:48Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/DronMDF/zond/issues/176">176</issue>
+                    <ticket>172</ticket>
+                    <estimate>0</estimate>
+                    <role>DEV</role>
+                    <id>172-b3249083</id>
+                    <lines>22-22</lines>
+                    <body>compare score rank for check strongest</body>
+                    <file>test/StrongestScoresTest.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2019-01-20T19:48:14Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/zond/issues/173" closed="2019-01-22T20:12:40+00:00">173</issue>
+                <ticket>170</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>170-c3af4a17</id>
+                <lines>13-14</lines>
+                <body>ScoreValid should check strength on each hash level Need make ScoreStringHash ctor with intermediate data</body>
+                <file>http/ScoreHashString.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-01-16T20:17:48Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/142" closed="2019-01-10T19:36:15+00:00">142</issue>
+        <ticket>136</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>136-1d1b89bd</id>
+        <lines>23-23</lines>
+        <body>ActiveScores need to periodically renew, replace old score to new score</body>
+        <file>http/ActiveScores.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-01-05T19:43:03Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/151" closed="2019-01-10T19:58:35+00:00">151</issue>
+            <ticket>142</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>142-6de3a3ae</id>
+            <lines>20-21</lines>
+            <body>Periodic should have ctor for construct from option value like this: Periodic(..., options, "score-miningtime")</body>
+            <file>Periodic.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-01-10T19:36:06Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/zond/issues/152" closed="2019-01-13T19:36:32+00:00">152</issue>
+            <ticket>142</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>142-cf7d6cca</id>
+            <lines>12-13</lines>
+            <body>Option should have method for string/int values as_int/as_string?</body>
+            <file>http/Options.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-01-10T19:36:06Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/zond/issues/156" closed="2019-01-14T14:34:30+00:00">156</issue>
+                <ticket>152</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>152-a1fa6a8e</id>
+                <lines>12-12</lines>
+                <body>Now, by analogy with IntOption, need to introduce StringOption, EnableOption</body>
+                <file>http/IntOption.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-01-13T19:36:23Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/DronMDF/zond/issues/159">159</issue>
+                <ticket>152</ticket>
+                <estimate>0</estimate>
+                <role>DEV</role>
+                <id>152-edfed18a</id>
+                <lines>12-12</lines>
+                <body>Now, by analogy with OptionInt, need to introduce StringOption, EnableOption</body>
+                <file>http/OptionInt.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2019-01-14T14:34:19Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/160" closed="2019-01-14T15:24:31+00:00">160</issue>
+    <ticket>157</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>157-256e3619</id>
+    <lines>37-37</lines>
+    <body>Create OptionSeconds for evaluate option value as sec</body>
+    <file>http/ActiveScores.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-14T14:34:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/163" closed="2019-01-15T21:09:20+00:00">163</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-5701b41b</id>
+    <lines>15-15</lines>
+    <body>Implement MiningThread</body>
+    <file>http/MiningThread.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-11T20:21:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/zond/issues/167">167</issue>
+    <ticket>165</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>165-883a4085</id>
+    <lines>52-52</lines>
+    <body>to_string is ugly in scode string</body>
+    <file>http/MiningThread.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-16T07:12:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/194" closed="2019-02-11T19:50:34+00:00">194</issue>
+    <ticket>185</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>185-4b58643b</id>
+    <lines>27-28</lines>
+    <body>This options repited many times Need to introduce FakeOptions with test data</body>
+    <file>test/GetInfoEntryTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-26T19:14:26Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/234" closed="2019-02-12T08:10:44+00:00">234</issue>
+        <ticket>194</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>194-794de429</id>
+        <lines>12-12</lines>
+        <body>Customuze some options in FakeOptions</body>
+        <file>test/FakeOptions.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-02-11T19:50:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/zond/issues/195">195</issue>
+    <ticket>185</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>185-49b9d59d</id>
+    <lines>41-41</lines>
+    <body>GetInfo should contain real remotes counts</body>
+    <file>http/GetInfoEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-26T19:14:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/zond/issues/196">196</issue>
+    <ticket>185</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>185-ae20040f</id>
+    <lines>47-47</lines>
+    <body>GetInfo should contain real wallet counts</body>
+    <file>http/GetInfoEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-26T19:14:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/197" closed="2019-01-27T18:37:03+00:00">197</issue>
+    <ticket>185</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>185-dde1f69e</id>
+    <lines>22-22</lines>
+    <body>Score json should have 'value' field</body>
+    <file>http/ScoreJson.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-26T19:14:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/198" closed="2019-01-27T18:44:05+00:00">198</issue>
+    <ticket>185</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>185-45d857e8</id>
+    <lines>23-23</lines>
+    <body>Score json should have 'expired' field</body>
+    <file>http/ScoreJson.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-26T19:14:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/zond/issues/205">205</issue>
+    <ticket>202</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>202-718409f1</id>
+    <lines>15-15</lines>
+    <body>Create miner invoker (as python script)</body>
+    <file>miner/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-28T20:27:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/zond/issues/206">206</issue>
+    <ticket>202</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>202-2ce729f1</id>
+    <lines>19-20</lines>
+    <body>MiningPool cannot be used in miner context MiningPool use extended ActiveScores API. How to emulate it?</body>
+    <file>miner/main.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-28T20:27:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/207" closed="2019-01-29T15:53:50+00:00">207</issue>
+    <ticket>202</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>202-1ea7b5f2</id>
+    <lines>47-48</lines>
+    <body>Mined suffixes are wrong may be ScoreHashString have bug?</body>
+    <file>http/SuffixScore.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-28T20:27:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/zond/issues/208">208</issue>
+    <ticket>202</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>202-65d370ed</id>
+    <lines>9-9</lines>
+    <body>StringScore precessed invalid string without error</body>
+    <file>http/StringScore.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-01-28T20:27:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/217" closed="2019-02-02T20:08:13+00:00">217</issue>
+    <ticket>203</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>203-2fed830c</id>
+    <lines>22-22</lines>
+    <body>Get body from request and append suffix to our score</body>
+    <file>http/PutScoreEntry.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-02-01T21:04:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/225" closed="2019-02-08T20:28:27+00:00">225</issue>
+    <ticket>201</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>201-18254c9f</id>
+    <lines>1-1</lines>
+    <body>build modules on target system from sources and install it</body>
+    <file>ansible/roles/zond/tasks/main.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-02-06T20:32:48Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/zond/issues/227" closed="2019-02-09T21:10:35+00:00">227</issue>
+        <ticket>225</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>225-b6a99085</id>
+        <lines>27-27</lines>
+        <body>Install binaries, rc scripts and default configs</body>
+        <file>ansible/roles/zond/tasks/main.yml</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2019-02-08T20:28:19Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/zond/issues/229">229</issue>
+            <ticket>227</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>227-4626cbc7</id>
+            <lines>30-30</lines>
+            <body>Install rc scripts and default configs</body>
+            <file>CMakeLists.txt</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2019-02-09T21:10:29Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/zond/issues/236" closed="2019-02-12T08:10:47+00:00">236</issue>
+    <ticket>230</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>230-28468740</id>
+    <lines>38-38</lines>
+    <body>Score part origin is not obvious.</body>
+    <file>test/ZoldProtocolEntryTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2019-02-11T20:35:09Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

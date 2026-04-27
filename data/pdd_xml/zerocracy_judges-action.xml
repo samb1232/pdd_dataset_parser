@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-12-19T04:43:39+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/11" closed="2024-05-27T08:00:07+00:00">11</issue>
+    <ticket>1</ticket>
+    <estimate>3</estimate>
+    <role>DEV</role>
+    <id>1-19fb4a35</id>
+    <lines>40-40</lines>
+    <body>n.when = when the acceptance happened?</body>
+    <file>judges/catch/catch_accepted_bug/catch_accepted_bug.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-05-22T09:52:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/12" closed="2024-05-27T08:00:09+00:00">12</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-f2970e3f</id>
+    <lines>35-36</lines>
+    <body>Let's add extra points if it was done fast and decrease points if too slow.</body>
+    <file>judges/reward/reward_for_resolved_bug/reward_for_resolved_bug.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-05-22T09:52:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/13" closed="2024-05-24T21:43:44+00:00">13</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-98d90b57</id>
+    <lines>40-40</lines>
+    <body>n.when -- let's find out when the label was attached</body>
+    <file>judges/scan/scan_github_labels/scan_github_labels.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2024-05-22T09:52:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/1193" closed="2025-11-29T05:43:52+00:00">1193</issue>
+    <ticket>1189</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1189-e30cfa21</id>
+    <lines>167-167</lines>
+    <body>We also need to add here 'suggestions' property to fact.</body>
+    <file>judges/github-events/github-events.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-28T06:49:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/1220" closed="2025-12-09T15:44:24+00:00">1220</issue>
+    <ticket>1195</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1195-77f75616</id>
+    <lines>1751-1752</lines>
+    <body>Similarly, this PR needs to check for the presence of fields and add additional calls to Github API</body>
+    <file>test/judges/test-github-events.rb</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-12-08T15:36:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/1227" closed="2025-12-10T13:21:12+00:00">1227</issue>
+    <ticket>1195</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1195-2bc8ba86</id>
+    <lines>1356-1357</lines>
+    <body>In tests that don't use stubs, you need to fix it in the fake object `Fbe::FakeOctokit` https://github.com/zerocracy/fbe/blob/3cd6e0aa9d21438d39a1a8cb41d8ea01cedb451f/lib/fbe/octo.rb#L1149</body>
+    <file>test/judges/test-github-events.rb</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-12-09T15:44:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/1232" closed="2025-12-19T04:43:39+00:00">1232</issue>
+    <ticket>1223</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1223-b156d9a5</id>
+    <lines>22-23</lines>
+    <body>Just like in this issue, you need to try to replace this `Fbe.octo.repository_workflow_runs` REST API method with a similar one in GraphQL</body>
+    <file>judges/quantity-of-deliverables/total_builds_ran.rb</file>
+    <author>@Yegorov</author>
+    <email>yegorov0725@yandex.ru</email>
+    <time>2025-12-11T18:37:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/1233" closed="2025-12-12T19:16:22+00:00">1233</issue>
+    <ticket>1223</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1223-0f5480e3</id>
+    <lines>19-20</lines>
+    <body>Just like in this issue, you need to try to replace this `Fbe.octo.list_issues` REST API method with a similar one in GraphQL</body>
+    <file>judges/quantity-of-deliverables/total_issues_created.rb</file>
+    <author>@Yegorov</author>
+    <email>yegorov0725@yandex.ru</email>
+    <time>2025-12-11T18:37:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/zerocracy/judges-action/issues/1234" closed="2025-12-18T04:38:01+00:00">1234</issue>
+    <ticket>1223</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1223-d9d007f0</id>
+    <lines>22-23</lines>
+    <body>Just like in this issue, you need to try to replace this `Fbe.octo.releases` REST API method with a similar one in GraphQL</body>
+    <file>judges/quantity-of-deliverables/total_releases_published.rb</file>
+    <author>@Yegorov</author>
+    <email>yegorov0725@yandex.ru</email>
+    <time>2025-12-11T18:37:42Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

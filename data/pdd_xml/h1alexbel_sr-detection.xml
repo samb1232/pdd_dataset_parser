@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-02-06T11:53:02+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/6" closed="2024-09-03T06:23:54+00:00">6</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-ef5f22b3</id>
+    <lines>32-35</lines>
+    <body>Make rultor merge script more strict. Let's incorporate more serious and strict build procedures. We should make test execution as well as static analysis (pylint, flake8, mypy) mandatory here and in the .github/workflows/poetry.yml.</body>
+    <file>.rultor.yml</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-04T10:21:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/7" closed="2024-10-07T12:05:55+00:00">7</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-1c14f85c</id>
+    <lines>40-45</lines>
+    <body>Create release script for whole project. Let's create a one for the whole project, including all modules. We should release all the modules: `sr-data|train|detector` to the PyPI. By doing so, we should ensure that `sr-detector` is available to be installed as standalone CLI tool. For `sr-data` and `sr-train` we should output some prominent files like CSV files and model files. Let's skip sr-paper for now.</body>
+    <file>.rultor.yml</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-04T10:21:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/19" closed="2024-08-26T14:23:49+00:00">19</issue>
+    <ticket>9</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>9-92736c7b</id>
+    <lines>47-50</lines>
+    <body>Develop a prompt for README annotation. We should create a prompt that will help the model annotate repositories with &lt;SR&gt; and &lt;non&gt; tokens. Let's start with one that we specified in paper draft.</body>
+    <file>sr-data/src/sr_data/tasks/highlight.py</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-09T15:48:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/23" closed="2024-09-10T10:00:21+00:00">23</issue>
+    <ticket>9</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>9-856f4873</id>
+    <lines>29-32</lines>
+    <body>JSONDecodeError Expecting value: line 1 column 1 (char 0) on some records in the CSV. When sending records to the endpoint, some READMEs get rejected with that error. We should identify that rows and possibly remove/recover them.</body>
+    <file>sr-data/src/sr_data/tasks/embed.py</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-12T14:17:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/24" closed="2024-09-27T10:28:35+00:00">24</issue>
+    <ticket>9</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>9-c9e75cb4</id>
+    <lines>65-68</lines>
+    <body>Use ExtendsWith analogue or some temp directory for 'out'. We shouldn't manage removal of output files directly, instead, let's use more elegant solution - temp directory or something like extensions from JUnit. We should fix the same problem in test_filter.py as well.</body>
+    <file>sr-data/src/tests/test_embed.py</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-07-12T14:17:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/117" closed="2024-10-04T10:57:40+00:00">117</issue>
+    <ticket>74</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>74-2e746059</id>
+    <lines>33-35</lines>
+    <body>Exclude repositories that don't have any maven projects. We need to exclude all repositories that don't contain any 'pom.xml' inside. Don't forget to create a unit test for this.</body>
+    <file>sr-data/src/sr_data/steps/maven.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-10-03T14:58:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/118" closed="2024-10-04T15:15:18+00:00">118</issue>
+    <ticket>74</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>74-d4549137</id>
+    <lines>36-39</lines>
+    <body>Parse 'build' JSON array of maven projects into most valuable information for embedding step. We should parse all maven projects from JSON array, extract some useful information from each, and merge into single input. For pom.xml parsing we can use XPATH, and XSLT for merging.</body>
+    <file>sr-data/src/sr_data/steps/maven.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-10-03T14:58:50Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/h1alexbel/sr-detection/issues/122">122</issue>
+        <ticket>118</ticket>
+        <estimate>35</estimate>
+        <role>DEV</role>
+        <id>118-582c0e32</id>
+        <lines>58-61</lines>
+        <body>Remove branch that returns None if found == 0. We should remove this ugly branch that now returns None if we didn't find any files. Let's handle this more elegantly. This should affect main() method, where we check `if profile is not None`.</body>
+        <file>sr-data/src/sr_data/steps/maven.py</file>
+        <author>@h1alexbel</author>
+        <email>aliaksei.bialiauski@hey.com</email>
+        <time>2024-10-04T15:15:14Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/142">142</issue>
+    <ticket>137</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>137-386c23be</id>
+    <lines>35-39</lines>
+    <body>Resolve code duplication in preprocessing methods. Ideally, we should reuse `remove_stop_words`, `lemmatize` methods from extract.py step. Now we are duplicating logic, only slightly changing it to fit the input, will be more traceable to reuse existing methods located in extract.py.</body>
+    <file>sr-data/src/sr_data/steps/mcw.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-10-15T10:01:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/143" closed="2024-10-16T08:36:04+00:00">143</issue>
+    <ticket>137</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>137-9eb7df67</id>
+    <lines>40-43</lines>
+    <body>Stop words filtering is weak. method remove_stop_words doesn't remove such words as: ['the', 'to', 'and', 'you', 'a'] and etc. We should remove such words too. Don't forget to create unit tests.</body>
+    <file>sr-data/src/sr_data/steps/mcw.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-10-15T10:01:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/201">201</issue>
+    <ticket>134</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>134-1fb1708e</id>
+    <lines>139-142</lines>
+    <body>Remove run ad-hoc solution for just command resolution. Now, we passing run parameter from recipe to nested just invocations in order to resolve just command. We should refine our usage of full path in the entire justfile.</body>
+    <file>justfile</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-11-13T10:36:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/202">202</issue>
+    <ticket>134</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>134-bbddaab9</id>
+    <lines>143-146</lines>
+    <body>Refactor recipes to be more optimally granular. We should create more major recipes in order to reuse across the project. The example of such step is `@experiment`. Let's do similar to the script inside `data.sh`, so it can be invoked from just using datasets step.</body>
+    <file>justfile</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-11-13T10:36:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/211">211</issue>
+    <ticket>153</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>153-c5f98a2f</id>
+    <lines>54-56</lines>
+    <body>Extract first 15-20 words from first heading. Instead of extracting just n characters, we should extract an amount of words from the heading that contains not more than n characters.</body>
+    <file>sr-data/src/sr_data/steps/sentiments.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-11-18T16:31:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/226" closed="2024-11-21T10:28:57+00:00">226</issue>
+    <ticket>75</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>75-c94dc9cc</id>
+    <lines>57-60</lines>
+    <body>Parse fetched YAML files, and calculate their complexity/strictness. We should retrieve the following information from fetched workflow: 1) number of jobs, 2) number of OSs, 3) number of steps in each job, 4) number of versions in ${{ matrix }}.</body>
+    <file>sr-data/src/sr_data/steps/workflows.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-11-21T08:26:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/227" closed="2024-11-21T14:53:27+00:00">227</issue>
+    <ticket>75</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>75-378d74a3</id>
+    <lines>61-64</lines>
+    <body>Find release workflow from collected workflows. We should find workflow that releases the repo artifacts to some target platform. After we got parsed workflows, we can try to find one that makes releases. Probably, it can be one, that uses on:push:tags. For instance: &lt;a href="https://github.com/objectionary/eo/blob/master/.github/workflows/telegram.yml"&gt;telegram.yml&lt;/a&gt;.</body>
+    <file>sr-data/src/sr_data/steps/workflows.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-11-21T08:26:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/234">234</issue>
+    <ticket>207</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>207-acf6634d</id>
+    <lines>34-40</lines>
+    <body>Enable tests for sentiments.py when rultor will be able to install torch and transformers. Currently, when rultor tries to install torch and transformers dependencies to be able to run steps/sentiments.py it fails with exit code 137. Versions were used: torch = "2.2.2", and transformers = "4.41.2". You can check the example of such build &lt;a href="https://github.com/h1alexbel/sr-detection/pull/233#issuecomment-2497707744"&gt;here&lt;a/&gt;. After issue will be resolved, we should enable uncomment lines in `sentiments.py`, and enable respective tests in test_sentiments.py.</body>
+    <file>sr-data/src/tests/test_sentiments.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-11-25T11:55:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/242">242</issue>
+    <ticket>240</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>240-306f9450</id>
+    <lines>37-40</lines>
+    <body>Add test case when clusters are not empty. We should add one more test case when clustering model generates clusters. To do so, we need to prepare a bigger dataset for model in order to find useful centroids and distributed entries close to them.</body>
+    <file>sr-train/src/tests/test_clusterstat.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-11-26T12:41:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/291">291</issue>
+    <ticket>244</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>244-70f0b4e2</id>
+    <lines>91-94</lines>
+    <body>Enhance workflow simplicity score with min and max adjustment. Currently, we just subtract collected value from 1. We should adjust it with min and max values from the dataset. So formula should look like: 1 - (row - min) / (max - min).</body>
+    <file>sr-data/src/sr_data/steps/workflows.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-12-30T08:03:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/321">321</issue>
+    <ticket>319</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>319-4abf3b34</id>
+    <lines>44-48</lines>
+    <body>Setup unit tests for merge. Currently, there is no unit tests that can catch errors in the datasets merging, only an integration test exists in sr-train/test_dataset.py. Would be crucial to add unit tests too, that will check the merging functionality, and help us catch bugs faster.</body>
+    <file>sr-data/src/sr_data/steps/merge.py</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-04T08:14:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/sr-detection/issues/329">329</issue>
+    <ticket>324</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>324-d307104c</id>
+    <lines>43-46</lines>
+    <body>Package and publish sr cli in docker registry. Currently, we are only releasing toolchain in PyPi. Let's return back our docker pipeline, but instead of sr-data and justfile scripts, we should use sr cli. Don't forget to return `.github/workflows/docker.yml`.</body>
+    <file>.rultor.yml</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-06T11:38:01Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

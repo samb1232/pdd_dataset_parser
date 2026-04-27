@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="0.25.8" date="2017-11-14T21:51:05+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>11-721ca2c9</id>
+    <ticket>11</ticket>
+    <file>src/main/java/com/jcabi/ssl/maven/plugin/Keytool.java</file>
+    <lines>172-175</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T11:40:53Z</time>
+    <body>Currently, the implementation below recognizes only German and English locales. It should be extended so that other locales (e. g. Spanish) is supported as well. If a particular locale is not supported, the user should get a hint about that.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>25-04bb79eb</id>
+    <ticket>25</ticket>
+    <file>src/main/java/com/jcabi/ssl/maven/plugin/Keytool.java</file>
+    <lines>173-173</lines>
+    <estimate>30</estimate>
+    <body>In JDK 1.8, there is no "yes" word in</body>
+    <role>IMP</role>
+    <author>Suseika</author>
+    <email>wlasowegor@gmail.com</email>
+    <time>2015-06-26T14:42:51Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

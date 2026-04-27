@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-05-13T13:42:01+00:00" version="0.30.1">
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/3" closed="2018-03-13T15:57:31+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-fc28441b</id>
+    <lines>38-39</lines>
+    <body>Add description to releases. This will be useful for displaying changelogs directly in the release. Right now we just have the tag and the name.</body>
+    <file>src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-12T14:45:01Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/7" closed="2018-04-12T19:11:48+00:00">7</issue>
+        <ticket>3</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>3-ac554e9c</id>
+        <lines>125-128</lines>
+        <body>jcabi-github should not be prepopulating optional attributes of fake releases with default values like this. That's why this test is checking for 'Description of the release'. I've opened https://github.com/jcabi/jcabi-github/issues/1362 for this issue. When that is fixed, come back here and refactor this test.</body>
+        <file>src/test/java/org/llorllale/mvn/plgn/releasecat/UploadTest.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-13T15:55:53Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/4" closed="2018-03-13T18:45:40+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-fdf75b0d</id>
+    <lines>40-41</lines>
+    <body>Add ability to specify whether it's a prerelease or a full release. This would be useful when uploading release candidates.</body>
+    <file>src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-12T14:45:01Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/10" closed="2018-05-13T12:54:57+00:00">10</issue>
+        <ticket>4</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>4-f67780db</id>
+        <lines>147-150</lines>
+        <body>jcabi-github has a bug (https://github.com/jcabi/jcabi-github/issues/1363) that makes it impossible to mark a MkRelease as prerelease. When that is fixed, come back here and change 'assertFalse' for 'assertTrue' and make sure it works.</body>
+        <file>src/test/java/org/llorllale/mvn/plgn/releasecat/UploadTest.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-13T18:45:35Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/5" closed="2018-03-16T05:17:25+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-3284a5e8</id>
+    <lines>42-43</lines>
+    <body>Add ability to upload artifacts to releases. This will be useful when someone wants to include sources and / or binaries.</body>
+    <file>src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-12T14:45:01Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/13" closed="2018-04-12T18:57:02+00:00">13</issue>
+        <ticket>5</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>5-9ad4d149</id>
+        <lines>309-311</lines>
+        <body>jcabi-github has a bug in how the MkReleaseAssets and MkReleaseAsset handle the contents of the asset - see bug https://github.com/jcabi/jcabi-github/issues/1366. After the bug is fixed, come back and unignore this test.</body>
+        <file>src/test/java/org/llorllale/mvn/plgn/releasecat/UploadTest.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-16T05:17:21Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/14" closed="2018-03-16T15:14:33+00:00">14</issue>
+        <ticket>5</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>5-b8c640d1</id>
+        <lines>45-47</lines>
+        <body>The following configurations must be marked as required: token, user, repo, tag. 'Token' is used to authenticate against GitHub'; 'user' is the user to whom the project belongs to; 'repo' is the name of the project; 'tag' is the name of the tag to apply to the release.</body>
+        <file>src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-03-16T05:17:21Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/16" closed="2018-05-13T13:42:01+00:00">16</issue>
+            <ticket>14</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>14-1a55f214</id>
+            <lines>45-46</lines>
+            <body>Replace 'user' with 'org'. The username can already be obtained via jcabi-github using the token. 'org' must be optional: if specified then it is used as the "user".</body>
+            <file>src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-03-16T15:14:29Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/17" closed="2018-03-19T21:34:08+00:00">17</issue>
+            <ticket>14</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>14-d25c375b</id>
+            <lines>47-48</lines>
+            <body>'name' should be optional. If not specified then it's simply not set. Currently we're always setting the release's name whether we have it or not.</body>
+            <file>src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-03-16T15:14:29Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/19" closed="2018-04-12T18:23:39+00:00">19</issue>
+                <ticket>17</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>17-edd1ac20</id>
+                <lines>351-352</lines>
+                <body>Impediment on jcabi github: https://github.com/jcabi/jcabi-github/issues/1362. Come back and change the test to nullValue() this test when that issue is fixed.</body>
+                <file>src/test/java/org/llorllale/mvn/plgn/releasecat/UploadTest.java</file>
+                <author>George Aristy</author>
+                <email>george.aristy@gmail.com</email>
+                <time>2018-03-19T21:34:02Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/llorllale/releasecat-maven-plugin/issues/8" closed="2018-03-13T19:29:39+00:00">8</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-da96b270</id>
+    <lines>39-41</lines>
+    <body>Add ability to read the contents of a text file and use that the description of a release. This will be useful for chaining the output of changelog plugins (usually to a file) into this plugin.</body>
+    <file>src/main/java/org/llorllale/mvn/plgn/releasecat/Upload.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-03-13T15:55:53Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

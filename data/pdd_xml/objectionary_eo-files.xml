@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-10-20T20:15:05+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-files/issues/36" closed="2022-11-10T12:56:22+00:00">36</issue>
+    <ticket>18</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>18-4a5280bc</id>
+    <lines>30-34</lines>
+    <body>Remove this nop object. Now this test fails on Windows because of line separators in "/tmp/foo" string. On Windows this test returns "\\tmp\\foo". We need to deal with it somehow.</body>
+    <file>src/test/eo/org/eolang/fs/dir-name-test.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-09-05T17:07:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-files/issues/58">58</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-9f5e6f2c</id>
+    <lines>126-129</lines>
+    <body>Remove this nop object. Now this test fails because size of a created file is equal to 0. We need to deal with it somehow.</body>
+    <file>src/test/eo/org/eolang/fs/file-test.eo</file>
+    <author>@includealex</author>
+    <email>mishin.aa@phystech.edu</email>
+    <time>2022-10-27T12:52:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-files/issues/95">95</issue>
+    <ticket>89</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>89-56b0ea7f</id>
+    <lines>32-36</lines>
+    <body>Remove this nop object. Now this test fails because size of "memory m" object is undefined. We should redesign "memory-as-output" object or allocate a lot of bytes like 50 or even 1024 somehow.</body>
+    <file>src/test/eo/org/eolang/io/copied-test.eo</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-10-20T20:12:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-files/issues/96">96</issue>
+    <ticket>89</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>89-b62cc243</id>
+    <lines>43-45</lines>
+    <body>Enable the test when memory-as-output will be reimplemented. Now it writes bytes to memory, but it requires that the memory keeps enough num of bytes.</body>
+    <file>src/test/java/EOorg/EOeolang/EOio/EOcopiedTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-10-20T20:12:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-files/issues/97">97</issue>
+    <ticket>89</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>89-853741e0</id>
+    <lines>47-49</lines>
+    <body>Enable the test when memory-as-output will be reimplemented. Now it writes bytes to memory, but it require that the memory keeps enough count of bytes.</body>
+    <file>src/test/java/EOorg/EOeolang/EOio/EOmemory_as_outputEOwriteTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-10-20T20:12:16Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

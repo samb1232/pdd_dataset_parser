@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-11-18T21:15:01+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/ccguyka/show-updates-maven-plugin/issues/34" closed="2019-10-06T11:18:11+00:00">34</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-dc7ef6bd</id>
+    <lines>43-43</lines>
+    <body>Reduce size of class</body>
+    <file>src/main/java/com/github/ccguyka/showupdates/ShowUpdatesMojo.java</file>
+    <author>ccguyka</author>
+    <email>ccguyka@gmail.com</email>
+    <time>2019-10-05T10:45:36Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/ccguyka/show-updates-maven-plugin/issues/39" closed="2019-10-06T12:06:10+00:00">39</issue>
+        <ticket>34</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>34-1da21887</id>
+        <lines>28-28</lines>
+        <body>Reduce number of dependencies as class is to big</body>
+        <file>src/main/java/com/github/ccguyka/showupdates/GetProjectUpdates.java</file>
+        <author>ccguyka</author>
+        <email>ccguyka@gmail.com</email>
+        <time>2019-10-06T11:13:06Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ccguyka/show-updates-maven-plugin/issues/35" closed="2019-11-18T21:15:01+00:00">35</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-fa3a4646</id>
+    <lines>195-195</lines>
+    <body>Fix reporting of transitive dependency updates e.g. when guava is dependency and spring-guava is a transitive dependency.</body>
+    <file>src/main/java/com/github/ccguyka/showupdates/ShowUpdatesMojo.java</file>
+    <author>ccguyka</author>
+    <email>ccguyka@gmail.com</email>
+    <time>2019-10-05T10:45:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ccguyka/show-updates-maven-plugin/issues/36" closed="2019-10-06T10:45:11+00:00">36</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-0626feec</id>
+    <lines>16-16</lines>
+    <body>Write tests for FilterExcludedArtifacts class.</body>
+    <file>src/main/java/com/github/ccguyka/showupdates/filter/FilterExcludedArtifacts.java</file>
+    <author>ccguyka</author>
+    <email>ccguyka@gmail.com</email>
+    <time>2019-10-05T10:45:36Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

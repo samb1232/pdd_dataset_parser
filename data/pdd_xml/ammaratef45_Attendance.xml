@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-05-19T09:27:32+00:00" version="0.30.17">
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/13" closed="2019-03-25T09:36:44+00:00">13</issue>
+    <ticket>1</ticket>
+    <estimate>100</estimate>
+    <role>DEV</role>
+    <id>1-32499cde</id>
+    <lines>15-15</lines>
+    <body>learn how to use test and write unit tests</body>
+    <file>attendance/test/widget_test.dart</file>
+    <author>@ammaratef45</author>
+    <email>ammar.atef45@gmail.com</email>
+    <time>2019-03-25T09:07:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/24" closed="2019-04-08T04:16:47+00:00">24</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-20ae1e1a</id>
+    <lines>167-167</lines>
+    <body>Update..</body>
+    <file>attendance/lib/ProfilePage/profile_page_view.dart</file>
+    <author>@ammaratef45</author>
+    <email>ammar.atef45@gmail.com</email>
+    <time>2019-04-06T16:28:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/25" closed="2019-04-08T04:16:48+00:00">25</issue>
+    <ticket>21</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>21-7735e21e</id>
+    <lines>193-193</lines>
+    <body>Send data entered in dialog (native name/phone number)to API</body>
+    <file>attendance/lib/ProfilePage/profile_page_view.dart</file>
+    <author>@Bahaaib</author>
+    <email>Bahaasco@gmail.com</email>
+    <time>2019-04-06T16:02:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/26" closed="2019-04-13T00:58:02+00:00">26</issue>
+        <ticket>25</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>25-e6ecf1e1</id>
+        <lines>32-32</lines>
+        <body>save the model to the API and save locally if failed to connect to the API</body>
+        <file>attendance/lib/BackEnd/user.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-04-08T04:16:30Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/ammaratef45/Attendance/issues/37" closed="2019-04-14T09:53:31+00:00">37</issue>
+            <ticket>26</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>26-5befb100</id>
+            <lines>23-23</lines>
+            <body>trim the inputs before validation for rename and changePhone</body>
+            <file>attendance/lib/BackEnd/user.dart</file>
+            <author>Ammar Atef</author>
+            <email>a_atef45@yahoo.com</email>
+            <time>2019-04-13T00:57:42Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/ammaratef45/Attendance/issues/38" closed="2019-04-16T11:39:46+00:00">38</issue>
+            <ticket>26</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>26-78ed0d95</id>
+            <lines>79-80</lines>
+            <body>Implement persist so that it saves the user to local db with a flag called saved detects if it's sent to api.</body>
+            <file>attendance/lib/BackEnd/user.dart</file>
+            <author>Ammar Atef</author>
+            <email>a_atef45@yahoo.com</email>
+            <time>2019-04-13T00:57:42Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/ammaratef45/Attendance/issues/39" closed="2019-04-16T11:39:48+00:00">39</issue>
+            <ticket>26</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>26-1a7fd9bd</id>
+            <lines>81-81</lines>
+            <body>Implement markSaved so that it changes the falg saved to true.</body>
+            <file>attendance/lib/BackEnd/user.dart</file>
+            <author>Ammar Atef</author>
+            <email>a_atef45@yahoo.com</email>
+            <time>2019-04-13T00:57:42Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/ammaratef45/Attendance/issues/40">40</issue>
+            <ticket>26</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>26-39e9513c</id>
+            <lines>6-6</lines>
+            <body>add country field.</body>
+            <file>attendance/lib/ProfilePage/profile_page_viewmodel.dart</file>
+            <author>Ammar Atef</author>
+            <email>a_atef45@yahoo.com</email>
+            <time>2019-04-13T00:57:42Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/ammaratef45/Attendance/issues/41" closed="2019-04-24T17:43:24+00:00">41</issue>
+            <ticket>26</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>26-eb936c7c</id>
+            <lines>7-8</lines>
+            <body>show error below the entry field if failed to set the value to the user object.</body>
+            <file>attendance/lib/ProfilePage/profile_page_viewmodel.dart</file>
+            <author>Ammar Atef</author>
+            <email>a_atef45@yahoo.com</email>
+            <time>2019-04-13T00:57:42Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/ammaratef45/Attendance/issues/54" closed="2019-04-26T15:24:06+00:00">54</issue>
+            <ticket>26</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>26-9d0688a2</id>
+            <lines>7-7</lines>
+            <body>show error below the entry field if failed to</body>
+            <file>attendance/lib/ProfilePage/profile_page_viewmodel.dart</file>
+            <author>@ammaratef45</author>
+            <email>ammar.atef45@gmail.com</email>
+            <time>2019-04-24T17:43:17Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/31" closed="2019-04-12T19:34:13+00:00">31</issue>
+    <ticket>29</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>29-6a4b732b</id>
+    <lines>35-35</lines>
+    <body>validate native name and phone number format</body>
+    <file>attendance/lib/BackEnd/user.dart</file>
+    <author>@Bahaaib</author>
+    <email>Bahaasco@gmail.com</email>
+    <time>2019-04-10T16:40:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/30" closed="2019-04-13T09:56:16+00:00">30</issue>
+        <ticket>31</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>31-1d05e01b</id>
+        <lines>12-12</lines>
+        <body>activate commented tests after implementing validation methods</body>
+        <file>attendance/test/userdata_test.dart</file>
+        <author>@Bahaaib</author>
+        <email>Bahaasco@gmail.com</email>
+        <time>2019-04-10T16:40:40Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/ammaratef45/Attendance/issues/32" closed="2019-04-13T09:56:19+00:00">32</issue>
+            <ticket>30</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>30-102e74fa</id>
+            <lines>36-36</lines>
+            <body>check Singleton potential leak</body>
+            <file>attendance/lib/BackEnd/user.dart</file>
+            <author>@Bahaaib</author>
+            <email>Bahaasco@gmail.com</email>
+            <time>2019-04-10T16:40:40Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/36" closed="2019-04-13T10:05:55+00:00">36</issue>
+    <ticket>28</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>28-7c1deb1b</id>
+    <lines>36-36</lines>
+    <body>uncomment rules and fix related problems</body>
+    <file>attendance/analysis_options.yaml</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-12T21:30:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/44" closed="2019-04-14T09:27:05+00:00">44</issue>
+        <ticket>36</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>36-7c1deb1b</id>
+        <lines>60-60</lines>
+        <body>uncomment rules and fix related problems</body>
+        <file>attendance/analysis_options.yaml</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-04-13T10:05:31Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/43" closed="2019-04-14T09:34:55+00:00">43</issue>
+    <ticket>42</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>42-871903c1</id>
+    <lines>9-9</lines>
+    <body>Use Map object to create a testing json body</body>
+    <file>attendance/test/userdata_test.dart</file>
+    <author>@Bahaaib</author>
+    <email>Bahaasco@gmail.com</email>
+    <time>2019-04-13T09:12:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/45" closed="2019-05-07T15:35:56+00:00">45</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-721f19e1</id>
+    <lines>118-118</lines>
+    <body>use /newsession instead of database as in online</body>
+    <file>attendance/lib/offline_page/offline_page_viewmodel.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-16T10:13:23Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/94">94</issue>
+        <ticket>45</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>45-accb0ed5</id>
+        <lines>3-3</lines>
+        <body>add more tests to scan functionality</body>
+        <file>attendance/test/scan_test.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-05-07T08:19:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/95">95</issue>
+        <ticket>45</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>45-abfeb6fc</id>
+        <lines>101-101</lines>
+        <body>add synced flag to the scen table.</body>
+        <file>attendance/lib/backend/scan.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-05-07T08:19:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/46" closed="2019-04-27T19:41:33+00:00">46</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-dcfd02b0</id>
+    <lines>151-151</lines>
+    <body>shouldn't need isscanned (verification happens in the backend)</body>
+    <file>attendance/lib/offline_page/offline_page_viewmodel.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-16T10:13:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/47" closed="2019-05-07T07:38:25+00:00">47</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-5930cbef</id>
+    <lines>39-39</lines>
+    <body>just update the user class and call save</body>
+    <file>attendance/lib/loginPage/login_page_viewmodel.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-16T10:13:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/48" closed="2019-04-30T06:44:53+00:00">48</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-714752f5</id>
+    <lines>56-56</lines>
+    <body>save locally and call api /newsession instead of using firebase database</body>
+    <file>attendance/lib/homePage/home_page_viewmodel.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-16T10:13:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/69" closed="2019-05-13T07:58:18+00:00">69</issue>
+        <ticket>48</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>48-4a4efa8d</id>
+        <lines>83-83</lines>
+        <body>mock data of the session.</body>
+        <file>attendance/test/api_test.dart</file>
+        <author>@ammaratef45</author>
+        <email>ammar.atef45@gmail.com</email>
+        <time>2019-04-30T06:44:46Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/70" closed="2019-05-19T09:27:32+00:00">70</issue>
+        <ticket>48</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>48-714752f5</id>
+        <lines>77-77</lines>
+        <body>save locally and call api /newsession instead of using firebase database</body>
+        <file>attendance/lib/homePage/home_page_viewmodel.dart</file>
+        <author>@ammaratef45</author>
+        <email>ammar.atef45@gmail.com</email>
+        <time>2019-04-30T06:44:46Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/71" closed="2019-05-13T07:58:20+00:00">71</issue>
+        <ticket>48</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>48-870e87cd</id>
+        <lines>29-31</lines>
+        <body>add unit tests for this method. refactor it to take data from member variables. to be able to do this add the local variables first.</body>
+        <file>attendance/lib/backend/session.dart</file>
+        <author>Ammar Atef</author>
+        <email>ammar.atef45@gmail.com</email>
+        <time>2019-04-30T06:44:46Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/104">104</issue>
+        <ticket>48</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>48-963c5dff</id>
+        <lines>83-83</lines>
+        <body>mock data of the attendance.</body>
+        <file>attendance/test/api_test.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-05-12T07:53:56Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/49" closed="2019-05-07T15:46:31+00:00">49</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-a09e895e</id>
+    <lines>101-101</lines>
+    <body>delete this (checking will be performed in the backend)</body>
+    <file>attendance/lib/homePage/home_page_viewmodel.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-16T10:13:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/50" closed="2019-05-08T12:46:47+00:00">50</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-1264d400</id>
+    <lines>119-119</lines>
+    <body>get data from api /getInfo and save in user class (add more endpoints if needed)</body>
+    <file>attendance/lib/homePage/home_page_viewmodel.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-16T10:13:23Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/99">99</issue>
+        <ticket>50</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>50-23ff7f86</id>
+        <lines>7-7</lines>
+        <body>add gettinng info functionality.</body>
+        <file>attendance/lib/backend/user.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-05-08T06:32:33Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/100" closed="2019-05-13T07:58:23+00:00">100</issue>
+        <ticket>50</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>50-d7dab752</id>
+        <lines>138-138</lines>
+        <body>add save to attendance model</body>
+        <file>attendance/lib/backend/user.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-05-08T06:32:33Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/101" closed="2019-05-13T07:58:26+00:00">101</issue>
+        <ticket>50</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>50-fdd2ffaf</id>
+        <lines>118-118</lines>
+        <body>get data from user class, add all needed functionality.</body>
+        <file>attendance/lib/homePage/home_page_viewmodel.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-05-08T06:32:33Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/51" closed="2019-04-27T19:57:34+00:00">51</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-e42e0be6</id>
+    <lines>61-61</lines>
+    <body>save locally and call api /sessionleave instead of using firebase database</body>
+    <file>attendance/lib/AttendanceDatailsPage/attendance_details_page_viewmodel.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-16T10:13:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/59" closed="2019-05-08T12:37:58+00:00">59</issue>
+        <ticket>51</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>51-df175dae</id>
+        <lines>62-63</lines>
+        <body>save locally and call api.leaveSession and remove firebase admin usage</body>
+        <file>attendance/lib/AttendanceDatailsPage/attendance_details_page_viewmodel.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-04-26T14:35:22Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/ammaratef45/Attendance/issues/98">98</issue>
+            <ticket>59</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>59-7f4a1a97</id>
+            <lines>47-48</lines>
+            <body>add save functionality to attendance. then uncomment the line below.</body>
+            <file>attendance/lib/AttendanceDatailsPage/attendance_details_page_viewmodel.dart</file>
+            <author>Ammar Atef</author>
+            <email>a_atef45@yahoo.com</email>
+            <time>2019-05-08T07:12:05Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/60" closed="2019-05-13T07:58:29+00:00">60</issue>
+        <ticket>51</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>51-efe8827b</id>
+        <lines>21-21</lines>
+        <body>implement this methos</body>
+        <file>attendance/lib/backend/session.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-04-26T14:35:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/61" closed="2019-05-13T07:58:31+00:00">61</issue>
+        <ticket>51</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>51-f4bdd362</id>
+        <lines>40-40</lines>
+        <body>mock a session for this test and make it work.</body>
+        <file>attendance/test/api_test.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-04-26T14:35:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/105">105</issue>
+        <ticket>51</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>51-58882287</id>
+        <lines>41-41</lines>
+        <body>mock an attendance for this test and make it work.</body>
+        <file>attendance/test/api_test.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-05-12T07:53:56Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/64" closed="2019-04-29T01:33:46+00:00">64</issue>
+    <ticket>62</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>62-6055f489</id>
+    <lines>5-5</lines>
+    <body>create a dialog to show scan result</body>
+    <file>attendance/lib/homePage/home_page_view.dart</file>
+    <author>@ammaratef45</author>
+    <email>ammar.atef45@gmail.com</email>
+    <time>2019-04-28T04:37:24Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/66">66</issue>
+        <ticket>64</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>64-4a56c855</id>
+        <lines>20-22</lines>
+        <body>fix tests and unskip them we should test the behaviour specified in the description of every test.</body>
+        <file>attendance/test/dialogs_test.dart</file>
+        <author>@Bahaaib</author>
+        <email>bahaasco@gmail.com</email>
+        <time>2019-04-29T01:33:39Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/74" closed="2019-05-02T12:53:59+00:00">74</issue>
+    <ticket>67</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>67-887737e9</id>
+    <lines>1-1</lines>
+    <body>rename the file to scan.</body>
+    <file>attendance/lib/backend/scan_model.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-30T11:43:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/75" closed="2019-05-02T13:04:47+00:00">75</issue>
+    <ticket>67</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>67-e1e6d488</id>
+    <lines>23-23</lines>
+    <body>refactor to private with getters when needed.</body>
+    <file>attendance/lib/backend/scan_model.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-30T11:43:00Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/ammaratef45/Attendance/issues/84" closed="2019-05-06T11:41:30+00:00">84</issue>
+        <ticket>75</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>75-11cc142d</id>
+        <lines>29-29</lines>
+        <body>instead of null make a property indicates if scanned for leave.</body>
+        <file>attendance/lib/backend/scan.dart</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-05-01T10:15:17Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/76" closed="2019-05-02T12:45:34+00:00">76</issue>
+    <ticket>67</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>67-67801c2b</id>
+    <lines>1-1</lines>
+    <body>rename the model to Attendance</body>
+    <file>attendance/lib/backend/attend_model.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-30T11:43:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/77" closed="2019-05-04T02:50:50+00:00">77</issue>
+    <ticket>67</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>67-f0ce5bf3</id>
+    <lines>4-4</lines>
+    <body>refactor to take a map</body>
+    <file>attendance/lib/backend/attend_model.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-30T11:43:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/78" closed="2019-05-04T17:45:02+00:00">78</issue>
+    <ticket>67</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>67-45e76fc0</id>
+    <lines>20-20</lines>
+    <body>refactor to private with getters</body>
+    <file>attendance/lib/backend/attend_model.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-30T11:43:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/79" closed="2019-05-05T14:01:47+00:00">79</issue>
+    <ticket>67</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>67-87cfc572</id>
+    <lines>27-27</lines>
+    <body>use DB persistance or anyway to pass without the need of this.</body>
+    <file>attendance/lib/backend/attend_model.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-30T11:43:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/80" closed="2019-05-06T11:41:33+00:00">80</issue>
+    <ticket>67</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>67-bb15b6a5</id>
+    <lines>6-6</lines>
+    <body>solve all remaining 195 lint errors.</body>
+    <file>attendance/lib/loginPage/login_page_view.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-04-30T11:43:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/106">106</issue>
+    <ticket>102</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>102-6eee6dfd</id>
+    <lines>119-119</lines>
+    <body>remove litems and uitems and get them from user as future.</body>
+    <file>attendance/lib/homePage/home_page_viewmodel.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-05-12T07:53:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/107">107</issue>
+    <ticket>102</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>102-cae05207</id>
+    <lines>50-50</lines>
+    <body>implement the saving in API.</body>
+    <file>attendance/lib/backend/attendance.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-05-12T07:53:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/108">108</issue>
+    <ticket>102</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>102-bc876a9d</id>
+    <lines>62-62</lines>
+    <body>implement the persistence of data in DB module.</body>
+    <file>attendance/lib/backend/attendance.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-05-12T07:53:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/109">109</issue>
+    <ticket>102</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>102-a0a4f024</id>
+    <lines>10-10</lines>
+    <body>solve obvious errors appear when running after refactoring</body>
+    <file>attendance/lib/main.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-05-12T07:53:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/ammaratef45/Attendance/issues/110">110</issue>
+    <ticket>102</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>102-c774c17d</id>
+    <lines>7-7</lines>
+    <body>created a generator class for test data</body>
+    <file>attendance/test/api_test.dart</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-05-12T07:53:56Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-10-02T05:25:24+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/485" closed="2025-05-27T09:45:39+00:00">485</issue>
+    <ticket>146</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>146-4f2084fc</id>
+    <lines>14-17</lines>
+    <body>Implement NonFinalArgument pattern. All method arguments must have final modifiers. Once we find an argument without final, it's a pattern. After implementing that, enable tests in test_non_final_argument.py</body>
+    <file>aibolit/patterns/non_final_argument/non_final_argument.py</file>
+    <author>Evgeny Maslov</author>
+    <email>lyriccoder@gmail.com</email>
+    <time>2020-07-06T13:45:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/486" closed="2025-05-27T09:45:41+00:00">486</issue>
+    <ticket>139</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>139-732b1bcc</id>
+    <lines>12-17</lines>
+    <body>Implement bidirect index pattern If the same numeric variable is incremented and decremented within the same method, it's a pattern. A numeric variable should either be always growing or decreasing. Bi-directional index is confusing. The method must return a list with the line numbers of the variables that match this pattern. After implementation, activate tests in test_bidirect_index.py</body>
+    <file>aibolit/patterns/bidirect_index/bidirect_index.py</file>
+    <author>Evgeny Maslov</author>
+    <email>lyriccoder@gmail.com</email>
+    <time>2020-07-06T13:45:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/487" closed="2025-05-27T09:45:42+00:00">487</issue>
+    <ticket>147</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>147-d9d6862a</id>
+    <lines>13-16</lines>
+    <body>Implement MutableIndex pattern We need to implement the code on mutable index pattern. It must return the number of the lines where we have an index of a for loop being mutated. After implementing, the method, enable all tests in test_mutable_index.py</body>
+    <file>aibolit/patterns/mutable_index/mutable_index.py</file>
+    <author>Evgeny Maslov</author>
+    <email>lyriccoder@gmail.com</email>
+    <time>2020-07-06T13:45:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/488" closed="2025-05-27T09:45:44+00:00">488</issue>
+    <ticket>183</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>183-069e5295</id>
+    <lines>27-31</lines>
+    <body>Implement local method called metric In the methods in the class an local method (method that is defined in this class) can be called. So number of local methods calls by all the methods in the class is suggested as a metric. Implement this metric and then enable tests in test_local_methods_calls.py</body>
+    <file>aibolit/metrics/local_methods_calls/local_methods_calls.py</file>
+    <author>Evgeny Maslov</author>
+    <email>lyriccoder@gmail.com</email>
+    <time>2020-07-06T13:45:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/489" closed="2025-05-27T09:45:46+00:00">489</issue>
+    <ticket>183</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>183-9b03d7d9</id>
+    <lines>27-31</lines>
+    <body>Implement external method called metric In the methods in the class an external method for this class can be called. So number of external methods called by all the methods in the class is suggested as a metric. Implement this metric and then enable tests in test_external_methods_called.py</body>
+    <file>aibolit/metrics/external_methods_called/external_methods_called.py</file>
+    <author>Evgeny Maslov</author>
+    <email>lyriccoder@gmail.com</email>
+    <time>2020-07-06T13:45:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/740" closed="2025-05-29T09:27:02+00:00">740</issue>
+    <ticket>183</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>183-a7482eec</id>
+    <lines>10-15</lines>
+    <body>Implement external method called metric In the methods in the class an external method for this class can be called. So number of external methods called by all the methods in the class is suggested as a metric. Implement this metric and then enable tests in test_external_methods_called.py """</body>
+    <file>aibolit/metrics/external_methods_called/external_methods_called.py</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/741" closed="2025-05-29T05:57:43+00:00">741</issue>
+    <ticket>183</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>183-56e921c0</id>
+    <lines>10-15</lines>
+    <body>Implement local method called metric In the methods in the class an local method (method that is defined in this class) can be called. So number of local methods calls by all the methods in the class is suggested as a metric. Implement this metric and then enable tests in test_local_methods_calls.py """</body>
+    <file>aibolit/metrics/local_methods_calls/local_methods_calls.py</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/aibolit/issues/742">742</issue>
+    <ticket>139</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>139-658fe398</id>
+    <lines>18-25</lines>
+    <body>Implement bidirect index pattern If the same numeric variable is incremented and decremented within the same method, it's a pattern. A numeric variable should either be always growing or decreasing. Bi-directional index is confusing. The method must return a list with the line numbers of the variables that match this pattern. After implementation, activate tests in test_bidirect_index.py """ return []</body>
+    <file>aibolit/patterns/bidirect_index/bidirect_index.py</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/743" closed="2025-06-02T12:42:17+00:00">743</issue>
+    <ticket>147</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>147-fe7991a4</id>
+    <lines>17-22</lines>
+    <body>Implement MutableIndex pattern We need to implement the code on mutable index pattern. It must return the number of the lines where we have an index of a for loop being mutated. After implementing, the method, enable all tests in test_mutable_index.py """ return []</body>
+    <file>aibolit/patterns/mutable_index/mutable_index.py</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/744" closed="2025-05-28T09:22:42+00:00">744</issue>
+    <ticket>146</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>146-8f56a1bb</id>
+    <lines>20-25</lines>
+    <body>Implement NonFinalArgument pattern. All method arguments must have final modifiers. Once we find an argument without final, it's a pattern. After implementing that, enable tests in test_non_final_argument.py """ return []</body>
+    <file>aibolit/patterns/non_final_argument/non_final_argument.py</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/745" closed="2025-06-01T03:59:21+00:00">745</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-64301158</id>
+    <lines>26-28</lines>
+    <body>Test request and response forwarding in `ResponseMetricsSlice`. Test that request coming to `ResponseMetricsSlice` are forwarded as-is to origin slice, response generated by origin slice is sent to connection as-is.</body>
+    <file>test/integration/check/java/com/artipie/ResponseMetricsSlice.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/746" closed="2025-06-01T03:59:24+00:00">746</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-bfc96007</id>
+    <lines>29-32</lines>
+    <body>Report exceptions as errors in `ResponseMetricsSlice`. In case of exceptions in origin slice handling or sending to `Connection` nothing is reported to `Metrics`. It needs to be fixed, so if origin slice fails or we failed to send response then error is sent to `Metrics`.</body>
+    <file>test/integration/check/java/com/artipie/ResponseMetricsSlice.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/747" closed="2025-10-02T05:25:24+00:00">747</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-2cd4db3f</id>
+    <lines>76-78</lines>
+    <body>Remove ad-hoc error detection from `ResponseMetricsSlice.report()`. As soon as issue https://github.com/artipie/http/issues/196 is complete and we have method in `RsStatus` to detect errors we may use this method instead of RegEx usage.</body>
+    <file>test/integration/check/java/com/artipie/ResponseMetricsSlice.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/748" closed="2025-06-01T03:59:00+00:00">748</issue>
+    <ticket>90</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>90-277cd0cd</id>
+    <lines>128-130</lines>
+    <body>This method still needs more refactoring. We should test if the type exist in the constructed map. If the type does not exist, we should throw an IllegalStateException with the message "Unsupported repository type '%s'"</body>
+    <file>test/integration/check/java/com/artipie/SliceFromConfig.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/749" closed="2025-06-01T03:58:39+00:00">749</issue>
+    <ticket>284</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>284-62fad2c1</id>
+    <lines>119-120</lines>
+    <body>Extract this method to separate class and write proper unit tests for that. Also add tests for `JavaResource` class which is used to copy resources.</body>
+    <file>test/integration/check/java/com/artipie/VertxMain.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/750" closed="2025-05-29T05:58:41+00:00">750</issue>
+    <ticket>285</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>285-66616a94</id>
+    <lines>32-37</lines>
+    <body>Settings configuration for GitHub auth. Add additional settings configuration for GitHub authentication, now it's applied by default to auth from yaml using chained authentication, see auth() method. We can configure this chain via settings and compose complex authentication providers there. E.g. user can use ordered list of env auth, github auth and auth from yaml file.</body>
+    <file>test/integration/check/java/com/artipie/YamlSettings.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/751" closed="2025-05-29T05:58:42+00:00">751</issue>
+    <ticket>146</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>146-3820475f</id>
+    <lines>147-148</lines>
+    <body>Extract this method to a class: we have the same method in RepoConfig. After extracting use this new class here and in RepoConfig. Do not forget about test.</body>
+    <file>test/integration/check/java/com/artipie/YamlSettings.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/752" closed="2025-06-26T05:04:11+00:00">752</issue>
+    <ticket>146</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>146-b7fdde7c</id>
+    <lines>18-23</lines>
+    <body>Consider adding opportunity to configure alternative login, for example: | joe: | login: joe@mail.com | pass: "plain:123" This configuration would mean that Joe should use his email to login instead of username. Do not forget to validate credentials, logins should be unique.</body>
+    <file>test/integration/check/java/com/artipie/auth/AuthFromYaml.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/753" closed="2025-05-29T10:29:37+00:00">753</issue>
+    <ticket>285</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>285-b75b90d5</id>
+    <lines>22-26</lines>
+    <body>Specify expiration time configuration. Instead of using scheduled executor to clean-up all cache map, use some configuration to clean-up only expired items, e.g. if token was not accessed for X minutes, then remove only this token. Consider using Guava's time-evicted-cache implementation: https://github.com/google/guava/wiki/CachesExplained#eviction</body>
+    <file>test/integration/check/java/com/artipie/auth/CachedAuth.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/754" closed="2025-05-29T05:59:01+00:00">754</issue>
+    <ticket>313</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>313-c5cc8405</id>
+    <lines>29-32</lines>
+    <body>Unit test coverage for `DockerProxy` class `DockerProxy` class lacks unit test coverage. It should be tested that slice is built properly from configuration (e.g. handles simple response like 'GET /v2/') and fails any request for bad configuration (some required settings are missing).</body>
+    <file>test/integration/check/java/com/artipie/docker/DockerProxy.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/755" closed="2025-05-30T16:37:01+00:00">755</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-69751ecf</id>
+    <lines>18-21</lines>
+    <body>Support gauges in InMemoryMetrics. `InMemoryMetrics.gauge()` method implementation should get or create an `InMemoryGauge` by name and store it. `InMemoryMetrics.gauges()` method should be added to create snapshot of existing gauges. Implementations are expected to be similar to counters.</body>
+    <file>test/integration/check/java/com/artipie/metrics/memory/InMemoryMetrics.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/756" closed="2025-05-29T09:54:55+00:00">756</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-f0ff443a</id>
+    <lines>19-22</lines>
+    <body>Support gauge publishing in `MetricsLogPublisher`. `InMemoryMetrics` contain gauges along counters. Gauges should be published the same way as counters. Should be done after https://github.com/artipie/artipie/issues/267</body>
+    <file>test/integration/check/java/com/artipie/metrics/memory/MetricsLogPublisher.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/757" closed="2025-05-29T11:54:38+00:00">757</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-c625a5c3</id>
+    <lines>23-25</lines>
+    <body>Add tests for `MetricsLogPublisher`. It should be tested that the publisher runs periodically, collects fresh metrics data and logs the data as expected.</body>
+    <file>test/integration/check/java/com/artipie/metrics/memory/MetricsLogPublisher.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/758" closed="2025-05-27T18:04:25+00:00">758</issue>
+    <ticket>736</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>736-a858690a</id>
+    <lines>49-51</lines>
+    <body>Fix ClassicGetter pattern implementation, so that it gets triggered when the getter's body references `this`. When completed, remove `xfail` mark.</body>
+    <file>test/patterns/classic_getter/test_classic_getter.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/cqfn/aibolit/issues/762" closed="2025-05-28T03:05:09+00:00">762</issue>
+        <ticket>758</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>758-1713fcd7</id>
+        <lines>24-26</lines>
+        <body>Add test to cover all conditions of this if statement. One more case is required with getSomething method, that does not even return anything.</body>
+        <file>aibolit/patterns/classic_getter/classic_getter.py</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2025-05-27T18:04:16Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/aibolit/issues/759">759</issue>
+    <ticket>138</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>138-a6ca878c</id>
+    <lines>14-16</lines>
+    <body>Continue to implement loop_outsider Implement loop_outsider tests regarding for and do-while loops. Then implement loop_outsider pattern itself.</body>
+    <file>test/patterns/loop_outsider/test_loop_outsider.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-27T09:44:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/776" closed="2025-05-30T04:02:28+00:00">776</issue>
+    <ticket>772</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>772-42868a9b</id>
+    <lines>58-60</lines>
+    <body>It is necessary to re-evaluate the correctness of this test case. Since the scope in while and for loop changes, then presumably this is not a pattern. Therefore, looks like the proper expected value is an empty list.</body>
+    <file>test/patterns/bidirect_index/test_bidirect_index.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-29T11:33:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/779" closed="2025-05-30T12:25:18+00:00">779</issue>
+    <ticket>777</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>777-28b1d30d</id>
+    <lines>15-19</lines>
+    <body>It is necessary to handle case of a fake setter. When the method starts with `set`, but does not assign to the attribute is not a setter. Once the implementation is updated, remove `xfail` mark above this test definition.</body>
+    <file>test/patterns/classic_setter/test_classic_setter.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-29T17:23:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/780" closed="2025-05-30T16:37:18+00:00">780</issue>
+    <ticket>777</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>777-40a89d27</id>
+    <lines>35-39</lines>
+    <body>It is necessary to handle case of a fake setter. When the method starts with `set` and has one input parameter, but does not assign to the attribute is not a setter. Once the implementation is updated, remove `xfail` mark above this test definition.</body>
+    <file>test/patterns/classic_setter/test_classic_setter.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-29T17:23:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/781" closed="2025-05-30T16:37:20+00:00">781</issue>
+    <ticket>777</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>777-13807d39</id>
+    <lines>54-58</lines>
+    <body>It is necessary to handle case of a fake setter. When the method starts with `set` and calls an external method, without assigning to the attribute, is not a setter. Once the implementation is updated, remove `xfail` mark above this test definition.</body>
+    <file>test/patterns/classic_setter/test_classic_setter.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-29T17:23:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/782" closed="2025-05-30T12:25:20+00:00">782</issue>
+    <ticket>777</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>777-e25ee378</id>
+    <lines>73-78</lines>
+    <body>It is necessary to handle case of a fake setter. When the method starts with `set`, changes the value of the attribute, but does not assign the input parameter to the attribute, is not a setter. Once the implementation is updated, remove `xfail` mark above this test definition.</body>
+    <file>test/patterns/classic_setter/test_classic_setter.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-29T17:23:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/783" closed="2025-05-30T12:25:22+00:00">783</issue>
+    <ticket>777</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>777-4e6c0b3d</id>
+    <lines>94-99</lines>
+    <body>It is necessary to handle case of a fake setter. When the method starts with `set`, followed by a non-capital letter, without even assigning a value to the attribute, is not a setter. Once the implementation is updated, remove `xfail` mark above this test definition.</body>
+    <file>test/patterns/classic_setter/test_classic_setter.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-05-29T17:23:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/805" closed="2025-06-05T12:33:47+00:00">805</issue>
+    <ticket>803</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>803-e1516888</id>
+    <lines>295-299</lines>
+    <body>Extend MvnFreeNPathMetric to cover binary conditions, including `&amp;&amp;` and `||`. Refer to https://checkstyle.org/checks/metrics/npathcomplexity.html for details on NPath metric. Once implemented, remove `xfail` mark from this test.</body>
+    <file>test/metrics/npath/test_all_types.py</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-06-05T09:24:19Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/cqfn/aibolit/issues/807" closed="2025-06-06T05:24:06+00:00">807</issue>
+        <ticket>805</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>805-74dc9568</id>
+        <lines>307-310</lines>
+        <body>Extend MvnFreeNPathMetric to cover binary condition OR. Refer to https://checkstyle.org/checks/metrics/npathcomplexity.html for details on NPath metric. Once implemented, remove `xfail` mark from this test.</body>
+        <file>test/metrics/npath/test_all_types.py</file>
+        <author>@yegor256</author>
+        <email>yegor256@gmail.com</email>
+        <time>2025-06-05T12:33:39Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/cqfn/aibolit/issues/809" closed="2025-06-25T09:08:08+00:00">809</issue>
+            <ticket>807</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>807-81292b54</id>
+            <lines>199-202</lines>
+            <body>Fix NPath metric for if with AND (&amp;&amp;) condition. Refer to https://checkstyle.org/checks/metrics/npathcomplexity.html for details on NPath metric. Once implemented, remove `xfail` mark from this test.</body>
+            <file>test/metrics/npath/test_all_types.py</file>
+            <author>@yegor256</author>
+            <email>yegor256@gmail.com</email>
+            <time>2025-06-06T05:23:58Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/cqfn/aibolit/issues/810" closed="2025-06-25T09:08:11+00:00">810</issue>
+            <ticket>807</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>807-928dcc75</id>
+            <lines>221-224</lines>
+            <body>Fix NPath metric for if with OR (||) condition. Refer to https://checkstyle.org/checks/metrics/npathcomplexity.html for details on NPath metric. Once implemented, remove `xfail` mark from this test.</body>
+            <file>test/metrics/npath/test_all_types.py</file>
+            <author>@yegor256</author>
+            <email>yegor256@gmail.com</email>
+            <time>2025-06-06T05:23:58Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/820" closed="2025-06-17T13:34:44+00:00">820</issue>
+    <ticket>813</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>813-37654f87</id>
+    <lines>183-186</lines>
+    <body>Remove PatternRankingModel.test method or ensure it works Code below is probably dead and should be removed. Another option is to fix the code and cover it with tests. """</body>
+    <file>aibolit/model/model.py</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-06-13T06:54:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/821" closed="2025-06-14T07:00:42+00:00">821</issue>
+    <ticket>813</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>813-f11b4d71</id>
+    <lines>13-27</lines>
+    <body>Ensure All Metrics Accept `ast: AST` Parameter with Type Hints Verify that all metrics in the config accept an AST parameter with proper type hints. Probable solutions: 1. Every metric factory in patterns_config["metrics"] produces a metric with: - A parameter named "ast" in its call signature - The "ast" parameter properly annotated as `aibolit.ast_framework.ast.AST` or a subclass 2. Remove any metrics that cannot comply with this interface. Once all metrics meet requirements, remove the decorator. """ patterns_config = Config.get_patterns_config() for metric_config in patterns_config["metrics"]: metric = metric_config["make"]() metric_signature = inspect.signature(metric.value) assert "ast" in metric_signature.parameters assert metric_signature.parameters["ast"].annotation is AST</body>
+    <file>test/config/test_config.py</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-06-13T06:54:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/822" closed="2025-06-14T07:00:44+00:00">822</issue>
+    <ticket>813</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>813-c7f44aaf</id>
+    <lines>33-47</lines>
+    <body>Ensure All Patterns Accept `ast: AST` Parameter with Type Hints Verify that all patterns in the config accept an AST parameter with proper type hints. Probable solutions: 1. Every pattern factory in patterns_config["patterns"] produces a pattern with: - A parameter named "ast" in its call signature - The "ast" parameter properly annotated as `aibolit.ast_framework.ast.AST` or a subclass 2. Remove any patterns that cannot comply with this interface. Once all patterns meet requirements, remove the decorator. """ patterns_config = Config.get_patterns_config() for pattern_config in patterns_config["patterns"]: pattern = pattern_config["make"]() pattern_signature = inspect.signature(pattern.value) assert "ast" in pattern_signature.parameters assert pattern_signature.parameters["ast"].annotation is AST</body>
+    <file>test/config/test_config.py</file>
+    <author>@rultor</author>
+    <email>gpg@rultor.com</email>
+    <time>2025-06-13T06:54:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/aibolit/issues/829">829</issue>
+    <ticket>813</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>813-c4089b79</id>
+    <lines>13-27</lines>
+    <body>Ensure All Metrics Accept `ast: AST` Parameter with Type Hints Verify that all metrics in the config accept an AST parameter with proper type hints. Probable solutions: 1. Every metric factory in patterns_config["metrics"] produces a metric with: - A parameter named "ast" in its call signature - The "ast" parameter properly annotated as `aibolit.ast_framework.ast.AST` or a subclass 2. Remove any metrics that cannot comply with this interface. Once all metrics meet requirements, remove the decorator. ''' patterns_config = Config.get_patterns_config() for metric_config in patterns_config['metrics']: metric = metric_config['make']() metric_signature = inspect.signature(metric.value) assert 'ast' in metric_signature.parameters assert metric_signature.parameters['ast'].annotation is AST</body>
+    <file>test/config/test_config.py</file>
+    <author>@AntonProkopyev</author>
+    <email>aprokopyev161@gmail.com</email>
+    <time>2025-06-14T04:34:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/830" closed="2025-06-17T13:35:29+00:00">830</issue>
+    <ticket>813</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>813-d7a9b520</id>
+    <lines>33-47</lines>
+    <body>Ensure All Patterns Accept `ast: AST` Parameter with Type Hints Verify that all patterns in the config accept an AST parameter with proper type hints. Probable solutions: 1. Every pattern factory in patterns_config["patterns"] produces a pattern with: - A parameter named "ast" in its call signature - The "ast" parameter properly annotated as `aibolit.ast_framework.ast.AST` or a subclass 2. Remove any patterns that cannot comply with this interface. Once all patterns meet requirements, remove the decorator. ''' patterns_config = Config.get_patterns_config() for pattern_config in patterns_config['patterns']: pattern = pattern_config['make']() pattern_signature = inspect.signature(pattern.value) assert 'ast' in pattern_signature.parameters assert pattern_signature.parameters['ast'].annotation is AST</body>
+    <file>test/config/test_config.py</file>
+    <author>@AntonProkopyev</author>
+    <email>aprokopyev161@gmail.com</email>
+    <time>2025-06-14T04:34:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/862" closed="2025-07-20T12:31:10+00:00">862</issue>
+    <ticket>852</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>852-b1d29a15</id>
+    <lines>547-550</lines>
+    <body>Fix MvnFreeNPathMetric for moderate NPath complexity case It is necessary to fix implementation of MvnFreeNPathMetric so that the test on a moderate NPath complexity case passes. Once fixed, remove `pytest.mark.xfail` decorator.</body>
+    <file>test/metrics/npath/test_all_types.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-07-13T10:23:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/aibolit/issues/863" closed="2025-07-20T12:31:10+00:00">863</issue>
+    <ticket>852</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>852-56fb66a9</id>
+    <lines>565-568</lines>
+    <body>Fix MvnFreeNPathMetric for high NPath complexity case It is necessary to fix implementation of MvnFreeNPathMetric, so that the test on a very high NPath complexity case passes. Once fixed, remove `pytest.mark.xfail` decorator.</body>
+    <file>test/metrics/npath/test_all_types.py</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-07-13T10:23:18Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

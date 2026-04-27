@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-12-15T05:34:35+00:00" version="0.30.22">
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/degitx/issues/25" closed="2020-10-19T09:02:17+00:00">25</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-8c7e170d</id>
+    <lines>20-22</lines>
+    <body>Process links in the readme. Remove already analyzed links. If link is not analyzed, then Handle it, extract summary and add research result to white paper document.</body>
+    <file>README.md</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-10-07T15:21:29Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/cqfn/degitx/issues/46">46</issue>
+        <ticket>25</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>25-df6a3240</id>
+        <lines>32-34</lines>
+        <body>Analyze projects and consensus algorithms above, extract summary and refernces, add to white paper. For projects: find white paper or other document, and extract summary from it.</body>
+        <file>README.md</file>
+        <author>kirill-h5i</author>
+        <email>72436338+kirill-h5i@users.noreply.github.com</email>
+        <time>2020-10-16T14:01:02Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/degitx/issues/49" closed="2020-10-23T14:18:50+00:00">49</issue>
+    <ticket>44</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>44-3204b9c2</id>
+    <lines>52-54</lines>
+    <body>Improve merge implementation. Make it faster - don't use double for loop, and rollback to initial state in case of error.</body>
+    <file>discovery/discovery.go</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-10-21T12:02:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/degitx/issues/53" closed="2020-10-26T07:11:22+00:00">53</issue>
+    <ticket>44</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>44-d00112c5</id>
+    <lines>32-36</lines>
+    <body>Implement client discovery service. It should start with initial seed host parameter, Ping this host with self locator, receive all known peers in a system and periodically ping all these peers including seed peer.</body>
+    <file>discovery/discovery.go</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-10-22T08:33:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/degitx/issues/122">122</issue>
+    <ticket>74</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>74-a44e8401</id>
+    <lines>76-79</lines>
+    <body>Implement channels and goroutines Let's Move Serve and add GracefulStop in goroutines in all places around the project. To be able to start servers in goroutines, it's needed to add Channels and handle them via select in main.</body>
+    <file>front-end/gitaly/server/server.go</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-12-10T10:31:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/cqfn/degitx/issues/123">123</issue>
+    <ticket>74</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>74-f13cdb76</id>
+    <lines>16-18</lines>
+    <body>Implement health check When all services will be ready, we shall remove this stub type &amp; package and implement real health check correctly: return SERVING only if checks passed.</body>
+    <file>front-end/healthcheckstub/server.go</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-12-10T10:46:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/cqfn/degitx/issues/124" closed="2020-12-15T05:34:35+00:00">124</issue>
+    <ticket>105</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>105-c7ca9148</id>
+    <lines>26-31</lines>
+    <body>Implement discovery registration mechanism. There should be common interface to introduce a node to the network and register itself in storage. For MVP it should be registration in metadata key-value storage by updating network address of node locator. Keep in mind, that other discovery techicues could be used later.</body>
+    <file>discovery/meta_provider.go</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-12-09T13:39:59Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

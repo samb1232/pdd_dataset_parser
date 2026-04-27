@@ -1,0 +1,3145 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-03-27T17:22:36+00:00" version="0.30.26">
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/6" closed="2018-12-12T01:48:09+00:00">6</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2c43dd5f</id>
+    <lines>41-41</lines>
+    <body>Github: Research API and list of java frameworks --&gt;</body>
+    <file>github/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-11-22T17:25:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/39" closed="2019-01-02T22:36:39+00:00">39</issue>
+        <ticket>6</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>6-85c59e75</id>
+        <lines>54-55</lines>
+        <body>Github object which implements {@link org.dgroup.lazylead.api.TicketingSystem} is required.</body>
+        <file>github/src/test/java/org/dgroup/lazylead/github/GithubTestIT.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-12T01:47:56Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/99" closed="2019-01-05T11:07:21+00:00">99</issue>
+        <ticket>6</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>6-3a1e3865</id>
+        <lines>55-56</lines>
+        <body>Github object which implements {@link TicketingSystem} is required.</body>
+        <file>lazylead-github/src/test/java/io/github/dgroup/lazylead/github/GithubTestIT.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-12T01:47:56Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/108" closed="2020-06-06T11:43:59+00:00">108</issue>
+        <ticket>6</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>6-794ab674</id>
+        <lines>55-56</lines>
+        <body>Github object which implements {@link System} is required.</body>
+        <file>lazylead-github/src/test/java/io/github/dgroup/lazylead/github/GithubTestIT.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-05T11:07:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/7" closed="2018-12-07T10:57:17+00:00">7</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8c5b33ff</id>
+    <lines>41-41</lines>
+    <body>Trello: Research API and list of java frameworks --&gt;</body>
+    <file>trello/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-11-22T17:25:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/8" closed="2018-12-02T20:20:32+00:00">8</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7b6d80ce</id>
+    <lines>41-41</lines>
+    <body>Jira: Port the current implementation of LL --&gt;</body>
+    <file>jira/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-11-22T17:25:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/11" closed="2020-06-06T11:44:05+00:00">11</issue>
+    <ticket>DEV</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>DEV-904dcc8c</id>
+    <lines>28-29</lines>
+    <body>Add hamcrest matchers to each interface into corresponding java package in order to simplify the unit testing process.</body>
+    <file>api/src/main/java/org/dgroup/lazylead/jira/user/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/12" closed="2020-06-06T11:44:10+00:00">12</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-aeb32344</id>
+    <lines>13-13</lines>
+    <body>The logs(including GC) should be placed into STDOUT in order to store it externally with sharding etc...</body>
+    <file>.docker/docker-compose.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:20:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/13" closed="2020-06-06T11:44:15+00:00">13</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d83df77f</id>
+    <lines>37-38</lines>
+    <body>Implementation is required for RemindAboutTasksWithoutOriginalEstimations#action</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/annoying/RemindAboutTasksWithoutOriginalEstimations.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:20:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/14" closed="2019-04-17T05:20:05+00:00">14</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-abb64c30</id>
+    <lines>34-35</lines>
+    <body>Implementation is required for DueDateInPastOrSeemsToExpireSoon#action.</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/annoying/DueDateInPastOrSeemsToExpireSoon.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:20:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/15" closed="2020-06-06T11:44:21+00:00">15</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-16aa7edd</id>
+    <lines>34-35</lines>
+    <body>Implementation is required for RemindAboutMissingTimeSpent#action</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/annoying/RemindAboutMissingTimeSpent.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:20:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/16" closed="2019-01-05T11:07:23+00:00">16</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-823bca8d</id>
+    <lines>39-40</lines>
+    <body>Implementation is required for PrintTeamCapacityToNewlyCreatedTickets#action</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/annoying/PrintTeamCapacityToNewlyCreatedTickets.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:20:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/17" closed="2020-06-06T11:44:26+00:00">17</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-45e7e98a</id>
+    <lines>26-27</lines>
+    <body>Create a template with header/footer sections in order to avoid code duplication in future.</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/annoying/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/18" closed="2019-01-26T19:15:20+00:00">18</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-40bd2cb8</id>
+    <lines>36-37</lines>
+    <body>Implementation is required including qulice issues for Fetch#apply.</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/Fetch.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:20:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/19" closed="2018-12-29T18:51:28+00:00">19</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-514e2a28</id>
+    <lines>47-48</lines>
+    <body>this.url(): Avoid hardcode of `.com` and define a new object. The pmd issues below should be fixed as well.</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/issue/IssueEnvelope.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/80" closed="2019-01-26T19:15:22+00:00">80</issue>
+        <ticket>19</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>19-9ffdc002</id>
+        <lines>48-49</lines>
+        <body>add integration test for class The pmd issues below should be fixed as well.</body>
+        <file>jira/src/main/java/org/dgroup/lazylead/jira/issue/IssueEnvelope.java</file>
+        <author>rebe1207</author>
+        <email>skakunenko@gmail.com</email>
+        <time>2018-12-29T18:13:15Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/20" closed="2019-02-16T20:39:44+00:00">20</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ad4e0944</id>
+    <lines>34-34</lines>
+    <body>Implementation is required including qulice issues.</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/filter/FilterOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/21" closed="2020-06-06T11:44:30+00:00">21</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-537dab5b</id>
+    <lines>28-29</lines>
+    <body>Add more documentation and explanation how to use and configure jira filter properly in order to be used by @lazylead.</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/filter/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/22" closed="2018-12-05T18:58:56+00:00">22</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b4c4cfce</id>
+    <lines>38-40</lines>
+    <body>Create a new user for the public atlassian bug tracker in order for integration testing. The credentials should be placed somewhere to the external configuration.</body>
+    <file>jira/src/test/java/org/dgroup/lazylead/jira/JiraTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/23" closed="2018-12-05T15:45:55+00:00">23</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4845b177</id>
+    <lines>41-41</lines>
+    <body>Split tests to unit and integrational. --&gt;</body>
+    <file>jira/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/24" closed="2019-01-23T13:11:46+00:00">24</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-be38d4aa</id>
+    <lines>65-65</lines>
+    <body>Choose only 1 framework for access to Jira instances --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/25" closed="2018-12-02T21:05:19+00:00">25</issue>
+    <ticket>DEV</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>DEV-68caeecd</id>
+    <lines>143-143</lines>
+    <body>Activate Junit5 library for unit tests. --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-02T20:08:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/31" closed="2020-06-06T11:44:35+00:00">31</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b3fbf49f</id>
+    <lines>64-64</lines>
+    <body>Trello object which implements TicketingSystem --&gt;</body>
+    <file>trello/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-07T10:57:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/32" closed="2018-12-07T14:55:25+00:00">32</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8f9a95a0</id>
+    <lines>53-53</lines>
+    <body>Move the trello client to the separate class.</body>
+    <file>trello/src/test/java/org/dgroup/lazylead/trello/TrelloTestIT.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-07T10:57:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/33" closed="2018-12-07T14:55:27+00:00">33</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ebda7238</id>
+    <lines>78-78</lines>
+    <body>Move the Board to the separate class</body>
+    <file>trello/src/test/java/org/dgroup/lazylead/trello/TrelloTestIT.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-07T10:57:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/34" closed="2020-06-06T11:44:39+00:00">34</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a8d36d2a</id>
+    <lines>3-3</lines>
+    <body>Define openshift template</body>
+    <file>.docker/docker-compose.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-07T11:24:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/35" closed="2018-12-26T16:12:09+00:00">35</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-99b30ce3</id>
+    <lines>30-30</lines>
+    <body>ID based hamcrest matcher for the entities.</body>
+    <file>trello/src/main/java/org/dgroup/lazylead/trello/domain/Entity.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-07T14:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/36" closed="2018-12-26T16:12:11+00:00">36</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2c86d225</id>
+    <lines>31-31</lines>
+    <body>Name based hamcrest matcher for the entities.</body>
+    <file>trello/src/main/java/org/dgroup/lazylead/trello/domain/Entity.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-07T14:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/37" closed="2020-06-06T11:44:45+00:00">37</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8efef43e</id>
+    <lines>44-44</lines>
+    <body>Trello issue implementation is required</body>
+    <file>trello/src/main/java/org/dgroup/lazylead/trello/Trello.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-07T17:31:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/38" closed="2020-06-06T11:44:49+00:00">38</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e48606af</id>
+    <lines>95-95</lines>
+    <body>Increase code coverage to 50%+ --&gt;</body>
+    <file>jira/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-07T17:31:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/40" closed="2019-01-20T16:13:59+00:00">40</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-cd012d2f</id>
+    <lines>38-38</lines>
+    <body>Initiate CLI start point --&gt;</body>
+    <file>cli/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-12T01:47:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/41" closed="2019-01-02T21:26:46+00:00">41</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-34b5780c</id>
+    <lines>39-39</lines>
+    <body>Define initial configuration structure --&gt;</body>
+    <file>cli/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-12T01:47:56Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/49" closed="2018-12-28T14:25:57+00:00">49</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-1399ea0a</id>
+        <lines>45-45</lines>
+        <body>Find a way to parse YML tag as a {@link java.util.Map}.</body>
+        <file>cli/src/test/java/org/dgroup/lazylead/cli/YmlConfigurationSmokeTest.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-26T03:17:21Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/66" closed="2018-12-29T11:58:43+00:00">66</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-ce006d09</id>
+        <lines>80-81</lines>
+        <body>Find a way how to pass arguments to the quartz job. Read more here https://goo.gl/WYNLhi.</body>
+        <file>cli/src/test/java/org/dgroup/lazylead/cli/QuartzConfigurationSmokeTest.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-29T00:03:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/67" closed="2020-06-06T11:44:53+00:00">67</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-8e56031f</id>
+        <lines>118-122</lines>
+        <body>Find a way how to override the default scheduler worker/thread naming pattern in order to see in the thread dumps the name of particular task during troubleshooting. Now it's something like &lt;em&gt;[DefaultQuartzScheduler_Worker-3]&lt;/em&gt;, but it should be like &lt;em&gt;[TEAMID_BUGTRACKINGSYSTEM_TASKID]&lt;/em&gt;</body>
+        <file>cli/src/test/java/org/dgroup/lazylead/cli/QuartzConfigurationSmokeTest.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-29T00:03:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/68" closed="2019-01-27T18:23:26+00:00">68</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-1658acf7</id>
+        <lines>184-186</lines>
+        <body>Find a way how to initiate immutable quartz jobs. Potentially it can be done using {@link JobFactory}. For example, we can start research from {@link org.quartz.simpl.SimpleJobFactory}.</body>
+        <file>cli/src/test/java/org/dgroup/lazylead/cli/QuartzConfigurationSmokeTest.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-29T00:03:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/69" closed="2019-03-10T21:38:55+00:00">69</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-89598815</id>
+        <lines>31-32</lines>
+        <body>Find a way how to use the instances of Annoying within quartz jobs.</body>
+        <file>api/src/main/java/org/dgroup/lazylead/api/Annoying.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-29T00:03:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/74" closed="2020-06-06T11:44:57+00:00">74</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-1fcb79b4</id>
+        <lines>81-82</lines>
+        <body>Override the size of the default thread pool for quartz jobs executions.</body>
+        <file>cli/src/test/java/org/dgroup/lazylead/cli/QuartzConfigurationSmokeTest.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-12-29T11:48:19Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/88" closed="2019-01-06T21:30:24+00:00">88</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-405baf79</id>
+        <lines>38-44</lines>
+        <body>Verify that Team objects have the proper properties from YAML file. Implement a new matcher 'TeamIs' in 'api' module, package 'org.dgroup.lazylead.api.yaml'. See YmlConfigurationSmokeTest for expected scenarios. Each test should contain single AssertThat statement and in ideal case the size of method's body should be only 5 lines, for example, IsEntityTest#matches().</body>
+        <file>cli/src/test/java/org/dgroup/lazylead/cli/yaml/TeamsTest.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-01T13:21:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/89" closed="2019-01-05T11:07:24+00:00">89</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-b052a4b9</id>
+        <lines>198-198</lines>
+        <body>*.yaml - Transform system to TicketingSystem.</body>
+        <file>cli/src/main/java/org/dgroup/lazylead/cli/yaml/TeamsV1.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-01T13:21:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/90" closed="2019-01-05T11:07:26+00:00">90</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-4a81c184</id>
+        <lines>199-199</lines>
+        <body>*.yaml - Transform action to Annoying.</body>
+        <file>cli/src/main/java/org/dgroup/lazylead/cli/yaml/TeamsV1.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-01T13:21:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/109" closed="2019-02-03T10:38:16+00:00">109</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-0d880083</id>
+        <lines>123-127</lines>
+        <body>Add environment variables from OS to team properties. The team properties will contains properties defined: - within the each team in YAML file; - as global properties for all teams in YAML file; - as OS environment variables.</body>
+        <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/yaml/TeamsV1.java</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-05T11:07:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/110" closed="2019-01-10T23:20:57+00:00">110</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-7d4f98d5</id>
+        <lines>35-35</lines>
+        <body>Unit test is required once #81 is completed.</body>
+        <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/annoying/AnnoyingOf.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-05T11:07:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/111" closed="2019-01-10T23:20:59+00:00">111</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-0ced8dfa</id>
+        <lines>34-35</lines>
+        <body>The system should be built considering type. Remove the "PMD.UnusedFormalParameter" once completed.</body>
+        <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/ts/SystemOf.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-05T11:07:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/112" closed="2020-06-06T11:45:01+00:00">112</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-09b5db7c</id>
+        <lines>66-67</lines>
+        <body>Move the unnecessary fields to the TaskEnvelope once it will be delivered within the #88.</body>
+        <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/ts/TaskOf.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-05T11:07:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/113" closed="2019-01-06T21:04:14+00:00">113</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-c6982115</id>
+        <lines>61-61</lines>
+        <body>The envelope should receive the instance of {@link System}.</body>
+        <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/system/Envelope.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-05T11:07:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/133" closed="2019-03-10T21:38:57+00:00">133</issue>
+        <ticket>41</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>41-e1bab846</id>
+        <lines>36-36</lines>
+        <body>Tests for negative scenario's are required</body>
+        <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/annoying/AnnoyingOf.java</file>
+        <author>dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-10T23:12:45Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/43" closed="2018-12-26T15:18:07+00:00">43</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-3a81e37c</id>
+    <lines>37-37</lines>
+    <body>Replace JUnit 5 with 4.xx</body>
+    <file>trello/src/test/java/org/dgroup/lazylead/trello/domain/IsEntityTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-25T16:27:20Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/dgroup/lazylead/issues/103">103</issue>
+        <ticket>43</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>43-ceb63fe6</id>
+        <lines>30-31</lines>
+        <body>Minitest+integration test - define approach like maven profile for java-based applications.</body>
+        <file>test/lazylead/smtp_test.rb</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2020-06-06T11:43:42Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/dgroup/lazylead/issues/104">104</issue>
+        <ticket>43</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>43-fd5cb077</id>
+        <lines>47-47</lines>
+        <body>email-related properties should be exported to the CI env</body>
+        <file>test/lazylead/smtp_test.rb</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2020-06-06T11:43:42Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/70" closed="2020-06-06T11:45:05+00:00">70</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ae2d517c</id>
+    <lines>78-78</lines>
+    <body>Use o.l.c.m.Assertion instead of AssertThat. Also, activate the de.thetaphi:forbiddenapis mvn plugin in order to forbid the usage of AssertThat. --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-29T00:03:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/71" closed="2019-01-02T09:41:24+00:00">71</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-bdb58669</id>
+    <lines>85-85</lines>
+    <body>Execute the unit/integration tests concurrently, for example 4 threads in order to speedup the testing procedure. --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-29T00:03:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/72" closed="2020-06-06T11:45:09+00:00">72</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-73ef4e1e</id>
+    <lines>111-111</lines>
+    <body>Ensure that the unused dependencies won't be added as the required dependencies for the children modules. For example, "jira" module doesn't need a dependency on "snakeyml".--&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-29T00:03:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/78" closed="2020-06-06T11:45:14+00:00">78</issue>
+    <ticket>Dev</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>Dev-380f7b5c</id>
+    <lines>25-25</lines>
+    <body>add tocken retrieve for trello.com --&gt;</body>
+    <file>trello/pom.xml</file>
+    <author>rebe1207</author>
+    <email>skakunenko@gmail.com</email>
+    <time>2018-12-29T17:59:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/81" closed="2018-12-29T22:22:32+00:00">81</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-70b49cb1</id>
+    <lines>47-47</lines>
+    <body>this.url(): Avoid hardcode of `.com` and define a new object.</body>
+    <file>jira/src/main/java/org/dgroup/lazylead/jira/issue/IssueEnvelope.java</file>
+    <author>rebe1207</author>
+    <email>skakunenko@gmail.com</email>
+    <time>2018-12-29T18:13:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/85" closed="2019-01-02T22:36:41+00:00">85</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b8d50f0a</id>
+    <lines>29-29</lines>
+    <body>Use `org.dgroup` as a group and `lazylead` as parent. Fix changes for all submodules. --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-29T22:36:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/86" closed="2019-01-20T16:14:00+00:00">86</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0714b60e</id>
+    <lines>35-35</lines>
+    <body>Rultor: Enable integration tests on merge phase --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-29T22:36:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/91" closed="2019-01-04T03:25:39+00:00">91</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-75a8c318</id>
+    <lines>350-350</lines>
+    <body>Release tagyml to maven central as separate repository and use as proper dependency. Remove 'mvn install:install-file' from rultor and circleci configs. --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-01T13:21:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/93" closed="2020-06-06T11:45:18+00:00">93</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7add02f3</id>
+    <lines>66-66</lines>
+    <body>add javadoc processing in multiple threads --&gt;</body>
+    <file>pom.xml</file>
+    <author>rebe1207</author>
+    <email>46130239+rebe1207@users.noreply.github.com</email>
+    <time>2019-01-02T09:41:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/100" closed="2020-06-06T11:45:23+00:00">100</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-bb0a78eb</id>
+    <lines>40-40</lines>
+    <body>Circle CI: upload artifacts by mask instead of hardcode of the version</body>
+    <file>.circleci/config.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-02T22:30:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/114" closed="2019-01-11T22:10:08+00:00">114</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7b30ebc3</id>
+    <lines>40-41</lines>
+    <body>Add the tests for the negative scenarios when {@link Annoying} can't be initiated.</body>
+    <file>lazylead-cli/src/test/java/io/github/dgroup/lazylead/cli/annoying/AnnoyingOfTest.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-05T11:07:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/115" closed="2020-06-06T11:45:27+00:00">115</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5becb5f3</id>
+    <lines>41-42</lines>
+    <body>Implementation is required for PrintTeamCapacityToNewlyCreatedTickets</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/annoying/PrintTeamCapacityToNewlyCreatedTickets.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-05T11:07:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/123" closed="2019-01-27T18:23:28+00:00">123</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-73956a95</id>
+    <lines>36-39</lines>
+    <body>Rename children in order to avoid compound names. EmptyJira -&gt; Empty, FakeJira -&gt; Fake, Fetch move to package 'func', LocalJira -&gt; Local. Remove the JiraEnvelope as not required anymore.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/JiraEnvelope.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-06T20:49:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/124" closed="2020-06-06T11:45:31+00:00">124</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d23232bb</id>
+    <lines>42-44</lines>
+    <body>Rename the `jql` to `sql` which is System-Query-Language. For JIRA is JQL, for Github is GHQL, for Trello TQL, etc. Change javadoc(s) accordingly.</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/System.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-06T20:49:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/125" closed="2020-06-06T11:45:35+00:00">125</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-123c062e</id>
+    <lines>84-84</lines>
+    <body>use hamcrest-core instead of hamcrest-all --&gt;</body>
+    <file>pom.xml</file>
+    <author>rebe1207</author>
+    <email>skakunenko@gmail.com</email>
+    <time>2019-01-06T18:21:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/126" closed="2019-01-11T19:19:08+00:00">126</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c15a0c02</id>
+    <lines>36-36</lines>
+    <body>remove throwing YmlFormatException</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/yaml/Team.java</file>
+    <author>rebe1207</author>
+    <email>skakunenko@gmail.com</email>
+    <time>2019-01-06T18:21:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/127" closed="2019-01-11T17:56:15+00:00">127</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-81fd6ca8</id>
+    <lines>33-33</lines>
+    <body>rename to Fake</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/user/FakeUser.java</file>
+    <author>rebe1207</author>
+    <email>skakunenko@gmail.com</email>
+    <time>2019-01-06T18:21:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/134" closed="2020-06-06T11:45:39+00:00">134</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f5c76281</id>
+    <lines>48-50</lines>
+    <body>Add java.util.Properties to all constructors of each implementations of {@link System}. The global properties from YAML file will be placed to each system in order to instantiate the objects.</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/System.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-10T23:12:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/135" closed="2020-06-06T11:45:43+00:00">135</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a825f052</id>
+    <lines>52-55</lines>
+    <body>Tests for negative cases are required when - class not found/exists in the classpath - class not implements/extending the target - class has no required constructor</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/reflection/ObjectOf.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-10T23:12:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/136" closed="2019-02-07T18:14:18+00:00">136</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c48a6fae</id>
+    <lines>186-193</lines>
+    <body>Add 'systems' tag which will contains the set of available issue-ticketing systems for the teams. The tag should be present on the same level as global 'properties', 'teams' tags and contains: - ID (unique string) - Type (jira, github or trello) - properties. The 'system' tag from {@code /teams/n/task/n/system} should be a reference to 1 entry from 'systems' tag above.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/yaml/TeamsV1.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-10T23:12:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/137" closed="2019-01-12T12:32:02+00:00">137</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-954c8f8f</id>
+    <lines>311-311</lines>
+    <body>Add a new profile for integration tests. Now the integration tests are executing by default and make take some time + external configuration is required. Let's simplify the local development process. Activate the profile with integration tests on CI --&gt;</body>
+    <file>pom.xml</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-10T23:12:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/140" closed="2020-06-06T11:45:47+00:00">140</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5b151e40</id>
+    <lines>50-50</lines>
+    <body>fix test.</body>
+    <file>lazylead-github/src/test/java/io/github/dgroup/lazylead/github/GithubTestIT.java</file>
+    <author>rebe1207</author>
+    <email>46130239+rebe1207@users.noreply.github.com</email>
+    <time>2019-01-11T17:55:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/156" closed="2020-06-06T11:45:51+00:00">156</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e58baf24</id>
+    <lines>67-67</lines>
+    <body>Print help info in case if no arguments specified</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T16:13:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/157" closed="2019-01-31T15:06:33+00:00">157</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d76d9474</id>
+    <lines>87-87</lines>
+    <body>Instantiate the Quartz jobs for @lazylead annoying actions</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T16:13:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/158" closed="2019-01-31T15:06:35+00:00">158</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-cbc38a00</id>
+    <lines>310-310</lines>
+    <body>Release term4j to maven central as separate repository and use as proper dependency. --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T16:13:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/165" closed="2019-02-01T13:15:30+00:00">165</issue>
+        <ticket>158</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>158-599d568b</id>
+        <lines>89-89</lines>
+        <body>Remove this dependency as it will came with term4j --&gt;</body>
+        <file>lazylead-cli/pom.xml</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-01-26T18:56:43Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/159" closed="2020-06-06T11:45:55+00:00">159</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-73bcd259</id>
+    <lines>328-328</lines>
+    <body>Move the smoke-tests to the separate maven profile `3rd-parties-smoke-tests`.</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-20T16:13:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/161" closed="2019-01-26T19:15:24+00:00">161</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e1240af6</id>
+    <lines>48-48</lines>
+    <body>implement methods url(), reporter(), dueDate()</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/issue/IssueEnvelope.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-23T13:02:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/166" closed="2019-04-05T04:57:27+00:00">166</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-19d7e406</id>
+    <lines>33-34</lines>
+    <body>Add constructor for the `Exception` and use it instead of {@code throw new ConnectivityException(exp.getMessage(), exp); }</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/ConnectivityException.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T18:56:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/167" closed="2020-06-06T11:45:59+00:00">167</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-290bb1b1</id>
+    <lines>73-77</lines>
+    <body>Unroll the UncheckedIOException in order to find the root cause exception. Based on the root cause exception the handling procedure should be written (and exit codes). For now we just print "Illegal @lazylead YAML configuration", but it should be done only in case when YamlFormatException is a real root cause.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T18:56:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/168" closed="2019-01-27T17:38:07+00:00">168</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6b6f8f63</id>
+    <lines>78-82</lines>
+    <body>Detect the `teams.yml` or `teams.yaml` automatically. The order of detection: - &lt;em&gt;-f&lt;/em&gt; argument of application - &lt;em&gt;teams.yml&lt;/em&gt; or &lt;em&gt;teams.yaml&lt;/em&gt; from the start directory - &lt;em&gt;%LAZYLEAD_CONFIG%&lt;/em&gt; environment variable</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T18:56:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/169" closed="2019-02-03T10:41:39+00:00">169</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ee60b201</id>
+    <lines>109-109</lines>
+    <body>Build all instances of ticketing systems defined in yaml file</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T18:56:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/170" closed="2020-06-06T11:46:03+00:00">170</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a4a6b479</id>
+    <lines>43-44</lines>
+    <body>Change the javadoc in all unit tests where ExpectedException is used. The javadoc for field(s) should be the same as {@link this#cause}.</body>
+    <file>lazylead-cli/src/test/java/io/github/dgroup/lazylead/cli/AppTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T18:56:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/171" closed="2019-04-17T05:20:08+00:00">171</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-233cb35c</id>
+    <lines>47-47</lines>
+    <body>implement methods for comments.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/issue/IssueEnvelope.java</file>
+    <author>rebe1207</author>
+    <email>skakunenko@gmail.com</email>
+    <time>2019-01-25T17:25:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/172" closed="2019-04-17T05:20:11+00:00">172</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-73ad1389</id>
+    <lines>48-48</lines>
+    <body>implement originalEstimation().</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/issue/IssueEnvelope.java</file>
+    <author>rebe1207</author>
+    <email>skakunenko@gmail.com</email>
+    <time>2019-01-25T17:25:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/174" closed="2020-06-06T11:46:07+00:00">174</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4fcf32de</id>
+    <lines>28-29</lines>
+    <body>Support auto-deploy of changes within the YAML file without restart. Provide a flag to disable it (by default enabled).</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T19:22:22Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/lazylead/issues/204" closed="2020-06-06T11:46:11+00:00">204</issue>
+        <ticket>174</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>174-8ffc2bec</id>
+        <lines>54-56</lines>
+        <body>Add evict in case if ticketing system wasn't used more than 'Time-to-live' configurable parameter. The time unit for the parameter might be in milliseconds or seconds.</body>
+        <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/system/SystemsOf.java</file>
+        <author>Yurii Dubinka</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2019-02-06T21:16:00Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/175" closed="2020-06-06T11:46:15+00:00">175</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b0f3b2de</id>
+    <lines>117-120</lines>
+    <body>Print to `xml` the details about job(s) execution - the quantity of posted comments with body - the quantity of sent emails with body Use [xembly](https://github.com/yegor256/xembly) framework to work with xml.</body>
+    <file>lazylead-cli/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T19:22:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/176" closed="2020-06-06T11:46:19+00:00">176</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b95f6767</id>
+    <lines>135-143</lines>
+    <body>Stubs for the external systems. SoapUI can be used in background mode https://community.smartbear.com/t5/SoapUI-Open-Source/How-to-run-soapUI-on-Linux-without-graphical-interface/td-p/29420. however the project should be build using GUI. The steps to be done: - Create a new SoapUI project - Send request to public jira instances(or any other external systems) and trace the request/response - Add this request/response patterns to the SoapUI project - Ensure that the SoapUI project can be called using command-line 'testrunner.bat' - https://www.soapui.org/test-automation/running-from-command-line/functional-tests.html</body>
+    <file>lazylead-cli/pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T19:22:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/177" closed="2019-04-14T13:05:21+00:00">177</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e308feb6</id>
+    <lines>120-124</lines>
+    <body>Email sending: - find framework to work with email - Explain in docs how to configure properties to own email server. - Customize the framework. in case if solution became complex (or looks as a framework) then move it to the separate lib and deploy to maven central. - Expose convenient email API to `lazylead-api` module</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T19:22:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/178" closed="2020-06-06T11:46:23+00:00">178</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-417e8b40</id>
+    <lines>202-206</lines>
+    <body>Acceptance tests, define the procedure. It might be: - Build *.jar with code quality checks; - Build Docker image; - Run the Docker image and save the application results to the XML file; - Ensure that XML file with results contains expected rows.</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-26T19:22:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/181" closed="2019-03-12T01:05:09+00:00">181</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8470f7f1</id>
+    <lines>69-70</lines>
+    <body>Try to simplify the config search procedure below. The logic seems to be complex, thus we need to think about alternatives.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/arg/LazyleadOf.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-27T17:37:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/182" closed="2019-03-09T18:07:50+00:00">182</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7751a0df</id>
+    <lines>37-37</lines>
+    <body>Rename the Envelope considering the naming: XxxEnvelope</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/quartz/trigger/TriggerEnvelope.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-27T17:59:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/183" closed="2019-02-03T10:41:41+00:00">183</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9b6a0b5c</id>
+    <lines>62-64</lines>
+    <body>Use 'var' keyword from JDK10 instead of local variables. Also use String.isBlank when string is blank instead of something like {@code String.chars().allMatch(Character::isWhitespace)}.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/system/SystemOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-27T17:05:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/184" closed="2020-06-06T11:46:27+00:00">184</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d4ec9fd5</id>
+    <lines>46-48</lines>
+    <body>Test for the negative case is required. By default the quartz is executing the job in separate thread(s) thus its hard to check the exception from the thread where scheduler is started.</body>
+    <file>lazylead-cli/src/test/java/io/github/dgroup/lazylead/cli/quartz/job/JobTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-27T18:12:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/185" closed="2019-02-18T00:23:15+00:00">185</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-05be913b</id>
+    <lines>36-39</lines>
+    <body>Rename children in order to avoid compound names. EmptyJira -&gt; Empty, Fetch move to package 'func', LocalJira -&gt; Local. Remove the JiraEnvelope as not required anymore.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/JiraEnvelope.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-06T20:49:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/186" closed="2019-04-14T13:05:23+00:00">186</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e54c5cc4</id>
+    <lines>36-36</lines>
+    <body>Rename the fakes using the following naming: FakeType</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/yaml/team/FakeTeam.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-27T17:05:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/189" closed="2019-02-01T13:15:32+00:00">189</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f1648343</id>
+    <lines>106-106</lines>
+    <body>Schedule the jobs using quartz scheduler.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-01-31T15:06:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/191" closed="2020-06-06T11:46:31+00:00">191</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4a976490</id>
+    <lines>115-117</lines>
+    <body>Tag 'cc' should be optional and can be omit during the configuration. Right now the system throws the YamlFormatException with message: "The tag `cc` is missing or has incorrect structure".</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/yaml/TeamsV1.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-01T13:15:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/192" closed="2020-06-06T11:46:35+00:00">192</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c0c90c9c</id>
+    <lines>87-88</lines>
+    <body>The exception handling procedure should print the exception details to the logs/std.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-01T13:15:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/193" closed="2020-06-06T11:46:38+00:00">193</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9839ca68</id>
+    <lines>120-120</lines>
+    <body>Exit in case if no jobs specified with corresponding message.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-01T13:15:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/194" closed="2020-06-06T11:46:42+00:00">194</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-79b63122</id>
+    <lines>121-121</lines>
+    <body>Mechanism to wait for the modification of the YAML file.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/App.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-01T13:15:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/197" closed="2020-06-06T11:46:46+00:00">197</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7604b602</id>
+    <lines>40-43</lines>
+    <body>Exports Jobs interface with two methods iterator(), size(). Steps: 1) Create a new interface Jobs with two methods above 2) Rename current implementation to 'JobsOf'</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/quartz/job/Jobs.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-03T10:38:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/198" closed="2020-06-06T11:46:50+00:00">198</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-03b2b7f1</id>
+    <lines>283-285</lines>
+    <body>Replace this complex method to HasProperty matcher once it will be released within the cactoos-matchers lib. Here is the url https://github.com/llorllale/cactoos-matchers/issues/67</body>
+    <file>lazylead-cli/src/test/java/io/github/dgroup/lazylead/cli/yaml/TeamsV1Test.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-03T10:38:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/205" closed="2020-06-06T11:46:53+00:00">205</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-17054346</id>
+    <lines>37-41</lines>
+    <body>Use Credentials in primary constructor for all ticketing systems. Each {@link System} must have primary constructor with 2 arguments: - {@link Credentials} - {@link java.util.Properties} Based on these parameters each system should be instantiated.</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/system/Credentials.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-06T21:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/206" closed="2020-06-06T11:46:58+00:00">206</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8c27e3fd</id>
+    <lines>138-138</lines>
+    <body>Add ticketing system types like `local`, `empty`.</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/system/Credentials.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-06T21:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/207" closed="2019-02-08T21:08:47+00:00">207</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0825fec2</id>
+    <lines>51-51</lines>
+    <body>Upgrade qulice to the latest version --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-06T21:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/208" closed="2020-06-06T11:47:01+00:00">208</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a297cdb7</id>
+    <lines>107-112</lines>
+    <body>Remove this method once tagyml v0.4.0 is released. Now the PropertiesOf(v0.3.0) throws the NPE in case if field 'properties' is null. The tag 'properties' is optional, thus it may happens often. The fix is using Alt(new PropertiesOf(...), new Properties()) which will allows to create an empty properties in case if the original is absent.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/yaml/ConfigV1.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-06T21:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/209" closed="2020-06-06T11:47:05+00:00">209</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-41ea5fa2</id>
+    <lines>70-70</lines>
+    <body>Add `sys` and `act` to the equals method and hashcode.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/system/TaskOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-06T21:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/210" closed="2019-02-18T00:23:19+00:00">210</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-3b6fc8bf</id>
+    <lines>40-41</lines>
+    <body>Cleanup the constructors. It should be 2-3 main constructors. All others should be removed.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/FakeJira.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-06T21:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/214" closed="2019-02-18T00:33:57+00:00">214</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ae8b17d4</id>
+    <lines>147-148</lines>
+    <body>Research of {@link DisallowConcurrentExecution} is required in order to prevent the concurrent execution of jobs.</body>
+    <file>lazylead-cli/src/main/java/io/github/dgroup/lazylead/cli/quartz/job/Job.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-16T00:16:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/216" closed="2019-03-09T12:54:50+00:00">216</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a02b08fe</id>
+    <lines>58-62</lines>
+    <body>All instances of {@link Annoying} should implement the quartz {@link Job}. All such jobs should prohibit the simultaneous execution, thus, they should be annotated with {@link DisallowConcurrentExecution}. In order to prevent wrong implementations we should create the {@code AbstractAnnoying} which allows extending through ctor(s).</body>
+    <file>lazylead-cli/src/test/java/io/github/dgroup/lazylead/cli/quartz/QuartzJobSimultaneouslyTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-17T01:46:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/222" closed="2019-03-12T00:07:43+00:00">222</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-dfa0a461</id>
+    <lines>42-43</lines>
+    <body>Extend the FakeIssue from lazylead-api module in order to avoid the duplicated code.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/issue/FakeIssue.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-10T21:38:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/223" closed="2019-03-12T00:07:44+00:00">223</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5f9fd6ba</id>
+    <lines>34-34</lines>
+    <body>Move the jira-dependent methods to the JiraIssue</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/Issue.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-10T21:38:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/224" closed="2019-03-12T01:53:13+00:00">224</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-79cd7cc9</id>
+    <lines>55-55</lines>
+    <body>Rename to className() as its more clear</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/yaml/Task.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-10T21:38:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/227" closed="2020-06-06T11:47:09+00:00">227</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-65345d5d</id>
+    <lines>59-59</lines>
+    <body>Jira component - new object is required</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/issue/JiraIssue.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-11T03:00:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/231" closed="2020-06-06T11:47:13+00:00">231</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-78a7c99b</id>
+    <lines>38-40</lines>
+    <body>Deploy SMTP server in order to use with email-based integration tests. Use the SMTP server details for the test below. For now the test is deactivated.</body>
+    <file>lazylead-email/src/test/java/io/github/dgroup/lazylead/email/JavamailSmokeTestIT.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-17T08:25:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/232" closed="2019-04-14T13:05:25+00:00">232</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2db9ab94</id>
+    <lines>41-43</lines>
+    <body>Move `io.github.dgroup.lazylead.email` to the separate mvn lib `pman4j` as this part of functionality is out of scope the lazylead domain. Add the overall info with github links to the root package-info.java file.</body>
+    <file>lazylead-email/src/test/java/io/github/dgroup/lazylead/email/JavamailSmokeTestIT.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-17T08:25:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/233" closed="2020-06-06T11:47:17+00:00">233</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a62c2108</id>
+    <lines>44-59</lines>
+    <body>Add postman to YAML configuration as a separate YAML tag `postmans`. Add a reference from each task to particular `postman` instance using tag `id`. There might be several types of postmans, but for now `text` only which will send text email messages without attachments/etc. The potential YML configuration might be the following: .......................................... . postmans: . - id: default . type: text . properties: . user: mike@gmail.com . pass: BdfS42~!3 . mail.smtp.auth: true . mail.smtp.host: smtp.gmail.com . mail.smtp.port: 587 ..........................................</body>
+    <file>lazylead-email/src/test/java/io/github/dgroup/lazylead/email/JavamailSmokeTestIT.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-17T08:25:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/237" closed="2020-06-06T11:47:21+00:00">237</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-11198a9b</id>
+    <lines>36-36</lines>
+    <body>Use the smtp properties from mbox4j once 0.2.0 is released.</body>
+    <file>lazylead-cli/src/test/java/io/github/dgroup/lazylead/cli/email/GmailSmtpProperties.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-14T09:00:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/239" closed="2020-06-06T11:47:24+00:00">239</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-87030aef</id>
+    <lines>40-40</lines>
+    <body>fix method returning null.</body>
+    <file>lazylead-api/src/main/java/io/github/dgroup/lazylead/api/comment/FakeComments.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/240" closed="2020-06-06T11:47:28+00:00">240</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-457fcdbb</id>
+    <lines>36-36</lines>
+    <body>add mechanism how to use Issue without real Jira rest client.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/issue/Silent.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/241" closed="2020-06-06T11:47:33+00:00">241</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f1569c87</id>
+    <lines>52-53</lines>
+    <body>split implementation: move implementation of @Issue interface into another class and extend this from new Envelope</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/issue/IssueEnvelope.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/242" closed="2020-06-06T11:47:37+00:00">242</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-592d6bef</id>
+    <lines>54-54</lines>
+    <body>add implementation for add comments to Jira issue.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/issue/IssueEnvelope.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/243" closed="2020-06-06T11:47:40+00:00">243</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f7b6a718</id>
+    <lines>37-39</lines>
+    <body>Templates - give the opportunity to provide the template root per each annoying task. In case if root wasn't specified, the default root directory should be used. Remove PMD.UnusedLocalVariable once task is completed.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/annoying/DueDateInPastOrSeemsToExpireSoon.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/244" closed="2020-06-06T11:47:44+00:00">244</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4a674793</id>
+    <lines>40-42</lines>
+    <body>Outbox - give the opportunity to provide the email outbox per each annoying task. In case if outbox wasn't specified, the default email outbox should be used. Remove PMD.UnusedLocalVariable once task is completed.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/annoying/DueDateInPastOrSeemsToExpireSoon.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/245" closed="2020-06-06T11:47:48+00:00">245</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d8e3b3fd</id>
+    <lines>37-37</lines>
+    <body>add Envelope if required.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/comment/CommentOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/246" closed="2020-06-06T11:47:52+00:00">246</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-632f91a8</id>
+    <lines>38-40</lines>
+    <body>add implementation for email. Right now the {@link User#email()} returns "unknown@unknown.un" instead of real one.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/comment/CommentOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/247" closed="2020-06-06T11:47:56+00:00">247</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d5245c22</id>
+    <lines>44-44</lines>
+    <body>Add fields to system properties.</body>
+    <file>lazylead-jira/src/main/java/io/github/dgroup/lazylead/jira/func/Fetch.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-16T16:30:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/251" closed="2020-06-06T11:48:00+00:00">251</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a4b23211</id>
+    <lines>51-51</lines>
+    <body>Update qulice to the latest version --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-09-01T23:28:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/252" closed="2020-06-06T11:48:04+00:00">252</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2250078c</id>
+    <lines>328-329</lines>
+    <body>#/DEV Use mvn verification plugin in order to check license for the files see https://github.com/yegor256/cactoos/pull/1146/files.</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-09-01T23:28:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/105" closed="2020-06-21T19:24:05+00:00">105</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b4174fd6</id>
+    <lines>3-7</lines>
+    <body>Increase code coverage from 75% to 80%+. Right now it was decreased to 75% due to long manual setup of dev. instances of Atlassian Jira and Confluence. It was configured locally and there is no automation for now how it can be included quickly into CI process. This need to be done later.</body>
+    <file>.simplecov</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/106">106</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2823e14f</id>
+    <lines>24-25</lines>
+    <body>Add indexes to all columns which have foreign keys in order to avoid full table scans.</body>
+    <file>upgrades/sqlite/001-install-main-lazylead-tables.sql</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/107">107</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d797d8a4</id>
+    <lines>27-28</lines>
+    <body>Add description to each column using ANSI column command. Potentially switch to h2 is required.</body>
+    <file>upgrades/sqlite/001-install-main-lazylead-tables.sql</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/108">108</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-54a63de1</id>
+    <lines>30-31</lines>
+    <body>Add index by name to table persons in order to avoid full table scans during access by name.</body>
+    <file>upgrades/sqlite/001-install-main-lazylead-tables.sql</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/109">109</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-64f216db</id>
+    <lines>44-44</lines>
+    <body>task.cron - add regexp verification of cron expression.</body>
+    <file>upgrades/sqlite/001-install-main-lazylead-tables.sql</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/110" closed="2020-08-16T21:09:16+00:00">110</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6508c131</id>
+    <lines>50-53</lines>
+    <body>task.cron - add support for non-cron based schedule like at, once, every. More details: https://github.com/jmettraux/rufus-scheduler https://stackoverflow.com/questions/46691666/using-constantize-to-invoke-both-a-class-and-method-from-separate-strings</body>
+    <file>upgrades/sqlite/001-install-main-lazylead-tables.sql</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/111">111</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7d63e4e1</id>
+    <lines>60-60</lines>
+    <body>tasks.enabled - add index for future search. Research is required.</body>
+    <file>upgrades/sqlite/001-install-main-lazylead-tables.sql</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/112" closed="2020-06-20T15:18:44+00:00">112</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e808b1a4</id>
+    <lines>15-17</lines>
+    <body>The current image size is about 150MB. The original alpine image is ~20MB. Image cleanup is required.</body>
+    <file>.docker/Dockerfile</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/113">113</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-dd5a7571</id>
+    <lines>3-3</lines>
+    <body>Define openshift template in order to deploy into Openshift/Kubernetes/etcN environment.</body>
+    <file>.docker/docker-compose.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/114" closed="2020-06-14T13:09:04+00:00">114</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-356982e5</id>
+    <lines>14-14</lines>
+    <body>Add SHA2, version, release date, and url to commit.</body>
+    <file>.docker/docker-compose.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/115">115</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0fc56aa1</id>
+    <lines>31-32</lines>
+    <body>Test took ~5s+ and should be optimized. Potentially, a confluence HTTP client is a first candidate.</body>
+    <file>test/lazylead/task/confluence_ref_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/116">116</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-068f1520</id>
+    <lines>34-38</lines>
+    <body>Test fully depends on external system. Before test the external system should be cleaned up. Moreover, the test itself just creates a reference, but didn't check that the link is exist. Developer have to open the ticket and check.</body>
+    <file>test/lazylead/task/confluence_ref_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/117">117</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7b40ca17</id>
+    <lines>37-38</lines>
+    <body>Print to logger the details about emails which were sent Mail::TestMailer.deliveries.each { |m| p m.html_part.body.raw_source }</body>
+    <file>test/lazylead/task/duedate_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/118">118</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c02ff152</id>
+    <lines>28-29</lines>
+    <body>Rename xxx_test.rb to test_xx.rb as this naming is more clear.</body>
+    <file>test/lazylead/version_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/119" closed="2020-08-16T21:09:21+00:00">119</issue>
+    <ticket>10</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>10-74e00feb</id>
+    <lines>61-68</lines>
+    <body>Think about using "timecop" &gt;v0.9.1 gem in order to make E2E application skeleton https://stackoverflow.com/questions/59955571. The depedency for gemspec should be after *thin* in .gemspec .. s.add_runtime_dependency "thin", "1.7.2" s.add_runtime_dependency "timecop", "0.9.1" .. More https://github.com/travisjeffery/timecop</body>
+    <file>test/lazylead/cli/app_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/120">120</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d8746366</id>
+    <lines>35-36</lines>
+    <body>Support sub-task for link search. Potentially, the issue might have sub-tasks where discussion ongoing.</body>
+    <file>lib/lazylead/task/confluence_ref.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/121">121</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-90477f0d</id>
+    <lines>31-32</lines>
+    <body>Each task should verify input arguments. The common API should be provided for each task.</body>
+    <file>lib/lazylead/task/fix_version.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/122">122</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-466fbab4</id>
+    <lines>69-71</lines>
+    <body>Unable to find confluence pages where title has ":" symbol. The symbol ":" might be replaced by "%3A". The search needs to consider this case as well.</body>
+    <file>lib/lazylead/confluence.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/123">123</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d00213da</id>
+    <lines>35-36</lines>
+    <body>Add support of symbols for options in order to use both notations like opts[:endpoint] or opts["endpoint"].</body>
+    <file>lib/lazylead/exchange.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/124">124</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7fdcbc6e</id>
+    <lines>33-36</lines>
+    <body>Merge Smtp and Postman objects. There might be different postman's based on different mail servers, thus its better to keep together the instantiation and sending. For each type of mail servers we should have separate object.</body>
+    <file>lib/lazylead/postman.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/125">125</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e1b7fc1a</id>
+    <lines>38-41</lines>
+    <body>TestMail.deliveries -&gt; store all emails to the files in /test/resources/testmailer/*.html. Right now after each test with email sending we taking the body and test it content. Quite ofter we need to check visual style in mails, etc, thus its better to store them on disk.</body>
+    <file>lib/lazylead/postman.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/126" closed="2020-08-13T18:53:09+00:00">126</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d24b2c34</id>
+    <lines>33-33</lines>
+    <body>Unit tests for 'issues' function</body>
+    <file>lib/lazylead/system/synced.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/127">127</issue>
+    <ticket>57</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>57-65436478</id>
+    <lines>35-37</lines>
+    <body>The debug method should be moved outside of ctor. This was moved here from 'client' method because Rubocop failed the build due to 'Metrics/AbcSize' violation.</body>
+    <file>lib/lazylead/system/jira.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/128" closed="2021-02-01T21:12:09+00:00">128</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-dbf04b02</id>
+    <lines>77-80</lines>
+    <body>Jira.cp - find a way how to avoid this method. Potentially, hash with indifferent access might be used. http://jocellyn.cz/2014/05/03/hash-with-indifferent-access.html key.kind_of?(Symbol) ? key.to_s : key</body>
+    <file>lib/lazylead/system/jira.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/129">129</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-409171ee</id>
+    <lines>30-31</lines>
+    <body>Lazylead::CLI::Args add a new class which extends hash in order to access command-line arguments in easy manner.</body>
+    <file>lib/lazylead/cli/app.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/130" closed="2020-08-16T21:09:27+00:00">130</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e234446b</id>
+    <lines>37-42</lines>
+    <body>New scheduling types like 'at', 'once' is required. The minimum time period for cron is 1 minute and it's not suitable for unit testing, thus its better to introduce new types which allows to schedule some task once or at particular time period like in next 200ms). For cron expressions we should define separate test suite which will test in parallel without blocking main CI process.</body>
+    <file>lib/lazylead/schedule.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/131" closed="2020-08-16T21:09:32+00:00">131</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5c42e854</id>
+    <lines>49-50</lines>
+    <body>error code is required for reach 'raise' statement within the application.</body>
+    <file>lib/lazylead/schedule.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/132">132</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-baa3bb14</id>
+    <lines>59-60</lines>
+    <body>inspect the current execution status. This method should support several format for output, by default is `json`.</body>
+    <file>lib/lazylead/schedule.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/133">133</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a49d8230</id>
+    <lines>67-68</lines>
+    <body>stop the execution of current jobs (shutdown?). The test is required.</body>
+    <file>lib/lazylead/schedule.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/134" closed="2020-06-06T12:14:58+00:00">134</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d462520a</id>
+    <lines>25-25</lines>
+    <body>Define autoload entry point for all classes related to this gem.</body>
+    <file>lib/lazylead.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/135">135</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a80e719e</id>
+    <lines>86-87</lines>
+    <body>Add violation regarding methods without documentation using RDoc https://stackoverflow.com/questions/1681467/how-to-document-ruby-code</body>
+    <file>.rubocop.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/136" closed="2020-07-13T19:53:07+00:00">136</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-1214b7cd</id>
+    <lines>1-2</lines>
+    <body>Enable Travis CI as second CI server once the project became a public. This might be alternative for Circle CI (just in case)</body>
+    <file>todo.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/137" closed="2020-06-06T14:14:53+00:00">137</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6c09bce3</id>
+    <lines>4-7</lines>
+    <body>There a lot of badges in readme which aren't enabled for now. Let's enable them. Examples you may find here: - https://github.com/dgroup/lazylead/blob/0.0.0-alpha-java/readme.md - https://github.com/dgroup/docker-unittests/blob/master/readme.md</body>
+    <file>todo.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/138" closed="2020-06-06T14:15:00+00:00">138</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6347430d</id>
+    <lines>9-10</lines>
+    <body>Enable DepShield badge for inspection. Example you may find [![DepShield Badge](https://depshield.sonatype.org/badges/dgroup/lazylead/depshield.svg)](https://depshield.github.io)</body>
+    <file>todo.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/139" closed="2020-07-13T19:53:13+00:00">139</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b03280fb</id>
+    <lines>12-12</lines>
+    <body>Add Github integration for lazylead with the same methods as in Jira.</body>
+    <file>todo.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/140" closed="2020-07-13T19:53:18+00:00">140</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4b6e05a1</id>
+    <lines>14-14</lines>
+    <body>Add Trello integration for lazylead with the same methods as in Jira.</body>
+    <file>todo.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/141">141</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-474a56c9</id>
+    <lines>31-37</lines>
+    <body>Investigate the possibility of using migrations from active_record - Rake tasks https://gist.github.com/schickling/6762581 - Gem for rake tasks https://github.com/thuss/standalone-migrations - basic example of active_record https://gist.github.com/unnitallman/944011 For now standalone-migrations looks complex and needs - complex files structure - manual specification of version(?) thus no auto-apply available</body>
+    <file>Rakefile</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/142">142</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-bfba61dc</id>
+    <lines>1-3</lines>
+    <body>Define automatic integration between rultor and Circle CI. Right not its not clear how to automatically accept the merge requests into master. Without this integration the release history won't be clear.</body>
+    <file>.circleci/config.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T12:23:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/147" closed="2020-06-06T21:22:51+00:00">147</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9a75a902</id>
+    <lines>91-92</lines>
+    <body>Enable sqlint into rake task chain after rubocop. For now there are 4 non-resolved violations here.</body>
+    <file>Rakefile</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T20:16:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/148">148</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-104de808</id>
+    <lines>92-96</lines>
+    <body>Enable rule "Checks SQL against the ANSI syntax" fully. Right now all violations related to PRAGMA https://www.sqlite.org/pragma.html are suppressed as PRAGMA is sqlite specific option. Potential fix is to move this option into vcs4sql lib and remove from our sql files.</body>
+    <file>Rakefile</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-06T21:22:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/152" closed="2020-06-14T13:09:10+00:00">152</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-dd56936c</id>
+    <lines>30-31</lines>
+    <body>Version should be set only in one place. No duplicates allowed. Right now its placed to 'version.rb', 'lazylead.gemspec', 'release_image.sh'.</body>
+    <file>lazylead.gemspec</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-14T06:52:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/161">161</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c7625dc6</id>
+    <lines>15-18</lines>
+    <body>Original size of lazylead was 350 MB. After removing of unnecessary libraries it took 250 MB. The original alpine image is ~20MB. Image cleanup is required.</body>
+    <file>.docker/Dockerfile</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-20T15:18:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/163">163</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9e48650a</id>
+    <lines>46-47</lines>
+    <body>Define a new module Lazylead::Task with basic methods like split, groupBy(assignee, reporter, etc), blank?</body>
+    <file>lib/lazylead/task/propagate_down.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-06-21T19:23:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/166">166</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6670dfbb</id>
+    <lines>91-94</lines>
+    <body>The test has performance issue. Jira has no way how to take the emails for leads quickly due to https://bit.ly/2ZRZlWc. Thus, for each component we need to find a lead, and only then detect lead's email, thus, its took few minutes for huge projects.</body>
+    <file>test/lazylead/cc_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-07-11T19:58:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/176" closed="2020-07-20T20:42:35+00:00">176</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d9e415ae</id>
+    <lines>94-97</lines>
+    <body>Add error handling for StandartError with support of verbose key from ARGV like in /bin/lazylead. That will make error messages more human readable. Maybe there is some integration between Slop and ARGV in order to avoid logic duplication.</body>
+    <file>lib/lazylead/model.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-07-19T21:01:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/177" closed="2020-08-03T19:07:23+00:00">177</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f5ae2737</id>
+    <lines>35-38</lines>
+    <body>Avoid logging level hard-code by using a new class like Log which will take the necessary configuration of logging level from ARGV and will allow to avoid injection of app loggers everywhere. All necessary methods might be delegated using gem 'forwardable'.</body>
+    <file>lib/lazylead/log.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-07-20T20:42:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/188">188</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-87159d7d</id>
+    <lines>48-49</lines>
+    <body>Decorate ARGV with custom methods in order to avoid code duplication, like { ARGV.include? "--trace" }</body>
+    <file>bin/lazylead</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-08-03T19:06:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/189" closed="2020-08-16T10:48:38+00:00">189</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5661d0b8</id>
+    <lines>34-37</lines>
+    <body>Find stable svn repo which can be used for stable test, for now only floating repo used for testing locally. Also, create a new method "ping" which can be used during tests like skip "No connection available to svn repo" unless ping("https://svn.com")</body>
+    <file>test/lazylead/task/touch_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-08-05T17:32:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/193">193</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-bf2cb92c</id>
+    <lines>80-81</lines>
+    <body>accuracy.rb is using % symbol in text message and rubocop complains about it. It's false-positive violation, thus, for now ignored for this file</body>
+    <file>.rubocop.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-08-09T19:12:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/198">198</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-3c86cb9f</id>
+    <lines>33-34</lines>
+    <body>Unit tests for 'issues' function, moreover the other methods from ticketing system obj are required</body>
+    <file>lib/lazylead/system/synced.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-08-13T18:52:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/205">205</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e7fc76fb</id>
+    <lines>43-45</lines>
+    <body>error code is required for each 'raise' statement within the application. Align the naming of existing one, the error code should be like ll-xxx.</body>
+    <file>lib/lazylead/schedule.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-08-16T21:08:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/229" closed="2022-03-27T17:17:49+00:00">229</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9b6b032b</id>
+    <lines>116-117</lines>
+    <body>Gem 'mail' sends email as a single line, find a way how to add symbol '\n' to each line for email during unit testing.</body>
+    <file>test/test.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-10-03T08:23:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/288">288</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4c7bf361</id>
+    <lines>185-186</lines>
+    <body>Remove the suppression during next refactoring (or enhancements) for the method below</body>
+    <file>lib/lazylead/model.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-01-11T21:28:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/289">289</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-522da350</id>
+    <lines>107-108</lines>
+    <body>Refactor this method in order to make it more human-readable and remove the suppresion below</body>
+    <file>lib/lazylead/confluence.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-01-11T21:28:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/327" closed="2021-02-12T21:05:43+00:00">327</issue>
+    <ticket>319</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>319-263edfb3</id>
+    <lines>61-61</lines>
+    <body>Verify that ticket matches expected conditions and set alert if matched.</body>
+    <file>lib/lazylead/task/alert/alertif.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-02-07T20:10:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/332" closed="2021-02-13T16:12:05+00:00">332</issue>
+    <ticket>319</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>319-78c6a162</id>
+    <lines>36-36</lines>
+    <body>Implementation of unit testing required considering a new email template.</body>
+    <file>test/lazylead/task/alert/alert_if_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-02-12T21:05:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/333" closed="2021-02-13T16:12:09+00:00">333</issue>
+    <ticket>319</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>319-9520c3c9</id>
+    <lines>41-41</lines>
+    <body>Email template for alerts are not defined yet</body>
+    <file>lib/lazylead/task/alert/alertif.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-02-12T21:05:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/335">335</issue>
+    <ticket>334</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>334-28988faf</id>
+    <lines>40-40</lines>
+    <body>AlertIf should support rules for bulk issues. For now each rule works per issue</body>
+    <file>lib/lazylead/task/alert/alertif.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-02-14T09:57:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/351">351</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7e5c9821</id>
+    <lines>34-37</lines>
+    <body>Right now its impossible to check that attachment is present in email as we removing the directory with attachments once SVN::Diff is sent the email through the postman. Think about how to test this case in automatically, because for now we are doing it manually during the development.</body>
+    <file>test/lazylead/task/svn/diff_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-03-21T10:56:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/400">400</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a95137e2</id>
+    <lines>100-101</lines>
+    <body>Find a way how to avoid @all initialization directly in constructor. There should be a way how to make lazy initialization of @all with 'forwardable'.</body>
+    <file>lib/lazylead/task/svn/svn.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-05-06T22:51:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/466">466</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c70a098a</id>
+    <lines>30-31</lines>
+    <body>Rename the tests name as some of them are too huge. The maximum name size should be 56 symbols as it gives fancy format for test output in terminal</body>
+    <file>test/lazylead/task/accuracy/screenshots_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-08-22T20:57:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/467" closed="2021-08-23T17:59:23+00:00">467</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-dcc0af9f</id>
+    <lines>183-185</lines>
+    <body>The test took too much time and should be limited by 3 tickets per transaction. Use option :max_results to limit each iteration. The JQL query should be like "key&gt;DATAJDBC-500 and key&lt;DATAJDBC-510"</body>
+    <file>test/lazylead/system/jira_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-08-22T20:57:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/468">468</issue>
+    <ticket>339</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>339-1a2bac9c</id>
+    <lines>159-164</lines>
+    <body>Seems jira doesn't support the rendering of external images by url, thus so far we might have several options: - attach meme to ticket and make rendering using [^attach.jpg!thumbnail] option - have a link to meme (like it implemented now) The 1st option with attachment might generate multiple events in jira and spam ticket watchers, thus, some research &amp; UX testing needed how to make it better.</body>
+    <file>lib/lazylead/task/accuracy/accuracy.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-08-22T20:57:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/469">469</issue>
+    <ticket>339</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>339-8ae5040c</id>
+    <lines>34-35</lines>
+    <body>Prepare the meme list and attach them to the github, section .docs/accuracy/memes As url they will be required for configuration of the each task.</body>
+    <file>lib/lazylead/task/accuracy/memes.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-08-22T20:57:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/503">503</issue>
+    <ticket>495</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>495-9c3145af</id>
+    <lines>62-63</lines>
+    <body>Find way to capture the STDOUT in order to test the email sending. Right now its just visual verification.</body>
+    <file>test/lazylead/postman_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-09-29T20:57:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/504" closed="2021-10-20T15:42:06+00:00">504</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2f22a60d</id>
+    <lines>78-78</lines>
+    <body>add new assert method which consume the file name and check existence on the disk</body>
+    <file>test/lazylead/postman_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-10-03T06:28:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/529">529</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5b19ba69</id>
+    <lines>92-92</lines>
+    <body>Enable Style/OpenStructUse rule, for now its disabled due to rubocop upgrade</body>
+    <file>.rubocop.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-11-24T21:54:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/534">534</issue>
+    <ticket>533</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>533-5acf71ff</id>
+    <lines>28-28</lines>
+    <body>Git `grep` command is required like Lazylead::SVN::Grep</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:49:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/535">535</issue>
+    <ticket>533</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>533-28fc17d7</id>
+    <lines>30-30</lines>
+    <body>Git `touch` command is required like Lazylead::SVN::Touch</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:49:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/536">536</issue>
+    <ticket>533</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>533-9bd9ee05</id>
+    <lines>32-32</lines>
+    <body>Git `diff` command is required like Lazylead::SVN::Diff</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:49:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/537">537</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-91fd5de1</id>
+    <lines>46-46</lines>
+    <body>Git Commit#id implementation is required based on `git` ruby gem</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:54:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/538">538</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c32e9db2</id>
+    <lines>49-49</lines>
+    <body>Git Commit#author implementation is required based on `git` ruby gem</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:54:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/539">539</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-a5836687</id>
+    <lines>52-52</lines>
+    <body>Git Commit#time implementation is required based on `git` ruby gem</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:54:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/540">540</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5200ff8e</id>
+    <lines>55-55</lines>
+    <body>Git Commit#msg implementation is required based on `git` ruby gem</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:54:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/541">541</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-571a6b16</id>
+    <lines>58-58</lines>
+    <body>Git Commit#lines implementation is required based on `git` ruby gem</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:54:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/542">542</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ad645cb0</id>
+    <lines>61-61</lines>
+    <body>Git Commit#header implementation is required based on `git` ruby gem</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:54:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/543">543</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2b3b878f</id>
+    <lines>65-65</lines>
+    <body>Git Commit#includes? implementation is required based on `git` ruby gem</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:54:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/544">544</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-32452f4c</id>
+    <lines>72-72</lines>
+    <body>Git Commits implementation is required based on `git` ruby gem</body>
+    <file>lib/lazylead/task/git/git.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2021-12-17T20:54:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/573" closed="2022-02-17T19:54:28+00:00">573</issue>
+    <ticket>567</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>567-56040b87</id>
+    <lines>43-44</lines>
+    <body>Add flag with branch prefixes that could be used for future filtration Right now method .locations returns all branches, potentially that won't be needed.</body>
+    <file>lib/lazylead/task/svn/touch.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-02-02T06:11:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/574" closed="2022-02-15T21:32:40+00:00">574</issue>
+    <ticket>567</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>567-859269e5</id>
+    <lines>54-54</lines>
+    <body>Add support for search over multiple branches (.locations)</body>
+    <file>lib/lazylead/task/svn/touch.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-02-02T06:11:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/575">575</issue>
+    <ticket>567</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>567-e157b955</id>
+    <lines>104-110</lines>
+    <body>Performance: improve the glob pattern to support multiple files. Right now in order to find all branches for a particular file we are using glob pattern - https://en.wikipedia.org/wiki/Glob_(programming) - https://stackoverflow.com/a/70950401/6916890 - https://globster.xyz Right now for each file we initiate a separate search request, thus we need to think how to avoid this and send only one search request</body>
+    <file>lib/lazylead/task/svn/touch.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-02-02T06:11:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/576">576</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2aaead72</id>
+    <lines>48-48</lines>
+    <body>Add support of multiline string literals, not just array of commands</body>
+    <file>lib/lazylead/os.rb</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2022-02-02T06:11:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/582" closed="2022-03-27T17:17:53+00:00">582</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-abaf9525</id>
+    <lines>64-64</lines>
+    <body>Test timeout should fail the build instead of skipping</body>
+    <file>test/test.rb</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-15T21:28:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/583" closed="2022-02-16T19:47:07+00:00">583</issue>
+    <ticket>567</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>567-4e62abfe</id>
+    <lines>53-53</lines>
+    <body>Add more tests to ensure that changes in particular branch are visible</body>
+    <file>lib/lazylead/task/svn/touch.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-15T21:28:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/lazylead/issues/584" closed="2022-02-17T20:08:25+00:00">584</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ea4c792a</id>
+    <lines>84-84</lines>
+    <body>Update copyright to 2022 in all files within the project (including license.txt)</body>
+    <file>Rakefile</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-15T21:28:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/585">585</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b37dd7d6</id>
+    <lines>34-34</lines>
+    <body>Svn::Grep Add test to check engine structure without email sending</body>
+    <file>test/lazylead/task/svn/grep_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-17T19:54:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/586">586</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ef6c4b6d</id>
+    <lines>33-33</lines>
+    <body>Svn::Diff Add test to check engine structure without email sending</body>
+    <file>test/lazylead/task/svn/diff_test.rb</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-17T19:54:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/587">587</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7460c41c</id>
+    <lines>85-86</lines>
+    <body>Update copyright to 2022 for sql files as current changes of structure may lead to manual actions during installation.</body>
+    <file>Rakefile</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-17T20:07:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/588">588</issue>
+    <ticket>572</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>572-2ddaa5f0</id>
+    <lines>6-6</lines>
+    <body>Assemble docker image in GitHub actions in order to replace Circle CI</body>
+    <file>.github/workflows/build.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-19T23:20:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/589">589</issue>
+    <ticket>572</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>572-8a890c62</id>
+    <lines>8-8</lines>
+    <body>Test docker image in GitHub actions in order to replace Circle CI</body>
+    <file>.github/workflows/build.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-19T23:20:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/590">590</issue>
+    <ticket>572</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>572-89ab01c5</id>
+    <lines>10-10</lines>
+    <body>Publish docker image in GitHub actions in order to replace Circle CI</body>
+    <file>.github/workflows/build.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-19T23:20:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/591">591</issue>
+    <ticket>572</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>572-2610edcd</id>
+    <lines>12-12</lines>
+    <body>Integrate rultor with GitHub action and push docker image with particular tag</body>
+    <file>.github/workflows/build.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-19T23:20:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/lazylead/issues/592">592</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b06295d8</id>
+    <lines>94-95</lines>
+    <body>Enable xcop when xml/html files will be added to the project. So far there is no profit.</body>
+    <file>Rakefile</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-19T22:38:20Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

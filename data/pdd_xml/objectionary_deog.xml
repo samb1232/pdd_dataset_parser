@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-11-13T14:17:56+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/deog/issues/4" closed="2022-11-18T10:26:38+00:00">4</issue>
+    <ticket>44</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>44-e067a6d7</id>
+    <lines>48-49</lines>
+    <body>this solution is naive, optimize it (see commented out lines) while (decorators.containsValue(false)) {</body>
+    <file>src/main/kotlin/org/objectionary/deog/steps/InnerPropagator.kt</file>
+    <author>@OlesiaSub</author>
+    <email>lesya.sub@mail.ru</email>
+    <time>2022-11-07T17:30:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/deog/issues/5" closed="2023-10-11T08:16:33+00:00">5</issue>
+    <ticket>64</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>64-1a042343</id>
+    <lines>52-53</lines>
+    <body>gather cond, fstOption and sndOption into the existing IgNodeCondition structure and refactor its usages</body>
+    <file>src/main/kotlin/org/objectionary/deog/repr/Nodes.kt</file>
+    <author>@OlesiaSub</author>
+    <email>lesya.sub@mail.ru</email>
+    <time>2022-11-07T17:30:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/deog/issues/33">33</issue>
+    <ticket>64</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>64-27e1ad42</id>
+    <lines>52-53</lines>
+    <body>Some refactoring required for this class: gather cond, fstOption and sndOption arguments into the existing IgNodeCondition structure and refactor its usages.</body>
+    <file>src/main/kotlin/org/objectionary/deog/repr/Nodes.kt</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-10-11T08:14:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/deog/issues/34" closed="2023-10-17T16:08:36+00:00">34</issue>
+    <ticket>29</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>29-00ddb084</id>
+    <lines>40-41</lines>
+    <body>Refactor this class. Current version of GraphBuilder from ddr repository looks nicer. It need to be simple copy-pasted with some fixes.</body>
+    <file>src/main/kotlin/org/objectionary/deog/GraphBuilder.kt</file>
+    <author>@c71n93</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-10-12T10:21:13Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/deog/issues/39">39</issue>
+        <ticket>34</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>34-d5eab858</id>
+        <lines>144-146</lines>
+        <body>Current algorithm of finding graph heads is very inefficient and requires refactoring. To reimplement `setHeads()`, `findHeadsExcessively()` and `thinOutHeads()` functions. To reimplement all functions from `ClosedCycleProcessor.kt`.</body>
+        <file>src/main/kotlin/org/objectionary/deog/graph/GraphBuilder.kt</file>
+        <author>@c71n93</author>
+        <email>70313618+c71n93@users.noreply.github.com</email>
+        <time>2023-10-17T09:29:15Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/objectionary/deog/issues/40">40</issue>
+        <ticket>34</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>34-102b18e9</id>
+        <lines>46-48</lines>
+        <body>this solution is naive, optimize it (see snippet below) while (decorators.containsValue(false)) { ... } (this todo has moved here from ddr repository)</body>
+        <file>src/main/kotlin/org/objectionary/deog/steps/InnerPropagator.kt</file>
+        <author>@c71n93</author>
+        <email>70313618+c71n93@users.noreply.github.com</email>
+        <time>2023-10-17T09:29:15Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/objectionary/deog/issues/41" closed="2023-11-13T14:17:56+00:00">41</issue>
+        <ticket>34</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>34-ee9aef7e</id>
+        <lines>80-81</lines>
+        <body>use @ParameterizedTest here instead of looking into stackTrace. Current approach has some limitations. For example, if stack depth will increase, this function will output wrong name.</body>
+        <file>src/test/kotlin/org/objectionary/deog/unit/graph/TestBase.kt</file>
+        <author>Roman Korostinskiy</author>
+        <email>70313618+c71n93@users.noreply.github.com</email>
+        <time>2023-10-17T09:29:15Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/deog/issues/35">35</issue>
+    <ticket>29</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>29-67e5e248</id>
+    <lines>47-48</lines>
+    <body>This class is stateless set of static functions, and instance of this class should not exist. It needs to be refactored and either turned into set of util functions, or get some kind of state.</body>
+    <file>src/main/kotlin/org/objectionary/deog/sources/XslTransformer.kt</file>
+    <author>@c71n93</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-10-12T10:21:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/deog/issues/36">36</issue>
+    <ticket>29</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>29-2f329725</id>
+    <lines>33-34</lines>
+    <body>Integration tests needs to be added. It is necessary to come up with the output format of the entire program</body>
+    <file>src/test/kotlin/org/objectionary/deog/unit/graph/TestBase.kt</file>
+    <author>@c71n93</author>
+    <email>70313618+c71n93@users.noreply.github.com</email>
+    <time>2023-10-12T10:21:13Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

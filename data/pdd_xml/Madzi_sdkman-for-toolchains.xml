@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-10-06T21:43:20+00:00" version="0.31.7">
+  <puzzle alive="true">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/2">2</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-32ad9f0e</id>
+    <lines>104-104</lines>
+    <body>need to add gitflow plugin --&gt;</body>
+    <file>pom.xml</file>
+    <author>@Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-05T16:20:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/3">3</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-8fe9e659</id>
+    <lines>31-31</lines>
+    <body>add check that toolchains.xml contains correct records</body>
+    <file>src/main/java/madzi/toolchains/command/CheckCommand.java</file>
+    <author>@Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-05T16:20:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/4" closed="2022-10-05T22:09:06+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-e770e2d5</id>
+    <lines>54-54</lines>
+    <body>add subcommands</body>
+    <file>src/main/java/madzi/toolchains/command/ToolchainsCommand.java</file>
+    <author>@Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-05T16:20:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/5" closed="2022-10-05T22:09:11+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-6101b0fb</id>
+    <lines>26-26</lines>
+    <body>implements generation of toolchains.xml</body>
+    <file>src/main/java/madzi/toolchains/command/GenerateCommand.java</file>
+    <author>@Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-05T16:20:48Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/7" closed="2022-10-06T21:28:12+00:00">7</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5-4b9bc4ac</id>
+        <lines>19-19</lines>
+        <body>implements parsing jdk folder name</body>
+        <file>src/main/java/madzi/toolchains/repo/internal/BaseSdkmanJdkParser.java</file>
+        <author>@Madzi</author>
+        <email>eliseevsan@gmail.com</email>
+        <time>2022-10-05T22:08:31Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/6">6</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-ff6c9b29</id>
+    <lines>35-35</lines>
+    <body>can be added applicationFolder &amp; currentFolder</body>
+    <file>src/main/java/madzi/toolchains/infra/internal/LocalFileSystem.java</file>
+    <author>@Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-05T16:20:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/8">8</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-ca3a4c05</id>
+    <lines>6-6</lines>
+    <body>improve documentation</body>
+    <file>README.adoc</file>
+    <author>Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-06T06:28:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/9">9</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-7a6b6cdd</id>
+    <lines>33-33</lines>
+    <body>sort toolchains for output</body>
+    <file>src/main/java/madzi/toolchains/command/ListCommand.java</file>
+    <author>@Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-06T21:26:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/10">10</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-a52eca8f</id>
+    <lines>35-35</lines>
+    <body>the id for toolchains.xml should be able to defined in external config</body>
+    <file>src/main/java/madzi/toolchains/command/GenerateCommand.java</file>
+    <author>@Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-06T21:26:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Madzi/sdkman-for-toolchains/issues/11">11</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-539e7a04</id>
+    <lines>45-45</lines>
+    <body>generate list for toolchains.xml</body>
+    <file>src/main/java/madzi/toolchains/command/GenerateCommand.java</file>
+    <author>@Madzi</author>
+    <email>eliseevsan@gmail.com</email>
+    <time>2022-10-06T21:26:33Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

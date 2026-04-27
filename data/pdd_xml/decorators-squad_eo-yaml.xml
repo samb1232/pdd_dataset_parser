@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-07-23T10:50:58+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/136" closed="2020-03-09T20:39:08+00:00">136</issue>
+    <ticket>109</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>109-3848fb59</id>
+    <lines>45-46</lines>
+    <body>Implement a new iterator() for YamlLines to fix different indentations test as indentsValueWithDifferentIndentation() test.</body>
+    <file>src/test/java/com/amihaiemil/camel/ReadPointedScalarTest.java</file>
+    <author>Mihai A</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-09-10T13:10:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/137" closed="2020-03-26T17:20:56+00:00">137</issue>
+    <ticket>107</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>107-ebfbb571</id>
+    <lines>63-64</lines>
+    <body>Add more tests to cover all the nested node possibilities.</body>
+    <file>src/main/java/com/amihaiemil/camel/AbstractYamlLines.java</file>
+    <author>Mihai A</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-09-10T13:10:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/138" closed="2020-04-14T15:26:25+00:00">138</issue>
+    <ticket>30</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>30-1ab58fb9</id>
+    <lines>35-37</lines>
+    <body>Add method ``serlialize()`` in YamlNode interface and implement it in the YamlNode implementors (e.g. Scalar) to serlialize it and return the Yaml node as a Yaml tree.</body>
+    <file>src/main/java/com/amihaiemil/camel/AbstractYamlDump.java</file>
+    <author>Mihai A</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-09-10T13:10:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/139" closed="2020-03-24T21:22:27+00:00">139</issue>
+    <ticket>109</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>109-bb96edbe</id>
+    <lines>38-39</lines>
+    <body>Refactor the implementation of value() and indent() methods.</body>
+    <file>src/main/java/com/amihaiemil/camel/ReadPointedScalar.java</file>
+    <author>Mihai A</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-09-10T13:10:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/169" closed="2020-03-13T10:39:09+00:00">169</issue>
+    <ticket>165</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>165-ab99980e</id>
+    <lines>77-79</lines>
+    <body>Add some integration tests to make sure that all types of YAML are printed/indented correctly. It can get a little out of hand with the different implementations of YamlLines.iterator() method.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/YamlLines.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-03-09T17:40:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/210" closed="2020-03-22T19:43:58+00:00">210</issue>
+    <ticket>90</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>90-5475270c</id>
+    <lines>49-53</lines>
+    <body>Check and see how we can use the {@link WellIndented} decorator here, to validate that the lines have correct indentation. Maybe we will need to do some changes inside WellIndented, since in the case of a YAML Stream, the lines after the Start Mark can be more indented or they can have the same indentation as the mark.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/ReadYamlStream.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-03-22T18:33:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/211" closed="2020-03-23T19:18:47+00:00">211</issue>
+    <ticket>90</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>90-42ab50d0</id>
+    <lines>61-63</lines>
+    <body>This method has to be enhanced to also cover the case when the first "---" is missing. A YAML Stream of documents can also omit the Start Marker for the first YAML Document.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/StartMarkers.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-03-22T18:33:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/eo-yaml/issues/218" closed="2020-03-24T17:52:30+00:00">218</issue>
+        <ticket>211</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>211-6b8bbc27</id>
+        <lines>45-47</lines>
+        <body>Method toYamlNode has a lot of duplicated case, it most likely needs to be refactored. Make sure to add tests for all the performed changes as this method is quite important in the library.</body>
+        <file>src/main/java/com/amihaiemil/eoyaml/AllYamlLines.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-03-23T19:12:57Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/eo-yaml/issues/219" closed="2020-03-31T15:35:20+00:00">219</issue>
+        <ticket>211</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>211-1056c8d2</id>
+        <lines>408-411</lines>
+        <body>Fix this unit test. The YAML from the file is not read properly, most likely because of line-numbering Issues. The first actual line of YAML has number 3 because the comments are omitted. YamlLines.line(...) is not aware of these possible numbering diffs.</body>
+        <file>src/test/java/com/amihaiemil/eoyaml/RtYamlInputTest.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-03-23T19:12:57Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/212" closed="2020-03-23T17:19:58+00:00">212</issue>
+    <ticket>90</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>90-e5a082f9</id>
+    <lines>60-66</lines>
+    <body>Fix this test case. The problem is that, by the time .toYamlNode(...) is called, the YamlLines iterable is actually empty and iterator.next() throws an exception. A more general solution should be provided, we should actually have an EmptyYamlNode implementation, or something else, to represent the case of a YamlNode with no lines.</body>
+    <file>src/test/java/com/amihaiemil/eoyaml/ReadYamlStreamTest.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-03-22T18:33:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/227" closed="2020-03-24T21:22:33+00:00">227</issue>
+    <ticket>221</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>221-2724374d</id>
+    <lines>40-44</lines>
+    <body>Finish the implementation of the methods in this interface. Figure out how to implement literal and built block scalars, also in the the context of indenting/printing a bigger YAML node, as well as printing only that single scalar. Maybe we will need a class called YamlPrinter, that looks for the type of the node to print.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/RtYamlScalarBuilder.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-03-24T18:51:24Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/eo-yaml/issues/229" closed="2020-03-25T18:30:30+00:00">229</issue>
+        <ticket>227</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>227-592d9723</id>
+        <lines>36-40</lines>
+        <body>Override the toString() method in each concrete type of Scalar to print it in context. At the moment calling toString() on a Scalar doesn't print a valid YAML. The printed YAML should contain a Start Marker, followed by the proper scalar mark and finally the End Marker.</body>
+        <file>src/main/java/com/amihaiemil/eoyaml/ComparableScalar.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-03-24T21:15:12Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/decorators-squad/eo-yaml/issues/235" closed="2020-03-25T18:29:45+00:00">235</issue>
+            <ticket>229</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>229-d421832f</id>
+            <lines>219-223</lines>
+            <body>Fix method ReadFoldedBlockScalar.indent(...). At the moment, it folds the scalar when indenting, but this is not correct. Indentation is for printing and when we're printing a Folded Scalar, it should be printed as a block. It is only method value() that should return the folded version.</body>
+            <file>src/test/java/com/amihaiemil/eoyaml/ReadFoldedBlockScalarTest.java</file>
+            <author>amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2020-03-25T18:03:08Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/decorators-squad/eo-yaml/issues/230" closed="2020-03-30T17:58:19+00:00">230</issue>
+        <ticket>227</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>227-584acdd4</id>
+        <lines>112-114</lines>
+        <body>Modify this method in order to properly indent Scalar nodes. They are of multiple types (plain, folded, literal) and their indentation differs. Don't forget to add unit tests.</body>
+        <file>src/main/java/com/amihaiemil/eoyaml/YamlMapping.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-03-24T21:15:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/241" closed="2020-03-28T11:45:06+00:00">241</issue>
+    <ticket>224</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>224-10286916</id>
+    <lines>119-123</lines>
+    <body>This method is not correct in the case of folded scalar. When returning the value we should indeed fold the new lines, with the exception that we should preserve the blank lines and new lines of more inner indented lines. See how ReadFoldedBlockScalar.value() is implemented.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/RtYamlScalarBuilder.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-03-26T17:15:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/246">246</issue>
+    <ticket>244</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>244-f87b53f2</id>
+    <lines>112-116</lines>
+    <body>This method is not correct. When returning the value we should indeed fold the new lines, with the exception that we should preserve the blank lines and new lines of more inner indented lines. See how ReadFoldedBlockScalar.value() is implemented.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/RtYamlScalarBuilder.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-03-28T11:40:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/271" closed="2020-04-08T21:35:27+00:00">271</issue>
+    <ticket>261</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>261-3d97786f</id>
+    <lines>54-57</lines>
+    <body>Find a way to also "merge" the comments from the mappings' key:value pairs. The comment referring to the YamlMapping itself will either be taken from the original YamlMapping or a new one can be accepted via the constructor.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlMapping.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-04-01T18:49:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/272" closed="2020-04-08T16:41:40+00:00">272</issue>
+    <ticket>261</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>261-8e1a0dc7</id>
+    <lines>115-117</lines>
+    <body>Continue with the support for comments by implementing the reading of comments in the case of a YamlMapping. Comments for key:value pairs are already implemented in BaseYamlMapping.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-04-01T18:49:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/279" closed="2020-04-08T16:41:45+00:00">279</issue>
+    <ticket>276</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>276-21bbae9d</id>
+    <lines>169-171</lines>
+    <body>Continue implementing support for Comments into the read version of YamlMapping. Comments for the elements of a sequence are already implemented in BaseYamlSequence.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/ReadYamlSequence.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-04-02T15:52:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/336" closed="2020-05-15T19:00:07+00:00">336</issue>
+    <ticket>238</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>238-cdc69ab7</id>
+    <lines>45-49</lines>
+    <body>Add more tests to cover all the examples from the Yaml 1.2 Specification. You can have a look at PR 335 to see how other examples have been tested. Don't forget that you do not have to write all the tests in this task -- write 1 or 2 tests, leave a todo (puzzle) and the work will continue in a future ticket.</body>
+    <file>src/test/java/com/amihaiemil/eoyaml/spec/SpecExamplesITCase.java</file>
+    <author>@ANadrowski</author>
+    <email>aislan.nadrowski@gmail.com</email>
+    <time>2020-05-13T16:07:00Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/decorators-squad/eo-yaml/issues/338">338</issue>
+        <ticket>336</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>336-cdc69ab7</id>
+        <lines>45-49</lines>
+        <body>Add more tests to cover all the examples from the Yaml 1.2 Specification. You can have a look at PR 335 to see how other examples have been tested. Don't forget that you do not have to write all the tests in this task -- write 1 or 2 tests, leave a todo (puzzle) and the work will continue in a future ticket.</body>
+        <file>src/test/java/com/amihaiemil/eoyaml/spec/SpecExamplesITCase.java</file>
+        <author>@ANadrowski</author>
+        <email>aislan.nadrowski@gmail.com</email>
+        <time>2020-05-15T16:59:13Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/388" closed="2020-07-23T10:50:44+00:00">388</issue>
+    <ticket>368</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>368-ef575783</id>
+    <lines>40-43</lines>
+    <body>Implement and unit test class ReadFlowMapping, which will represent a mapping in flow format (between {} brackets). After that is done, use it here when reading the sequence's values. At the moment this flow sequence only reads sequence and scalar values.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/ReadFlowSequence.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-17T14:01:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/389" closed="2020-07-23T10:50:51+00:00">389</issue>
+    <ticket>368</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>368-c52e15ab</id>
+    <lines>44-46</lines>
+    <body>Use this class to read flow YamlSequences which are children of other read nodes, and also when reading a flow/json-like YamlSequence directly from the YamlInput.</body>
+    <file>src/main/java/com/amihaiemil/eoyaml/ReadFlowSequence.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-17T14:01:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/decorators-squad/eo-yaml/issues/390" closed="2020-07-23T10:50:58+00:00">390</issue>
+    <ticket>368</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>368-98dbb0f0</id>
+    <lines>108-111</lines>
+    <body>Make sure the escaped scalars read from a flow sequence are unescaped when they are returned to the user. The bellow assertions, for [a] and b][ should work without being surrounded by quotes/apostrophes.</body>
+    <file>src/test/java/com/amihaiemil/eoyaml/ReadFlowSequenceTestCase.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-17T14:01:34Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

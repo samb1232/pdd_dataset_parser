@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-10-12T19:26:01+00:00" version="0.31.7">
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/py2eo/issues/399">399</issue>
+    <ticket>331</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>331-03e94078</id>
+    <lines>59-60</lines>
+    <body>exception object compatibility is not fully implemented ("or a tuple containing an item that is the class or a base class of the exception object"), see https://docs.python.org/3/reference/compound_stmts.html#the-try-statement</body>
+    <file>transpiler/src/main/scala/org/polystat/py2eo/transpiler/SimplifyExceptions.scala</file>
+    <author>@dours</author>
+    <email>akadours2@gmail.com</email>
+    <time>2022-10-12T19:25:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/py2eo/issues/400">400</issue>
+    <ticket>331</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>331-f66acb36</id>
+    <lines>61-61</lines>
+    <body>also must implement named exceptions and del of those a the end of an except clause</body>
+    <file>transpiler/src/main/scala/org/polystat/py2eo/transpiler/SimplifyExceptions.scala</file>
+    <author>@dours</author>
+    <email>akadours2@gmail.com</email>
+    <time>2022-10-12T19:25:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/py2eo/issues/401">401</issue>
+    <ticket>331</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>331-db43ae41</id>
+    <lines>62-62</lines>
+    <body>also must rethrow an exception if it is not catched</body>
+    <file>transpiler/src/main/scala/org/polystat/py2eo/transpiler/SimplifyExceptions.scala</file>
+    <author>@dours</author>
+    <email>akadours2@gmail.com</email>
+    <time>2022-10-12T19:25:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/py2eo/issues/402">402</issue>
+    <ticket>47</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>47-e9d91baf</id>
+    <lines>9-9</lines>
+    <body>This implementation does not work if a class method is returned as a function and then called</body>
+    <file>transpiler/src/main/scala/org/polystat/py2eo/transpiler/AddExplicitSelfToMethodCalls.scala</file>
+    <author>@dours</author>
+    <email>akadours2@gmail.com</email>
+    <time>2022-10-12T19:25:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/polystat/py2eo/issues/403">403</issue>
+    <ticket>340</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>340-1f69bc36</id>
+    <lines>103-103</lines>
+    <body>all the keyword args must be supported in the "lambda" as well</body>
+    <file>transpiler/src/main/scala/org/polystat/py2eo/transpiler/GenericExpressionPasses.scala</file>
+    <author>@dours</author>
+    <email>akadours2@gmail.com</email>
+    <time>2022-10-12T19:25:15Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

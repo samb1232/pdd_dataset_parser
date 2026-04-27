@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-11-12T22:32:04+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/2" closed="2019-12-27T15:22:04+00:00">2</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-59299688</id>
+    <lines>4-5</lines>
+    <body>Setup Dev environment setup simple nest server with hello get response</body>
+    <file>README.md</file>
+    <author>igornester</author>
+    <email>inesterenko@nucleushealth.io</email>
+    <time>2019-12-27T13:45:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/3" closed="2019-12-27T15:40:24+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-d77f541b</id>
+    <lines>8-10</lines>
+    <body>Provide env configuration move PORT to env variablese use dotenv-safe approach</body>
+    <file>src/main.ts</file>
+    <author>igornester</author>
+    <email>inesterenko@nucleushealth.io</email>
+    <time>2019-12-27T15:21:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/4" closed="2019-12-27T17:31:48+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-db7e6998</id>
+    <lines>6-8</lines>
+    <body>Get List of notification from Github use graphql to request for notifications rename to notification service</body>
+    <file>src/app.service.ts</file>
+    <author>igornester</author>
+    <email>inesterenko@nucleushealth.io</email>
+    <time>2019-12-27T15:21:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/5" closed="2019-12-27T18:29:25+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-e91a5944</id>
+    <lines>10-11</lines>
+    <body>User other client to get list notification looks like grapql doesn't have notification data use other client</body>
+    <file>src/notification.service.ts</file>
+    <author>igornester</author>
+    <email>inesterenko@nucleushealth.io</email>
+    <time>2019-12-27T17:31:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/6" closed="2019-12-27T18:40:05+00:00">6</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-8be40431</id>
+    <lines>12-13</lines>
+    <body>Provide proper time/since params to control list of notifications use it for request latest notification</body>
+    <file>src/notification.service.ts</file>
+    <author>igornester</author>
+    <email>inesterenko@nucleushealth.io</email>
+    <time>2019-12-27T18:16:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/7" closed="2020-01-25T16:55:42+00:00">7</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-e793ceee</id>
+    <lines>12-13</lines>
+    <body>Provide proper time/since params to control list of notifications find notification/subscriptions for mentioned user</body>
+    <file>src/notification.service.ts</file>
+    <author>igornester</author>
+    <email>inesterenko@nucleushealth.io</email>
+    <time>2019-12-27T18:16:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/8" closed="2020-01-25T16:55:47+00:00">8</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-f3bb8ee1</id>
+    <lines>40-41</lines>
+    <body>answer to latest notification in thread answer 'hello' if you was mentioned</body>
+    <file>src/notification.service.ts</file>
+    <author>igornester</author>
+    <email>inesterenko@nucleushealth.io</email>
+    <time>2019-12-27T18:39:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/15" closed="2020-01-29T08:31:36+00:00">15</issue>
+    <ticket>9</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>9-1de041e1</id>
+    <lines>35-36</lines>
+    <body>Use user information from latest comment get information from latest command about user and add it's name to answer</body>
+    <file>src/notification.service.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-25T16:50:05Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/Mentorioum/mentoriumbot/issues/21" closed="2020-02-02T17:33:01+00:00">21</issue>
+        <ticket>15</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>15-dc53abfe</id>
+        <lines>47-48</lines>
+        <body>Create Comment Broken can't create a comment, it throws the error</body>
+        <file>src/notification.service.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2020-01-29T08:29:07Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/16">16</issue>
+    <ticket>9</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>9-160c2d99</id>
+    <lines>47-49</lines>
+    <body>Answer on latest comment, where bot was mentioned it's possible that latest comment in issue is not the comment where you was mentioned</body>
+    <file>src/notification.service.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-25T16:54:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/17" closed="2020-02-15T09:23:25+00:00">17</issue>
+    <ticket>9</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>9-777f3c25</id>
+    <lines>66-67</lines>
+    <body>Remove notification after answer remove notification after answer</body>
+    <file>src/notification.service.ts</file>
+    <author>Igor Nesterenko</author>
+    <email>nesterone@users.noreply.github.com</email>
+    <time>2020-01-25T16:42:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/18" closed="2020-02-15T10:11:59+00:00">18</issue>
+    <ticket>9</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>9-b20f3e92</id>
+    <lines>6-7</lines>
+    <body>Define start/stop endpoint watch over notifications use simple setInterval for listen over notifications</body>
+    <file>src/notification.service.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-01-25T17:19:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/35" closed="2020-03-21T14:32:33+00:00">35</issue>
+    <ticket>30</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>30-9ace3331</id>
+    <lines>51-53</lines>
+    <body>Bot as collaborator get's much more notifications Need to filter threads according to cafeterias (invitaion, mention), just fist is not enough</body>
+    <file>src/notification.service.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-03-14T13:51:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/Mentorioum/mentoriumbot/issues/39" closed="2020-03-23T20:34:23+00:00">39</issue>
+    <ticket>32</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>32-7bc93630</id>
+    <lines>73-73</lines>
+    <body>- parse issue.body to get curriculum for new tasks</body>
+    <file>src/notification.service.ts</file>
+    <author>nesterone</author>
+    <email>igornester@gmail.com</email>
+    <time>2020-03-21T14:31:41Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/Mentorioum/mentoriumbot/issues/41" closed="2020-03-28T21:41:00+00:00">41</issue>
+        <ticket>39</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>39-e4818b3a</id>
+        <lines>8-8</lines>
+        <body>Extend with parsing assignee and third task</body>
+        <file>src/markdown.links.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2020-03-23T20:32:59Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/Mentorioum/mentoriumbot/issues/46">46</issue>
+            <ticket>41</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>41-c613d9e0</id>
+            <lines>87-87</lines>
+            <body>parse attributes</body>
+            <file>src/markdown.links.spec.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2020-03-25T18:29:20Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/Mentorioum/mentoriumbot/issues/42" closed="2020-03-28T21:41:05+00:00">42</issue>
+        <ticket>39</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>39-e168d129</id>
+        <lines>75-75</lines>
+        <body>- Integrate with markdown parser</body>
+        <file>src/notification.service.ts</file>
+        <author>nesterone</author>
+        <email>igornester@gmail.com</email>
+        <time>2020-03-23T20:32:59Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/Mentorioum/mentoriumbot/issues/47">47</issue>
+            <ticket>42</ticket>
+            <estimate>50</estimate>
+            <role>DEV</role>
+            <id>42-711531f6</id>
+            <lines>41-42</lines>
+            <body>Extend links iterate with search args we need ability to search by relation through links</body>
+            <file>src/link.instructions.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2020-03-27T20:33:00Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/Mentorioum/mentoriumbot/issues/48">48</issue>
+            <ticket>42</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>42-e2a34a90</id>
+            <lines>55-56</lines>
+            <body>Introduce MarkdownDescriptionPrinters a lot of places where generation of description is duplicated</body>
+            <file>src/link.instructions.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2020-03-28T21:21:35Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/Mentorioum/mentoriumbot/issues/49" closed="2020-03-28T22:09:42+00:00">49</issue>
+            <ticket>42</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>42-8a8f46ff</id>
+            <lines>80-80</lines>
+            <body>look on links and reply with steps to do.</body>
+            <file>src/notification.service.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2020-03-26T18:40:23Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/Mentorioum/mentoriumbot/issues/50">50</issue>
+            <ticket>42</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>42-1abd0636</id>
+            <lines>94-95</lines>
+            <body>- Handle issue's creation errors at least inform creator of that root issue that error occurs</body>
+            <file>src/notification.service.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2020-03-28T21:21:35Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/Mentorioum/mentoriumbot/issues/51">51</issue>
+            <ticket>42</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>42-c36116dd</id>
+            <lines>99-99</lines>
+            <body>provide link to root issue for other tasks</body>
+            <file>src/notification.service.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2020-03-28T21:21:35Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/Mentorioum/mentoriumbot/issues/52">52</issue>
+            <ticket>42</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>42-da1122d0</id>
+            <lines>78-78</lines>
+            <body>Provide validation over parsed links</body>
+            <file>src/notification.service.ts</file>
+            <author>nesterone</author>
+            <email>igornester@gmail.com</email>
+            <time>2020-03-28T22:09:23Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>53</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>53-1f667607</id>
+    <lines>11-12</lines>
+    <body>remove or move workflow management to other place return this.wather.start(process.env.NOTIFICATION_WAKEUP_INTERVAL)</body>
+    <file>src/app.controller.ts</file>
+    <author>@nesterone</author>
+    <email>nesterone@users.noreply.github.com</email>
+    <time>2020-04-18T07:29:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>53</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>53-f9e732a9</id>
+    <lines>14-15</lines>
+    <body>Extract configuration to upper layers config should be in root of app and take it from env</body>
+    <file>src/notification.service.ts</file>
+    <author>@nesterone</author>
+    <email>nesterone@users.noreply.github.com</email>
+    <time>2020-04-18T07:29:56Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

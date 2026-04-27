@@ -1,0 +1,1369 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-09-30T06:32:55+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/66" closed="2017-11-09T20:51:37+00:00">66</issue>
+    <ticket>63</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>63-5bbfe472</id>
+    <lines>43-45</lines>
+    <body>test_result hide detailes of test failure. This may be a problem if build machine have specific environment. Shippable should display failure details in log</body>
+    <file>test_report.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-07T09:11:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/67" closed="2017-11-09T20:51:39+00:00">67</issue>
+    <ticket>63</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>63-76f37125</id>
+    <lines>49-50</lines>
+    <body>Failures in xml file without details Details should be stored in &lt;system-out/&gt; tag</body>
+    <file>test_report.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-07T09:11:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/70" closed="2017-10-25T16:11:11+00:00">70</issue>
+    <ticket>59</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>59-4034ff1b</id>
+    <lines>14-15</lines>
+    <body>Imit should calculate other imit on changed data. Need to make test with small data change, result should be differ</body>
+    <file>kuznyechik/Imit.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-09T18:42:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/71" closed="2017-10-25T16:11:12+00:00">71</issue>
+    <ticket>59</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>59-05cbc3f5</id>
+    <lines>7-7</lines>
+    <body>KeyIter are very similar and it looks like copy-paste</body>
+    <file>kuznyechik/KeyIter.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-09T18:42:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/75" closed="2017-10-25T16:11:13+00:00">75</issue>
+        <ticket>71</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>71-c18be0a3</id>
+        <lines>23-25</lines>
+        <body>KeyIterAny is not final It is a base class for KeyIter2-10, this is a code sharing. But I can't right named him for agregate</body>
+        <file>kuznyechik/KeyIter.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-04-09T20:22:07Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/goost/issues/253" closed="2017-10-25T16:11:14+00:00">253</issue>
+            <ticket>75</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>75-f1fb0509</id>
+            <lines>11-11</lines>
+            <body>Remove KeyIter*, use BlkIterKey</body>
+            <file>kuznyechik/KeyIter.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-09-22T20:39:50Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/72" closed="2017-10-25T16:11:15+00:00">72</issue>
+    <ticket>59</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>59-81f3b55b</id>
+    <lines>6-10</lines>
+    <body>Need to introduce abstract interface for Block. For the sake of speed, I want Block to be a non-polymorphic type, but premature optimization is evil, and maybe it's worth making it polymorphic, then RBlock, EnkriptedBlock will implement its interface.</body>
+    <file>kuznyechik/RBlock.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-09T18:42:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/73" closed="2017-10-25T16:11:16+00:00">73</issue>
+    <ticket>59</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>59-489625a6</id>
+    <lines>7-8</lines>
+    <body>Remove Operations, this is a utility class Need to introduce Small classes for transformed blocks</body>
+    <file>kuznyechik/Operations.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-09T18:42:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/77" closed="2017-10-25T16:11:17+00:00">77</issue>
+        <ticket>73</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>73-002e230f</id>
+        <lines>32-33</lines>
+        <body>Lazy object LBlock and SBlock looks ugly in this context Maybe i need to introduce LSX object? Or rework parameters passing to them.</body>
+        <file>kuznyechik/Key.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-04-10T14:04:51Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/80" closed="2017-10-25T16:11:17+00:00">80</issue>
+    <ticket>78</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>78-2cfaff35</id>
+    <lines>5-6</lines>
+    <body>Add c++ style checker This may be cpplint or cppcheck for example.</body>
+    <file>style.sh</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-11T19:34:12Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/112" closed="2017-10-25T16:11:18+00:00">112</issue>
+        <ticket>80</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>80-6fbf41d5</id>
+        <lines>5-5</lines>
+        <body>Add cpplynt for check project</body>
+        <file>style.sh</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-18T10:58:33Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/goost/issues/114" closed="2017-11-21T10:57:42+00:00">114</issue>
+            <ticket>112</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>112-c412e6a9</id>
+            <lines>2-2</lines>
+            <body>enable build/include</body>
+            <file>CPPLINT.cfg</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-19T19:13:37Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/goost/issues/115" closed="2017-11-21T10:57:43+00:00">115</issue>
+            <ticket>112</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>112-7f86b660</id>
+            <lines>3-3</lines>
+            <body>enable build/include_alpha</body>
+            <file>CPPLINT.cfg</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-19T19:13:37Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/goost/issues/116" closed="2017-11-21T10:57:45+00:00">116</issue>
+            <ticket>112</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>112-f2c58bba</id>
+            <lines>4-4</lines>
+            <body>enable build/include_what_you_use</body>
+            <file>CPPLINT.cfg</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-19T19:13:37Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/goost/issues/117" closed="2017-10-25T16:11:19+00:00">117</issue>
+            <ticket>112</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>112-8f3b9e71</id>
+            <lines>5-5</lines>
+            <body>enable legal/copyright</body>
+            <file>CPPLINT.cfg</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-19T19:13:37Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/goost/issues/121" closed="2017-10-25T16:11:22+00:00">121</issue>
+                <ticket>117</ticket>
+                <estimate>15</estimate>
+                <role>IMP</role>
+                <id>117-aea33a86</id>
+                <lines>7-7</lines>
+                <body>Add include files to cpplint processing</body>
+                <file>style.sh</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-05-19T20:54:59Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/goost/issues/118" closed="2017-10-25T16:11:22+00:00">118</issue>
+            <ticket>112</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>112-9a9a49ef</id>
+            <lines>6-6</lines>
+            <body>enable readability/casting</body>
+            <file>CPPLINT.cfg</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-19T19:13:37Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/84">84</issue>
+    <ticket>82</ticket>
+    <estimate>32</estimate>
+    <role>IMP</role>
+    <id>82-c44ff2af</id>
+    <lines>13-14</lines>
+    <body>Use predefined gmul tab for speedup kuznyechik alg Calculation is slower solution.</body>
+    <file>kuznyechik/RBlock.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-20T07:35:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/85" closed="2017-10-25T16:11:23+00:00">85</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>82-68bf8978</id>
+    <lines>46-47</lines>
+    <body>Cn is a const key. Need to predefine this keys</body>
+    <file>kuznyechik/KeyIter.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-20T07:35:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/86" closed="2017-10-25T16:11:24+00:00">86</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>82-4bc8b77e</id>
+    <lines>11-12</lines>
+    <body>CTREncryptedStream is a generic alg. May be share this code with magma with templates?</body>
+    <file>kuznyechik/CTREncryptedStream.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-20T07:35:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/87" closed="2017-10-25T16:11:25+00:00">87</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>82-b35f786e</id>
+    <lines>1-3</lines>
+    <body>Class naming style is Ambiguous Need to use suffix extension for close proximity of related classes This applies to BlockStreams and Blocks</body>
+    <file>test/kuznyechik/CTREncryptedStreamTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-04-20T07:35:50Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/110" closed="2017-10-25T16:11:26+00:00">110</issue>
+        <ticket>87</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>87-465b0bee</id>
+        <lines>9-11</lines>
+        <body>Need to introduce Block abstraction EncryptedBlock block should be a Block. Q: If block is a abstraction - value cannot return Block by value.</body>
+        <file>kuznyechik/EncryptedBlock.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-16T19:11:44Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/91" closed="2017-10-25T16:11:27+00:00">91</issue>
+    <ticket>89</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>89-afe48ff3</id>
+    <lines>7-7</lines>
+    <body>SboxByte should use source sbox as is, without creating tab</body>
+    <file>magma/SboxByte.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-09T20:02:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/95" closed="2017-10-25T16:11:27+00:00">95</issue>
+    <ticket>93</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>93-cbba1ff6</id>
+    <lines>6-6</lines>
+    <body>Rename BlockIterator to Iterator, KISS</body>
+    <file>kuznyechik/Stream.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-11T20:00:37Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/102" closed="2017-10-25T16:11:28+00:00">102</issue>
+        <ticket>95</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>95-c6b9a9b5</id>
+        <lines>10-10</lines>
+        <body>Rename DataStreamIterator to ItMemory</body>
+        <file>kuznyechik/StMemory.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-12T20:35:48Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/goost/issues/108" closed="2017-11-06T20:08:41+00:00">108</issue>
+            <ticket>102</ticket>
+            <estimate>15</estimate>
+            <role>IMP</role>
+            <id>102-31db7898</id>
+            <lines>10-10</lines>
+            <body>Introduce magma::Stream interface</body>
+            <file>magma/DataStream.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-05-16T12:25:24Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/goost/issues/321" closed="2017-11-07T19:15:42+00:00">321</issue>
+                <ticket>108</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>108-ce33e0c4</id>
+                <lines>14-14</lines>
+                <body>Rename magma::DataStream to magma::StMemory</body>
+                <file>magma/DataStream.h</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-11-06T20:08:34Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/DronMDF/goost/issues/332" closed="2017-11-08T20:08:34+00:00">332</issue>
+                    <ticket>321</ticket>
+                    <estimate>0</estimate>
+                    <role>IMP</role>
+                    <id>321-432b0887</id>
+                    <lines>13-13</lines>
+                    <body>Rename DataStreamIterator to magma::ItMemory</body>
+                    <file>magma/StMemory.cpp</file>
+                    <author>Andrey Valyaev</author>
+                    <email>dron.valyaev@gmail.com</email>
+                    <time>2017-11-07T19:06:10Z</time>
+                    <children>
+                      <puzzle alive="true">
+                        <issue href="https://github.com/DronMDF/goost/issues/337">337</issue>
+                        <ticket>332</ticket>
+                        <estimate>0</estimate>
+                        <role>IMP</role>
+                        <id>332-5f83d6c3</id>
+                        <lines>33-33</lines>
+                        <body>Add size parameter to iterator, and he can determine last() and size() for youself.</body>
+                        <file>magma/StMemory.cpp</file>
+                        <author>Andrey Valyaev</author>
+                        <email>dron.valyaev@gmail.com</email>
+                        <time>2017-11-08T20:08:23Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/103" closed="2017-10-25T16:11:29+00:00">103</issue>
+        <ticket>95</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>95-48ec97a3</id>
+        <lines>9-9</lines>
+        <body>Rename CTREncryptedIterator to ItCTREncrypted</body>
+        <file>kuznyechik/StCTREncrypted.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-05-12T20:35:48Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <ticket>103</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>103-9cc10377</id>
+            <lines>12-12</lines>
+            <body>Iterator::value() should return pointer to Block</body>
+            <file>kuznyechik/Iterator.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-09-16T19:43:43Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <ticket>103</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>103-5193caf5</id>
+            <lines>14-14</lines>
+            <body>ItCTREncrypted should take pointer to ctr as Block, not imm BlkRaw value</body>
+            <file>kuznyechik/StCTREncrypted.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-09-16T19:43:43Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/96" closed="2017-10-25T16:11:30+00:00">96</issue>
+    <ticket>93</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>93-cf4ec8a5</id>
+    <lines>10-10</lines>
+    <body>Reame DataStream to StMemory, DataStream is very abstract name.</body>
+    <file>kuznyechik/DataStream.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-11T20:00:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/97" closed="2017-10-25T16:11:31+00:00">97</issue>
+    <ticket>93</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>93-570b91b9</id>
+    <lines>14-14</lines>
+    <body>Rename CTREncryptedStream to StCTREncrypted</body>
+    <file>kuznyechik/CTREncryptedStream.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-11T20:00:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/100">100</issue>
+    <ticket>82</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>82-9efa52be</id>
+    <lines>11-12</lines>
+    <body>StCTREncrypted is a generic alg. May be share this code with magma with templates?</body>
+    <file>kuznyechik/StCTREncrypted.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-12T12:13:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/106">106</issue>
+    <ticket>104</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>104-76b2afb4</id>
+    <lines>11-12</lines>
+    <body>-Wno-non-virtual-dtor cause from boost::enable_shared_trom_this class How resolve this? Avois shared_from_this?</body>
+    <file>CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-05-15T20:20:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/125">125</issue>
+    <ticket>122</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>122-7e6e9dd5</id>
+    <lines>23-23</lines>
+    <body>Hardcoded shippable path</body>
+    <file>test2o/CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-06-30T19:25:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/130" closed="2017-10-25T16:11:31+00:00">130</issue>
+    <ticket>128</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>128-b69b1b0d</id>
+    <lines>18-18</lines>
+    <body>Replace BlockRepr to oout::ReprPrintable</body>
+    <file>test2o/kuznyechik/BlockTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-07-07T19:14:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/135">135</issue>
+    <ticket>124</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>124-5c3ae4b1</id>
+    <lines>15-15</lines>
+    <body>Add clang and new gcc compliers</body>
+    <file>.travis.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-07-26T17:55:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/136" closed="2017-10-25T16:11:32+00:00">136</issue>
+    <ticket>124</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>124-717d4f93</id>
+    <lines>22-22</lines>
+    <body>Add style make target</body>
+    <file>.travis.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-07-26T17:55:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/138" closed="2017-10-25T16:11:33+00:00">138</issue>
+    <ticket>134</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>134-a317feb7</id>
+    <lines>7-7</lines>
+    <body>move kuznyechik/ImitTest.cpp to 2out</body>
+    <file>test2o/CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-07-27T14:44:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/139" closed="2017-10-25T16:11:34+00:00">139</issue>
+    <ticket>134</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>134-dc2164ff</id>
+    <lines>8-8</lines>
+    <body>Move kuznyechik/EncryptedBlockTest.cpp to 2out</body>
+    <file>test2o/CMakeLists.txt</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-07-27T14:44:52Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/148" closed="2017-10-25T16:11:34+00:00">148</issue>
+        <ticket>139</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>139-5e26666f</id>
+        <lines>22-22</lines>
+        <body>Move A11 tests to 2out</body>
+        <file>test/kuznyechik/EncryptedBlockTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-08-15T20:43:27Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/goost/issues/154" closed="2017-10-25T16:11:35+00:00">154</issue>
+            <ticket>148</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>148-8a610943</id>
+            <lines>21-21</lines>
+            <body>ReprEncryptedBlock can have special ctor (block, key), for shortest tests</body>
+            <file>test2o/kuznyechik/EncryptedBlockTest.cpp</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-08-17T13:06:27Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/149" closed="2017-10-25T16:11:36+00:00">149</issue>
+        <ticket>139</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>139-6c6553a3</id>
+        <lines>19-20</lines>
+        <body>If EncryptBlock has Block type, we can introduce universal block representation instead this class</body>
+        <file>test2o/kuznyechik/EncryptedBlockTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-08-16T09:00:18Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/150" closed="2017-10-25T16:11:37+00:00">150</issue>
+        <ticket>139</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>139-02d6b4f9</id>
+        <lines>35-36</lines>
+        <body>Extract key to fixture. Fixture conception is not complete. Can try this here.</body>
+        <file>test2o/kuznyechik/EncryptedBlockTest.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-08-16T09:00:18Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/140" closed="2017-10-25T16:11:38+00:00">140</issue>
+    <ticket>134</ticket>
+    <estimate>15</estimate>
+    <role>IMP</role>
+    <id>134-4708ecbe</id>
+    <lines>11-11</lines>
+    <body>Make Suite class for entire kuznyechik tests</body>
+    <file>test2o/test2o.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-07-27T14:44:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/164" closed="2017-10-25T16:11:39+00:00">164</issue>
+    <ticket>158</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>158-83d61bb6</id>
+    <lines>18-19</lines>
+    <body>LBlock should have Block interface. Then we can use Block representation</body>
+    <file>test2o/kuznyechik/LBlockTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-08-22T20:12:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/229" closed="2017-10-25T16:11:40+00:00">229</issue>
+    <ticket>208</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>208-47b385c8</id>
+    <lines>24-24</lines>
+    <body>Key::Iter should be Block</body>
+    <file>kuznyechik/Key.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/230" closed="2017-10-25T16:11:41+00:00">230</issue>
+    <ticket>208</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>208-52d95cec</id>
+    <lines>34-34</lines>
+    <body>Key::encrypt should take pointer to Block, not BlkRaw</body>
+    <file>kuznyechik/Key.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/231" closed="2017-10-25T16:11:42+00:00">231</issue>
+    <ticket>208</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>208-3dd19029</id>
+    <lines>35-35</lines>
+    <body>Key::encrypt should return pointer to Block, not BlkRaw</body>
+    <file>kuznyechik/Key.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/232" closed="2017-10-25T16:11:42+00:00">232</issue>
+    <ticket>227</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>227-fcc093f8</id>
+    <lines>23-23</lines>
+    <body>Remove operations from BlkRaw</body>
+    <file>kuznyechik/BlkRaw.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/233" closed="2017-10-25T16:11:43+00:00">233</issue>
+    <ticket>227</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>227-2cb5fa7d</id>
+    <lines>30-30</lines>
+    <body>Private BlkRaw state</body>
+    <file>kuznyechik/BlkRaw.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/239" closed="2017-10-25T16:11:44+00:00">239</issue>
+        <ticket>233</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>233-d0a28572</id>
+        <lines>60-60</lines>
+        <body>Add BlkIncremented (Block, Increased by n) instead imp value increment</body>
+        <file>kuznyechik/StCTREncrypted.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-09-17T09:29:00Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/234" closed="2017-10-25T16:11:45+00:00">234</issue>
+    <ticket>227</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>227-3b801b25</id>
+    <lines>35-35</lines>
+    <body>Remove print of BlkRaw</body>
+    <file>kuznyechik/BlkRaw.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/241" closed="2017-10-25T16:11:45+00:00">241</issue>
+        <ticket>234</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>234-45d91106</id>
+        <lines>14-14</lines>
+        <body>Add ctor to ReprBlock with imm values for short tests</body>
+        <file>test2o/kuznyechik/ReprBlock.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-09-18T20:22:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/242" closed="2017-10-25T16:11:46+00:00">242</issue>
+        <ticket>234</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>234-bd2d9700</id>
+        <lines>12-13</lines>
+        <body>Add kuznyechik::TestBlockEqual class for avoid imm Representation This should be wrap above TestEqual and ReprBlock</body>
+        <file>test2o/kuznyechik/Test.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-09-18T20:22:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/235" closed="2017-10-25T16:11:47+00:00">235</issue>
+    <ticket>208</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>208-f8664e7c</id>
+    <lines>46-46</lines>
+    <body>generate should take pointers to Block, instead BlkRaw</body>
+    <file>kuznyechik/KeyIter.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/250" closed="2017-10-25T16:11:48+00:00">250</issue>
+        <ticket>235</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>235-61a87d49</id>
+        <lines>64-66</lines>
+        <body>Recurse take long time. Need introduce BlkCached, for keep intermediate values and break resucrivity</body>
+        <file>kuznyechik/KeyIter.cpp</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-09-22T15:18:29Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/236" closed="2017-10-25T16:11:49+00:00">236</issue>
+    <ticket>208</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>208-5bac0a84</id>
+    <lines>47-47</lines>
+    <body>generate should return pointers to Block, instead BlkRaw</body>
+    <file>kuznyechik/KeyIter.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/248" closed="2017-10-25T16:11:49+00:00">248</issue>
+        <ticket>236</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>236-475c2813</id>
+        <lines>17-17</lines>
+        <body>Key::Data::low and Key::Data::high should return pointer to Block</body>
+        <file>kuznyechik/Key.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-09-22T09:36:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/237" closed="2020-05-06T17:17:44+00:00">237</issue>
+    <ticket>173</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>173-f882b25b</id>
+    <lines>3-3</lines>
+    <body>Style was failed, cppcheck 1.67 is very old.</body>
+    <file>.circleci/config.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-16T19:43:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/262" closed="2017-10-25T16:11:50+00:00">262</issue>
+    <ticket>260</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>260-4246cfb6</id>
+    <lines>11-12</lines>
+    <body>Replace ReprKeyData to TestBlockEqual key::Data::high and ::low already return Block</body>
+    <file>test2o/kuznyechik/ReprKeyData.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-09-29T14:57:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/270" closed="2017-10-25T16:11:51+00:00">270</issue>
+    <ticket>214</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>214-15c2e7c7</id>
+    <lines>32-33</lines>
+    <body>ItMemopy should take pointer to Block or give them over stream?</body>
+    <file>kuznyechik/StMemory.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-01T19:34:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-cb83e4a5</id>
+    <lines>15-15</lines>
+    <body>magma::Imit should be magma::Block</body>
+    <file>magma/Imit.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-78fb635a</id>
+    <lines>12-12</lines>
+    <body>rename magma::BlockIterator to magma::Iterator</body>
+    <file>magma/BlockIterator.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-feb292f1</id>
+    <lines>13-13</lines>
+    <body>magma::Iterator should be magma::Block</body>
+    <file>magma/BlockIterator.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-d99b4650</id>
+    <lines>17-18</lines>
+    <body>Split magma::Key to magma::Forward and magma::Backward? need to think about it.</body>
+    <file>magma/Key.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-0ecfb54c</id>
+    <lines>14-14</lines>
+    <body>rename magma::EncryptedBlock to magma::BlkEncrypted</body>
+    <file>magma/EncryptedBlock.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/325" closed="2017-11-12T20:31:49+00:00">325</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-2610dd42</id>
+    <lines>15-15</lines>
+    <body>magma::BlkEncrypted should take pointer to magma::Block</body>
+    <file>magma/EncryptedBlock.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-3d9bc366</id>
+    <lines>14-14</lines>
+    <body>rename magma::DecryptedBlock to magma::BlkDecrypted</body>
+    <file>magma/DecryptedBlock.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-c16825fb</id>
+    <lines>15-15</lines>
+    <body>magma::BlkDecrypted should take pointer to magma::Block</body>
+    <file>magma/DecryptedBlock.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/327" closed="2017-11-12T20:00:18+00:00">327</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-837ce65e</id>
+    <lines>22-22</lines>
+    <body>Add magma::BlkShifted</body>
+    <file>magma/BlkRaw.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/294" closed="2017-11-10T20:42:42+00:00">294</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-ece33f74</id>
+    <lines>24-24</lines>
+    <body>Add magma::BlkXored</body>
+    <file>magma/BlkRaw.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/295" closed="2017-11-10T13:55:07+00:00">295</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-e60f2d70</id>
+    <lines>31-31</lines>
+    <body>Add magma::ReprBlock instead operator &lt;&lt;</body>
+    <file>magma/BlkRaw.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-04T20:53:42Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/344" closed="2017-11-10T14:07:17+00:00">344</issue>
+        <ticket>295</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>295-73df5fb9</id>
+        <lines>24-24</lines>
+        <body>Comparsion of BlkRaw is not need. Remove it.</body>
+        <file>magma/BlkRaw.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-11-10T13:42:26Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/299" closed="2017-10-25T16:11:52+00:00">299</issue>
+    <ticket>297</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>297-ce241c0d</id>
+    <lines>18-18</lines>
+    <body>Move keys out from Test</body>
+    <file>test2o/magma/BlkEncryptedTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-06T18:25:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/309" closed="2017-11-16T20:45:19+00:00">309</issue>
+    <ticket>291</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>291-17e22f67</id>
+    <lines>31-31</lines>
+    <body>Key::forward/backward should take and return pointer to Block</body>
+    <file>magma/Key.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-18T19:40:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/310" closed="2017-11-07T11:03:24+00:00">310</issue>
+    <ticket>291</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>291-70e7ca52</id>
+    <lines>17-17</lines>
+    <body>Move SataStreamTest to 2out.</body>
+    <file>test/magma/DataStreamTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-25T09:36:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/311" closed="2017-11-08T19:33:02+00:00">311</issue>
+    <ticket>291</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>291-3dc29872</id>
+    <lines>13-13</lines>
+    <body>Move KeyCachedData to 2out.</body>
+    <file>test/magma/KeyCachedDataTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-25T09:36:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/312" closed="2017-11-09T20:28:36+00:00">312</issue>
+    <ticket>291</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>291-8ee74345</id>
+    <lines>14-14</lines>
+    <body>Move SboxTwistedTest to 2out</body>
+    <file>test/magma/SboxTwistedTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-25T09:36:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/313" closed="2017-11-07T20:37:17+00:00">313</issue>
+    <ticket>291</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>291-60c3853f</id>
+    <lines>12-12</lines>
+    <body>Move KeyDataNativeTest to 2out.</body>
+    <file>test/magma/KeyDataNativeTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-25T09:36:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/314" closed="2017-11-08T18:56:23+00:00">314</issue>
+    <ticket>291</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>291-8121a2e2</id>
+    <lines>12-12</lines>
+    <body>Move KeyDataStringTest to 2out</body>
+    <file>test/magma/KeyDataStringTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-25T09:36:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/315" closed="2017-11-09T20:01:56+00:00">315</issue>
+    <ticket>291</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>291-9f3e36a2</id>
+    <lines>12-12</lines>
+    <body>Move SboxNibbleTest to 2out</body>
+    <file>test/magma/SboxNibbleTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-25T09:36:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/316">316</issue>
+    <ticket>291</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>291-741ad93f</id>
+    <lines>10-11</lines>
+    <body>ProceduralImitTest move to benchmark utility, for comparsion with us. This is not a test.</body>
+    <file>test/gost89/ProceduralImitTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-25T16:11:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/328" closed="2017-11-17T19:33:32+00:00">328</issue>
+    <ticket>274</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>274-07e26fdb</id>
+    <lines>17-18</lines>
+    <body>magma::Key used in two direction forward and backward. we need two classes implement Forward and Backward transformed block.</body>
+    <file>magma/Key.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-11-06T20:14:16Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/352" closed="2017-11-16T20:45:21+00:00">352</issue>
+        <ticket>328</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>328-3a23d11f</id>
+        <lines>14-16</lines>
+        <body>magma::BlkForwarded should use KeyData, not Key Key is not need. and should be removed after move forward impl into magma::BlkForwarded::value()</body>
+        <file>magma/BlkForwarded.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-11-14T19:45:49Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/goost/issues/356">356</issue>
+            <ticket>352</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>352-cf49a518</id>
+            <lines>13-13</lines>
+            <body>ImitedBlock should give ptr to Block</body>
+            <file>gost89/ImitedBlock.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-11-16T20:45:11Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/goost/issues/357">357</issue>
+            <ticket>352</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>352-8b74b035</id>
+            <lines>15-15</lines>
+            <body>ImitedBlock should be Block</body>
+            <file>gost89/ImitedBlock.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-11-16T20:45:11Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/DronMDF/goost/issues/358">358</issue>
+            <ticket>352</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>352-471ba5f3</id>
+            <lines>17-17</lines>
+            <body>ImitedBlock should named BlkImited</body>
+            <file>gost89/ImitedBlock.h</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-11-16T20:45:11Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/goost/issues/353" closed="2017-11-17T19:33:34+00:00">353</issue>
+        <ticket>328</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>328-178e0513</id>
+        <lines>14-16</lines>
+        <body>magma::BlkBackwarded should use KeyData, not Key Key is not need and should be removed after move backward impl into magma::BlkBackwarded::value()</body>
+        <file>magma/BlkBackwarded.h</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-11-14T19:45:49Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/329">329</issue>
+    <ticket>323</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>323-db6ce2bd</id>
+    <lines>19-19</lines>
+    <body>introduce kuznyechik::ReprStream for testing</body>
+    <file>test2o/kuznyechik/StCTREncryptedTest.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-11-06T20:55:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/342" closed="2020-09-30T06:32:55+00:00">342</issue>
+    <ticket>340</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>340-2e4712dc</id>
+    <lines>5-5</lines>
+    <body>Add benchmark dir to style check (after rework)</body>
+    <file>style.sh</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-11-09T20:44:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/goost/issues/362" closed="2017-11-18T18:11:21+00:00">362</issue>
+    <ticket>360</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>360-a0bda950</id>
+    <lines>41-41</lines>
+    <body>Extract shifted block xor B to another block class for code reuse</body>
+    <file>magma/Imit.cpp</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-11-18T17:52:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/380">380</issue>
+    <ticket>378</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>378-a0485052</id>
+    <lines>13-13</lines>
+    <body>Add kuznyechik::BlockMatch with 2out::MatchTest instead TestBlockEqual</body>
+    <file>test/kuznyechik/TestBlockEqual.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2020-01-23T21:29:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/DronMDF/goost/issues/381">381</issue>
+    <ticket>378</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>378-c32a642f</id>
+    <lines>13-13</lines>
+    <body>Add magma::BlockMatch with 2out::MatchTest instead TestBlockEqual</body>
+    <file>test/magma/TestBlockEqual.h</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2020-01-23T21:29:54Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

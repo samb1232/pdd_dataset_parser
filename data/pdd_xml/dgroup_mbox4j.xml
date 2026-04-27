@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-09-01T22:17:20+00:00" version="0.30.18">
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/3" closed="2019-04-02T00:39:58+00:00">3</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d53592c5</id>
+    <lines>43-46</lines>
+    <body>Add the support of attachments. For now all emails are text-based thus we need to define a way how to send the files. For now &lt;em&gt;Collections.emptySet&lt;/em&gt; is used as a stub and should be removed later.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/func/javax/ToMsg.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/4" closed="2019-04-05T15:41:37+00:00">4</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-eca9a629</id>
+    <lines>53-54</lines>
+    <body>Implement search to the javax instead of fetching all messages. The search should be based on {@link Query}.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/func/javax/JavaxMailInbox.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/5">5</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-1337bead</id>
+    <lines>94-96</lines>
+    <body>Make this ctor with {@code Func&lt;Query,Store&gt;} public. For now this ctor has a side effect as it closes the {@link javax.mail.Store} and {@link javax.mail.Folder}.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/func/javax/JavaxMailInbox.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/6" closed="2019-03-30T04:53:30+00:00">6</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8dc15908</id>
+    <lines>33-33</lines>
+    <body>Add envelope with equals, hashCode and toString methods.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/query/QueryOf.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/7" closed="2019-03-30T04:53:32+00:00">7</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b58c31ec</id>
+    <lines>42-51</lines>
+    <body>Compare two ways of the design: 1) Using func to build an inbox/outbox like {code final Inbox inbox = new InboxOf(new JavaxMailInbox(properties)); } 2) Using object directly like {code final Outbox outbox = new JavaxMailOutbox(properties); } and use the only 1.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/outbox/javax/JavaxMailOutbox.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/8">8</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-bf0ab262</id>
+    <lines>31-32</lines>
+    <body>Use {@link org.cactoos.Text} instead raw String for manipulation with text.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/Query.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/9" closed="2019-04-13T09:54:29+00:00">9</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ffe8d0bb</id>
+    <lines>33-34</lines>
+    <body>Clarify the types of supported connection protocols for {@link this#protocol()}</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/Query.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/10" closed="2019-03-31T05:34:27+00:00">10</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-efdb30e4</id>
+    <lines>37-37</lines>
+    <body>Enable test once the SMTP server is UP and available for reading.</body>
+    <file>src/test/java/io/github/dgroup/mbox4j/inbox/func/javax/JavaxMailInboxTest.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/11">11</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-79e824b5</id>
+    <lines>29-29</lines>
+    <body>Setup the SMTP server for the email integration.</body>
+    <file>src/test/java/io/github/dgroup/mbox4j/package-info.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/12" closed="2019-03-30T14:28:17+00:00">12</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-87e0cae5</id>
+    <lines>49-49</lines>
+    <body>Enable test once the SMTP server is UP and available for sending.</body>
+    <file>src/test/java/io/github/dgroup/mbox4j/outbox/javax/JavaxMailOutboxTest.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/13" closed="2019-04-09T17:23:15+00:00">13</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f2339a91</id>
+    <lines>7-8</lines>
+    <body>Generate the pubring.gpg and secring.gpg for rultor. Define a new mvn profile `ossrh-mbox4j` for integration with mvn central.</body>
+    <file>.rultor.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/14">14</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-65a70c0d</id>
+    <lines>119-119</lines>
+    <body>Upgrade the hamcrest-all library to the latest release of hamcrest-java --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/15">15</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-08faa53a</id>
+    <lines>147-147</lines>
+    <body>Activate de.thetaphi:forbiddenapis in order to forbid the usage of forbidden API like static matchers, etc --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-27T21:06:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/16" closed="2019-03-30T14:28:18+00:00">16</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8299728c</id>
+    <lines>7-9</lines>
+    <body>Enable profile for the integration tests The expected configuration is `mvn -X -P integration-tests,qulice clean install -DLL.gmail.user=${GMAIL_USER} -DLL.gmail.pass=${GMAIL_PASS} -DLL.gmail.to.user=${GMAIL_TO}`</body>
+    <file>.circleci/config.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-30T04:52:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/17" closed="2019-03-31T17:01:59+00:00">17</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-c3045043</id>
+    <lines>46-48</lines>
+    <body>Message content: transform MimeMultipart to String For now the body content &lt;em&gt; msg.getContent().toString() &lt;/em&gt; looks as &lt;em&gt;... body=javax.mail.internet.MimeMultipart@35a50a4c ...&lt;/em&gt;.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/ToMsg.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-30T04:52:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/18" closed="2019-03-31T12:48:53+00:00">18</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b732933e</id>
+    <lines>39-40</lines>
+    <body>Add attachments to the {@link javax.mail.Message}. For now it sends the 'body' only thus files are skipped.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/outbox/javax/MimeMsg.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-31T05:34:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/21">21</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d8406873</id>
+    <lines>37-38</lines>
+    <body>Add hierarchical unwrap as multipart can have tree-based structure. For example, the multipart can have few levels with multipart(s).</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/PartsOf.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-31T17:01:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/mbox4j/issues/22" closed="2019-04-01T23:18:14+00:00">22</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-630ec172</id>
+    <lines>7-7</lines>
+    <body>Enable `qulice` plugin once https://github.com/teamed/qulice/issues/1035 is resolved.</body>
+    <file>.circleci/config.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-03-31T17:01:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/25">25</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-04774ad8</id>
+    <lines>10-17</lines>
+    <body>Configure the deployment to staging environment in order to work with RC https://help.sonatype.com/repomanager2/staging-releases/staging-overview https://help.sonatype.com/repomanager2/staging-releases/configuring-your-project-for-deployment https://nvie.com/posts/a-successful-git-branching-model https://github.com/nvie/gitflow https://gist.github.com/lemiorhan/97b4f827c08aed58a9d8 https://github.com/jgitver/jgitver https://danielkummer.github.io/git-flow-cheatsheet/index.html</body>
+    <file>.rultor.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-02T00:37:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/27">27</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-647b5960</id>
+    <lines>29-30</lines>
+    <body>Add documentation about package {@link io.github.dgroup.mbox4j.query.mode} to the &lt;em&gt;readme.md&lt;/em&gt;.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/query/mode/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/28">28</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-743d9b92</id>
+    <lines>35-35</lines>
+    <body>All#search - Add integration test</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/All.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/29">29</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6736be7e</id>
+    <lines>37-37</lines>
+    <body>Range#search - add integration test</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/Range.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/30">30</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-89560df8</id>
+    <lines>30-31</lines>
+    <body>From: new search mode which allows to fetch only emails from the particular sender.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/31">31</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8e29838e</id>
+    <lines>32-33</lines>
+    <body>HasAttachments: new search mode which allows to fetch only emails which have the attachments.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/32">32</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5f34ad4c</id>
+    <lines>34-35</lines>
+    <body>Subject: new search mode which allows to fetch only emails with particular subject.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/33">33</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d12d997b</id>
+    <lines>36-37</lines>
+    <body>Important: new search mode which allows to fetch only emails which are flagged by important flag.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/34">34</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-2451da39</id>
+    <lines>37-37</lines>
+    <body>Recent#search - add integration test</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/Recent.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/35">35</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9e3d01ad</id>
+    <lines>38-39</lines>
+    <body>Add documentation about {@link io.github.dgroup.mbox4j.inbox.javax.search} to the &lt;em&gt;readme.md&lt;/em&gt;.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/Search.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/36">36</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-75afffcf</id>
+    <lines>37-37</lines>
+    <body>Unread#search - add integration test</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/inbox/javax/search/Unread.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-05T15:38:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/45">45</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ca1acbfb</id>
+    <lines>40-41</lines>
+    <body>Change the email to LowLevel case in order to prevent duplication of emails due to different case.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/outbox/javax/Addresses.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-14T15:04:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/46">46</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-93efb375</id>
+    <lines>29-30</lines>
+    <body>Add instructions to readme.md regarding &lt;em&gt;javax.mail&lt;/em&gt; dependency (or other libs) in order to avoid java.lang.NoClassDefFoundError.</body>
+    <file>src/main/java/io/github/dgroup/mbox4j/package-info.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-14T15:04:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/mbox4j/issues/47">47</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0f19decd</id>
+    <lines>36-38</lines>
+    <body>Move the smtp properties to the src/main/java module as it can be used for other repositories. The new package is &lt;em&gt;io.github.dgroup.mbox4j.properties&lt;/em&gt;.</body>
+    <file>src/test/java/io/github/dgroup/mbox4j/GmailSmtpProperties.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-14T15:04:15Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

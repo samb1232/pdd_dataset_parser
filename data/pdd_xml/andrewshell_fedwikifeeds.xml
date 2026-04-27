@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-02-13T15:10:03+00:00" version="0.30.26">
+  <puzzle alive="false">
+    <issue href="https://github.com/andrewshell/fedwikifeeds/issues/8" closed="2022-02-13T14:03:41+00:00">8</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-4f7991c4</id>
+    <lines>41-42</lines>
+    <body>Since onlyFresh never touches the file cache, if the callback throws an error it should return a cache.Miss object.</body>
+    <file>test/cache.js</file>
+    <author>@andrewshell</author>
+    <email>andrew@andrewshell.org</email>
+    <time>2022-02-13T13:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/andrewshell/fedwikifeeds/issues/9" closed="2022-02-13T14:03:45+00:00">9</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-dca407cf</id>
+    <lines>48-49</lines>
+    <body>If status=cacheOnFail and no cache, if the callback throws an error it should return a cache.Miss object.</body>
+    <file>test/cache.js</file>
+    <author>@andrewshell</author>
+    <email>andrew@andrewshell.org</email>
+    <time>2022-02-13T13:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/andrewshell/fedwikifeeds/issues/10" closed="2022-02-13T15:09:58+00:00">10</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-865e19eb</id>
+    <lines>55-56</lines>
+    <body>If status=cacheOnFail and existing cache, if the callback throws an error it should return a cache.Hit object.</body>
+    <file>test/cache.js</file>
+    <author>@andrewshell</author>
+    <email>andrew@andrewshell.org</email>
+    <time>2022-02-13T13:16:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/andrewshell/fedwikifeeds/issues/11" closed="2022-02-13T15:10:03+00:00">11</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-8ece321e</id>
+    <lines>62-64</lines>
+    <body>If status=cacheOnFail and existing cache, if the callback succeeds it should return a cache.Hit object with the live value and save to the cache.</body>
+    <file>test/cache.js</file>
+    <author>@andrewshell</author>
+    <email>andrew@andrewshell.org</email>
+    <time>2022-02-13T13:16:00Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

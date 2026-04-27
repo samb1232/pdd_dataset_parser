@@ -1,0 +1,1415 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-08-30T06:03:13+00:00" version="0.31.6">
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/2" closed="2017-12-11T08:46:37+00:00">2</issue>
+    <ticket>50m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>50m-850d5022</id>
+    <lines>12-12</lines>
+    <body>Rewrite class considering {@link Arg} entity</body>
+    <file>src/main/java/org/dgroup/dockertest/cmd/FileArg.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-02T09:14:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/37" closed="2018-01-15T08:06:11+00:00">37</issue>
+        <ticket>2</ticket>
+        <estimate>480</estimate>
+        <role>IMP</role>
+        <id>2-304a93f6</id>
+        <lines>72-73</lines>
+        <body>All tests should be executed concurrently and support thread-pool configuration from command line.</body>
+        <file>src/main/java/org/dgroup/dockertest/test/Tests.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-24T17:03:28Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/65" closed="2018-02-18T15:16:45+00:00">65</issue>
+        <ticket>2</ticket>
+        <estimate>480</estimate>
+        <role>IMP</role>
+        <id>2-c8ac2b20</id>
+        <lines>108-111</lines>
+        <body>All tests should be executed concurrently and support thread-pool configuration from command line. Also, the tool can use https://github.com/testcontainers/testcontainers-java as a layer for the docker integration.</body>
+        <file>src/main/java/org/dgroup/dockertest/test/Tests.java</file>
+        <author>dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2018-01-15T08:05:52Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/3" closed="2017-12-02T13:44:02+00:00">3</issue>
+    <ticket>50m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>50m-0f8fda7a</id>
+    <lines>15-15</lines>
+    <body>Add the same test for Linux OS</body>
+    <file>src/test/java/org/dgroup/dockertest/docker/DefaultCmdOutputOnWindowsTest.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-02T13:42:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/38" closed="2018-01-08T17:01:57+00:00">38</issue>
+        <ticket>3</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>3-6249a1f2</id>
+        <lines>35-37</lines>
+        <body>Move logback.xml to ${basedir}/target/classes, otherwise logs will be printed to std output (which isn't expected in cmd-line app). Looks like mvn-assembly-plugin or mvn-resource-plugin solves can do this.</body>
+        <file>src/main/java/org/dgroup/dockertest/yml/tag/output/LoggedYmlTagOutputPredicate.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-24T17:03:28Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/4" closed="2017-12-17T17:54:18+00:00">4</issue>
+    <ticket>50min</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>50min-0f8fda7a</id>
+    <lines>15-15</lines>
+    <body>Add the same test for Linux OS</body>
+    <file>src/test/java/org/dgroup/dockertest/docker/DefaultCmdOutputOnWindowsTest.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-02T13:43:44Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/41" closed="2018-12-25T01:06:21+00:00">41</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>4-5b6a8356</id>
+        <lines>55-56</lines>
+        <body>Add cmd flag which allows user to select encoding for *.yml file with tests.</body>
+        <file>src/main/java/org/dgroup/dockertest/docker/CmdOutputAsText.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-25T04:14:43Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/5" closed="2017-12-02T18:37:25+00:00">5</issue>
+    <ticket>120m</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>120m-39f86464</id>
+    <lines>5-5</lines>
+    <body>how-to guide is required because users have no idea how to test docker images with this tool</body>
+    <file>readme.md</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-02T18:34:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/42" closed="2018-01-07T21:04:13+00:00">42</issue>
+        <ticket>5</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>5-617e9f43</id>
+        <lines>56-56</lines>
+        <body>Use jansi in order to make picture colored.</body>
+        <file>src/main/java/org/dgroup/dockertest/Logo.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-25T04:14:43Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/6" closed="2017-12-09T20:02:24+00:00">6</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>DEV-39f86464</id>
+    <lines>5-5</lines>
+    <body>how-to guide is required because users have no idea how to test docker images with this tool</body>
+    <file>readme.md</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-02T18:37:09Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/45" closed="2018-01-18T20:17:43+00:00">45</issue>
+        <ticket>6</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>6-05e343e8</id>
+        <lines>48-48</lines>
+        <body>update section "Testing..." with output details for passed and failed case.</body>
+        <file>readme.md</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-25T16:06:14Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/7" closed="2017-12-11T09:40:37+00:00">7</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>DEV-1950f0e6</id>
+    <lines>7-7</lines>
+    <body>add https://codebeat.co badge as project moved to public state</body>
+    <file>readme.md</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-05T17:28:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/12" closed="2017-12-17T17:54:19+00:00">12</issue>
+        <ticket>7</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>7-12f9117b</id>
+        <lines>88-88</lines>
+        <body>Add xml output for tests results</body>
+        <file>src/main/java/org/dgroup/dockertest/cmd/Args.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-11T08:46:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/dgroup/docker-unittests/issues/17" closed="2018-01-19T15:18:19+00:00">17</issue>
+            <ticket>12</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>12-c5fe6953</id>
+            <lines>45-45</lines>
+            <body>Add cobertura/jacoco coverage badge once project moved to public</body>
+            <file>readme.md</file>
+            <author>dubinka</author>
+            <email>dubinka@netcracker.com</email>
+            <time>2017-12-11T09:03:14Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/dgroup/docker-unittests/issues/20" closed="2018-01-19T15:22:12+00:00">20</issue>
+                <ticket>17</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>17-68a1ffd7</id>
+                <lines>55-55</lines>
+                <body>Add http://www.javadoc.io badge once project moved to public</body>
+                <file>readme.md</file>
+                <author>dubinka</author>
+                <email>dubinka@netcracker.com</email>
+                <time>2017-12-17T17:51:56Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/dgroup/docker-unittests/issues/28" closed="2017-12-27T06:31:45+00:00">28</issue>
+                    <ticket>20</ticket>
+                    <estimate>50</estimate>
+                    <role>IMP</role>
+                    <id>20-0f8fda7a</id>
+                    <lines>41-41</lines>
+                    <body>Add the same test for Linux OS</body>
+                    <file>src/test/java/org/dgroup/dockertest/docker/CmdOutputAsTextOnWindowsTest.java</file>
+                    <author>dubinka</author>
+                    <email>dubinka@netcracker.com</email>
+                    <time>2017-12-17T17:51:56Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/dgroup/docker-unittests/issues/75" closed="2018-08-10T20:20:22+00:00">75</issue>
+                <ticket>17</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>17-e16c2ebc</id>
+                <lines>82-82</lines>
+                <body>Add http://www.javadoc.io badge after release to maven central</body>
+                <file>readme.md</file>
+                <author>dgroup</author>
+                <email>yurii.dubinka@gmail.com</email>
+                <time>2018-01-19T15:21:56Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/8" closed="2017-12-17T17:54:20+00:00">8</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>DEV-fa4b9fdb</id>
+    <lines>54-54</lines>
+    <body>Implement masked contains like contains: "Protocols:*http*https*ldap*pop3"</body>
+    <file>src/main/java/org/dgroup/dockertest/yml/YmlTagOutput.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-07T18:21:25Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/13" closed="2017-12-17T17:54:22+00:00">13</issue>
+        <ticket>8</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>8-c5814215</id>
+        <lines>89-89</lines>
+        <body>Add html output for tests results</body>
+        <file>src/main/java/org/dgroup/dockertest/cmd/Args.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-11T08:46:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/dgroup/docker-unittests/issues/18" closed="2018-01-19T15:08:38+00:00">18</issue>
+            <ticket>13</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>13-e2421122</id>
+            <lines>51-51</lines>
+            <body>Add https://codebeat.co badge once project moved to public</body>
+            <file>readme.md</file>
+            <author>dubinka</author>
+            <email>dubinka@netcracker.com</email>
+            <time>2017-12-11T09:40:21Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/dgroup/docker-unittests/issues/21" closed="2017-12-21T02:48:11+00:00">21</issue>
+                <ticket>18</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>18-b5475bab</id>
+                <lines>92-92</lines>
+                <body>Implement masked contains like "Protocols:*http*https*ldap"</body>
+                <file>src/main/java/org/dgroup/dockertest/yml/tag/YmlTagOutput.java</file>
+                <author>dubinka</author>
+                <email>dubinka@netcracker.com</email>
+                <time>2017-12-17T17:51:56Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/dgroup/docker-unittests/issues/26" closed="2017-12-19T17:51:21+00:00">26</issue>
+                    <ticket>21</ticket>
+                    <estimate>0</estimate>
+                    <role>IMP</role>
+                    <id>21-1e995f6f</id>
+                    <lines>60-60</lines>
+                    <body>Load docker image before running the tests.</body>
+                    <file>src/main/java/org/dgroup/dockertest/cmd/Args.java</file>
+                    <author>dubinka</author>
+                    <email>dubinka@netcracker.com</email>
+                    <time>2017-12-17T17:51:56Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/dgroup/docker-unittests/issues/33" closed="2018-01-01T05:56:19+00:00">33</issue>
+                        <ticket>26</ticket>
+                        <estimate>0</estimate>
+                        <role>IMP</role>
+                        <id>26-b98c70a7</id>
+                        <lines>63-63</lines>
+                        <body>Do the `docker pull` for image before testing.</body>
+                        <file>src/main/java/org/dgroup/dockertest/cmd/DockerImageArg.java</file>
+                        <author>dubinka</author>
+                        <email>dubinka@netcracker.com</email>
+                        <time>2017-12-19T17:51:05Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/dgroup/docker-unittests/issues/22" closed="2017-12-18T00:11:38+00:00">22</issue>
+                <ticket>18</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>18-407f3585</id>
+                <lines>71-71</lines>
+                <body>Cleaning is required</body>
+                <file>src/main/java/org/dgroup/dockertest/test/Tests.java</file>
+                <author>dubinka</author>
+                <email>dubinka@netcracker.com</email>
+                <time>2017-12-17T17:51:56Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/dgroup/docker-unittests/issues/27" closed="2018-01-17T17:18:31+00:00">27</issue>
+                    <ticket>22</ticket>
+                    <estimate>0</estimate>
+                    <role>IMP</role>
+                    <id>22-115f9f85</id>
+                    <lines>67-67</lines>
+                    <body>Refactor the method below in object-oriented approach</body>
+                    <file>src/main/java/org/dgroup/dockertest/text/StringOccurrences.java</file>
+                    <author>dubinka</author>
+                    <email>dubinka@netcracker.com</email>
+                    <time>2017-12-17T17:51:56Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/46" closed="2018-01-08T17:01:59+00:00">46</issue>
+        <ticket>8</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>8-6a88f877</id>
+        <lines>53-53</lines>
+        <body>Fall tolerance: test the tool with corrupted *.yml files</body>
+        <file>readme.md</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-26T16:30:18Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/9" closed="2017-12-10T14:39:46+00:00">9</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>DEV-275e0343</id>
+    <lines>73-73</lines>
+    <body>Assessment is required: Do we need OS dependent fake containers for Unix/Windows systems</body>
+    <file>src/main/java/org/dgroup/dockertest/test/YmlBasedTest.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-09T19:59:41Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/11" closed="2018-01-07T21:04:15+00:00">11</issue>
+        <ticket>9</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>9-856f46aa</id>
+        <lines>35-35</lines>
+        <body>Use jansi for colored std output</body>
+        <file>src/main/java/org/dgroup/dockertest/test/output/StdOutput.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-10T22:23:51Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/dgroup/docker-unittests/issues/16" closed="2017-12-18T00:11:38+00:00">16</issue>
+            <ticket>11</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>11-569a2b6d</id>
+            <lines>43-43</lines>
+            <body>Implement qulice fixes for all *.java files</body>
+            <file>readme.md</file>
+            <author>dubinka</author>
+            <email>dubinka@netcracker.com</email>
+            <time>2017-12-11T09:01:41Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/dgroup/docker-unittests/issues/23" closed="2018-01-19T15:08:40+00:00">23</issue>
+                <ticket>16</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>16-c5e6a74c</id>
+                <lines>54-54</lines>
+                <body>Add https://codecov.io badge once project moved to public</body>
+                <file>readme.md</file>
+                <author>dubinka</author>
+                <email>dubinka@netcracker.com</email>
+                <time>2017-12-17T17:51:56Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/dgroup/docker-unittests/issues/29" closed="2018-08-15T15:02:16+00:00">29</issue>
+                    <ticket>23</ticket>
+                    <estimate>240</estimate>
+                    <role>IMP</role>
+                    <id>23-7aa2ec94</id>
+                    <lines>34-34</lines>
+                    <body>Print testing output to xml file.</body>
+                    <file>src/main/java/org/dgroup/dockertest/test/output/XmlOutput.java</file>
+                    <author>dubinka</author>
+                    <email>dubinka@netcracker.com</email>
+                    <time>2017-12-18T00:11:18Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/dgroup/docker-unittests/issues/47" closed="2017-12-27T22:14:45+00:00">47</issue>
+            <ticket>11</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>11-96b0f93b</id>
+            <lines>66-67</lines>
+            <body>Add new command line argument `-silent` which allows to disable std output.</body>
+            <file>src/main/java/org/dgroup/dockertest/App.java</file>
+            <author>dubinka</author>
+            <email>dubinka@netcracker.com</email>
+            <time>2017-12-26T16:30:18Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/14" closed="2017-12-17T17:54:23+00:00">14</issue>
+        <ticket>9</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>9-0de0bc3d</id>
+        <lines>32-32</lines>
+        <body>Implement selecting output as std out(console), xml or html.</body>
+        <file>src/main/java/org/dgroup/dockertest/cmd/OutputArg.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-11T08:46:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/dgroup/docker-unittests/issues/19" closed="2018-08-10T20:20:24+00:00">19</issue>
+            <ticket>14</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>14-4e641228</id>
+            <lines>52-52</lines>
+            <body>Add http://i.jpeek.org badge after release to maven central</body>
+            <file>readme.md</file>
+            <author>dubinka</author>
+            <email>dubinka@netcracker.com</email>
+            <time>2017-12-11T11:22:37Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/dgroup/docker-unittests/issues/24" closed="2018-01-15T11:21:17+00:00">24</issue>
+                <ticket>19</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>19-ce7b192c</id>
+                <lines>47-47</lines>
+                <body>Create native OS containers or install docker to CI env.</body>
+                <file>src/test/java/org/dgroup/dockertest/test/TestsTest.java</file>
+                <author>dubinka</author>
+                <email>dubinka@netcracker.com</email>
+                <time>2017-12-17T17:51:56Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/dgroup/docker-unittests/issues/30">30</issue>
+                    <ticket>24</ticket>
+                    <estimate>240</estimate>
+                    <role>IMP</role>
+                    <id>24-34e1cb7d</id>
+                    <lines>34-34</lines>
+                    <body>Print testing output to html file.</body>
+                    <file>src/main/java/org/dgroup/dockertest/test/output/HtmlOutput.java</file>
+                    <author>dubinka</author>
+                    <email>dubinka@netcracker.com</email>
+                    <time>2017-12-18T00:11:18Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/10" closed="2017-12-17T17:54:24+00:00">10</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>DEV-3b9b00b1</id>
+    <lines>42-42</lines>
+    <body>OS or Env dependent test. Create native containers or install docker to CI env</body>
+    <file>src/test/java/org/dgroup/dockertest/cmd/ArgsTest.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-10T14:38:41Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/15" closed="2018-04-29T11:13:28+00:00">15</issue>
+        <ticket>10</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>10-0ccd9bd3</id>
+        <lines>32-32</lines>
+        <body>Implement help command</body>
+        <file>src/main/java/org/dgroup/dockertest/cmd/HelpArg.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-11T08:46:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/dgroup/docker-unittests/issues/25" closed="2018-01-19T17:07:25+00:00">25</issue>
+            <ticket>15</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>15-7dba9733</id>
+            <lines>53-53</lines>
+            <body>Add https://sonarcloud.io badge once project moved to public</body>
+            <file>readme.md</file>
+            <author>dubinka</author>
+            <email>dubinka@netcracker.com</email>
+            <time>2017-12-17T17:51:56Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/dgroup/docker-unittests/issues/31" closed="2017-12-18T11:01:55+00:00">31</issue>
+                <ticket>25</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>25-041e44e0</id>
+                <lines>55-55</lines>
+                <body>PMD fixes (26 left)</body>
+                <file>readme.md</file>
+                <author>dubinka</author>
+                <email>dubinka@netcracker.com</email>
+                <time>2017-12-18T00:11:18Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/dgroup/docker-unittests/issues/32" closed="2017-12-19T17:51:23+00:00">32</issue>
+                <ticket>25</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>25-649f5ef8</id>
+                <lines>40-40</lines>
+                <body>Unit-tests for class required.</body>
+                <file>src/main/java/org/dgroup/dockertest/cmd/Args.java</file>
+                <author>dubinka</author>
+                <email>dubinka@netcracker.com</email>
+                <time>2017-12-18T11:01:38Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/34" closed="2018-04-03T15:20:49+00:00">34</issue>
+    <ticket>1</ticket>
+    <estimate>120</estimate>
+    <role>IMP</role>
+    <id>1-5e2e18d0</id>
+    <lines>48-48</lines>
+    <body>Splitting is required because class with unit tests became too huge.</body>
+    <file>src/test/java/org/dgroup/dockertest/yml/YmlTestsTest.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-21T02:47:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/49" closed="2017-12-28T00:43:57+00:00">49</issue>
+    <ticket>48</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>48-559a5ad3</id>
+    <lines>66-71</lines>
+    <body>Refactoring is required for {@link StdOutput} and {@link Output}. The {@link Output} interface has too many responsibilities due to growing of cases related to app progress notifications. Initially, {@link Output} was designed for test results reporting only, not for app notifications like scenarios found, image is downloading, etc.</body>
+    <file>src/main/java/org/dgroup/dockertest/App.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-27T22:14:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/docker-unittests/issues/50" closed="2017-12-28T00:47:17+00:00">50</issue>
+        <ticket>49</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>49-559a5ad3</id>
+        <lines>66-71</lines>
+        <body>Refactoring is required for {@link StdOutput} and {@link Output}. The {@link Output} interface has too many responsibilities due to growing of cases related to app progress notifications. Initially, {@link Output} was designed for test results reporting only, not for app notifications like scenarios found, image is downloading, etc.</body>
+        <file>src/main/java/org/dgroup/dockertest/App.java</file>
+        <author>dubinka</author>
+        <email>dubinka@netcracker.com</email>
+        <time>2017-12-27T23:46:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>48</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>48-b9e74c20</id>
+    <lines>33-33</lines>
+    <body>Rename to DockerProcess as it's more clear description.</body>
+    <file>src/main/java/org/dgroup/dockertest/docker/DockerProcess.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-27T22:14:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>51</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>51-4a53c21e</id>
+    <lines>107-107</lines>
+    <body>Print timing for `docker pull` command.</body>
+    <file>src/main/java/org/dgroup/dockertest/test/Tests.java</file>
+    <author>dubinka</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2017-12-28T01:01:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>52</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>52-39b61556</id>
+    <lines>33-34</lines>
+    <body>Make all exceptions non-runtime and avoid using runtime exceptions in future.</body>
+    <file>src/main/java/org/dgroup/dockertest/cmd/CmdArgNotFoundException.java</file>
+    <author>dgroup</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2018-01-01T05:33:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/58" closed="2018-01-01T20:57:07+00:00">58</issue>
+    <ticket>56</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>56-2639e171</id>
+    <lines>109-109</lines>
+    <body>Notify user properly in case if image is absent.</body>
+    <file>src/main/java/org/dgroup/dockertest/test/Tests.java</file>
+    <author>dgroup</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2018-01-01T05:56:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>61</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>61-a828757a</id>
+    <lines>74-75</lines>
+    <body>Remove streamex dependency from the project, use cactoos mapped iterable + func instead.</body>
+    <file>src/main/java/org/dgroup/dockertest/text/Joined.java</file>
+    <author>dgroup</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2018-01-06T16:22:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>62</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>62-10016933</id>
+    <lines>85-85</lines>
+    <body>Exception handling refactoring is required.</body>
+    <file>src/main/java/org/dgroup/dockertest/App.java</file>
+    <author>dgroup</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2018-01-06T16:22:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>63</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>63-3693e669</id>
+    <lines>51-51</lines>
+    <body>Implementation is required.</body>
+    <file>src/main/java/org/dgroup/dockertest/exception/RootCause.java</file>
+    <author>dgroup</author>
+    <email>dubinka@netcracker.com</email>
+    <time>2018-01-06T16:22:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>66</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>66-71ddb0e6</id>
+    <lines>112-112</lines>
+    <body>Unit test is required for smoke testing.</body>
+    <file>src/main/java/org/dgroup/dockertest/test/Tests.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-01-15T11:07:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>78</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>78-b81b1100</id>
+    <lines>32-32</lines>
+    <body>Make arg with generic</body>
+    <file>src/main/java/org/dgroup/dockertest/cmd/Arg.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-02-09T18:15:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>76</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>76-0edba10d</id>
+    <lines>46-46</lines>
+    <body>Daily stream cleaning for 1.0-beta release.</body>
+    <file>src/main/java/org/dgroup/dockertest/App.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-02-09T18:15:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>80</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>80-6f21e5bd</id>
+    <lines>91-91</lines>
+    <body>Check rultor as POC for deployment process to mvn central</body>
+    <file>readme.md</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-02-17T10:53:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>81</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>81-76b41ee9</id>
+    <lines>92-92</lines>
+    <body>Publish automatically binary artifacts to github releases</body>
+    <file>readme.md</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-02-17T10:53:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>80</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>80-d6165c29</id>
+    <lines>40-40</lines>
+    <body>Move defaults methods outside of interface.</body>
+    <file>src/main/java/org/dgroup/dockertest/yml/tag/YmlTag.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-02-17T10:53:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>94</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>94-0091d3b1</id>
+    <lines>110-111</lines>
+    <body>Use https://github.com/testcontainers/testcontainers-java as a layer for the docker integration.</body>
+    <file>src/main/java/org/dgroup/dockertest/test/TestsOf.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-02-18T15:16:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>95</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>95-5dd25742</id>
+    <lines>112-112</lines>
+    <body>Do not create an objects inside #execute method, move to ctor.</body>
+    <file>src/main/java/org/dgroup/dockertest/test/TestsOf.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-02-18T15:16:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>93</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>93-dc392af8</id>
+    <lines>40-40</lines>
+    <body>Extract interface from the class below</body>
+    <file>src/main/java/org/dgroup/dockertest/test/TestingOutcome.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-02-18T15:16:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>100</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>100-b7c56319</id>
+    <lines>209-209</lines>
+    <body>Validate classpath in order to avoid duplicates --&gt;</body>
+    <file>pom.xml</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-03-16T07:43:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>102</ticket>
+    <estimate>480</estimate>
+    <role>DEV</role>
+    <id>102-304a93f6</id>
+    <lines>94-95</lines>
+    <body>All tests should be executed concurrently and support thread-pool configuration from command line.</body>
+    <file>src/main/java/org/dgroup/dockertest/test/TestsOf.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-03-16T08:23:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/110" closed="2018-12-20T16:19:22+00:00">110</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5748c3de</id>
+    <lines>92-92</lines>
+    <body>Implement escaping of chars which are using for split</body>
+    <file>src/test/java/org/dgroup/dockertest/yml/tag/YmlTagTestOfTest.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-04-01T17:04:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/115">115</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-4e09f67f</id>
+    <lines>69-70</lines>
+    <body>Move timeout configuration to yml file in order to define unique timeout for each test.</body>
+    <file>src/main/java/org/dgroup/dockertest/concurrent/Concurrent.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-04-29T10:59:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/148" closed="2018-08-30T18:00:32+00:00">148</issue>
+    <ticket>146</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>146-6760d38b</id>
+    <lines>158-158</lines>
+    <body>Split the raw output by lines.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/test/output/std/StdOutputOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-08-15T14:25:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/161" closed="2018-12-15T13:32:57+00:00">161</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-f4df42c5</id>
+    <lines>35-36</lines>
+    <body>The YmlTag should inherit Tag interface without any methods. It will allow indicating of all tags despite on their type/values.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/tag/YmlTag.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-12T03:07:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/162" closed="2018-12-20T16:19:25+00:00">162</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-71d18c03</id>
+    <lines>38-38</lines>
+    <body>The `setup` tag is required.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/tag/YmlTagEnvelope.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-12T03:07:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/163" closed="2018-12-25T01:06:22+00:00">163</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-5a29a739</id>
+    <lines>119-120</lines>
+    <body>Use 1 container per all tests. For now, all tests have been executing on isolated "immutable" containers.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/concurrent/Concurrent.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-12T03:07:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/164" closed="2018-12-15T13:32:59+00:00">164</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-ee77a697</id>
+    <lines>119-120</lines>
+    <body>Add a way to obtain the "setup" section for Docker container in order to write the unit tests without boiler-plate code.</body>
+    <file>src/test/java/com/github/dgroup/dockertest/YmlResource.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-12T03:07:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/165" closed="2018-12-26T01:24:34+00:00">165</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0825fec2</id>
+    <lines>88-88</lines>
+    <body>Upgrade qulice to the latest version --&gt;</body>
+    <file>pom.xml</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-12T03:07:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/166" closed="2018-12-26T01:24:36+00:00">166</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-9f75402c</id>
+    <lines>93-93</lines>
+    <body>Upgrade cactoos dependency to latest version --&gt;</body>
+    <file>pom.xml</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-12T03:07:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/167" closed="2018-12-15T13:33:00+00:00">167</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-af5d7656</id>
+    <lines>105-105</lines>
+    <body>Add cactoos-matchers dependency for unit testing --&gt;</body>
+    <file>pom.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-12T03:11:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/168">168</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-443b499c</id>
+    <lines>107-107</lines>
+    <body>Move project to junit5 --&gt;</body>
+    <file>pom.xml</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-12T03:07:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/177" closed="2018-12-15T14:04:55+00:00">177</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-d942716e</id>
+    <lines>32-33</lines>
+    <body>Rename all implementation to TgXyz. The interface itself should be moved to the parent package.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/tag/Tag.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-14T16:26:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/178" closed="2018-12-20T16:19:28+00:00">178</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-68a391e6</id>
+    <lines>35-35</lines>
+    <body>Extend YmlTagEvnvelope instead of implementation of YmlTag.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/tag/TextTag.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T13:25:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/179" closed="2018-12-15T15:15:17+00:00">179</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-bffba03c</id>
+    <lines>43-47</lines>
+    <body>YmlString export to interface with several methods: - version - setup - tests Each method should return the corresponding YML tag.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/YmlString.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-14T16:26:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/180" closed="2018-12-15T15:15:19+00:00">180</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f2b3b42f</id>
+    <lines>48-48</lines>
+    <body>Rename the class to YmlTags.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/YmlString.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-14T16:26:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/181" closed="2019-01-20T14:25:18+00:00">181</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-602ef409</id>
+    <lines>35-35</lines>
+    <body>Use IsTrue matcher from cactoos-matchers.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/hamcrest/True.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T13:25:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/182" closed="2019-01-20T14:25:19+00:00">182</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-459facf2</id>
+    <lines>35-35</lines>
+    <body>Remove the class. Use {@code new IsEqual&lt;&gt;(false)}.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/hamcrest/False.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T13:25:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/183" closed="2018-12-20T16:19:30+00:00">183</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b7d69c71</id>
+    <lines>41-41</lines>
+    <body>tagTestsIsMissing: Unstable OS dependent test.</body>
+    <file>src/test/java/com/github/dgroup/dockertest/yml/tag/YmlTagTestsTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T13:25:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/184" closed="2018-12-20T16:19:32+00:00">184</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-8a9a64ff</id>
+    <lines>43-46</lines>
+    <body>Rewrite the parsing mechanism in order to avoid raw parsing in YmlString#YmlString(TextFile) with {@code new Yaml().loadAs(yml.text(), Map.class)}. This class is an example how it can be done.</body>
+    <file>src/test/java/com/github/dgroup/dockertest/yml/YamlSmokeTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T13:25:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/185" closed="2018-12-20T16:19:35+00:00">185</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-635f10b3</id>
+    <lines>49-49</lines>
+    <body>dueToIllegalYmlFormatException: Unstable OS dependent test.</body>
+    <file>src/test/java/com/github/dgroup/dockertest/AppTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T13:25:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/187">187</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ad0543e7</id>
+    <lines>39-39</lines>
+    <body>Throw UncheckedYmlFormatException instead of UncheckedIOException</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/tag/UncheckedTgTest.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T13:58:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/188" closed="2018-12-20T16:19:37+00:00">188</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-bc41a7d7</id>
+    <lines>43-43</lines>
+    <body>Use pass type `TgTest` to envelope instead of String.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/tag/TgTestOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T13:58:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/191" closed="2018-12-27T21:38:49+00:00">191</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-77918c84</id>
+    <lines>36-36</lines>
+    <body>Rename to YmlFormatException</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/IllegalYmlFormatException.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-15T15:15:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/193" closed="2018-12-25T09:32:04+00:00">193</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b57c2ac8</id>
+    <lines>33-33</lines>
+    <body>Move all arguments to package `***.cmd.arg`</body>
+    <file>src/main/java/com/github/dgroup/dockertest/cmd/Arg.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-20T16:19:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/194" closed="2019-01-13T03:40:51+00:00">194</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5f94f15c</id>
+    <lines>49-50</lines>
+    <body>Use ',' delimiter instead of '|' as its can cause issue with linux pipelines.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/cmd/OutputOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-20T16:19:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/195">195</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f879fb3d</id>
+    <lines>43-44</lines>
+    <body>TgOutput - `Fake`/`Is` implementation is required for unit tests. Replace TgOutputOf in unit tests in favour of Fake implementation.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/TgOutput.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-20T16:19:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/196">196</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ec6f9fbb</id>
+    <lines>124-124</lines>
+    <body>Add mechanism for back-comparability and verification</body>
+    <file>src/main/java/com/github/dgroup/dockertest/yml/tag/TagsOf.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-20T16:19:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/197" closed="2018-12-25T01:06:24+00:00">197</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e22e565c</id>
+    <lines>42-42</lines>
+    <body>Add null-safe elements verification.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/collection/SafeSet.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-20T16:19:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/198" closed="2022-08-30T06:03:04+00:00">198</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e6b3f4c6</id>
+    <lines>51-51</lines>
+    <body>Do not print `failed` tag in case if the scenario passed.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/test/output/XmlOutput.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-20T16:19:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/200">200</issue>
+    <ticket>DEV</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>DEV-cd8ed1c6</id>
+    <lines>36-37</lines>
+    <body>Add de.thetaphi:forbiddenapis in order to forbid using of static matchers.</body>
+    <file>src/test/java/com/github/dgroup/dockertest/collection/SafeSetTest.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-25T00:58:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/201" closed="2018-12-25T10:15:27+00:00">201</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-888de86c</id>
+    <lines>39-39</lines>
+    <body>Rename the interface to Std, the implementation to StdOutput</body>
+    <file>src/main/java/com/github/dgroup/dockertest/test/output/std/StdOutput.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-25T00:58:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/202" closed="2018-12-26T13:02:36+00:00">202</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-563b57f8</id>
+    <lines>41-42</lines>
+    <body>Rename the "Docker testing tool" to "Docker image testing" and replace all \n by System.lineseparator</body>
+    <file>src/main/java/com/github/dgroup/dockertest/Logo.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2018-12-25T00:58:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/239">239</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-abfdf0a7</id>
+    <lines>34-34</lines>
+    <body>Use term4j instead of this package.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/text/highlighted/BlueText.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-02-08T20:28:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/247">247</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6b2b2eca</id>
+    <lines>86-86</lines>
+    <body>Upgrade the qulice to the latest version --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-13T13:47:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/248">248</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-97f3ca64</id>
+    <lines>51-55</lines>
+    <body>Avoid timeout in 10 minutes for docker pull process. Right now the application is waiting 10 minutes for the &lt;em&gt;docker pull image&lt;/em&gt;. Potentially it can be replaced by {@link ResultCallbackTemplate#awaitCompletion()}, but in this case the process may hangs forever.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/process/docker/cmd/Pull.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-13T13:47:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/249">249</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-dd005b1f</id>
+    <lines>46-48</lines>
+    <body>Avoid hardcoded timeout in 30 minutes. The container should be up &amp; running in order to inspect/manipulate. App is using &lt;em&gt;sleep&lt;/em&gt; as some images may be without entrypoint.</body>
+    <file>src/main/java/com/github/dgroup/dockertest/process/docker/cmd/Start.java</file>
+    <author>dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2019-04-13T13:47:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/docker-unittests/issues/298">298</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-463b7176</id>
+    <lines>52-53</lines>
+    <body>Do not print `failed` tag in case if the scenario passed. @checkstyle ClassDataAbstractionCouplingCheck (200 lines)</body>
+    <file>src/main/java/com/github/dgroup/dockertest/test/output/XmlOutput.java</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2020-01-06T04:21:55Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

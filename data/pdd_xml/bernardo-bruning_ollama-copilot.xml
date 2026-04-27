@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.0pdd.com/puzzles.xsd" date="2026-02-10T00:01:56+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>39</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>39-6689ae5d</id>
+    <lines>93-93</lines>
+    <body>refactory to use factory provider</body>
+    <file>internal/server.go</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-01-23T00:40:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-4a69551c</id>
+    <lines>17-17</lines>
+    <body>min create provider DeepSeek</body>
+    <file>internal/adapters/factory.go</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-01-24T22:20:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-f1435836</id>
+    <lines>18-18</lines>
+    <body>min create provider Mistral</body>
+    <file>internal/adapters/factory.go</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-01-24T22:20:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bernardo-bruning/ollama-copilot/issues/43" closed="2026-01-31T17:24:31+00:00">43</issue>
+    <ticket>38</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>38-493738a1</id>
+    <lines>75-75</lines>
+    <body>Change to log and test the issue to fix</body>
+    <file>internal/handlers/completion_handler.go</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-01-30T00:47:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bernardo-bruning/ollama-copilot/issues/47" closed="2026-02-04T23:55:54+00:00">47</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-7deab5ab</id>
+    <lines>23-23</lines>
+    <body>Add OpenAI support</body>
+    <file>internal/adapters/factory.go</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-01-31T17:54:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/bernardo-bruning/ollama-copilot/issues/48" closed="2026-02-07T00:44:24+00:00">48</issue>
+        <ticket>47</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>47-d475c001</id>
+        <lines>37-37</lines>
+        <body>add temperature and top_p</body>
+        <file>internal/adapters/openai.go</file>
+        <author>@bernardo-bruning</author>
+        <email>bernardo.bruning@gmail.com</email>
+        <time>2026-02-03T11:15:29Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bernardo-bruning/ollama-copilot/issues/50" closed="2026-02-06T00:58:58+00:00">50</issue>
+    <ticket>38</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>38-b0b3b30a</id>
+    <lines>39-40</lines>
+    <body>need fix max token MaxTokens int `json:"max_tokens"`</body>
+    <file>internal/adapters/openai.go</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-02-04T23:55:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bernardo-bruning/ollama-copilot/issues/51" closed="2026-02-10T00:01:53+00:00">51</issue>
+    <ticket>46</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>46-f93a05da</id>
+    <lines>18-18</lines>
+    <body>introduce auto config into nvim.</body>
+    <file>install.sh</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-02-08T00:21:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bernardo-bruning/ollama-copilot/issues/52" closed="2026-02-10T00:01:54+00:00">52</issue>
+    <ticket>46</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>46-ea5e4d78</id>
+    <lines>19-19</lines>
+    <body>introduce auto config into vscode.</body>
+    <file>install.sh</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-02-08T00:21:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/bernardo-bruning/ollama-copilot/issues/53" closed="2026-02-10T00:01:56+00:00">53</issue>
+    <ticket>46</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>46-5b2f05f2</id>
+    <lines>20-20</lines>
+    <body>introduce auto config into zed.</body>
+    <file>install.sh</file>
+    <author>@bernardo-bruning</author>
+    <email>bernardo.bruning@gmail.com</email>
+    <time>2026-02-08T00:21:38Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

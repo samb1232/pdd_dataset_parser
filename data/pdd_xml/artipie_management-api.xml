@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2021-12-15T19:25:20+00:00" version="0.30.24">
+  <puzzle alive="true">
+    <issue href="https://github.com/artipie/management-api/issues/20">20</issue>
+    <ticket>569</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>569-26fa1589</id>
+    <lines>89-90</lines>
+    <body>Consider extending this class by adding password and its format, but pay attention that actually password is not always required. Do not forget about tests.</body>
+    <file>src/main/java/com/artipie/management/Users.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-12-08T17:09:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/artipie/management-api/issues/21">21</issue>
+    <ticket>231</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>231-f3499255</id>
+    <lines>36-39</lines>
+    <body>Add tests for Cookies class. `Cookies` class lacks test coverage for primary code flow branches. It is important that to check that proper user is extracted when headers contain session cookie. This might require `Cookie` class refactoring as the class depends on system environment.</body>
+    <file>src/test/java/com/artipie/management/api/CookiesTest.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-12-08T17:09:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/artipie/management-api/issues/22">22</issue>
+    <ticket>2</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>2-f08326a0</id>
+    <lines>50-51</lines>
+    <body>This structure is complicated and difficult to work with, let's create inner class to hold with objects and work with them.</body>
+    <file>src/test/java/com/artipie/management/FakeRepoPerms.java</file>
+    <author>@olegmoz</author>
+    <email>oleg.mozzhechkov@gmail.com</email>
+    <time>2020-12-08T17:09:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/management-api/issues/31" closed="2021-06-01T09:19:05+00:00">31</issue>
+    <ticket>27</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>27-5ae5af14</id>
+    <lines>59-65</lines>
+    <body>Enabled test for `ApiRepoUpdateSlice`. Now test for `ApiRepoUpdateSlice` is disabled because yaml string that passes with NameValuePair does not have enough spaces and does not have break lines at all. For example, instead of `repo:\n type:docker\n storage:path` the value `repo: type:docker storage:path` is got therefore NPE is occurred. So, it is necessary to fix this problem and enable test after that.</body>
+    <file>src/main/java/com/artipie/management/api/ApiRepoUpdateSlice.java</file>
+    <author>Aleksandr Krasnov</author>
+    <email>genryxy.alexandr@yandex.ru</email>
+    <time>2020-12-22T19:28:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/management-api/issues/50" closed="2021-12-15T19:25:20+00:00">50</issue>
+    <ticket>321</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>321-1d437500</id>
+    <lines>33-37</lines>
+    <body>Remove code duplication. In this class and in the class with tests for this one a pair of very similar utils methods are used which are also used in classes for update repo. It is necessary to eliminate this code duplication.</body>
+    <file>src/main/java/com/artipie/management/api/ApiRepoDeleteSlice.java</file>
+    <author>Alexander</author>
+    <email>38591972+genryxy@users.noreply.github.com</email>
+    <time>2021-11-29T10:39:01Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

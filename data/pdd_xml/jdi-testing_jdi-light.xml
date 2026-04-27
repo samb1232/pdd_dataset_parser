@@ -1,0 +1,1921 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-05-04T15:19:09+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5301">5301</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-ea659e86</id>
+    <lines>16-16</lines>
+    <body>Reduce the amount of the tests in the suite</body>
+    <file>jdi-light-angular-tests/src/test/java/io/github/epam/angular/tests/elements/common/BasicButtonTests.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5302" closed="2024-04-06T23:01:40+00:00">5302</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-26e7fd53</id>
+    <lines>70-70</lines>
+    <body>Transform to test, now there is no validation</body>
+    <file>jdi-light-html-tests/src/test/java/io/github/epam/html/tests/elements/complex/RadioLabelTests.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5303">5303</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-4a023ef0</id>
+    <lines>29-29</lines>
+    <body>Check this class and annotation, locators are bad (we can not work without annotation), methods are not good enough</body>
+    <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/elements/inputs/transferlist/TransferList.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5304">5304</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-d54ffcf4</id>
+    <lines>38-38</lines>
+    <body>Change By to AppiumBy</body>
+    <file>jdi-light-mobile/src/main/java/com/epam/jdi/light/mobile/elements/base/MobileUIElement.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5305">5305</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-5b92a4e7</id>
+    <lines>12-13</lines>
+    <body>Current implementation have a lot of parameters for start activity https://github.com/appium/appium-uiautomator2-driver#mobile-startactivity</body>
+    <file>jdi-light-mobile/src/main/java/com/epam/jdi/light/mobile/elements/common/MobileDeviceActivity.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5306">5306</issue>
+    <ticket>5251</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5251-98b234f1</id>
+    <lines>80-84</lines>
+    <body>Yet to be checked (native app required) if (!"".equals(locator.androidViewTag())) return AppiumBy.androidViewTag(locator.androidViewTag()); if (!"".equals(locator.image())) return AppiumBy.image(locator.image());</body>
+    <file>jdi-light-mobile/src/main/java/com/epam/jdi/light/mobile/elements/pageobjects/annotations/WebAnnotationsUtil.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5307" closed="2024-02-18T03:17:13+00:00">5307</issue>
+    <ticket>5251</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5251-9413765b</id>
+    <lines>63-71</lines>
+    <body>Yet to be checked (native app required) if (!"".equals(locator.androidViewTag())) return MobileBy.AndroidViewTag(locator.androidViewTag()); if (!"".equals(locator.image())) return MobileBy.image(locator.image()); return null;</body>
+    <file>jdi-light-mobile-selenium3/src/main/java/com/epam/jdi/light/mobile/elements/pageobjects/annotations/WebAnnotationsUtil.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5308" closed="2024-04-07T01:13:31+00:00">5308</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-01d6361d</id>
+    <lines>81-81</lines>
+    <body>Create methods in Autocomplete class with all styles below</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/AutocompleteAssert.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5420" closed="2024-04-16T23:59:32+00:00">5420</issue>
+        <ticket>5308</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5308-3031c7ae</id>
+        <lines>92-92</lines>
+        <body>Create interface for rounded</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/AutocompleteAssert.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-07T01:13:17Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5473">5473</issue>
+            <ticket>5420</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5420-baab2af7</id>
+            <lines>10-10</lines>
+            <body>Check the all classes has this class if can be rounded</body>
+            <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/interfaces/HasRounded.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-16T23:59:16Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5421" closed="2024-04-28T01:04:34+00:00">5421</issue>
+        <ticket>5308</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5308-7e7b3d49</id>
+        <lines>102-102</lines>
+        <body>create interface for Themes</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/AutocompleteAssert.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-07T01:13:17Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5506">5506</issue>
+            <ticket>5421</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5421-dc73bca0</id>
+            <lines>7-7</lines>
+            <body>PaginationPage is not a part of Vue, should be removed</body>
+            <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/PaginationPage.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-28T01:04:19Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5507">5507</issue>
+            <ticket>5421</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5421-1ee5e3fa</id>
+            <lines>6-6</lines>
+            <body>Check if this checkbox is a part of vue</body>
+            <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/tables/TableCheckbox.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-28T01:04:19Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5422">5422</issue>
+        <ticket>5308</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5308-fc1d1ac5</id>
+        <lines>121-121</lines>
+        <body>We need to send Esc, as expander can be hidden</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/Autocomplete.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-07T01:13:17Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5423">5423</issue>
+        <ticket>5308</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5308-92dc0f9f</id>
+        <lines>138-138</lines>
+        <body>another selected options are keeped, it is not correct</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/Autocomplete.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-07T01:13:17Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5424">5424</issue>
+        <ticket>5308</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5308-60abbffc</id>
+        <lines>151-151</lines>
+        <body>in case option was not selected, if will be selected after</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/Autocomplete.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-07T01:13:17Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5425">5425</issue>
+        <ticket>5308</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5308-687134ce</id>
+        <lines>173-174</lines>
+        <body>for example, we have thing and something in the list. something option is selected, but for option thing it will return true result.</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/Autocomplete.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-07T01:13:17Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5426">5426</issue>
+        <ticket>5308</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5308-3b6af22a</id>
+        <lines>181-181</lines>
+        <body>strange function, double check the meaning</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/Autocomplete.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-07T01:13:17Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5309" closed="2024-04-07T03:38:14+00:00">5309</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-bdaac034</id>
+    <lines>68-68</lines>
+    <body>Check if this method usefull</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/ChipAssert.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5428" closed="2024-04-29T01:55:32+00:00">5428</issue>
+        <ticket>5309</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5309-681741c3</id>
+        <lines>79-79</lines>
+        <body>Ass interface for sizes (all small, x-small, default, large, x-large)</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/common/Chip.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-07T03:37:59Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5310" closed="2024-04-11T21:24:12+00:00">5310</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-fff2b0ce</id>
+    <lines>51-51</lines>
+    <body>Check this method naming and logic</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/ColorPickerAssert.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5450">5450</issue>
+        <ticket>5310</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5310-94d907fd</id>
+        <lines>14-14</lines>
+        <body>Add more assertion with Matcher inside (like alphaSliderValue), we can not see all required</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/ColorPickerAssert.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-11T21:23:55Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5451">5451</issue>
+        <ticket>5310</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5310-650ade36</id>
+        <lines>18-18</lines>
+        <body>Simplify and refactor this element, too many hardcoded values. Check if all colors are possible to get</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/ColorPicker.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-11T21:23:55Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5452">5452</issue>
+        <ticket>5310</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5310-2d93fb42</id>
+        <lines>60-60</lines>
+        <body>Test is not stable, as initial state can differ from RGBA</body>
+        <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/ColorPickersTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-11T21:23:55Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5311" closed="2024-04-11T01:35:52+00:00">5311</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-2f25f0f9</id>
+    <lines>241-241</lines>
+    <body>Check the logic of this method: orientation should not depend on the lines width</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/DatePickerAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5445">5445</issue>
+        <ticket>5311</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5311-0e7d7cd2</id>
+        <lines>31-31</lines>
+        <body>Class should be refactored to remove as much as possible get*** methods</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/DatePicker.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-11T01:35:33Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5446" closed="2024-04-30T02:45:16+00:00">5446</issue>
+        <ticket>5311</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5311-e258701e</id>
+        <lines>38-38</lines>
+        <body>Change locator to do no use any texts, they are depends one locale</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/DatePicker.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-11T01:35:33Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5514">5514</issue>
+            <ticket>5446</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5446-4a10f322</id>
+            <lines>117-117</lines>
+            <body>Change checks from checking date and month to check the full labels from the component</body>
+            <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/DatePickersTests.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-30T02:12:43Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5515">5515</issue>
+            <ticket>5446</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5446-a10a5795</id>
+            <lines>286-286</lines>
+            <body>Fix code check in tests, it is not a part of the picker</body>
+            <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/DatePickersTests.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-30T02:12:43Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5516">5516</issue>
+            <ticket>5446</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5446-acbad20f</id>
+            <lines>322-322</lines>
+            <body>Change logic to search existed button to change month and year</body>
+            <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/DatePickersTests.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-30T02:12:43Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5517">5517</issue>
+            <ticket>5446</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5446-afad2fce</id>
+            <lines>366-366</lines>
+            <body>StaleElementReferenceException during local run of the test, should be checked</body>
+            <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/DatePickersTests.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-30T02:12:43Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5518">5518</issue>
+            <ticket>5446</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5446-51e66ad6</id>
+            <lines>388-388</lines>
+            <body>Check the collecting of weekdays logic</body>
+            <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/DatePickersTests.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-30T02:12:43Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5312">5312</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-27078435</id>
+    <lines>24-24</lines>
+    <body>Check this method validation: expected value must be from the parameter without any changes</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/GridAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5313" closed="2024-04-09T22:40:32+00:00">5313</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-624c022d</id>
+    <lines>21-21</lines>
+    <body>Check the meaning of the method</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/ImageAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5314" closed="2024-04-10T04:02:15+00:00">5314</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-805bd3e3</id>
+    <lines>36-36</lines>
+    <body>Check the meaning of the method and if it is common for control</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/InputAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5441">5441</issue>
+        <ticket>5314</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5314-3c9ba285</id>
+        <lines>39-39</lines>
+        <body>Switch is not a part of this input, it is a Switch</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/common/Input.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-10T04:01:55Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5442">5442</issue>
+        <ticket>5314</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5314-08cd9ecc</id>
+        <lines>91-91</lines>
+        <body>Field should be cleaned before typing</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/common/Input.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-10T04:01:55Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5443">5443</issue>
+        <ticket>5314</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5314-c3b77202</id>
+        <lines>141-141</lines>
+        <body>Icon should be returned and all click methods must be removed</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/common/Input.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-10T04:01:55Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5315" closed="2024-02-23T18:15:42+00:00">5315</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-d79942b2</id>
+    <lines>15-15</lines>
+    <body>Check this constants, looks like should be refactored</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/PaginationAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5316" closed="2024-02-23T18:15:43+00:00">5316</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-66b0804d</id>
+    <lines>34-34</lines>
+    <body>Check the meaning of the method, refactor if needed</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/PaginationAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5317" closed="2024-02-23T18:15:44+00:00">5317</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-a97dc631</id>
+    <lines>82-82</lines>
+    <body>remove area-label featured, as it is from accessability</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/PaginationAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5318" closed="2024-04-12T01:08:40+00:00">5318</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-110a4a74</id>
+    <lines>34-34</lines>
+    <body>Check method functionality, there is no specific for any icon functionality</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/SlideGroupAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5454">5454</issue>
+        <ticket>5318</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5318-99a4b888</id>
+        <lines>53-55</lines>
+        <body>Slides can be not only v-cards, but any element, we should receive childs for .v-slide-group__content Check the page from the header, there is an example with buttons</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/SlideGroup.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-12T01:08:24Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5455">5455</issue>
+        <ticket>5318</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5318-0d9f0a74</id>
+        <lines>64-64</lines>
+        <body>content can have links, so wee need additional method to select</body>
+        <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/SlideGroupsTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-12T01:08:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5319" closed="2024-04-14T18:09:23+00:00">5319</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-44096410</id>
+    <lines>17-17</lines>
+    <body>Check method functionality doesn't look like common</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/SparklineAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5320" closed="2024-04-13T19:44:17+00:00">5320</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-e34e58c5</id>
+    <lines>95-95</lines>
+    <body>Change the implementation to check real counter content without any manipulation</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/TextFieldAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5463" closed="2024-05-01T04:04:40+00:00">5463</issue>
+        <ticket>5320</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5320-8c938e45</id>
+        <lines>113-113</lines>
+        <body>Check this method, not clear why should we have external locator</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/TextField.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-13T19:43:55Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5521">5521</issue>
+            <ticket>5463</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5463-fb2470b9</id>
+            <lines>47-50</lines>
+            <body>Refactor element, root element is element with class v-autocomplete According to the docs The v-combobox component is a v-autocomplete that allows the user to enter values that do not exist within the provided items. May be it should inherit from autocomplete</body>
+            <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/Combobox.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-05-01T02:50:27Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5522">5522</issue>
+            <ticket>5463</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5463-69ffd6d5</id>
+            <lines>8-8</lines>
+            <body>Check if JDICombobox annotation, now the root value is not correct</body>
+            <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/ComboboxPage.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-05-01T02:50:27Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5321">5321</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-d79e2752</id>
+    <lines>71-71</lines>
+    <body>Fix required. Not only h can be used (regional specific)</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/TimePickerAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5322" closed="2024-02-18T03:17:14+00:00">5322</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-f1f977a7</id>
+    <lines>75-75</lines>
+    <body>Check if this method is common</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/TreeViewNodeAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5401" closed="2024-05-03T15:27:49+00:00">5401</issue>
+        <ticket>5322</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5322-898f02d0</id>
+        <lines>50-51</lines>
+        <body>New locator affects all classes, as they change static values Should be fixed to use instance variables</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/TreeView.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-02-18T00:24:39Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5528">5528</issue>
+            <ticket>5401</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5401-8677782a</id>
+            <lines>12-12</lines>
+            <body>Check requirements and usage</body>
+            <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/annotations/JDITreeView.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-05-03T14:02:38Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5529">5529</issue>
+            <ticket>5401</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5401-b912e4d4</id>
+            <lines>118-118</lines>
+            <body>Check that implementation is optimal</body>
+            <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/TreeView.java</file>
+            <author>Natalia Pozhidaeva</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-05-03T14:02:38Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5323" closed="2024-04-12T17:37:16+00:00">5323</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-8e71eba5</id>
+    <lines>20-20</lines>
+    <body>Check if this function clear to use</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/VirtualScrollerAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5460">5460</issue>
+        <ticket>5323</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5323-1ade33cb</id>
+        <lines>32-33</lines>
+        <body>implement logic to cast child element to the specific class with optional locator relative to .v-virtual-scroll__item element</body>
+        <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/VirtualScrollerTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-12T17:37:00Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5324" closed="2024-04-11T01:54:39+00:00">5324</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-57a709bf</id>
+    <lines>108-108</lines>
+    <body>Check the meaning of the function</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/asserts/VuetifyTabsAssert.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5448">5448</issue>
+        <ticket>5324</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5324-bb81667c</id>
+        <lines>21-21</lines>
+        <body>refactor element. It should be an element with .v-tabs style in the name</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/VuetifyTabs.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-11T01:54:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5325">5325</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-08eb71d6</id>
+    <lines>27-27</lines>
+    <body>implement SVG icon class, implement name, getNameByType methods, map SVG path to a name, example commit: @cbc6e414c1e9edeb853b57e5a3f7007930d500fe</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/common/Icon.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5326" closed="2024-04-13T02:38:03+00:00">5326</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-fae40158</id>
+    <lines>11-11</lines>
+    <body>Implement get selected items function Interface IsMultiple is not applicable here, as there is no "--is-multi"</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/ItemGroup.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5330">5330</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-70cf9303</id>
+    <lines>32-32</lines>
+    <body>Check that it is comfortable to work with list with multiple list-groups</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/composite/VuetifyList.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5331" closed="2024-04-13T02:38:04+00:00">5331</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-ac82a228</id>
+    <lines>14-14</lines>
+    <body>v-card is locator for the Card class, so wrong logic is used</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/ItemGroupsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5332">5332</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-5ce5530f</id>
+    <lines>11-11</lines>
+    <body>Clean up the page, check the tests</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/ListItemGroupsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5333">5333</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-6f0d991e</id>
+    <lines>133-133</lines>
+    <body>Selected elements should be retrieved bu the methods and the content is checked</body>
+    <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/ItemGroupsTests.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5334">5334</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-de419a86</id>
+    <lines>314-314</lines>
+    <body>Fix the test to not use the locator and check the content of an element</body>
+    <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/TextFieldsTests.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5335">5335</issue>
+    <ticket>5048</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5048-4e9e01ea</id>
+    <lines>347-347</lines>
+    <body>Add assertion for of the progress to the component</body>
+    <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/TextFieldsTests.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-11T02:55:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5336" closed="2024-04-14T17:26:25+00:00">5336</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-16c7d983</id>
+    <lines>21-21</lines>
+    <body>Button should be used from ButtomGruop, not directly as single</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/displaydata/BadgePage.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5467">5467</issue>
+        <ticket>5336</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5336-0cb2bcd2</id>
+        <lines>21-21</lines>
+        <body>Create a basi class for badge (content or dot) to check style and content</body>
+        <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/elements/displaydata/Badge.java</file>
+        <author>@pnatashap</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-14T17:26:07Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5337" closed="2024-02-22T19:51:57+00:00">5337</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-ce378a24</id>
+    <lines>21-21</lines>
+    <body>Fix locator, it is not stable</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/displaydata/ChipsPage.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5338" closed="2024-02-22T19:51:59+00:00">5338</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-450bd3fd</id>
+    <lines>25-25</lines>
+    <body>Fix to css locator</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/displaydata/ChipsPage.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5339" closed="2024-04-26T15:02:20+00:00">5339</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-1e7f6d67</id>
+    <lines>15-15</lines>
+    <body>Fix locator to be more stable against div</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/displaydata/IconsPage.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5340" closed="2024-04-27T03:23:29+00:00">5340</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-e3689c96</id>
+    <lines>16-16</lines>
+    <body>Check locators with aria-valuenow, very stange to use them</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/feedback/ProgressPage.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5499">5499</issue>
+        <ticket>5340</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5340-fb7ea091</id>
+        <lines>12-12</lines>
+        <body>Check if this annotaion is needed</body>
+        <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/annotations/JProgress.java</file>
+        <author>@pnatashap</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-27T03:23:13Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5500">5500</issue>
+        <ticket>5340</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5340-c469a4e9</id>
+        <lines>46-46</lines>
+        <body>Label is not a part of CurcularProgress, should be removed</body>
+        <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/feedback/ProgressPage.java</file>
+        <author>@pnatashap</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-27T03:23:13Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5501">5501</issue>
+        <ticket>5340</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5340-ed7f03b1</id>
+        <lines>51-52</lines>
+        <body>there is no first and second, there is a buffer and main progress, should be renamed</body>
+        <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/feedback/ProgressPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-27T03:23:13Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5341" closed="2024-04-09T01:40:50+00:00">5341</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-085f6320</id>
+    <lines>12-12</lines>
+    <body>Check locators, the class is the same is for Button</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/inputs/ButtonGroupPage.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5431" closed="2024-04-15T17:05:55+00:00">5431</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-ce222468</id>
+        <lines>13-13</lines>
+        <body>Assertions to add: have title, have content, have actions</body>
+        <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/asserts/feedback/DialogAssert.java</file>
+        <author>@pnatashap</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5470" closed="2024-05-02T14:15:38+00:00">5470</issue>
+            <ticket>5431</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5431-919aa4de</id>
+            <lines>46-46</lines>
+            <body>looks like list is not a required part of Dialog, should be removed</body>
+            <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/elements/feedback/Dialog.java</file>
+            <author>@pnatashap</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-15T17:05:39Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/jdi-testing/jdi-light/issues/5471" closed="2024-05-02T14:15:40+00:00">5471</issue>
+            <ticket>5431</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>5431-279564fe</id>
+            <lines>81-81</lines>
+            <body>radiobuttons is not a part of standard dialog, should be removed</body>
+            <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/elements/feedback/Dialog.java</file>
+            <author>@pnatashap</author>
+            <email>Natalia_Pozhidaeva@epam.com</email>
+            <time>2024-04-15T17:05:39Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5432" closed="2024-05-02T14:15:41+00:00">5432</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-282655e2</id>
+        <lines>65-65</lines>
+        <body>this is not a ButtonGroup, Dialog is only a container</body>
+        <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/elements/feedback/Dialog.java</file>
+        <author>@pnatashap</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5433">5433</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-39331a9f</id>
+        <lines>35-35</lines>
+        <body>This is not a buttons, it is a list, should be changed</body>
+        <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/elements/surfaces/AppBar.java</file>
+        <author>@pnatashap</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5434" closed="2024-05-02T14:15:43+00:00">5434</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-d240ced9</id>
+        <lines>26-27</lines>
+        <body>Closing dialog should not change anything on the page, only explicit click on buttons should be used</body>
+        <file>jdi-light-material-ui-tests/src/test/java/io/github/epam/material/tests/feedback/DialogTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5435" closed="2024-05-02T14:15:45+00:00">5435</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-6a54dec2</id>
+        <lines>57-57</lines>
+        <body>Closing dialog should not change anything on the page, explicit click on buttons should be used</body>
+        <file>jdi-light-material-ui-tests/src/test/java/io/github/epam/material/tests/feedback/DialogTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5436">5436</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-5d03b900</id>
+        <lines>23-23</lines>
+        <body>Enable test after Appbar fix, exception in execution now</body>
+        <file>jdi-light-material-ui-tests/src/test/java/io/github/epam/material/tests/navigation/drawer/MiniDrawerTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5437">5437</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-1fae7688</id>
+        <lines>22-22</lines>
+        <body>Enable test after AppBar fix, IndexOutOfBoundary now on 2nd line</body>
+        <file>jdi-light-material-ui-tests/src/test/java/io/github/epam/material/tests/navigation/drawer/PersistentDrawerTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5438">5438</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-419f3c3b</id>
+        <lines>37-37</lines>
+        <body>MUIList doesn't work properly with types, we do not need to cast here</body>
+        <file>jdi-light-material-ui-tests/src/test/java/io/github/epam/material/tests/surfaces/AppBarTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5439">5439</issue>
+        <ticket>5341</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5341-0583de4f</id>
+        <lines>49-49</lines>
+        <body>Fix this test after AppBar refactoring</body>
+        <file>jdi-light-material-ui-tests/src/test/java/io/github/epam/material/tests/surfaces/AppBarTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-09T01:40:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5342" closed="2024-04-28T17:57:02+00:00">5342</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-a01c807d</id>
+    <lines>10-10</lines>
+    <body>Check if locators with classses can be used</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/inputs/DateTimePickersPage.java</file>
+    <author>@pnatashap</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5511">5511</issue>
+        <ticket>5342</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5342-799b69dc</id>
+        <lines>10-10</lines>
+        <body>These elements are input fields, datetimepickers appeared to edit data</body>
+        <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/inputs/DateTimePickersPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-28T17:56:38Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5343" closed="2024-04-25T23:14:25+00:00">5343</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-7a9e789c</id>
+    <lines>12-12</lines>
+    <body>Fix locators for more stable variant</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/inputs/TextFieldPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5490">5490</issue>
+        <ticket>5343</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5343-c65c876e</id>
+        <lines>42-42</lines>
+        <body>Check that all fields are TextFields, only two of them has such class</body>
+        <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/inputs/TextFieldPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-25T23:14:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5491">5491</issue>
+        <ticket>5343</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5343-4ed6214e</id>
+        <lines>298-298</lines>
+        <body>Check SelectTextField on Select functionality, default locators does not work</body>
+        <file>jdi-light-material-ui-tests/src/test/java/io/github/epam/material/tests/inputs/TextFieldTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-25T23:14:09Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5344" closed="2024-02-18T03:17:14+00:00">5344</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-6a286db9</id>
+    <lines>10-10</lines>
+    <body>Do not see any Box class, do we really need this page?</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/layout/BoxPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5345" closed="2024-01-26T16:25:32+00:00">5345</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-ed21c7ff</id>
+    <lines>9-9</lines>
+    <body>Check the page usage</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/layout/HiddenPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5346" closed="2024-04-14T02:06:30+00:00">5346</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-a18e632c</id>
+    <lines>13-13</lines>
+    <body>Check the locator, looks like it points to item, not for Menu</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/navigation/ContextMenuPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5347" closed="2024-04-24T03:16:20+00:00">5347</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-534ad06c</id>
+    <lines>13-13</lines>
+    <body>Fix locator to be more stable for layout</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/navigation/TabPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5488">5488</issue>
+        <ticket>5347</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5347-b117c016</id>
+        <lines>13-14</lines>
+        <body>Box control should be added as a Container https://v4.mui.com/api/container/ test page also exists https://jdi-testing.github.io/jdi-light/material/box_layout</body>
+        <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/navigation/TabPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-24T03:16:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5348" closed="2024-04-28T17:13:15+00:00">5348</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-841f5224</id>
+    <lines>9-9</lines>
+    <body>Check the locators for drawer, looks like they must be relative, while they a written as absolute</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/navigation/TemporaryDrawerPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5349" closed="2024-04-23T16:50:53+00:00">5349</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-9b4187da</id>
+    <lines>10-10</lines>
+    <body>Check the locator, looks like it is not for AppBar (or use correct classname)</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/surfaces/BackToTopAppBarPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5485">5485</issue>
+        <ticket>5349</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5349-c6f85c44</id>
+        <lines>24-24</lines>
+        <body>Toolbar class should be created with this API https://v4.mui.com/api/toolbar/</body>
+        <file>jdi-light-material-ui/src/main/java/com/epam/jdi/light/material/elements/surfaces/AppBar.java</file>
+        <author>@pnatashap</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-23T16:50:36Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5350">5350</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-20b90066</id>
+    <lines>21-21</lines>
+    <body>Class should be created to describe the card with image or image is a legal part of the card</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/surfaces/CardPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5351" closed="2024-04-21T23:58:42+00:00">5351</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-86d99708</id>
+    <lines>10-10</lines>
+    <body>Page is not used, check it</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/utils/PopoverHoverFrame.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5352" closed="2024-03-31T22:54:57+00:00">5352</issue>
+    <ticket>5297</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5297-79e0a1b9</id>
+    <lines>12-12</lines>
+    <body>Check the locators</body>
+    <file>jdi-light-material-ui-tests/src/main/java/io/github/com/pages/utils/TransitionPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5353" closed="2024-04-06T00:04:15+00:00">5353</issue>
+    <ticket>5291</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5291-2a4c19ba</id>
+    <lines>4-4</lines>
+    <body>Fill in the page or delete it</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/ApplicationPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5354" closed="2024-04-07T18:43:24+00:00">5354</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-081cb955</id>
+    <lines>12-12</lines>
+    <body>Fix locators, they are not stable</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/AutocompletesPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5355" closed="2024-04-07T18:43:25+00:00">5355</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-4ed4d440</id>
+    <lines>52-52</lines>
+    <body>List item should be located</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/AutocompletesPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5356" closed="2024-01-30T02:23:58+00:00">5356</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-7a6338ee</id>
+    <lines>11-11</lines>
+    <body>Locator to the Badge should be .v-bage, not icons, dots and avatar</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/BadgesPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5357" closed="2024-04-03T18:52:24+00:00">5357</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-34355e7f</id>
+    <lines>13-13</lines>
+    <body>Locator is to input, not for the switch</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/BannersPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5358" closed="2024-01-28T17:33:25+00:00">5358</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-b37e9d11</id>
+    <lines>8-8</lines>
+    <body>locator should use .v-breadcrumbs, not ul tag</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/BreadcrumbsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5359" closed="2024-04-18T18:02:41+00:00">5359</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-206f0a18</id>
+    <lines>16-16</lines>
+    <body>Localors should use .v-card class</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/CardsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5360" closed="2024-04-28T15:26:35+00:00">5360</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-9f216e6c</id>
+    <lines>10-10</lines>
+    <body>Locators should use .v-color-picker class</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/ColorPickersPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5509">5509</issue>
+        <ticket>5360</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5360-d57c708f</id>
+        <lines>110-110</lines>
+        <body>View of alpha channel depends on regional settings</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/ColorPicker.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-28T15:26:20Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5361" closed="2024-04-21T23:45:26+00:00">5361</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-b1b4ff7d</id>
+    <lines>11-11</lines>
+    <body>Locators should use .v-picker class for DatePickerMonth</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/DatePickersMonthPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5479">5479</issue>
+        <ticket>5361</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5361-adf03c12</id>
+        <lines>26-27</lines>
+        <body>expandedRootLocator should be removed from this class, input with date value is a different component, not this one</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/DatePickerMonth.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-21T23:45:10Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5362" closed="2024-04-26T23:57:04+00:00">5362</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-1dfdd16b</id>
+    <lines>16-16</lines>
+    <body>Locators should use .v-picker class</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/DatePickersPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5495">5495</issue>
+        <ticket>5362</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5362-d32c06e5</id>
+        <lines>93-94</lines>
+        <body>Looks like this is not a picker, but input with date type, so datepicker appears to select value. Should be checked</body>
+        <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/DatePickersPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-26T23:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5496" closed="2024-05-04T15:19:09+00:00">5496</issue>
+        <ticket>5362</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5362-912eb379</id>
+        <lines>138-138</lines>
+        <body>Locator should be ".v-input--checkbox"</body>
+        <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/DatePickersPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-26T23:56:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5497">5497</issue>
+        <ticket>5362</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5362-a0ddf906</id>
+        <lines>146-146</lines>
+        <body>These controls are in the picker, should be used from the picker only</body>
+        <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/DatePickersPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-26T23:56:48Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5363" closed="2024-04-22T21:31:48+00:00">5363</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-563b8978</id>
+    <lines>22-22</lines>
+    <body>Locators should use .v-file-input class</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/FileInputsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5482">5482</issue>
+        <ticket>5363</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5363-2e351cda</id>
+        <lines>14-15</lines>
+        <body>Check if this descriptor is needed, add a tests if needed, delete if not needed with all annotation</body>
+        <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/annotations/JDIFileInput.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-22T21:31:31Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5483">5483</issue>
+        <ticket>5363</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5363-855c790e</id>
+        <lines>57-57</lines>
+        <body>fix paths to do not use src, they are available in resources</body>
+        <file>jdi-light-vuetify-tests/src/test/java/io/github/epam/vuetify/tests/complex/FileInputsTests.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-22T21:31:31Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5364">5364</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-101d720b</id>
+    <lines>65-65</lines>
+    <body>Dialog should be introduced to the page instead of separate fields from it</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/FloatingActionButtonsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5365" closed="2024-04-17T16:00:22+00:00">5365</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-3843a512</id>
+    <lines>14-14</lines>
+    <body>Locators shoud use classes to search elements</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/InputsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5366" closed="2024-04-02T19:15:18+00:00">5366</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-af149505</id>
+    <lines>10-10</lines>
+    <body>Looks like locator point not to sheet, but on content. SHould be refactored</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/SheetsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5367" closed="2024-01-26T16:25:36+00:00">5367</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-b37db2f2</id>
+    <lines>18-18</lines>
+    <body>Locator with .v-slider should be used</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/SlidersPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5368" closed="2024-03-27T12:54:55+00:00">5368</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-9161f456</id>
+    <lines>12-12</lines>
+    <body>Locators are not stable enough</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/SnackbarsPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5369" closed="2024-04-27T23:38:12+00:00">5369</issue>
+    <ticket>5298</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5298-44673399</id>
+    <lines>11-11</lines>
+    <body>Locators should use .v-picker class for TimePickers</body>
+    <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/TimePickersPage.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-17T04:41:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5503">5503</issue>
+        <ticket>5369</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5369-8a726f83</id>
+        <lines>53-54</lines>
+        <body>Menu with TimePicker should be described as a separate component, may be input with menu to change data</body>
+        <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/TimePickersPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-27T23:37:57Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jdi-testing/jdi-light/issues/5504">5504</issue>
+        <ticket>5369</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>5369-b32b716c</id>
+        <lines>62-63</lines>
+        <body>Dialog with TimePicker should be described as a separate component may be input with dialog to change data</body>
+        <file>jdi-light-vuetify-tests/src/main/java/io/github/com/pages/TimePickersPage.java</file>
+        <author>Natalia Pozhidaeva</author>
+        <email>Natalia_Pozhidaeva@epam.com</email>
+        <time>2024-04-27T23:37:57Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5383" closed="2024-04-02T04:09:20+00:00">5383</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-3c531542</id>
+    <lines>20-20</lines>
+    <body>Check if 1.0 is really the minimum, as typically 0 is minimum</body>
+    <file>jdi-light-mobile/src/main/java/com/epam/jdi/light/mobile/elements/common/app/android/RatingBar.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-26T16:25:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5384">5384</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-62cade75</id>
+    <lines>31-31</lines>
+    <body>Change TouchAction in mobile project, as it is depricated</body>
+    <file>jdi-light-mobile/src/main/java/com/epam/jdi/light/mobile/elements/common/app/android/RatingBar.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-26T16:25:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5385">5385</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-99cdc380</id>
+    <lines>205-206</lines>
+    <body>add a public method to check if grouping by column is available check if it is already grouped by</body>
+    <file>jdi-light-vuetify/src/main/java/com/epam/jdi/light/vuetify/elements/complex/tables/DataTable.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-01-26T16:25:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5402">5402</issue>
+    <ticket>5251</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5251-e4ac8c84</id>
+    <lines>63-67</lines>
+    <body>Yet to be checked (native app required) if (!"".equals(locator.androidViewTag())) return MobileBy.AndroidViewTag(locator.androidViewTag()); if (!"".equals(locator.image())) return MobileBy.image(locator.image());</body>
+    <file>jdi-light-mobile-selenium3/src/main/java/com/epam/jdi/light/mobile/elements/pageobjects/annotations/WebAnnotationsUtil.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-02-18T00:24:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5457">5457</issue>
+    <ticket>5329</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5329-0a174d4c</id>
+    <lines>178-178</lines>
+    <body>Replace with core().find</body>
+    <file>jdi-light-mobile/src/main/java/com/epam/jdi/light/mobile/elements/base/MobileUIElement.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-04-12T14:07:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jdi-testing/jdi-light/issues/5458">5458</issue>
+    <ticket>5329</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5329-ae0bb217</id>
+    <lines>167-167</lines>
+    <body>core should be used with find</body>
+    <file>jdi-light-mobile-selenium3/src/main/java/com/epam/jdi/light/mobile/elements/base/MobileUIElement.java</file>
+    <author>Natalia Pozhidaeva</author>
+    <email>Natalia_Pozhidaeva@epam.com</email>
+    <time>2024-04-12T14:07:21Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

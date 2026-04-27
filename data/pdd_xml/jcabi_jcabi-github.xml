@@ -1,0 +1,2541 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2025-11-21T16:40:39+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1-e4398e4c</id>
+    <ticket>1</ticket>
+    <file>pom.xml</file>
+    <lines>257-262</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Enable Cobertura profile by default. This code coverage check doesn't work due to some problem with Cobertura plugin. It always reports zero coverage for all classes. I was trying to run it without AspectJ weavling using "mvn clean install -Pcobertura -P\!aspectj", but it doesn't help. Let's fix it and enable by default.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>121-27fffa43</id>
+    <ticket>121</ticket>
+    <file>src/test/java/com/jcabi/github/RtForksITCase.java</file>
+    <lines>40-42</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Create an integration test case for RtForks that fetches from a real Github repository. The test should exercise the iteration of existing forks and creation of new forks.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>551-9c90a24d</id>
+    <ticket>551</ticket>
+    <file>src/test/java/com/jcabi/github/RtGistsITCase.java</file>
+    <lines>48-50</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>CreateGist is disabled since it doesn't work with real Github account. Let's fix it and remove the Ignore annotation.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>551-394f5521</id>
+    <ticket>551</ticket>
+    <file>src/test/java/com/jcabi/github/RtPublicKeysITCase.java</file>
+    <lines>45-47</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtPublicKeysITCase is disabled since it doesn't work with real Github account. Let's fix it and remove all Ignore annotations from all its methods.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>551-2759c576</id>
+    <ticket>551</ticket>
+    <file>src/test/java/com/jcabi/github/RtHooksITCase.java</file>
+    <lines>47-49</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtHooksITCase methods are disabled since they don't work with real Github account. Let's fix them all and remove their Ignore annotations.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>180-f397ff23</id>
+    <ticket>180</ticket>
+    <file>src/test/java/com/jcabi/github/RtReleaseAssetsTest.java</file>
+    <lines>53-57</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtReleaseAssets should be able to list assets for a release. Let's implement this method, add integration test, declare a method in ReleaseAssets and implement it. See http://developer.github.com/v3/repos/releases/#list-assets-for-a-release. When done, remove this puzzle and Ignore annotation from this method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>180-dbf6a414</id>
+    <ticket>180</ticket>
+    <file>src/test/java/com/jcabi/github/RtReleaseAssetsTest.java</file>
+    <lines>87-91</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtReleaseAssets should be able to get a single release asset. Let's implement this method, add integration test, declare a method in ReleaseAssets and implement it. See http://developer.github.com/v3/repos/releases/#get-a-single-release-asset. When done, remove this puzzle and Ignore annotation from this method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>119-36273859</id>
+    <ticket>119</ticket>
+    <file>src/test/java/com/jcabi/github/RtContentsITCase.java</file>
+    <lines>48-51</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtContents should be able to get the readme file from a real Github repository, fetch files, create, update and remove files. When done, remove this puzzle and Ignore annotation from the method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>551-3d3f586d</id>
+    <ticket>551</ticket>
+    <file>src/test/java/com/jcabi/github/RtReleasesITCase.java</file>
+    <lines>45-47</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtReleasesITCase is disabled since it doesn't work with real Github account. Let's fix it and remove all Ignore annotations from all its test methods.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>551-f74b41ae</id>
+    <ticket>551</ticket>
+    <file>src/test/java/com/jcabi/github/RtReposITCase.java</file>
+    <lines>57-59</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Create() is disabled since it doesn't work with real Github account. Let's fix it and remove the Ignore annotation.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>117-7eb63c9c</id>
+    <ticket>117</ticket>
+    <file>src/test/java/com/jcabi/github/RtRepoCommitsITCase.java</file>
+    <lines>45-45</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Add test getCommit() to check that commit actually got. See http://developer.github.com/v3/repos/commits/#get-a-single-commit.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>551-b9f503ea</id>
+    <ticket>551</ticket>
+    <file>src/test/java/com/jcabi/github/RtRepoCommitsITCase.java</file>
+    <lines>91-93</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>CompareCommitsDiff is disabled since it doesn't work with real Github account. Let's fix it and remove the Ignore annotation.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>119-eaa22f98</id>
+    <ticket>119</ticket>
+    <file>src/test/java/com/jcabi/github/RtDeployKeysTest.java</file>
+    <lines>75-79</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtDepoyKeys should iterate multiple deploy keys. Let's implement a test here and a method of RtDeployKeys. The method should iterate multiple deploy keys. See how it's done in other classes with GhPagination. When done, remove this puzzle and Ignore annotation from the method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>551-e06e845e</id>
+    <ticket>551</ticket>
+    <file>src/test/java/com/jcabi/github/RtRepoITCase.java</file>
+    <lines>62-64</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>IteratesEvents() is disabled since it doesn't work with real Github account. Let's fix it and remove its Ignore annotation.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>551-6e1c2c0e</id>
+    <ticket>551</ticket>
+    <file>src/test/java/com/jcabi/github/RtGistITCase.java</file>
+    <lines>48-50</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>ReadsAndWritesGists is disabled since it doesn't work with real Github account. Let's fix it and remove the Ignore annotation.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>117-98832e40</id>
+    <ticket>117</ticket>
+    <file>src/main/java/com/jcabi/github/RtRepoCommits.java</file>
+    <lines>47-49</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtRepoCommits should be able to fetch commits. Let's implement this method. When done, remove this puzzle and Ignore annotation from a test for the method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/217" closed="2017-11-02T06:40:59+00:00">217</issue>
+    <id>124-286e020e</id>
+    <ticket>124</ticket>
+    <file>src/main/java/com/jcabi/github/Search.java</file>
+    <lines>43-46</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>The {@link Search} interface currently defines methods for searching repos, issues, and users. We need to add a new method codes() for the purposes for code searching. At the moment, we don't have a way to represent codes in the API.</body>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>217-1b93d847</id>
+        <ticket>217</ticket>
+        <file>src/test/java/com/jcabi/github/RtSearchITCase.java</file>
+        <lines>91-94</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>RtSearchITCase.canSearchForContents() is missing. Let's implement it and remove this puzzle @see
+
+Search API
+
+for details</body>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>217-25e307e5</id>
+        <ticket>217</ticket>
+        <file>src/main/java/com/jcabi/github/mock/MkSearch.java</file>
+        <lines>54-57</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>MkSearch.codes() is not implemented. Let's implement it and remove this puzzle @see
+
+Search API
+
+for details</body>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>121-79b3336b</id>
+    <ticket>121</ticket>
+    <file>src/main/java/com/jcabi/github/Fork.java</file>
+    <lines>41-42</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement a Smart decorator for this class for the purposes of JSON parsing.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>166-c6242d98</id>
+    <ticket>166</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkContent.java</file>
+    <lines>48-52</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Content mock should be implemented. Need to implement the methods of MkContent: 1) compareTo, 2) json, 3) patch Don't forget to update the unit test class {@link MkContent}. See http://developer.github.com/v3/repos/contents</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>166-b0bab9f0</id>
+    <ticket>166</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommit.java</file>
+    <lines>45-45</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Should implement the compareTo method in MkRepoCommit. Once implemented please remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>166-e2c10d0d</id>
+    <ticket>166</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommit.java</file>
+    <lines>47-47</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Should implement the json method in MkRepoCommit. Once implemented please remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>166-4c632ec6</id>
+    <ticket>166</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommit.java</file>
+    <lines>49-50</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Should create test class for MkRepoCommit. Once created please remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>117-0a41f9e2</id>
+    <ticket>117</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommits.java</file>
+    <lines>47-47</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkRepoCommits should be able to fetch commits. Let's implement this method. When done, remove this puzzle and Ignore annotation from a test for the method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>301-6baacaf0</id>
+    <ticket>301</ticket>
+    <file>src/test/java/com/jcabi/github/RtPublicKeysITCase.java</file>
+    <lines>43-43</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement an integration test for RtPublicKeys that creates a real public key for a user.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>416-60539cc7</id>
+    <ticket>416</ticket>
+    <file>src/test/java/com/jcabi/github/RtPullCommentsTest.java</file>
+    <lines>122-125</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtPullComments should be able to fetch all comments of a pull request. Implement {@link RtPullComments#iterate(int, java.util.Map)} and don't forget to include a test here. When done, remove this puzzle and the Ignore annotation of this test method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>416-54461525</id>
+    <ticket>416</ticket>
+    <file>src/test/java/com/jcabi/github/RtPullCommentsTest.java</file>
+    <lines>137-140</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtPullComments should be able to create a new pull comment. Implement {@link RtPullComments#post(String, String, String, int)} and don't forget to include a test here. When done, remove this puzzle and the Ignore annotation of this test method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>416-3cc65c37</id>
+    <ticket>416</ticket>
+    <file>src/test/java/com/jcabi/github/RtPullCommentsTest.java</file>
+    <lines>152-155</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtPullComments should be able to fetch all pull comments of a repo. Implement {@link RtPullComments#reply(String, int))} and don't forget to include a test here. When done, remove this puzzle and the Ignore annotation of this test method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>416-7d9e5512</id>
+    <ticket>416</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkPullCommentsTest.java</file>
+    <lines>213-216</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkPullComments should be able remove a pull comment. Implement {@link MkPullComments#iterate(java.util.Map)} and don't forget to include a test here. When done, remove this puzzle and the Ignore annotation of this test method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-1018c931</id>
+    <ticket>282</ticket>
+    <file>src/test/java/com/jcabi/github/RtReleaseAssetITCase.java</file>
+    <lines>38-40</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Need to implement integration test for RtReleaseAsset. This class should contain test cases that operate against a real github repository. At the very least, the json, patch and remove methods should be exercised.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-a3378bf3</id>
+    <ticket>282</ticket>
+    <file>src/test/java/com/jcabi/github/RtReleaseAssetsITCase.java</file>
+    <lines>37-39</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Need to implement integration test for RtReleaseAsset. This class should contain test cases that operate against a real github repository. Need to test the following methods: iterate, upload, get.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-14176972</id>
+    <ticket>282</ticket>
+    <file>src/main/java/com/jcabi/github/ReleaseAsset.java</file>
+    <lines>43-43</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement a Smart decorator for ReleaseAsset for the purposes of JSON parsing. This class should be able to return the various attributes of the JSON response for fetching comments, such as the ID, commit ID, URL, and comment body. Smart should also be able to handle editing the attributes of an existing comment by using {@link JsonPatchable#patch(javax.json.JsonObject)}. Also include an example of how to do this in the Javadoc comment above. You can refer to {@link PublicKey} on how to do this.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-493fcdf5</id>
+    <ticket>282</ticket>
+    <file>src/main/java/com/jcabi/github/ReleaseAsset.java</file>
+    <lines>51-57</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>We should be able to fetch a release asset's binary contents. See http://developer.github.com/v3/repos/releases/#get-a-single-release-asset for details on how this needs to be done. The ReleaseAsset interface should be able to expose this function through a method, which we can name something like "content", "body" or "raw", whichever is most appropriate. I'm not sure what the return type should be at the moment but it will likely be either a byte array or a stream implementation.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-3f781a69</id>
+    <ticket>282</ticket>
+    <file>src/test/java/com/jcabi/github/RtReleaseAssetTest.java</file>
+    <lines>159-161</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtReleaseAsset should be able to stream raw content. Implement RtReleaseAsset method. When done, remove this puzzle and the Ignore annotation from this test method.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-03976899</id>
+    <ticket>282</ticket>
+    <file>src/main/java/com/jcabi/github/RtReleaseAsset.java</file>
+    <lines>118-119</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtReleaseAsset should be able to remove files. Implement RtReleaseAsset method. When done, remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-b8bbc5da</id>
+    <ticket>282</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkReleaseAsset.java</file>
+    <lines>129-130</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkReleaseAsset should be able to remove files. Implement MkReleaseAsset method. When done, remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-c7227d28</id>
+    <ticket>282</ticket>
+    <file>src/main/java/com/jcabi/github/RtReleaseAsset.java</file>
+    <lines>130-131</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement RtReleaseAsset method to retrieve raw release asset content. When done remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>282-e5b7284c</id>
+    <ticket>282</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkReleaseAsset.java</file>
+    <lines>142-143</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement MkReleaseAsset method to retrieve raw release asset content. When done remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>224-6dd41ae9</id>
+    <ticket>224</ticket>
+    <file>src/test/java/com/jcabi/github/RtDeployKeysITCase.java</file>
+    <lines>49-53</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtDeployKeysITCase#canFetchAllDeployKeys() is ignored because at the moment, {@link RtDeployKeys#iterate()} is not fully implemented and only returns empty iterators. Once {@link RtDeployKeys#iterate()} has been implemented, remove the Ignore annotation here to enable the integration test. Revise this test method if necessary.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>439-ad2d6cbe</id>
+    <ticket>439</ticket>
+    <file>src/test/java/com/jcabi/github/RtRepoCommitsITCase.java</file>
+    <lines>47-49</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement test compareCommitsPatch to check that two commits can be compared and result is in patch format. See http://developer.github.com/v3/repos/commits/#compare-two-commits.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>439-11dd6e4d</id>
+    <ticket>439</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommits.java</file>
+    <lines>53-53</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkRepoCommits should be able to compare two commits and return comparison in diff format. Let's create a test for this method and implement the method. When done, remove this puzzle. See http://developer.github.com/v3/repos/commits/#compare-two-commits</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>439-d6c86eb1</id>
+    <ticket>439</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommits.java</file>
+    <lines>58-62</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkRepoCommits should be able to compare two commits and return comparison in patch format. Let's create a test for this method and implement the method. When done, remove this puzzle. See http://developer.github.com/v3/repos/commits/#compare-two-commits</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>323-4b381f91</id>
+    <ticket>323</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkContentsTest.java</file>
+    <lines>69-72</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkContents should be able to fetch the readme of the specified branch. This method should create a new instance of MkContent. Do not forget to implement a unit test for it here and remove the Ignore annotation.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>311-f396de13</id>
+    <ticket>311</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkContentsTest.java</file>
+    <lines>118-121</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkContents should support the removal of mock contents. This method should return a new instance of MkCommit. Do not forget to implement a unit test for it here and remove the Ignore annotation.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>444-ecab3e06</id>
+    <ticket>444</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkContentsTest.java</file>
+    <lines>132-133</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Methods create() in MkContents and json() in MkContent should be implemented in order for this test to work.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>115-df454dc4</id>
+    <ticket>115</ticket>
+    <file>src/main/java/com/jcabi/github/Git.java</file>
+    <lines>56-67</lines>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement the Git Data Blobs API. We need to implement the following: 1) Add the operations in http://developer.github.com/v3/git/blobs/ to the Blobs interface. 2) A class RtBlobs, which performs RESTful request operations against the Blobs API. 3) A class MkBlobs, which mocks the Blobs interface 4) an interface Blob, which represents a single Blob of the Git Data API 5) RtBlob, a Blob implementation which fetches and modifies Blob information according to the Blob API. and 6) MkBlob, which mocks a single Blob object. Don't forget to implement unit and integration tests.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>115-0b7b982e</id>
+    <ticket>115</ticket>
+    <file>src/main/java/com/jcabi/github/Git.java</file>
+    <lines>94-106</lines>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement the Git Data References API. We need to implement the following: 1) Add the operations in http://developer.github.com/v3/git/references/ to the References interface. 2) A class RtReferences, which performs RESTful request operations against the References API. 3) A class MkReferences, which mocks the References interface. 4) An interface Reference, which represents a single Reference of the Git Data API. 5) RtReferences, a Reference implementation which fetches and modifies Reference information according to the References API, and 6) MkReference, which mocks a single Reference object. Don't forget to implement unit tests and integration tests.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>115-8bf70aa1</id>
+    <ticket>115</ticket>
+    <file>src/main/java/com/jcabi/github/Git.java</file>
+    <lines>115-127</lines>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement the Git Data Tags API. We need to implement the following: 1) Add the operations in http://developer.github.com/v3/git/tags/ to the Tags interface. 2) A class RtTags, which performs RESTful request operations against the Tags API. 3) A class MkTags, which mocks the Tags interface. 4) An interface Tag, which represents a single Tag of the Git Data API. 5) RtTags, a Tag implementation which fetches and modifies Tag information according to the Tags API, and 6) MkTag, which mocks a single Reference object. Don't forget to implement unit tests and integration tests.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>115-d05174b6</id>
+    <ticket>115</ticket>
+    <file>src/main/java/com/jcabi/github/Git.java</file>
+    <lines>136-148</lines>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement the Git Data Trees API. We need to implement the following: 1) Add the operations in http://developer.github.com/v3/git/trees/ to the Trees interface. 2) A class RtTrees, which performs RESTful request operations against the Trees API. 3) A class MkTrees, which mocks the Trees interface. 4) An interface Tag, which represents a single Tag of the Git Data API. 5) RtTrees, a Tag implementation which fetches and modifies Tag information according to the Trees API, and 6) MkTag, which mocks a single Tag object. Don't forget to implement unit tests and integration tests.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/371" closed="2017-11-02T06:41:01+00:00">371</issue>
+    <id>116-e93cec9a</id>
+    <ticket>116</ticket>
+    <file>src/main/java/com/jcabi/github/RtCollaborators.java</file>
+    <lines>39-42</lines>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement methods. They should be implemented as described at http://developer.github.com/v3/repos/collaborators/ and repo() method should return Repo instance it is created with. Tests as com.jcabi.github.RtCollaboratorsTest should be also implemented.</body>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/591" closed="2017-11-02T06:41:02+00:00">591</issue>
+        <id>371-7688c6ce</id>
+        <ticket>371</ticket>
+        <file>src/main/java/com/jcabi/github/RtCollaborators.java</file>
+        <lines>42-45</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>Implement isCollaborator, add and remove methods. They should be implemented as described at http://developer.github.com/v3/repos/collaborators/ Tests as com.jcabi.github.RtCollaboratorsTest should be also implemented.</body>
+        <children>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <id>591-1119cd74</id>
+            <ticket>591</ticket>
+            <file>src/main/java/com/jcabi/github/RtCollaborators.java</file>
+            <lines>46-49</lines>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <author>unknown</author>
+            <email>unknown@0pdd.com</email>
+            <time>2016-12-14T12:06:13Z</time>
+            <body>Implement add() method. It should be implemented as described at http://developer.github.com/v3/repos/collaborators/ Test as com.jcabi.github.RtCollaboratorsTest should be also implemented.</body>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>367-b1405347</id>
+    <ticket>367</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkOrganizations.java</file>
+    <lines>56-60</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkOrganizations should be able to iterate over organizations of any user. Method iterate(username) should iterate over: 1) public and private organizations if username matches to login of authenticated user 2) public organizations otherwise. Don't forget about unit tests</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>273-e0b14d24</id>
+    <ticket>273</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommits.java</file>
+    <lines>50-50</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkRepoCommits should be able to compare two commits. Let's create a test for this method and implement the method. When done, remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/590" closed="2017-11-02T06:41:03+00:00">590</issue>
+    <id>524-89453c40</id>
+    <ticket>524</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkContentsTest.java</file>
+    <lines>53-61</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkContents should be able to handle branches. In a request for file update or create you may specify a branch. Also, a branch might be specified in a reading request. So, if you changed some file in branch-1, you shouldn't get these changes in the master branch, only in branch-1. Implementation of create, update and get methods of MkContents should be changed. See http://developer.github.com/v3/repos/contents/#update-a-file for details</body>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>590-28ae055a</id>
+        <ticket>590</ticket>
+        <file>src/test/java/com/jcabi/github/mock/MkContentsTest.java</file>
+        <lines>54-57</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>MkContents can now create and get files from non-default branches. However, the same functionality has not been implemented yet for the update() and remove() methods. Let's fix it. See http://developer.github.com/v3/repos/contents for details</body>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/821" closed="2017-11-02T06:41:04+00:00">821</issue>
+        <id>590-28392908</id>
+        <ticket>590</ticket>
+        <file>src/test/java/com/jcabi/github/mock/MkContentsTest.java</file>
+        <lines>51-54</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>MkContents can now create and get files from non-default branches. However, the same functionality has not been implemented yet for the update() method. Let's fix it. See http://developer.github.com/v3/repos/contents for details</body>
+        <children>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <id>821-cd891a33</id>
+            <ticket>821</ticket>
+            <file>src/main/java/com/jcabi/github/RtContents.java</file>
+            <lines>47-49</lines>
+            <estimate>30</estimate>
+            <author>unknown</author>
+            <email>unknown@0pdd.com</email>
+            <time>2016-12-14T12:06:13Z</time>
+            <body>RtContents.update(path, ref, json) is not implemented. Let's implement it and remove this puzzle. See http://developer.github.com/v3/repos/contents for details.</body>
+            <role>IMP</role>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/625" closed="2017-11-02T06:41:05+00:00">625</issue>
+    <id>592-ddf3fea6</id>
+    <ticket>592</ticket>
+    <file>src/test/java/com/jcabi/github/NullabilityTest.java</file>
+    <lines>55-57</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Add @NotNull were it is needed. Remove @Ignore annotation from test and add @NotNull annotation all public methods in all classes for return value and for input arguments</body>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>625-ecef7282</id>
+        <ticket>625</ticket>
+        <file>src/test/java/com/jcabi/github/NullabilityTest.java</file>
+        <lines>55-56</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>Fix checkNullabilityTest and remove the ignore annotation. Got IndexOutOfBounds exception. Please have a look into it.</body>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>625-9ca080c7</id>
+        <ticket>625</ticket>
+        <file>src/test/java/com/jcabi/github/IssueTest.java</file>
+        <lines>86-87</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>This test fails because it violates constraint "pull is never NULL".Fix this.</body>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>625-06829423</id>
+        <ticket>625</ticket>
+        <file>src/test/java/com/jcabi/github/IssueTest.java</file>
+        <lines>151-152</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>This test fails because it violates constraint "repository is never NULL".Fix this.</body>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>553-ad3f55ae</id>
+    <ticket>553</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkCommitsComparison.java</file>
+    <lines>45-47</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkRepoCommits.json() should return JSON object of comparison. Let's create a test for this method and implement the method. When done, remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>166-8acc137a</id>
+    <ticket>166</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommit.java</file>
+    <lines>46-46</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Should implement the compareTo() method in MkRepoCommit. Implement the method and a unit test for it. Once implemented please remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>166-7614f0da</id>
+    <ticket>166</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepoCommit.java</file>
+    <lines>49-51</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Should create test class for MkRepoCommit. Don't forget to test all existing methods. Once created please remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/689" closed="2017-11-02T06:41:06+00:00">689</issue>
+    <id>604-34d3f535</id>
+    <ticket>604</ticket>
+    <file>src/test/java/com/jcabi/github/VisibilityTest.java</file>
+    <lines>51-52</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Make sure that all classes/interfaces not included in the SKIP set not public and then remove the Ignore annotation.</body>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>689-1341f214</id>
+        <ticket>689</ticket>
+        <file>src/test/java/com/jcabi/github/mock/MkGitTest.java</file>
+        <lines>51-53</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>MkGitTest.canFetchOwnRepo is currently ignored because it fails. The repo returned by Repo.git() should be equal to the original repo but somehow it's not. Let's fix it.</body>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1-b237b43e</id>
+    <ticket>1</ticket>
+    <file>src/test/java/com/jcabi/github/RtPublicKeysITCase.java</file>
+    <lines>43-46</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtPublicKeysITCase is disabled since it doesn't work with real Github account. The problem is that guthub can't remove keys properly, so we forced to generate valid key each new run Let's fix it and remove all Ignore annotations from all its methods.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>166-ef4946e9</id>
+    <ticket>166</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkRepoCommitTest.java</file>
+    <lines>91-92</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>The method compareTo() is not implemented Remove todo after implementing it.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>693-462bdd99</id>
+    <ticket>693</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkRepoCommitTest.java</file>
+    <lines>124-127</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>After correcting issue #691 please remove ignore test and verify that method canGetJson() test is ok. Remove this puzzle after.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>121-65983df4</id>
+    <ticket>121</ticket>
+    <file>src/main/java/com/jcabi/github/Fork.java</file>
+    <lines>48-48</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Add more Fork attributes to Smart decorator for this class. Don't forget to add them to unit test.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>684-450bbec4</id>
+    <ticket>684</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkContents.java</file>
+    <lines>168-174</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Let's implement MkContents.iterate() for returning directory contents. Since we are using XML in MkStorage, we don't actually have directories. What we can do instead, is use the given path as a prefix, with the '/' character as separators. For example, if we have two different content objects with paths "foo/bar", "foo/baz, and "baa/boo" iterate should return the first two when the path "foo" or "foo/" is specified.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>766-fedf59b9</id>
+    <ticket>766</ticket>
+    <file>pom.xml</file>
+    <lines>309-316</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>The Qulice version should be managed by the parent pom. However, com.jcabi:1.6.1, which is the current parent, references a buggy version of the plugin which cannot build on Windows. When a new version of com.jcabi is released referencing a fixed Qulice version, let's remove the version element here and revert it back to being managed by the parent.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/794" closed="2017-11-02T06:41:07+00:00">794</issue>
+    <id>440-f6e1e55e</id>
+    <ticket>440</ticket>
+    <file>src/main/java/com/jcabi/github/Git.java</file>
+    <lines>100-100</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement the Git Data Trees Mock classes: 1) A class MkTrees, which mocks the Trees interface. 2) MkTree, which mocks a single Tree object. Don't forget to implement unit tests</body>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>794-b792ae63</id>
+        <ticket>794</ticket>
+        <file>src/main/java/com/jcabi/github/mock/MkTrees.java</file>
+        <lines>133-134</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>MkTrees#getRec should be implemented. Don't forget to implement unit tests</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>441-1082f2c3</id>
+    <ticket>441</ticket>
+    <file>src/main/java/com/jcabi/github/Git.java</file>
+    <lines>104-104</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement the Git Data Tree integration tests.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>802-9b164e40</id>
+    <ticket>802</ticket>
+    <file>src/test/java/com/jcabi/github/RtIssueITCase.java</file>
+    <lines>122-131</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtIssueITCase.identifyAssignee() fails during Rultor build. We made research and had discussion in #802. Our current supposition is that we have such error because user that Rultor use for tests is very active, so Github think that he is "non-human" user nad don't allow to assign it to issue. The problem needs further research. I think, we can start from contact Github support. It looks like undocumented feature and we have to know what to expect from Github side, maybe they offer us something useful. More details about initial research you can find in issue #802. Let's make research, fix this bug and finally remove this puzzle.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>812-8da72ea3</id>
+    <ticket>812</ticket>
+    <file>src/main/java/com/jcabi/github/Release.java</file>
+    <lines>237-241</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>We should generalize this method in SmartJson type. Let's implement it in a method named SmartJson.notNull(String) or something similar, which returns true if a certain key is present AND does not have a JsonValue of ValueType.NULL. Then let's use it here instead of manually checking it with the release's json value.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1-89ece9c4</id>
+    <ticket>1</ticket>
+    <file>src/test/java/com/jcabi/github/RtMilestonesITCase.java</file>
+    <lines>44-45</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement integration tests for Milestones. Now these tests are ignored</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>314-7f5a0b39</id>
+    <ticket>314</ticket>
+    <file>src/test/java/com/jcabi/github/RtContentsTest.java</file>
+    <lines>197-200</lines>
+    <estimate>15</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>RtContents#create() should be referencing a get() method instead of creating its own RtContent object, however, that method is not yet present. When that has been implemented, update create() to delegate to get() to obtain a RtContent instance.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>661-8af7b763</id>
+    <ticket>661</ticket>
+    <file>src/test/java/com/jcabi/github/NullabilityTest.java</file>
+    <lines>55-57</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Ensure that all methods return values and input arguments are annotated with {@code @NotNull} and remove the {@code @Ignore} annotation.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>2-a7eff8ee</id>
+    <ticket>2</ticket>
+    <file>src/main/java/com/jcabi/github/RtUser.java</file>
+    <lines>46-48</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Organizations of a user. Let's implements a new method organizations(), which should return an instance of interface Organisations.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>115-77d3878d</id>
+    <ticket>115</ticket>
+    <file>src/main/java/com/jcabi/github/Git.java</file>
+    <lines>66-75</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement the Git Data Commits API. We need to implement the following: 1) Add the operations in http://developer.github.com/v3/git/commits/ to the Commits interface. Fetch operations should return Commit instances. 2) A class RtCommits, which performs RESTful request operations against the Commits API. 3) A class MkCommits, which mocks the Commits interface. 4) MkCommit, which mocks a single Commit object. Don't forget to implement unit tests and integration tests.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/825" closed="2017-11-02T06:41:08+00:00">825</issue>
+    <id>1-294610ab</id>
+    <ticket>1</ticket>
+    <file>src/main/java/com/jcabi/github/User.java</file>
+    <lines>93-98</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement methods to retrieve all values provided by Github for a single user, see: http://developer.github.com/v3/users/#get-a-single-user At the moment we implement just a few, but every data items should have its own method. Of course, every new item should be tested by a new unit test method.</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>825-3997484b</id>
+        <ticket>825</ticket>
+        <file>src/test/java/com/jcabi/github/RtUserTest.java</file>
+        <lines>50-53</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>RtUserTest.hasCreated and RtUserTest.hasUpdated tests are ignored because issue #840 (https://github.com/jcabi/jcabi-github/issues/840)is not resolved. after resolving this issue please remove @Ignore annotation.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>2-1b4ef5a7</id>
+    <ticket>2</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkUser.java</file>
+    <lines>52-54</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Organizations of a user. Let's implements a new method organizations(), which should return a mock instance of interface Organisations.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/832" closed="2017-11-02T06:41:09+00:00">832</issue>
+    <id>6-cb43fe02</id>
+    <ticket>6</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkGithub.java</file>
+    <lines>201-204</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Markdown rendering mechanism should be mocked and implemented in MkMarkdown class, in a primitive way, of course. We don't need to do a real rendering, but at least return the same text back. When done, just remote this entire JavaDoc block.</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>832-7d2e3bec</id>
+        <ticket>832</ticket>
+        <file>src/main/java/com/jcabi/github/mock/MkMarkdown.java</file>
+        <lines>43-44</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>MkMarkdown#github() not implemented. Let's implement it and remove this puzzle.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>314-58430f0b</id>
+    <ticket>314</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkContent.java</file>
+    <lines>52-54</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkContent should be able to return its own repository when the repo() method is invoked, and its own path when the path() method is invoked. Don't forget to implement unit tests.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>745-b815e5be</id>
+    <ticket>745</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkStorageTest.java</file>
+    <lines>116-117</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Update 2 tests to check behaviour in multi-threading environment. Remove this comment and @Ignore annotation.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>820-61d2a549</id>
+    <ticket>820</ticket>
+    <file>src/main/java/com/jcabi/github/References.java</file>
+    <lines>39-42</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement References#tags() and References#heads() This methods should wrap References.iterate("tags") and References.iterate("heads") calls. Let's implement this methods and remove this puzzle.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>818-3bda3b7a</id>
+    <ticket>818</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkIssue.java</file>
+    <lines>58-59</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkIssue#exists() is not implemented. Let's implement it and remove this puzzle.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>876-0ec650c5</id>
+    <ticket>876</ticket>
+    <file>pom.xml</file>
+    <lines>81-85</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>The version of this jcabi-http dependency should be managed by the parent pom, however, com.jcabi:jcabi is currently referencing an older version. When the parent references version 1.8 or newer, let's remove the version element here and revert back to being managed by the parent.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>841-3cbb4f08</id>
+    <ticket>841</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepos.java</file>
+    <lines>149-149</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>MkRepos#iterate should be implemented.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>898-8603108d</id>
+    <ticket>898</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkRepoTest.java</file>
+    <lines>100-103</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Boolean values are not saved correctly in mocked XML. This test doesn't work because "private" attribute has to be of BOOLEAN type. But in XML we keep all attributes as Strings. Some solution has to be introduced.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/919" closed="2017-11-02T06:41:10+00:00">919</issue>
+    <id>907-c7787adc</id>
+    <ticket>907</ticket>
+    <file>src/main/java/com/jcabi/github/Stars.java</file>
+    <lines>41-43</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement missing starring operations. At least star, unstar and starred operations should be implemented in RtStars and MkStars. Don't forget about unit and integrations tests.</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>919-44e20d78</id>
+        <ticket>919</ticket>
+        <file>src/main/java/com/jcabi/github/mock/MkStars.java</file>
+        <lines>45-46</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>Implement MkStars.starred() operation. Don't forget about unit tests.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>919-68f3d556</id>
+        <ticket>919</ticket>
+        <file>src/test/java/com/jcabi/github/RtStarsITestCase.java</file>
+        <lines>37-39</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>Implement integration tests for star(), unstar() and starred() operations. See https://developer.github.com/v3/activity/starring/ for details.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/950" closed="2017-11-02T06:41:11+00:00">950</issue>
+        <id>919-ca1c0738</id>
+        <ticket>919</ticket>
+        <file>src/test/java/com/jcabi/github/RtStarsTest.java</file>
+        <lines>46-48</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>Implement star() and unstar() operations. Don't forget about unit tests. See https://developer.github.com/v3/activity/starring/ for details.</body>
+        <role>IMP</role>
+        <children>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <id>950-4b919e8a</id>
+            <ticket>950</ticket>
+            <file>src/main/java/com/jcabi/github/mock/MkStars.java</file>
+            <lines>46-47</lines>
+            <estimate>30</estimate>
+            <author>unknown</author>
+            <email>unknown@0pdd.com</email>
+            <time>2016-12-14T12:06:13Z</time>
+            <body>Implement MkStars.star() and MkStars.unstar() operations. Don't forget about unit tests.</body>
+            <role>IMP</role>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>919-008dea91</id>
+        <ticket>919</ticket>
+        <file>src/main/java/com/jcabi/github/mock/MkStars.java</file>
+        <lines>45-45</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>Implement MkStars.starred() operation.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/920" closed="2017-11-02T06:41:12+00:00">920</issue>
+    <id>913-dc43cb7f</id>
+    <ticket>913</ticket>
+    <file>src/main/java/com/jcabi/github/Notifications.java</file>
+    <lines>41-44</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement missing notifications operations. At least list, view and mark as read operations should be implemented in RtNotifications and MkNotifications. Don't forget about unit and integrations tests.</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>920-82c5cb6b</id>
+        <ticket>920</ticket>
+        <file>src/main/java/com/jcabi/github/mock/MkNotifications.java</file>
+        <lines>45-46</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>Implement iterate() and get() operations in MkNotifications. Don't forget about unit tests.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1765">1765</issue>
+        <id>920-1bdea297</id>
+        <ticket>920</ticket>
+        <file>src/main/java/com/jcabi/github/Notification.java</file>
+        <lines>42-46</lines>
+        <estimate>30</estimate>
+        <body>Create Smart decorator to get other properties of Notification, such as reason, unread, updated_at, last_read_at, url, etc. See https://developer.github.com/v3/activity/notifications/#view-a-single-thread for details. Don't forget about unit tests.</body>
+        <role>IMP</role>
+        <author>Piotr Pradzynski</author>
+        <email>prondzyn@gmail.com</email>
+        <time>2015-10-09T19:07:11Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1766">1766</issue>
+        <id>920-e9a632ce</id>
+        <ticket>920</ticket>
+        <file>src/test/java/com/jcabi/github/RtNotificationsITestCase.java</file>
+        <lines>37-38</lines>
+        <estimate>30</estimate>
+        <body>Create integration tests for at least iterate() and get() operations of RtNotifications.</body>
+        <role>IMP</role>
+        <author>Piotr Pradzynski</author>
+        <email>prondzyn@gmail.com</email>
+        <time>2015-10-10T04:35:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1767">1767</issue>
+        <id>920-268906e9</id>
+        <ticket>920</ticket>
+        <file>src/test/java/com/jcabi/github/RtNotificationsTest.java</file>
+        <lines>42-43</lines>
+        <estimate>30</estimate>
+        <body>Create a test fetchSingleNotification and implement get() operation in RtNotifications.</body>
+        <role>IMP</role>
+        <author>Piotr Pradzynski</author>
+        <email>prondzyn@gmail.com</email>
+        <time>2015-10-10T04:35:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1768">1768</issue>
+        <id>920-987ae9ac</id>
+        <ticket>920</ticket>
+        <file>src/test/java/com/jcabi/github/RtNotificationsTest.java</file>
+        <lines>44-45</lines>
+        <estimate>30</estimate>
+        <body>Create a test fetchNonEmptyListOfNotifications and implement iterate() operation in RtNotifications.</body>
+        <role>IMP</role>
+        <author>Piotr Pradzynski</author>
+        <email>prondzyn@gmail.com</email>
+        <time>2015-10-10T04:35:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1769">1769</issue>
+        <id>920-14172983</id>
+        <ticket>920</ticket>
+        <file>src/test/java/com/jcabi/github/RtNotificationsTest.java</file>
+        <lines>46-47</lines>
+        <estimate>30</estimate>
+        <body>Create a test markNotificationAsRead and implement mark() operation in RtNotifications.</body>
+        <role>IMP</role>
+        <author>Piotr Pradzynski</author>
+        <email>prondzyn@gmail.com</email>
+        <time>2015-10-10T04:35:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1770">1770</issue>
+    <id>913-3f99f964</id>
+    <ticket>913</ticket>
+    <file>src/main/java/com/jcabi/github/RtNotifications.java</file>
+    <lines>44-45</lines>
+    <estimate>30</estimate>
+    <body>Implement markAsRead(), thread(final int number) operations in RtNotifications. Don't forget about unit tests.</body>
+    <role>IMP</role>
+    <author>Dmitri Pisarenko</author>
+    <email>dp@altruix.co</email>
+    <time>2015-01-22T11:18:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>913-32975020</id>
+    <ticket>913</ticket>
+    <file>src/main/java/com/jcabi/github/RtUser.java</file>
+    <lines>52-52</lines>
+    <estimate>30</estimate>
+    <body>Implement operations RtUser.markAsRead().</body>
+    <role>IMP</role>
+    <author>Dmitri Pisarenko</author>
+    <email>dp@altruix.co</email>
+    <time>2015-01-22T11:18:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1771">1771</issue>
+    <id>913-504d1bd2</id>
+    <ticket>913</ticket>
+    <file>src/main/java/com/jcabi/github/ThreadSubscription.java</file>
+    <lines>39-42</lines>
+    <estimate>30</estimate>
+    <body>Add properties subscribed (boolean), ignored (boolean), createdAt (Date), url (String), threadUrl (String) as shown in section "Response" at https://developer.github.com/v3/activity/notifications/#response-6 .</body>
+    <role>IMP</role>
+    <author>Dmitri Pisarenko</author>
+    <email>dp@altruix.co</email>
+    <time>2015-01-22T11:18:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1773">1773</issue>
+    <id>913-9c17e827</id>
+    <ticket>913</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkNotifications.java</file>
+    <lines>48-49</lines>
+    <estimate>30</estimate>
+    <body>Implement markAsRead() and thread() operations in MkNotifications. Don't forget about unit tests.</body>
+    <role>IMP</role>
+    <author>Dmitri Pisarenko</author>
+    <email>dp@altruix.co</email>
+    <time>2015-01-22T11:18:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>913-743027ac</id>
+    <ticket>913</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkUser.java</file>
+    <lines>56-57</lines>
+    <estimate>30</estimate>
+    <body>Implement notifications(), markAsRead(final Date lastread) operations in MkUser. Don't forget about unit tests.</body>
+    <role>IMP</role>
+    <author>Dmitri Pisarenko</author>
+    <email>dp@altruix.co</email>
+    <time>2015-01-22T11:18:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>930-31980d5f</id>
+    <ticket>930</ticket>
+    <file>src/test/java/com/jcabi/github/mock/MkStorageTest.java</file>
+    <lines>51-53</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Three test are skipped here because MkStorage.Synced is not immutable. Its properly ReentrantLock is not immutable. Let's find a way to implement it differently and make that class truly immutable.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>923-96eac598</id>
+    <ticket>923</ticket>
+    <file>src/main/java/com/jcabi/github/RtRepo.java</file>
+    <lines>49-52</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Let's implement RtRepo.languages(). Now it returns empty iterable but should return list of repo languages. Uncomment test RtRepoTest.iteratesLanguages() when done. See https://developer.github.com/v3/repos/#list-languages for API details.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>923-0c07ba46</id>
+    <ticket>923</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepo.java</file>
+    <lines>68-69</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Implement languages() method. Don't forget about unit tests.</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/955" closed="2017-11-02T06:41:14+00:00">955</issue>
+    <id>923-bb4ba39b</id>
+    <ticket>923</ticket>
+    <file>src/test/java/com/jcabi/github/RtRepoITCase.java</file>
+    <lines>47-48</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T12:06:13Z</time>
+    <body>Add integration test on Repo.languages(). See https://developer.github.com/v3/repos/#list-languages for API details</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>955-60da9c34</id>
+        <ticket>955</ticket>
+        <file>src/main/java/com/jcabi/github/RtRepo.java</file>
+        <lines>53-54</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T12:06:13Z</time>
+        <body>Uncomment test RtRepoTest.iteratesLanguages() when RtRepoITCase.languages() implemented.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1774">1774</issue>
+    <id>863-4e783bd3</id>
+    <ticket>863</ticket>
+    <file>src/test/java/com/jcabi/github/RtContentsITCase.java</file>
+    <lines>263-264</lines>
+    <estimate>30</estimate>
+    <body>unignore after Contents#get is implemented for directories (#968 and #903)</body>
+    <role>IMP</role>
+    <author>maurezen</author>
+    <email>maurezen@gmail.com</email>
+    <time>2015-01-22T11:19:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1017" closed="2017-11-02T06:41:15+00:00">1017</issue>
+    <id>989-33d6f233</id>
+    <ticket>989</ticket>
+    <file>src/test/java/com/jcabi/github/RtForkTest.java</file>
+    <lines>56-58</lines>
+    <estimate>30</estimate>
+    <body>Apply this rule to other classes that use MkGrizzlyContainer and make MkGrizzlyContainers use port() given by this resource to avoid tests fail with BindException.</body>
+    <role>IMP</role>
+    <author>cyberone</author>
+    <email>alopen@yandex.ru</email>
+    <time>2015-01-29T01:15:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1320" closed="2018-04-05T08:10:14+00:00">1320</issue>
+        <id>1017-59643c80</id>
+        <ticket>1017</ticket>
+        <file>src/test/java/com/jcabi/github/RtGistCommentTest.java</file>
+        <lines>57-59</lines>
+        <estimate>30</estimate>
+        <body>Apply this rule to all other classes that use MkGrizzlyContainer and make MkGrizzlyContainers use port() given by this resource to avoid tests fail with BindException.</body>
+        <role>IMP</role>
+        <author>Igor Piddubnyi</author>
+        <email>igor.piddubnyi@solvians.com</email>
+        <time>2016-01-15T11:04:04Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1775" closed="2025-11-21T10:01:40+00:00">1775</issue>
+    <id>1061-5da99a0c</id>
+    <ticket>1061</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkRepo.java</file>
+    <lines>70-70</lines>
+    <estimate>30</estimate>
+    <body>Fix code to avoid CouplingBetweenObjects</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-04-15T22:57:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1776" closed="2025-11-21T10:01:42+00:00">1776</issue>
+    <id>1063-59da9a37</id>
+    <ticket>1063</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkEvent.java</file>
+    <lines>133-135</lines>
+    <estimate>30</estimate>
+    <body>When the event has a label, retrieve and include the label's color too. MkIssueEvents.create() will also need to be updated accordingly.</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-04-15T02:20:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1777">1777</issue>
+    <id>1063-0509ffcb</id>
+    <ticket>1063</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkIssueEvents.java</file>
+    <lines>139-144</lines>
+    <estimate>30</estimate>
+    <body>Make it possible to set the "assignee" field for "assigned"/"unassigned" events. Make it possible to set the "milestone" field for "milestoned"/"demilestoned" events. Make it possible to set the "rename" field for "renamed" events. Make it possible to set the "commit_id" field for events related to commits. See https://developer.github.com/v3/issues/events/ for details.</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-04-15T02:20:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1778">1778</issue>
+    <id>975-0a524603</id>
+    <ticket>975</ticket>
+    <file>src/test/java/com/jcabi/github/OAuthScope.java</file>
+    <lines>41-45</lines>
+    <estimate>30</estimate>
+    <body>Now all IT cases are annotated with OAuthScope annotation to marked down its required scopes. A checker needs to be implemented to check if the supplied account can fulfill the IT case requirement before it is run and make the case fail if the required OAuth scopes is not present.</body>
+    <role>IMP</role>
+    <author>super132</author>
+    <email>super132j@yahoo.com</email>
+    <time>2015-05-23T02:00:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1779">1779</issue>
+    <id>1095-deaa3e41</id>
+    <ticket>1095</ticket>
+    <file>src/main/java/com/jcabi/github/Repos.java</file>
+    <lines>117-119</lines>
+    <estimate>30</estimate>
+    <body>Add the ability to set the other parameters of the repo creation API (has_issues, has_wiki, has_downloads, team_id, gitignore_template, license_template).</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-05-27T08:18:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1085-6b1095b1</id>
+    <ticket>1085</ticket>
+    <file>src/main/java/com/jcabi/github/RtBranch.java</file>
+    <lines>75-76</lines>
+    <estimate>30</estimate>
+    <body>Refactor to reduce number of arguments to avoid ParameterNumberCheck warning.</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-05-26T09:55:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1782">1782</issue>
+    <id>1085-a13e40d1</id>
+    <ticket>1085</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkBranch.java</file>
+    <lines>78-79</lines>
+    <estimate>30</estimate>
+    <body>Refactor this to reduce number of arguments to avoid ParameterNumberCheck warning.</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-05-26T09:55:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1106-3aa88d70</id>
+    <ticket>1106</ticket>
+    <file>src/main/java/com/jcabi/github/Hooks.java</file>
+    <lines>88-90</lines>
+    <estimate>30</estimate>
+    <body>Add support for the "events" parameter of the hook creation API. It's a list of strings of the names of events which the hook will be triggered for.</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-06-05T20:37:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1321">1321</issue>
+    <id>1107-31e47c0d</id>
+    <ticket>1107</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkOrganization.java</file>
+    <lines>149-154</lines>
+    <estimate>30</estimate>
+    <body>Implement the "Add team membership" API (see https://developer.github.com/v3/orgs/teams/#add-team-membership ) (per https://developer.github.com/v3/orgs/members/#add-a-member , you can't add a user directly to an org; you instead add them to one of that org's teams) and replace uses of this method with uses of that API (or downgrade this method to a convenience method for unit tests).</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-06-02T08:00:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1130">1130</issue>
+    <id>1126-bb836510</id>
+    <ticket>1126</ticket>
+    <file>src/main/java/com/jcabi/github/RtStatuses.java</file>
+    <lines>120-120</lines>
+    <estimate>30</estimate>
+    <body>Implement this method which gets all status messages for a given commit.</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-06-15T10:55:18Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1783">1783</issue>
+        <id>1130-addbfb1d</id>
+        <ticket>1130</ticket>
+        <file>src/test/java/com/jcabi/github/RtStatusesTest.java</file>
+        <lines>57-58</lines>
+        <estimate>30</estimate>
+        <body>Write RtStatusesITCase, an integration test case for RtStatuses/RtStatus against real GitHub commit status data.</body>
+        <role>IMP</role>
+        <author>Chris Rebert</author>
+        <email>code@rebertia.com</email>
+        <time>2015-06-17T08:00:32Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1784">1784</issue>
+    <id>1125-99a7deed</id>
+    <ticket>1125</ticket>
+    <file>src/test/java/com/jcabi/github/RtPullRefITCase.java</file>
+    <lines>36-37</lines>
+    <estimate>30</estimate>
+    <body>Implement this integration test for RtPullRef and PullRef.Smart to check that they work with actual JSON from GitHub.</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-06-15T08:42:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1785">1785</issue>
+    <id>1129-3099cf0b</id>
+    <ticket>1129</ticket>
+    <file>src/main/java/com/jcabi/github/mock/MkStatuses.java</file>
+    <lines>47-48</lines>
+    <estimate>30</estimate>
+    <body>Finish implementing this class (MkStatuses), a mock of GitHub's commits statuses (the "Statuses" interface).</body>
+    <role>IMP</role>
+    <author>Chris Rebert</author>
+    <email>code@rebertia.com</email>
+    <time>2015-06-17T23:44:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1375" closed="2018-04-18T20:09:24+00:00">1375</issue>
+    <ticket>1305</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1305-b50fad21</id>
+    <lines>56-57</lines>
+    <body>Implement markAsRead(final Date lastread) operations in MkUser. Don't forget about unit tests.</body>
+    <file>src/main/java/com/jcabi/github/mock/MkUser.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-04-04T14:13:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1377" closed="2018-04-14T18:14:19+00:00">1377</issue>
+    <ticket>1306</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1306-59643c80</id>
+    <lines>57-59</lines>
+    <body>Apply this rule to all other classes that use MkGrizzlyContainer and make MkGrizzlyContainers use port() given by this resource to avoid tests fail with BindException.</body>
+    <file>src/test/java/com/jcabi/github/RtGistCommentTest.java</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-04-05T08:02:57Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1388" closed="2018-04-19T18:56:57+00:00">1388</issue>
+        <ticket>1377</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1377-59643c80</id>
+        <lines>57-59</lines>
+        <body>Apply this rule to all other classes that use MkGrizzlyContainer and make MkGrizzlyContainers use port() given by this resource to avoid tests fail with BindException.</body>
+        <file>src/test/java/com/jcabi/github/RtGistCommentTest.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-04-14T15:23:42Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/jcabi/jcabi-github/issues/1394" closed="2018-04-23T15:02:41+00:00">1394</issue>
+            <ticket>1388</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1388-59643c80</id>
+            <lines>57-59</lines>
+            <body>Apply this rule to all other classes that use MkGrizzlyContainer and make MkGrizzlyContainers use port() given by this resource to avoid tests fail with BindException.</body>
+            <file>src/test/java/com/jcabi/github/RtGistCommentTest.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-04-19T18:20:01Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/jcabi/jcabi-github/issues/1399" closed="2018-05-06T08:32:34+00:00">1399</issue>
+                <ticket>1394</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1394-59643c80</id>
+                <lines>57-59</lines>
+                <body>Apply this rule to all other classes that use MkGrizzlyContainer and make MkGrizzlyContainers use port() given by this resource to avoid tests fail with BindException.</body>
+                <file>src/test/java/com/jcabi/github/RtGistCommentTest.java</file>
+                <author>George Aristy</author>
+                <email>george.aristy@gmail.com</email>
+                <time>2018-04-23T14:35:32Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/jcabi/jcabi-github/issues/1404" closed="2018-05-15T08:50:54+00:00">1404</issue>
+                    <ticket>1399</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1399-59643c80</id>
+                    <lines>57-59</lines>
+                    <body>Apply this rule to all other classes that use MkGrizzlyContainer and make MkGrizzlyContainers use port() given by this resource to avoid tests fail with BindException.</body>
+                    <file>src/test/java/com/jcabi/github/RtGistCommentTest.java</file>
+                    <author>George Aristy</author>
+                    <email>george.aristy@gmail.com</email>
+                    <time>2018-04-30T21:44:52Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1382" closed="2018-04-07T14:21:42+00:00">1382</issue>
+    <ticket>1379</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1379-ca8e6892</id>
+    <lines>43-44</lines>
+    <body>Use this class to implement Smart.exists() method for all Github entities we have (Repo, Issue, User etc).</body>
+    <file>src/main/java/com/jcabi/github/Existence.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-04-07T13:32:18Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1384" closed="2018-04-19T18:56:13+00:00">1384</issue>
+        <ticket>1382</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1382-3526ef36</id>
+        <lines>43-45</lines>
+        <body>Use this class to implement Smart.exists() method for all Github entities we have (Comment, Issue, User etc). Maybe we can make JsonReadable abstract and have method exists() there.</body>
+        <file>src/main/java/com/jcabi/github/Existence.java</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-04-07T14:08:42Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1390" closed="2018-04-23T15:02:17+00:00">1390</issue>
+    <ticket>1363</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1363-762aa75e</id>
+    <lines>197-199</lines>
+    <body>Release.Smart().prerelease() was refactored and unit tests written. However, this test still fails because the MkStorage holds the value as String instead of Boolean. Let's fix this.</body>
+    <file>src/test/java/com/jcabi/github/mock/MkReleaseTest.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-04-18T19:57:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1400" closed="2018-05-07T06:26:27+00:00">1400</issue>
+    <ticket>1304</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1304-bb172082</id>
+    <lines>97-98</lines>
+    <body>Refactor so that this returns a 'Notifications' interface into which relevant methods like 'markAsRead' can be put into.</body>
+    <file>src/main/java/com/jcabi/github/User.java</file>
+    <author>Mihai A</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-04-25T08:07:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1406" closed="2018-05-23T15:03:53+00:00">1406</issue>
+        <ticket>1400</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1400-f2b1cfe2</id>
+        <lines>187-189</lines>
+        <body>Need to instantiate this RtNotifications properly for this repo as per https://developer.github.com/v3/activity/notifications/#list-your-notifications-in-a-repository</body>
+        <file>src/main/java/com/jcabi/github/RtRepo.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-05-06T12:35:01Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1407" closed="2018-05-30T15:37:32+00:00">1407</issue>
+        <ticket>1400</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1400-0e160381</id>
+        <lines>134-135</lines>
+        <body>Properly instantiate this MkNotifications with suitable values.</body>
+        <file>src/main/java/com/jcabi/github/mock/MkUser.java</file>
+        <author>George Aristy</author>
+        <email>george.aristy@gmail.com</email>
+        <time>2018-05-06T12:35:01Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/jcabi/jcabi-github/issues/1417" closed="2018-06-12T16:58:45+00:00">1417</issue>
+            <ticket>1407</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1407-c6bf1da3</id>
+            <lines>43-44</lines>
+            <body>Implement more tests for MkNotifications. Also, un-ignore and refactor the fetchesNonEmptyListOfNotifications test.</body>
+            <file>src/test/java/com/jcabi/github/mock/MkNotificationsTest.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-05-23T19:12:55Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/jcabi/jcabi-github/issues/1418" closed="2018-06-12T16:59:00+00:00">1418</issue>
+            <ticket>1407</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1407-bd218f2f</id>
+            <lines>43-43</lines>
+            <body>Implement tests for MkNotification. There aren't any yet.</body>
+            <file>src/main/java/com/jcabi/github/mock/MkNotification.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@gmail.com</email>
+            <time>2018-05-23T19:12:55Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1401" closed="2018-05-15T09:04:11+00:00">1401</issue>
+    <ticket>1304</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1304-efe7c280</id>
+    <lines>484-488</lines>
+    <body>Un-ignore this test and 'markAsReadErrorIfResponseStatusIsNot205' after refactoring to use an in-memory HTTP server (with MkGrizzly, from jcabi-http). You can configure the responses to give to any URI on MkGrizzlyContainer and then you can pass a custom Request to RtGithub.</body>
+    <file>src/test/java/com/jcabi/github/RtUserTest.java</file>
+    <author>Mihai A</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-04-25T08:07:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1430" closed="2018-09-19T06:39:19+00:00">1430</issue>
+    <ticket>1425</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1425-24428e93</id>
+    <lines>48-52</lines>
+    <body>Implement MkHook#json() method so it returns a json object according to the documentation in https://developer.github.com/v3/repos/hooks/#get-single-hook. Then add tests for the other fields of json and remove expects exception from MkHookTest.create().</body>
+    <file>src/main/java/com/jcabi/github/mock/MkHook.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-08-29T12:25:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1435" closed="2018-10-07T16:49:29+00:00">1435</issue>
+    <ticket>1425</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1425-9f6b6bf1</id>
+    <lines>48-49</lines>
+    <body>Finish adding tests for MkHook#json(). Finish making MkHooks#create pass the missing attributes to MkHook.</body>
+    <file>src/main/java/com/jcabi/github/mock/MkHook.java</file>
+    <author>George Aristy</author>
+    <email>george.aristy@securekey.com</email>
+    <time>2018-09-18T18:32:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1439" closed="2018-10-19T05:46:29+00:00">1439</issue>
+        <ticket>1435</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1435-1aa70ed0</id>
+        <lines>85-86</lines>
+        <body>Support for "events" was added to Hooks.create(). Now add corresponding tests for RtHook and MkHook.</body>
+        <file>src/main/java/com/jcabi/github/Hooks.java</file>
+        <author>Mihai A</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2018-10-07T16:49:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/jcabi/jcabi-github/issues/1442" closed="2018-11-02T08:31:49+00:00">1442</issue>
+            <ticket>1439</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1439-22936fd9</id>
+            <lines>63-65</lines>
+            <body>JsonNode should be smart enough to know when the json's attribute is a JsonObject, or a JsonArray. Once this is fixed, un-ignore MkHookTest.createWithCorrectEvents().</body>
+            <file>src/main/java/com/jcabi/github/mock/JsonNode.java</file>
+            <author>George Aristy</author>
+            <email>george.aristy@securekey.com</email>
+            <time>2018-10-18T15:35:40Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/jcabi/jcabi-github/issues/1447" closed="2018-12-17T18:50:30+00:00">1447</issue>
+                <ticket>1442</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1442-b599f0b9</id>
+                <lines>63-67</lines>
+                <body>JsonNode should be smart enough to know when the json's attribute is a JsonObject, or a JsonArray. Tests for this behavior were already been implemented in JsonNodeTest. Once this is fixed, un-ignore MkHookTest.createWithCorrectEvents() and JsonNode.convertsXmlToJsonArray() tests.</body>
+                <file>src/main/java/com/jcabi/github/mock/JsonNode.java</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2018-10-27T14:22:36Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1451" closed="2019-01-02T18:38:29+00:00">1451</issue>
+    <ticket>1230</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1230-92aa948b</id>
+    <lines>39-42</lines>
+    <body>Implement Reactions to Comments and Issues. Reaction interface ahve already been defined and wired to Comment and Issue realizations. Now we must implement Reaction support on these classes. Do not forget to cover these implementations with tests.</body>
+    <file>src/main/java/com/jcabi/github/Reaction.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-12-07T03:19:36Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1466" closed="2019-01-09T11:49:54+00:00">1466</issue>
+        <ticket>1451</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1451-d6e99155</id>
+        <lines>65-67</lines>
+        <body>Resume Reaction implementation on Issues. Resume reaction implementation on issues and its realizations. Create the tests to assure that the reaction feature is working correctly.</body>
+        <file>src/main/java/com/jcabi/github/Issue.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-01-02T18:28:33Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/jcabi/jcabi-github/issues/1477" closed="2019-01-23T16:20:09+00:00">1477</issue>
+            <ticket>1466</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1466-fde76671</id>
+            <lines>50-52</lines>
+            <body>Implement react and reactions methods. Implement react and reacts methods according to reactions API and then unignore test in RtIssueTest</body>
+            <file>src/main/java/com/jcabi/github/RtIssue.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2019-01-17T10:03:19Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1467" closed="2019-01-21T08:16:57+00:00">1467</issue>
+        <ticket>1451</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1451-f3cf9bcc</id>
+        <lines>39-43</lines>
+        <body>Check reaction values. At the moment only a few types of reactions are allowed (full list at https://developer.github.com/v3/reactions/#reaction-types). Reaction API implementation should somehow validate these inputs and do not add an invalid reaction to a Comment or Issue</body>
+        <file>src/main/java/com/jcabi/github/Reaction.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-01-02T18:28:33Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/jcabi/jcabi-github/issues/1483" closed="2019-02-05T15:05:40+00:00">1483</issue>
+            <ticket>1467</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1467-f3cf9bcc</id>
+            <lines>39-43</lines>
+            <body>Check reaction values. At the moment only a few types of reactions are allowed (full list at https://developer.github.com/v3/reactions/#reaction-types). Reaction API implementation should somehow validate these inputs and do not add an invalid reaction to a Comment or Issue</body>
+            <file>src/main/java/com/jcabi/github/Reaction.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-01-20T22:19:12Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1468" closed="2019-01-19T14:43:26+00:00">1468</issue>
+        <ticket>1451</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1451-68e7202f</id>
+        <lines>44-47</lines>
+        <body>Create reaction values constants in Reaction. As reaction values are in a few number they must be created as constants in Reaction. Then replace all existing code in tests and application to use the new created constants.</body>
+        <file>src/main/java/com/jcabi/github/Reaction.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-01-02T18:28:33Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1469" closed="2019-01-16T08:21:40+00:00">1469</issue>
+        <ticket>1451</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1451-35370452</id>
+        <lines>48-53</lines>
+        <body>Add reaction support to other Github elements. Reactions API is supported / implemented by other github elements besides Issues and Issue Comments. Add reactions support to all these other items as well so jcabi-github can provide full reactions API support. See all possible reactions API interactions at https://developer.github.com/v3/reactions/</body>
+        <file>src/main/java/com/jcabi/github/Reaction.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-01-02T18:28:33Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/jcabi/jcabi-github/issues/1476">1476</issue>
+            <ticket>1469</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1469-93fe85c7</id>
+            <lines>48-51</lines>
+            <body>Add support to team discussion and team discussion comments The API does not supports team discussion and team discussion comments ( https://developer.github.com/changes/2018-02-07-team-discussions-api/ ) After this implementation, add reaction support to these elements.</body>
+            <file>src/main/java/com/jcabi/github/Reaction.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-01-15T18:15:55Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1470" closed="2019-01-23T16:35:06+00:00">1470</issue>
+        <ticket>1451</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1451-a700d53f</id>
+        <lines>48-50</lines>
+        <body>Implement react ant reactions methods. Implement react and reacts methods according to reactions API and then unignore test in RtCommentTest</body>
+        <file>src/main/java/com/jcabi/github/RtComment.java</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-01-02T18:28:33Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1457" closed="2019-01-02T18:22:29+00:00">1457</issue>
+    <ticket>1086</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1086-abf60b5c</id>
+    <lines>114-117</lines>
+    <body>Implement find method in Branches implementations, according to github get branches API, as seen in https://developer.github.com/v3/repos/branches/#get-branch. Then uncomment this test;</body>
+    <file>src/test/java/com/jcabi/github/RtBranchesTest.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-12-18T17:56:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1461" closed="2019-01-09T11:37:32+00:00">1461</issue>
+    <ticket>1110</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1110-dfc7e3c6</id>
+    <lines>51-52</lines>
+    <body>Continue to close grizzle servers open on tests. Use try-with-resource statement intead of try-catch whenever is possible..</body>
+    <file>src/test/java/com/jcabi/github/RtGistCommentsTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2018-12-26T09:00:23Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1473" closed="2019-01-19T14:43:38+00:00">1473</issue>
+        <ticket>1461</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1461-e726d1aa</id>
+        <lines>51-52</lines>
+        <body>Continue to close grizzle servers open on tests. Use try-with-resource statement instead of try-catch whenever is possible..</body>
+        <file>src/test/java/com/jcabi/github/RtGistCommentsTest.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-01-09T11:37:21Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/jcabi/jcabi-github/issues/1482" closed="2019-01-23T16:06:49+00:00">1482</issue>
+            <ticket>1473</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>1473-e726d1aa</id>
+            <lines>51-52</lines>
+            <body>Continue to close grizzle servers open on tests. Use try-with-resource statement instead of try-catch whenever is possible..</body>
+            <file>src/test/java/com/jcabi/github/RtGitignoresTest.java</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-01-17T19:46:25Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/jcabi/jcabi-github/issues/1487" closed="2019-02-05T14:50:35+00:00">1487</issue>
+                <ticket>1482</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>1482-e726d1aa</id>
+                <lines>52-53</lines>
+                <body>Continue to close grizzle servers open on tests. Use try-with-resource statement instead of try-catch whenever is possible..</body>
+                <file>src/test/java/com/jcabi/github/RtOrganizationsTest.java</file>
+                <author>Mihai A</author>
+                <email>amihaiemil@gmail.com</email>
+                <time>2019-01-23T16:06:32Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/jcabi/jcabi-github/issues/1490" closed="2019-02-10T13:00:22+00:00">1490</issue>
+                    <ticket>1487</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>1487-7b753dc7</id>
+                    <lines>52-53</lines>
+                    <body>Continue to close grizzle servers open on tests. Use try-with-resource statement instead of try-catch whenever is possible.</body>
+                    <file>src/test/java/com/jcabi/github/RtReferenceTest.java</file>
+                    <author>Paulo Lobo</author>
+                    <email>pauloeduardolobo@gmail.com</email>
+                    <time>2019-01-23T19:29:03Z</time>
+                    <children>
+                      <puzzle alive="true">
+                        <issue href="https://github.com/jcabi/jcabi-github/issues/1492">1492</issue>
+                        <ticket>1490</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>1490-7b753dc7</id>
+                        <lines>60-61</lines>
+                        <body>Continue to close grizzle servers open on tests. Use try-with-resource statement instead of try-catch whenever is possible.</body>
+                        <file>src/test/java/com/jcabi/github/RtStatusesTest.java</file>
+                        <author>Paulo Lobo</author>
+                        <email>pauloeduardolobo@gmail.com</email>
+                        <time>2019-02-10T12:39:16Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1462" closed="2019-01-09T11:49:55+00:00">1462</issue>
+    <ticket>1204</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1204-0dae0ae7</id>
+    <lines>61-64</lines>
+    <body>Implement Lock and unlock features to Issue. Lock support have already been defined and wired to Issue realizations. Now we must implement Lock support on these classes. Do not forget to cover these implementations with tests.</body>
+    <file>src/main/java/com/jcabi/github/Issue.java</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2018-12-24T19:47:34Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1474">1474</issue>
+        <ticket>1462</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>1462-43294d01</id>
+        <lines>61-65</lines>
+        <body>Implement lock reason validation. According to documentation lock reason must belong to a specific value domain. This validation must be performed in lock method and tests must be added to ensure that the class is accepting the correct values and rejecting the wrong ones.</body>
+        <file>src/main/java/com/jcabi/github/Issue.java</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-01-02T19:05:34Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1663" closed="2023-08-04T16:30:53+00:00">1663</issue>
+    <ticket>1660</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1660-bee81507</id>
+    <lines>47-57</lines>
+    <body>Add RepositoryStatistics.Smart. Implement RepositoryStatistics.Smart and use it to retrieve repository statistics with the following methods: - RepositoryStatistics.Smart#language() - RepositoryStatistics.Smart#forksCount() - RepositoryStatistics.Smart#stargazers() - RepositoryStatistics.Smart#watchers() - RepositoryStatistics.Smart#size() - RepositoryStatistics.Smart#openIssues() In other words, it would be convenient to have particular methods with understandable names instead of using toMap() method.</body>
+    <file>src/main/java/com/jcabi/github/RepositoryStatistics.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-08-04T13:21:07Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/jcabi/jcabi-github/issues/1667">1667</issue>
+        <ticket>1663</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>1663-38685897</id>
+        <lines>53-58</lines>
+        <body>Refactor RepositoryStatisticsTest. RepositoryStatisticsTest has too many boilerplate code. Also it has repeated variables and constants. Refactor it to make it more readable and maintainable. Moreover all this variables don't follow PMD and Checkstyle rules. When it is done, remove this puzzle and all the checkstyle and PMD suppressions.</body>
+        <file>src/test/java/com/jcabi/github/RepositoryStatisticsTest.java</file>
+        <author>volodya-lombrozo</author>
+        <email>volodya.lombrozo@gmail.com</email>
+        <time>2023-08-04T15:24:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1664">1664</issue>
+    <ticket>1660</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1660-338c6d7a</id>
+    <lines>377-381</lines>
+    <body>Make 'with' method immutable. Currently, the 'with' method mutates the 'other' field. This is not ideal, as it makes the class mutable. Make the 'with' method immutable and return a new RepoCreate object with the new field.</body>
+    <file>src/main/java/com/jcabi/github/Repos.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-08-04T13:21:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1665">1665</issue>
+    <ticket>1660</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1660-83a5040d</id>
+    <lines>46-51</lines>
+    <body>MkRepo returns only string values from json. MkRepo returns only strings values, it is why in all tests below we expect string values, which is wrong, of course. MkRepo should return different types like integer, double, long, etc. When it is implemented, we can replace strings with concrete types and remove that puzzle.</body>
+    <file>src/test/java/com/jcabi/github/RepositoryStatisticsTest.java</file>
+    <author>volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2023-08-04T13:21:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-github/issues/1813">1813</issue>
+    <ticket>1061</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1061-f87541c0</id>
+    <lines>42-44</lines>
+    <body>Fix code to avoid CouplingBetweenObjects @checkstyle ClassDataAbstractionCouplingCheck (500 lines) @checkstyle ClassFanOutComplexity (500 lines)</body>
+    <file>src/main/java/com/jcabi/github/mock/MkRepo.java</file>
+    <author>Yegor Bugayenko</author>
+    <email>yegor256@gmail.com</email>
+    <time>2025-11-21T09:59:39Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

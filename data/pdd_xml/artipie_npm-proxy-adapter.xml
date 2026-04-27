@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-05-18T06:54:32+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/npm-proxy-adapter/issues/6" closed="2020-04-24T10:32:43+00:00">6</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-edfc822d</id>
+    <lines>60-61</lines>
+    <body>Extract storage logic into separate class Split this class to smaller parts. Storage logic can be extracted.</body>
+    <file>src/main/java/com/artipie/npm/proxy/NpmProxy.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-04-16T16:11:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/npm-proxy-adapter/issues/7" closed="2020-04-20T15:22:28+00:00">7</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-07d2cbae</id>
+    <lines>49-51</lines>
+    <body>Connection URL should be represented by one property in the underlying config. Replace ssl, host, port and path props with one - url. Web clients should used getAbs method with it</body>
+    <file>src/main/java/com/artipie/npm/proxy/NpmProxySettings.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-04-16T16:11:31Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/artipie/npm-proxy-adapter/issues/8" closed="2020-05-18T06:54:32+00:00">8</issue>
+    <ticket>1</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>1-4b827c53</id>
+    <lines>80-81</lines>
+    <body>Use real NPM repo instead of mocks. Take a look at https://github.com/verdaccio/verdaccio for example</body>
+    <file>src/test/java/com/artipie/npm/proxy/NpmProxyITCase.java</file>
+    <author>@g4s8</author>
+    <email>g4s8.public@gmail.com</email>
+    <time>2020-04-16T16:11:31Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-10-17T16:02:03+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/60" closed="2022-08-01T07:40:12+00:00">60</issue>
+    <ticket>17</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>17-30c88f18</id>
+    <lines>253-255</lines>
+    <body>Here we got an object printed instead of data. The .map [i] i.as-string didn't work. We need to convert varargs to data[] somehow.</body>
+    <file>src/main/eo/org/eolang/hamcrest/assert-that.eo</file>
+    <author>Graur Andrew</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-06-12T23:30:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/61">61</issue>
+    <ticket>37</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>37-c8e2717e</id>
+    <lines>281-284</lines>
+    <body>This string formatting doesn't work correctly. Here we got message like: [was &lt;[Lorg.eolang.Phi;@1189dd52&gt;] and possibly we need to change code below when string manipulation objects will be created.</body>
+    <file>src/main/eo/org/eolang/hamcrest/assert-that.eo</file>
+    <author>Graur Andrew</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-06-12T23:30:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>3</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>3-30c88f18</id>
+    <lines>256-258</lines>
+    <body>Here we got an object printed instead of data. The .map [i] i.as-string didn't work. We need to convert varargs to data[] somehow.</body>
+    <file>src/main/eo/org/eolang/hamcrest/assert-that.eo</file>
+    <author>Graur Andrew</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-07-29T13:13:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/101" closed="2022-09-23T15:50:13+00:00">101</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-cc70864f</id>
+    <lines>28-31</lines>
+    <body>To add several tests for checking anything matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/anything-failed-output.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-14T08:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/102" closed="2022-09-23T13:49:53+00:00">102</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-e26c967d</id>
+    <lines>28-31</lines>
+    <body>To add several tests for checking any-of matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/any-of-failed-output.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-14T08:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/103" closed="2022-09-23T14:03:37+00:00">103</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-fa7f45be</id>
+    <lines>28-31</lines>
+    <body>To add several tests for checking is matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/is-failed-output.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-14T08:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/104" closed="2022-09-23T14:20:27+00:00">104</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-bf856ca9</id>
+    <lines>28-31</lines>
+    <body>To add several tests for checking not matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/not-failed-output.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-14T08:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/105" closed="2022-09-22T13:32:43+00:00">105</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-17873f95</id>
+    <lines>28-31</lines>
+    <body>To add several tests for checking close-to matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/close-to-failed-output.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-14T08:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/106" closed="2022-09-15T11:10:01+00:00">106</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-0f42b54c</id>
+    <lines>28-31</lines>
+    <body>To add several tests for checking less-than matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/less-than-failed-output.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-14T08:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/107" closed="2022-09-22T10:49:28+00:00">107</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-3b9d114c</id>
+    <lines>28-31</lines>
+    <body>To add several tests for checking described-as matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/described-as-failed-output.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-14T08:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>41</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>41-d652169e</id>
+    <lines>28-31</lines>
+    <body>To add several tests for checking all-of matcher output, when assert-that object return string and test suggestion is false. Check the origin ticket to get more information.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/all-of-failed-output.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-09-14T08:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/155">155</issue>
+    <ticket>149</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>149-c1e9ae63</id>
+    <lines>52-55</lines>
+    <body>To remove this nop object when this test will be stable. To do that we need to find out why this test is fail in some workflow checks.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/any-of-failed-output.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-10-24T10:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/169">169</issue>
+    <ticket>167</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>167-8884c4e0</id>
+    <lines>49-52</lines>
+    <body>Make this object decorates another one (let's call it assert). Which will be an interface for assert-that and assert-twice-that objects to avoid matchers duplication.</body>
+    <file>src/main/eo/org/eolang/hamcrest/assert-twice-that.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-11-24T12:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/170">170</issue>
+    <ticket>167</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>167-a39797fd</id>
+    <lines>30-33</lines>
+    <body>To add more tests with a new assert-twice-that object to make sure failed output messages work well. This task is only about failed tests, for successfully passed tests there will be another one.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/all-of-failed-output.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-11-24T12:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/171">171</issue>
+    <ticket>167</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>167-efe2b8f6</id>
+    <lines>30-33</lines>
+    <body>To add more tests with a new assert-twice-that object to make sure it works well. This task is only about passed tests, for failed tests there will be another one.</body>
+    <file>src/test/eo/org/eolang/hamcrest/all-of-tests.eo</file>
+    <author>graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-11-24T12:00:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/183">183</issue>
+    <ticket>180</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>180-0160c3d1</id>
+    <lines>75-78</lines>
+    <body>To remove nop object from this test. Since while object was changed, we need to figure out why this object failed. I suggest doubled dataization of actual object in assert-twice-that object.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/equal-to-failed-output.eo</file>
+    <author>@Graur</author>
+    <email>ancongr@yandex.ru</email>
+    <time>2022-12-23T13:47:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/215" closed="2023-10-16T16:41:54+00:00">215</issue>
+    <ticket>212</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>212-87d9b1ce</id>
+    <lines>30-37</lines>
+    <body>Enable the tests when eo-collections 0.10.0 is in objectionary. Need to enable next tests that were disabled because of conflict with eo-collections 0.10.0: has-items-int-test, contains-all-of-string-failed, contains-any-of-string-failed, starts-with-any-of-string-failed, all-of-close-to-failed-output, any-of-number-test-failed-output, all-of-several-failed-output, starts-with-all-of-string-failed, ends-with-all-of-string-failed, all-of-number-test-failed-output, ends-with-any-of-string-failed, arrays-failed-output, any-of-several-failed-output, nested-has-items, arrays-each-items, arrays-each-items-complex-case, has-item-string-test, has-item-float-test</body>
+    <file>src/test/eo/org/eolang/hamcrest/arrays-matchers-tests.eo</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2023-10-04T13:37:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/221">221</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-bb16def5</id>
+    <lines>31-33</lines>
+    <body>Enable the matcher when eo-strings with 0.32.0 eo-runtime will be released. Matcher contains-string uses text.contains object isnside so it fails.</body>
+    <file>src/main/eo/org/eolang/hamcrest/matchers/contains-string-matcher.eo</file>
+    <author>@levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-10-17T10:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/222">222</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-aa3eae3f</id>
+    <lines>30-32</lines>
+    <body>Enable the test below when eo-collections with 0.32.0 eo-runtime will be released. Now it uses memory somewhere so we get memory enclosure</body>
+    <file>src/test/eo/org/eolang/hamcrest/arrays-matchers-tests.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-10-17T10:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/223">223</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-f9cb1c9d</id>
+    <lines>35-37</lines>
+    <body>Enable the tests below when eo-strings with 0.32.0 eo-runtime will be released. Matcher contains-string uses text.contains object so it fails.</body>
+    <file>src/test/eo/org/eolang/hamcrest/contains-string-tests.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-10-17T10:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/224">224</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-b18d8585</id>
+    <lines>29-31</lines>
+    <body>Enable the tests when eo-strings with 0.32.0 eo-runtime will be released. Matcher contains-string uses text.contains object inside so it fails.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/contains-string-failed-output.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-10-17T10:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/225">225</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-e738c098</id>
+    <lines>29-31</lines>
+    <body>Enable the following tests when eo strings will be updated. Now they use text.contain object that was changed in new eo-runtime version.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/string-ends-with-failed-output.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-10-17T10:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/226">226</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-1be25826</id>
+    <lines>29-31</lines>
+    <body>Enable the following tests when eo strings will be updated. Now they use text.starts-with object that was changed in new eo-runtime version.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/string-starts-with-failed-output.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-10-17T10:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/227">227</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-430194f1</id>
+    <lines>55-57</lines>
+    <body>Enable the following tests when eo strings will be updated. Now they use text.starts-with and text.contains objects that was changed in new eo-runtime version.</body>
+    <file>src/test/eo/org/eolang/hamcrest/failed-output/string-starts-with-failed-output.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-10-17T10:55:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-hamcrest/issues/228">228</issue>
+    <ticket>218</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>218-f4bba266</id>
+    <lines>29-31</lines>
+    <body>Enable the test below when eo-strings with 0.32.0 eo-runtime will be released. Matcher contains-string uses text.contains object so it fails.</body>
+    <file>src/test/eo/org/eolang/hamcrest/is-substring-tests.eo</file>
+    <author>levBagryansky</author>
+    <email>28lev11@gmail.com</email>
+    <time>2023-10-17T10:55:16Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2017-12-27T19:43:32+00:00" version="0.28.5">
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/36" closed="2017-10-25T13:06:09+00:00">36</issue>
+    <ticket>35</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>35-88e76001</id>
+    <lines>6-9</lines>
+    <body>&#x410; &#x434;&#x430;&#x432;&#x430;&#x439;&#x442;&#x435; &#x43F;&#x43E;&#x43A;&#x430; &#x434;&#x43B;&#x44F; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E;&#x442;&#x44B; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x434;&#x438;&#x43C; &#x442;&#x43E;&#x43A;&#x435;&#x43D; &#x432; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430;&#x445; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x440;&#x43E;&#x43A;&#x438;, &#x43F;&#x443;&#x441;&#x442;&#x44C; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x43C; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x43C; &#x43D;&#x43E; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x43F;&#x43E; &#x43A;&#x43B;&#x44E;&#x447;&#x443;. &#x41A;&#x43B;&#x44E;&#x447; &#x434;&#x43B;&#x44F; &#x442;&#x43E;&#x43A;&#x435;&#x43D;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; 'telegram.token' &#x410; &#x441;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x430;&#x440;&#x433;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x440;&#x43E;&#x43A;&#x438; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442;&#x441;&#x44F; &#x432; self.args</body>
+    <file>tb/config.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-09T20:12:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/37" closed="2017-10-29T20:55:14+00:00">37</issue>
+    <ticket>35</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>35-519019b8</id>
+    <lines>7-11</lines>
+    <body>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x43E;&#x431;&#x440;&#x430;&#x442;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x443; telegram &#x438; &#x432;&#x44B;&#x442;&#x430;&#x449;&#x438;&#x442;&#x44C; &#x43E;&#x442;&#x442;&#x443;&#x434;&#x430; &#x441;&#x432;&#x435;&#x436;&#x438;&#x435; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;. &#x414;&#x43B;&#x44F; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; https://python-telegram-bot.org/ &#x41D;&#x43E; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x43D;&#x435;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;, &#x43F;&#x43E;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x443; &#x43D;&#x430;&#x43C; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x437;&#x430;&#x431;&#x440;&#x430;&#x442;&#x44C; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x441; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x430;. &#x427;&#x442;&#x43E;-&#x442;&#x43E; &#x442;&#x438;&#x43F;&#x430; &#x44D;&#x442;&#x43E;&#x433;&#x43E;: telegram.Bot.getUpdates</body>
+    <file>tb/sources/telegram.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-09T20:12:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/38" closed="2017-10-29T20:55:15+00:00">38</issue>
+    <ticket>35</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>35-d7be7cdc</id>
+    <lines>12-14</lines>
+    <body>&#x420;&#x435;&#x430;&#x43B;&#x438;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x432; Application.run() &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x439; &#x446;&#x438;&#x43A;&#x43B; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x42D;&#x442;&#x43E;&#x442; &#x446;&#x438;&#x43A;&#x43B; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x432;&#x44B;&#x442;&#x44F;&#x433;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x44F; &#x438;&#x437; self.source &#x438; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x44C; &#x432; self.storage, &#x418;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441;&#x44B; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x44B; &#x432; &#x444;&#x430;&#x439;&#x43B;&#x435; types.py, &#x43D;&#x430;&#x440;&#x443;&#x448;&#x430;&#x442;&#x44C; &#x43D;&#x435;&#x43B;&#x44C;&#x437;&#x44F;.</body>
+    <file>tb/application.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-09T20:12:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/39" closed="2017-10-29T20:55:16+00:00">39</issue>
+    <ticket>35</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>35-fca646b9</id>
+    <lines>6-10</lines>
+    <body>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x43E;&#x431;&#x440;&#x430;&#x442;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x443; telegram &#x438; &#x437;&#x430;&#x43B;&#x438;&#x442;&#x44C; &#x442;&#x443;&#x434;&#x430;. &#x414;&#x43B;&#x44F; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; https://python-telegram-bot.org/ &#x41D;&#x43E; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x43D;&#x435;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;, &#x43F;&#x43E;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x443; &#x43D;&#x430;&#x43C; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;. &#x447;&#x442;&#x43E;-&#x442;&#x43E; &#x442;&#x438;&#x43F;&#x430; &#x44D;&#x442;&#x43E;&#x433;&#x43E;: telegram.Bot.sendMessage</body>
+    <file>tb/storage/telegram.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-09T20:12:21Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/55" closed="2017-11-20T15:54:43+00:00">55</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-83038aa7</id>
+        <lines>4-4</lines>
+        <body>&#x41F;&#x435;&#x440;&#x435;&#x43D;&#x435;&#x441;&#x442;&#x438; AcMessage &#x432; &#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x43E;</body>
+        <file>tb/sources/telegram.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-10-25T13:20:06Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-e6adce21</id>
+        <lines>22-23</lines>
+        <body>getUpdates &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x432;&#x44B;&#x437;&#x44B;&#x432;&#x430;&#x442;&#x44C; &#x441; &#x43D;&#x43E;&#x43C;&#x435;&#x440;&#x43E;&#x43C; &#x43E;&#x447;&#x435;&#x440;&#x435;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;. &#x410; &#x43F;&#x43E;&#x43A;&#x430; &#x43E;&#x43D; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x44F;&#x435;&#x442; &#x432;&#x441;&#x435; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43A; &#x43D;&#x435;&#x43C;&#x443; &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x438;&#x43B;&#x438;.</body>
+        <file>tb/sources/telegram.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-10-25T13:20:06Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/56" closed="2017-11-20T16:04:21+00:00">56</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-f74a6074</id>
+        <lines>18-21</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x441;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x44C; &#x432; &#x411;&#x414; &#x43D;&#x43E;&#x43C;&#x435;&#x440; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;, &#x441; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x43C; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x43B; &#x431;&#x43E;&#x442;. &#x42D;&#x442;&#x43E; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x434;&#x43B;&#x44F; &#x442;&#x43E;&#x433;&#x43E;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x437;&#x430;&#x43F;&#x443;&#x441;&#x43A;&#x430; &#x431;&#x43E;&#x442; &#x43D;&#x435; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x44F;&#x43B; &#x441;&#x432;&#x43E;&#x438; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;. &#x41C;&#x43E;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; https://pypi.python.org/pypi/tinydb - &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x430;&#x44F; &#x448;&#x442;&#x443;&#x43A;&#x430;.</body>
+        <file>tb/storage/telegram.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-10-29T20:55:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/57" closed="2017-11-22T20:38:17+00:00">57</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-e0443908</id>
+        <lines>22-23</lines>
+        <body>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x432;&#x43E;&#x441;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x438;&#x437; &#x411;&#x414; &#x437;&#x43D;&#x430;&#x447;&#x43D;&#x438;&#x435; &#x441;&#x447;&#x435;&#x442;&#x447;&#x438;&#x43A;&#x430; &#x438; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x435;&#x433;&#x43E; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x445; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x439;.</body>
+        <file>tb/sources/telegram.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-10-29T20:55:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/58" closed="2017-11-14T20:06:26+00:00">58</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-b97bcefa</id>
+        <lines>16-18</lines>
+        <body>&#x412; &#x43F;&#x440;&#x43E;&#x446;&#x435;&#x441;&#x441;&#x435; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x44F; action &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x432;&#x43E;&#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x443;&#x442;&#x44C; &#x438;&#x441;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435;. &#x412; &#x44D;&#x442;&#x43E;&#x43C; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x435; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x434;&#x43E;&#x43D;&#x435;&#x441;&#x442;&#x438; &#x434;&#x43E; &#x430;&#x434;&#x43C;&#x438;&#x43D;&#x438;&#x442;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x430; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44E; &#x43E; &#x442;&#x43E;&#x43C;, &#x447;&#x442;&#x43E; &#x43F;&#x43E;&#x448;&#x43B;&#x43E; &#x43D;&#x435; &#x442;&#x430;&#x43A;.</body>
+        <file>tb/sources/utility.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-10-29T20:55:03Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/telebot/issues/70" closed="2017-12-27T19:43:31+00:00">70</issue>
+            <ticket>58</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>58-b8773024</id>
+            <lines>19-20</lines>
+            <body>&#x418;&#x437; &#x442;&#x435;&#x43A;&#x441;&#x442;&#x430; &#x438;&#x441;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x441;&#x444;&#x43E;&#x440;&#x43C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x43B;&#x44F; &#x430;&#x434;&#x43C;&#x438;&#x43D;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x430;</body>
+            <file>tb/sources/utility.py</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-11-14T20:06:22Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/59" closed="2017-11-02T10:49:48+00:00">59</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-ad668363</id>
+        <lines>2-4</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43E;&#x440;&#x433;&#x430;&#x43D;&#x438;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x447;&#x442;&#x435;&#x43D;&#x438;&#x435; &#x43A;&#x43E;&#x43D;&#x444;&#x438;&#x433;&#x443;&#x440;&#x430;&#x446;&#x438;&#x438; &#x438;&#x437; &#x444;&#x430;&#x439;&#x43B;&#x430; &#x43A;&#x43E;&#x43D;&#x444;&#x438;&#x433;&#x443;&#x440;&#x430;&#x446;&#x438;&#x438;. &#x424;&#x43E;&#x440;&#x43C;&#x430;&#x442; &#x444;&#x430;&#x439;&#x43B;&#x430; &#x43A;&#x43E;&#x43D;&#x444;&#x438;&#x433;&#x443;&#x440;&#x430;&#x446;&#x438;&#x438; - ini &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;: https://docs.python.org/3/library/configparser.html</body>
+        <file>tb/config.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-10-29T20:55:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/60" closed="2017-11-01T19:41:19+00:00">60</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-299392b7</id>
+        <lines>16-20</lines>
+        <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43E;&#x440;&#x433;&#x430;&#x43D;&#x438;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x440;&#x430;&#x437;&#x431;&#x43E;&#x440; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x432; &#x438;&#x437; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x440;&#x43E;&#x43A;&#x438;. &#x414;&#x43B;&#x44F; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x430;&#x442;&#x44C; &#x441;&#x43E;&#x432;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x421; &#x438;&#x43C;&#x435;&#x44E;&#x449;&#x438;&#x43C;&#x441;&#x44F; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x43E;&#x43C; &#x438; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x44C; &#x43E;&#x442;&#x442;&#x443;&#x434;&#x430; &#x442;&#x43E;&#x43A;&#x435;&#x43D; &#x442;&#x435;&#x43B;&#x435;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430; (&#x43F;&#x435;&#x440;&#x432;&#x44B;&#x439; &#x430;&#x440;&#x433;&#x443;&#x43C;&#x435;&#x43D;&#x442;) &#x43D;&#x43E; &#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x43E; &#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x447;&#x435;&#x440;&#x435;&#x437; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;: https://docs.python.org/3/library/argparse.html</body>
+        <file>tb/config.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-10-29T20:55:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/66" closed="2017-11-23T19:59:06+00:00">66</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-3292f686</id>
+        <lines>10-10</lines>
+        <body>&#x43D;&#x443;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; update</body>
+        <file>tb/storage/tinydb.py</file>
+        <author>sm</author>
+        <email>espin55@yandex.ru</email>
+        <time>2017-10-30T16:00:49Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/68" closed="2017-11-20T15:54:44+00:00">68</issue>
+        <ticket>39</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>39-13286181</id>
+        <lines>27-28</lines>
+        <body>&#x42D;&#x442;&#x43E;&#x442; &#x43A;&#x43B;&#x430;&#x441;&#x441; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x444;&#x43E;&#x440;&#x43C;&#x43C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43E;&#x442;&#x432;&#x435;&#x442;&#x43D;&#x443;&#x44E; &#x440;&#x435;&#x430;&#x43A;&#x446;&#x438;&#x44E; &#x43D;&#x430; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x435; &#x437;&#x430;&#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43D;&#x430;&#x431;&#x43E;&#x440;&#x430; &#x440;&#x435;&#x430;&#x43A;&#x446;&#x438;&#x439;. &#x418; &#x41D;&#x430;&#x431;&#x43E;&#x440; &#x440;&#x435;&#x430;&#x43A;&#x446;&#x438;&#x439; &#x43B;&#x443;&#x447;&#x448;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x442;&#x44C; &#x438;&#x437;&#x432;&#x43D;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x435; &#x440;&#x430;&#x437;&#x434;&#x443;&#x432;&#x430;&#x442;&#x44C; &#x43A;&#x43E;&#x434;.</body>
+        <file>tb/sources/telegram.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-11-13T15:41:40Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/DronMDF/telebot/issues/74" closed="2017-11-27T19:16:07+00:00">74</issue>
+            <ticket>68</ticket>
+            <estimate>0</estimate>
+            <role>IMP</role>
+            <id>68-ff971afd</id>
+            <lines>19-21</lines>
+            <body>&#x41D;&#x443;&#x436;&#x43D;&#x43E; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x442;&#x430;&#x43A;&#x443;&#x44E; &#x440;&#x435;&#x430;&#x43A;&#x446;&#x438;&#x44E;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x430;&#x44F; &#x43C;&#x43E;&#x433;&#x43B;&#x430; &#x431;&#x44B; &#x432;&#x44B;&#x431;&#x438;&#x440;&#x430;&#x442;&#x44C; &#x438;&#x437; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x445; &#x440;&#x435;&#x430;&#x43A;&#x446;&#x438;&#x439;. &#x422;&#x43E; &#x435;&#x441;&#x442;&#x44C; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x440;&#x435;&#x430;&#x43B;&#x438;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; ReactionChoiced</body>
+            <file>tb/sources/reaction.py</file>
+            <author>Andrey Valyaev</author>
+            <email>dron.valyaev@gmail.com</email>
+            <time>2017-11-20T15:54:39Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/DronMDF/telebot/issues/85" closed="2017-11-28T10:01:27+00:00">85</issue>
+                <ticket>74</ticket>
+                <estimate>0</estimate>
+                <role>IMP</role>
+                <id>74-f3baff60</id>
+                <lines>2-6</lines>
+                <body>&#x42D;&#x442;&#x43E; &#x43C;&#x435;&#x448;&#x43E;&#x43A; &#x441; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x43C;&#x438;. &#x41D;&#x43E; &#x44D;&#x442;&#x43E;&#x442; &#x43A;&#x43B;&#x430;&#x441;&#x441; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x431;&#x43E;&#x43B;&#x435;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x43C; &#x437;&#x430; &#x441;&#x432;&#x43E;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435;. &#x412; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x43E;&#x442; &#x442;&#x43E;&#x433;&#x43E;, &#x43A;&#x430;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x43E;&#x440;&#x435;&#x434;&#x436; - &#x443; &#x44D;&#x43A;&#x448;&#x438;&#x43D;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; &#x432;&#x44B;&#x437;&#x44B;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x43C;&#x435;&#x442;&#x43E;&#x434; send, &#x438;&#x43B;&#x438; &#x43C;&#x435;&#x442;&#x43E;&#x434; save. &#x412; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x438;&#x43D;&#x442;&#x440;&#x435;&#x444;&#x435;&#x439;&#x441; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x430;, &#x438;&#x43B;&#x438; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441; &#x411;&#x414; &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x43E;.</body>
+                <file>tb/sources/reaction.py</file>
+                <author>Andrey Valyaev</author>
+                <email>dron.valyaev@gmail.com</email>
+                <time>2017-11-27T20:44:14Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>40-c7c972e3</id>
+    <lines>3-4</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x44C; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x441;&#x432;&#x43E;&#x431;&#x43E;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x43C;&#x435;&#x441;&#x442;&#x430; &#x43D;&#x430; &#x434;&#x438;&#x441;&#x43A;&#x435;. &#x415;&#x441;&#x43B;&#x438; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x441;&#x432;&#x43E;&#x431;&#x43E;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x43C;&#x435;&#x441;&#x442;&#x430; &#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x435; &#x447;&#x435;&#x43C; 10% &#x43E;&#x442; &#x434;&#x438;&#x441;&#x43A;&#x430; - &#x441;&#x433;&#x435;&#x43D;&#x435;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x435;.</body>
+    <file>tb/sources/hdd.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-10T11:14:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>40-5c7448f3</id>
+    <lines>3-3</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x441;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x439;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x432;&#x43E;&#x437;&#x43D;&#x438;&#x43A;&#x43B;&#x438; &#x441; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442;&#x430;</body>
+    <file>tb/sources/syslog.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-10T11:14:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/42" closed="2017-12-27T19:43:31+00:00">42</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>40-5225b520</id>
+    <lines>3-4</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x44C; &#x437;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x443; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x437;&#x430; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x44E;&#x44E; &#x43C;&#x438;&#x43D;&#x443;&#x442;&#x443;. &#x415;&#x441;&#x43B;&#x438; &#x437;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430; &#x43F;&#x440;&#x435;&#x432;&#x44B;&#x448;&#x430;&#x435;&#x442; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B; - &#x441;&#x433;&#x435;&#x43D;&#x435;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x435;.</body>
+    <file>tb/sources/cpu.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-10T11:14:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/43" closed="2017-10-29T20:55:17+00:00">43</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>40-b7de133b</id>
+    <lines>3-5</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x441;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x439;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x432;&#x43E;&#x437;&#x43D;&#x438;&#x43A;&#x43B;&#x438; &#x441; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442;&#x430; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x435;&#x433;&#x43E; &#x43E;&#x431;&#x440;&#x430;&#x449;&#x435;&#x43D;&#x438;&#x44F;. &#x41D;&#x435; &#x437;&#x43D;&#x430;&#x44E; &#x442;&#x43E;&#x447;&#x43D;&#x43E;, &#x447;&#x442;&#x43E; &#x43C;&#x44B; &#x445;&#x43E;&#x442;&#x438;&#x43C; &#x442;&#x430;&#x43C; &#x443;&#x432;&#x438;&#x434;&#x435;&#x442;&#x44C;, &#x414;&#x430;&#x432;&#x430;&#x439;&#x442;&#x435; &#x434;&#x43B;&#x44F; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x43D;&#x430;&#x439;&#x434;&#x435;&#x442; &#x432;&#x441;&#x435; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x44F; &#x43E;&#x442; systemd &#x438; &#x432;&#x435;&#x440;&#x43D;&#x435;&#x43C; &#x438;&#x445; &#x432; &#x432;&#x438;&#x434;&#x435; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x439;.</body>
+    <file>tb/sources/syslog.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-10T11:14:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/45" closed="2017-10-29T20:55:18+00:00">45</issue>
+    <ticket>12</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>12-df202e49</id>
+    <lines>8-8</lines>
+    <body>&#x418;&#x43D;&#x442;&#x435;&#x433;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; test &#x432; setup.py</body>
+    <file>.travis.yml</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-11T10:21:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/48" closed="2017-11-27T19:55:54+00:00">48</issue>
+    <ticket>47</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>47-cef35592</id>
+    <lines>6-7</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x441;&#x43E;&#x431;&#x440;&#x430;&#x442;&#x44C; actions &#x441;&#x43E; &#x432;&#x441;&#x435;&#x445; &#x432;&#x43D;&#x443;&#x442;&#x440;&#x435;&#x43D;&#x43D;&#x438;&#x445; &#x438;&#x441;&#x442;&#x43E;&#x447;&#x43D;&#x438;&#x43A;&#x43E;&#x432; &#x438; &#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44C; &#x432; &#x432;&#x438;&#x434;&#x435; &#x43E;&#x431;&#x449;&#x435;&#x433;&#x43E; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x430;</body>
+    <file>tb/sources/utility.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-13T09:27:37Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/DronMDF/telebot/issues/83" closed="2017-12-27T19:43:32+00:00">83</issue>
+        <ticket>48</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>48-e2948c7e</id>
+        <lines>13-15</lines>
+        <body>&#x427;&#x442;&#x43E;-&#x442;&#x43E; &#x44F; &#x43D;&#x435;&#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x43E;&#x43C;&#x43D;&#x435;&#x432;&#x430;&#x44E;&#x441;&#x44C;, &#x447;&#x442;&#x43E; SoJoin &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x43D;&#x43E;. &#x418; &#x44D;&#x442;&#x43E; &#x443;&#x434;&#x43E;&#x431;&#x43D;&#x43E;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x43E;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x43F;&#x440;&#x43E;&#x431;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430;&#x43F;&#x438;&#x441;&#x430;&#x442;&#x44C; &#x442;&#x435;&#x441;&#x442;. &#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x44B; &#x43E;&#x444;&#x43E;&#x440;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x442;&#x435;&#x441;&#x442;&#x43E;&#x432; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43F;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C; &#x432; &#x434;&#x440;&#x443;&#x433;&#x438;&#x445; &#x444;&#x430;&#x439;&#x43B;&#x430;&#x445;.</body>
+        <file>tb/sources/utility.py</file>
+        <author>Andrey Valyaev</author>
+        <email>dron.valyaev@gmail.com</email>
+        <time>2017-11-27T19:54:19Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/49" closed="2017-10-30T19:32:30+00:00">49</issue>
+    <ticket>47</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>47-b5b1bd9d</id>
+    <lines>6-7</lines>
+    <body>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x440;&#x43E;&#x431;&#x440;&#x43E;&#x441;&#x438;&#x442;&#x44C; action &#x432;&#x43E; &#x432;&#x441;&#x435; &#x432;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44B;&#x435; storage</body>
+    <file>tb/storage/utility.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-10-13T09:27:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/DronMDF/telebot/issues/81" closed="2017-12-18T20:31:26+00:00">81</issue>
+    <ticket>41</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>41-96ac84d5</id>
+    <lines>7-8</lines>
+    <body>&#x421;&#x444;&#x43E;&#x440;&#x43C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; Action, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x438;&#x442; &#x430;&#x434;&#x43C;&#x438;&#x43D;&#x443; &#x443;&#x432;&#x435;&#x434;&#x43E;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43E; &#x442;&#x43E;&#x43C;, &#x447;&#x442;&#x43E; &#x43D;&#x430; &#x434;&#x438;&#x441;&#x43A;&#x435; &#x43A;&#x43E;&#x43D;&#x447;&#x438;&#x43B;&#x43E;&#x441;&#x44C; &#x43C;&#x435;&#x441;&#x442;&#x43E;</body>
+    <file>tb/sources/hdd.py</file>
+    <author>Andrey Valyaev</author>
+    <email>dron.valyaev@gmail.com</email>
+    <time>2017-11-27T19:31:32Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

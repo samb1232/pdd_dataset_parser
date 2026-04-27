@@ -1,0 +1,703 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2024-01-04T14:43:21+00:00">
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1-b5151558</id>
+    <ticket>1</ticket>
+    <file>netbout-web/src/main/java/com/netbout/dynamo/DyInbox.java</file>
+    <lines>134-140</lines>
+    <estimate>30</estimate>
+    <body>DynamoDBLocal doesn't work with all attributes in global index. If we remove this check for a local version, most tests fail. I'm not sure how to fix that. I suspect, it's a bug in DynamoDBLocal, but I don't even know how to report it to them :( Anyway, let's try to investigate and either fix property or introduce a better workaround. Pay attention that this code works correctly in production.</body>
+    <role>IMP</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2014-06-14T09:58:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>610-76d661ee</id>
+    <ticket>610</ticket>
+    <file>netbout-web/src/test/java/com/netbout/rest/bout/TkStartTest.java</file>
+    <lines>54-57</lines>
+    <estimate>30</estimate>
+    <body>Test case for negative scenario of TkStart should be added, e.g. when a friend is not found, the error should be reported correctly and bout creation should be discarded.</body>
+    <role>IMP</role>
+    <author>Ivan Inozemtsev</author>
+    <email>ivan.inozemtsev@gmail.com</email>
+    <time>2015-05-25T12:21:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>609-bc8eaf9f</id>
+    <ticket>609</ticket>
+    <file>netbout-web/src/test/java/com/netbout/rest/TkAppTest.java</file>
+    <lines>99-102</lines>
+    <estimate>30</estimate>
+    <body>We need to be able to send anonymous requests from tests to verify correct TkApp behavior for anonymous users. But now all requests from tests are authorized because of PsFake(TkAppAuth.TESTING) in TkAppAuth.</body>
+    <role>IMP</role>
+    <author>Ivan Inozemtsev</author>
+    <email>ivan.inozemtsev@gmail.com</email>
+    <time>2015-05-27T05:25:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/682" closed="2023-12-19T10:21:56+00:00">682</issue>
+    <id>547-299902f6</id>
+    <ticket>547</ticket>
+    <file>netbout-web/src/main/java/com/netbout/email/EmMessages.java</file>
+    <lines>96-97</lines>
+    <estimate>30</estimate>
+    <body>Send email if friend subscribed to bout. Friend should be filtered before send email by subscription</body>
+    <role>DEV</role>
+    <author>erim erturk</author>
+    <email>erimerturk@gmail.com</email>
+    <time>2015-06-09T07:01:08Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>682-753e25af</id>
+        <ticket>682</ticket>
+        <file>netbout-client/src/main/java/com/netbout/client/RtBout.java</file>
+        <lines>155-157</lines>
+        <estimate>30</estimate>
+        <body>Implement getting subscription by alias. Should return subscription status for current boat, passing friend alias value using REST call.</body>
+        <role>DEV</role>
+        <author>Eugene Kondrashev</author>
+        <email>eugene.kondrashev@gmail.com</email>
+        <time>2015-06-11T23:40:15Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>682-2583dc75</id>
+        <ticket>682</ticket>
+        <file>netbout-client/src/main/java/com/netbout/client/RtBout.java</file>
+        <lines>155-157</lines>
+        <estimate>30</estimate>
+        <body>Implement getting subscription by alias. Should return subscription status for current boat, passing friend alias value using REST service call.</body>
+        <role>DEV</role>
+        <author>Eugene Kondrashev</author>
+        <email>eugene.kondrashev@gmail.com</email>
+        <time>2015-06-11T23:40:15Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/692" closed="2023-12-19T10:21:59+00:00">692</issue>
+    <id>600-f8c0ce2e</id>
+    <ticket>600</ticket>
+    <file>netbout-web/src/main/java/com/netbout/email/EmCatch.java</file>
+    <lines>188-194</lines>
+    <estimate>30</estimate>
+    <body>Create bout message using using msg values. Msg recipient value will hold boutId info. Msg from value will hold bout message creator info. Msg content will hold bout message content info. This method should get bout info from email and save it as bout message. And then change method signature like void run(Bout bout, String email, String body);</body>
+    <role>DEV</role>
+    <author>erim erturk</author>
+    <email>erimerturk@gmail.com</email>
+    <time>2015-06-09T08:54:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>692-1caba32d</id>
+        <ticket>692</ticket>
+        <file>netbout-web/src/main/java/com/netbout/email/EmMessages.java</file>
+        <lines>137-141</lines>
+        <estimate>30</estimate>
+        <body>Header `Reply-To` should be added to an outgoing email. Format is crypt-string@reply.netbout.com where crypt-string is user-urn|bout-number Use EmCatch.encrypt() to encrypt the string see #692 and EmActionTest for additional info</body>
+        <role>DEV</role>
+        <author>Dmitry Zaytsev</author>
+        <email>dmitry.zaytsev@gmail.com</email>
+        <time>2015-08-20T20:27:52Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>603-0cf011c2</id>
+    <ticket>603</ticket>
+    <file>netbout-web/src/main/java/com/netbout/dynamo/DyInbox.java</file>
+    <lines>62-65</lines>
+    <estimate>30</estimate>
+    <body>Refactor DyInbox class to avoid suppressing of PMD.TooManyMethods and PMD.ExcessiveImports warnings. for example there are some private static methods there, those could be easily extracted.</body>
+    <role>IMP</role>
+    <author>Ivan Inozemtsev</author>
+    <email>ivan.inozemtsev@gmail.com</email>
+    <time>2015-06-15T16:29:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>603-5d374ee5</id>
+    <ticket>603</ticket>
+    <file>netbout-web/src/main/java/com/netbout/dynamo/DyMessages.java</file>
+    <lines>68-71</lines>
+    <estimate>30</estimate>
+    <body>Refactor DyMessages class to avoid suppressing of PMD.TooManyMethods and PMD.ExcessiveImports warnings. for example there are some private static methods there, those could be easily extracted.</body>
+    <role>IMP</role>
+    <author>Ivan Inozemtsev</author>
+    <email>ivan.inozemtsev@gmail.com</email>
+    <time>2015-06-15T16:29:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/704" closed="2023-12-19T10:22:03+00:00">704</issue>
+    <id>603-303ccd32</id>
+    <ticket>603</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/TkInbox.java</file>
+    <lines>50-52</lines>
+    <estimate>30</estimate>
+    <body>Index page should also display search box so that user can search for bouts containing text. See Inbox#search method for details.</body>
+    <role>IMP</role>
+    <author>Ivan Inozemtsev</author>
+    <email>ivan.inozemtsev@gmail.com</email>
+    <time>2015-06-11T12:20:38Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>704-c6ad2d19</id>
+        <ticket>704</ticket>
+        <file>netbout-web/src/test/java/com/netbout/rest/TkInboxTest.java</file>
+        <lines>46-48</lines>
+        <estimate>30</estimate>
+        <body>Test case for search bouts of TkInbox should be added, e.g. response should have filtered bouts by search term</body>
+        <role>IMP</role>
+        <author>erimerturk</author>
+        <email>erimerturk@gmail.com</email>
+        <time>2015-07-20T11:26:46Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>603-275d519b</id>
+    <ticket>603</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/bout/TkIndex.java</file>
+    <lines>53-55</lines>
+    <estimate>30</estimate>
+    <body>Bout page should also display search box so that user can search for text in messages. See Messages#search method for details.</body>
+    <role>IMP</role>
+    <author>Ivan Inozemtsev</author>
+    <email>ivan.inozemtsev@gmail.com</email>
+    <time>2015-06-11T12:20:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>685-6534dff2</id>
+    <ticket>685</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/TkAppAuth.java</file>
+    <lines>92-101</lines>
+    <estimate>30</estimate>
+    <body>Need to implement PsBasic.Entry. PsFake usage should be changed to PsBasic( Manifests.read("Netbout-Basic-Realm"), new PsBasic.Default( Manifests.read("Netbout-Basic-User"), Manifests.read("Netbout-Basic-Pwd"))) But PsBasic.Default like class is currently missing. See takes #349. It is also needed to be able to switch on/off BasicAuth e.g. by via change the manifest entry "Netbout-Basic":true/false.</body>
+    <role>DEV</role>
+    <author>Eugene Kondrashev</author>
+    <email>eugene.kondrashev@gmail.com</email>
+    <time>2015-06-19T07:08:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>606-457eb15d</id>
+    <ticket>606</ticket>
+    <file>netbout-web/src/main/xsl/bout.xsl</file>
+    <lines>45-45</lines>
+    <estimate>30</estimate>
+    <body>The line below should be changed to avoid linking</body>
+    <role>IMP</role>
+    <author>Matteo Barbieri</author>
+    <email>barbieri.matteo@gmail.com</email>
+    <time>2015-06-27T07:14:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>643-0c6bbfa8</id>
+    <ticket>643</ticket>
+    <file>netbout-web/src/main/js/bout.js</file>
+    <lines>141-144</lines>
+    <estimate>30</estimate>
+    <body>System should highlights a message when accessing it through message's permalink. This must be implemented on a different method and must be called over here and on the `else` statement of the same `if else` block.</body>
+    <role>DEV</role>
+    <author>Endrigo Antonini</author>
+    <email>eantonini@eidoscode.com</email>
+    <time>2015-06-28T20:26:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/751" closed="2023-12-19T10:22:06+00:00">751</issue>
+    <id>602-3825bd3b</id>
+    <ticket>602</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/bout/TkInvite.java</file>
+    <lines>119-124</lines>
+    <estimate>30</estimate>
+    <body>Invited user should receive an email message with a text like this 'You are invited into the Netbout click on the link to register' and the link should be `http://www.netbout.com/b/
+
+?invite= ` where `invite-key` is the encrypted urn. We can use `CcAES` from Takes project.</body>
+    <role>DEV</role>
+    <author>Endrigo Antonini</author>
+    <email>eantonini@eidoscode.com</email>
+    <time>2015-07-20T05:31:10Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>751-6f10d03b</id>
+        <ticket>751</ticket>
+        <file>netbout-web/src/main/java/com/netbout/rest/login/TkRegister.java</file>
+        <lines>67-71</lines>
+        <estimate>30</estimate>
+        <body>During the user registraton if the invite-key` param presented in the original ticket (destination url) it should decrypt that value and use it to search for alias. using that alias, you must update urn and alias to use the alias that was choosen by the user.</body>
+        <role>D</role>
+        <author>Mesut O&#x308;zen</author>
+        <email>mesut.ozen@n11.com</email>
+        <time>2015-08-25T10:37:41Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>602-8a4d4ea4</id>
+    <ticket>602</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/login/TkRegister.java</file>
+    <lines>62-66</lines>
+    <estimate>30</estimate>
+    <body>During the user registration if the `invite-key` param presented in the original ticket (destination url) it should decrypt that value and use it to search for alias. Using that alias, you must update urn and alias to use the alias that was choosen by the user.</body>
+    <role>DEV</role>
+    <author>Endrigo Antonini</author>
+    <email>eantonini@eidoscode.com</email>
+    <time>2015-07-20T05:31:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>703-ca5668ad</id>
+    <ticket>703</ticket>
+    <file>netbout-web/pom.xml</file>
+    <lines>58-58</lines>
+    <estimate>30</estimate>
+    <body>Current version of Takes doesn't support</body>
+    <role>IMP</role>
+    <author>Endrigo Antonini</author>
+    <email>eantonini@eidoscode.com</email>
+    <time>2015-08-04T04:20:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>806-1e507f57</id>
+    <ticket>806</ticket>
+    <file>netbout-client/src/main/java/com/netbout/mock/MkAttachments.java</file>
+    <lines>86-88</lines>
+    <estimate>30</estimate>
+    <body>This method needs to be implemented because it is used in tests that read bout properties. Currently, this implementation always returns 0.</body>
+    <role>DEV</role>
+    <author>bdragan</author>
+    <email>bozanovicdr@gmail.com</email>
+    <time>2015-10-26T19:40:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>806-43ee63d7</id>
+    <ticket>806</ticket>
+    <file>netbout-client/src/main/java/com/netbout/mock/MkBout.java</file>
+    <lines>104-106</lines>
+    <estimate>30</estimate>
+    <body>This method needs to be implemented because it is used in tests that read bout properties. Currently, this implementation always returns the current date.</body>
+    <role>DEV</role>
+    <author>bdragan</author>
+    <email>bozanovicdr@gmail.com</email>
+    <time>2015-10-26T19:40:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>738-4d284963</id>
+    <ticket>738</ticket>
+    <file>netbout-web/src/main/java/com/netbout/email/EmAlias.java</file>
+    <lines>130-134</lines>
+    <estimate>30</estimate>
+    <body>We need to improve the format and content of the verification email. Currently, it only asks the user to verify the new email by using the provided verification link. We may add some header, footer, note like "Ignore this email if you did not change your email address", etc.</body>
+    <role>IMP</role>
+    <author>bdragan</author>
+    <email>bozanovicdr@gmail.com</email>
+    <time>2015-11-14T20:42:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/842" closed="2023-12-19T10:22:09+00:00">842</issue>
+    <id>738-d76bd177</id>
+    <ticket>738</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/account/TkSaveEmail.java</file>
+    <lines>53-55</lines>
+    <estimate>30</estimate>
+    <body>If the email attribute value contains !, we should display an exclamation icon with hint that the email is not verified yet near the alias name.</body>
+    <role>IMP</role>
+    <author>bdragan</author>
+    <email>bozanovicdr@gmail.com</email>
+    <time>2015-11-14T20:42:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>842-9eb73ef4</id>
+        <ticket>842</ticket>
+        <file>netbout-web/src/main/java/com/netbout/rest/XeAlias.java</file>
+        <lines>95-97</lines>
+        <estimate>30</estimate>
+        <body>Write test for the logic of generating Xembly for {@link Alias} class. It should focus on checking whether tags "email" and "newEmail" are properly populated based on input.</body>
+        <role>D</role>
+        <author>mkordas</author>
+        <email>kordas.michal@gmail.com</email>
+        <time>2015-12-12T23:29:44Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/867" closed="2023-12-19T10:22:12+00:00">867</issue>
+    <id>847-f2a7caae</id>
+    <ticket>847</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/Markdown.java</file>
+    <lines>38-40</lines>
+    <estimate>30</estimate>
+    <body>MarkdownTxtmark not implemented but has to be. This class should be implementation of Markdown using TxtMark. See https://github.com/rjeschke/txtmark. Don't forget about unit tests.</body>
+    <role>DEV</role>
+    <author>Dmitry Zaytsev</author>
+    <email>dmzaytsev@users.noreply.github.com</email>
+    <time>2015-12-11T16:56:53Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/netbout/issues/873" closed="2023-12-19T10:22:15+00:00">873</issue>
+        <id>867-4e7e6e8f</id>
+        <ticket>867</ticket>
+        <file>netbout-web/src/test/java/com/netbout/rest/MarkdownTxtmarkTest.java</file>
+        <lines>42-46</lines>
+        <estimate>30</estimate>
+        <body>MarkdownTxtmark not implemented but has to be. See #847 for details. This class should be implementation of Markdown using TxtMark. See https://github.com/rjeschke/txtmark. After that don't forget remove Ignore annotation from unit tests.</body>
+        <role>DEV</role>
+        <author>Dmitry Zaytsev</author>
+        <email>dmitry.zaytsev@gmail.com</email>
+        <time>2015-12-13T17:18:17Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue>unknown</issue>
+            <id>873-bdf7b68b</id>
+            <ticket>873</ticket>
+            <file>netbout-web/src/main/java/com/netbout/rest/MarkdownTxtmark.java</file>
+            <lines>62-64</lines>
+            <estimate>30</estimate>
+            <body>We need more tests for the case, when text contains several links. Both plain links and markdown preformatted links need to be checked.</body>
+            <role>DEV</role>
+            <author>Dmitry Zaytsev</author>
+            <email>dmitry.zaytsev@gmail.com</email>
+            <time>2015-12-20T14:51:52Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/yegor256/netbout/issues/888" closed="2023-12-19T10:22:18+00:00">888</issue>
+            <id>873-3b1d8aa3</id>
+            <ticket>873</ticket>
+            <file>netbout-web/src/test/java/com/netbout/rest/MarkdownTxtmarkTest.java</file>
+            <lines>200-204</lines>
+            <estimate>30</estimate>
+            <body>MarkdownTxtmark doesn't break a line on a new line symbol. It should put br code or make a new paragraph on each new line in the input data. I didn't find that option in TxtMark's settings, but perhaps I missed something. If the option won't be found we can replace single eol symbol to double eol as workaround.</body>
+            <role>DEV</role>
+            <author>Dmitry Zaytsev</author>
+            <email>dmzaytsev@users.noreply.github.com</email>
+            <time>2015-12-18T04:58:54Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue>unknown</issue>
+                <id>888-3f71fb04</id>
+                <ticket>888</ticket>
+                <file>netbout-web/src/main/java/com/netbout/rest/Markdown.java</file>
+                <lines>59-61</lines>
+                <estimate>30</estimate>
+                <body>We should switch to another Markdown processor MarkdownTxtMark and remove the old implementation MarkdownPegdown and its unit tests from the code.</body>
+                <role>IMP</role>
+                <author>Dmitry Zaytsev</author>
+                <email>dmzaytsev@users.noreply.github.com</email>
+                <time>2016-01-14T04:08:52Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/1150" closed="2024-01-04T14:42:54+00:00">1150</issue>
+    <id>750-23d45618</id>
+    <ticket>750</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/TkStart.java</file>
+    <lines>57-59</lines>
+    <estimate>30</estimate>
+    <body>Solve the puzzle for build mysteriously failing for this task citing a NullPointerException (See qulice issue #608 raised for the same) and then remove TkStart.java from qulice exceptions.</body>
+    <role>IMP</role>
+    <author>Prahlad Yeri</author>
+    <email>prahladyeri@yahoo.com</email>
+    <time>2016-01-18T15:36:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/954" closed="2023-12-19T10:22:21+00:00">954</issue>
+    <id>750-65232fbb</id>
+    <ticket>750</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/TkStart.java</file>
+    <lines>60-61</lines>
+    <estimate>30</estimate>
+    <body>Add unit tests to test scenarios for requests with/without a token.</body>
+    <role>IMP</role>
+    <author>Prahlad Yeri</author>
+    <email>prahladyeri@yahoo.com</email>
+    <time>2016-01-18T15:36:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>954-b453159b</id>
+        <ticket>954</ticket>
+        <file>netbout-web/src/test/java/com/netbout/rest/bout/TkStartTest.java</file>
+        <lines>63-65</lines>
+        <estimate>30</estimate>
+        <body>TkStart should not create new bout when same token is specified. When this is fixed, remove @Ignore from handlesTokens test</body>
+        <role>IMP</role>
+        <author>clarence ho</author>
+        <email>clarenceho@gmail.com</email>
+        <time>2016-01-23T21:11:29Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>947-64235763</id>
+    <ticket>947</ticket>
+    <file>netbout-web/src/main/java/com/netbout/rest/account/TkSaveEmail.java</file>
+    <lines>53-55</lines>
+    <estimate>30</estimate>
+    <body>TkSaveEmail shouldn't validate a email when running locally. One idea how to know Netbout running locally or not is checking Version attribute from MANIFEST for substring LOCAL</body>
+    <role>IMP</role>
+    <author>Dmitry Zaytsev</author>
+    <email>dmzaytsev@users.noreply.github.com</email>
+    <time>2016-01-20T13:01:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>911-a1464331</id>
+    <ticket>911</ticket>
+    <file>netbout-client/pom.xml</file>
+    <lines>184-189</lines>
+    <estimate>30</estimate>
+    <body>Fix findbugs errors in client Some issues may not require fixing an should be excluded. Filters in qulice 0.12 are broken, right excludes should be more granular. I think it should be resolved when #961 completed due to broken Findbugs filters in current version of Qulice</body>
+    <role>IMP</role>
+    <author>exper0</author>
+    <email>aeg.exper0@gmail.com</email>
+    <time>2016-01-15T08:57:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>911-20c870d4</id>
+    <ticket>911</ticket>
+    <file>netbout-spi/pom.xml</file>
+    <lines>94-100</lines>
+    <estimate>30</estimate>
+    <body>Fix findbugs errors in SPI classes Friends and Attachemtns Some issues may not require fixing and should be excluded. filters in qulice 0.12 are broken, right excludes should be more granular. I think it should be resolved when #961 completed due to broken Findbugs filters in current version of Qulice</body>
+    <role>IMP</role>
+    <author>exper0</author>
+    <email>aeg.exper0@gmail.com</email>
+    <time>2016-01-15T08:57:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>911-1ad8e6c0</id>
+    <ticket>911</ticket>
+    <file>netbout-web/pom.xml</file>
+    <lines>730-735</lines>
+    <estimate>30</estimate>
+    <body>Fix findbugs errors in web Some issues may not require fixing an should be excluded. Filters in qulice 0.12 are broken, right excludes should be more granular. I think it should be resolved when #961 completed due to broken Findbugs filters in current version of Qulice</body>
+    <role>IMP</role>
+    <author>exper0</author>
+    <email>aeg.exper0@gmail.com</email>
+    <time>2016-01-15T08:57:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>914-ecab4401</id>
+    <ticket>914</ticket>
+    <file>netbout-web/pom.xml</file>
+    <lines>330-339</lines>
+    <estimate>30</estimate>
+    <body>investigate error messages of the following command and change package.json accordingly. The error messages are: [ERROR] npm WARN package.json netbout-web@ No description [ERROR] npm WARN package.json netbout-web@ No repository field. [ERROR] npm WARN package.json netbout-web@ No README data [ERROR] npm WARN package.json netbout-web@ license should be a valid SPDX license expression --&gt;</body>
+    <role>IMP</role>
+    <author>Leo</author>
+    <email>leo@yogaimurlaub.de</email>
+    <time>2016-01-29T11:58:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/1012" closed="2023-12-19T10:22:24+00:00">1012</issue>
+    <id>961-58fc8a23</id>
+    <ticket>961</ticket>
+    <file>netbout-web/pom.xml</file>
+    <lines>747-752</lines>
+    <estimate>30</estimate>
+    <body>These excludes were added during upgrade to qulice 0.15.2. New version of qulice adds new violations that need to be fixed. There are also excludes added to netbout-client/pom.xml (lines 192 - 207) related to this puzzle. They also need to be fixed in order to solve this puzzle.</body>
+    <role>IMP</role>
+    <author>Dan Baleanu</author>
+    <email>dan.baleanu@gmail.com</email>
+    <time>2016-02-12T09:33:59Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/netbout/issues/1151" closed="2024-01-04T14:42:59+00:00">1151</issue>
+        <id>1012-2dfa2c65</id>
+        <ticket>1012</ticket>
+        <file>netbout-client/src/test/java/com/netbout/client/NbRule.java</file>
+        <lines>42-45</lines>
+        <estimate>30</estimate>
+        <body>No public static methods are allowed. This class should be refactored to not contain any of them. The method get() should either be an instance method with refrence to this (to avoid checkstyle NonStaticMethodCheck) or a static but not public.</body>
+        <role>IMP</role>
+        <author>Dan Baleanu</author>
+        <email>dan.baleanu@gmail.com</email>
+        <time>2016-02-29T21:09:54Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>1012-7ae4ec06</id>
+        <ticket>1012</ticket>
+        <file>netbout-web/pom.xml</file>
+        <lines>754-757</lines>
+        <estimate>30</estimate>
+        <body>These excludes were added because of the upgrade to qulice 0.16.2. The new version of qulice adds some javadocs rules and also regexp rules for imported some wrong classes which should be replaced with others.</body>
+        <role>IMP</role>
+        <author>Dan Baleanu</author>
+        <email>dan.baleanu@gmail.com</email>
+        <time>2016-02-18T00:08:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>1012-68768ab8</id>
+        <ticket>1012</ticket>
+        <file>netbout-web/src/main/java/com/netbout/misc/Ports.java</file>
+        <lines>42-44</lines>
+        <estimate>30</estimate>
+        <body>This class should not be left as utility one. All methods became static because of checkstyle NonStaticMethodCheck introduced after qulice upgrade to 0.15.2 and the contructor became private.</body>
+        <role>IMP</role>
+        <author>Dan Baleanu</author>
+        <email>dan.baleanu@gmail.com</email>
+        <time>2016-02-25T20:19:38Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>1013-d9e5eb87</id>
+    <ticket>1013</ticket>
+    <file>netbout-client/pom.xml</file>
+    <lines>193-197</lines>
+    <estimate>30</estimate>
+    <body>Fix findbugs errors in mock. There are issues with classes that use jcabi-aspects annotations and they are causing the false violation positives. This will be resolved when issue teamed/qulice#706 is closed.</body>
+    <role>IMP</role>
+    <author>kujtimiihoxha</author>
+    <email>kujtimii.h@gmail.com</email>
+    <time>2016-02-16T15:07:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/1152" closed="2024-01-04T14:43:03+00:00">1152</issue>
+    <id>1025-adc69076</id>
+    <ticket>1025</ticket>
+    <file>netbout-web/pom.xml</file>
+    <lines>544-547</lines>
+    <estimate>30</estimate>
+    <body>This integration test doesn't work on Mac OSX at all. I tried to run it a few times and every time all tests fail with some sort "timeout" problem. I'm not sure what it is. Let's try to fix and enable it again.</body>
+    <role>IMP</role>
+    <author>Yegor Bugayenko</author>
+    <email>yegor@tpc2.com</email>
+    <time>2016-02-23T00:39:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/1090" closed="2023-12-19T10:22:28+00:00">1090</issue>
+    <id>839-90f22678</id>
+    <ticket>839</ticket>
+    <file>netbout-web/src/main/java/com/netbout/dynamo/DyAttachment.java</file>
+    <lines>166-172</lines>
+    <estimate>30</estimate>
+    <body>An attribute for the creation time must be added to the attachment item in the remote db. Until then, this method crashes. Once it is done, this must be developed: - Remove @Ignore from DyAttachmentITCase.obtainsCreationDate(). - Add directive for date in XeAttachment.make(). - Properly implement RtAttachment.date() to retrieve date from request. - Remove @Ignore from RtAttachmentsITCase.obtainsCreationDate().</body>
+    <role>IMP</role>
+    <author>Carlos Gine&#x301;s</author>
+    <email>efrel@MacBook-Pro-de-Efrel.local</email>
+    <time>2016-03-09T00:20:35Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/netbout/issues/1153" closed="2024-01-04T14:43:08+00:00">1153</issue>
+        <id>1090-b1fba4c1</id>
+        <ticket>1090</ticket>
+        <file>netbout-client/src/main/java/com/netbout/client/RtAttachment.java</file>
+        <lines>53-55</lines>
+        <estimate>30</estimate>
+        <body>There is code duplication in public methods in this class: ctype(), etag(), unseen(), date(), author(), read() and write(). Please refactor to avoid it.</body>
+        <role>IMP</role>
+        <author>Carlos Gine&#x301;s</author>
+        <email>efrel@MacBook-Pro-de-Efrel.local</email>
+        <time>2016-04-04T19:23:48Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/netbout/issues/1154" closed="2024-01-04T14:43:12+00:00">1154</issue>
+        <id>1090-d49470f5</id>
+        <ticket>1090</ticket>
+        <file>netbout-web/src/main/java/com/netbout/dynamo/DyAttachments.java</file>
+        <lines>52-54</lines>
+        <estimate>30</estimate>
+        <body>No public static literals are recommended according to our methodology. This class should be refactored to not contain any of them. See: http://www.yegor256.com/2015/07/06/public-static-literals.html</body>
+        <role>IMP</role>
+        <author>Carlos Gine&#x301;s</author>
+        <email>efrel@MacBook-Pro-de-Efrel.local</email>
+        <time>2016-04-04T19:23:48Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/1155" closed="2024-01-04T14:43:17+00:00">1155</issue>
+    <id>1094-571b0dd7</id>
+    <ticket>1094</ticket>
+    <file>netbout-web/src/main/java/com/netbout/dynamo/DyMessages.java</file>
+    <lines>197-202</lines>
+    <estimate>30</estimate>
+    <body>HttpException seems not really appropriate here in database layer. I think we have to throw something like BoutNotFoundException and process its somewhere in web layer. Pay attention that we should also change a test DyMessagesITCase.exceptionIfBoutNotFound() which tests a presence of HttpException.</body>
+    <role>IMP</role>
+    <author>2686747</author>
+    <email>m.vakhnik.dev@gmail.com</email>
+    <time>2016-03-27T19:29:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/netbout/issues/1156" closed="2024-01-04T14:43:21+00:00">1156</issue>
+    <id>1103-520ca7fd</id>
+    <ticket>1103</ticket>
+    <file>netbout-web/src/main/java/com/netbout/dynamo/DyAttachment.java</file>
+    <lines>168-171</lines>
+    <estimate>30</estimate>
+    <body>please create a proper integration test for both cases when attribute DyAttachments.ATTR_DATE exists before getting, when attribute DyAttachments.ATTR_DATE not exists.</body>
+    <role>DEV</role>
+    <author>Dmitry Zaytsev</author>
+    <email>dmzaytsev@users.noreply.github.com</email>
+    <time>2016-04-06T07:57:41Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

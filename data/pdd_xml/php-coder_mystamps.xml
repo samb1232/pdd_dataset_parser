@@ -1,0 +1,4486 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-12-04T13:27:07+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/716" closed="2017-12-02T21:16:59+00:00">716</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-67b5584b</id>
+    <lines>32-33</lines>
+    <body>series/import/request-logic.robot: submit a form and check the values on the next page</body>
+    <file>src/test/robotframework/series/import/request-logic.robot</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/717" closed="2017-12-02T16:47:27+00:00">717</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-699a0113</id>
+    <lines>145-146</lines>
+    <body>SeriesImportController.showRequestAndImportSeriesForm(): extract a method for adding shared attributes to the model</body>
+    <file>src/main/java/ru/mystamps/web/controller/SeriesImportController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/718" closed="2017-12-02T20:47:40+00:00">718</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-847716e1</id>
+    <lines>183-184</lines>
+    <body>SeriesImportController.processImportSeriesForm(): handle errors from interceptor</body>
+    <file>src/main/java/ru/mystamps/web/controller/SeriesImportController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/719">719</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-64870988</id>
+    <lines>46-46</lines>
+    <body>/series/import/request/{id}(category): add integration test for required field</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/720">720</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-8e67a194</id>
+    <lines>54-54</lines>
+    <body>/series/import/request/{id}(quantity): add integration test for required field</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/721">721</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-fd5f9ae4</id>
+    <lines>55-55</lines>
+    <body>/series/import/request/{id}(quantity): add integration test for min value</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/722">722</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-2eff2f2e</id>
+    <lines>56-56</lines>
+    <body>/series/import/request/{id}(quantity): add integration test for max value</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/723">723</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-51c3200e</id>
+    <lines>62-62</lines>
+    <body>/series/import/request/{id}(perforated): add integration test for required field</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/724">724</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-3f7597a9</id>
+    <lines>67-67</lines>
+    <body>/series/import/request/{id}(imageUrl): add validation for valid url</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/725">725</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-8f32202e</id>
+    <lines>72-72</lines>
+    <body>/series/import/request/{id}(year): add validation for min value</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/726">726</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-fe188622</id>
+    <lines>73-73</lines>
+    <body>/series/import/request/{id}(year): add validation for year in future</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/727">727</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-74ca36a7</id>
+    <lines>80-80</lines>
+    <body>/series/import/request/{id}(imageUrl): add integration test for required field</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/728">728</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-6a277942</id>
+    <lines>81-81</lines>
+    <body>/series/import/request/{id}(imageUrl): add validation for non-empty file</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/729">729</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-ffbd8602</id>
+    <lines>82-82</lines>
+    <body>/series/import/request/{id}(imageUrl): add validation for file size</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/730">730</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-7b960d82</id>
+    <lines>83-83</lines>
+    <body>/series/import/request/{id}(imageUrl): add validation for file type</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/731" closed="2017-12-02T17:08:21+00:00">731</issue>
+    <ticket>709</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>709-2a94fc1c</id>
+    <lines>287-288</lines>
+    <body>RowMappers.forParsedDataDto(): extract method for constructing LinkEntityDto</body>
+    <file>src/main/java/ru/mystamps/web/dao/impl/RowMappers.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-24T16:27:27Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/732" closed="2017-12-02T20:11:53+00:00">732</issue>
+        <ticket>731</ticket>
+        <estimate>15</estimate>
+        <role>IMP</role>
+        <id>731-9ed58cdf</id>
+        <lines>60-60</lines>
+        <body>Use createLinkEntityDto() for category and country</body>
+        <file>src/main/java/ru/mystamps/web/dao/impl/RowMappers.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2017-12-02T17:07:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/734" closed="2017-12-14T22:30:26+00:00">734</issue>
+    <ticket>700</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>700-861067bd</id>
+    <lines>85-85</lines>
+    <body>SeriesImportServiceImpl.addSeries(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-02T21:49:26Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/757">757</issue>
+        <ticket>734</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>734-10236b8a</id>
+        <lines>222-222</lines>
+        <body>TestObjects.createAddSeriesDto(): return randomized values</body>
+        <file>src/test/java/ru/mystamps/web/service/TestObjects.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2017-12-14T22:29:34Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/735" closed="2017-12-14T15:58:47+00:00">735</issue>
+    <ticket>700</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>700-3a29b76a</id>
+    <lines>94-96</lines>
+    <body>Reduce number of SQL queries by one. Here we're updating series_import_requests twice: when we set series_id field and later when we change status_id. It's possible to do this in one-shot</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-02T22:34:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/756" closed="2019-02-17T20:54:07+00:00">756</issue>
+        <ticket>735</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>735-e04ad077</id>
+        <lines>99-99</lines>
+        <body>SeriesImportDao.setSeriesIdAndChangeStatus(): replace arguments by dto object</body>
+        <file>src/main/java/ru/mystamps/web/dao/impl/JdbcSeriesImportDao.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2017-12-14T15:57:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/736" closed="2017-12-04T21:30:42+00:00">736</issue>
+    <ticket>700</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>700-4fadb585</id>
+    <lines>46-46</lines>
+    <body>/series/import/request/{id}: link to imported series should not use fixed domain</body>
+    <file>src/test/robotframework/series/import/request-logic.robot</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-02T22:34:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/737" closed="2017-12-18T21:41:13+00:00">737</issue>
+    <ticket>548</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>548-b1a11750</id>
+    <lines>207-207</lines>
+    <body>Introduce name generator for top categories</body>
+    <file>src/test/java/ru/mystamps/web/service/TestObjects.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-11-30T21:49:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/738" closed="2018-07-18T15:43:18+00:00">738</issue>
+    <ticket>702</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>702-afcf43b4</id>
+    <lines>214-214</lines>
+    <body>TestObjects: introduce name generator for transaction participant groups</body>
+    <file>src/test/java/ru/mystamps/web/service/TestObjects.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-03T16:51:39Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/926">926</issue>
+        <ticket>738</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>738-13880c1a</id>
+        <lines>152-153</lines>
+        <body>Random.participantGroupName(): make the generated names conform to the validation rules (when they will appear)</body>
+        <file>src/test/java/ru/mystamps/web/tests/Random.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-07-18T14:49:53Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/739">739</issue>
+    <ticket>705</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>705-eb60edc9</id>
+    <lines>64-64</lines>
+    <body>remote-backup.sh: find a way to protect duplicity against ps</body>
+    <file>vagrant/provisioning/roles/mystamps-backup/tasks/main.yml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-03T22:19:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/740">740</issue>
+    <ticket>592</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>592-8fadbb56</id>
+    <lines>37-37</lines>
+    <body>GroupByParent: add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/support/thymeleaf/GroupByParent.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-03T23:18:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/741" closed="2017-12-18T21:27:35+00:00">741</issue>
+    <ticket>592</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>592-5d60e398</id>
+    <lines>41-41</lines>
+    <body>GroupByParent.transformParticipants(): introduce unified class for representing entity with parent</body>
+    <file>src/main/java/ru/mystamps/web/support/thymeleaf/GroupByParent.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-03T23:18:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/742" closed="2017-12-18T21:49:58+00:00">742</issue>
+    <ticket>592</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>592-dae46777</id>
+    <lines>42-42</lines>
+    <body>GroupByParent: merge transformCategories() and transformParticipants() methods</body>
+    <file>src/main/java/ru/mystamps/web/support/thymeleaf/GroupByParent.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-03T23:18:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/743" closed="2017-12-04T18:42:24+00:00">743</issue>
+    <ticket>592</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>592-8340ecef</id>
+    <lines>80-80</lines>
+    <body>GroupByParent.transformCategories(): replace FirstLevelCategoryDto by SelectItem</body>
+    <file>src/main/java/ru/mystamps/web/support/thymeleaf/GroupByParent.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-03T23:18:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/744" closed="2017-12-18T21:41:14+00:00">744</issue>
+    <ticket>592</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>592-de8dde0b</id>
+    <lines>81-81</lines>
+    <body>GroupByParent.transformCategories(): use unified class that represents entity with parent</body>
+    <file>src/main/java/ru/mystamps/web/support/thymeleaf/GroupByParent.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-03T23:18:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/745">745</issue>
+    <ticket>687</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>687-c6d33b89</id>
+    <lines>50-50</lines>
+    <body>replace set of strings by enum</body>
+    <file>src/main/java/ru/mystamps/web/Db.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-04T22:11:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/746">746</issue>
+    <ticket>687</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>687-994e661c</id>
+    <lines>43-43</lines>
+    <body>Random.STATUSES: reduce duplication by using EnumSet.allOf()</body>
+    <file>src/test/java/ru/mystamps/web/tests/Random.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-04T22:11:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/748">748</issue>
+    <ticket>684</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>684-b075a77e</id>
+    <lines>182-183</lines>
+    <body>Series import: add integration test for the case when parsed value don't match database</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-04T23:06:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/752" closed="2017-12-08T19:01:20+00:00">752</issue>
+    <ticket>685</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>685-57c40eaf</id>
+    <lines>37-37</lines>
+    <body>SiteParserTest: introduce a method for generating random valid locator</body>
+    <file>src/test/java/ru/mystamps/web/util/extractor/SiteParserTest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-07T22:02:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/753" closed="2018-12-17T20:44:20+00:00">753</issue>
+    <ticket>685</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>685-9ce4fe77</id>
+    <lines>48-48</lines>
+    <body>SiteParserTest: introduce a method for generating random valid field name</body>
+    <file>src/test/java/ru/mystamps/web/util/extractor/SiteParserTest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-07T22:02:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/754" closed="2017-12-08T19:01:20+00:00">754</issue>
+    <ticket>685</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>685-ddec6d97</id>
+    <lines>95-95</lines>
+    <body>SiteParserTest: introduce a method for generating random string of arbitrary length</body>
+    <file>src/test/java/ru/mystamps/web/util/extractor/SiteParserTest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-07T22:02:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/760">760</issue>
+    <ticket>109</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>109-a721e051</id>
+    <lines>176-176</lines>
+    <body>Check src/main/config/nginx/503.*html by html5validator</body>
+    <file>src/main/scripts/ci/check-build-and-verify.sh</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-17T22:38:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/761" closed="2022-12-04T13:27:00+00:00">761</issue>
+    <ticket>536</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>536-9dc7e60f</id>
+    <lines>555-555</lines>
+    <body>Danger: highlight a failed spock test</body>
+    <file>Dangerfile</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-18T17:32:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/762">762</issue>
+    <ticket>749</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>749-2a40850f</id>
+    <lines>42-42</lines>
+    <body>/series/{id}: add integration test that import info is only visible to admin</body>
+    <file>src/test/robotframework/series/import/request-logic.robot</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-18T18:48:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/763" closed="2017-12-18T20:52:43+00:00">763</issue>
+    <ticket>749</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>749-ed75e310</id>
+    <lines>205-205</lines>
+    <body>SeriesImportServiceImpl.findRequestInfo(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-18T18:48:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/764" closed="2017-12-20T18:35:11+00:00">764</issue>
+    <ticket>692</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>692-5cbccdf5</id>
+    <lines>215-215</lines>
+    <body>SeriesImportServiceImpl.findAll(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-19T22:39:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/773">773</issue>
+    <ticket>769</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>769-4310f3c0</id>
+    <lines>83-83</lines>
+    <body>Random.price(): return randomized values</body>
+    <file>src/test/java/ru/mystamps/web/tests/Random.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-22T16:10:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/774">774</issue>
+    <ticket>770</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>770-3251a080</id>
+    <lines>134-135</lines>
+    <body>/series/add: validate that Solovyov numbers are specified only for stamps from USSR/Russia</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-22T16:10:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/775">775</issue>
+    <ticket>769</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>769-d2cdc518</id>
+    <lines>142-143</lines>
+    <body>/series/add: validate that Zagorski numbers are specified only for stamps from USSR/Russia</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-22T16:10:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/776" closed="2018-01-06T00:32:15+00:00">776</issue>
+    <ticket>769</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>769-9c37cac2</id>
+    <lines>460-460</lines>
+    <body>Support search by Zagorski number</body>
+    <file>src/main/java/ru/mystamps/web/controller/SeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-22T16:10:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/809" closed="2019-07-19T19:47:19+00:00">809</issue>
+        <ticket>776</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>776-0a9a2e43</id>
+        <lines>460-460</lines>
+        <body>Add integration tests for search series by Zagorski number</body>
+        <file>src/main/java/ru/mystamps/web/controller/SeriesController.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-01-06T00:08:02Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/810" closed="2018-02-08T16:29:38+00:00">810</issue>
+        <ticket>776</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>776-fee825b6</id>
+        <lines>281-281</lines>
+        <body>SeriesServiceImpl.findByZagorskiNumber(): add unit tests</body>
+        <file>src/main/java/ru/mystamps/web/service/SeriesServiceImpl.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-01-06T00:08:02Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/777" closed="2018-01-06T00:32:16+00:00">777</issue>
+    <ticket>770</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>770-c8c03da2</id>
+    <lines>461-461</lines>
+    <body>Support search by Solovyov number</body>
+    <file>src/main/java/ru/mystamps/web/controller/SeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2017-12-22T16:10:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/817" closed="2019-07-19T19:47:20+00:00">817</issue>
+        <ticket>777</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>777-90f97a5a</id>
+        <lines>461-461</lines>
+        <body>Add integration tests for search series by Solovyov number</body>
+        <file>src/main/java/ru/mystamps/web/controller/SeriesController.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-01-06T00:08:02Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/818" closed="2018-02-08T16:29:38+00:00">818</issue>
+        <ticket>777</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>777-15085030</id>
+        <lines>274-274</lines>
+        <body>SeriesServiceImpl.findBySolovyovNumber(): add unit tests</body>
+        <file>src/main/java/ru/mystamps/web/service/SeriesServiceImpl.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-01-06T00:08:02Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/788" closed="2018-02-11T23:45:23+00:00">788</issue>
+    <ticket>781</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>781-abbbcf4f</id>
+    <lines>152-152</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractQuantity(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-01T23:05:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/789" closed="2018-07-17T06:37:32+00:00">789</issue>
+    <ticket>781</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>781-17e9f237</id>
+    <lines>153-153</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractQuantity() respect MAX_STAMPS_IN_SERIES</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-01T23:05:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/794" closed="2018-02-11T23:59:18+00:00">794</issue>
+    <ticket>782</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>782-8cc14ad1</id>
+    <lines>174-174</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractPerforated(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-01T23:08:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/795">795</issue>
+    <ticket>782</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>782-a11927bd</id>
+    <lines>175-175</lines>
+    <body>Series import: add integration test for extracting perforation flag</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-01T23:08:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/796" closed="2018-01-02T23:45:52+00:00">796</issue>
+    <ticket>782</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>782-0f02d25e</id>
+    <lines>230-230</lines>
+    <body>SiteParser: reduce duplication between extractQuantity() and extractPerforated()</body>
+    <file>src/main/java/ru/mystamps/web/util/extractor/SiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-01T23:08:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/800">800</issue>
+    <ticket>665</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>665-32370c4c</id>
+    <lines>34-34</lines>
+    <body>TimedDownloaderService: add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/TimedDownloaderService.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-02T21:56:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/804" closed="2018-12-17T20:44:21+00:00">804</issue>
+    <ticket>801</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>801-71f4f89c</id>
+    <lines>148-149</lines>
+    <body>EventsConfig.createSiteParsers(): split the logic for properties parsing and the object instantiation</body>
+    <file>src/main/java/ru/mystamps/web/config/EventsConfig.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-02T22:44:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/805">805</issue>
+    <ticket>801</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>801-b1837c29</id>
+    <lines>27-27</lines>
+    <body>TimedSiteParser: add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/util/extractor/TimedSiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-02T22:44:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/807">807</issue>
+    <ticket>803</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>803-64628226</id>
+    <lines>56-56</lines>
+    <body>SeriesInfoExtractorServiceImpl.extract(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-05T00:53:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/808" closed="2018-02-08T22:07:50+00:00">808</issue>
+    <ticket>802</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>802-01310361</id>
+    <lines>29-29</lines>
+    <body>TimedSeriesInfoExtractorService: add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/TimedSeriesInfoExtractorService.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-05T01:53:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/822" closed="2018-10-18T20:47:02+00:00">822</issue>
+    <ticket>821</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>821-87f36dcd</id>
+    <lines>108-108</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractCategory(): add unit tests for filtering invalid names</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-19T23:19:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/823" closed="2018-10-18T20:47:03+00:00">823</issue>
+    <ticket>821</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>821-af9174a6</id>
+    <lines>148-148</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractCountry(): add unit tests for filtering invalid names</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-19T23:19:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/824" closed="2019-04-19T19:22:45+00:00">824</issue>
+    <ticket>819</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>819-c3bee1df</id>
+    <lines>85-85</lines>
+    <body>CategoryServiceImpl.findIdsByNames(): add unit test for converting to lower case</body>
+    <file>src/main/java/ru/mystamps/web/service/CategoryServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-20T00:41:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/825">825</issue>
+    <ticket>819</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>819-38c578c8</id>
+    <lines>103-103</lines>
+    <body>CategoryServiceImpl.findIdsWhenNameStartsWith(): add unit test for converting to lower case</body>
+    <file>src/main/java/ru/mystamps/web/service/CategoryServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-20T00:41:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/826" closed="2019-04-19T19:22:46+00:00">826</issue>
+    <ticket>819</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>819-5c89f089</id>
+    <lines>85-85</lines>
+    <body>CountryServiceImpl.findIdsByNames(): add unit test for converting to lower case</body>
+    <file>src/main/java/ru/mystamps/web/service/CountryServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-20T00:41:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/827">827</issue>
+    <ticket>819</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>819-04650c42</id>
+    <lines>103-103</lines>
+    <body>CountryServiceImpl.findIdsWhenNameStartsWith(): add unit test for converting to lower case</body>
+    <file>src/main/java/ru/mystamps/web/service/CountryServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-20T00:41:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/833" closed="2018-02-05T19:07:58+00:00">833</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-e2e6119d</id>
+    <lines>81-81</lines>
+    <body>TransactionParticipantServiceImpl.findSellerId(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/TransactionParticipantServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/834" closed="2018-02-07T22:14:01+00:00">834</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-ebcd7a3c</id>
+    <lines>38-38</lines>
+    <body>SeriesSalesImportServiceImpl.saveParsedData(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesSalesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/849">849</issue>
+        <ticket>834</ticket>
+        <estimate>0</estimate>
+        <role>IMP</role>
+        <id>834-3f317328</id>
+        <lines>38-38</lines>
+        <body>SeriesSalesImportServiceImpl.saveParsedData(): introduce dto without dates</body>
+        <file>src/main/java/ru/mystamps/web/service/SeriesSalesImportServiceImpl.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-02-07T22:13:25Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/835" closed="2018-02-07T22:45:20+00:00">835</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-1c3c9a16</id>
+    <lines>48-48</lines>
+    <body>SeriesSalesImportServiceImpl.getParsedData(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesSalesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/836" closed="2018-02-06T09:39:02+00:00">836</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-5aa64697</id>
+    <lines>243-243</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSeller(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-acc3d320</id>
+    <lines>249-249</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSeller(): validate name/url (length etc)</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/838" closed="2018-02-06T09:26:23+00:00">838</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-f795cc19</id>
+    <lines>264-264</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractPrice(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/839">839</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-30836e69</id>
+    <lines>275-275</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractPrice(): filter out values &lt;= 0</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/840" closed="2018-02-06T09:14:28+00:00">840</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-13b4e41f</id>
+    <lines>284-284</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractCurrency(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/841">841</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-6636bb5e</id>
+    <lines>213-213</lines>
+    <body>Remove hasAtLeastOneFieldFilled() methods from DTOs</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/842" closed="2018-12-17T20:44:23+00:00">842</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-707db4aa</id>
+    <lines>108-108</lines>
+    <body>Series import: validate app.site-parser[x].currency-value</body>
+    <file>src/main/java/ru/mystamps/web/util/extractor/JsoupSiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/843" closed="2018-02-03T17:50:09+00:00">843</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-9d87f014</id>
+    <lines>259-259</lines>
+    <body>JsoupSiteParser.extractSellerUrl(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/util/extractor/JsoupSiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/844" closed="2018-02-03T17:33:59+00:00">844</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-b2e68f40</id>
+    <lines>285-285</lines>
+    <body>JsoupSiteParser.extractCurrency(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/util/extractor/JsoupSiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/846">846</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-0c97d8b1</id>
+    <lines>33-34</lines>
+    <body>/series/import/request/{id}(seriesSale): add integration test for validation of required fields</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesSalesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/847">847</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-eb735e9f</id>
+    <lines>175-175</lines>
+    <body>/series/import/request/{id}: use divs instead of table for elements aligning</body>
+    <file>src/main/scripts/ci/check-build-and-verify.sh</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/848" closed="2018-02-03T17:56:48+00:00">848</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>IMP</role>
+    <id>695-4d21cc82</id>
+    <lines>423-423</lines>
+    <body>Introduce and use RawParsedDataDto.withImageUrl() method</body>
+    <file>src/test/groovy/ru/mystamps/web/service/SeriesImportServiceImplTest.groovy</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-01-04T00:37:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/851" closed="2020-02-20T22:47:16+00:00">851</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-24ec0e9e</id>
+    <lines>29-29</lines>
+    <body>/series/import/request/{id}(seller.name): trim empty values to null</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSellerForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/852">852</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-7d753493</id>
+    <lines>30-30</lines>
+    <body>/series/import/request/{id}(seller.name): add validation against short values</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSellerForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/853">853</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-3605c681</id>
+    <lines>31-31</lines>
+    <body>/series/import/request/{id}(seller.name): add validation against long values</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSellerForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/854" closed="2020-02-20T22:47:20+00:00">854</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-d7a72e2c</id>
+    <lines>34-34</lines>
+    <body>/series/import/request/{id}(seller.url): trim empty values to null</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSellerForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/855">855</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-f2940c60</id>
+    <lines>35-35</lines>
+    <body>/series/import/request/{id}(seller.url): add validation for valid url</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSellerForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/856">856</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-3e442dbc</id>
+    <lines>36-36</lines>
+    <body>/series/import/request/{id}(seller.url): add validation against long values</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSellerForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/859">859</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-18c5a29c</id>
+    <lines>33-33</lines>
+    <body>/series/import/request/{id}: seller's name and url are required when sellerId is empty</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesSalesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/860" closed="2018-07-16T20:33:22+00:00">860</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-0fdf56a1</id>
+    <lines>265-265</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSellerName(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/861">861</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-ee1c9a1a</id>
+    <lines>271-271</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSellerName(): filter out short names</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/863">863</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-b081f579</id>
+    <lines>272-272</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSellerName(): filter out long names</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/864" closed="2018-07-16T20:33:23+00:00">864</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-2a031cd8</id>
+    <lines>278-278</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSellerUrl(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/865">865</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-1c6fc247</id>
+    <lines>284-284</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSellerUrl(): filter out non-urls</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/866">866</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-c38ae205</id>
+    <lines>285-285</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSellerUrl(): filter out too long urls</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/867">867</issue>
+    <ticket>695</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>695-c3acafce</id>
+    <lines>34-34</lines>
+    <body>SeriesImportService.addSeries(): introduce DTO object</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportService.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-02-08T12:47:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/872">872</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-6f081e18</id>
+    <lines>30-30</lines>
+    <body>Add to collection: integration test for invisible quantity for a series with 1 stamp</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/873" closed="2019-11-02T15:41:48+00:00">873</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-128af1e6</id>
+    <lines>31-31</lines>
+    <body>Add to collection: series quantity should be specified by default</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/874" closed="2019-11-02T16:19:59+00:00">874</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-f35c9a3b</id>
+    <lines>32-32</lines>
+    <body>Add to collection: add integration test for custom number of stamps</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/875" closed="2018-06-17T15:33:27+00:00">875</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-bd68bfde</id>
+    <lines>37-37</lines>
+    <body>/series/{id}(quantity): add validation for max value</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/887" closed="2018-06-18T09:28:23+00:00">887</issue>
+        <ticket>875</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>875-9053e710</id>
+        <lines>220-220</lines>
+        <body>SeriesService.findQuantityById(): add unit tests</body>
+        <file>src/main/java/ru/mystamps/web/service/SeriesServiceImpl.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-17T15:26:49Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/876" closed="2018-06-14T16:32:22+00:00">876</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-14514f72</id>
+    <lines>38-38</lines>
+    <body>/series/{id}(quantity): add integration test for required field</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/877" closed="2018-06-14T16:32:23+00:00">877</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-35df52c5</id>
+    <lines>39-39</lines>
+    <body>/series/{id}(quantity): add integration test for min value</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/878" closed="2018-07-18T15:43:19+00:00">878</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-49c1b317</id>
+    <lines>39-39</lines>
+    <body>SeriesService.countStampsOf(): rename to CollectionService.countStampsOf()</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesService.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/879" closed="2018-07-18T15:43:20+00:00">879</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-71df5fd9</id>
+    <lines>56-57</lines>
+    <body>SeriesService.findByCollectionId(): rename to CollectionService.findSeriesInCollection()</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesService.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/880" closed="2018-06-14T17:05:28+00:00">880</issue>
+    <ticket>477</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>477-070e66a6</id>
+    <lines>69-69</lines>
+    <body>CollectionService.addToCollection(): introduce DTO object</body>
+    <file>src/main/java/ru/mystamps/web/service/CollectionServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-13T20:45:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/882" closed="2018-06-14T17:30:51+00:00">882</issue>
+        <ticket>880</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>880-38b74676</id>
+        <lines>167-167</lines>
+        <body>JdbcCollectionDao.addSeriesToUserCollection(): introduce DTO object</body>
+        <file>src/main/java/ru/mystamps/web/dao/impl/JdbcCollectionDao.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-14T17:04:31Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/883">883</issue>
+    <ticket>663</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>663-2b32ef86</id>
+    <lines>36-36</lines>
+    <body>Add to collection: add integration test for specifying a price</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-15T18:58:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/884" closed="2018-06-21T13:06:20+00:00">884</issue>
+    <ticket>663</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>663-40b26c9b</id>
+    <lines>37-37</lines>
+    <body>Add a page with a list of series, their prices and total cost</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-15T18:58:47Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/888" closed="2018-06-21T14:01:10+00:00">888</issue>
+        <ticket>884</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>884-03637f5c</id>
+        <lines>119-119</lines>
+        <body>/collection/{slug}/estimation: optimize summing of prices</body>
+        <file>src/main/webapp/WEB-INF/views/collection/estimation.html</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-20T08:20:29Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/889" closed="2019-06-15T16:12:24+00:00">889</issue>
+        <ticket>884</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>884-61920ac4</id>
+        <lines>92-92</lines>
+        <body>/collection/{slug}/estimation: only owner should have access to estimation page</body>
+        <file>src/main/java/ru/mystamps/web/support/spring/security/SecurityConfig.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-20T08:20:29Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/890" closed="2018-07-19T07:50:54+00:00">890</issue>
+        <ticket>884</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>884-3ace684f</id>
+        <lines>154-154</lines>
+        <body>CollectionService.findSeriesWithPricesBySlug(): add unit tests</body>
+        <file>src/main/java/ru/mystamps/web/service/CollectionServiceImpl.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-20T08:20:29Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/891" closed="2018-06-23T21:00:38+00:00">891</issue>
+        <ticket>884</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>884-92b5859d</id>
+        <lines>155-155</lines>
+        <body>CollectionService.findSeriesWithPricesBySlug(): restrict access by only an owner</body>
+        <file>src/main/java/ru/mystamps/web/service/CollectionServiceImpl.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-20T08:20:29Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/892" closed="2019-05-27T20:09:57+00:00">892</issue>
+        <ticket>884</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>884-b55a3454</id>
+        <lines>57-57</lines>
+        <body>/collection/{slug}: add a link to collection estimation page</body>
+        <file>src/main/java/ru/mystamps/web/controller/CollectionController.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-20T08:20:29Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/php-coder/mystamps/issues/1024">1024</issue>
+            <ticket>892</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>892-9e92b338</id>
+            <lines>101-101</lines>
+            <body>Add integration tests for showing a link to collection estimation page</body>
+            <file>src/main/webapp/WEB-INF/views/collection/info.html</file>
+            <author>Slava Semushin</author>
+            <email>slava.semushin@gmail.com</email>
+            <time>2019-05-27T20:08:08Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/893" closed="2019-09-02T18:52:23+00:00">893</issue>
+        <ticket>884</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>884-d2a3ddba</id>
+        <lines>107-107</lines>
+        <body>Add integration tests for collection estimation page</body>
+        <file>src/main/java/ru/mystamps/web/controller/CollectionController.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-20T08:20:29Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/894" closed="2019-01-12T11:54:40+00:00">894</issue>
+        <ticket>884</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>884-898a9e3d</id>
+        <lines>118-118</lines>
+        <body>/collection/{slug}/estimation: optimize summing of prices */--&gt;</body>
+        <file>src/main/webapp/WEB-INF/views/collection/estimation.html</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2018-06-21T13:59:06Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/885">885</issue>
+    <ticket>663</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>663-8bbd6c00</id>
+    <lines>47-47</lines>
+    <body>/series/{id}(price): must be greater than zero</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-15T18:58:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/886" closed="2021-01-02T06:22:58+00:00">886</issue>
+    <ticket>663</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>663-4e951c08</id>
+    <lines>50-50</lines>
+    <body>/series/{id}(currency): must be required when price is specified</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/AddToCollectionForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-06-15T18:58:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/897" closed="2019-02-13T19:14:31+00:00">897</issue>
+    <ticket>660</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>660-d185398d</id>
+    <lines>134-134</lines>
+    <body>JdbcSeriesImportDao.changeStatus(): introduce dao</body>
+    <file>src/main/java/ru/mystamps/web/dao/impl/JdbcSeriesImportDao.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-05T13:23:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/898">898</issue>
+    <ticket>660</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>660-32942e08</id>
+    <lines>166-166</lines>
+    <body>JdbcSeriesImportDao.addRawContent(): introduce dao</body>
+    <file>src/main/java/ru/mystamps/web/dao/impl/JdbcSeriesImportDao.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-05T13:23:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/902">902</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-2b8246eb</id>
+    <lines>206-206</lines>
+    <body>SeriesImportServiceImpl.saveParsedData(): add unit tests for michel numbers</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/903" closed="2018-07-16T20:09:18+00:00">903</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-cae8cc62</id>
+    <lines>266-266</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractMichelNumbers(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/904">904</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-5ff627a7</id>
+    <lines>267-267</lines>
+    <body>SeriesInfoExtractorServiceImpl: support for a single Michel number</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/905">905</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-d39599f4</id>
+    <lines>268-268</lines>
+    <body>SeriesInfoExtractorServiceImpl: support for a comma separated Michel numbers</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/906">906</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-6574cec0</id>
+    <lines>33-33</lines>
+    <body>ExpandCatalogNumbersEditor: add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/controller/editor/ExpandCatalogNumbersEditor.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/907">907</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-d3adec03</id>
+    <lines>53-53</lines>
+    <body>ExpandCatalogNumbersEditor: find a better way of editors composition</body>
+    <file>src/main/java/ru/mystamps/web/controller/editor/ExpandCatalogNumbersEditor.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/908">908</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-993ff349</id>
+    <lines>59-60</lines>
+    <body>/series/import/request/{id}: add integration test for trimming of michel numbers</body>
+    <file>src/main/java/ru/mystamps/web/controller/editor/ExpandCatalogNumbersEditor.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/909">909</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-35aab30a</id>
+    <lines>61-61</lines>
+    <body>CatalogUtils: consider introducing toLongForm(String) method</body>
+    <file>src/main/java/ru/mystamps/web/controller/editor/ExpandCatalogNumbersEditor.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/910">910</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-8e1ac4c4</id>
+    <lines>89-89</lines>
+    <body>Import series: add support for Scott catalog numbers</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/911">911</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-424e441b</id>
+    <lines>90-90</lines>
+    <body>Import series: add support for Yvert catalog numbers</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/912">912</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-d360b036</id>
+    <lines>91-91</lines>
+    <body>Import series: add support for Gibbons catalog numbers</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/913">913</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-18bba425</id>
+    <lines>92-92</lines>
+    <body>Import series: add support for Zagorski catalog numbers</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/914">914</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-f7d3a238</id>
+    <lines>93-93</lines>
+    <body>Import series: add support for Solovyov catalog numbers</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/915">915</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-b7a345ad</id>
+    <lines>94-94</lines>
+    <body>/series/import/request/{id}(michelNumbers): add integration test for validation</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/916">916</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-5e76eadc</id>
+    <lines>61-61</lines>
+    <body>CatalogUtils.toShortForm(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/util/CatalogUtils.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/917">917</issue>
+    <ticket>694</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>694-d17b3e39</id>
+    <lines>250-250</lines>
+    <body>Support for a separate locator for a field with michel numbers</body>
+    <file>src/main/java/ru/mystamps/web/util/extractor/JsoupSiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-08T06:02:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/918">918</issue>
+    <ticket>857</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>857-34fbb536</id>
+    <lines>39-39</lines>
+    <body>/series/import/request/{id}(seller.group): add validation against negative values</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSellerForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-15T14:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/919">919</issue>
+    <ticket>857</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>857-aa59724c</id>
+    <lines>40-40</lines>
+    <body>/series/import/request/{id}(seller.group): add validation for existing group</body>
+    <file>src/main/java/ru/mystamps/web/controller/dto/ImportSellerForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-15T14:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/920" closed="2018-10-16T21:02:26+00:00">920</issue>
+    <ticket>857</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>857-16517a02</id>
+    <lines>318-318</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSellerGroup(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-15T14:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/921" closed="2018-07-18T15:43:21+00:00">921</issue>
+    <ticket>857</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>857-cbb24247</id>
+    <lines>99-99</lines>
+    <body>TransactionParticipantServiceImpl.findGroupIdByName(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/service/TransactionParticipantServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-15T14:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/922">922</issue>
+    <ticket>857</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>857-83098214</id>
+    <lines>100-100</lines>
+    <body>TransactionParticipantServiceImpl.findGroupIdByName(): move to a separate service</body>
+    <file>src/main/java/ru/mystamps/web/service/TransactionParticipantServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-15T14:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/923">923</issue>
+    <ticket>857</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>857-a6f9cdd0</id>
+    <lines>219-219</lines>
+    <body>SeriesImportServiceImpl.saveParsedData(): add unit test for seller group</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-15T14:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/924">924</issue>
+    <ticket>857</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>857-719bea28</id>
+    <lines>134-134</lines>
+    <body>Check that a just created seller belongs to the "example.com" group</body>
+    <file>src/test/robotframework/series/import/request-logic.robot</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-15T14:14:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/930">930</issue>
+    <ticket>493</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>493-62b014f2</id>
+    <lines>58-58</lines>
+    <body>AddCategoryDbDto: port to a new datetime API --&gt;</body>
+    <file>src/main/config/findbugs-filter.xml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-19T14:08:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/931">931</issue>
+    <ticket>493</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>493-278bfc9b</id>
+    <lines>69-69</lines>
+    <body>AddCountryDbDto: port to a new datetime API --&gt;</body>
+    <file>src/main/config/findbugs-filter.xml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-19T20:18:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/932" closed="2018-09-11T22:07:55+00:00">932</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-e88d3d70</id>
+    <lines>38-38</lines>
+    <body>SeriesService.countSeriesOf(): move to CollectionService</body>
+    <file>src/main/java/ru/mystamps/web/service/SeriesService.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-24T11:07:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/933">933</issue>
+    <ticket>493</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>493-632130de</id>
+    <lines>80-80</lines>
+    <body>AddCollectionDbDto: port to a new datetime API --&gt;</body>
+    <file>src/main/config/findbugs-filter.xml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-07-28T14:03:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/972">972</issue>
+    <ticket>671</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>671-aade0c20</id>
+    <lines>116-116</lines>
+    <body>/series/add: add integration test to check that Scott numbers may contain letters</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-01T21:46:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/973">973</issue>
+    <ticket>671</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>671-e8c4f51d</id>
+    <lines>117-117</lines>
+    <body>/series/add: add integration test for Scott numbers error message</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-01T21:46:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/974">974</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-9e515adc</id>
+    <lines>94-94</lines>
+    <body>Extract logic to a separate method or add to SeriesImportService.addRequest()</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/SeriesImportController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-02T15:59:52Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/982">982</issue>
+    <ticket>975</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>975-e76660de</id>
+    <lines>62-62</lines>
+    <body>SiteParserServiceImpl.findForUrl(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/extractor/SiteParserServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-05T22:17:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/983">983</issue>
+    <ticket>975</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>975-c9aec551</id>
+    <lines>68-68</lines>
+    <body>SiteParserServiceImpl: add unit tests for constructor</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/extractor/JsoupSiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-15T18:17:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/984">984</issue>
+    <ticket>975</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>975-d6c13208</id>
+    <lines>84-84</lines>
+    <body>SiteParserServiceImpl.findParserNames(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/extractor/SiteParserServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-15T21:41:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/987">987</issue>
+    <ticket>517</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>517-d58933f7</id>
+    <lines>208-208</lines>
+    <body>Add integration tests for category suggestion</body>
+    <file>src/main/java/ru/mystamps/web/feature/category/CategoryServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-19T19:56:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/988">988</issue>
+    <ticket>517</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>517-49fc5900</id>
+    <lines>226-226</lines>
+    <body>CategoryService.suggestCategoryForUser(): suggest a last created category</body>
+    <file>src/main/java/ru/mystamps/web/feature/category/CategoryServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-19T19:56:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/989">989</issue>
+    <ticket>517</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>517-385bf5f0</id>
+    <lines>227-227</lines>
+    <body>CategoryService.suggestCategoryForUser(): suggest the most popular category</body>
+    <file>src/main/java/ru/mystamps/web/feature/category/CategoryServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-19T19:56:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/992" closed="2019-02-13T21:50:21+00:00">992</issue>
+    <ticket>967</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>967-fc8fe59e</id>
+    <lines>295-295</lines>
+    <body>SeriesServiceImpl.findSimilarSeries(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-23T22:22:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/993" closed="2019-01-12T11:54:42+00:00">993</issue>
+    <ticket>967</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>967-57830854</id>
+    <lines>342-342</lines>
+    <body>Add integration tests for showing similar series */--&gt;</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2018-12-23T22:22:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/996" closed="2019-09-02T18:52:24+00:00">996</issue>
+    <ticket>967</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>967-8622ce19</id>
+    <lines>342-342</lines>
+    <body>Add integration tests for showing similar series</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-01-12T11:42:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/997">997</issue>
+    <ticket>978</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>978-63d2b8ea</id>
+    <lines>308-308</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractSeller(): validate name</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-01-12T11:42:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/998" closed="2019-11-24T17:19:02+00:00">998</issue>
+    <ticket>399</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>399-f88baadc</id>
+    <lines>3-3</lines>
+    <body>mystamps-app: use systemd module</body>
+    <file>vagrant/provisioning/roles/mystamps-app/handlers/main.yml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-01-12T11:42:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/999">999</issue>
+    <ticket>971</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>971-32d95143</id>
+    <lines>787-787</lines>
+    <body>Document ErrorProne tool --&gt;</body>
+    <file>pom.xml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-01-16T22:27:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1008" closed="2019-05-25T19:32:55+00:00">1008</issue>
+    <ticket>503</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>503-cf5c445e</id>
+    <lines>35-35</lines>
+    <body>Add integration test to ensure that seller and buyer are different</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/sale/AddSeriesSalesForm.java</file>
+    <author>KrivenkoAlexander</author>
+    <email>krivenkotester@gmail.com</email>
+    <time>2019-02-22T12:59:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1010" closed="2019-05-25T19:45:32+00:00">1010</issue>
+    <ticket>504</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>504-f11964f3</id>
+    <lines>36-36</lines>
+    <body>Add integration test to ensure that price and alternative price are different</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/sale/AddSeriesSalesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-02-26T20:48:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1011" closed="2021-01-02T04:50:00+00:00">1011</issue>
+    <ticket>678</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>678-267e6a41</id>
+    <lines>38-38</lines>
+    <body>Add integration tests for price and alternative price: both or none are required</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/sale/AddSeriesSalesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-03-01T13:18:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1025">1025</issue>
+    <ticket>995</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>995-71e1e7c8</id>
+    <lines>710-710</lines>
+    <body>Series sale import: add support for new sellers</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-03T11:48:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1026" closed="2019-07-21T12:28:50+00:00">1026</issue>
+    <ticket>995</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>995-f1c8f888</id>
+    <lines>41-41</lines>
+    <body>Series sale import: use its own interface and form</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/RequestImportForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-03T11:48:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1027" closed="2019-07-14T18:51:53+00:00">1027</issue>
+    <ticket>995</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>995-f9b468d5</id>
+    <lines>42-42</lines>
+    <body>/series/sales/import: validate that we have a parser for this url</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/RequestImportForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-03T11:48:17Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/1079" closed="2020-12-30T16:22:21+00:00">1079</issue>
+        <ticket>1027</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1027-ca188b93</id>
+        <lines>32-32</lines>
+        <body>Series sale import: add integration test to check that URL can be parsed</body>
+        <file>src/main/java/ru/mystamps/web/feature/series/importing/HasSiteParser.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-07-14T18:42:06Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1028">1028</issue>
+    <ticket>995</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>995-950efed9</id>
+    <lines>42-42</lines>
+    <body>SeriesSalesImportServiceImpl.downloadAndParse(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/sale/SeriesSalesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-03T11:48:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1029">1029</issue>
+    <ticket>995</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>995-dfb3dc6f</id>
+    <lines>61-61</lines>
+    <body>SiteParser: introduce a method for parsing only sales-related info</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/sale/SeriesSalesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-03T11:48:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1030">1030</issue>
+    <ticket>995</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>995-a90e239c</id>
+    <lines>82-82</lines>
+    <body>SeriesInfoExtractorService: introduce a method for parsing only sales-related info</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/sale/SeriesSalesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-03T11:48:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1032">1032</issue>
+    <ticket>493</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>493-ce63acfd</id>
+    <lines>219-219</lines>
+    <body>AddSuspiciousActivityDbDto: port to a new datetime API --&gt;</body>
+    <file>src/main/config/spotbugs-filter.xml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-05T20:07:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1033">1033</issue>
+    <ticket>493</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>493-c468b8b5</id>
+    <lines>224-224</lines>
+    <body>SuspiciousActivityDto: port to a new datetime API --&gt;</body>
+    <file>src/main/config/spotbugs-filter.xml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-05T20:07:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1036" closed="2019-06-20T20:40:33+00:00">1036</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-f2ec4620</id>
+    <lines>22-22</lines>
+    <body>CountryValidation: remove COUNTRY_ prefix from the constants</body>
+    <file>src/main/java/ru/mystamps/web/feature/country/CountryValidation.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-08T17:36:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1037" closed="2019-06-20T20:46:15+00:00">1037</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-08aeee4f</id>
+    <lines>22-22</lines>
+    <body>ParticipantValidation: remove PARTICIPANT_ prefix from the constants</body>
+    <file>src/main/java/ru/mystamps/web/feature/participant/ParticipantValidation.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-08T17:06:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1038" closed="2019-06-20T20:50:44+00:00">1038</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-57fa0b9d</id>
+    <lines>22-22</lines>
+    <body>CategoryValidation: remove CATEGORY_ prefix from the constants</body>
+    <file>src/main/java/ru/mystamps/web/feature/category/CategoryValidation.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-08T17:22:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1039">1039</issue>
+    <ticket>1034</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1034-0016977f</id>
+    <lines>7-7</lines>
+    <body>Document how to run with PostgreSQL and docker-compose</body>
+    <file>docker/postgres.yml</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-12T19:55:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1040">1040</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-285714a8</id>
+    <lines>1-1</lines>
+    <body>Move category package one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/category/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1041">1041</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-0bf380a9</id>
+    <lines>1-1</lines>
+    <body>Move series package one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1042">1042</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-e31062c0</id>
+    <lines>1-1</lines>
+    <body>Move account package one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/account/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1043">1043</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-e9697c74</id>
+    <lines>1-1</lines>
+    <body>Move report package one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/report/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1044">1044</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-0de549b6</id>
+    <lines>1-1</lines>
+    <body>Move collection package one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/collection/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1045">1045</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-d8dc99c9</id>
+    <lines>1-1</lines>
+    <body>Move country package one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/country/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1046">1046</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-61bc647b</id>
+    <lines>1-1</lines>
+    <body>Move image package one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/image/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1047">1047</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-5e01dc83</id>
+    <lines>1-1</lines>
+    <body>Move site package to one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/site/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1048">1048</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-664a2788</id>
+    <lines>1-1</lines>
+    <body>Move participant package one level up</body>
+    <file>src/main/java/ru/mystamps/web/feature/participant/package-info.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-13T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1051" closed="2020-06-09T20:25:31+00:00">1051</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-0d92cb6b</id>
+    <lines>27-27</lines>
+    <body>PurchaseAndSaleDto: move with related classes to series.sale package</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/PurchaseAndSaleDto.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-16T14:59:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1052" closed="2019-10-08T21:31:44+00:00">1052</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-4ad1152b</id>
+    <lines>88-88</lines>
+    <body>CountryController: remove dependency on SeriesService by moving showInfoBySlug() method</body>
+    <file>src/main/java/ru/mystamps/web/feature/country/CountryController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-16T14:59:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1053" closed="2019-10-08T21:39:41+00:00">1053</issue>
+    <ticket>927</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>927-dc17d3cc</id>
+    <lines>88-88</lines>
+    <body>CategoryController: remove dependency on SeriesService by moving showInfoBySlug() method</body>
+    <file>src/main/java/ru/mystamps/web/feature/category/CategoryController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-16T14:59:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1054" closed="2019-10-22T21:28:55+00:00">1054</issue>
+    <ticket>1034</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1034-bce94882</id>
+    <lines>4-4</lines>
+    <body>Travis CI: run tests on PostgreSQL</body>
+    <file>.travis.yml</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-16T15:21:24Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1134">1134</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-41eae704</id>
+        <lines>10-10</lines>
+        <body>Extract part of spring.messages configuration to a common profile</body>
+        <file>src/main/resources/application-postgres.properties</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-10-19T14:36:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1135">1135</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-7817233c</id>
+        <lines>19-19</lines>
+        <body>Extract part of Thymeleaf configuration to a common profile</body>
+        <file>src/main/resources/application-postgres.properties</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-10-19T14:36:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1136">1136</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-0d061f99</id>
+        <lines>25-25</lines>
+        <body>Introduce "mailgun-mock" profile</body>
+        <file>src/main/resources/application-postgres.properties</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-10-19T14:36:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1137">1137</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-d4786412</id>
+        <lines>29-29</lines>
+        <body>Introduce profiles for liquibase contexts</body>
+        <file>src/main/resources/application-postgres.properties</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-10-19T14:36:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/1138" closed="2022-09-03T04:12:37+00:00">1138</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-1c349c8e</id>
+        <lines>42-42</lines>
+        <body>Extract list of exclusions to a common profile</body>
+        <file>src/main/resources/application-postgres.properties</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-10-19T14:36:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1139">1139</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-33066ab3</id>
+        <lines>77-77</lines>
+        <body>Introduce profiles for image persistence strategies</body>
+        <file>src/main/java/ru/mystamps/web/feature/image/ImageConfig.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-10-19T14:36:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/php-coder/mystamps/issues/1140" closed="2019-11-30T21:44:49+00:00">1140</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-7feb00d4</id>
+        <lines>13-13</lines>
+        <body>Ensure all integration tests to pass on PostgreSQL</body>
+        <file>.travis.yml</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-10-19T14:36:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1141">1141</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-10af1a0a</id>
+        <lines>18-18</lines>
+        <body>Unify PostgreSQL version/configuration between Travis and docker-compose</body>
+        <file>.travis.yml</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2019-10-19T14:36:37Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-da87ea8c</id>
+        <lines>41-45</lines>
+        <body>Extract list of exclusions to a common profile Full list of autoconfiguration classes: https://docs.spring.io/spring-boot/docs/2.1.x/reference/html/auto-configuration-classes.html The difference between test profile is that we don't need H2ConsoleAutoConfiguration</body>
+        <file>src/main/resources/application-postgres.properties</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2022-07-17T09:23:34Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1594">1594</issue>
+        <ticket>1054</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1054-25fd6f7f</id>
+        <lines>41-45</lines>
+        <body>Extract list of exclusions to a common profile Full list of autoconfiguration classes: https://docs.spring.io/spring-boot/docs/2.2.x/reference/html/appendix-auto-configuration-classes.html The difference between test profile is that we don't need H2ConsoleAutoConfiguration</body>
+        <file>src/main/resources/application-postgres.properties</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2022-11-04T11:04:23Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1070">1070</issue>
+    <ticket>1060</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1060-542e4feb</id>
+    <lines>1234-1234</lines>
+    <body>Document usage of frontend-maven-plugin --&gt;</body>
+    <file>pom.xml</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-07-10T21:02:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1071" closed="2022-12-04T13:27:04+00:00">1071</issue>
+    <ticket>1060</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1060-a747d278</id>
+    <lines>408-408</lines>
+    <body>Danger: handle Babel errors from frontend-maven-plugin</body>
+    <file>Dangerfile</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-07-10T21:02:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1072" closed="2020-03-07T16:46:33+00:00">1072</issue>
+    <ticket>1057</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1057-d01039f1</id>
+    <lines>1061-1061</lines>
+    <body>Make React related integration tests work --&gt;</body>
+    <file>pom.xml</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-23T21:26:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1073">1073</issue>
+    <ticket>1057</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1057-ae51bd20</id>
+    <lines>6-6</lines>
+    <body>SeriesSaleImportForm: add tests</body>
+    <file>src/main/frontend/src/components/SeriesSaleImportForm.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-23T21:26:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1074" closed="2022-09-03T04:12:42+00:00">1074</issue>
+    <ticket>1057</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1057-ea0a43ea</id>
+    <lines>35-35</lines>
+    <body>SeriesSaleImportForm: wait until setState() finishes</body>
+    <file>src/main/frontend/src/components/SeriesSaleImportForm.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-23T21:26:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1075" closed="2020-06-28T19:12:23+00:00">1075</issue>
+    <ticket>1057</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1057-a9217ba4</id>
+    <lines>45-45</lines>
+    <body>Use minified version of SeriesSaleImportForm.js</body>
+    <file>src/main/java/ru/mystamps/web/feature/site/ResourceUrl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-23T21:26:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1076">1076</issue>
+    <ticket>1057</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1057-afe1bb59</id>
+    <lines>711-711</lines>
+    <body>Series sale import form: show a message when JavaScript is disabled</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-06-23T21:26:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1080" closed="2020-12-30T16:22:25+00:00">1080</issue>
+    <ticket>690</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>690-f7dcd2e7</id>
+    <lines>31-31</lines>
+    <body>Series import: add integration test to check that URL can be parsed</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/HasSiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-07-14T18:42:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1081">1081</issue>
+    <ticket>690</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>690-384e961f</id>
+    <lines>43-43</lines>
+    <body>HasSiteParserValidator: introduce SiteParserService.hasParserForUrl()</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/HasSiteParserValidator.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-07-14T18:42:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1092" closed="2020-03-11T21:01:10+00:00">1092</issue>
+    <ticket>1022</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1022-2b136a9c</id>
+    <lines>25-25</lines>
+    <body>Togglz: remove SEND_MAIL_VIA_HTTP_API from database</body>
+    <file>src/main/java/ru/mystamps/web/support/togglz/Features.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-07-21T16:35:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1093">1093</issue>
+    <ticket>226</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>226-af195ad8</id>
+    <lines>86-86</lines>
+    <body>Introduce app.use-public-hostname property</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/security/SecurityConfig.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-07-21T16:35:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1094" closed="2019-09-09T11:22:58+00:00">1094</issue>
+    <ticket>1058</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1058-2b82d429</id>
+    <lines>31-31</lines>
+    <body>/site/csp/reports: add integration tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/site/CspController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-07-21T16:45:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1097" closed="2019-08-07T18:55:35+00:00">1097</issue>
+    <ticket>673</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>673-67e9da55</id>
+    <lines>185-185</lines>
+    <body>Add integration tests for search by a catalog in user's collection --&gt;</body>
+    <file>src/main/webapp/WEB-INF/views/site/index.html</file>
+    <author>Mukesh Katariya</author>
+    <email>jmukesh@gmail.com</email>
+    <time>2019-07-22T09:49:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1101">1101</issue>
+    <ticket>1098</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1098-de488059</id>
+    <lines>511-511</lines>
+    <body>Optimize a search within user's collection</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-07-24T20:02:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1121" closed="2020-03-11T21:01:15+00:00">1121</issue>
+    <ticket>605</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>605-2e5a00b2</id>
+    <lines>25-25</lines>
+    <body>Togglz: remove items left from &gt;= 0.4.1 milestone</body>
+    <file>src/main/java/ru/mystamps/web/support/togglz/Features.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-09-09T19:18:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1150" closed="2019-12-12T21:30:14+00:00">1150</issue>
+    <ticket>1143</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1143-f4576026</id>
+    <lines>35-35</lines>
+    <body>Introduce a dedicated config for DAO classes</body>
+    <file>src/test/java/ru/mystamps/web/feature/category/JdbcCategoryDaoTest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-11-08T21:37:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1151" closed="2022-09-03T04:12:45+00:00">1151</issue>
+    <ticket>1143</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1143-be46fba9</id>
+    <lines>45-45</lines>
+    <body>Improve a way of importing properties files in the tests</body>
+    <file>src/test/java/ru/mystamps/web/feature/category/JdbcCategoryDaoTest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-11-08T21:37:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1193">1193</issue>
+    <ticket>1123</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1123-42494b3d</id>
+    <lines>145-145</lines>
+    <body>/collection/{slug}: show "New" badge only once</body>
+    <file>src/main/webapp/WEB-INF/views/collection/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-12-28T16:13:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1194">1194</issue>
+    <ticket>1123</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1123-296bb340</id>
+    <lines>135-135</lines>
+    <body>CollectionService.findSeriesInstances(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/collection/CollectionServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-12-28T16:13:29Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1197" closed="2020-01-01T18:34:36+00:00">1197</issue>
+    <ticket>869</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>869-1789ed2e</id>
+    <lines>792-792</lines>
+    <body>Fix compilation warnings and enable failOnWarning again --&gt;</body>
+    <file>pom.xml</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-12-30T22:21:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1198">1198</issue>
+    <ticket>869</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>869-982802a1</id>
+    <lines>7-7</lines>
+    <body>Find a better way to deal with SpotBugs warnings in DAO classes --&gt;</body>
+    <file>src/main/config/spotbugs-filter.xml</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-12-30T22:21:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1199">1199</issue>
+    <ticket>869</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>869-90e5e0f1</id>
+    <lines>16-16</lines>
+    <body>show-spring-boot-version-diff.sh: properly handle recursive properties</body>
+    <file>src/main/scripts/show-spring-boot-version-diff.sh</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2019-12-30T22:21:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1212">1212</issue>
+    <ticket>1000</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1000-7b4c3a87</id>
+    <lines>1-1</lines>
+    <body>CI: validate and check Terraform configuration</body>
+    <file>infra/terraform/my-stamps.tf</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-01-11T22:46:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1220">1220</issue>
+    <ticket>979</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>979-ca86046a</id>
+    <lines>62-62</lines>
+    <body>Add integration test for import of series with currency-locator</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/extractor/SiteParserConfiguration.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-01-15T20:22:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1235">1235</issue>
+    <ticket>1170</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1170-4b91f3a7</id>
+    <lines>799-799</lines>
+    <body>ErrorProne: activate experimental checks --&gt;</body>
+    <file>pom.xml</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-01-20T19:03:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1255">1255</issue>
+    <ticket>1254</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1254-f96635a2</id>
+    <lines>102-102</lines>
+    <body>Update workflow to mention RetryDownloading event</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/SeriesImportController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-02-11T23:04:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1271">1271</issue>
+    <ticket>1230</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1230-9685721f</id>
+    <lines>224-225</lines>
+    <body>SeriesImportServiceImpl.saveParsedData(): add unit test for alternative price and currency</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-08T15:31:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1273">1273</issue>
+    <ticket>1230</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1230-8769330d</id>
+    <lines>47-47</lines>
+    <body>/series/import/request/{id}: validate that both alt price/currency are present or absent</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/ImportSeriesSalesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-09T21:10:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1285">1285</issue>
+    <ticket>1281</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1281-8f164ecd</id>
+    <lines>64-64</lines>
+    <body>Add integration test for import with seller-url-locator</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/extractor/SiteParserConfiguration.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-14T19:22:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1289">1289</issue>
+    <ticket>1287</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1287-00d4c9e9</id>
+    <lines>248-249</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractIssueDate(): filter out invalid day/month</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-21T19:47:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1290">1290</issue>
+    <ticket>1287</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1287-08af32c7</id>
+    <lines>44-44</lines>
+    <body>/series/import/request/{id}: add integration tests for release day and month</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-21T19:47:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1291">1291</issue>
+    <ticket>1287</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1287-760de89e</id>
+    <lines>45-45</lines>
+    <body>/series/import/request/{id}: month is required when day is specified</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-21T19:47:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1292">1292</issue>
+    <ticket>1287</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1287-6ef6a9d5</id>
+    <lines>46-46</lines>
+    <body>/series/import/request/{id}: year is required when month is specified</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-21T19:47:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1293">1293</issue>
+    <ticket>1287</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1287-917ee600</id>
+    <lines>47-47</lines>
+    <body>/series/import/request/{id}: release date should be in past</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-21T19:47:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1294">1294</issue>
+    <ticket>1287</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1287-35da0048</id>
+    <lines>78-78</lines>
+    <body>/series/import/request/{id}(day): add integration test for invalid day</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-21T19:47:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1295">1295</issue>
+    <ticket>1287</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1287-318d9e28</id>
+    <lines>82-82</lines>
+    <body>/series/import/request/{id}(month): add integration test for invalid month</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/ImportSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-21T19:47:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1301">1301</issue>
+    <ticket>1000</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1000-6a846ef7</id>
+    <lines>2-2</lines>
+    <body>Terraform: add UptimeRobot</body>
+    <file>infra/terraform/my-stamps.tf</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-23T19:02:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1302">1302</issue>
+    <ticket>1000</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1000-66d57f44</id>
+    <lines>3-3</lines>
+    <body>Terraform: add Mailgun</body>
+    <file>infra/terraform/my-stamps.tf</file>
+    <author>@php-coder</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-03-23T19:02:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1316">1316</issue>
+    <ticket>1280</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1280-233d287d</id>
+    <lines>868-868</lines>
+    <body>Mark similar series: add integration tests</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-12T13:47:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1317">1317</issue>
+    <ticket>1280</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1280-9a82bce8</id>
+    <lines>6-6</lines>
+    <body>SimilarSeriesForm: add tests</body>
+    <file>src/main/frontend/src/components/SimilarSeriesForm.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-12T13:47:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1318">1318</issue>
+    <ticket>1280</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1280-e234a7b0</id>
+    <lines>304-304</lines>
+    <body>SeriesServiceImpl.markAsSimilar(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-12T13:47:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1319">1319</issue>
+    <ticket>1280</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1280-7ac54ef9</id>
+    <lines>564-564</lines>
+    <body>Mark similar series: gracefully handle error when value mismatches to type</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-12T13:47:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1320">1320</issue>
+    <ticket>1280</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1280-6ea086d8</id>
+    <lines>25-25</lines>
+    <body>AddSimilarSeriesForm: series and similar series must be different</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSimilarSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-12T13:47:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1321">1321</issue>
+    <ticket>1280</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1280-50f25bf4</id>
+    <lines>30-30</lines>
+    <body>AddSimilarSeriesForm: seriesId must exist</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSimilarSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-12T13:47:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1322">1322</issue>
+    <ticket>1280</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1280-77fd103b</id>
+    <lines>34-34</lines>
+    <body>AddSimilarSeriesForm: add integration test for mandatory similarSeriesId</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSimilarSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-12T13:47:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1323">1323</issue>
+    <ticket>1280</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1280-e7733cce</id>
+    <lines>35-35</lines>
+    <body>AddSimilarSeriesForm: similarSeriesId must exist</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSimilarSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-12T13:47:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1365">1365</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-25f7ab3b</id>
+    <lines>163-163</lines>
+    <body>Replace image form: arrange submit buttons in a one line</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1366">1366</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-5b557695</id>
+    <lines>83-83</lines>
+    <body>ImageServiceImpl.replace(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/image/ImageServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1367">1367</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-7320596f</id>
+    <lines>84-84</lines>
+    <body>ImageServiceImpl: reduce duplication between add() and replace()</body>
+    <file>src/main/java/ru/mystamps/web/feature/image/ImageServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1368">1368</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-fbc787d3</id>
+    <lines>85-85</lines>
+    <body>ImageServiceImpl.replace(): ensure that method cleanups file after exception</body>
+    <file>src/main/java/ru/mystamps/web/feature/image/ImageServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1369">1369</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-c2bfae4d</id>
+    <lines>106-106</lines>
+    <body>FilesystemImagePersistenceStrategy.replace(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/image/FilesystemImagePersistenceStrategy.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1370">1370</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-59dd45e7</id>
+    <lines>131-131</lines>
+    <body>FilesystemImagePersistenceStrategy.replacePreview(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/image/FilesystemImagePersistenceStrategy.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1371">1371</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-7ef1304a</id>
+    <lines>67-67</lines>
+    <body>DatabaseImagePersistenceStrategy.replace(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/image/DatabaseImagePersistenceStrategy.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1372">1372</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-dcf84f86</id>
+    <lines>79-79</lines>
+    <body>DatabaseImagePersistenceStrategy.replacePreview(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/image/DatabaseImagePersistenceStrategy.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1373">1373</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-7c7e06c0</id>
+    <lines>143-143</lines>
+    <body>SeriesServiceImpl.replaceImage(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1374">1374</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-015294f3</id>
+    <lines>67-67</lines>
+    <body>Replace image: add integration test for mandatory imageId</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddImageForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1375">1375</issue>
+    <ticket>1303</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1303-c0d00ebb</id>
+    <lines>68-68</lines>
+    <body>Replace image: validate that image id is valid</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddImageForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-04-28T21:12:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1381">1381</issue>
+    <ticket>1356</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1356-b1ab6b12</id>
+    <lines>171-171</lines>
+    <body>Hidden images: add integration tests</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-04T17:08:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1382">1382</issue>
+    <ticket>1356</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1356-ff7ebcc8</id>
+    <lines>172-172</lines>
+    <body>Hidden images: allow to replace a hidden image</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-04T17:08:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1383" closed="2021-02-28T10:33:57+00:00">1383</issue>
+    <ticket>1356</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1356-1188ca31</id>
+    <lines>173-173</lines>
+    <body>Hidden images: admin can hide an image</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-04T17:08:36Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1543">1543</issue>
+        <ticket>1383</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1383-68064f45</id>
+        <lines>7-7</lines>
+        <body>HideImageForm: add tests</body>
+        <file>src/main/frontend/src/components/HideImageForm.js</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2021-02-07T08:58:43Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1384">1384</issue>
+    <ticket>1356</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1356-cbf177f8</id>
+    <lines>174-174</lines>
+    <body>Hidden images: protect hidden images from direct access</body>
+    <file>src/main/webapp/WEB-INF/views/series/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-04T17:08:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1385" closed="2021-02-25T17:06:47+00:00">1385</issue>
+    <ticket>1356</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1356-3e6e19fa</id>
+    <lines>224-224</lines>
+    <body>SeriesServiceImpl.findFullInfoById(): add unit test for hidden images</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-04T17:08:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1388" closed="2020-05-18T19:33:42+00:00">1388</issue>
+    <ticket>1342</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1342-ddac07e5</id>
+    <lines>5-5</lines>
+    <body>AddCatalogPriceForm: show a currency</body>
+    <file>src/main/frontend/src/components/AddCatalogPriceForm.js</file>
+    <author>Bakhodyr Kadyrov</author>
+    <email>bahobek@gmail.com</email>
+    <time>2020-05-09T14:01:12Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1394">1394</issue>
+        <ticket>1388</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1388-110ff48f</id>
+        <lines>5-5</lines>
+        <body>AddCatalogPriceForm: consider using a tooltip for currency</body>
+        <file>src/main/frontend/src/components/AddCatalogPriceForm.js</file>
+        <author>Bakhodyr Kadyrov</author>
+        <email>bahobek@gmail.com</email>
+        <time>2020-05-12T07:14:53Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1400">1400</issue>
+    <ticket>1326</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1326-d460ac09</id>
+    <lines>500-500</lines>
+    <body>SeriesInfoExtractorServiceImpl.extractCondition(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/SeriesInfoExtractorServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-21T20:48:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1401">1401</issue>
+    <ticket>1326</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1326-2cfe45cd</id>
+    <lines>275-275</lines>
+    <body>JsoupSiteParser.extractCondition(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/extractor/JsoupSiteParser.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-21T20:48:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1402">1402</issue>
+    <ticket>1326</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1326-4794f854</id>
+    <lines>73-73</lines>
+    <body>Series sale import: add integration test for series condition</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/sale/AddSeriesSalesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-21T20:48:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1409" closed="2021-01-30T16:12:07+00:00">1409</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-f94c9d27</id>
+    <lines>121-121</lines>
+    <body>SeriesServiceImpl.addComment(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1410" closed="2020-06-18T22:01:46+00:00">1410</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-2f662661</id>
+    <lines>43-43</lines>
+    <body>Update series: add integration test</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/RestSeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1411" closed="2021-01-31T16:15:41+00:00">1411</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-b7c2e7d1</id>
+    <lines>44-44</lines>
+    <body>Update series: add validation for a comment</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/RestSeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/php-coder/mystamps/issues/1544">1544</issue>
+        <ticket>1411</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1411-1e303594</id>
+        <lines>33-33</lines>
+        <body>Configure MethodValidationPostProcessor to use messages from ValidationMessages.properties</body>
+        <file>src/main/java/ru/mystamps/web/feature/series/SeriesService.java</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2021-01-31T16:03:19Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1412">1412</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-37a48219</id>
+    <lines>64-64</lines>
+    <body>Update series: properly fail on non-supported operations</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/RestSeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1413">1413</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-a8e6066a</id>
+    <lines>73-73</lines>
+    <body>Update series: properly fail on invalid path</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/RestSeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1414">1414</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-c33d2a08</id>
+    <lines>150-150</lines>
+    <body>Update series: handle refuse to update an existing comment gracefully</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/JdbcSeriesDao.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1415">1415</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-70fca94a</id>
+    <lines>54-54</lines>
+    <body>Improve error handling for requests with a list of objects</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/mvc/ValidationErrors.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1416">1416</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-4e1225ab</id>
+    <lines>38-38</lines>
+    <body>Update series: add integration test for required "op" field</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/mvc/PatchRequest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1417">1417</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-140bc7bd</id>
+    <lines>42-42</lines>
+    <body>Update series: add integration test for non-empty "path" field</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/mvc/PatchRequest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1418">1418</issue>
+    <ticket>785</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>785-c0b6c3f6</id>
+    <lines>46-46</lines>
+    <body>Update series: add integration test for non-empty "value" field</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/mvc/PatchRequest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-24T21:33:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1419">1419</issue>
+    <ticket>1282</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1282-0969f19a</id>
+    <lines>161-161</lines>
+    <body>Consider adding a field with an image used for preview</body>
+    <file>src/main/resources/sql/series_dao_queries.properties</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-05-30T18:34:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1423">1423</issue>
+    <ticket>1343</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1343-fe3ada44</id>
+    <lines>138-138</lines>
+    <body>SeriesServiceImpl.addReleaseYear(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-01T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1424">1424</issue>
+    <ticket>1343</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1343-a893935d</id>
+    <lines>46-46</lines>
+    <body>Update series: add validation for a release year</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/RestSeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-01T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1425">1425</issue>
+    <ticket>1277</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1277-5efa16a9</id>
+    <lines>101-101</lines>
+    <body>/series/add: add integration test to check that Michel numbers may contain letter</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-01T20:35:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1426">1426</issue>
+    <ticket>1421</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1421-f0722df3</id>
+    <lines>116-116</lines>
+    <body>/series/add: add integration test to check that Yvert numbers may contain letters</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-01T20:23:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1427">1427</issue>
+    <ticket>1343</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1343-c710f5d6</id>
+    <lines>171-171</lines>
+    <body>Update series: handle refuse to update an existing release year gracefully</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/JdbcSeriesDao.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-01T21:26:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1430">1430</issue>
+    <ticket>1326</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1326-2bc92a3c</id>
+    <lines>235-235</lines>
+    <body>SeriesImportServiceImpl.saveParsedData(): add unit test for condition</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/SeriesImportServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-03T21:36:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1431">1431</issue>
+    <ticket>1326</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1326-e5faca08</id>
+    <lines>52-52</lines>
+    <body>Series import: add integration test for series condition</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/importing/ImportSeriesSalesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-03T21:36:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1433">1433</issue>
+    <ticket>1340</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1340-c6d2a382</id>
+    <lines>162-162</lines>
+    <body>SeriesServiceImpl.addPrice(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-05T21:29:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1434">1434</issue>
+    <ticket>1340</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1340-34ef47fe</id>
+    <lines>53-53</lines>
+    <body>Update series: add validation for a price</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/RestSeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-05T21:29:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1435">1435</issue>
+    <ticket>1340</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1340-1b97f079</id>
+    <lines>409-409</lines>
+    <body>Update series: handle refuse to update an existing price gracefully</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/JdbcSeriesDao.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-05T21:29:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1436">1436</issue>
+    <ticket>1339</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1339-3c1b068a</id>
+    <lines>200-200</lines>
+    <body>SeriesServiceImpl.addCatalogNumbers(): add unit tests</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-06T18:48:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1437">1437</issue>
+    <ticket>1339</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1339-9a7986f1</id>
+    <lines>53-53</lines>
+    <body>Update series: add validation for catalog numbers</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/RestSeriesController.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-06T18:48:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1444">1444</issue>
+    <ticket>511</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>511-f20a64c0</id>
+    <lines>158-158</lines>
+    <body>/collection/{slug}: wrap a long caption</body>
+    <file>src/main/webapp/WEB-INF/views/collection/info.html</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-10T20:35:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1449">1449</issue>
+    <ticket>1448</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1448-eb3f0fe6</id>
+    <lines>434-434</lines>
+    <body>SeriesServiceImpl.markAsSimilar(): mark multiple series at once in DAO</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-21T14:11:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1450" closed="2022-09-03T04:12:50+00:00">1450</issue>
+    <ticket>1448</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1448-65ca5ec2</id>
+    <lines>39-39</lines>
+    <body>AddSimilarSeriesForm.similarSeriesId: remove deprecated member</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSimilarSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-21T14:11:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1451">1451</issue>
+    <ticket>1448</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1448-d5a68b83</id>
+    <lines>59-59</lines>
+    <body>AddSimilarSeriesForm: add integration test that similarSeriesIds isn't empty</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSimilarSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-21T14:11:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1456">1456</issue>
+    <ticket>1455</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1455-dfea25aa</id>
+    <lines>5-5</lines>
+    <body>Remove export of components to window</body>
+    <file>src/main/frontend/webpack.config.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-06-28T17:19:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1476">1476</issue>
+    <ticket>1161</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1161-69decc53</id>
+    <lines>165-165</lines>
+    <body>Add Feature-Policy header</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/security/SecurityConfig.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-12-20T09:22:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1482">1482</issue>
+    <ticket>1447</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1447-3c055652</id>
+    <lines>53-53</lines>
+    <body>Add test to ensure that catalog numbers are trimmed</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/mvc/PatchRequest.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2020-12-31T16:57:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1483">1483</issue>
+    <ticket>1161</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1161-a2706b18</id>
+    <lines>31-31</lines>
+    <body>Consider using spring.task.execution properties instead of manual configuration</body>
+    <file>src/main/java/ru/mystamps/web/config/TaskExecutorConfig.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-01T11:44:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1485">1485</issue>
+    <ticket>1160</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1160-545c948a</id>
+    <lines>160-160</lines>
+    <body>ContentSecurityPolicyHeaderWriter shouldn't depend from Togglz</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/security/ContentSecurityPolicyHeaderWriter.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-02T13:44:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1487">1487</issue>
+    <ticket>1342</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1342-c6d2f2ba</id>
+    <lines>5-5</lines>
+    <body>AddCatalogPriceForm: add tests</body>
+    <file>src/main/frontend/src/components/AddCatalogPriceForm.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-05T11:51:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1488">1488</issue>
+    <ticket>1341</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1341-d3b9ba1b</id>
+    <lines>6-6</lines>
+    <body>AddCatalogNumbersForm: add tests</body>
+    <file>src/main/frontend/src/components/AddCatalogNumbersForm.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-05T11:51:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1489">1489</issue>
+    <ticket>1338</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1338-4f752b8a</id>
+    <lines>6-6</lines>
+    <body>AddCommentForm: add tests</body>
+    <file>src/main/frontend/src/components/AddCommentForm.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-05T11:51:01Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue>unknown</issue>
+        <ticket>1489</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>1489-42680117</id>
+        <lines>58-58</lines>
+        <body>Use toHaveErrorMessage() or toHaveDescription() for checking error messages</body>
+        <file>src/main/frontend/src/components/AddCommentForm.test.js</file>
+        <author>Slava Semushin</author>
+        <email>slava.semushin@gmail.com</email>
+        <time>2021-01-11T14:31:50Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1490">1490</issue>
+    <ticket>1329</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1329-5cbf2e5d</id>
+    <lines>6-6</lines>
+    <body>SeriesSalesList: add tests</body>
+    <file>src/main/frontend/src/components/SeriesSalesList.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-05T11:51:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1491">1491</issue>
+    <ticket>1344</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1344-fb12fdf0</id>
+    <lines>6-6</lines>
+    <body>AddReleaseYearForm: add tests</body>
+    <file>src/main/frontend/src/components/AddReleaseYearForm.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-05T11:51:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1499">1499</issue>
+    <ticket>1484</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1484-a3f3427b</id>
+    <lines>1-1</lines>
+    <body>Document Jest usage</body>
+    <file>src/main/frontend/jest.config.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-10T16:03:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>1484</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1484-7c5cb814</id>
+    <lines>6-6</lines>
+    <body>Find a better way to use ESM with Jest and replace jest-esm-transformer</body>
+    <file>src/main/frontend/jest.config.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-10T16:53:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1503">1503</issue>
+    <ticket>1484</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1484-0743f8f3</id>
+    <lines>11-11</lines>
+    <body>Remove usage of jest-standard-reporter once facebook/jest#5064 is resolved</body>
+    <file>src/main/frontend/jest.config.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-10T16:42:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1545">1545</issue>
+    <ticket>1505</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1505-6101f84e</id>
+    <lines>317-317</lines>
+    <body>Don't load a series comment for anonymous users</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/SeriesServiceImpl.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-01-31T05:59:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>1513</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1513-5b274200</id>
+    <lines>30-30</lines>
+    <body>Add integration test to check that prices accept a decimal comma</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/mvc/BigDecimalConverter.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-02-14T15:48:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/php-coder/mystamps/issues/1564" closed="2022-12-04T13:27:07+00:00">1564</issue>
+    <ticket>1484</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1484-67f25d21</id>
+    <lines>383-383</lines>
+    <body>Danger: handle errors from Jest</body>
+    <file>Dangerfile</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2021-11-10T17:41:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>1057</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1057-5419ab18</id>
+    <lines>31-32</lines>
+    <body>SeriesSaleImportForm: wait until setState() finishes (see https://reactjs.org/docs/react-component.html#setstate)</body>
+    <file>src/main/frontend/src/components/SeriesSaleImportForm.js</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2022-07-17T09:23:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>1448</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1448-3d19f9e8</id>
+    <lines>39-41</lines>
+    <body>AddSimilarSeriesForm.similarSeriesId: remove deprecated member NOTE: similarSeriesId is deprecated and exist only for backward compatibility</body>
+    <file>src/main/java/ru/mystamps/web/feature/series/AddSimilarSeriesForm.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2022-07-17T09:23:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/php-coder/mystamps/issues/1596">1596</issue>
+    <ticket>1149</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1149-f52d6199</id>
+    <lines>108-108</lines>
+    <body>Move feature-specific rules to the dedicated packages</body>
+    <file>src/main/java/ru/mystamps/web/support/spring/security/SecurityConfig.java</file>
+    <author>Slava Semushin</author>
+    <email>slava.semushin@gmail.com</email>
+    <time>2022-11-15T04:44:51Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

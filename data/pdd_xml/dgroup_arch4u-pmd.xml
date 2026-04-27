@@ -1,0 +1,522 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-02-11T22:34:09+00:00" version="0.30.26">
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/6" closed="2022-01-22T11:47:31+00:00">6</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-8084d74e</id>
+    <lines>9-18</lines>
+    <body>Configure the deployment to dev maven repository in Github in order to work with RC and snapshots. The dev repo should be Github for master branch + bugfix branches if needed. As a plan B, we can consider promoting using Nexus+OSSRH: https://help.sonatype.com/repomanager2/staging-releases/staging-overview https://help.sonatype.com/repomanager2/staging-releases/configuring-your-project-for-deployment https://nvie.com/posts/a-successful-git-branching-model https://github.com/nvie/gitflow https://gist.github.com/lemiorhan/97b4f827c08aed58a9d8 https://github.com/jgitver/jgitver https://danielkummer.github.io/git-flow-cheatsheet/index.html</body>
+    <file>.rultor.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:37:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/7" closed="2022-01-22T11:47:35+00:00">7</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-138e429d</id>
+    <lines>20-20</lines>
+    <body>Replace key by real one, generated for arch4u-pmd project</body>
+    <file>.rultor.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:37:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/8" closed="2022-01-22T15:02:29+00:00">8</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-0529dd2e</id>
+    <lines>32-32</lines>
+    <body>Setup code code quality 3rd-party services and add badge to the readme.md --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:37:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/9">9</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-08faa53a</id>
+    <lines>156-156</lines>
+    <body>Activate de.thetaphi:forbiddenapis in order to forbid the usage of forbidden API like static matchers, etc --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:37:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/10">10</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-5f4df571</id>
+    <lines>205-205</lines>
+    <body>Activate JMH for testing on JDK8</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:37:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/11">11</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6f85efe2</id>
+    <lines>1-2</lines>
+    <body>Setup Lock threads as 'Lock' is not supported anymore https://github.com/marketplace/actions/lock-threads</body>
+    <file>.github/lock.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:37:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/12" closed="2022-01-08T00:19:56+00:00">12</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-293e89ed</id>
+    <lines>15-15</lines>
+    <body>Set up jdk 1.8 for CI/CD</body>
+    <file>.github/workflows/build.yml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:37:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/13" closed="2022-02-08T21:12:52+00:00">13</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-508fa6be</id>
+    <lines>31-31</lines>
+    <body>Write minimalistic/laconic project overview in readme.md --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:45:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/14" closed="2022-02-03T22:42:58+00:00">14</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-187cd84d</id>
+    <lines>28-28</lines>
+    <body>Define ruleset with third-party basic PMD rules --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:48:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/dgroup/arch4u-pmd/issues/35" closed="2022-01-30T13:15:26+00:00">35</issue>
+        <ticket>14</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>14-0acc3693</id>
+        <lines>35-35</lines>
+        <body>Include this file into 'arch4u-ruleset.xml' once task #14 is done --&gt;</body>
+        <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-thirdpary-ruleset.xml</file>
+        <author>@dgroup</author>
+        <email>yurii.dubinka@gmail.com</email>
+        <time>2022-01-22T15:10:26Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/15" closed="2022-02-03T22:43:01+00:00">15</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-61e86f59</id>
+    <lines>30-30</lines>
+    <body>Define arch4u-pmd ruleset that includes third-party rules and new rules --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:48:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/16">16</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-cfa0d1a0</id>
+    <lines>42-42</lines>
+    <body>Setup java8 for inspection during CI/CD by CodeQL tool</body>
+    <file>.github/workflows/codeql-analysis.yml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-07T12:55:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/33" closed="2022-01-25T21:08:36+00:00">33</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-e6044bbd</id>
+    <lines>34-34</lines>
+    <body>Remove this class once any API class added to the classpath.</body>
+    <file>src/main/java/io/github/dgroup/arch4u/pmd/ToString.java</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-22T14:43:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/36" closed="2022-02-07T21:45:12+00:00">36</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-70551f03</id>
+    <lines>32-32</lines>
+    <body>Write an instruction how to add arch4u rules to your gradle and maven projects --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-22T15:10:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/47">47</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-cbd9294a</id>
+    <lines>34-34</lines>
+    <body>GuardLogStatement: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/48" closed="2022-02-08T20:38:27+00:00">48</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-f166bfda</id>
+    <lines>36-36</lines>
+    <body>JUnitAssertionsShouldIncludeMessage: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/49">49</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-71c809fa</id>
+    <lines>47-47</lines>
+    <body>LawOfDemeter: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/50">50</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-287c52fb</id>
+    <lines>48-48</lines>
+    <body>UseObjectForClearerAPI: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-98a1620e</id>
+    <lines>49-49</lines>
+    <body>AvoidCatchingGenericException: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7a64a11a</id>
+    <lines>50-50</lines>
+    <body>SignatureDeclareThrowsException: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/55">55</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-15c4aeea</id>
+    <lines>51-51</lines>
+    <body>ExcessiveImports: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/56">56</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-6c748374</id>
+    <lines>52-52</lines>
+    <body>LoosePackageCoupling: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/57">57</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-48ee7d25</id>
+    <lines>82-82</lines>
+    <body>UseConcurrentHashMap: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/58">58</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-87bdbb0c</id>
+    <lines>90-90</lines>
+    <body>BeanMembersShouldSerialize: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/59">59</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-27367a79</id>
+    <lines>91-91</lines>
+    <body>AvoidDuplicateLiterals: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/60">60</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b715b35a</id>
+    <lines>92-92</lines>
+    <body>MissingSerialVersionUID: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T13:11:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/61" closed="2022-02-04T20:06:13+00:00">61</issue>
+    <ticket>28</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>28-822008ce</id>
+    <lines>8-8</lines>
+    <body>Define the rule related to @Timed annotation here. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/monitoring/arch4u-micrometer-ruleset.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T14:01:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/62" closed="2022-02-07T19:05:57+00:00">62</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-b245d2b6</id>
+    <lines>10-10</lines>
+    <body>io.micrometer.core.annotation.Timed should receive metric name as a string constant, not a string literal</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/monitoring/arch4u-micrometer-ruleset.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-01-30T14:01:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/66" closed="2022-02-03T22:46:26+00:00">66</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-94d5ff38</id>
+    <lines>33-33</lines>
+    <body>Check 'since' attribute, it should be 0.1.0 (not 0.4.0) everywhere before we release 0.1.0 --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/api/arch4u-rest-ruleset.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-03T22:42:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/89" closed="2022-02-11T00:11:51+00:00">89</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-7da84a11</id>
+    <lines>28-28</lines>
+    <body>Define format for all GitHub discussion items and change all existing in order to follow defined standard. --&gt;</body>
+    <file>pom.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-08T21:12:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/90">90</issue>
+    <ticket>DEV</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>DEV-ad412017</id>
+    <lines>50-50</lines>
+    <body>OnlyOneReturn: deep investigation is needed regarding purpose and goal of this this rule. Potentially improvement is needed. --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-08T21:12:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/91" closed="2022-02-10T21:31:33+00:00">91</issue>
+    <ticket>27</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>27-2eac4826</id>
+    <lines>58-58</lines>
+    <body>category/java/design.xml - add rules details in table defined in readme.md --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>@dgroup</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-08T21:12:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/92" closed="2022-02-10T20:49:10+00:00">92</issue>
+    <ticket>27</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>27-723e5b53</id>
+    <lines>83-83</lines>
+    <body>category/java/documentation.xml - add rules details in table defined in readme.md --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-08T21:12:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/93" closed="2022-02-10T20:32:57+00:00">93</issue>
+    <ticket>27</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>27-b019badb</id>
+    <lines>95-95</lines>
+    <body>category/java/multithreading.xml - add rules details in table defined in readme.md --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-08T21:12:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/94" closed="2022-02-10T20:21:07+00:00">94</issue>
+    <ticket>27</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>27-9f14fd6e</id>
+    <lines>100-100</lines>
+    <body>category/java/performance.xml - add rules details in table defined in readme.md --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-08T21:12:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/95" closed="2022-02-11T20:56:14+00:00">95</issue>
+    <ticket>27</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>27-17080526</id>
+    <lines>103-103</lines>
+    <body>category/java/security.xml - add rules details in table defined in readme.md --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-08T21:12:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/dgroup/arch4u-pmd/issues/96" closed="2022-02-11T22:34:09+00:00">96</issue>
+    <ticket>27</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>27-cce94152</id>
+    <lines>106-106</lines>
+    <body>category/java/errorprone.xml - add rules details in table defined in readme.md --&gt;</body>
+    <file>src/main/resources/io/github/dgroup/arch4u/pmd/thirdparty/arch4u-recommended-third-party-ruleset.xml</file>
+    <author>Yurii Dubinka</author>
+    <email>yurii.dubinka@gmail.com</email>
+    <time>2022-02-08T21:12:36Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

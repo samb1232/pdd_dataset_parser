@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2024-07-17T04:29:42+00:00">
+  <puzzle alive="true">
+    <issue href="https://github.com/jcabi/jcabi-parent/issues/487">487</issue>
+    <ticket>1307</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1307-f30066ce</id>
+    <lines>1310-1316</lines>
+    <body>Should be removed after updating all dependent projects to jakarta namespace. The following packages should also be removed: org.glassfish:javax.json javax.ws.rs:jsr311-api javax.xml.bind:jaxb-api javax.servlet:javax.servlet-api</body>
+    <file>pom.xml</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-07-17T03:36:04Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

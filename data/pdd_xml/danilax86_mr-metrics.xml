@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-04-26T08:23:55+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/10" closed="2025-04-26T08:23:55+00:00">10</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-55c42310</id>
+    <lines>1-1</lines>
+    <body>Add license for each file</body>
+    <file>cmd/app/main.go</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-09T10:51:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/12">12</issue>
+    <ticket>6</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>6-1fac0332</id>
+    <lines>16-16</lines>
+    <body>turn on depguard linter</body>
+    <file>.golangci.yml</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-09T11:46:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/13">13</issue>
+    <ticket>8</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>8-0c360204</id>
+    <lines>21-21</lines>
+    <body>turn on err113 linter</body>
+    <file>.golangci.yml</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-09T11:46:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/14">14</issue>
+    <ticket>7</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>7-a3711b10</id>
+    <lines>22-22</lines>
+    <body>turn on errcheck linter</body>
+    <file>.golangci.yml</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-09T11:46:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/15">15</issue>
+    <ticket>4</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>4-8ce25729</id>
+    <lines>63-63</lines>
+    <body>turn on lll linter</body>
+    <file>.golangci.yml</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-09T11:46:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/16">16</issue>
+    <ticket>3</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>3-50f224c4</id>
+    <lines>76-76</lines>
+    <body>turn on noctx linter</body>
+    <file>.golangci.yml</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-09T11:46:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/17">17</issue>
+    <ticket>5</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>5-4536638d</id>
+    <lines>89-89</lines>
+    <body>turn on rowserrcheck linter</body>
+    <file>.golangci.yml</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-09T11:46:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/18">18</issue>
+    <ticket>2</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>2-e55a1a34</id>
+    <lines>110-110</lines>
+    <body>turn on wrapcheck linter</body>
+    <file>.golangci.yml</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-09T11:46:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/23" closed="2025-02-11T20:32:05+00:00">23</issue>
+    <ticket>19</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>19-5bccbe84</id>
+    <lines>27-28</lines>
+    <body>isolate gitlab client with some interface only for GetMergedMRCounts function, it is not needed for now, but it is a better approach to do so and a must be done in future anyway.</body>
+    <file>internal/service/updater/updater.go</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-11T20:26:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/25" closed="2025-02-11T20:35:46+00:00">25</issue>
+    <ticket>19</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>19-ed772350</id>
+    <lines>27-28</lines>
+    <body>isolate gitlab client with some interface only for GetMergedMRCounts function, it is not needed for now, but it is a better approach to do so and must be done in future anyway.</body>
+    <file>internal/service/updater/updater.go</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-11T20:32:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/danilax86/mr-metrics/issues/27" closed="2025-02-11T20:40:46+00:00">27</issue>
+    <ticket>26</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>26-ed772350</id>
+    <lines>27-28</lines>
+    <body>isolate gitlab client with some interface only for GetMergedMRCounts function, it is not needed for now, but it is a better approach to do so and must be done in future anyway.</body>
+    <file>internal/service/updater/updater.go</file>
+    <author>@danilax86</author>
+    <email>hello@danilax86.space</email>
+    <time>2025-02-11T20:35:41Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,884 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-09-28T05:48:05+00:00" version="0.30.18">
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/117">117</issue>
+    <ticket>85</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>85-5b8190cf</id>
+    <lines>130-131</lines>
+    <body>- refactor autocomplete view common view class should know nothing about search entities</body>
+    <file>search/views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-03-01T15:46:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/118" closed="2018-05-22T15:26:03+00:00">118</issue>
+    <ticket>85</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>85-cd2a1d57</id>
+    <lines>20-21</lines>
+    <body>Create fixtures for tests now we have huge code doubling</body>
+    <file>tests/search/test_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-03-01T15:46:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/119">119</issue>
+    <ticket>85</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>85-01b685cc</id>
+    <lines>72-74</lines>
+    <body>- Fix search results order Search results with leading term in result text should go before other results</body>
+    <file>tests/search/test_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-03-01T15:46:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/136" closed="2018-07-22T06:19:16+00:00">136</issue>
+    <ticket>343</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>343-7b06e173</id>
+    <lines>8-8</lines>
+    <body>Use custom_page_url for every custom page route.</body>
+    <file>tests/pages/urls.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-06-21T00:07:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/151" closed="2018-07-23T11:01:33+00:00">151</issue>
+    <ticket>140</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>140-694a3b50</id>
+    <lines>1-2</lines>
+    <body>Move test case to custom redirects app You can find example at SE's tests_views.Redirects app</body>
+    <file>tests/refarm_redirects/test_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-07-22T06:19:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/152">152</issue>
+    <ticket>140</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>140-e3f06142</id>
+    <lines>65-67</lines>
+    <body>Use `refarm-site's` packages with it's prefix. For example do `INSTALLED_APPS = ['refarm-site.pages', ...]` instead of just `['pages']`.</body>
+    <file>tests/test_settings.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-07-22T01:10:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/154">154</issue>
+    <ticket>360</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>360-25169cf6</id>
+    <lines>14-16</lines>
+    <body>Remove hardcoded fixture data. Replace `url_from` and `url_to` with urls, generated from db. It'll be much more short and clear.</body>
+    <file>tests/refarm_redirects/test_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-07-23T11:01:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/155">155</issue>
+    <ticket>360</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>360-caeda8fe</id>
+    <lines>30-34</lines>
+    <body>Add db constraint for looped redirect. Example of looped redirect: `/news/one-two/ --&gt; /news/one-two/` `60m` because schema and data migrations are needed. And fix test.</body>
+    <file>tests/refarm_redirects/test_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-07-23T11:01:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/159">159</issue>
+    <ticket>131</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>131-d561a8f9</id>
+    <lines>13-13</lines>
+    <body>Move seo-templates doc to md file in cvs.</body>
+    <file>pages/README.md</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-08-14T05:37:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/164" closed="2018-09-24T15:04:38+00:00">164</issue>
+    <ticket>162</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>162-3bc95923</id>
+    <lines>293-293</lines>
+    <body>Move serialize_tags to TagQuerySet's method</body>
+    <file>catalog/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-08-25T08:05:26Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/169" closed="2018-09-24T08:40:44+00:00">169</issue>
+        <ticket>164</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>164-e0477b7f</id>
+        <lines>126-127</lines>
+        <body>Rm ProductManager.get_active() method Use ProductActiveManager instead</body>
+        <file>catalog/models.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-08-27T09:28:38Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/165" closed="2018-08-30T14:17:53+00:00">165</issue>
+    <ticket>162</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>162-e3264da6</id>
+    <lines>246-247</lines>
+    <body>Create fixtures for refarm tests. Then move TagModel tests from SE to refarm.</body>
+    <file>tests/catalog/test_models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-08-25T08:05:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/166">166</issue>
+    <ticket>162</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>162-13b68231</id>
+    <lines>48-50</lines>
+    <body>Create fixtures for tags. Copy from SE all tags fixtures creation logic. Then move `shopelectro.tests.tests_models.TagModel` to this class.</body>
+    <file>tests/catalog/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-08-25T08:05:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/175" closed="2018-10-15T12:27:52+00:00">175</issue>
+    <ticket>556</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>556-ee934954</id>
+    <lines>1-1</lines>
+    <body>Create unit tests for pagination classes.</body>
+    <file>tests/refarm_pagination/test_pagination.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2018-09-05T22:11:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/179">179</issue>
+    <ticket>168</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>168-f08f9547</id>
+    <lines>349-350</lines>
+    <body>Move `Tags.parse_url_tags` Tags context. Depends on se#567</body>
+    <file>catalog/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-12T06:00:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/181" closed="2018-10-17T13:14:41+00:00">181</issue>
+    <ticket>550</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>550-87015712</id>
+    <lines>83-83</lines>
+    <body>Split to ProductImagesContext and ProductBrandContext</body>
+    <file>catalog/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-17T09:55:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/182" closed="2018-10-17T13:14:42+00:00">182</issue>
+    <ticket>550</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>550-f02726e9</id>
+    <lines>88-89</lines>
+    <body>Move prepare_tile_products func to context Now it's separated function with huge of inconsistent queryset deps.</body>
+    <file>catalog/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-17T09:55:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/197" closed="2018-11-02T10:57:36+00:00">197</issue>
+        <ticket>182</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>182-0e795671</id>
+        <lines>83-84</lines>
+        <body>Move prepare_tile_products to ProductBrandContext. ProductImages is already forked.</body>
+        <file>catalog/context.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-10-17T13:14:32Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/198" closed="2018-11-02T10:57:37+00:00">198</issue>
+        <ticket>182</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>182-b72b72d4</id>
+        <lines>225-226</lines>
+        <body>Customize `prepare_tile_products` for every site Inherit this class at every site.</body>
+        <file>catalog/context.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-10-17T13:14:32Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/199" closed="2018-12-04T09:51:25+00:00">199</issue>
+        <ticket>182</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>182-e00fc42b</id>
+        <lines>87-91</lines>
+        <body>Resolve Model.objects field resolution order `assert(isinstance(Page.objects, PageManager))` is `False` now. See `shopelectro.sitemaps.PagesSitemap` for failed code example. Fix `shopelectro.models.Category.objects_` too. Fix `shopelectro.models.ExcludedModelTPage.objects_` too.</body>
+        <file>pages/models.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-10-17T13:14:32Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/183">183</issue>
+    <ticket>550</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>550-c08f412e</id>
+    <lines>117-121</lines>
+    <body>Move context realization to pure to objects composition. Discussed some thoughts with Artemiy via call. Artemiy will do it. For example SortedCategory should consist of separated SortedList and Category classes/objects.</body>
+    <file>catalog/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-17T09:55:40Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/207" closed="2018-11-13T21:06:08+00:00">207</issue>
+        <ticket>183</ticket>
+        <estimate>120</estimate>
+        <role>DEV</role>
+        <id>183-d6341b3e</id>
+        <lines>1-1</lines>
+        <body>Implement Page, PaginatedProducts, ProductBrands, ProductsImages context classes.</body>
+        <file>catalog/context/__init__.py</file>
+        <author>Artemiy</author>
+        <email>wertins71@gmail.com</email>
+        <time>2018-11-04T14:55:54Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/refarm-site/issues/213" closed="2018-12-31T18:32:53+00:00">213</issue>
+            <ticket>207</ticket>
+            <estimate>120</estimate>
+            <role>DEV</role>
+            <id>207-854acb10</id>
+            <lines>1-1</lines>
+            <body>Implement Page, PaginatedProducts context classes.</body>
+            <file>catalog/newcontext/__init__.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2018-11-13T21:05:59Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/fidals/refarm-site/issues/239">239</issue>
+                <ticket>213</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>213-1f036833</id>
+                <lines>2-3</lines>
+                <body>Remove mocked Context classes. Wait for fixtures of Tag models to implement this.</body>
+                <file>tests/catalog/test_context.py</file>
+                <author>@artemiy312</author>
+                <email>wertins71@gmail.com</email>
+                <time>2018-12-31T18:32:45Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/refarm-site/issues/240" closed="2019-03-15T06:00:03+00:00">240</issue>
+            <ticket>207</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>207-f1b71ce7</id>
+            <lines>1-1</lines>
+            <body>Implement Page context class.</body>
+            <file>catalog/newcontext/__init__.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2018-12-31T18:32:45Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/fidals/refarm-site/issues/267" closed="2019-03-16T06:28:39+00:00">267</issue>
+                <ticket>240</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>240-cb4ad3dc</id>
+                <lines>104-108</lines>
+                <body>Improve DB templates (and views) tests. Move them to separated module. Rename theirs `test_display` prefix. Separate them on small pieces. Add test for `display.Page` with passing context.</body>
+                <file>tests/pages/test_models.py</file>
+                <author>@duker33</author>
+                <email>duker33@gmail.com</email>
+                <time>2019-02-14T08:28:56Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/fidals/refarm-site/issues/268" closed="2019-04-03T15:03:06+00:00">268</issue>
+                <ticket>240</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>240-ac87cf5b</id>
+                <lines>6-8</lines>
+                <body>Create TextView class. Instead of render_str method. And inherit `pages.db_views.Page` from this class.</body>
+                <file>pages/utils.py</file>
+                <author>duker33</author>
+                <email>duker33@gmail.com</email>
+                <time>2019-02-14T08:28:56Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/fidals/refarm-site/issues/269">269</issue>
+                <ticket>240</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>240-41ca8b76</id>
+                <lines>26-26</lines>
+                <body>Create usage doc for page view.</body>
+                <file>pages/display.py</file>
+                <author>duker33</author>
+                <email>duker33@gmail.com</email>
+                <time>2019-02-14T08:28:56Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/refarm-site/issues/241" closed="2019-03-15T06:00:04+00:00">241</issue>
+            <ticket>207</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>207-ec3d38b3</id>
+            <lines>3-3</lines>
+            <body>Annotate methods of Context implementations.</body>
+            <file>catalog/newcontext/__init__.py</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2018-12-31T18:32:45Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/208" closed="2018-11-16T08:15:50+00:00">208</issue>
+        <ticket>183</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>183-a9ba47b7</id>
+        <lines>101-101</lines>
+        <body>Try to remove `ordering` arg from ProductQuerySet.get_by_category</body>
+        <file>catalog/models.py</file>
+        <author>Artemiy</author>
+        <email>wertins71@gmail.com</email>
+        <time>2018-11-04T14:55:54Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/184" closed="2018-10-17T13:14:44+00:00">184</issue>
+    <ticket>550</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>550-6e482196</id>
+    <lines>223-224</lines>
+    <body>Take `view_type` value from dataclass. Depends on updating to python3.7</body>
+    <file>catalog/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-17T09:55:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/185" closed="2018-09-24T15:04:39+00:00">185</issue>
+    <ticket>550</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>550-79bb63d1</id>
+    <lines>259-260</lines>
+    <body>Move `TaggedCategory.get_tags` to property. As in `products` property case.</body>
+    <file>catalog/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-17T09:55:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/186" closed="2018-11-04T14:55:59+00:00">186</issue>
+    <ticket>550</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>550-035b850e</id>
+    <lines>283-284</lines>
+    <body>Try to rm sorting staff from context.TaggedCategory. Or explain again why it's impossible. Now it's not clear from comment.</body>
+    <file>catalog/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-17T09:55:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/189">189</issue>
+    <ticket>187</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>187-26ce6496</id>
+    <lines>440-441</lines>
+    <body>Uncomment the if_404 check for empty products list. To do it fix stb tests to cover this case.</body>
+    <file>catalog/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-09-22T12:55:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/224">224</issue>
+    <ticket>STB374</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>STB374-01960267</id>
+    <lines>255-259</lines>
+    <body>Move tag's value to separated field. Now we have fields like `tag.name == '10 &#x43C;'`. But should have smth like this: `tag.value, tag.group.measure, tag.label == 10, '&#x43C;', '10 &#x43C;'`. Right now we should do dirty hacks for tags comparing mech.</body>
+    <file>catalog/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-17T09:40:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/227" closed="2018-12-31T20:02:30+00:00">227</issue>
+    <ticket>STB296</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>STB296-d24da08f</id>
+    <lines>12-17</lines>
+    <body>Generate image file name with hash. Now generation uses timestamp. It breaks media&lt;-&gt;fixtures consistency. See comment for details: https://github.com/fidals/stroyprombeton/issues/296#issuecomment-447770194 And test absolute filename generation.</body>
+    <file>images/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-18T18:24:29Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/refarm-site/issues/242">242</issue>
+        <ticket>227</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>227-534526f4</id>
+        <lines>109-113</lines>
+        <body>Explore additional hash. Now autosaved file has this pattern `&lt;md5&gt;_dTy2ykr.jpg` but should have this one: `&lt;md5&gt;.jpg`. ManifestStaticFilesStorage adds redundant hash after md5. Make the storage to remove this hash.</body>
+        <file>tests/images/tests.py</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-12-31T20:02:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/228" closed="2018-12-27T16:40:22+00:00">228</issue>
+    <ticket>SE619</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>SE619-2b30c42e</id>
+    <lines>134-134</lines>
+    <body>Use fixtures at ecommerce tests</body>
+    <file>tests/ecommerce/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-20T07:00:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/229" closed="2018-12-27T16:40:23+00:00">229</issue>
+    <ticket>SE619</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>SE619-a95dbe3f</id>
+    <lines>156-156</lines>
+    <body>Test if order sends mails</body>
+    <file>tests/ecommerce/tests_views.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-20T07:00:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/230" closed="2018-12-27T16:40:24+00:00">230</issue>
+    <ticket>SE619</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>SE619-5f380a04</id>
+    <lines>83-84</lines>
+    <body>Move Page's const to it's ancestor And rename it from `_URL_` to `_ROUTE_`</body>
+    <file>pages/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2018-12-20T07:00:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/235" closed="2019-03-01T14:03:48+00:00">235</issue>
+        <ticket>230</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>230-5492e443</id>
+        <lines>11-11</lines>
+        <body>Drop `dj_database_url` dependency.</body>
+        <file>tests/test_settings.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-12-27T16:40:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/refarm-site/issues/236">236</issue>
+        <ticket>230</ticket>
+        <estimate>120</estimate>
+        <role>DEV</role>
+        <id>230-58229d8b</id>
+        <lines>75-77</lines>
+        <body>Create base class for `create_fixtures`. And use it for refarm and every site. Sites now call it `test_db` instead `create_fixtures`.</body>
+        <file>tests/management/commands/create_fixtures.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-12-27T16:40:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/refarm-site/issues/237">237</issue>
+        <ticket>230</ticket>
+        <estimate>120</estimate>
+        <role>DEV</role>
+        <id>230-edd9709f</id>
+        <lines>80-80</lines>
+        <body>Use fixtures in every test.</body>
+        <file>tests/management/commands/create_fixtures.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2018-12-27T16:40:09Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/261" closed="2019-04-04T09:23:21+00:00">261</issue>
+    <ticket>257</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>257-457f55e0</id>
+    <lines>143-146</lines>
+    <body>Document terms Product, Position and Option Seems the best way is to do it with subclassing. Such documentation will clarify types and will be obvious for programmers. But check the docs too. May be some of this terms are mentioned there.</body>
+    <file>catalog/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-11T12:20:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/318" closed="2019-04-05T07:09:17+00:00">318</issue>
+        <ticket>261</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>261-a4b1299c</id>
+        <lines>145-145</lines>
+        <body>Use the new catalog arch at sites.</body>
+        <file>catalog/models.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-04-04T09:23:12Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/266" closed="2019-03-15T06:00:07+00:00">266</issue>
+    <ticket>255</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>255-b02f6e0d</id>
+    <lines>4-8</lines>
+    <body>Improve `PaginationContext` interface. It's not clear now. For example client should know the class context details to fetch objects iterable. See `catalog.newcontext.products.PaginatedProducts#qs`.</body>
+    <file>refarm_pagination/context.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-14T08:15:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/281">281</issue>
+    <ticket>279</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>279-0ee8f67e</id>
+    <lines>26-27</lines>
+    <body>Fix PDD linter from CI pipeline. It missed the wrong formatted task. See the parent task for details.</body>
+    <file>ecommerce/views.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-02-21T21:43:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/282" closed="2019-02-24T00:32:44+00:00">282</issue>
+    <ticket>273</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>273-db0487f5</id>
+    <lines>230-230</lines>
+    <body>Apply new order_by_alphanumeric for SE/STB.</body>
+    <file>catalog/models.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-02-21T21:12:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/fidals/refarm-site/issues/294" closed="2019-03-01T14:03:49+00:00">294</issue>
+        <ticket>282</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>282-04c8f0f2</id>
+        <lines>252-252</lines>
+        <body>Rename get_group_tags_pairs to group_tags</body>
+        <file>catalog/models.py</file>
+        <author>Artemiy</author>
+        <email>wertins71@gmail.com</email>
+        <time>2019-02-24T00:32:37Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/283" closed="2019-02-22T19:17:48+00:00">283</issue>
+    <ticket>273</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>273-b2ae754f</id>
+    <lines>232-232</lines>
+    <body>Create an index for order_by_alphanumeric query.</body>
+    <file>catalog/models.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-02-21T21:12:51Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/refarm-site/issues/292">292</issue>
+        <ticket>283</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>283-e5be1cbf</id>
+        <lines>3-3</lines>
+        <body>Group models.py, models_operations.py, models_expressions.py into the module.</body>
+        <file>catalog/models_operations.py</file>
+        <author>@artemiy312</author>
+        <email>wertins71@gmail.com</email>
+        <time>2019-02-22T19:17:42Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/fidals/refarm-site/issues/129" closed="2018-09-05T22:11:57+00:00">129</issue>
+            <ticket>292</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>292-ba927d60</id>
+            <lines>1-1</lines>
+            <body>Integrate trackers to STB and SE</body>
+            <file>ecommerce/front/trackers.es6</file>
+            <author>Artemiy</author>
+            <email>wertins71@gmail.com</email>
+            <time>2018-06-05T13:17:58Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/287" closed="2019-03-03T14:03:42+00:00">287</issue>
+    <ticket>SE742</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>SE742-b29cbe0a</id>
+    <lines>137-138</lines>
+    <body>Fix display issue with shared context. See the test below for details.</body>
+    <file>tests/pages/test_models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-22T10:45:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/291" closed="2019-02-24T00:32:46+00:00">291</issue>
+    <ticket>SE747</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>SE747-53839270</id>
+    <lines>256-258</lines>
+    <body>Rm `get_group_tags_pairs`. Use `get_grouped_tags -&gt; Dict[Group, List[Tag]]` instead. Tags pairs already lead us to errors with groups order.</body>
+    <file>catalog/models.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-02-22T19:02:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/305">305</issue>
+    <ticket>302</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>302-f7a387f9</id>
+    <lines>287-287</lines>
+    <body>Process more special symbols for slugs.</body>
+    <file>tests/catalog/test_models.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-06T19:04:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/306">306</issue>
+    <ticket>302</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>302-40867787</id>
+    <lines>226-227</lines>
+    <body>Resolve slug code doubling. See `TagGroup.slug` and `Tag._get_slug`.</body>
+    <file>catalog/models.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-06T19:04:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/308">308</issue>
+    <ticket>255</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>255-bee8a1f0</id>
+    <lines>4-8</lines>
+    <body>Improve `PaginationContext` interface. It's not clear now. For example client should know the class context details to fetch objects iterable. See `catalog.context.products.PaginatedProducts#qs`.</body>
+    <file>refarm_pagination/context.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-03-15T05:59:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/316">316</issue>
+    <ticket>stb-537</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>stb-537-a8b24119</id>
+    <lines>53-54</lines>
+    <body>Create a class instead this function. See there for details: https://github.com/fidals/refarm-site/pull/315/files#r270500698</body>
+    <file>search/search.py</file>
+    <author>Artemiy</author>
+    <email>wertins71@gmail.com</email>
+    <time>2019-03-29T17:36:23Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/fidals/refarm-site/issues/337">337</issue>
+    <ticket>331</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>331-cd71fc19</id>
+    <lines>4-10</lines>
+    <body>Implement the new arch at the search app. All you need is to implement ContextsStack class and place the other classes to the relevant places. `search.search` module will be fully rewritten. You also can drop away starting_by_term functionality. See "is_name_start_by_term" aggregation parameter inside search.search.search function.</body>
+    <file>search/arch_draft.py</file>
+    <author>@duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-05-31T12:05:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/fidals/refarm-site/issues/345" closed="2019-09-23T09:59:38+00:00">345</issue>
+    <ticket>343</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>343-4255fdd0</id>
+    <lines>20-22</lines>
+    <body>Implement Breadcrumbs class. Use it instead of monolithic logic at the `breadcrumbs_with_siblings`. Create Breadcrumb class or named tuple to specify crumb data structure.</body>
+    <file>pages/logic/page.py</file>
+    <author>duker33</author>
+    <email>duker33@gmail.com</email>
+    <time>2019-09-20T07:38:24Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/refarm-site/issues/347">347</issue>
+        <ticket>345</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>345-5d25d7b3</id>
+        <lines>89-89</lines>
+        <body>Test crumbs siblings.</body>
+        <file>tests/catalog/test_views.py</file>
+        <author>@duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-09-23T09:59:30Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/fidals/refarm-site/issues/348">348</issue>
+        <ticket>345</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>345-e32a958e</id>
+        <lines>14-18</lines>
+        <body>Refold catalog pages in DB. In both fixtures and local DB. Implement this pages structure: - each(category_roots).parent == CustomPage.get('catalog') - CustomPage.get('catalog').parent == CustomPage.get('index')</body>
+        <file>pages/templatetags/pages_extras.py</file>
+        <author>duker33</author>
+        <email>duker33@gmail.com</email>
+        <time>2019-09-23T09:59:30Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+</puzzles>

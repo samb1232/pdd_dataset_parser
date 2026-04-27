@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-08-03T03:46:24+00:00" version="0.31.9">
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/eo-json/issues/18">18</issue>
+    <ticket>17</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>17-6d1326a8</id>
+    <lines>61-63</lines>
+    <body>Test fails on CI. For some reason this test fails on github CI with stackoverflow exception. Need to find the reason and resolve it. Also check json-as-string-large-test test which failed on codecov CI.</body>
+    <file>src/test/eo/org/eolang/jsn/json-object-test.eo</file>
+    <author>@maxonfjvipon</author>
+    <email>mtrunnikov@gmail.com</email>
+    <time>2023-07-31T21:08:36Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

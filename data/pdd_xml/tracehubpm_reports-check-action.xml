@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-04-09T15:12:57+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/tracehubpm/reports-check-action/issues/62">62</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-002eeb54</id>
+    <lines>7-12</lines>
+    <body>Enable "ranges the snippet" test. Its broken for now, probably due inability to properly read the `program` content. Besides we must note that the expected todo &lt;a href="https://github.com/tracehubpm/reports-check-action/actions/runs/8389464801/job/22975734145?pr=61" can be detected&gt; as "puzzle duplicate on CI environment". We should fix it and enable the test. Don't forget to remove this puzzle.</body>
+    <file>tests/ranged.test.ts</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-03-22T11:23:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/tracehubpm/reports-check-action/issues/63">63</issue>
+    <ticket>2718</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>2718-91412c50</id>
+    <lines>78-82</lines>
+    <body>One snippets is disabled now, in the "src/test/resources/snippets/*.yaml". It needs "sprintf" object in objectionary (fibo.yaml). When "sprintf" is in objectionary again - we need to enable it (by removing the "skip" attribute from the YAML file).</body>
+    <file>tests/ranged.test.ts</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-03-22T11:23:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/reports-check-action/issues/73" closed="2024-04-09T15:12:57+00:00">73</issue>
+    <ticket>69</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>69-bb4151df</id>
+    <lines>153-156</lines>
+    <body>Resolve huge code duplication when proceeding chain-of-thought. For now we have absolute the same code for both LLMs: ChatGPT and DeepInfra. Would be good to resolve this code duplication at this level in order to make this piece of code a bit more maintainable and logic-scalable.</body>
+    <file>src/main.ts</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-04-08T08:01:38Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-12-06T13:46:38+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/21">21</issue>
+    <ticket>250</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>250-1b26b28c</id>
+    <lines>42-52</lines>
+    <body>Maven-duplicate-finder-plugin should support exclusions. Let's add exclusions of following formats (examples): - duplicate:about.html - duplicate:org.eclipse.sisu:org.eclipse.sisu.plexus:0.0.0.M5 - duplicate:org.codehaus.groovy.ast.expr.RegexExpression - duplicate:org.eclipse.sisu:org.eclipse.sisu.plexus:0.0.0.M5 |xml-apis:xml-apis:1.0.0|about.html - duplicate:org.eclipse.sisu:org.eclipse.sisu.plexus:0.0.0.M5 |xml-apis:xml-apis:1.0.0|org.w3c.dom.UserDataHandler See https://github.com/tpc2/qulice/issues/152#issuecomment-39028953 and https://github.com/teamed/qulice/issues/250 for details</body>
+    <file>qulice-maven-plugin/src/main/java/com/qulice/maven/DuplicateFinderValidator.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/22">22</issue>
+    <ticket>250</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>250-bd6aad88</id>
+    <lines>57-59</lines>
+    <body>Fix a problem with maven configuration of duplicate finder plugin in commented out code below, and enable duplicate-finder-ignore-deps IT in pom.xml.</body>
+    <file>qulice-maven-plugin/src/main/java/com/qulice/maven/DuplicateFinderValidator.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/23">23</issue>
+    <ticket>123</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>123-1f09aa3b</id>
+    <lines>41-42</lines>
+    <body>Make this better in multiple lines but different.</body>
+    <file>qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Brackets.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/24">24</issue>
+    <ticket>123</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>123-b644cf22</id>
+    <lines>64-65</lines>
+    <body>Make this better in multiple lines.</body>
+    <file>qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Brackets.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/26">26</issue>
+    <ticket>123</ticket>
+    <estimate>120</estimate>
+    <role>DEV</role>
+    <id>123-cfed8d02</id>
+    <lines>7-7</lines>
+    <body>This is also valid.</body>
+    <file>qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Pdd.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/27">27</issue>
+    <ticket>123</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>123-5357374c</id>
+    <lines>24-25</lines>
+    <body>Here we should capture also another line.</body>
+    <file>qulice-maven-plugin/src/it/checkstyle-violations/src/main/java/com/qulice/plugin/violations/Pdd.java</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/28">28</issue>
+    <ticket>1148</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1148-d8923598</id>
+    <lines>44-44</lines>
+    <body>Avoid branchContains usages in checks and delete this class</body>
+    <file>qulice-checkstyle/src/main/java/com/qulice/checkstyle/BranchContains.java</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/29">29</issue>
+    <ticket>738</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>738-5bee823d</id>
+    <lines>43-45</lines>
+    <body>Static inner classes should be qualified with outer class Implement QualifyInnerClassCheck so it follows what defined in QualifyInnerClassCheck test and add this check to checks.xml and CheckTest.</body>
+    <file>qulice-checkstyle/src/main/java/com/qulice/checkstyle/QualifyInnerClassCheck.java</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>1148</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1148-0feabb8c</id>
+    <lines>46-46</lines>
+    <body>Avoid equalsTree usages in checks and delete this class</body>
+    <file>qulice-checkstyle/src/main/java/com/qulice/checkstyle/EqualsTree.java</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>260</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>260-dc51e6f4</id>
+    <lines>48-49</lines>
+    <body>Add handling of multiple anonymous classes inside methods by looking at the recursive tree.</body>
+    <file>qulice-checkstyle/src/main/java/com/qulice/checkstyle/MethodBodyCommentsCheck.java</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>412</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>412-bd044e76</id>
+    <lines>57-59</lines>
+    <body>Split this class into smaller ones and remove PMD exclude `TooManyMethods`. Good candidates for moving out of this class are all that use `validateCheckstyle` method.</body>
+    <file>qulice-checkstyle/src/test/java/com/qulice/checkstyle/CheckstyleValidatorTest.java</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>447</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>447-94597ea9</id>
+    <lines>316-318</lines>
+    <body>Right now ConstantUsageCheck takes into account usage of constants inside method annotations, add handling of constants used in field and class annotations.</body>
+    <file>qulice-checkstyle/src/test/java/com/qulice/checkstyle/CheckstyleValidatorTest.java</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue>unknown</issue>
+    <ticket>61</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>61-61fa67ee</id>
+    <lines>459-461</lines>
+    <body>This test and passesWindowsEndsOfLineWithoutException should be refactored to gather log4j logs and validate that they work correctly. (see changes done in #61)</body>
+    <file>qulice-checkstyle/src/test/java/com/qulice/checkstyle/CheckstyleValidatorTest.java</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-08-16T12:29:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/eo-cqrs/qulice17/issues/52">52</issue>
+    <ticket>37</ticket>
+    <estimate>25</estimate>
+    <role>DEV</role>
+    <id>37-3c0d22e8</id>
+    <lines>310-311</lines>
+    <body>enable invoker projects --&gt; &lt;pomInclude&gt;dependency-violations-exclude/pom.xml&lt;/pomInclude&gt;--&gt;</body>
+    <file>qulice-maven-plugin/pom.xml</file>
+    <author>h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-12-06T13:26:28Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

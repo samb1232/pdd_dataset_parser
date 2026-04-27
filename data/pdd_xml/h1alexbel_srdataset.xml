@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-06-28T08:59:14+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/srdataset/issues/5" closed="2024-06-13T15:49:28+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-ddda9c7e</id>
+    <lines>31-35</lines>
+    <body>Create test script for the whole package. We should create a script that would run all tests we have. Let's try to copy the model from cam shell tests: https://github.com/yegor256/cam/tree/master/tests. Don't forget to remove this puzzle.</body>
+    <file>Makefile</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-05-28T05:52:05Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/srdataset/issues/9" closed="2024-06-17T13:33:54+00:00">9</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-347d3609</id>
+    <lines>26-29</lines>
+    <body>Compute CPD and RC metrics too. We need to compute CPD and RC metrics too, however for now we don't have the proper dataset after ghminer execution. Need to collect required data first, and then compute CPDs and RCs. Don't forget to remove this puzzle.</body>
+    <file>steps/metrics.py</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-06-06T09:34:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/srdataset/issues/43" closed="2024-06-24T18:08:42+00:00">43</issue>
+    <ticket>37</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>37-c1c0b2c2</id>
+    <lines>43-45</lines>
+    <body>Look for CLUSTER=true option in order to run clustering. We should run cluster.sh and zip.sh only if -e "CLUSTER=true" was passed inside the docker container. Don't forget to remove this puzzle.</body>
+    <file>Makefile</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-06-21T16:04:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/srdataset/issues/48">48</issue>
+    <ticket>29</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>29-4533b240</id>
+    <lines>31-35</lines>
+    <body>Generate embeddings for all the text in texts.csv. Some of the texts generated after textualize_repos.py cannot be processed on the embeddings endpoint that lead to raising decoding exception: 'json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)'. We should fix that and remove `head(500)` frame limitation.</body>
+    <file>steps/embed.py</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-06-27T11:43:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/srdataset/issues/49">49</issue>
+    <ticket>29</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>29-bbd95ea7</id>
+    <lines>55-57</lines>
+    <body>Language detection produces inaccurate results for mixed language text. We should fix that in order to filter out more repositories with non-english texts. Don't forget to remove this puzzle.</body>
+    <file>tests/test_english.py</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-06-27T11:43:42Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.0pdd.com/puzzles.xsd" date="2026-04-27T06:50:39+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/9">9</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-c076308a</id>
+    <lines>8-8</lines>
+    <body>think use junoKVClient in future for write redis response protocol ? */</body>
+    <file>unoKvServer/server.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/10">10</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-8daacd65</id>
+    <lines>69-69</lines>
+    <body>need ipv6 support for listen */</body>
+    <file>unoKvServer/server.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/11">11</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>ARCH</role>
+    <id>1-a09b5b64</id>
+    <lines>118-118</lines>
+    <body>need config settings, what right constant value ? */</body>
+    <file>unoKvServer/server.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/12">12</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-b847ee4c</id>
+    <lines>75-75</lines>
+    <body>need strong refactoring for Expire, what happening when we create too much timer? */</body>
+    <file>unoKvServer/cmd.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/13">13</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-9aa899e9</id>
+    <lines>125-125</lines>
+    <body>memory management need be more efficient */</body>
+    <file>unoKvServer/cmd.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/14">14</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-03da9929</id>
+    <lines>297-297</lines>
+    <body>need check for value size */</body>
+    <file>unoKvServer/cmd.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/15">15</issue>
+    <ticket>1</ticket>
+    <estimate>120</estimate>
+    <role>QA</role>
+    <id>1-31f5dc65</id>
+    <lines>8-8</lines>
+    <body>implements full key-value api test with miniredis */</body>
+    <file>unoKvClient/api_test.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/16">16</issue>
+    <ticket>1</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>1-e7fde89c</id>
+    <lines>37-37</lines>
+    <body>implement really async client */</body>
+    <file>unoKvClient/api.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/17">17</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>QA</role>
+    <id>1-c3b72236</id>
+    <lines>75-75</lines>
+    <body>anybody will read this code ? */</body>
+    <file>unoKvClient/api.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/18">18</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>ARCH</role>
+    <id>1-ebeab284</id>
+    <lines>83-83</lines>
+    <body>how to skip conversion from ...interface to interface ? */</body>
+    <file>unoKvClient/api.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/19">19</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-0bb4fb74</id>
+    <lines>118-118</lines>
+    <body>maybe replace int64 to int16 or int32 ? we need strong defence from out of memory */</body>
+    <file>unoKvClient/api.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/20">20</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>ARCH</role>
+    <id>1-2038a6ce</id>
+    <lines>125-125</lines>
+    <body>need best implementation for convert []interface{} to []string somebody please explain me WHAT this code do? */</body>
+    <file>unoKvClient/api.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/21">21</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-25f7d82e</id>
+    <lines>141-141</lines>
+    <body>maybe replace int64 to int16 or int32 ? we need strong defence from out of memory number 2 */</body>
+    <file>unoKvClient/api.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/Slach/test_tasks/issues/22">22</issue>
+    <ticket>1</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>1-43e1013b</id>
+    <lines>148-148</lines>
+    <body>maybe replace int64 to int16 or int32 ? we need strong defence from out of memory number 3 */</body>
+    <file>unoKvClient/api.go</file>
+    <author>Eugene Klimov</author>
+    <email>bloodjazman@gmail.com</email>
+    <time>2017-06-07T13:04:11Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

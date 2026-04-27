@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-07-10T22:27:33+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/3" closed="2020-07-05T02:31:37+00:00">3</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-07878260</id>
+    <lines>6-6</lines>
+    <body>Add the build badge for PDD. I added 0pdd as a contributor, maybe it will work now?</body>
+    <file>scripts/pre-commit-filter.sh</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-04T23:37:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/4" closed="2020-07-05T02:58:15+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-62c425c0</id>
+    <lines>75-75</lines>
+    <body>Run serverside pdd as a github action so that I can better troubleshoot issues with puzzles not being created.</body>
+    <file>README.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T02:18:39Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/5" closed="2020-07-05T02:52:33+00:00">5</issue>
+        <ticket>4</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>4-562292ae</id>
+        <lines>90-90</lines>
+        <body>Should maybe have a precommit hook as well?</body>
+        <file>README.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T02:34:20Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/8" closed="2020-07-05T04:42:09+00:00">8</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-385cb527</id>
+    <lines>1-1</lines>
+    <body>Create a github workflow for pdd</body>
+    <file>.github/workflows/pdd.yml</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T04:32:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/15" closed="2020-07-05T16:31:06+00:00">15</issue>
+    <ticket>9</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>9-ca3c2712</id>
+    <lines>31-31</lines>
+    <body>Create documentation for what embedme does with how to set it up and examples.</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T04:54:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/16" closed="2020-07-05T16:35:18+00:00">16</issue>
+    <ticket>10</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>10-9fb7f868</id>
+    <lines>35-35</lines>
+    <body>Create documentation for what slate is, how to install it, run it locally, and view it published.</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T05:01:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/17" closed="2020-07-05T20:47:08+00:00">17</issue>
+    <ticket>11</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>11-9dbca942</id>
+    <lines>39-39</lines>
+    <body>Show process for embedding lucid charts into the slate document.</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T05:01:38Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/26" closed="2020-07-05T22:53:33+00:00">26</issue>
+        <ticket>17</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>17-f3c16711</id>
+        <lines>27-27</lines>
+        <body>Figure out how to center this document within it's pane so it isn't scewed left.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T20:46:42Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/27" closed="2020-07-05T21:04:20+00:00">27</issue>
+        <ticket>17</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>17-dfed2056</id>
+        <lines>160-160</lines>
+        <body>Create the problem, solution and example blocks.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T20:46:42Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/28" closed="2020-07-05T22:11:28+00:00">28</issue>
+        <ticket>17</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>17-6e4f27f0</id>
+        <lines>162-162</lines>
+        <body>Add screenshots (bonus points for gif) of how to add an embed link to this documentation.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T20:46:42Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/18" closed="2020-07-05T23:26:18+00:00">18</issue>
+    <ticket>12</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>12-539df7c2</id>
+    <lines>43-43</lines>
+    <body>Describe PDD with links to talks, explain how to create puzzles, setup githooks locally, install pdd, and close puzzles with examples.</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T05:01:38Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/30" closed="2020-07-05T23:54:25+00:00">30</issue>
+        <ticket>18</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>18-4441ee8f</id>
+        <lines>194-194</lines>
+        <body>Create the problem, solution and example for PDD.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T23:25:54Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/31" closed="2020-07-06T16:18:28+00:00">31</issue>
+        <ticket>18</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>18-3483fca0</id>
+        <lines>196-196</lines>
+        <body>How does PDD work? include reference to the pdd webinar.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T23:25:54Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/32" closed="2020-07-06T16:18:33+00:00">32</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-54a86419</id>
+        <lines>198-198</lines>
+        <body>Show example workflow of PDD to create a puzzle, be lazy and create another puzzle to finish that.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T23:25:54Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/33" closed="2020-07-06T16:18:40+00:00">33</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-a6ed31d7</id>
+        <lines>200-200</lines>
+        <body>explain how to run PDD locally by installing it, talking about how you should be careful of the words to do when they are todgether.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T23:25:54Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/34" closed="2020-07-06T16:34:02+00:00">34</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-aa42a604</id>
+        <lines>202-202</lines>
+        <body>explain to setup the git hook for pdd</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T23:25:54Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/36">36</issue>
+            <ticket>34</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>34-074b6875</id>
+            <lines>21-21</lines>
+            <body>Write a real introduction with getting started commands.</body>
+            <file>source/index.html.md</file>
+            <author>@raboley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T16:33:37Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/37">37</issue>
+            <ticket>34</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>34-ff67cbd2</id>
+            <lines>25-25</lines>
+            <body>Create section explaining githook as a general concept, and then reference the other githook sections here.</body>
+            <file>source/index.html.md</file>
+            <author>@raboley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T16:33:37Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/38" closed="2020-07-07T03:27:23+00:00">38</issue>
+            <ticket>34</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>34-09eb3a04</id>
+            <lines>27-27</lines>
+            <body>Talk about the makefile as a general concept and reference how init, docs and serve-docs work.</body>
+            <file>source/index.html.md</file>
+            <author>@raboley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T16:33:37Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/39" closed="2020-07-06T16:50:53+00:00">39</issue>
+            <ticket>34</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>34-3fc46122</id>
+            <lines>276-276</lines>
+            <body>Talk about the webhook that is setup with 0pdd.</body>
+            <file>source/index.html.md</file>
+            <author>@raboley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T16:40:00Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/raboley/the-heroes-journey/issues/40" closed="2020-07-07T03:47:14+00:00">40</issue>
+                <ticket>39</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>39-90274502</id>
+                <lines>29-29</lines>
+                <body>Talk about how webhooks work as a general concept then link to the webhook for 0pdd.</body>
+                <file>source/index.html.md</file>
+                <author>@raboley</author>
+                <email>raboley@gmail.com</email>
+                <time>2020-07-06T16:50:06Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/35">35</issue>
+        <ticket>18</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>18-059f0cb2</id>
+        <lines>204-204</lines>
+        <body>explain how to setup the pdd git action in GitHub</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T23:25:54Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/19" closed="2020-07-06T17:53:07+00:00">19</issue>
+    <ticket>13</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>13-af481259</id>
+    <lines>47-47</lines>
+    <body>Describe cloudcraft, create terraform files as an example, link the cloudcraft diagram to this somehow.</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T05:01:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/20">20</issue>
+    <ticket>14</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>14-5f0923a8</id>
+    <lines>51-51</lines>
+    <body>Describe DREDD, install process, how to write a test in documentation, execute the tests and create a github action to run these tests.</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T05:01:38Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/41" closed="2020-07-06T22:20:04+00:00">41</issue>
+        <ticket>20</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>20-51e8c738</id>
+        <lines>296-296</lines>
+        <body>Explore go-slate and maybe it will make embedding godocs easier and not have quite so many dependencies to install ruby crap into the repo.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-06T18:39:40Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/42">42</issue>
+            <ticket>41</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>41-672a5c88</id>
+            <lines>307-307</lines>
+            <body>Create a go cli tool that generates golang documentation via godocs. To make goslate be more useful I think it is important to figure out how to create a cli tool with go that generates documentation so that I can see if it really is a game changer, or if it will just be a different way to do the same thing I already do.</body>
+            <file>source/index.html.md</file>
+            <author>@raboley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T22:18:36Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/43">43</issue>
+            <ticket>41</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>41-6c8e7460</id>
+            <lines>311-311</lines>
+            <body>Create goslate example code</body>
+            <file>source/index.html.md</file>
+            <author>@raboley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T18:44:09Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/44">44</issue>
+            <ticket>41</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>41-34c125c5</id>
+            <lines>330-330</lines>
+            <body>document how to run goslate locally</body>
+            <file>source/index.html.md</file>
+            <author>@raboley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T18:44:09Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/45">45</issue>
+            <ticket>41</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>41-998f5ca8</id>
+            <lines>332-332</lines>
+            <body>publish goslate docs to github pages</body>
+            <file>source/index.html.md</file>
+            <author>Russell Boley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T18:44:09Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/46">46</issue>
+            <ticket>41</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>41-1d4443c1</id>
+            <lines>334-334</lines>
+            <body>Create github action to publish goslate docs to github pages</body>
+            <file>source/index.html.md</file>
+            <author>Russell Boley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T18:44:09Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/raboley/the-heroes-journey/issues/47">47</issue>
+            <ticket>41</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>41-10838dfe</id>
+            <lines>336-336</lines>
+            <body>update the pre-commit hook to use goslate commands instead of ruby slate.</body>
+            <file>source/index.html.md</file>
+            <author>Russell Boley</author>
+            <email>raboley@gmail.com</email>
+            <time>2020-07-06T18:44:09Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/21" closed="2020-07-05T16:49:11+00:00">21</issue>
+    <ticket>10</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>10-a43823e5</id>
+    <lines>109-109</lines>
+    <body>Document what slate is and installation process</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T16:34:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/22" closed="2020-07-05T17:16:23+00:00">22</issue>
+    <ticket>10</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>10-c969c66e</id>
+    <lines>111-111</lines>
+    <body>Document how to run slate locally</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T16:34:51Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/24">24</issue>
+        <ticket>22</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>22-117565cd</id>
+        <lines>122-122</lines>
+        <body>For slate figure out a good way to do local development with an auto refresh like situation.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T17:03:05Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/23" closed="2020-07-05T17:44:59+00:00">23</issue>
+    <ticket>10</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>10-b2e4db49</id>
+    <lines>113-113</lines>
+    <body>Document how to publish slate to github pages</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-05T16:34:51Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/25" closed="2020-07-05T20:42:38+00:00">25</issue>
+        <ticket>23</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>23-ca84b15c</id>
+        <lines>136-136</lines>
+        <body>Make the publish branch work so that you can reach the slate url.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-05T17:44:34Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/49" closed="2020-07-07T04:13:56+00:00">49</issue>
+    <ticket>48</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>48-c0a600f8</id>
+    <lines>276-276</lines>
+    <body>Clean up the lucid chart section of the documentation</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-07T04:06:50Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/50">50</issue>
+    <ticket>48</ticket>
+    <estimate>15</estimate>
+    <role>DEV</role>
+    <id>48-f613bc13</id>
+    <lines>318-318</lines>
+    <body>Clean up PDD section of documentation</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-07T04:13:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/52" closed="2020-07-07T17:12:28+00:00">52</issue>
+    <ticket>51</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>51-b9c77df2</id>
+    <lines>22-22</lines>
+    <body>Write the outline to the story.</body>
+    <file>README.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-07T17:10:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/53" closed="2020-07-09T22:13:42+00:00">53</issue>
+    <ticket>51</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>51-3c62ca97</id>
+    <lines>22-22</lines>
+    <body>Write the Oridinary World chapter</body>
+    <file>README.md</file>
+    <author>Russell Boley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-07T17:12:03Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/54" closed="2020-07-10T20:49:20+00:00">54</issue>
+    <ticket>51</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>51-25d89085</id>
+    <lines>21-21</lines>
+    <body>write act 2 abridged version.</body>
+    <file>source/index.html.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-09T22:13:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/raboley/the-heroes-journey/issues/55" closed="2020-07-10T18:42:14+00:00">55</issue>
+        <ticket>54</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>54-abf58b02</id>
+        <lines>29-29</lines>
+        <body>get the link to the lucid chart source.</body>
+        <file>source/index.html.md</file>
+        <author>@raboley</author>
+        <email>raboley@gmail.com</email>
+        <time>2020-07-09T22:20:20Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/raboley/the-heroes-journey/issues/56" closed="2020-07-10T22:27:33+00:00">56</issue>
+    <ticket>51</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>51-9873fa74</id>
+    <lines>81-81</lines>
+    <body>Clean up the story and get rid of the draft stuff.</body>
+    <file>README.md</file>
+    <author>@raboley</author>
+    <email>raboley@gmail.com</email>
+    <time>2020-07-10T20:45:49Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

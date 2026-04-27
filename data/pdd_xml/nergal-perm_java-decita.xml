@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-09-11T07:45:39+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/4" closed="2024-01-13T06:49:32+00:00">4</issue>
+    <ticket>1</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>1-a7337ac3</id>
+    <lines>39-41</lines>
+    <body>Return something more real from the method. It seems that the evaluation method should use some kind of computation context to store all the intermediate results, links to objects that retrieve data and so on.</body>
+    <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2023-12-30T07:12:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/6" closed="2024-01-01T06:49:29+00:00">6</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-7013ca71</id>
+        <lines>34-35</lines>
+        <body>Create Locator interface and concrete ConstantLocator class. These are needed to find requested Fragments.</body>
+        <file>src/main/java/ru/ewc/decita/ConstantLocator.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2023-12-31T06:32:47Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/7" closed="2024-01-01T06:49:32+00:00">7</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-628d64ce</id>
+        <lines>52-53</lines>
+        <body>Create the ComputationContext class containing all the Locators. This will be the base for all the engine's computations</body>
+        <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2023-12-31T06:32:47Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/nergal-perm/java-decita/issues/11" closed="2024-01-02T05:03:00+00:00">11</issue>
+            <ticket>7</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>7-aaf270c2</id>
+            <lines>69-69</lines>
+            <body>Handle the absent Locator case (decide what to return instead)</body>
+            <file>src/main/java/ru/ewc/decita/ComputationContext.java</file>
+            <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+            <email>nergal@psu.ru</email>
+            <time>2024-01-01T06:42:48Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/8" closed="2024-01-02T05:20:09+00:00">8</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-2cd77bf9</id>
+        <lines>55-57</lines>
+        <body>Implement the lookup for the requested Fragment. This means getting the specific Locator from the ComputationContext and the use that Locator to get the requested Fragment.</body>
+        <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2023-12-31T06:32:47Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/13" closed="2024-01-11T03:43:03+00:00">13</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-d4ffc0ee</id>
+        <lines>71-72</lines>
+        <body>Refactor the Locator registration process, probably it can be done with fluent API or something like that. Current mechanism is too cumbersome.</body>
+        <file>src/main/java/ru/ewc/decita/ComputationContext.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-01-01T11:55:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/15" closed="2024-01-07T05:34:55+00:00">15</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-f5fe027d</id>
+        <lines>52-53</lines>
+        <body>Implement the Condition object as two Fragments and comparison It should be enough to handle the majority of computations here.</body>
+        <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-01-02T05:14:17Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/16" closed="2024-01-11T03:36:50+00:00">16</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-5d0ee110</id>
+        <lines>55-56</lines>
+        <body>Implement the Rule object as a set of Conditions and Outcomes And let the Rule evaluate itself in a given context.</body>
+        <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-01-02T05:14:17Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/nergal-perm/java-decita/issues/19" closed="2024-01-09T06:42:23+00:00">19</issue>
+            <ticket>16</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>16-a8ef584e</id>
+            <lines>33-34</lines>
+            <body>Make Coordinates mutable in order to get rid of StateFragments. It is possible to use only Coordinates in all the computations</body>
+            <file>src/main/java/ru/ewc/decita/Rule.java</file>
+            <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+            <email>nergal@psu.ru</email>
+            <time>2024-01-09T04:35:36Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/22" closed="2024-01-11T04:45:51+00:00">22</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-bcbf6f03</id>
+        <lines>52-52</lines>
+        <body>Implement DecisionTable as a set of Rules with Outcomes</body>
+        <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-01-11T03:42:30Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/25" closed="2024-01-13T05:54:08+00:00">25</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-b6d33eb9</id>
+        <lines>43-43</lines>
+        <body>Find and compute the DecisionTable via Locator and Coordinate</body>
+        <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-01-11T04:44:04Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/28" closed="2024-01-13T06:49:36+00:00">28</issue>
+        <ticket>4</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>4-94053d6d</id>
+        <lines>43-44</lines>
+        <body>Implement the full DecisionTable result as a Map. The table itself should be found in the ComputationContext.</body>
+        <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-01-13T05:51:27Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/26" closed="2024-01-20T05:38:59+00:00">26</issue>
+    <ticket>23</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>23-d4ffc0ee</id>
+    <lines>73-74</lines>
+    <body>Refactor the Locator registration process, probably it can be done with fluent API or something like that. Current mechanism is too cumbersome.</body>
+    <file>src/main/java/ru/ewc/decita/ComputationContext.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-12T13:37:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/32" closed="2024-01-20T07:22:08+00:00">32</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>31-fe4a3a60</id>
+    <lines>102-104</lines>
+    <body>Remove the explicit 'table' part from Table Coordinate. Every locator's name that is not known to the engine should try to resolve as a concrete Table.</body>
+    <file>src/main/java/ru/ewc/decita/ComputationContext.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-20T04:02:15Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/36" closed="2024-01-20T05:39:02+00:00">36</issue>
+        <ticket>32</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>32-72cbb0f4</id>
+        <lines>37-38</lines>
+        <body>Make DecisionTable implement Locator interface. Fill the ComputationContext with DecisionTables Locators and not the single Table Locator.</body>
+        <file>src/main/java/ru/ewc/decita/DecisionTable.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-01-20T04:52:58Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/33" closed="2024-01-20T07:22:12+00:00">33</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>31-33435762</id>
+    <lines>37-37</lines>
+    <body>Remove the ability to locate Conditions from DecisionTables.</body>
+    <file>src/main/java/ru/ewc/decita/ConditionsLocator.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-20T04:02:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/34" closed="2024-01-20T14:09:22+00:00">34</issue>
+    <ticket>31</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>31-e8fa403d</id>
+    <lines>39-40</lines>
+    <body>Create concrete Conditions classes for 1-Order and 2-Order Conditions. 1-Order - is a 'EqualsCondition', 2-Order - is a 'EqualsTrueCondition'</body>
+    <file>src/main/java/ru/ewc/decita/SingleCondition.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-20T04:02:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/41" closed="2024-01-21T06:06:17+00:00">41</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>40-1a98a1af</id>
+    <lines>31-33</lines>
+    <body>Implement the recursive CSV-file contents reader. Represent the contents as a collection of lines. Then use that contents to fill two 2D-arrays of Strings: one for Conditions, another for Outcomes.</body>
+    <file>src/main/java/ru/ewc/decita/input/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-21T04:12:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/42" closed="2024-01-26T13:59:56+00:00">42</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>40-68a7db55</id>
+    <lines>35-35</lines>
+    <body>Implement the converter from 2D-Arrays to the DecisionTable.</body>
+    <file>src/main/java/ru/ewc/decita/input/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-21T04:12:11Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/51" closed="2024-01-27T03:55:17+00:00">51</issue>
+        <ticket>42</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>42-c9a96a8e</id>
+        <lines>37-43</lines>
+        <body>Implement TableSources class to handle the implicit locator names. My idea is to allow short notation for coordinates in tables, like just "42" instead of "constant::42" for constants (omitting the "constant" locator name) or "is_expired" instead of "is_expired::outcome" for conditions (omitting the outcome name for the table with a single outcome). This can be made possible with the help of the intermediary object holding all the RawContents (thus knowing all the table names) and able to derive FQN for coordinates from the short notation.</body>
+        <file>src/main/java/ru/ewc/decita/input/package-info.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-01-25T03:56:30Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/43" closed="2024-01-27T03:55:23+00:00">43</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>40-0b1fc046</id>
+    <lines>37-39</lines>
+    <body>File system Decision Tables should be prototypes for every computation. It means that computing something once doesn't change the state of all the prototypes and the next computation will use clean, uncomputed Coordinates.</body>
+    <file>src/main/java/ru/ewc/decita/input/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-21T04:12:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/45" closed="2024-01-22T05:19:06+00:00">45</issue>
+    <ticket>40</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>40-56f57661</id>
+    <lines>37-37</lines>
+    <body>Convert file lines into two 2d-arrays of data.</body>
+    <file>src/main/java/ru/ewc/decita/input/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-21T06:06:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/53" closed="2024-05-07T06:41:14+00:00">53</issue>
+    <ticket>23</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>23-0b1fc046</id>
+    <lines>31-33</lines>
+    <body>File system Decision Tables should be prototypes for every computation. It means that computing something once doesn't change the state of all the prototypes and the next computation will use clean, uncomputed Coordinates.</body>
+    <file>src/main/java/ru/ewc/decita/input/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-27T03:55:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/54" closed="2024-03-09T06:21:22+00:00">54</issue>
+    <ticket>23</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>23-c9a96a8e</id>
+    <lines>35-41</lines>
+    <body>Implement TableSources class to handle the implicit locator names. My idea is to allow short notation for coordinates in tables, like just "42" instead of "constant::42" for constants (omitting the "constant" locator name) or "is_expired" instead of "is_expired::outcome" for conditions (omitting the outcome name for the table with a single outcome). This can be made possible with the help of the intermediary object holding all the RawContents (thus knowing all the table names) and able to derive FQN for coordinates from the short notation.</body>
+    <file>src/main/java/ru/ewc/decita/input/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-01-27T03:55:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/62" closed="2024-02-02T12:00:04+00:00">62</issue>
+    <ticket>61</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>61-08e18f0e</id>
+    <lines>37-37</lines>
+    <body>Add method to set the tables source directory</body>
+    <file>jshell/Test.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-02-02T06:57:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/63" closed="2024-02-18T04:14:21+00:00">63</issue>
+    <ticket>61</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>61-d9a1e68a</id>
+    <lines>40-42</lines>
+    <body>Add method to load computational state from yaml That is, read the structured yaml file (1st level - Locator name, 2nd level - field names) as the Locators for the ComputationContext. Move those initializations inside that method.</body>
+    <file>jshell/Test.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-02-02T06:57:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/64" closed="2024-02-20T05:52:02+00:00">64</issue>
+    <ticket>61</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>61-251c1f4e</id>
+    <lines>49-49</lines>
+    <body>Initialize ComputationContext with the computation state read from yaml</body>
+    <file>jshell/Test.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-02-02T06:57:46Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/66" closed="2024-02-02T15:25:17+00:00">66</issue>
+    <ticket>61</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>61-9cd75bbc</id>
+    <lines>80-81</lines>
+    <body>Rebuild Completer each time the folder with tables is loaded. That will allow autocompletion for table names, so it will be easier to issue commands.</body>
+    <file>src/main/java/ru/ewc/decita/manual/Shell.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-02-02T11:59:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/81" closed="2024-02-20T05:52:04+00:00">81</issue>
+    <ticket>78</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>78-3bb487b9</id>
+    <lines>69-69</lines>
+    <body>Make SoftAssertions in state-based tests and gather failure data</body>
+    <file>src/test/java/ru/ewc/decita/StateBasedTest.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-02-18T07:12:06Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/85" closed="2024-05-07T06:41:16+00:00">85</issue>
+    <ticket>23</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>23-b003e391</id>
+    <lines>31-33</lines>
+    <body>Implement something like ConditionsFactory and export only it and the Condition interface to the public API. This will allow to hide the implementation details and make the API more stable.</body>
+    <file>src/main/java/ru/ewc/decita/conditions/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-03-05T05:40:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/97" closed="2024-03-24T07:29:40+00:00">97</issue>
+    <ticket>96</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>96-617a7bcd</id>
+    <lines>56-56</lines>
+    <body>Wrap Map&lt;String, Locator&gt; into a dedicated class responsible for merging Locators</body>
+    <file>src/main/java/ru/ewc/decita/DecitaFacade.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-03-24T04:47:16Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/104" closed="2024-05-07T21:59:11+00:00">104</issue>
+    <ticket>103</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>103-081eced5</id>
+    <lines>32-32</lines>
+    <body>Implement a simple hard-coded command that changes one fragment</body>
+    <file>src/main/java/ru/ewc/commands/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-07T21:56:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/105" closed="2024-05-08T05:30:35+00:00">105</issue>
+    <ticket>103</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>103-ca66f77d</id>
+    <lines>34-34</lines>
+    <body>Implement a simple resolver that transforms an operation description into a command</body>
+    <file>src/main/java/ru/ewc/commands/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-07T21:56:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/106" closed="2024-05-08T06:44:34+00:00">106</issue>
+    <ticket>103</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>103-12631e4c</id>
+    <lines>36-36</lines>
+    <body>Implement a command description file reader that creates a command from a file</body>
+    <file>src/main/java/ru/ewc/commands/package-info.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-07T21:56:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/116" closed="2024-05-23T03:48:29+00:00">116</issue>
+    <ticket>115</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>115-7267c36e</id>
+    <lines>38-38</lines>
+    <body>Make Locators abstract in order to extend it with the custom Locators</body>
+    <file>src/main/java/ru/ewc/decisions/api/Locators.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-20T10:09:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/119" closed="2024-05-27T06:50:11+00:00">119</issue>
+    <ticket>9</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>9-ed490970</id>
+    <lines>62-62</lines>
+    <body>Output all the commands as buttons on the page</body>
+    <file>logic-checker/src/main/java/ru/ewc/checklogic/server/StatePage.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-23T05:04:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/120" closed="2024-05-27T06:50:14+00:00">120</issue>
+    <ticket>23</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>23-93ef7c09</id>
+    <lines>68-68</lines>
+    <body>Make templates resolutions the Coordinate's responsibility</body>
+    <file>java-decita/src/main/java/ru/ewc/commands/SimpleCommand.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-24T05:52:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/123" closed="2024-06-07T05:43:57+00:00">123</issue>
+    <ticket>122</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>122-d3473a9f</id>
+    <lines>94-94</lines>
+    <body>Initialize Locators source with a set of Producers and the Request</body>
+    <file>src/main/java/ru/ewc/decisions/api/DecitaFacade.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-28T05:50:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/126" closed="2024-05-28T11:52:05+00:00">126</issue>
+        <ticket>123</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>123-a5b3c4b9</id>
+        <lines>41-41</lines>
+        <body>Implement the separate Request locators class</body>
+        <file>src/main/java/ru/ewc/decisions/core/BaseLocators.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-05-28T07:15:30Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/nergal-perm/java-decita/issues/127" closed="2024-06-07T05:43:59+00:00">127</issue>
+        <ticket>123</ticket>
+        <estimate>0</estimate>
+        <role>DEV</role>
+        <id>123-29030239</id>
+        <lines>38-38</lines>
+        <body>Refactor StoredState to be used as a Locators Factory based on incoming Request</body>
+        <file>src/main/java/ru/ewc/state/StoredState.java</file>
+        <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+        <email>nergal@psu.ru</email>
+        <time>2024-05-28T07:15:30Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/nergal-perm/java-decita/issues/128" closed="2024-05-29T07:22:15+00:00">128</issue>
+            <ticket>127</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>127-e66cc355</id>
+            <lines>38-38</lines>
+            <body>Create Locator-specific fields for ComputationContext</body>
+            <file>src/main/java/ru/ewc/decisions/api/ComputationContext.java</file>
+            <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+            <email>nergal@psu.ru</email>
+            <time>2024-05-29T05:40:06Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/nergal-perm/java-decita/issues/130" closed="2024-06-07T05:44:01+00:00">130</issue>
+            <ticket>127</ticket>
+            <estimate>0</estimate>
+            <role>DEV</role>
+            <id>127-bb1d1eb1</id>
+            <lines>50-50</lines>
+            <body>Pass the StateFactories to the StoredStateFactory from outside</body>
+            <file>src/main/java/ru/ewc/state/StoredStateFactory.java</file>
+            <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+            <email>nergal@psu.ru</email>
+            <time>2024-06-04T11:12:40Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/124" closed="2024-06-07T05:44:03+00:00">124</issue>
+    <ticket>122</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>122-1e6ff925</id>
+    <lines>95-95</lines>
+    <body>Initialize ComputationContext with Locators source and the Request</body>
+    <file>src/main/java/ru/ewc/decisions/api/DecitaFacade.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-28T05:50:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/125" closed="2024-06-04T11:00:06+00:00">125</issue>
+    <ticket>122</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>122-6b061255</id>
+    <lines>96-96</lines>
+    <body>Implement an instance of Decision for the current Request</body>
+    <file>src/main/java/ru/ewc/decisions/api/DecitaFacade.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-28T05:50:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/129" closed="2024-06-07T05:44:05+00:00">129</issue>
+    <ticket>122</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>122-fa2d9963</id>
+    <lines>40-40</lines>
+    <body>Get rid of the Facades and make ComputationContext the entrypoint for the library.</body>
+    <file>src/main/java/ru/ewc/decisions/api/ComputationContext.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-05-29T12:33:24Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>139</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>139-e1b7d647</id>
+    <lines>186-186</lines>
+    <body>Create a reading wrapper for the single file</body>
+    <file>src/main/java/ru/ewc/decisions/input/PlainTextDecisionReader.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-08-27T04:37:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/155" closed="2024-09-10T11:42:53+00:00">155</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-a94413be</id>
+    <lines>96-96</lines>
+    <body>Specify Else rule based on SourceLines only</body>
+    <file>src/main/java/ru/ewc/decisions/input/RawContent.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-09-10T08:59:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/156" closed="2024-09-10T11:44:36+00:00">156</issue>
+    <ticket>153</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>153-feff2f68</id>
+    <lines>41-41</lines>
+    <body>Get rid of RawContent in favor of SourceLines</body>
+    <file>src/main/java/ru/ewc/decisions/input/RawContent.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-09-10T11:42:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/157" closed="2024-09-10T12:29:51+00:00">157</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-feff2f68</id>
+    <lines>41-41</lines>
+    <body>Get rid of RawContent in favor of SourceLines</body>
+    <file>src/main/java/ru/ewc/decisions/input/RawContent.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-09-10T11:44:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/nergal-perm/java-decita/issues/158" closed="2024-09-11T07:45:39+00:00">158</issue>
+    <ticket>154</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>154-6751eb45</id>
+    <lines>27-27</lines>
+    <body>Wrap with a dedicated collection class</body>
+    <file>src/main/java/ru/ewc/decisions/core/RuleFragment.java</file>
+    <author>&#x415;&#x432;&#x433;&#x435;&#x43D;&#x438;&#x439; &#x422;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x432;</author>
+    <email>nergal@psu.ru</email>
+    <time>2024-09-11T07:02:07Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

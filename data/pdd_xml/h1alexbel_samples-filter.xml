@@ -1,0 +1,472 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-06-06T15:42:03+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/9" closed="2024-04-23T11:10:31+00:00">9</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-46ce8519</id>
+    <lines>28-31</lines>
+    <body>Remove dummy test. This one is a dummy test in order to not fail the build. Let's remove it, when we will have tests for real code. Don't forget to remove this puzzle.</body>
+    <file>tests/test_cli.py</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-04-16T16:41:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/10" closed="2024-04-17T13:38:46+00:00">10</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-5b932efb</id>
+    <lines>31-33</lines>
+    <body>Add support for --repositories and --out parameter. We should add support to our cli to handle two options: --repositories, and --out. Both indicate the name of the file to read/create.</body>
+    <file>objects/cli.py</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-04-16T16:47:42Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/h1alexbel/samples-filter/issues/18" closed="2024-04-26T12:06:27+00:00">18</issue>
+        <ticket>10</ticket>
+        <estimate>45</estimate>
+        <role>DEV</role>
+        <id>10-1fb8be50</id>
+        <lines>48-50</lines>
+        <body>Filter the repositories using general-like interface. We should execute filtering here using some general interface, so it would easy to use either LLM or ML filters.</body>
+        <file>objects/cli.py</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-04-17T13:32:42Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/h1alexbel/samples-filter/issues/43" closed="2024-04-24T14:08:21+00:00">43</issue>
+            <ticket>18</ticket>
+            <estimate>25</estimate>
+            <role>DEV</role>
+            <id>18-2d5b9487</id>
+            <lines>45-48</lines>
+            <body>Give the ability to provide input_text in the request. We should give ability to pass input_text in the request, I suggest to refactor this script into object that we can call and it will respond us like here. Don't forget to remove this puzzle.</body>
+            <file>model/predict.py</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2024-04-23T08:39:09Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/h1alexbel/samples-filter/issues/62" closed="2024-05-10T07:47:27+00:00">62</issue>
+            <ticket>18</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>18-d3f80dfc</id>
+            <lines>58-64</lines>
+            <body>Find effective way for processing readme. For now we are not processing readme because of &lt;a href="https://github.com/h1alexbel/samples-filter/issues/39"&gt;this&lt;/a&gt;. We need to find actual way to process readme too since it can be crucial data as model input. Let's study papers, outlined &lt;a href="https://github.com/yegor256/cam/issues/227#issue-2200080559"&gt;here&lt;/a&gt; first, rethink it and try to implement here.</body>
+            <file>objects/cli.py</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2024-04-26T11:55:11Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/h1alexbel/samples-filter/issues/63">63</issue>
+            <ticket>18</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>18-1f7b4ec1</id>
+            <lines>39-42</lines>
+            <body>Create integration test case for filter_pipe.py. We should create some sort of integration test that checks filtering together with model prediction, files creation and other things happening in #apply(). Don't forget to remove this puzzle.</body>
+            <file>objects/filter_pipe.py</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2024-04-26T11:55:11Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/h1alexbel/samples-filter/issues/19" closed="2024-04-17T15:35:15+00:00">19</issue>
+        <ticket>10</ticket>
+        <estimate>35</estimate>
+        <role>DEV</role>
+        <id>10-3a34afdb</id>
+        <lines>51-53</lines>
+        <body>Create {out} file with output result. We should create file with provided name for {out}. Don't forget to remove this puzzle.</body>
+        <file>objects/cli.py</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-04-17T13:32:42Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/h1alexbel/samples-filter/issues/22" closed="2024-04-26T12:06:29+00:00">22</issue>
+            <ticket>19</ticket>
+            <estimate>45</estimate>
+            <role>DEV</role>
+            <id>19-b3973cba</id>
+            <lines>59-63</lines>
+            <body>Implement chain of csv transformation. We should implement a transformation chain of csv files. For now we are just adding separate objects to this script. Let's create a class (let's call it `train` or `pipeline`) that would execute all transformation one by one.</body>
+            <file>objects/cli.py</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2024-04-17T15:28:50Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/h1alexbel/samples-filter/issues/23" closed="2024-04-18T13:22:22+00:00">23</issue>
+            <ticket>19</ticket>
+            <estimate>25</estimate>
+            <role>DEV</role>
+            <id>19-a9982129</id>
+            <lines>36-39</lines>
+            <body>Prepare files in /pipeline directory. We should create them before running actual processing. For now we need to manually create files. Don't forget to remove this puzzle.</body>
+            <file>objects/input.py</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2024-04-17T15:28:50Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/h1alexbel/samples-filter/issues/24" closed="2024-04-18T14:37:42+00:00">24</issue>
+            <ticket>19</ticket>
+            <estimate>45</estimate>
+            <role>DEV</role>
+            <id>19-03ce99ad</id>
+            <lines>35-38</lines>
+            <body>Use raw.githubusercontent.com instead of api.github.com. We should use static GitHub content hosting instead of their API in order to prevent problems with rate limits. Don't forget to remove this puzzle.</body>
+            <file>objects/readme.py</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2024-04-17T15:28:50Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/11" closed="2024-04-17T13:38:47+00:00">11</issue>
+    <ticket>1</ticket>
+    <estimate>25</estimate>
+    <role>DEV</role>
+    <id>1-ce00ea3a</id>
+    <lines>34-37</lines>
+    <body>Clean parameters that we don't need. Let's remove parameters that we don't really need in this cli. Less parameters we will have, the better. Don't forget to remove this puzzle.</body>
+    <file>objects/cli.py</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-04-16T16:47:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/14" closed="2024-04-17T11:05:19+00:00">14</issue>
+    <ticket>1</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>1-85705910</id>
+    <lines>8-11</lines>
+    <body>Create merge script for rultor. We should create merge script for rultor to invoke it on a pull requests. Let's take .github/workflows/py.yml as a basis and do something similar. See also https://github.com/h1alexbel/samples-filter/issues/13.</body>
+    <file>.rultor.yml</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-04-17T08:32:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/34" closed="2024-04-19T15:10:36+00:00">34</issue>
+    <ticket>30</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>30-28a95c17</id>
+    <lines>31-34</lines>
+    <body>Prepare labels and encodings for model training. We should collect and label dataset for model training. Besides that we need to split dataset into 80% of train data, 10% of validation data and 10% test sets.</body>
+    <file>model/train.py</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-04-18T17:24:49Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/h1alexbel/samples-filter/issues/38" closed="2024-04-23T08:49:57+00:00">38</issue>
+        <ticket>34</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>34-c3c562de</id>
+        <lines>29-32</lines>
+        <body>Load dataset file from huggingface dataset repository. We should load dataset from huggingface dataset repo. It's located &lt;a href="https://huggingface.co/datasets/h1alexbel/github-samples"&gt;here&lt;/a&gt;. Let's pull it and use it.</body>
+        <file>model/load.py</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-04-19T14:59:26Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/h1alexbel/samples-filter/issues/39" closed="2024-05-12T10:14:06+00:00">39</issue>
+        <ticket>34</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>34-c96d2341</id>
+        <lines>51-57</lines>
+        <body>CSV column 'readme' is too big to read with reader. Column that contains readme in some cases is over the limit, which is `131072`. It this problem causes exception and terminates next row processing. Let's try to compress + decompress readme when writing/reading it. Another option can be to present the whole dataset in other format, for instance JSON. Don't forget to remove this puzzle.</body>
+        <file>objects/dataset.py</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-04-19T14:59:26Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/35" closed="2024-04-19T15:10:37+00:00">35</issue>
+    <ticket>30</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>30-60d34e7c</id>
+    <lines>35-38</lines>
+    <body>Document model training in model/README.md. We should document our model, what is it, how we train it, and how to re-train it. Let's create README.md in the `model` directory with this info.</body>
+    <file>model/train.py</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2024-04-18T17:24:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/44" closed="2024-05-03T12:57:21+00:00">44</issue>
+    <ticket>41</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>41-fd32bc04</id>
+    <lines>34-37</lines>
+    <body>Combine all the csv files into merge.csv. We should combine all 4 files: default.csv, examples.csv, samples.csv, and tutorials.csv (all should have readme, use input.py for this) into one big file named merge.csv. Don't forget to remove this puzzle.</body>
+    <file>model/combine.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-04-23T08:39:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/45" closed="2024-04-24T14:08:22+00:00">45</issue>
+    <ticket>30</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>30-025c8878</id>
+    <lines>25-28</lines>
+    <body>Resolve issue with all-time negative prediction. We should resolve issue with negative prediction that performed all the time after model has been trained. Probably issue is inside train.py, where we probably ignore or mismatch some crucial for training parameters.</body>
+    <file>model/predict.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-04-23T08:39:09Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/h1alexbel/samples-filter/issues/52" closed="2024-05-07T17:32:21+00:00">52</issue>
+        <ticket>45</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>45-34bf1ac1</id>
+        <lines>44-49</lines>
+        <body>Train model on target columns instead just full_name. We should re-train model probably on description, topics and readme too. Let's try to standardize the input: first go full_name and description, than topics. README's content can be very big and can break the model. For readme we can use some summarization model that would provide limited-type response.</body>
+        <file>model/train.py</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-04-24T13:56:55Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/46" closed="2024-04-24T16:45:20+00:00">46</issue>
+    <ticket>30</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>30-56532a3d</id>
+    <lines>33-37</lines>
+    <body>Fetch pretrained model saved in HuggingFace. Let's fetch and download pretrained model from hugging face model hub. When model is trained, we should pack it and deploy into hugging face repository and it should legal to use it here. Don't forget to remove this puzzle.</body>
+    <file>model/predict.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-04-23T08:39:09Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/81" closed="2024-05-31T15:43:37+00:00">81</issue>
+    <ticket>75</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>75-fdce32da</id>
+    <lines>25-29</lines>
+    <body>Find a way to fetch date of last commit without using API. GitHub API usage has quite soft rate limits. Even with authentication, it can't process whole dataset (approx 1k) rows. Moreover, we can't let to pass the credentials in the CLI package. Let's investigate the ways to parse last commit date without API.</body>
+    <file>model/data/last_commit.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-03T16:34:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/82" closed="2024-05-31T15:43:39+00:00">82</issue>
+    <ticket>75</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>75-2238b4fc</id>
+    <lines>47-50</lines>
+    <body>Remove code duplication in matches_keywords.py. Let's make it more generic or decorate the logic in #matches. The only difference in both this functions is that we don't need extra processing in case of repository name before put it #any matcher.</body>
+    <file>model/data/matches_keywords.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-03T16:34:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/88" closed="2024-05-06T17:59:15+00:00">88</issue>
+    <ticket>75</ticket>
+    <estimate>25</estimate>
+    <role>DEV</role>
+    <id>75-e67d119b</id>
+    <lines>46-51</lines>
+    <body>Commands `trainrf` and `transformer` won't work without switching directories. For now commands `trainrf` and `transformer` won't work without switching directories before execution. Let's move this Makefile's commands to the root Makefile, since it probably will be more convenient to execute one command without switching directories. To make it happen, we should make all commands directory contexted inside the command.</body>
+    <file>model/data/Makefile</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-06T11:43:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/89" closed="2024-05-07T10:52:06+00:00">89</issue>
+    <ticket>75</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>75-51f268ee</id>
+    <lines>35-37</lines>
+    <body>Read CSV file from HuggingFace. We should fetch the whole CSV file uploaded to HuggingFace. This will help us to use the dataset without building it each time.</body>
+    <file>model/rf/random-forest.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-06T11:43:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/90" closed="2024-05-07T10:52:08+00:00">90</issue>
+    <ticket>75</ticket>
+    <estimate>40</estimate>
+    <role>DEV</role>
+    <id>75-e88026eb</id>
+    <lines>80-83</lines>
+    <body>Upload model and vectorizer as .joblib files to some file storage. In order to reuse already trained model, we should upload those files to file storage, or maybe even to HuggingFace. After it's uploaded we can fetch it and use #load function.</body>
+    <file>model/rf/random-forest.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-06T11:43:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/104" closed="2024-05-12T11:14:42+00:00">104</issue>
+    <ticket>75</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>75-676fe262</id>
+    <lines>36-40</lines>
+    <body>Compose train.csv data as input text. We should compose data in one string like described &lt;a href="https://github.com/h1alexbel/samples-filter/issues/75#issuecomment-2094153280"&gt;here&lt;/a&gt;. Before training, let's concat strings and embed them into some string template, like this: "Description: {description}, created at: {created}, ...".</body>
+    <file>model/transformer.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-07T17:21:14Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/h1alexbel/samples-filter/issues/119" closed="2024-05-31T15:43:40+00:00">119</issue>
+        <ticket>104</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>104-39f3530d</id>
+        <lines>32-39</lines>
+        <body>Split README.md into important segments. We should split README.md file into segments that are important for processing. For now the problem is in the README.md size. If file is reasonably big, than model will interpret it like negative, while README is taken from example repository. Let's fix it by splitting README.md file into segments and then picking the segment that represents this repository in most accurate way. Let's find out techniques that will help us in README splitting from this paper: https://www.researchgate.net/publication/317489055_Cataloging_GitHub_Repositories</body>
+        <file>model/data/compose.py</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2024-05-12T11:03:07Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/107">107</issue>
+    <ticket>105</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>105-983cf5f9</id>
+    <lines>45-48</lines>
+    <body>Bump code coverage to 55. After massive refactor code coverage drops down, (44.84%). Let's return back our coverage metrics to 55%. Don't forget to remove this puzzle.</body>
+    <file>Makefile</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-08T07:09:27Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/109" closed="2024-05-10T07:47:27+00:00">109</issue>
+    <ticket>105</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>105-16a41eb4</id>
+    <lines>33-37</lines>
+    <body>Process all fields required as inputs. We should process all fields required as inputs: full_name, readme, created_at, last_commit. In case of transformer we should do it in a prompt way, like repository advanced description. Check &lt;a href="https://github.com/h1alexbel/samples-filter/issues/75#issuecomment-2094153280"&gt;this&lt;/a&gt;.</body>
+    <file>src/feed.py</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-05-08T09:28:46Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/h1alexbel/samples-filter/issues/113">113</issue>
+        <ticket>109</ticket>
+        <estimate>90</estimate>
+        <role>DEV</role>
+        <id>109-cde4ae97</id>
+        <lines>33-36</lines>
+        <body>Feed `readme`, `last_commit`, `created_at`, and `commits`. We should feed other important fields too. For now we can feed readme, but transformer model can't process it since input tensor is too big. Let's resolve that problem and feed readme.</body>
+        <file>src/feed.py</file>
+        <author>@h1alexbel</author>
+        <email>aliaksei.bialiauski@hey.com</email>
+        <time>2024-05-10T07:47:21Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/139">139</issue>
+    <ticket>129</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>129-4dfd935d</id>
+    <lines>32-35</lines>
+    <body>Train isolation forest model. We need to find out how to properly train isolation forest model with gathered data in order to detect anomalies (SRs). Don't forget to remove this puzzle.</body>
+    <file>model/Makefile</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-05-24T13:06:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/153" closed="2024-06-06T15:42:02+00:00">153</issue>
+    <ticket>143</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>143-2cf5479a</id>
+    <lines>42-46</lines>
+    <body>We generate embeddings for each token instead of the whole unit. For now, we generate embeddings for each token. We probably should generate embeddings for joined tokens as one unit. In this case we can try to replace preprocessing steps with a huggingface tokenizers. Let's validate this assumption.</body>
+    <file>models/model/pre/embeddings.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-06-06T06:09:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/samples-filter/issues/154">154</issue>
+    <ticket>129</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>129-f9fe4ae9</id>
+    <lines>24-27</lines>
+    <body>Train BERT transformer model. We need to find out how to properly train BERT model with gathered data in order to detect anomalies (SRs). Don't forget to remove this puzzle.</body>
+    <file>models/model/t_bert.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-06-06T06:09:57Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

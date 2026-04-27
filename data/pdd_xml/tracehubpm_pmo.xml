@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-02-26T15:04:51+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/pmo/issues/5" closed="2024-02-05T13:53:33+00:00">5</issue>
+    <ticket>2</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>2-24aad16a</id>
+    <lines>8-11</lines>
+    <body>Create release script to rultor configuration. We should create release script that will be executed by Rultor.com. Probably it can be a release inside the GitHub with a new tag, and build+push Docker image to the private Docker registry.</body>
+    <file>.rultor.yml</file>
+    <author>@hizmailovich</author>
+    <email>theannalios@gmail.com</email>
+    <time>2024-01-15T12:41:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/tracehubpm/pmo/issues/6">6</issue>
+    <ticket>2</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>2-e54979ee</id>
+    <lines>15-18</lines>
+    <body>Create deploy script for rultor configuration. We should create deploy script that will deliver our Java software into some target platform. For now, we assuming that it will be Cloud VM with public IP, and SSH connection.</body>
+    <file>.rultor.yml</file>
+    <author>@hizmailovich</author>
+    <email>theannalios@gmail.com</email>
+    <time>2024-01-15T12:41:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/pmo/issues/14" closed="2024-01-25T12:33:37+00:00">14</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-ed8090c3</id>
+    <lines>81-85</lines>
+    <body>check if authenticated user can access the Project. we need create security checks that will made a statement does authenticated user can access the project or not: if project is public, every one can see it; otherwise user must be individual performer or team member.</body>
+    <file>src/main/java/git/tracehub/pmo/controller/ProjectController.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-23T14:17:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/pmo/issues/15" closed="2024-01-25T12:33:40+00:00">15</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-bb3b3f26</id>
+    <lines>101-105</lines>
+    <body>check if authenticated user can create a new project. We need to create security checks that will make a statement does authenticated user can create a new project or not: if project is public, every one can create it; otherwise we need to request a payment from the user.</body>
+    <file>src/main/java/git/tracehub/pmo/controller/ProjectController.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-23T14:17:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/pmo/issues/16" closed="2024-02-15T12:35:47+00:00">16</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-da767492</id>
+    <lines>114-116</lines>
+    <body>define appropriate agent according to location of the project. We need to define appropriate agent and call corresponding implementation to invite collaborators here.</body>
+    <file>src/main/java/git/tracehub/pmo/controller/ProjectController.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-23T14:17:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/pmo/issues/17" closed="2024-01-31T13:58:39+00:00">17</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-ecd686dc</id>
+    <lines>58-62</lines>
+    <body>fix 403 Forbidden error when trying to get token from IDP. It seems that the user hasn't enough permissions to get the token from IDP. We need to configure Keycloak to allow the user to read the token. See the following link for more info: https://www.keycloak.org/docs/latest/server_admin/#retrieving-external-idp-tokens</body>
+    <file>src/main/java/git/tracehub/pmo/security/IdpToken.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-01-23T14:17:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/tracehubpm/pmo/issues/39">39</issue>
+    <ticket>8</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>8-e2415ebf</id>
+    <lines>27-28</lines>
+    <body>try to refactor this code to avoid such data classes @since 0.0.0</body>
+    <file>src/main/java/git/tracehub/pmo/platforms/Label.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2024-02-06T12:24:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/pmo/issues/49" closed="2024-02-23T15:52:50+00:00">49</issue>
+    <ticket>44</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>44-ef410327</id>
+    <lines>39-40</lines>
+    <body>create an endpoint to list all keys from the project. This endpoint should return a list of keys using project id.</body>
+    <file>src/main/java/git/tracehub/pmo/controller/SecretController.java</file>
+    <author>@hizmailovich</author>
+    <email>theannalios@gmail.com</email>
+    <time>2024-02-20T12:15:37Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/tracehubpm/pmo/issues/56">56</issue>
+        <ticket>49</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>49-dbcd9483</id>
+        <lines>25-25</lines>
+        <body>add support of Github Enterprise domain</body>
+        <file>src/main/resources/application.yaml</file>
+        <author>@h1alexbel</author>
+        <email>hialexbel@gmail.com</email>
+        <time>2024-02-23T15:30:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/pmo/issues/50" closed="2024-02-23T15:52:51+00:00">50</issue>
+    <ticket>44</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>44-57fcb942</id>
+    <lines>41-43</lines>
+    <body>create an endpoint to update a secret. This endpoint should receive a secret id and a new value to update the secret. @since 0.0.0</body>
+    <file>src/main/java/git/tracehub/pmo/controller/SecretController.java</file>
+    <author>@hizmailovich</author>
+    <email>theannalios@gmail.com</email>
+    <time>2024-02-20T12:15:37Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/tracehubpm/pmo/issues/51" closed="2024-02-23T15:52:52+00:00">51</issue>
+    <ticket>44</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>44-48bf6f8b</id>
+    <lines>34-36</lines>
+    <body>encrypt the secret value before saving it in the database. @checkstyle DesignForExtensionCheck (70 lines) @since 0.0.0</body>
+    <file>src/main/java/git/tracehub/pmo/secret/DefaultSecrets.java</file>
+    <author>@hizmailovich</author>
+    <email>theannalios@gmail.com</email>
+    <time>2024-02-20T12:15:37Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2025-08-27T13:42:09+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/16" closed="2025-03-04T13:36:06+00:00">16</issue>
+    <ticket>7</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>7-7763c7c9</id>
+    <lines>126-129</lines>
+    <body>Enable lint goal during compile, test-compile executions. Currently, we disabled it, because lints are unstable. Let's enable lint goal after lints will fully sync with EO 0.51.1 version. Don't forget to inlcude lint goal in test-compile execution too.</body>
+    <file>pom.xml</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-01-31T12:30:38Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/h1alexbel/eo-dom/issues/84">84</issue>
+        <ticket>16</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>16-195611ab</id>
+        <lines>151-154</lines>
+        <body>Fix all lint warnings and set failOnWarning to `true`. Currently we have warnings for both: tests, and main. Let's resolve them all and then set failOnWarning to `true`. Don't forget to make the same in `test-compile` execution.</body>
+        <file>pom.xml</file>
+        <author>@h1alexbel</author>
+        <email>h1alexbelx@gmail.com</email>
+        <time>2025-03-04T13:16:17Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/22" closed="2025-02-13T18:20:25+00:00">22</issue>
+    <ticket>8</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>8-5225d79a</id>
+    <lines>44-46</lines>
+    <body>Implement element navigation without xnav. Currently, element extraction is implemented via xnav. We should implement the element navigation without any external dependencies.</body>
+    <file>src/main/java/EOorg/EOeolang/EOdom/EOdoc$EOxml$EOelem.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2025-02-10T13:20:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/23" closed="2025-02-17T14:29:33+00:00">23</issue>
+    <ticket>8</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>8-bd521be5</id>
+    <lines>47-49</lines>
+    <body>Return proper error, if element not found. We should return proper error, if element is not found. Currently, the default EO error message will be thrown. Don't forget to add unit test.</body>
+    <file>src/main/java/EOorg/EOeolang/EOdom/EOdoc$EOxml$EOelem.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2025-02-10T13:20:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/35" closed="2025-02-14T14:54:51+00:00">35</issue>
+    <ticket>9</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>9-f269bfd7</id>
+    <lines>117-124</lines>
+    <body>Enable this test on attribute fetching after child object cascading will be implemented. Currenlty, we can't take `attr` object from `elem` object. It should be possible to do this in EO: &lt;pre&gt; {@code ((doc "...").elem "f").attr "x" } &lt;/pre&gt;</body>
+    <file>src/test/java/EOorg/EOeolang/EOdom/EOdocTest.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-14T08:56:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/37" closed="2025-02-14T14:54:53+00:00">37</issue>
+    <ticket>10</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>10-56725f60</id>
+    <lines>177-178</lines>
+    <body>Enable this test on text retrieval from child node. We should enable this test after cascading in child objects will be implemented.</body>
+    <file>src/test/java/EOorg/EOeolang/EOdom/EOdocTest.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-14T09:40:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/44" closed="2025-02-17T14:29:34+00:00">44</issue>
+    <ticket>41</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>41-fed7a345</id>
+    <lines>43-45</lines>
+    <body>Remove all non-compliant doc API from tests. We should remove all non-compliant API from `doc` object: as-string, elem, attr, text, and so on.</body>
+    <file>src/test/java/EOorg/EOeolang/EOdom/EOdocTest.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-17T12:05:07Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/47">47</issue>
+    <ticket>8</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>8-918b5cb9</id>
+    <lines>48-50</lines>
+    <body>Return proper error, if element not found with tag name. We should return proper error, if element is not found. Currently, the default EO error message will be thrown. Don't forget to add unit test.</body>
+    <file>src/main/java/EOorg/EOeolang/EOdom/EOdoc$EOxml$EOget_elements_by_tag_name.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-17T14:13:35Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/57" closed="2025-02-18T11:38:03+00:00">57</issue>
+    <ticket>48</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>48-5b2aac45</id>
+    <lines>108-112</lines>
+    <body>Enable this test after `getElementById()` will take an account ID specified in DTD. Currenlty, we use `org.jsoup` library that checks `id` attribute in HTML documents by default. Let's make it possible to configure identifiers from their definitions, supplied in DTD schema. Check &lt;a href="https://stackoverflow.com/questions/3423430/java-xml-dom-how-are-id-attributes-special"this&lt;/a&gt; for more information about document identifiers.</body>
+    <file>src/test/java/EOorg/EOeolang/EOdom/EOdocTest.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-18T11:34:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/58">58</issue>
+    <ticket>48</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>48-0e56ae76</id>
+    <lines>108-112</lines>
+    <body>Enable this test after `getElementById()` will take an account ID specified in DTD. Currenlty, we use `org.jsoup` library that checks `id` attribute in HTML documents by default. Let's make it possible to configure identifiers from their definitions, supplied in DTD schema. Check &lt;a href="https://stackoverflow.com/questions/3423430/java-xml-dom-how-are-id-attributes-special"&gt;this&lt;/a&gt; for more information about document identifiers.</body>
+    <file>src/test/java/EOorg/EOeolang/EOdom/EOdocTest.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-18T11:37:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/66">66</issue>
+    <ticket>50</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>50-ab585068</id>
+    <lines>47-50</lines>
+    <body>Refactor XmlNode interface and it's implementations. Originally it was designed to present the behaviour of node in DOM document. Now, we should refactor and decompose this interface to present basic DOM element with an entry point to W3C API.</body>
+    <file>src/main/java/EOorg/EOeolang/EOdom/XmlNode.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-18T19:09:30Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/68">68</issue>
+    <ticket>51</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>51-9496582e</id>
+    <lines>42-45</lines>
+    <body>Make possible to append child node to the empty doc. It should be possible to append newly created element inside empty document. In this case, inserted element will be the root element of document. Don't forget to add EO and Java tests.</body>
+    <file>src/test/eo/org/eolang/dom/doc-tests.eo</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-02-19T16:54:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/90" closed="2025-03-14T16:12:27+00:00">90</issue>
+    <ticket>62</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>62-cece4685</id>
+    <lines>288-291</lines>
+    <body>Enable this test when recursive retrieval of first children will work. Currently, it does not work due to next found element denoted as {@link com.sun.org.apache.xerces.internal.dom.DeferredTextImpl} instead of {@link org.w3c.dom.Element}. We should resolve that, and enable this test.</body>
+    <file>src/test/java/EOorg/EOeolang/EOdom/EOelementTest.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-03-14T14:36:00Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/98">98</issue>
+    <ticket>64</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>64-e2c2e3c3</id>
+    <lines>26-30</lines>
+    <body>Set correct parent attribute when of node collection. Currently, we are setting the same node as we found in collection by requested position. Instead, we should modify our html-collection to support parent node, and put into parent attribute parent node of the resulted collection. Don't forget to add this EO test into doc-tests.eo:</body>
+    <file>src/main/java/EOorg/EOeolang/EOdom/EOhtml_collection$EOat.java</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-03-19T14:04:36Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/101">101</issue>
+    <ticket>62</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>62-db044e31</id>
+    <lines>17-19</lines>
+    <body>Set nsib attribute everywhere where its possible to chain element navigation, and retrieve next-sibling from result. Don't forget to add EO and Atom tests.</body>
+    <file>src/main/eo/org/eolang/dom/element.eo</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-03-21T08:53:04Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/126">126</issue>
+    <ticket>123</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>123-aa207569</id>
+    <lines>156-159</lines>
+    <body>Enable `inconsistent-args` lint. For now, when enabled, it fails MjLint execution. After this issue will be fixed: https://github.com/objectionary/lints/issues/624, we should enable the lint.</body>
+    <file>pom.xml</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-06-08T08:42:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/eo-dom/issues/127" closed="2025-08-27T13:42:09+00:00">127</issue>
+    <ticket>123</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>123-273f140d</id>
+    <lines>12-14</lines>
+    <body>Move EO tests from `*-atom-tests` to their sources. Currently, we cannot do that because of failed distinction between generated sources and sources, placed into src/test/java by the programmer manually.</body>
+    <file>src/main/eo/org/eolang/dom/element-atom-tests.eo</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2025-06-08T08:42:39Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

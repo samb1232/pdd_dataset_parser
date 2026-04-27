@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-05-13T04:33:00+00:00" version="0.30.16">
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/zold-java-client/issues/10" closed="2019-01-21T14:56:14+00:00">10</issue>
+    <ticket>7</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>7-d6b7ad21</id>
+    <lines>41-43</lines>
+    <body>We should use this class wherever we are instantiating an HttpClient in order to send the User-Agent HTTP header.</body>
+    <file>src/main/java/com/amihaiemil/zold/UserAgentRequestHeader.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-15T11:26:28Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/zold-java-client/issues/11" closed="2019-01-20T20:58:40+00:00">11</issue>
+    <ticket>4</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>4-040a72fe</id>
+    <lines>38-39</lines>
+    <body>Add methods for API entry points to this class, once we find the actual API docs for Zold.</body>
+    <file>src/main/java/com/amihaiemil/zold/RestfulZoldNet.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-15T11:26:28Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/zold-java-client/issues/19" closed="2019-01-21T14:56:16+00:00">19</issue>
+        <ticket>11</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>11-721420d3</id>
+        <lines>38-38</lines>
+        <body>implement body of interface methods.</body>
+        <file>src/main/java/com/amihaiemil/zold/RestfulZoldWts.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-01-20T20:58:34Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/amihaiemil/zold-java-client/issues/29" closed="2019-01-24T16:07:29+00:00">29</issue>
+            <ticket>19</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>19-e3637f82</id>
+            <lines>40-41</lines>
+            <body>Continue implementing Wallet operations. Don't forget to wait for each job completion.</body>
+            <file>src/main/java/com/amihaiemil/zold/RtWallet.java</file>
+            <author>@amihaiemil</author>
+            <email>amihaiemil@gmail.com</email>
+            <time>2019-01-21T14:50:57Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/zold-java-client/issues/33" closed="2019-02-05T15:16:28+00:00">33</issue>
+                <ticket>29</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>29-e3637f82</id>
+                <lines>40-41</lines>
+                <body>Continue implementing Wallet operations. Don't forget to wait for each job completion.</body>
+                <file>src/main/java/com/amihaiemil/zold/RtWallet.java</file>
+                <author>@ammaratef45</author>
+                <email>ammar.atef45@gmail.com</email>
+                <time>2019-01-24T15:07:21Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/zold-java-client/issues/41" closed="2019-02-27T18:15:45+00:00">41</issue>
+                    <ticket>33</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>33-e07698b5</id>
+                    <lines>45-45</lines>
+                    <body>implement the find method as in zold ruby sdk.</body>
+                    <file>src/main/java/com/amihaiemil/zold/RtWallet.java</file>
+                    <author>@rultor</author>
+                    <email>me@rultor.com</email>
+                    <time>2019-02-05T15:15:56Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/amihaiemil/zold-java-client/issues/34" closed="2019-03-26T06:17:08+00:00">34</issue>
+                <ticket>29</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>29-6cca827c</id>
+                <lines>42-42</lines>
+                <body>Write unit test for all wallet operations.</body>
+                <file>src/main/java/com/amihaiemil/zold/RtWallet.java</file>
+                <author>@ammaratef45</author>
+                <email>ammar.atef45@gmail.com</email>
+                <time>2019-01-24T15:07:21Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/amihaiemil/zold-java-client/issues/56" closed="2019-04-03T09:47:27+00:00">56</issue>
+                    <ticket>34</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>34-5b6d6642</id>
+                    <lines>48-48</lines>
+                    <body>Write unit tests for uncovered wallet operations.</body>
+                    <file>src/main/java/com/amihaiemil/zold/RtWallet.java</file>
+                    <author>Denis Konovalyenko</author>
+                    <email>denis.konovalyenko@gmail.com</email>
+                    <time>2019-03-23T15:29:59Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/amihaiemil/zold-java-client/issues/61" closed="2019-05-13T04:33:00+00:00">61</issue>
+                        <ticket>56</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>56-5b6d6642</id>
+                        <lines>49-49</lines>
+                        <body>Write unit tests for uncovered wallet operations.</body>
+                        <file>src/main/java/com/amihaiemil/zold/RtWallet.java</file>
+                        <author>Denis Konovalyenko</author>
+                        <email>denis.konovalyenko@gmail.com</email>
+                        <time>2019-03-26T09:33:43Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/zold-java-client/issues/20" closed="2019-01-20T21:26:35+00:00">20</issue>
+        <ticket>11</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>11-226cf3e4</id>
+        <lines>82-84</lines>
+        <body>should avoid using null (it's here for now till the body is implemented) maybe should throw an exception when pull fails too</body>
+        <file>src/main/java/com/amihaiemil/zold/RestfulZoldWts.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-01-20T20:58:34Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/zold-java-client/issues/21" closed="2019-01-20T21:26:36+00:00">21</issue>
+        <ticket>11</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>11-6cb5dac1</id>
+        <lines>22-23</lines>
+        <body>solve checkstyle paramternumber error either by cahnging the method structure or supressing the warning</body>
+        <file>src/main/java/com/amihaiemil/zold/Wallet.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-01-20T20:58:34Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <ticket>25</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>25-8ad4a268</id>
+    <lines>42-42</lines>
+    <body>Add tests for PayloadOf.</body>
+    <file>src/main/java/com/amihaiemil/zold/PayloadOf.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-21T08:00:05Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

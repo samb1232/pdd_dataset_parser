@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2022-10-23T00:25:27+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/KAIFA-CH/launcher.moe/issues/2" closed="2022-10-22T11:36:00+00:00">2</issue>
+    <ticket>fetch</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>fetch-4fc48b15</id>
+    <lines>4-4</lines>
+    <body>Make sure the person owns it in the DB and then fetch the record info for the provided domain</body>
+    <file>pages/api/v1/dns/fetch/[domain].js</file>
+    <author>@Mar0xy</author>
+    <email>marie@kaifa.ch</email>
+    <time>2022-10-20T19:07:14Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/KAIFA-CH/launcher.moe/issues/3">3</issue>
+    <ticket>update</ticket>
+    <estimate>0</estimate>
+    <role>DEV</role>
+    <id>update-5a3c6e19</id>
+    <lines>5-5</lines>
+    <body>Allow user to update cname record</body>
+    <file>pages/api/v1/dns/update/[domain]/[cname].js</file>
+    <author>@Mar0xy</author>
+    <email>marie@kaifa.ch</email>
+    <time>2022-10-22T11:35:44Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

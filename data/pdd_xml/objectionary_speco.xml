@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-04-13T11:06:22+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/28" closed="2023-02-15T10:23:43+00:00">28</issue>
+    <ticket>22</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>22-db3865a1</id>
+    <lines>43-45</lines>
+    <body>add separate unit-test for each transformation, which would run step by step and check the intermediate results, for example, use yml packs as in dejump.</body>
+    <file>src/test/java/org/eolang/speco/MainTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-01-17T12:09:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/50" closed="2023-02-27T08:54:09+00:00">50</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>47-c539e2d9</id>
+    <lines>29-32</lines>
+    <body>add unit-test for transformation, in which the input will be xmir with applications with polymorphic objects and the expected result will be the same xmir with an applications with their specialized versions.</body>
+    <file>src/main/resources/org/eolang/speco/2-1-substitute-applications.xsl</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-15T10:14:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/51" closed="2023-02-24T22:56:18+00:00">51</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>47-276d8114</id>
+    <lines>29-31</lines>
+    <body>add unit-test for transformation, in which the input will be xmir with a specialized objects in &lt;speco/&gt; section and the expected result will be the same xmir with a specialized object in &lt;objects/&gt; section.</body>
+    <file>src/main/resources/org/eolang/speco/1-3-extension.xsl</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-15T10:14:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/52" closed="2023-02-22T13:14:20+00:00">52</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>47-76b5d8f3</id>
+    <lines>29-32</lines>
+    <body>add unit-test for transformation, in which the input will be xmir without a &lt;speco/&gt; section and the expected result will be the same xmir with a &lt;speco/&gt; section duplicating &lt;aoi/&gt;.</body>
+    <file>src/main/resources/org/eolang/speco/1-1-coping.xsl</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-15T10:14:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/53" closed="2023-02-27T06:03:19+00:00">53</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>47-5318f6cb</id>
+    <lines>29-32</lines>
+    <body>add unit-test for transformation, in which the input will be xmir with a &lt;speco/&gt; section duplicating &lt;aoi/&gt; and in the expected result will be the same xmir with a specialized objects in the &lt;speco/&gt; section.</body>
+    <file>src/main/resources/org/eolang/speco/1-2-specialization.xsl</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-15T10:14:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/speco/issues/54">54</issue>
+    <ticket>32</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>32-6813db68</id>
+    <lines>110-113</lines>
+    <body>investigate problem with @DisableOnOs(OS.Windows), this is an issue of junit -- https://github.com/junit-team/junit5/issues/2811, maybe try to manually delete each created file or use a pat or get rid of the @TempDir.</body>
+    <file>src/test/java/org/eolang/speco/SpecoTest.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-15T10:14:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/74" closed="2023-02-27T06:14:38+00:00">74</issue>
+    <ticket>63</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>63-5b7f38a4</id>
+    <lines>51-53</lines>
+    <body>enable convertsFromEO test: we need to remove @disable annotation for these test when we provide the rule 3 implementation and add an appropriate transformation.</body>
+    <file>src/test/java/org/eolang/speco/SpecoEoTest.java</file>
+    <author>@advasileva</author>
+    <email>alenadvasileva@yandex.ru</email>
+    <time>2023-02-26T11:25:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/75" closed="2023-02-27T06:14:43+00:00">75</issue>
+    <ticket>63</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>63-ca0ca568</id>
+    <lines>41-43</lines>
+    <body>enable convertsFromXmir test: we need to remove @disable annotation for these test when we provide the rule 3 implementation and add an appropriate transformation.</body>
+    <file>src/test/java/org/eolang/speco/SpecoXmirTest.java</file>
+    <author>@advasileva</author>
+    <email>alenadvasileva@yandex.ru</email>
+    <time>2023-02-26T11:25:12Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/76" closed="2023-02-28T12:08:55+00:00">76</issue>
+    <ticket>64</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>64-2f390398</id>
+    <lines>28-31</lines>
+    <body>add unit-test for transformation, in which the input will be xmir with polymorphic object and the expected result will be the same xmir with a with-* attributes for all specialized versions of this polymorphic object.</body>
+    <file>src/main/resources/org/eolang/speco/3-1-add-with.xsl</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-27T06:06:22Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/speco/issues/80" closed="2023-03-04T10:54:23+00:00">80</issue>
+    <ticket>68</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>68-f9ee8553</id>
+    <lines>28-31</lines>
+    <body>add unit-test for transformation, in which the input will be xmir with object with fence attribute, the expected result will be the same xmir with a *-as-tuple attribute for this fence attribute.</body>
+    <file>src/main/resources/org/eolang/speco/4-1-fence-tuples.xsl</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-02-28T12:00:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/speco/issues/109">109</issue>
+    <ticket>39</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>39-efbdd83b</id>
+    <lines>36-38</lines>
+    <body>refactor this interface and classes EoWalk and XmirWalk implementing it, to avoid code duplication. In particular, in the fields (input, output and speco), constructor and exec method.</body>
+    <file>src/main/java/org/eolang/speco/Walk.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-04-13T10:35:30Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

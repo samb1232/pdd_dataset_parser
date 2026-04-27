@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2023-07-04T15:30:08+00:00" version="0.31.9">
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eokson/issues/9" closed="2023-07-04T11:30:12+00:00">9</issue>
+    <ticket>6</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>6-a2e5fba8</id>
+    <lines>215-227</lines>
+    <body>enable jtcop--&gt; &lt;plugin&gt;--&gt; &lt;groupId&gt;com.github.volodya-lombrozo&lt;/groupId&gt;--&gt; &lt;artifactId&gt;jtcop-maven-plugin&lt;/artifactId&gt;--&gt; &lt;version&gt;${jtcop.version}&lt;/version&gt;--&gt; &lt;executions&gt;--&gt; &lt;execution&gt;--&gt; &lt;goals&gt;--&gt; &lt;goal&gt;check&lt;/goal&gt;--&gt; &lt;/goals&gt;--&gt; &lt;/execution&gt;--&gt; &lt;/executions&gt;--&gt; &lt;/plugin&gt;--&gt;</body>
+    <file>pom.xml</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-15T10:19:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eokson/issues/10" closed="2023-07-04T14:47:54+00:00">10</issue>
+    <ticket>6</ticket>
+    <estimate>20</estimate>
+    <role>DEV</role>
+    <id>6-2b03f712</id>
+    <lines>228-240</lines>
+    <body>enable sa-tan--&gt; &lt;plugin&gt;--&gt; &lt;groupId&gt;ru.l3r8y&lt;/groupId&gt;--&gt; &lt;artifactId&gt;sa-tan&lt;/artifactId&gt;--&gt; &lt;version&gt;${sa-tan.version}&lt;/version&gt;--&gt; &lt;executions&gt;--&gt; &lt;execution&gt;--&gt; &lt;goals&gt;--&gt; &lt;goal&gt;search&lt;/goal&gt;--&gt; &lt;/goals&gt;--&gt; &lt;/execution&gt;--&gt; &lt;/executions&gt;--&gt; &lt;/plugin&gt;--&gt;</body>
+    <file>pom.xml</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-15T10:19:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/eo-cqrs/eokson/issues/47" closed="2023-07-04T15:30:08+00:00">47</issue>
+        <ticket>10</ticket>
+        <estimate>15</estimate>
+        <role>DEV</role>
+        <id>10-1f6ed2c0</id>
+        <lines>241-241</lines>
+        <body>failOnError set to true --&gt;</body>
+        <file>pom.xml</file>
+        <author>@h1alexbel</author>
+        <email>hialexbel@gmail.com</email>
+        <time>2023-07-04T14:34:36Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eokson/issues/22" closed="2023-06-23T14:50:08+00:00">22</issue>
+    <ticket>6</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>6-bdf181f2</id>
+    <lines>30-30</lines>
+    <body>create eokson-matchers package</body>
+    <file>src/test/java/io/github/eocqrs/eokson/JsonEqualTo.java</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2023-06-16T11:36:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/eo-cqrs/eokson/issues/29" closed="2023-07-04T12:25:51+00:00">29</issue>
+    <ticket>6</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>6-bfe5d061</id>
+    <lines>171-172</lines>
+    <body>array leafing test doesn't work */</body>
+    <file>src/test/java/io/github/eocqrs/eokson/SmartJsonTest.java</file>
+    <author>@h1alexbel</author>
+    <email>hialexbel@gmail.com</email>
+    <time>2023-06-23T15:09:30Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

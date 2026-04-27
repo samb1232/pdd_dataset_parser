@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-10-21T07:37:06+00:00" version="BUILD">
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/tagrs/issues/11">11</issue>
+    <ticket>9</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>9-e637160b</id>
+    <lines>41-43</lines>
+    <body>Enable windows-2022 platform for testing. Currently we can not do this, because we use shell scripts inside `just test` command in order to execute tests in tests folder.</body>
+    <file>.github/workflows/just.yml</file>
+    <author>@h1alexbel</author>
+    <email>h1alexbelx@gmail.com</email>
+    <time>2024-10-01T16:40:11Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2024-10-05T06:35:06+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/ghminer/issues/5" closed="2024-05-22T13:12:57+00:00">5</issue>
+    <ticket>1</ticket>
+    <estimate>35</estimate>
+    <role>DEV</role>
+    <id>1-40be398f</id>
+    <lines>36-39</lines>
+    <body>Add support for --tokens to pass file with tokens. We should add support for --tokens so, we users of the CLI will pass the file (filename) or an array that contains a few tokens. Don't forget to remove this puzzle.</body>
+    <file>src/index.js</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-05-17T15:51:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/ghminer/issues/6">6</issue>
+    <ticket>1</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>1-9c7dd4e1</id>
+    <lines>57-60</lines>
+    <body>Decompose fetch batch results into smaller pieces. We should decompose this large function into more manageable components in order to maintain it in the future. Let's create a few unit test as well. Don't forget to remove this puzzle.</body>
+    <file>src/index.js</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-05-17T15:51:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/ghminer/issues/7">7</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-760e721d</id>
+    <lines>97-101</lines>
+    <body>Create integration test case with GitHub GraphQL API. We should create integration test cases for GitHub GraphQL API. Let's try to use open repositories without PAT passing. Besides the test case, let's move this function into `ranged.js`. Don't forget to remove this puzzle.</body>
+    <file>src/index.js</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-05-17T15:51:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/h1alexbel/ghminer/issues/8">8</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-2984a935</id>
+    <lines>123-126</lines>
+    <body>Decompose fetchAllResults function into more manageable components. We should decompose that large function into smaller pieces that we can easily change or refactor. Let's create a few unit tests as well. Don't forget to remove this puzzle.</body>
+    <file>src/index.js</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-05-17T15:51:17Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/h1alexbel/ghminer/issues/9" closed="2024-10-05T06:35:06+00:00">9</issue>
+    <ticket>1</ticket>
+    <estimate>45</estimate>
+    <role>DEV</role>
+    <id>1-232f4234</id>
+    <lines>185-189</lines>
+    <body>Add support for dynamic field mapping. Let's add support for dynamic field mapping, user will define his own mapping in `.yml` file, we will parse that and apply it when writing results to the files. e.g.: name: result.nameWithOwner, etc. In this case `result` should be bindable only in that `.yml` config.</body>
+    <file>src/index.js</file>
+    <author>@h1alexbel</author>
+    <email>aliaksei.bialiauski@hey.com</email>
+    <time>2024-05-17T15:51:17Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

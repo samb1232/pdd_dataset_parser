@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2018-12-03T14:45:16+00:00" version="0.30.13">
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/12" closed="2017-11-19T16:57:37+00:00">12</issue>
+    <ticket>9</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>9-a14ec7c0</id>
+    <lines>40-41</lines>
+    <body>Implement method scripts(), which extracts the code to run from the comment, and write some unit tests for it.</body>
+    <file>src/main/java/co/comdor/github/JsonMention.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-10-28T14:27:32Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/comdor/issues/31">31</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>27-eeb7ae28</id>
+    <lines>36-38</lines>
+    <body>Design and implement "aliases", which will basically be customized commands, aliases, labels for scripts which the users may want to execute periodically, like merging or deploying scripts.</body>
+    <file>src/main/java/co/comdor/github/ComdorYaml.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-11-02T16:23:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/32" closed="2017-11-04T16:29:30+00:00">32</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>27-316a9c24</id>
+    <lines>39-39</lines>
+    <body>Add an implementation based on camel library.</body>
+    <file>src/main/java/co/comdor/github/ComdorYaml.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-11-02T16:23:13Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/amihaiemil/comdor/issues/37">37</issue>
+    <ticket>34</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>34-9af8cff0</id>
+    <lines>35-36</lines>
+    <body>StarRepo and FollowUser are each tested separately, but some tests for this class would also be useful.</body>
+    <file>src/main/java/co/comdor/github/GithubSocialSteps.java</file>
+    <author>Mihai</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-11-04T15:05:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/41" closed="2017-11-09T19:40:48+00:00">41</issue>
+    <ticket>39</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>39-77ad7f62</id>
+    <lines>39-40</lines>
+    <body>Implement and unit test also a CommanderCheck, which checks if the author is a commander.</body>
+    <file>src/main/java/co/comdor/github/ArchitectCheck.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-11-08T20:32:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/comdor/issues/43" closed="2017-11-20T15:39:13+00:00">43</issue>
+        <ticket>41</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>41-08f637ac</id>
+        <lines>38-40</lines>
+        <body>Add CachedMention decorator, to cache certain things such as the .comdor.yml file (currently that is read from the Github repo at each call of .comdorYaml()).</body>
+        <file>src/main/java/co/comdor/github/Mention.java</file>
+        <author>Mihai Andronache</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-11-09T19:19:43Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/51" closed="2017-11-18T17:26:30+00:00">51</issue>
+    <ticket>49</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>49-a23d7c2e</id>
+    <lines>35-37</lines>
+    <body>Continue implementing this class. It should use a Docker client which communicates with the Docker Host and starts a container, executes something and can close (terminate) the container.</body>
+    <file>src/main/java/co/comdor/Docker.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-11-16T14:08:26Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/57" closed="2017-11-19T15:55:31+00:00">57</issue>
+    <ticket>55</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>55-c2e6a7b6</id>
+    <lines>35-37</lines>
+    <body>Continue implementing this class. It should take a DockerClient and a ContainerCreation, which holds the container's coordinates on the Docker host.</body>
+    <file>src/main/java/co/comdor/Docker.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-11-18T17:21:34Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/58" closed="2017-11-19T15:55:32+00:00">58</issue>
+    <ticket>55</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>55-6975a469</id>
+    <lines>40-41</lines>
+    <body>Finish the implementation here. Connection to the remote host has to be fixed (now it connects to localhost all the time).</body>
+    <file>src/main/java/co/comdor/RtDockerHost.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-11-18T17:21:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/comdor/issues/61" closed="2017-11-30T17:36:20+00:00">61</issue>
+        <ticket>58</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>58-f5966b34</id>
+        <lines>35-35</lines>
+        <body>Continue implementation of execute and close methods.</body>
+        <file>src/main/java/co/comdor/Docker.java</file>
+        <author>Mihai Andronache</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-11-19T15:47:46Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/amihaiemil/comdor/issues/62" closed="2017-11-27T14:41:14+00:00">62</issue>
+        <ticket>58</ticket>
+        <estimate>30</estimate>
+        <role>IMP</role>
+        <id>58-d132ca5f</id>
+        <lines>42-43</lines>
+        <body>Add a Decorator which catches all the checked exceptions, logs them and throws a RuntimeException further.</body>
+        <file>src/main/java/co/comdor/RtDockerHost.java</file>
+        <author>Mihai Andronache</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2017-11-19T15:47:46Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/73" closed="2017-11-27T14:41:15+00:00">73</issue>
+    <ticket>68</ticket>
+    <estimate>30</estimate>
+    <role>IMP</role>
+    <id>68-99d22887</id>
+    <lines>37-38</lines>
+    <body>Command should return the name for the Docker container (e.g. repo/name#22). Right now the name is hardcoded to "test".</body>
+    <file>src/main/java/co/comdor/FireUpDocker.java</file>
+    <author>Mihai Andronache</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2017-11-24T22:04:42Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/103" closed="2018-12-01T14:39:26+00:00">103</issue>
+    <ticket>99</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>99-2f8461bb</id>
+    <lines>43-44</lines>
+    <body>Use the logs' Reader to write the Container's logs into our slf4J Logger.</body>
+    <file>src/main/java/co/comdor/FireUpDocker.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-11-30T08:26:01Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/amihaiemil/comdor/issues/107" closed="2018-12-03T14:45:16+00:00">107</issue>
+    <ticket>105g</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>105g-990a03f3</id>
+    <lines>110-112</lines>
+    <body>Write some unit tests for this class. For mocking, use MkGithub instead of mocking your own Github istance, it will be much easier.</body>
+    <file>src/main/java/co/comdor/github/CreateLabels.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2018-12-01T16:29:57Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,3173 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2019-03-15T11:01:31+00:00" version="0.30.16">
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/29" closed="2019-02-06T08:21:48+00:00">29</issue>
+    <ticket>10</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>10-5d67d6d0</id>
+    <lines>8-10</lines>
+    <body>Continue implementation. Locations should have its own management pages to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column.</body>
+    <file>models.py</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-25T10:31:57Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/39" closed="2019-02-02T21:22:23+00:00">39</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-8de36b15</id>
+    <lines>36-38</lines>
+    <body>Create management pages for Companies to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column.</body>
+    <file>models.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@gmail.com</email>
+    <time>2019-01-26T12:35:31Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/91" closed="2019-02-05T16:55:41+00:00">91</issue>
+        <ticket>39</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>39-c38a0144</id>
+        <lines>12-15</lines>
+        <body>Bring marshmallow lib for serializing/deserializing objects see more here https://flask-marshmallow.readthedocs.io/en/latest/ It's necessary for our API ViewSets, it helps validate data from request and deserialize it from objects to response</body>
+        <file>companies/views.py</file>
+        <author>Vlad Arefev</author>
+        <email>arefyev@gdeetotdom.ru</email>
+        <time>2019-01-30T17:24:01Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/94" closed="2019-02-05T16:55:46+00:00">94</issue>
+        <ticket>39</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>39-8e1cca55</id>
+        <lines>18-20</lines>
+        <body>Once marshmallow will be brought in puzzle above, then continue the implementation, it should be possible to sort and filter for every column</body>
+        <file>companies/views.py</file>
+        <author>Vlad Arefev</author>
+        <email>arefyev@gdeetotdom.ru</email>
+        <time>2019-02-02T21:12:35Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/40" closed="2019-02-04T09:09:18+00:00">40</issue>
+    <ticket>3</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>3-3e61ed39</id>
+    <lines>39-41</lines>
+    <body>Implement TimestampMixin, like in the example (http://flask-sqlalchemy.pocoo.org/2.3/customizing/). Change all the models to use this mixin instead of existing created_on and updated_on fields.</body>
+    <file>models.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@gmail.com</email>
+    <time>2019-01-26T12:35:31Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/103" closed="2019-02-08T08:06:55+00:00">103</issue>
+        <ticket>40</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>40-ad71f182</id>
+        <lines>7-9</lines>
+        <body>Create a unit test for TimestampsMixin. We need to check if created_on field is correctly populated, and updated_on field is correctly updated.</body>
+        <file>models.py</file>
+        <author>Carlos Miranda</author>
+        <email>carlosmiranda@users.noreply.github.com</email>
+        <time>2019-02-03T08:47:44Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/42" closed="2019-02-02T21:30:31+00:00">42</issue>
+    <ticket>11</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>11-dae961e8</id>
+    <lines>8-11</lines>
+    <body>Continue implementation. Floors should have its own management pages to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column. Floor management page should be accessed by the Location page. """</body>
+    <file>models.py</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-25T12:07:16Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/95" closed="2019-02-26T17:52:17+00:00">95</issue>
+        <ticket>42</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>42-8659514f</id>
+        <lines>2-6</lines>
+        <body>Continue implementing list_floors(), create(), edit() and delete() methods, using SQLAlchemy and Floor model. In the index page it should be possible to sort and filter for every column. Floor management page should be accessed by the Location page. Update html templates when methods are implemented. Create more tests for all methods.</body>
+        <file>restaurants/floors/views.py</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@gmail.com</email>
+        <time>2019-01-30T20:59:05Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/192" closed="2019-02-14T09:26:28+00:00">192</issue>
+            <ticket>95</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>95-9eb0bf3b</id>
+            <lines>2-6</lines>
+            <body>Continue implementing list(), create(), edit() and delete() methods, using SQLAlchemy and Location model. In the index page it should be possible to sort and filter for every column. Location management page should be accessed by the Location page. Update html templates when methods are implemented. Create more tests for all methods.</body>
+            <file>timeless/roles/views.py</file>
+            <author>Krzysztof Krason</author>
+            <email>Krzysztof.Krason@gmail.com</email>
+            <time>2019-02-06T13:07:35Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/255" closed="2019-02-20T14:59:49+00:00">255</issue>
+                <ticket>192</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>192-19881263</id>
+                <lines>2-6</lines>
+                <body>Continue implementing edit() and delete() methods, using SQLAlchemy and Location model. In the index page it should be possible to sort and filter for every column. Location management page should be accessed by the Location page. Update html templates when methods are implemented. Create more tests for all methods.</body>
+                <file>timeless/roles/views.py</file>
+                <author>Vedran Grgo Vatavuk</author>
+                <email>vedran.grgo.vatavuk@ericsson.com</email>
+                <time>2019-02-12T20:10:37Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/338" closed="2019-03-07T18:51:38+00:00">338</issue>
+                    <ticket>255</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>255-fcaee2d2</id>
+                    <lines>2-9</lines>
+                    <body>Continue implementing edit() method, using SQLAlchemy and Location model. In the index page it should be possible to sort and filter for every column. Location management page should be accessed by the Location page. Update html templates when methods are implemented. Create more tests for edit() route. Remember not to use DB layer directly. Please refer to timeless/companies/views.py as an example on how routes should be implemented.</body>
+                    <file>timeless/roles/views.py</file>
+                    <author>@ekondrashev</author>
+                    <email>eugene.kondrashev@gmail.com</email>
+                    <time>2019-02-19T14:33:45Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/timelesslounge/timelessis/issues/494" closed="2019-03-09T18:37:15+00:00">494</issue>
+                        <ticket>338</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>338-ce2e954e</id>
+                        <lines>2-4</lines>
+                        <body>Continue to implement html templates using html mockups and use generic views for list / create routes. See `templates/_formhelpers.html`, it helps to render inputs in templates correctly.</body>
+                        <file>timeless/roles/views.py</file>
+                        <author>Vadim Ryazanov</author>
+                        <email>vadimvoronezh@yandex.ru</email>
+                        <time>2019-03-07T18:27:44Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/421" closed="2019-03-06T15:13:27+00:00">421</issue>
+            <ticket>95</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>95-130b3147</id>
+            <lines>2-5</lines>
+            <body>Continue implementing list floors view. Floors index page must allow sorting and filtering of floors for every column and it has to be accessed by the Location page. Then remove skip annotation from FloorsListView test. Authentication must be faked in order to test work.</body>
+            <file>timeless/restaurants/floors/views.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-26T02:24:17Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/483">483</issue>
+                <ticket>421</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>421-e91816c7</id>
+                <lines>2-6</lines>
+                <body>Continue implementing list floors view. Floors index page must allow sorting and filtering of floors for every column and it has to be accessed by the Location page. Then remove skip annotation from FloorsListView tests for ordering and filtering. Authentication must be faked in order to test work.</body>
+                <file>timeless/restaurants/floors/views.py</file>
+                <author>Emiliano Della Casa</author>
+                <email>emiliano.dellacasa@gmail.com</email>
+                <time>2019-03-06T11:50:22Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/422" closed="2019-03-11T11:22:37+00:00">422</issue>
+            <ticket>95</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>95-9a26f2d6</id>
+            <lines>6-11</lines>
+            <body>Implement create floor view. Create floor view must extend timeless/views.py::CreateView and implement floor creation. First screen must show empty fields for floor data input and second view must show the newly inserted floor information and a message with the result of the insertion of this data to the repository. The tests must cover if the screen is being showed correctly and if the errors are being displayed if any.</body>
+            <file>timeless/restaurants/floors/views.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-26T02:24:17Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/423">423</issue>
+            <ticket>95</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>95-f9b8de53</id>
+            <lines>12-18</lines>
+            <body>Implement edit / update floor views. Edit / update floor view is composed of two views: first view of edit / floor view must load the desired floor data onto the screen and must extend timeless/views.py::DetailView; second part of update view extends timeless/views.py::UpdateView, receives data from the first view and must save the data to the repository. The tests must include checking if the view screens were correctly built and if the data was saved to the repository.</body>
+            <file>timeless/restaurants/floors/views.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-26T02:24:17Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/424" closed="2019-03-08T09:21:11+00:00">424</issue>
+            <ticket>95</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>95-4d49abdc</id>
+            <lines>19-23</lines>
+            <body>Implement delete floor view. Delete floor view is composed of two views: the first view must load the desired floor data onto the screen and show an button to delete the selected view, extending timeless/views.py::DetailView; second view must show the result message of floor deletion.</body>
+            <file>timeless/restaurants/floors/views.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-26T02:24:17Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/499">499</issue>
+                <ticket>424</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>424-80fae5e2</id>
+                <lines>20-24</lines>
+                <body>The last step for deletion is to ask for confirmation before actually deleting the object. When clicking on link on list floors pages a javascript modal should appear asking user for confirmation. Also make sure that when a floor is deleted, all depending entities (like Tables, for example) are deleted</body>
+                <file>timeless/restaurants/floors/views.py</file>
+                <author>Emiliano Della Casa</author>
+                <email>emiliano.dellacasa@gmail.com</email>
+                <time>2019-03-07T16:03:45Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/530">530</issue>
+            <ticket>95</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>95-ccd6d9a8</id>
+            <lines>7-11</lines>
+            <body>Continue on developing create floor view. After creation we should render Detail view showing the newly inserted floor information and a message with the result of the insertion of this data to the repository. The tests must cover if the screen is being showed correctly and if the errors are being displayed if any.</body>
+            <file>timeless/restaurants/floors/views.py</file>
+            <author>@rultor</author>
+            <email>me@rultor.com</email>
+            <time>2019-03-11T11:15:14Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/133" closed="2019-02-10T19:46:27+00:00">133</issue>
+        <ticket>42</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>42-a6cc90a9</id>
+        <lines>2-6</lines>
+        <body>Continue implementing list_locations(), create(), edit() and delete() methods, using SQLAlchemy and Location model. In the index page it should be possible to sort and filter for every column. Location management page should be accessed by the Location page. Update html templates when methods are implemented. Create more tests for all methods.</body>
+        <file>timeless/restaurants/locations/views.py</file>
+        <author>Carlos Miranda</author>
+        <email>carlosmiranda@users.noreply.github.com</email>
+        <time>2019-02-03T09:09:59Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/208" closed="2019-02-21T15:21:46+00:00">208</issue>
+            <ticket>133</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>133-6fbe419f</id>
+            <lines>2-7</lines>
+            <body>Continue implementing list_locations(), create(), edit() and delete() methods, using SQLAlchemy and Location model. In the index page it should be possible to sort and filter for every column. Location management page should be accessed by the Location page. Update html templates when methods are implemented. Location integration tests are aready created, create more tests for all methods.</body>
+            <file>timeless/restaurants/locations/views.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-09T18:22:46Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/363" closed="2019-03-07T16:44:00+00:00">363</issue>
+                <ticket>208</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>208-4b3b84bd</id>
+                <lines>2-5</lines>
+                <body>Remove function endpoints once the view classes are in place. See #173 for more details about generic views use CreateView, EditView and DeleteView as provided in the commented code templates. Uncomment and modify this code - create missing view templates and write ITs to verify behaviour.</body>
+                <file>timeless/restaurants/locations/views.py</file>
+                <author>Boris Kuzmic</author>
+                <email>boris.kuzmic@ericsson.com</email>
+                <time>2019-02-21T13:05:36Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/134" closed="2019-02-16T13:20:59+00:00">134</issue>
+        <ticket>42</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>42-ca2a2c0a</id>
+        <lines>7-9</lines>
+        <body>We should create generic logic in other models. Let's create generic classes for list_&lt;model&gt;, create, edit, and delete. Let's implement something like https://docs.djangoproject.com/en/2.1/ref/class-based-views/generic-display/</body>
+        <file>timeless/restaurants/locations/views.py</file>
+        <author>Carlos Miranda</author>
+        <email>carlosmiranda@users.noreply.github.com</email>
+        <time>2019-02-03T09:09:59Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/43" closed="2019-02-02T22:01:05+00:00">43</issue>
+    <ticket>18</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>18-e4de0db5</id>
+    <lines>9-11</lines>
+    <body>Continue implementation as in #18. Weekdays, months and dates still need to be added -- we'll probably need additional tables to represent these relations.</body>
+    <file>db/schemetypes/scheme_condition.py</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-26T12:35:49Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/97" closed="2019-02-23T21:39:31+00:00">97</issue>
+        <ticket>43</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>43-07f6d407</id>
+        <lines>61-63</lines>
+        <body>Continue implementation as in #18. The possibility to create, edit, delete the conditions shall be made inside SchemeType page for consistency.</body>
+        <file>schemetypes/models.py</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2019-02-01T08:36:41Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/386" closed="2019-03-02T15:52:59+00:00">386</issue>
+            <ticket>97</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>97-f1e01378</id>
+            <lines>9-12</lines>
+            <body>Continue implementing SchemeConditionCreate, SchemeConditionEdit, SchemeConditionDelete views once generic views from #173 are implemented. Code templates are already provided below, so uncomment and modify - create templates and write ITs to verify behaviour.</body>
+            <file>timeless/schemetypes/views.py</file>
+            <author>Boris Kuzmic</author>
+            <email>boris.kuzmic@gmail.com</email>
+            <time>2019-02-22T20:41:33Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/455">455</issue>
+                <ticket>386</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>386-df78f47d</id>
+                <lines>2-5</lines>
+                <body>Continue implementing Edit and Delete views once generic views. Code templates are already provided below, so uncomment and modify - create templates and write ITs to verify behaviour.</body>
+                <file>timeless/schemetypes/views.py</file>
+                <author>Vadim Ryazanov</author>
+                <email>vadimvoronezh@yandex.ru</email>
+                <time>2019-02-28T16:54:26Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/56" closed="2019-02-21T15:00:36+00:00">56</issue>
+    <ticket>17</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>17-965ca61a</id>
+    <lines>29-31</lines>
+    <body>Continue implementation as in #17. SchemeType should have its own management pages to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column.</body>
+    <file>schemetypes/models.py</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-29T09:15:11Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/361" closed="2019-03-01T14:52:25+00:00">361</issue>
+        <ticket>56</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>56-e2231835</id>
+        <lines>2-5</lines>
+        <body>Continue implementing Create, Edit and Delete views once generic views from #173 are implemented. Code templates are already provided below, so uncomment and modify - create templates and write ITs to verify behaviour.</body>
+        <file>timeless/schemetypes/views.py</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2019-02-20T14:49:34Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/362">362</issue>
+        <ticket>56</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>56-a706c5b0</id>
+        <lines>6-8</lines>
+        <body>Once #357 is finished, reuse the view (or better create a new generic one - if it doesn't exist) to enable sorting and filtering for every column. Also replace all other List views with this new generic one.</body>
+        <file>timeless/schemetypes/views.py</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2019-02-21T13:15:08Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/57" closed="2019-02-21T11:07:30+00:00">57</issue>
+    <ticket>4</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>4-49d25317</id>
+    <lines>7-11</lines>
+    <body>Continue implementation. Employees should have its own management pages to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column. Other possible actions are described in more detail in issue #4. Specific details about Employee default values are in another puzzle.</body>
+    <file>employees/models.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@gmail.com</email>
+    <time>2019-01-26T14:33:08Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/348" closed="2019-02-26T09:36:56+00:00">348</issue>
+        <ticket>57</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>57-cb8584ba</id>
+        <lines>2-4</lines>
+        <body>Continue implementing Create, Edit and Delete views once generic views from #173 are implemented. Templates are already provided below, so uncomment and modify - create templates and write ITs to verify behaviour</body>
+        <file>timeless/employees/views.py</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-02-20T21:21:43Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/411" closed="2019-03-08T15:50:23+00:00">411</issue>
+            <ticket>348</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>348-77a170af</id>
+            <lines>28-30</lines>
+            <body>Continue implementing Edit view when generic view UpdateView would be implemented. Template "employees/create_edit.html" has already provided, so uncomment and modify. Write IT to verify behaviour.</body>
+            <file>timeless/employees/views.py</file>
+            <author>VladimirRyzhkov</author>
+            <email>ryzhkov.vlad@gmail.com</email>
+            <time>2019-02-26T06:54:13Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/503">503</issue>
+                <ticket>411</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>411-ff163462</id>
+                <lines>115-116</lines>
+                <body>Lets fix the test. Currently it fails because of passed form is not being valid, failing with 'Already exists.' message for username and pincode. Remember to uncomment Edit view for employee.</body>
+                <file>tests/integration/it_employees_test.py</file>
+                <author>Eugene Kondrashev</author>
+                <email>eugene.kondrashev@gmail.com</email>
+                <time>2019-03-08T14:25:21Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/412" closed="2019-03-11T09:22:39+00:00">412</issue>
+            <ticket>348</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>348-bc3cea53</id>
+            <lines>44-47</lines>
+            <body>Delete "template_name" from Delete after #312 will be pulled. Uncomment and test IT test "test_delete". "template_name" is using now due to current implementation of views.DeleteView.</body>
+            <file>timeless/employees/views.py</file>
+            <author>VladimirRyzhkov</author>
+            <email>ryzhkov.vlad@gmail.com</email>
+            <time>2019-02-26T07:01:34Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/529">529</issue>
+                <ticket>412</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>412-14b47306</id>
+                <lines>154-156</lines>
+                <body>timeless/employees/views.py::Delete is not working. Fix it and then uncomment the tests below. Also refactor Delete to EmployeeDeleteView to make it uniform with the rest of the applicaton.</body>
+                <file>tests/integration/it_employees_test.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-03-08T20:10:47Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/413">413</issue>
+            <ticket>348</ticket>
+            <estimate>15</estimate>
+            <role>DEV</role>
+            <id>348-d3b6be81</id>
+            <lines>57-59</lines>
+            <body>Delete template_name from List after #312 will be pulled to the master branch. "template_name" is using now due to current implementation of views.DeleteView.</body>
+            <file>timeless/employees/views.py</file>
+            <author>VladimirRyzhkov</author>
+            <email>ryzhkov.vlad@gmail.com</email>
+            <time>2019-02-26T07:01:34Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/357" closed="2019-03-13T11:05:27+00:00">357</issue>
+        <ticket>57</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>57-294a904f</id>
+        <lines>5-8</lines>
+        <body>Continue implementing List to enable sorting and filtering for every column. For this, probably there will be a need to create a new generic view that all other List views will extend. This generic view should use GenericFilter implemented in #317.</body>
+        <file>timeless/employees/views.py</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@ericsson.com</email>
+        <time>2019-02-21T09:20:49Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/542">542</issue>
+            <ticket>357</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>357-eee14b71</id>
+            <lines>2-5</lines>
+            <body>Continue implementing ListView to enable filtering for every column. For this, probably there will be a need to create a new generic view that all other List views will extend. This generic view should use GenericFilter implemented in #317.</body>
+            <file>timeless/employees/views.py</file>
+            <author>Vlad Arefev</author>
+            <email>arefyev@gdeetotdom.ru</email>
+            <time>2019-03-11T20:58:12Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/58" closed="2019-02-07T14:38:59+00:00">58</issue>
+    <ticket>4</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>4-6ceceaee</id>
+    <lines>12-18</lines>
+    <body>Create constructor for Employee model. Default values for these variables should be set: registration_date, account_status user_status, created_on and password. Password is special and it should be hashed and salted - one can use bcrypt_sha256.hash() function. See more at: https://pythonhosted.org/passlib/lib/passlib.hash.bcrypt_sha256.html Also create a method to validate the password, using: bcrypt_sha256.verify("password", h)</body>
+    <file>employees/models.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@gmail.com</email>
+    <time>2019-01-26T14:33:08Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/59" closed="2019-02-10T17:56:12+00:00">59</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-b6c5b635</id>
+    <lines>2-5</lines>
+    <body>Continue implementing login(), forgot_password() and activate() methods, once Employee model is available. Fetch the user using Employee model and check password hash using Employee.validate_password method. Update html templates when methods are implemented. Create more tests for all methods.</body>
+    <file>auth/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@gmail.com</email>
+    <time>2019-01-28T21:34:49Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/200" closed="2019-02-20T17:01:01+00:00">200</issue>
+        <ticket>59</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>59-e7061f4b</id>
+        <lines>2-4</lines>
+        <body>Create IT tests for login method and continue implementing forgot_password() and activate() methods. Update html templates when methods are implemented. Create more tests for all methods.</body>
+        <file>timeless/auth/views.py</file>
+        <author>Vatavuk</author>
+        <email>vatavuk1@hotmail.com</email>
+        <time>2019-02-09T12:13:51Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/201" closed="2019-02-15T14:19:45+00:00">201</issue>
+        <ticket>59</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>59-2d69b226</id>
+        <lines>7-10</lines>
+        <body>The backend should return only error codes for login procedure, not hardcoded messages. The codes should then be translated into (mapped to) Strings on the UI, so we can easily have internationalization or change error messages without having to rebuild + redeploy the backend.</body>
+        <file>timeless/auth/auth.py</file>
+        <author>Vatavuk</author>
+        <email>vatavuk1@hotmail.com</email>
+        <time>2019-02-09T12:15:07Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/269" closed="2019-02-19T14:12:54+00:00">269</issue>
+            <ticket>201</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>201-b5198280</id>
+            <lines>7-11</lines>
+            <body>Translate login error codes. The codes returned from login errors should then be translated into ( mapped to) Strings on the UI, so we can easily have internationalization or change error messages without having to rebuild + redeploy the backend.</body>
+            <file>timeless/auth/auth.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-15T02:05:52Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/297">297</issue>
+                <ticket>269</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>269-55b0fbf9</id>
+                <lines>8-14</lines>
+                <body>Implement FileResource. FileResource should read a property file and return the value according to the keys. Locale should be used to define from which locale the file belongs. The locale is defined in the fine name, for example, messages_en_US.properties. An exception must be raised if some resource is not found on property file. Then remove the skip annotations from it_test_property_resource.py</body>
+                <file>timeless/message/property_resource.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-15T18:55:17Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/60" closed="2019-02-09T10:01:45+00:00">60</issue>
+    <ticket>5</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>5-5e1a2150</id>
+    <lines>6-9</lines>
+    <body>Implement before_app_request function that will get the user id from session, get user data from db and store it in g.user, which lasts for the length of the request. Also, create a decorator that will check, for each view if g.user exists and if not, redirect user to login page.</body>
+    <file>auth/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@gmail.com</email>
+    <time>2019-01-28T21:34:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/63" closed="2019-02-09T14:58:13+00:00">63</issue>
+    <ticket>32</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>32-d70f7c1c</id>
+    <lines>10-12</lines>
+    <body>Continue implementing Settings page for Reservations, it will be deployed on a different subdomain. Page should have set of fields from ReservationSettings model.</body>
+    <file>reservations/views.py</file>
+    <author>Vlad Arefev</author>
+    <email>arefyev@gdeetotdom.ru</email>
+    <time>2019-01-29T15:51:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/186" closed="2019-02-18T21:05:29+00:00">186</issue>
+        <ticket>63</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>63-5a69cbb8</id>
+        <lines>7-9</lines>
+        <body>Continue with the implementation of SettingsController: Create, Read, Update, Delete operations should be implemented, as well as unit tests and integration tests.</body>
+        <file>timeless/reservations/controllers.py</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-02-09T14:41:13Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/291" closed="2019-02-21T09:32:16+00:00">291</issue>
+            <ticket>186</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>186-9fde7513</id>
+            <lines>2-4</lines>
+            <body>Write tests for creating and editing, deleting Settings Reservation model. Now set up 4 tests with pytest.mark.skip option, remove it when tests will be done</body>
+            <file>tests/integration/it_reservation_settings_test.py</file>
+            <author>Vlad Arefev</author>
+            <email>arefyev@gdeetotdom.ru</email>
+            <time>2019-02-16T16:48:19Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/356" closed="2019-03-09T08:27:39+00:00">356</issue>
+                <ticket>291</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>291-4213a390</id>
+                <lines>2-4</lines>
+                <body>Enable all tests below when then functionality in for ReservationSettings will be enabled. There will be tuning needed because there are no endpoint names in the views.</body>
+                <file>tests/integration/it_reservation_settings_test.py</file>
+                <author>Krzysztof Krason</author>
+                <email>Krzysztof.Krason@gmail.com</email>
+                <time>2019-02-20T14:24:48Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/510">510</issue>
+                    <ticket>356</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>356-f6bf209a</id>
+                    <lines>10-12</lines>
+                    <body>Enable the ignored tests below when the functionality will be implemented. There will be tuning needed because there are no endpoint names in the views.</body>
+                    <file>tests/integration/it_reservation_settings_test.py</file>
+                    <author>amihaiemil</author>
+                    <email>amihaiemil@gmail.com</email>
+                    <time>2019-03-08T19:41:01Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/292">292</issue>
+            <ticket>186</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>186-595169e7</id>
+            <lines>10-12</lines>
+            <body>excluding greeting_by_time is temporary solution. forms.BaseModelForm can't handle JSON field. Need to research how to fix this case and fix it.</body>
+            <file>timeless/reservations/forms.py</file>
+            <author>Vlad Arefev</author>
+            <email>arefyev@gdeetotdom.ru</email>
+            <time>2019-02-16T16:07:57Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/293" closed="2019-03-05T14:27:52+00:00">293</issue>
+            <ticket>186</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>186-a9021931</id>
+            <lines>18-21</lines>
+            <body>For SettingsListView, SettingsCreateView, SettingsDetailView, SettingsDeleteView create correct templates for list, create/detail actions. When templates will be done, pls change `template_name` value in every View Class.</body>
+            <file>timeless/reservations/views.py</file>
+            <author>Vlad Arefev</author>
+            <email>arefyev@gdeetotdom.ru</email>
+            <time>2019-02-16T16:07:57Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/476">476</issue>
+                <ticket>293</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>293-5a3e6b1a</id>
+                <lines>22-25</lines>
+                <body>For SettingsCreateView, SettingsDetailView, SettingsDeleteView create correct templates for list, create/detail actions. When templates will be done, pls change `template_name` value in every View Class.</body>
+                <file>timeless/reservations/views.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-03-04T21:37:56Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/66" closed="2019-02-02T21:38:42+00:00">66</issue>
+    <ticket>23</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>23-80456a24</id>
+    <lines>9-10</lines>
+    <body>Create a job using cron that will synchronize location data from Poster with data in our database. Data coming from Poster has priority upon data stored in our database.</body>
+    <file>poster.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-01-28T20:48:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/88" closed="2019-02-08T08:18:30+00:00">88</issue>
+        <ticket>66</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>66-c2cf1df5</id>
+        <lines>3-7</lines>
+        <body>Implement synchronization between Poster and Databse for Locations. Data coming from Poster has priority upon data stored in our database. After implementing this, remove @unittest.skip annotation from test_sync_location in test_sync.py. Do not forget to create cron script and put int into scripts folder to make this sync periodic.</body>
+        <file>sync/sync.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-02-01T02:05:11Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/157" closed="2019-02-11T09:55:46+00:00">157</issue>
+            <ticket>88</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>88-dc7df557</id>
+            <lines>4-8</lines>
+            <body>Implement synchronization between Poster and Databse for Locations. Data coming from Poster has priority upon data stored in our database. Create integration tests for database layer executing sync_location passing an database backed company object. Suggestion: start by creating structure for integration tests with database</body>
+            <file>timeless/sync/sync.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-06T02:44:09Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/212" closed="2019-02-28T16:03:58+00:00">212</issue>
+                <ticket>157</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>157-99e49342</id>
+                <lines>7-9</lines>
+                <body>Implement synchronization between Poster and Database for Locations. Data coming from Poster has priority upon data stored in our database.</body>
+                <file>timeless/sync/synced_location.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-10T12:49:47Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/67" closed="2019-02-03T09:21:18+00:00">67</issue>
+    <ticket>23</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>23-30e93e1c</id>
+    <lines>28-30</lines>
+    <body>Implement auth process following the Poster API https://dev.joinposter.com/en/docs/api#authorization-in-api and use real token for sending HTTP requests instead of an empty string.</body>
+    <file>poster.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-01-28T20:48:33Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/101" closed="2019-02-10T12:33:25+00:00">101</issue>
+        <ticket>67</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>67-d54199f4</id>
+        <lines>56-59</lines>
+        <body>Implement auth process following the Poster API https://dev.joinposter.com/en/docs/api#authorization-in-api and use real token for sending HTTP requests instead of an empty string. After implementing uncomment test of poster auth in it_test_poster.py</body>
+        <file>poster.py</file>
+        <author>paulodamaso</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-02-01T13:25:50Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/197" closed="2019-02-14T12:57:18+00:00">197</issue>
+            <ticket>101</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>101-4e9718a8</id>
+            <lines>75-79</lines>
+            <body>Implement auth process following the Poster API https://dev.joinposter.com/en/docs/api#authorization-in-api and use real token for sending HTTP requests instead of an empty string. After implementing fix the test of poster auth in it_test_poster.py to receive the correct paramters and uncomment it.</body>
+            <file>timeless/poster/api.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-07T02:03:23Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/232" closed="2019-02-21T18:09:09+00:00">232</issue>
+            <ticket>101</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>101-590ecdb6</id>
+            <lines>31-36</lines>
+            <body>Poster server mock refactor. To simplify future poster mock creation refactor PosterServerMock as a generic server for postermocks and extends it for each poster method (locations, authentications, etc). So we would have a LocationServermock for Locations poster endpoints, AutherverMock for authentication endpoints and so on. Base PosterServerMock would just gave the start_server and free_port implemetations (maybe them would just be invoked in PosterServerMock start), and all the location data setting in test_sync.py have to be moved for LocationServerMock.</body>
+            <file>tests/poster_mock.py</file>
+            <author>Emiliano Della Casa</author>
+            <email>emiliano.dellacasa@gmail.com</email>
+            <time>2019-02-12T21:20:40Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/339" closed="2019-02-23T21:27:14+00:00">339</issue>
+                <ticket>232</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>232-1f9157a6</id>
+                <lines>2-4</lines>
+                <body>Implement activate() methods. Update html templates when methods are implemented. Create tests for activate() in it_auth_test.py. Architect must document what activate() method must do.</body>
+                <file>timeless/auth/views.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-20T03:53:56Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/340" closed="2019-02-22T08:52:20+00:00">340</issue>
+                <ticket>232</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>232-7d302a24</id>
+                <lines>5-7</lines>
+                <body>Continue implementing forgot_password logic. The page in returned from auth/forgot_password.html must send the user some link to reset the user password.</body>
+                <file>timeless/auth/views.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-20T03:53:56Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/370" closed="2019-02-23T22:05:45+00:00">370</issue>
+                    <ticket>340</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>340-5247f867</id>
+                    <lines>20-24</lines>
+                    <body>Continue implementing forgot_password. End the function that will be responsible for sending the email with the link to reset the password. Also check why the following error is occurring in test_forgot_password(client):tests/integration/it_auth_test.py:55: AssertionError</body>
+                    <file>timeless/auth/auth.py</file>
+                    <author>marceloamadeu</author>
+                    <email>marceloandradeamadeu@gmail.com</email>
+                    <time>2019-02-21T12:44:02Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/timelesslounge/timelessis/issues/387" closed="2019-03-07T09:43:32+00:00">387</issue>
+                        <ticket>370</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>370-45d5a6ee</id>
+                        <lines>73-77</lines>
+                        <body>Forgot password routine. At the moment we are showing the e-mail from which we sent the new password link at the forgot_password_post page. We should mask this e-mail somehow (like p******o@gmail.com) so just the user get a hint to where the email was sent. After implementing the masking correct it in the test below</body>
+                        <file>tests/integration/it_auth_test.py</file>
+                        <author>Paulo Lobo</author>
+                        <email>pauloeduardolobo@gmail.com</email>
+                        <time>2019-02-22T13:06:37Z</time>
+                        <children/>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/timelesslounge/timelessis/issues/388" closed="2019-03-03T08:51:22+00:00">388</issue>
+                        <ticket>370</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>370-7fa43b29</id>
+                        <lines>78-80</lines>
+                        <body>Forgot password routine. Create a forgot password logic: create an random password, change it for the user with the received e-mail and send it to the e-mail. Then cover the implementation with tests</body>
+                        <file>tests/integration/it_auth_test.py</file>
+                        <author>Paulo Lobo</author>
+                        <email>pauloeduardolobo@gmail.com</email>
+                        <time>2019-02-22T13:06:37Z</time>
+                        <children>
+                          <puzzle alive="true">
+                            <issue href="https://github.com/timelesslounge/timelessis/issues/464">464</issue>
+                            <ticket>388</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>388-dabdd81d</id>
+                            <lines>6-9</lines>
+                            <body>mail sending should be disabled for development and testing as required by @vladarefiev. however should be enabled for staging and deployment. few extra words for PDD not to complain.</body>
+                            <file>timeless/mail/__init__.py</file>
+                            <author>@ammaratef45</author>
+                            <email>ammar.atef45@gmail.com</email>
+                            <time>2019-03-02T23:09:25Z</time>
+                            <children/>
+                          </puzzle>
+                          <puzzle alive="false">
+                            <issue href="https://github.com/timelesslounge/timelessis/issues/465" closed="2019-03-10T14:11:49+00:00">465</issue>
+                            <ticket>388</ticket>
+                            <estimate>30</estimate>
+                            <role>DEV</role>
+                            <id>388-4a843a62</id>
+                            <lines>71-73</lines>
+                            <body>Forgot password routine. Test a forgot password logic: create an random password, Login with it, see it works. change it for the user with the received e-mail, find it changed.</body>
+                            <file>tests/integration/it_auth_test.py</file>
+                            <author>Ammar Atef</author>
+                            <email>ammar.atef45@gmail.com</email>
+                            <time>2019-03-02T23:09:25Z</time>
+                            <children/>
+                          </puzzle>
+                        </children>
+                      </puzzle>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/timelesslounge/timelessis/issues/389" closed="2019-02-28T09:11:40+00:00">389</issue>
+                        <ticket>370</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>370-7db59df9</id>
+                        <lines>5-10</lines>
+                        <body>Decouple routines from database. Database implementation and routines are tightly coupled, which prevents unit testing. Decouple Employee model from routines creating Employee and Employees abstractions (see https://github.com/timelesslounge/timelessis/pull/375) for examples. Then create mocks and use these mocks to test auth.</body>
+                        <file>timeless/auth/auth.py</file>
+                        <author>Paulo Lobo</author>
+                        <email>pauloeduardolobo@gmail.com</email>
+                        <time>2019-02-23T16:07:39Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/366">366</issue>
+                <ticket>232</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>232-7ef634b5</id>
+                <lines>12-16</lines>
+                <body>Location poster mock refactor. To simplify future poster mock creation PosterServerMock were refactored as a generic server for postermocks (PosterServerMock in tests/integration/poster/poster_integration_mock.py). Implement a mock location server based on PosterServerMock implementation.</body>
+                <file>tests/integration/sync/it_sync_location_test.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-20T03:10:15Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/444">444</issue>
+                <ticket>232</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>232-d0fde898</id>
+                <lines>17-19</lines>
+                <body>Refactor it_sync_location_test.py to use factory-created mocks. Create Location in factories so we can use it instead fixed mocks. The refactor the tests below so they pass again</body>
+                <file>tests/integration/sync/it_sync_location_test.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-27T14:40:22Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/233" closed="2019-02-14T12:57:20+00:00">233</issue>
+            <ticket>101</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>101-e1e35f6e</id>
+            <lines>67-70</lines>
+            <body>Implement other test cases for poster token retrieval. The remaining test cases must be discovered, the error codes in https://dev.joinposter.com/en/docs/api#authorization-in-api are not specific enough.</body>
+            <file>tests/test_auth.py</file>
+            <author>Emiliano Della Casa</author>
+            <email>emiliano.dellacasa@gmail.com</email>
+            <time>2019-02-12T21:20:40Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/113" closed="2019-02-11T19:21:53+00:00">113</issue>
+        <ticket>67</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>67-1c2a8720</id>
+        <lines>10-12</lines>
+        <body>Implement auth process for Poster API. client_id is required for authentication process, this id is the public key provided by the poster service to identify the applications</body>
+        <file>ittests/it_test_poster.py</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-02-04T09:06:47Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/245" closed="2019-02-15T09:13:09+00:00">245</issue>
+            <ticket>113</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>113-1c2a8720</id>
+            <lines>8-10</lines>
+            <body>Implement auth process for Poster API. client_id is required for authentication process, this id is the public key provided by the poster service to identify the applications</body>
+            <file>tests/integration/it_poster_test.py</file>
+            <author>Emiliano Della Casa</author>
+            <email>emiliano.dellacasa@gmail.com</email>
+            <time>2019-02-13T10:26:30Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/69" closed="2019-01-30T17:46:54+00:00">69</issue>
+    <ticket>48</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>48-20105c4a</id>
+    <lines>3-6</lines>
+    <body>Setup a pre-commit git hook, to forbid single-quoted Strings. Generally, the Strings in our codebase should be double-quoted (see README: https://github.com/timelesslounge/timelessis#development-guidelines) More on git hooks here: https://githooks.com/</body>
+    <file>__init__.py</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-30T09:26:06Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/74" closed="2019-02-10T03:04:04+00:00">74</issue>
+        <ticket>69</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>69-e0bed019</id>
+        <lines>3-5</lines>
+        <body>Enhance the "DoubleQuotesOnly" rule from checkstyle.sh, to allow single-quoted strings as long as they are contained within another double-quoted String.</body>
+        <file>__init__.py</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-01-30T15:51:38Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/72" closed="2019-02-08T17:22:57+00:00">72</issue>
+    <ticket>13</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>13-e94c1888</id>
+    <lines>7-9</lines>
+    <body>Continue implementation. Table Shape should have its own management pages to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column.</body>
+    <file>restaurants/models.py</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2019-01-29T15:10:34Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/162" closed="2019-02-10T18:44:22+00:00">162</issue>
+        <ticket>72</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>72-ff413457</id>
+        <lines>2-6</lines>
+        <body>Continue implementing list(), create(), edit() and delete() methods, using SQLAlchemy and TableShape model. In the index page it should be possible to sort and filter for every column. Table shape management page should be accessed by the Location page. Update html templates when methods are implemented. Create more tests for all methods.</body>
+        <file>timeless/restaurants/table_shapes/views.py</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2019-02-06T12:44:43Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/203" closed="2019-02-14T19:14:12+00:00">203</issue>
+            <ticket>162</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>162-da16af36</id>
+            <lines>17-19</lines>
+            <body>Implement ordering and sorting of TableShape model for all columns. Update html templates if it's needed. Do not forget write tests.</body>
+            <file>timeless/restaurants/table_shapes/views.py</file>
+            <author>Vadim Ryazanov</author>
+            <email>vadim.ryazanov@pm.me</email>
+            <time>2019-02-08T23:39:40Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/260" closed="2019-02-19T15:38:30+00:00">260</issue>
+                <ticket>203</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>203-7b2a1685</id>
+                <lines>17-19</lines>
+                <body>Implement filtering of TableShape model for all columns. Update html templates if its needed. Do not forget to write tests.</body>
+                <file>timeless/restaurants/table_shapes/views.py</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-02-14T19:05:01Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/314">314</issue>
+                    <ticket>260</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>260-a7ade08a</id>
+                    <lines>46-53</lines>
+                    <body>Lets encapsulate the way test checks for the returned table spaces. Currently all the specifics on how to check the amount of returned table shapes and specific table shape details is exposed directly in client code. There is a need to have a so called Page Object abstraction for the table_shapes.list route that will encapsulate parsing, length and index access in a single entity, having a single place to fix in case UI layout is changed. Please consider following draft client code as a reference: table_shapes = TableShapes(client, filter_by=["description=B"] assert len(table_shapes) == 1 assert iter(table_shapes).next().id == 1</body>
+                    <file>tests/integration/it_table_shapes_test.py</file>
+                    <author>@ekondrashev</author>
+                    <email>eugene.kondrashev@gmail.com</email>
+                    <time>2019-02-19T09:51:41Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/315" closed="2019-03-05T08:21:20+00:00">315</issue>
+                    <ticket>260</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>260-f7abb4b5</id>
+                    <lines>54-56</lines>
+                    <body>Uncomment below assertion and fix the test once #273 is fixed. Currently there is an issue with template caching which is reported by #273 1st point. Lets uncomment below assertion checking if filter logic works as expected by checking table shapes rendered within list route.</body>
+                    <file>tests/integration/it_table_shapes_test.py</file>
+                    <author>@ekondrashev</author>
+                    <email>eugene.kondrashev@gmail.com</email>
+                    <time>2019-02-19T09:51:41Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/316" closed="2019-03-12T21:21:20+00:00">316</issue>
+                    <ticket>260</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>260-042ad018</id>
+                    <lines>19-21</lines>
+                    <body>Implement filtering of table shapes from the UI. It should be possible to filter for every column from the UI. Currently it is possible to filter using browser address bar only.</body>
+                    <file>timeless/restaurants/table_shapes/views.py</file>
+                    <author>Eugene Kondrashev</author>
+                    <email>eugene.kondrashev@gmail.com</email>
+                    <time>2019-02-19T10:12:12Z</time>
+                    <children>
+                      <puzzle alive="true">
+                        <issue href="https://github.com/timelesslounge/timelessis/issues/538">538</issue>
+                        <ticket>316</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>316-2afb80f8</id>
+                        <lines>34-38</lines>
+                        <body>Improve filtering of table shapes from the UI. Now to filter tables from the UI, GET params should look like this: filter_by=description=mytable&amp;filter_by=id=1 It is ambiguous to make such request from a HTML from. So either alter the way filter fields are parsed or write some JS logic.</body>
+                        <file>timeless/restaurants/table_shapes/views.py</file>
+                        <author>Ilya Soin</author>
+                        <email>ilya.soin.95@gmail.com</email>
+                        <time>2019-03-10T17:50:10Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/317">317</issue>
+                    <ticket>260</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>260-e223b806</id>
+                    <lines>5-10</lines>
+                    <body>Define GenericFilter and subclasses per entity. Change client code to pass instances of a GenericFilter(or subclasses) in order to build final filter depending on specific entity, making it possible for example to filter by id using equality and description using like operator. For more details see https://github.com/timelesslounge/timelessis/pull/302#discussion_r258021696</body>
+                    <file>timeless/templates/views.py</file>
+                    <author>Eugene Kondrashev</author>
+                    <email>eugene.kondrashev@gmail.com</email>
+                    <time>2019-02-19T15:09:50Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/204" closed="2019-02-21T09:15:34+00:00">204</issue>
+            <ticket>162</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>162-2cb21a4a</id>
+            <lines>33-35</lines>
+            <body>Initialize CSRF token protection for app and add token to this template. Implementation detail you can find by the following page: https://flask-wtf.readthedocs.io/en/stable/csrf.html</body>
+            <file>timeless/restaurants/table_shapes/views.py</file>
+            <author>Vadim Ryazanov</author>
+            <email>vadim.ryazanov@pm.me</email>
+            <time>2019-02-10T13:22:18Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/354">354</issue>
+                <ticket>204</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>204-a855cefc</id>
+                <lines>3-5</lines>
+                <body>Continue implementing CSRF token protection for all create and edit templates. Implementation detail you can find on the following page: https://flask-wtf.readthedocs.io/en/stable/csrf.html</body>
+                <file>timeless/__init__.py</file>
+                <author>Boris Kuzmic</author>
+                <email>boris.kuzmic@ericsson.com</email>
+                <time>2019-02-21T07:51:41Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/205" closed="2019-02-26T14:22:33+00:00">205</issue>
+            <ticket>162</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>162-af883d11</id>
+            <lines>36-38</lines>
+            <body>This form currenly cannot save pictures. Need have a look how WTF form processes files. Implement generic solution to use it everywhere when it's needed.</body>
+            <file>timeless/restaurants/table_shapes/views.py</file>
+            <author>Vadim Ryazanov</author>
+            <email>vadim.ryazanov@pm.me</email>
+            <time>2019-02-10T13:22:18Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/414">414</issue>
+                <ticket>205</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>205-3c7b3a67</id>
+                <lines>29-33</lines>
+                <body>Lets save only filename which is a static part of a url. Hostname, port and perhaps base path should be calculated dynamically for each table shape while being rendered to the template. See Configuration paragraph https://pythonhosted.org/Flask-Uploads/</body>
+                <file>timeless/restaurants/table_shapes/forms.py</file>
+                <author>Eugene Kondrashev</author>
+                <email>eugene.kondrashev@gmail.com</email>
+                <time>2019-02-26T03:43:01Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/415" closed="2019-02-26T20:07:00+00:00">415</issue>
+                <ticket>205</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>205-afef22cc</id>
+                <lines>43-48</lines>
+                <body>This form currently cannot save pictures. Lets fix it_table_shapes_test.test_create test by submitting multipart request with real image as picture. Please add an assertion to check if new picture is accessible with its url. Make sure test passes by uncommenting save call below, when `uploads` module parameter configuration puzzle resolved.</body>
+                <file>timeless/restaurants/table_shapes/views.py</file>
+                <author>Eugene Kondrashev</author>
+                <email>eugene.kondrashev@gmail.com</email>
+                <time>2019-02-26T03:19:04Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/416">416</issue>
+                <ticket>205</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>205-217b5ce8</id>
+                <lines>13-19</lines>
+                <body>Introduce Flask-Uploads configuration parameters to app config.According to Flask-Uploads, there is a need to introduce additional configuration parameters to the application config instance. Make sure UPLOADS_DEFAULT_URL, UPLOADED_IMAGES_URL values are calculated according to the current runtime host/port information and also UPLOADS_DEFAULT_DEST and UPLOADED_IMAGES_DEST values point to correct static resources path</body>
+                <file>timeless/uploads/__init__.py</file>
+                <author>Eugene Kondrashev</author>
+                <email>eugene.kondrashev@gmail.com</email>
+                <time>2019-02-26T03:43:01Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/206" closed="2019-02-18T11:35:59+00:00">206</issue>
+            <ticket>162</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>162-9f769eb8</id>
+            <lines>49-51</lines>
+            <body>Implement edit() method of TableShape model and update template. Use TableShapeForm for that, see how in works in create function. Check and update html template if it's needed.</body>
+            <file>timeless/restaurants/table_shapes/views.py</file>
+            <author>Vadim Ryazanov</author>
+            <email>vadim.ryazanov@pm.me</email>
+            <time>2019-02-09T00:14:07Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/285" closed="2019-03-02T15:42:09+00:00">285</issue>
+                <ticket>206</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>206-24391b14</id>
+                <lines>38-40</lines>
+                <body>Fix timeless.forms.ModelForm so it will use instance when populating fields in form, not only during save and update. After the it has been fixed enable two assertions below.</body>
+                <file>tests/integration/it_table_shapes_test.py</file>
+                <author>Krzysztof Krason</author>
+                <email>Krzysztof.Krason@gmail.com</email>
+                <time>2019-02-16T15:45:58Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/462">462</issue>
+                    <ticket>285</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>285-9bccf382</id>
+                    <lines>90-92</lines>
+                    <body>This test should send file to picture input. Implement file uploading and then uncomment the following line. Logic of saving picture is already implemented in TableShapeForm, it's time to test.</body>
+                    <file>tests/integration/it_table_shapes_test.py</file>
+                    <author>Vadim Ryazanov</author>
+                    <email>vadimvoronezh@yandex.ru</email>
+                    <time>2019-02-28T16:07:50Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/286">286</issue>
+                <ticket>206</ticket>
+                <estimate>15</estimate>
+                <role>DEV</role>
+                <id>206-144cbf13</id>
+                <lines>41-44</lines>
+                <body>After the form.save() issue with picture is solved enable test_edit and test_delete. Both were disabled because picture validation was added but the form for it wasn't updated, so create method doesn't save anything right now.</body>
+                <file>tests/integration/it_table_shapes_test.py</file>
+                <author>Krzysztof Krason</author>
+                <email>Krzysztof.Krason@gmail.com</email>
+                <time>2019-02-18T11:05:02Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/87" closed="2019-02-05T08:07:14+00:00">87</issue>
+    <ticket>26</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>26-8ee2447e</id>
+    <lines>8-10</lines>
+    <body>Continue implementation. Comments should have its own management pages to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column.</body>
+    <file>reservations/models.py</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-02-01T21:28:37Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/123" closed="2019-02-11T22:17:26+00:00">123</issue>
+        <ticket>87</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>87-a64a4a29</id>
+        <lines>23-25</lines>
+        <body>Continue implementation of view methods for get, create, edit and delete. In the index page it should be possible to sort and filter for every column.</body>
+        <file>timeless/reservations/views.py</file>
+        <author>Vatavuk</author>
+        <email>vatavuk1@hotmail.com</email>
+        <time>2019-02-03T17:08:09Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/221" closed="2019-02-18T18:30:26+00:00">221</issue>
+            <ticket>123</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>123-c71e913a</id>
+            <lines>16-18</lines>
+            <body>Continue with the implementation of CrudAPIView. Implement post, put and delete methods. We should return json representation of object model in methods.</body>
+            <file>timeless/views.py</file>
+            <author>Vedran Grgo Vatavuk</author>
+            <email>vedran.grgo.vatavuk@ericsson.com</email>
+            <time>2019-02-11T19:22:08Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/288">288</issue>
+                <ticket>221</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>221-164039ad</id>
+                <lines>9-13</lines>
+                <body>Remove references to database objects. we should not tie our view layer to our database objects. We should create some form of abstraction to handle the model calls, for example, model.query.get(object_id) that would decorate the real implementation, eliminating the coupling here.</body>
+                <file>timeless/views.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-18T18:16:11Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/289" closed="2019-02-28T19:10:31+00:00">289</issue>
+                <ticket>221</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>221-191ec061</id>
+                <lines>24-32</lines>
+                <body>Continue with the implementation of CrudAPIView. Implement get, post, put and delete methods. We should return json representation of object model in methods. Use FakeModel for a fake database object, and implement the desired calls on FakeQuery to get, create, save / update and delete returning the result. Don't forget to implement the tests too, to test if CrudAPIView code is being called and returning the expected objects; please refer to #221 and #222 for documentation. After that remove the ignore annotation from tests on test_crud_api.py.</body>
+                <file>timeless/views.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-18T18:16:11Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/447">447</issue>
+                    <ticket>289</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>289-468492ec</id>
+                    <lines>46-53</lines>
+                    <body>Move Fake* class definitions to test path so it's not mixed in with production code, reconsider if they're really needed. Change Query#get so it follows logic similar to https://docs.sqlalchemy.org/en/latest/orm/query.html# sqlalchemy.orm.query.Query.get e.g.: it returns object instance or None and json serializing and HTTP Code answers are dealt with in View. See discussion in PR: https://github.com/timelesslounge/timelessis/pull/400</body>
+                    <file>timeless/views.py</file>
+                    <author>Breno Salgado</author>
+                    <email>salgado.breno@gmail.com</email>
+                    <time>2019-02-28T17:31:51Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/448">448</issue>
+                    <ticket>289</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>289-687cbbee</id>
+                    <lines>54-57</lines>
+                    <body>Research bringing in https://marshmallow.readthedocs.io/en/latest/ to the project for object json serialization, update this puzzle or document design considerations for implementation if so.</body>
+                    <file>timeless/views.py</file>
+                    <author>Breno Salgado</author>
+                    <email>salgado.breno@gmail.com</email>
+                    <time>2019-02-28T17:31:51Z</time>
+                    <children/>
+                  </puzzle>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/449" closed="2019-03-11T09:35:24+00:00">449</issue>
+                    <ticket>289</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>289-ad18aa9a</id>
+                    <lines>58-63</lines>
+                    <body>Continue with the implementation of CrudAPIView. Implement tests for post, put and delete methods in test_crud_api.py first. We should return json representation of object model in methods. Use FakeModel for a fake database object, and implement the desired calls on FakeQuery to get, create, save / update and delete returning the result. Please refer to #221 and #222 for documentation.</body>
+                    <file>timeless/views.py</file>
+                    <author>Breno Salgado</author>
+                    <email>salgado.breno@gmail.com</email>
+                    <time>2019-02-25T18:15:34Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/222" closed="2019-02-15T12:13:13+00:00">222</issue>
+            <ticket>123</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>123-ae2bbb0c</id>
+            <lines>41-43</lines>
+            <body>After CrudView implementation is finished create necessary templates for the CommentView to operate on. See CrudAPIView description for more details about its usage.</body>
+            <file>timeless/reservations/views.py</file>
+            <author>Vedran Grgo Vatavuk</author>
+            <email>vedran.grgo.vatavuk@ericsson.com</email>
+            <time>2019-02-11T20:53:26Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/266">266</issue>
+                <ticket>222</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>222-d023110c</id>
+                <lines>12-14</lines>
+                <body>Finish CommentView implementation and CommentView tests. Methods for GET, POST, PUT and DELETE operation must be implemented, after the implementation remove the skip annotations from these tests.</body>
+                <file>tests/view/crudeapi/test_comment.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-12T17:20:44Z</time>
+                <children/>
+              </puzzle>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/267">267</issue>
+                <ticket>222</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>222-44123285</id>
+                <lines>12-14</lines>
+                <body>Correct comments its_tests. After #222 Comments had the logic changed and its tests are broken. Correct them and remove pytest.mark.skip annotation</body>
+                <file>tests/integration/it_comments_test.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-02-15T11:39:50Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/96" closed="2019-02-10T12:04:32+00:00">96</issue>
+    <ticket>9</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>9-4864baac</id>
+    <lines>8-11</lines>
+    <body>Continue implementation. Roles should have its own management pages to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column. After migrations are fixed in #50 add migration for this table.</body>
+    <file>roles/models.py</file>
+    <author>Krzysztof Krason</author>
+    <email>Krzysztof.Krason@gmail.com</email>
+    <time>2019-02-01T14:36:53Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/98" closed="2019-02-09T18:12:07+00:00">98</issue>
+    <ticket>50</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>50-137f7115</id>
+    <lines>6-8</lines>
+    <body>After #37 is completed add execution of one test with migrations flag inside rultor so we can validate that any new migrations are done correctly and are in sync with master.</body>
+    <file>__init__.py</file>
+    <author>Krzysztof Krason</author>
+    <email>Krzysztof.Krason@gmail.com</email>
+    <time>2019-02-02T14:48:25Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/102" closed="2019-02-12T09:15:39+00:00">102</issue>
+    <ticket>25</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>25-09421710</id>
+    <lines>9-11</lines>
+    <body>Continue implementation of Customer data synchronization with Poster application. Create method in poster api that will fetch customer data and create cron job for synchronization.</body>
+    <file>customers/models.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-01T20:34:06Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/225" closed="2019-02-14T22:36:31+00:00">225</issue>
+        <ticket>102</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>102-39a9b3fe</id>
+        <lines>9-11</lines>
+        <body>Set up celery to project which will provide async jobs. Docs is here - http://flask.pocoo.org/docs/1.0/patterns/celery/ Create celery task for customer synchronization.</body>
+        <file>timeless/customers/models.py</file>
+        <author>Vlad Arefev</author>
+        <email>arefyev@gdeetotdom.ru</email>
+        <time>2019-02-09T21:39:54Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/261" closed="2019-03-06T08:20:55+00:00">261</issue>
+            <ticket>225</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>225-de90aee1</id>
+            <lines>11-13</lines>
+            <body>Use celery instead jobs cron-based jobs. Celery is already being used to sync customers with postes; let's configure it and make a job to run locations sync too.</body>
+            <file>timeless/sync/synced_location.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-12T11:35:55Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/262" closed="2019-02-26T08:49:32+00:00">262</issue>
+            <ticket>225</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>225-44860f19</id>
+            <lines>6-10</lines>
+            <body>Implement synchronization between Poster and Database for Customers. Synchronization must be done via celery job. Create tests for poster Customer retrieval, Customer storage in database and the sync between the two. See sync of Location implementation as reference. Don't forget to cover all code added with tests.</body>
+            <file>timeless/sync/synced_customer.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-12T11:31:39Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/409" closed="2019-03-11T15:44:35+00:00">409</issue>
+                <ticket>262</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>262-3c8226cd</id>
+                <lines>6-8</lines>
+                <body>Continue synchronization between Poster and Database for Customers. Create tests for poster Customer retrieval, Customer storage in database and the sync between the two.</body>
+                <file>timeless/sync/synced_customer.py</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-02-26T08:41:55Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/531">531</issue>
+                    <ticket>409</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>409-b8b780fb</id>
+                    <lines>65-67</lines>
+                    <body>Remove skipping decorator from this test. Now def merge_data(model, poster_data, timelessis_data) func is not working properly, pls fix it. After fixing this test should work</body>
+                    <file>tests/integration/sync/it_sync_customers_test.py</file>
+                    <author>Vlad Arefev</author>
+                    <email>arefyev@gdeetotdom.ru</email>
+                    <time>2019-03-11T13:33:32Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/410" closed="2019-03-11T09:53:02+00:00">410</issue>
+                <ticket>262</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>262-2755231b</id>
+                <lines>33-38</lines>
+                <body>Implement two class methods merge_with_poster and create_by_poster. merge_with_poster will merge entry entity with poster entity, we should make right fields mapping, as result returns Customer instance. The same should be made with method create_by_poster, returns Customer instance with data from poster_customer</body>
+                <file>timeless/customers/models.py</file>
+                <author>rultor</author>
+                <email>me@rultor.com</email>
+                <time>2019-02-26T08:41:55Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/112" closed="2019-02-09T11:30:33+00:00">112</issue>
+    <ticket>12</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>12-0192c409</id>
+    <lines>69-71</lines>
+    <body>Continue implementation for Tables. Tables should have its own management pages to list, create, edit and delete them. In the index page it should be possible to sort and filter for every column. Table management pages should be accessed by the Location and Floor pages.</body>
+    <file>restaurants/models.py</file>
+    <author>Paulo Lobo</author>
+    <email>pauloeduardolobo@gmail.com</email>
+    <time>2019-02-04T11:38:57Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/169" closed="2019-02-11T15:26:09+00:00">169</issue>
+        <ticket>112</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>112-775e8804</id>
+        <lines>2-7</lines>
+        <body>Continue implementing list_tables(), create(), edit() and delete() methods, using SQLAlchemy and Location model. In the index page it should be possible to sort and filter for every column. Location management page should be accessed by the Location page. Update html templates when methods are implemented. Create more tests for all methods. Table management pages should be accessed by the Location and Floor pages.</body>
+        <file>timeless/restaurants/tables/views.py</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2019-02-06T14:06:07Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/214" closed="2019-03-05T21:04:32+00:00">214</issue>
+            <ticket>169</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>169-2c226ebc</id>
+            <lines>2-7</lines>
+            <body>Continue implementing list_tables(), create(), edit() and methods, using SQLAlchemy and Location model. In the index page it should be possible to sort and filter for every column. Location management page should be accessed by the Location page. Update html templates when methods are implemented. Create more tests for all methods. Table management pages should be accessed by the Location and Floor pages.</body>
+            <file>timeless/restaurants/tables/views.py</file>
+            <author>Vadim Ryazanov</author>
+            <email>vadim.ryazanov@pm.me</email>
+            <time>2019-02-10T20:35:37Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/234" closed="2019-02-22T21:55:38+00:00">234</issue>
+            <ticket>169</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>169-076d68de</id>
+            <lines>2-8</lines>
+            <body>Write test for creating and editing Table model. To test it correctly it's needed to create relations like `TableShape` and so on in tests. There is`factory-boy` library in requirements added. It helps to create instance with its relations automatically, look at `tests/factories.py` and see https://factoryboy.readthedocs.io/en/latest/orms.html#sqlalchemy. Implement these factories for related models and then write tests.</body>
+            <file>tests/test_tables.py</file>
+            <author>Emiliano Della Casa</author>
+            <email>emiliano.dellacasa@gmail.com</email>
+            <time>2019-02-12T21:20:40Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/381">381</issue>
+                <ticket>234</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>234-f565bee8</id>
+                <lines>2-7</lines>
+                <body>Timeless ModelForm is not working properly, the Table form in test_create cannot be saved. The problem is that it does not pass form data parameters to model constructor properly. Parameters are passed through *args but ModelForm works uses **kwargs to instantiate model. Once this is fixed, remove skip annotations from tests.</body>
+                <file>tests/integration/it_tables_test.py</file>
+                <author>Vatavuk</author>
+                <email>vatavuk1@hotmail.com</email>
+                <time>2019-02-19T21:06:51Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/170" closed="2019-03-05T21:04:33+00:00">170</issue>
+        <ticket>112</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>112-a9b349f8</id>
+        <lines>8-10</lines>
+        <body>Modify this file and also all other views.py files so the endpoints are registered inside timeless/__init__.py file in register_api method. Just like it was done for companies management views.</body>
+        <file>timeless/restaurants/tables/views.py</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2019-02-08T17:53:05Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/114" closed="2019-02-09T19:31:05+00:00">114</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>47-c02901a9</id>
+    <lines>6-9</lines>
+    <body>Implement restore script for backups (pg_restore.sh). Restore script must be created in restore.sh file. I must read some backup file (created by backup.sh) and restore it to the database. Use pg_backup.config as configuration file if some configuration is needed.</body>
+    <file>scripts/backup/pg_backup.sh</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-02-04T09:06:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/191" closed="2019-02-14T08:39:40+00:00">191</issue>
+        <ticket>114</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>114-7a54db2f</id>
+        <lines>2-3</lines>
+        <body>Add a detailed description to both pg_restore and pg_backup scripts on what they do and how to properly execute them.</body>
+        <file>scripts/backup/pg_restore.sh</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2019-02-09T14:38:43Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/115" closed="2019-02-12T08:57:24+00:00">115</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>47-f3931a04</id>
+    <lines>10-12</lines>
+    <body>Implement google drive account communication. Backups must be saved to a google account modification after completed, and restores should use the same google drive account for retrieving backed up database</body>
+    <file>scripts/backup/pg_backup.sh</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-02-04T09:06:47Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/224" closed="2019-02-19T08:37:52+00:00">224</issue>
+        <ticket>115</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>115-f221d667</id>
+        <lines>4-5</lines>
+        <body>Implement retrieval of database backup from Google account. It should be from the same Google account and location as in pg_backup.sh.</body>
+        <file>scripts/backup/pg_restore.sh</file>
+        <author>Carlos Miranda</author>
+        <email>carlosmiranda@users.noreply.github.com</email>
+        <time>2019-02-11T06:50:50Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/296" closed="2019-02-21T08:16:45+00:00">296</issue>
+            <ticket>224</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>224-90cc17e9</id>
+            <lines>260-262</lines>
+            <body>We need a more user friendly way to find out the file ID from Google Drive. Perhaps do "gdrive list" with the file name as query and set file ID from there.</body>
+            <file>README.md</file>
+            <author>Carlos Miranda</author>
+            <email>carlosmiranda@users.noreply.github.com</email>
+            <time>2019-02-19T06:46:26Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/352" closed="2019-03-01T08:48:54+00:00">352</issue>
+                <ticket>296</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>296-c87b59cc</id>
+                <lines>260-262</lines>
+                <body>Automate the setting up of FILE_ID into pg_backup.config, we already have the FILE_ID in the script, so what's left is to change it in file</body>
+                <file>README.md</file>
+                <author>Breno Salgado</author>
+                <email>salgado.breno@gmail.com</email>
+                <time>2019-02-20T22:02:33Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/116" closed="2019-02-05T17:00:45+00:00">116</issue>
+    <ticket>47</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>47-8a41f6e0</id>
+    <lines>13-15</lines>
+    <body>Run backup scripts in linux cron. Configure script pg_backup.sh to be executed in linux cron. The frequency of execution must be defined by the architect and put in the tickets comments.</body>
+    <file>scripts/backup/pg_backup.sh</file>
+    <author>@rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-02-04T09:06:47Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/124" closed="2019-02-08T15:07:32+00:00">124</issue>
+    <ticket>46</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>46-eeb69d3e</id>
+    <lines>32-34</lines>
+    <body>setup rultor settings to install python 3.6 (3.6.7 if is possible) according to project software environment. After that we can use f-strings in python</body>
+    <file>timeless/sms.py</file>
+    <author>Vlad Arefev</author>
+    <email>arefyev@gdeetotdom.ru</email>
+    <time>2019-02-05T08:43:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/125" closed="2019-02-08T15:07:35+00:00">125</issue>
+    <ticket>46</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>46-df3761df</id>
+    <lines>49-51</lines>
+    <body>handle exceptional cases and maybe write a decorator, some kind of retrial mechanism (if the response is 404, the RedSMS api is down at the moment)</body>
+    <file>timeless/sms.py</file>
+    <author>Vlad Arefev</author>
+    <email>arefyev@gdeetotdom.ru</email>
+    <time>2019-02-04T16:07:49Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/126" closed="2019-02-12T22:44:27+00:00">126</issue>
+    <ticket>45</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>45-954dc960</id>
+    <lines>4-7</lines>
+    <body>Continue implementing deploy scripts. Find out user and domain of the staging server and replace scp and ssh with correct data. Add scripts in cron (like the one created in #47). Verify the web application is running (execute couple fo curl requests).</body>
+    <file>deploy.sh</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@gmail.com</email>
+    <time>2019-02-03T22:07:58Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/238" closed="2019-02-22T10:14:42+00:00">238</issue>
+        <ticket>126</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>126-3f0a2123</id>
+        <lines>4-6</lines>
+        <body>Finish implementing deploy scripts. Add scripts in cron (like the one created in #47). Verify the web application is running - execute couple of curl requests.</body>
+        <file>deploy.sh</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@gmail.com</email>
+        <time>2019-02-11T22:48:59Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/239" closed="2019-02-20T09:38:55+00:00">239</issue>
+        <ticket>126</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>126-b9037461</id>
+        <lines>7-10</lines>
+        <body>Add parameter to this script that will allow changing the environment (either staging or production) and read environment credentials in order to deploy to correct environment. Rultor needs to be called like this: @rultor deploy 0.0.1 staging</body>
+        <file>deploy.sh</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@gmail.com</email>
+        <time>2019-02-12T20:20:41Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/240" closed="2019-02-13T16:15:21+00:00">240</issue>
+        <ticket>126</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>126-dc28674a</id>
+        <lines>11-14</lines>
+        <body>Extend the script to check if environment is properly setup before executing commands on the server. This means there has to be checks for python, postgres, redis and others. If not, these programs have to be installed. Also create python virtual environment in /app/venv directory.</body>
+        <file>deploy.sh</file>
+        <author>Boris Kuzmic</author>
+        <email>boris.kuzmic@gmail.com</email>
+        <time>2019-02-12T20:20:41Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/248" closed="2019-02-19T09:36:57+00:00">248</issue>
+            <ticket>240</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>240-24a1360a</id>
+            <lines>3-6</lines>
+            <body>Implement redis availability check and install flows. In case Redis is not available lets install it and launch. In case it is installed but not among current process it should be launched only. Please also check if all the dependency checks are in place besides redis and implement rest if any.</body>
+            <file>scripts/install/deploy/install_redis.sh</file>
+            <author>Eugene Kondrashev</author>
+            <email>eugene.kondrashev@gmail.com</email>
+            <time>2019-02-13T16:02:09Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/299" closed="2019-02-22T14:27:22+00:00">299</issue>
+                <ticket>248</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>248-2f8cb0ee</id>
+                <lines>3-5</lines>
+                <body>Implement a service for Postgres. Postgres should be up and running after host restart. Lets create and install a service for Postgres and make sure it is started and running.</body>
+                <file>scripts/install/deploy/install_db.sh</file>
+                <author>Eugene Kondrashev</author>
+                <email>eugene.kondrashev@gmail.com</email>
+                <time>2019-02-19T09:11:23Z</time>
+                <children>
+                  <puzzle alive="false">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/374" closed="2019-03-07T10:24:37+00:00">374</issue>
+                    <ticket>299</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>299-df8b615c</id>
+                    <lines>3-5</lines>
+                    <body>Continue the deploy algorithm. We need to create an employee with role administator belonging to company "Timeless" and credentials that will be taken by encrypted credential file.</body>
+                    <file>scripts/install/deploy/install_db.sh</file>
+                    <author>marceloamadeu</author>
+                    <email>marceloandradeamadeu@gmail.com</email>
+                    <time>2019-02-22T13:16:59Z</time>
+                    <children>
+                      <puzzle alive="false">
+                        <issue href="https://github.com/timelesslounge/timelessis/issues/490" closed="2019-03-09T19:38:15+00:00">490</issue>
+                        <ticket>374</ticket>
+                        <estimate>30</estimate>
+                        <role>DEV</role>
+                        <id>374-ef460cff</id>
+                        <lines>3-13</lines>
+                        <body>Continue the deploy algorithm. We need to create an employee with role administrator belonging to company "Timeless" and credentials that will be taken by encrypted credential file. Rultor will do this, take a look at http://doc.rultor.com/reference.html. Administrator employee fields are encrypted and theis keys are: credentials.account.admin.first_name credentials.account.admin.last_name credentials.account.admin.username credentials.account.admin.email credentials.account.admin.password credentials.account.admin.pincode</body>
+                        <file>scripts/install/deploy/install_db.sh</file>
+                        <author>Paulo Lobo</author>
+                        <email>pauloeduardolobo@gmail.com</email>
+                        <time>2019-03-06T15:59:16Z</time>
+                        <children/>
+                      </puzzle>
+                    </children>
+                  </puzzle>
+                </children>
+              </puzzle>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/300" closed="2019-02-21T17:45:30+00:00">300</issue>
+                <ticket>248</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>248-ab443c03</id>
+                <lines>3-5</lines>
+                <body>Implement a service for Redis. Redis should be up and running after host restart. Lets create and install a service for Redis and make sure it is started and running.</body>
+                <file>scripts/install/deploy/install_redis.sh</file>
+                <author>Eugene Kondrashev</author>
+                <email>eugene.kondrashev@gmail.com</email>
+                <time>2019-02-19T09:11:23Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/141" closed="2019-02-15T14:39:50+00:00">141</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-4d06d88e</id>
+    <lines>7-9</lines>
+    <body>Continue the implementation. Items must have their own management pages to list, create, edit, and delete them. On the index page, you should be able to sort and filter for each column.</body>
+    <file>timeless/items/models.py</file>
+    <author>marceloamadeu</author>
+    <email>marceloandradeamadeu@gmail.com</email>
+    <time>2019-02-06T13:57:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/270" closed="2019-02-26T15:01:24+00:00">270</issue>
+        <ticket>141</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>141-9f3e8d9b</id>
+        <lines>2-5</lines>
+        <body>Continue implementation of views class. Use the database to get the data instead of dummy data. Add authenticationannotation. Also, templates should be finished.</body>
+        <file>timeless/items/views.py</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-02-14T08:06:11Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/417" closed="2019-03-11T08:56:21+00:00">417</issue>
+            <ticket>270</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>270-9b75992d</id>
+            <lines>9-12</lines>
+            <body>Factories session problem. Sometimes session is aborting with the following message: 'sqlalchemy.exc.InvalidRequestError: Object '&lt;Item at 0x7fc5bdc05940&gt;' is already attached to session '1' (this is '2')'. Correct thsi problem in session and then remove skip annotation from test_list</body>
+            <file>tests/view/items/test_items.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-26T14:33:27Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/527">527</issue>
+                <ticket>417</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>417-43ca3708</id>
+                <lines>11-15</lines>
+                <body>Fix ItemListView problem of returning empty list. ItemListView is returning an empty list when it should return valid values. Test below is valid, it calls ItemListView with an authenticated user but it isn't retrieving the items. Fix the ItemListView class and then uncomment the test below.</body>
+                <file>tests/view/items/test_items.py</file>
+                <author>Paulo Lobo</author>
+                <email>pauloeduardolobo@gmail.com</email>
+                <time>2019-03-08T19:06:53Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/418">418</issue>
+            <ticket>270</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>270-ac9f6ccd</id>
+            <lines>4-7</lines>
+            <body>Continue implementation of views class using GenericViews. Use mocks from mock_items to make the tests, like tests for item list. Add the methods to ItemQuery as needed for the tests. Add authenticationannotation. Also, templates should be finished.</body>
+            <file>timeless/items/views.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-22T16:46:48Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/142" closed="2019-02-11T20:27:58+00:00">142</issue>
+    <ticket>15</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>15-02768d14</id>
+    <lines>10-12</lines>
+    <body>A new function to assign items to users should also be developed. They should also store their historical data in a table, with start and end times.</body>
+    <file>timeless/items/models.py</file>
+    <author>marceloamadeu</author>
+    <email>marceloandradeamadeu@gmail.com</email>
+    <time>2019-02-06T13:57:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/217" closed="2019-02-19T18:11:02+00:00">217</issue>
+        <ticket>142</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>142-43e9175c</id>
+        <lines>29-31</lines>
+        <body>Continue implememntation of assining. Update the old ItemHistory record if current employee_id in not null. ItemHistory should have the needed functions to continue this.</body>
+        <file>timeless/items/models.py</file>
+        <author>Ammar Atef</author>
+        <email>a_atef45@yahoo.com</email>
+        <time>2019-02-10T08:19:19Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/318" closed="2019-02-22T08:27:18+00:00">318</issue>
+            <ticket>217</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>217-abdb84b1</id>
+            <lines>36-39</lines>
+            <body>Implement function to return item history. history() function must return item assignement history, a list of ItemHistory with all the items assignment history. Then remove skip annotation from test_items.test_item_assign</body>
+            <file>timeless/items/models.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-15T00:13:15Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/149" closed="2019-02-18T08:39:38+00:00">149</issue>
+    <ticket>4</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>4-97bfffa4</id>
+    <lines>16-19</lines>
+    <body>Implement validate_required decorator for all the models in the timeless app that require mandatory parameters check. See Employee model as an example of how to use the decorator. Write tests to verify all the mandatory fields are checked.</body>
+    <file>timeless/employees/models.py</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-02-07T14:33:55Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/283" closed="2019-03-02T12:01:33+00:00">283</issue>
+        <ticket>149</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>149-40cd4662</id>
+        <lines>29-32</lines>
+        <body>Continue implementation of the login function. The login("vgv", "pass") is returning ValueError: not a valid bcrypt_sha256 hash. Information from https://passlib.readthedocs.io/en/stable/index.html can be used to help.</body>
+        <file>tests/integration/it_auth_test.py</file>
+        <author>@rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-02-18T08:33:19Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/460">460</issue>
+            <ticket>283</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>283-58a6c044</id>
+            <lines>3-5</lines>
+            <body>Change the style of login page. Lets change the#} style of a login page to get the UX like demonstrated in a picture below#} https://drive.google.com/uc?export=view&amp;id=1oh8cLv-vHTCBmb0RDkHQiyMythC4_M6o#}</body>
+            <file>timeless/templates/auth/login.html</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2019-03-02T11:53:55Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/171" closed="2019-02-11T08:46:39+00:00">171</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-19ac7d90</id>
+    <lines>118-120</lines>
+    <body>Calculate reservation duration in constructor by subtracting start_time and end_time. Don't forget to call super constructor in order not to override DB.Model functionality.</body>
+    <file>timeless/restaurants/models.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-05T19:39:39Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/172" closed="2019-02-12T08:41:33+00:00">172</issue>
+    <ticket>27</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>27-38242c64</id>
+    <lines>121-125</lines>
+    <body>Continue implementation of views. Index and a view page should be created to list all reservations. In the index page there should be also a function to delete the reservation (after confirmation). In the index page it should be possible to sort and filter for every column.</body>
+    <file>timeless/restaurants/models.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-05T19:39:39Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/215" closed="2019-03-06T16:00:38+00:00">215</issue>
+        <ticket>172</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>172-d4bc0248</id>
+        <lines>68-71</lines>
+        <body>Refactor this after the implementation of GenericViews. Take a look at puzzles #134 and #173 where the requirements of generic views are described. Don't forget to cover the generated code with tests</body>
+        <file>timeless/reservations/views.py</file>
+        <author>rultor</author>
+        <email>me@rultor.com</email>
+        <time>2019-02-11T15:53:37Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/484" closed="2019-03-09T17:19:59+00:00">484</issue>
+            <ticket>215</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>215-3c3e97b9</id>
+            <lines>121-124</lines>
+            <body>Replace this for ReservationsListView(views.ListView) in all tests.Because ReservationsListView(views.ListView) covers the needs of this and after using reservationListView more tests break because using this implementation.</body>
+            <file>timeless/reservations/views.py</file>
+            <author>Eber</author>
+            <email>37782410+ebercamargo@users.noreply.github.com</email>
+            <time>2019-03-06T13:05:51Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/235" closed="2019-02-22T21:31:59+00:00">235</issue>
+        <ticket>172</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>172-38242c64</id>
+        <lines>11-15</lines>
+        <body>Continue implementation of views. Index and a view page should be created to list all reservations. In the index page there should be also a function to delete the reservation (after confirmation). In the index page it should be possible to sort and filter for every column.</body>
+        <file>tests/view/test_reservations.py</file>
+        <author>Emiliano Della Casa</author>
+        <email>emiliano.dellacasa@gmail.com</email>
+        <time>2019-02-12T21:20:40Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/379">379</issue>
+            <ticket>235</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>235-38242c64</id>
+            <lines>11-15</lines>
+            <body>Continue implementation of views. Index and a view page should be created to list all reservations. In the index page there should be also a function to delete the reservation (after confirmation). In the index page it should be possible to sort and filter for every column.</body>
+            <file>tests/view/test_reservations.py</file>
+            <author>Vatavuk</author>
+            <email>vatavuk1@hotmail.com</email>
+            <time>2019-02-18T19:58:21Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/380" closed="2019-02-27T18:07:00+00:00">380</issue>
+            <ticket>235</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>235-8ebed21e</id>
+            <lines>13-16</lines>
+            <body>Find out why form validation is failing for the create_reservation test. Fields that are reported to be invalid are start_time, end_time and status. Remove skip annotation once form validation is fixed.</body>
+            <file>tests/integration/it_reservations_test.py</file>
+            <author>Vatavuk</author>
+            <email>vatavuk1@hotmail.com</email>
+            <time>2019-02-18T19:58:21Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/434" closed="2019-03-07T14:50:30+00:00">434</issue>
+                <ticket>380</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>380-2426b146</id>
+                <lines>118-122</lines>
+                <body>Continue. When we use the form.validate() function the status (enum: timeless/restaurants/models.py) is displaying the following error: 'status': ['Invalid Choice: could not coerce', 'Not a valid choice']. Removes the commented if to see the error. Also refactor the function using genericViews, as explained in puzzles #134 and #137.</body>
+                <file>timeless/reservations/views.py</file>
+                <author>marceloamadeu</author>
+                <email>marceloandradeamadeu@gmail.com</email>
+                <time>2019-02-27T17:47:35Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/492">492</issue>
+                    <ticket>434</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>434-1c49d27d</id>
+                    <lines>140-143</lines>
+                    <body>Continue the implementation of CreateReservation. Add authentication and refactor using CrudAPIView also edit and delete methods for Reservations. Tests for these are skipped. Created reservation should be returned as a JSON object</body>
+                    <file>timeless/reservations/views.py</file>
+                    <author>Emiliano Della Casa</author>
+                    <email>emiliano.dellacasa@gmail.com</email>
+                    <time>2019-03-06T17:41:50Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/236" closed="2019-03-01T14:31:16+00:00">236</issue>
+        <ticket>172</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>172-9aab08b8</id>
+        <lines>16-19</lines>
+        <body>Continue implementation of reservations tess for views: add tests for create, list and delete and add other logic to edit() test so it tests if the screen is being constructed correctly , then uncomment the test</body>
+        <file>tests/view/test_reservations.py</file>
+        <author>Emiliano Della Casa</author>
+        <email>emiliano.dellacasa@gmail.com</email>
+        <time>2019-02-12T21:20:40Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/174" closed="2019-02-18T08:50:39+00:00">174</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-8f1c33a4</id>
+    <lines>2-5</lines>
+    <body>Implement Administrator access control by implementing privileges logic and including it to the authorization functionality. See Issue #22 for more details about his privileges.</body>
+    <file>timeless/access_control/__init__.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-09T12:30:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/175" closed="2019-02-18T10:36:40+00:00">175</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-7b212a13</id>
+    <lines>6-9</lines>
+    <body>Implement Director access control by implementing privileges logic and including it to the authorization functionality. See Issue #22 for more details about his privileges.</body>
+    <file>timeless/access_control/__init__.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-09T12:30:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/284" closed="2019-03-02T15:15:39+00:00">284</issue>
+        <ticket>175</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>175-e2d8fa4e</id>
+        <lines>16-18</lines>
+        <body>Add role to the employee model and check that Director can only access/modify employees that have role of manager, master or interns.</body>
+        <file>timeless/access_control/director_privileges.py</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2019-02-17T21:33:24Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/176" closed="2019-02-19T10:29:21+00:00">176</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-a5b13305</id>
+    <lines>10-12</lines>
+    <body>Implement Manager access control by implementing privileges logic and including it to the authorization functionality. See Issue #22 for more details about his privileges.</body>
+    <file>timeless/access_control/__init__.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-09T12:30:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/298" closed="2019-02-21T20:22:22+00:00">298</issue>
+        <ticket>176</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>176-54367cd5</id>
+        <lines>16-19</lines>
+        <body>Add role to the employee model and check that Manager can only access/modify employees that have role of master or interns. And modify the test test_cant_access_other_company_employees so it will be executed on the appropriate employee roles.</body>
+        <file>timeless/access_control/manager_privileges.py</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2019-02-17T22:23:04Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/341" closed="2019-02-24T21:09:58+00:00">341</issue>
+            <ticket>298</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>298-a994a93f</id>
+            <lines>125-127</lines>
+            <body>Add check that users with Manager role can only access or modify employees that have role of master or interns. Then remove skip annotation from this test.</body>
+            <file>tests/integration/it_manager_privilages_test.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-20T16:48:32Z</time>
+            <children>
+              <puzzle alive="false">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/397" closed="2019-03-06T11:04:30+00:00">397</issue>
+                <ticket>341</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>341-9c211a77</id>
+                <lines>24-25</lines>
+                <body>Need to find nice way to understand what is role of this instance. May be it's better to introduce `type` field with choices.</body>
+                <file>timeless/roles/models.py</file>
+                <author>Vadim Ryazanov</author>
+                <email>vadimvoronezh@yandex.ru</email>
+                <time>2019-02-24T19:59:36Z</time>
+                <children>
+                  <puzzle alive="true">
+                    <issue href="https://github.com/timelesslounge/timelessis/issues/481">481</issue>
+                    <ticket>397</ticket>
+                    <estimate>30</estimate>
+                    <role>DEV</role>
+                    <id>397-ee8459bd</id>
+                    <lines>23-25</lines>
+                    <body>After adding role type, name may make confusion. It should be deleted and all code using it should use type instead. Also, Alter the views of the roles to match the changes.</body>
+                    <file>timeless/roles/models.py</file>
+                    <author>Ammar Atef</author>
+                    <email>a_atef45@yahoo.com</email>
+                    <time>2019-03-06T06:31:48Z</time>
+                    <children/>
+                  </puzzle>
+                </children>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/177" closed="2019-02-26T18:10:02+00:00">177</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-186c8876</id>
+    <lines>13-16</lines>
+    <body>Implement Location Admin access control by implementing privileges logic and including it to the authorization functionality. See Issue #22 for more details about his privileges.</body>
+    <file>timeless/access_control/__init__.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-09T12:30:02Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/425">425</issue>
+        <ticket>177</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>177-7172dc1b</id>
+        <lines>16-19</lines>
+        <body>Continue implementing access check for reservations, reservation settings and reservation comments. Don't forget to add integration tests. See issue #22 as reference for what a Location Admin should be able to do.</body>
+        <file>timeless/access_control/location_admin_privileges.py</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-02-22T19:21:49Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/178" closed="2019-02-21T10:42:57+00:00">178</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-a1fde2bf</id>
+    <lines>17-20</lines>
+    <body>Implement Master/Intern/Others access control by implementing privileges logic and including it to the authorization functionality. See Issue #22 for more details about his privileges.</body>
+    <file>timeless/access_control/__init__.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-09T12:30:02Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/179" closed="2019-02-17T17:36:21+00:00">179</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-9cc1d6a5</id>
+    <lines>21-23</lines>
+    <body>Add SecuredView, with accompanied resource type, to all views that need access control. Create IT tests to verify the security flow.</body>
+    <file>timeless/access_control/__init__.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-09T12:30:02Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/278" closed="2019-03-05T10:36:16+00:00">278</issue>
+        <ticket>179</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>179-b0e1041f</id>
+        <lines>21-23</lines>
+        <body>Continue securing other views, by using SecuredView. Most views are consisted of procedures, not classes, so maybe they'll have to be turned into classes.</body>
+        <file>timeless/access_control/__init__.py</file>
+        <author>amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2019-02-13T19:18:33Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/473">473</issue>
+            <ticket>278</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>278-f7d596d0</id>
+            <lines>11-13</lines>
+            <body>Tests are not using secured views. We should authenticate users to test correct behavior in employee views tests. Correct the tests mocking user authentication and role information and then uncomment skipped tests.</body>
+            <file>tests/integration/it_employees_test.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-03-04T20:40:45Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/474">474</issue>
+            <ticket>278</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>278-347c0e39</id>
+            <lines>2-7</lines>
+            <body>Continue securing other views, by using SecuredView. Most views are consisted of procedures, not classes, so maybe they'll have to be turned into classes. Then update the tests to test that unauthorized aren't allowed to access the view. View already implemented: employees/views.py::Create, employees/views.py::List and employees/views.py::List.</body>
+            <file>timeless/access_control/__init__.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-27T20:14:36Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/180" closed="2019-02-13T09:03:48+00:00">180</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-f28ac90c</id>
+    <lines>6-10</lines>
+    <body>Implement the rest of the owner privileges. 1) Create/modify/activate/deactivate accounts for all Employee associated with owned Company 2) View self-profile 3) View Employee profiles associated with owned Company</body>
+    <file>timeless/access_control/owner_privileges.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-05T19:29:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/241" closed="2019-02-20T10:45:35+00:00">241</issue>
+        <ticket>180</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>180-d5879bc3</id>
+        <lines>33-35</lines>
+        <body>We need to clean global object after test finish its execution to prevent collision with other tests. Probably we need to make a pytest fixture for this.</body>
+        <file>tests/test_owner_privilages.py</file>
+        <author>Vedran Grgo Vatavuk</author>
+        <email>vedran.grgo.vatavuk@ericsson.com</email>
+        <time>2019-02-13T08:53:22Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/242" closed="2019-02-24T08:32:27+00:00">242</issue>
+        <ticket>180</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>180-a83d648b</id>
+        <lines>8-10</lines>
+        <body>Implement the rest of the owner privileges. 1) Create /modify /activate /deactivate accounts for all Employee associated with owned Company</body>
+        <file>timeless/access_control/owner_privileges.py</file>
+        <author>Vedran Grgo Vatavuk</author>
+        <email>vedran.grgo.vatavuk@ericsson.com</email>
+        <time>2019-02-12T19:13:33Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/392" closed="2019-03-12T11:27:08+00:00">392</issue>
+            <ticket>242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>242-e919dfa9</id>
+            <lines>7-10</lines>
+            <body>Implement owner privileges regarding company. Owner should be able to operate over employees of his own company only. Implement this rules on __employee_access and then uncomment tests from owner_privileges.py</body>
+            <file>timeless/access_control/owner_privileges.py</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2019-02-24T08:25:12Z</time>
+            <children/>
+          </puzzle>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/393" closed="2019-03-09T13:28:20+00:00">393</issue>
+            <ticket>242</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>242-e2855a6d</id>
+            <lines>15-18</lines>
+            <body>Implement the rest of the owner privileges. Owner should be able to create, modify, activate and deactivate accounts for employess of his/her company. Create the tests for each of this operation..</body>
+            <file>timeless/access_control/authorization.py</file>
+            <author>rultor</author>
+            <email>me@rultor.com</email>
+            <time>2019-02-24T08:25:12Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/181" closed="2019-02-20T08:47:12+00:00">181</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-0fe68fd2</id>
+    <lines>17-20</lines>
+    <body>Implement __location_access. Owner should Create / modify / delete Locations associated with owned Company. Fetch owner from g.user (if it doesnt exist than fetch its id from session. Location id can be obtained from args.</body>
+    <file>timeless/access_control/owner_privileges.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-05T19:29:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/329" closed="2019-02-21T12:21:23+00:00">329</issue>
+        <ticket>181</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>181-375c6297</id>
+        <lines>7-9</lines>
+        <body>This test stopped working because it was not working according to requirements. Write new tests that validate 'is_allowed' according to specifications in #22</body>
+        <file>tests/test_authorization.py</file>
+        <author>Krzysztof Krason</author>
+        <email>Krzysztof.Krason@gmail.com</email>
+        <time>2019-02-19T15:46:49Z</time>
+        <children>
+          <puzzle alive="false">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/358" closed="2019-03-11T08:44:47+00:00">358</issue>
+            <ticket>329</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>329-4c9067b6</id>
+            <lines>9-15</lines>
+            <body>After #298 is finished update this test cases with appropriate roles and make sure that current test cases diffrentiate enough between roles, so we can be sure that is_allowed takes into account all exiting roles. Also remove pytest.mark.skip from all test methods here. And also try to parametrize tests below if it will be possible, at least 3 of those tests are very similar (tests with just a single company) so it should be easy to parametrize them.</body>
+            <file>tests/integration/it_test_authorization.py</file>
+            <author>Krzysztof Krason</author>
+            <email>Krzysztof.Krason@gmail.com</email>
+            <time>2019-02-20T13:32:59Z</time>
+            <children>
+              <puzzle alive="true">
+                <issue href="https://github.com/timelesslounge/timelessis/issues/526">526</issue>
+                <ticket>358</ticket>
+                <estimate>30</estimate>
+                <role>DEV</role>
+                <id>358-edbef54e</id>
+                <lines>14-17</lines>
+                <body>Change checking of this statement below `name = g.user.role.name` to `name = g.user.role.role_type` and fix all tests, in all tests should be provided role_type instead of name of Role model. Example below:</body>
+                <file>timeless/access_control/authorization.py</file>
+                <author>Vlad Arefev</author>
+                <email>arefyev@gdeetotdom.ru</email>
+                <time>2019-03-07T21:42:01Z</time>
+                <children/>
+              </puzzle>
+            </children>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/182" closed="2019-02-27T14:56:50+00:00">182</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-9d43a2f0</id>
+    <lines>10-12</lines>
+    <body>Get role from actual user instead of using hardcoded value. User can be fetched from g.user. Make sure that access is not allowed for unknown role.</body>
+    <file>timeless/access_control/authorization.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-05T19:29:03Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/432">432</issue>
+        <ticket>182</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>182-2e158098</id>
+        <lines>2-4</lines>
+        <body>Create tests for `unknown_privilege.has_privilege`. Users which does not have eny privilege should fall into this category and doesn't have access to any part of the system.</body>
+        <file>timeless/access_control/unknown_privileges.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-02-26T20:20:10Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/433">433</issue>
+        <ticket>182</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>182-4f3d5e7a</id>
+        <lines>7-11</lines>
+        <body>Inject user privileges into the test below. Test is broken because we do not set user privileges and global user privilege logic defined in #182 (get roles from user in session). We must simulate this role to user for text execution and then uncomment the test. Use factories and cerate a roles enumeration for tests with the values in authorization.py</body>
+        <file>tests/integration/it_companies_test.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-02-27T13:22:42Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/183" closed="2019-02-20T10:33:24+00:00">183</issue>
+    <ticket>22</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>22-e83d9f5c</id>
+    <lines>13-15</lines>
+    <body>Continue with SecuredView implementation. Dispatch_request should take cls.resource value and method value from request.method and block the user if he hasn't privileges to access it.</body>
+    <file>timeless/access_control/views.py</file>
+    <author>Vatavuk</author>
+    <email>vatavuk1@hotmail.com</email>
+    <time>2019-02-05T19:29:03Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/330" closed="2019-02-27T09:09:18+00:00">330</issue>
+        <ticket>183</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>183-ab247301</id>
+        <lines>7-10</lines>
+        <body>This test is broken when checking permissions in SecuredView has been implemented. Check how permissions are implemeted and fix this test or permissions. Sounds like there is a mistake in permission functions.</body>
+        <file>tests/integration/it_companies_test.py</file>
+        <author>Vadim Ryazanov</author>
+        <email>vadimvoronezh@yandex.ru</email>
+        <time>2019-02-19T20:06:22Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/187" closed="2019-02-20T19:21:25+00:00">187</issue>
+    <ticket>24</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>24-ac1cbe1a</id>
+    <lines>10-13</lines>
+    <body>Implement synchronization between Poster and Database for Tables. Data coming from Poster has priority upon data stored in our database. Do not forget to create periodic script and put int into scripts folder to make this sync periodically.</body>
+    <file>timeless/sync/sync.py</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-02-09T15:33:15Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/342" closed="2019-02-25T18:01:56+00:00">342</issue>
+        <ticket>187</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>187-cb7f0e2e</id>
+        <lines>137-142</lines>
+        <body>Implement two class methods merge_with_poster and create_by_poster. merge_with_poster will merge entry entity with poster entity, we should make right fields mapping, as result returns Table instance. The same should be made with method create_by_poster, returns Table instance with data from poster_table</body>
+        <file>timeless/restaurants/models.py</file>
+        <author>Vlad Arefev</author>
+        <email>arefyev@gdeetotdom.ru</email>
+        <time>2019-02-19T21:22:37Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/376">376</issue>
+            <ticket>342</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>342-d7dc5047</id>
+            <lines>6-10</lines>
+            <body>Implement synchronization between Poster and Database for Tables. Data coming from Poster has priority upon data stored in our database. Synchronization must be done via celery job. See sync of Location implementation as reference. Tests for poster sync are already created in it_sync_tables_test.py</body>
+            <file>timeless/sync/synced_table.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-02-21T18:28:07Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/343" closed="2019-03-01T09:07:04+00:00">343</issue>
+        <ticket>187</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>187-9c4d2494</id>
+        <lines>4-6</lines>
+        <body>Move this logic from sync_location method to timelessis/poster/tasks, there is already done sync_tables function as example. Also should refactor sync_location, seems it will not work</body>
+        <file>timeless/sync/sync.py</file>
+        <author>Vlad Arefev</author>
+        <email>arefyev@gdeetotdom.ru</email>
+        <time>2019-02-19T20:45:02Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/453">453</issue>
+            <ticket>343</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>343-d709a22a</id>
+            <lines>82-87</lines>
+            <body>Implement two class methods merge_with_poster and create_by_poster. merge_with_poster will merge entry entity with poster entity, we should make right fields mapping, as result returns Location instance. The same should be made with method create_by_poster, returns Location instance with data from poster_customer</body>
+            <file>timeless/restaurants/models.py</file>
+            <author>Vlad Arefev</author>
+            <email>arefyev@gdeetotdom.ru</email>
+            <time>2019-02-26T17:36:33Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/344">344</issue>
+        <ticket>187</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>187-5a3e643c</id>
+        <lines>15-19</lines>
+        <body>Set up scheduler for celery, docs - http://docs.celeryproject.org/en/ latest/userguide/periodic-tasks.html#id5 Also should make small refactoring: celery.py should situated in timelessis/celery.py not in timelessis/sync/celery.py</body>
+        <file>timeless/poster/tasks.py</file>
+        <author>Vlad Arefev</author>
+        <email>arefyev@gdeetotdom.ru</email>
+        <time>2019-02-19T20:16:03Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/345" closed="2019-02-22T18:07:30+00:00">345</issue>
+        <ticket>187</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>187-1dd3a479</id>
+        <lines>9-11</lines>
+        <body>Implement integration tests for this periodic task. Create fixture and mock response from poster, and check how it will be saved in DB. API docs - https://dev.joinposter.com/en/docs/api</body>
+        <file>tests/integration/sync/it_sync_tables_test.py</file>
+        <author>Vlad Arefev</author>
+        <email>arefyev@gdeetotdom.ru</email>
+        <time>2019-02-19T21:22:37Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/211" closed="2019-02-12T22:27:15+00:00">211</issue>
+    <ticket>21</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>21-91335e76</id>
+    <lines>19-21</lines>
+    <body>Install redis in the docker. Also, Add Redis installation to the readme file for complete installation. Redis installation script can be taken from the scripts/install folder.</body>
+    <file>timeless/__init__.py</file>
+    <author>Ammar Atef</author>
+    <email>a_atef45@yahoo.com</email>
+    <time>2019-02-11T08:36:19Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/237">237</issue>
+    <ticket>31</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>31-8e09cb2a</id>
+    <lines>13-15</lines>
+    <body>We need to move tests in this file to the appropriate module tests folder, for example test_companies test_locations test_tables and so on</body>
+    <file>tests/test_models.py</file>
+    <author>Emiliano Della Casa</author>
+    <email>emiliano.dellacasa@gmail.com</email>
+    <time>2019-02-12T22:13:41Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/305" closed="2019-02-20T14:48:38+00:00">305</issue>
+    <ticket>173</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>173-1b9752ab</id>
+    <lines>9-11</lines>
+    <body>Once issue with cache (#273) is resolved, remove clear_cache fixture and make sure that test runs ok. Also remove it from if they use it.</body>
+    <file>tests/integration/it_floors_test.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2019-02-19T08:25:55Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/306" closed="2019-03-01T15:16:59+00:00">306</issue>
+    <ticket>173</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>173-b323501f</id>
+    <lines>22-24</lines>
+    <body>Refactor (and uncomment) views below to use new base views once when they are avaiable. Current implementation is not generic enough.</body>
+    <file>timeless/reservations/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2019-02-18T12:13:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/307" closed="2019-02-22T09:15:57+00:00">307</issue>
+    <ticket>173</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>173-da07ec99</id>
+    <lines>2-5</lines>
+    <body>Continue implementing FormView, CreateView, UpdateView and DeleteView from Gist: https://gist.github.com/timster/e13ed61674bb11474e4a Implement an example for each view by refactoring one of the existing blueprints (see restaurants/floors/views.py). Also reuse FlashMessageMixin.</body>
+    <file>timeless/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2019-02-18T12:13:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/308" closed="2019-03-06T10:09:33+00:00">308</issue>
+    <ticket>173</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>173-17efae76</id>
+    <lines>6-11</lines>
+    <body>Implement checking for permissions (like is user logged in or is user in role) using decorators for view. For that, create new view which all other views will extend. Example would be: class AdminView(View): ....decorators = [auth.admin_required, auth.login_required] class UserView(AdminView):</body>
+    <file>timeless/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2019-02-19T12:04:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/309" closed="2019-02-27T08:37:23+00:00">309</issue>
+    <ticket>173</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>173-c2c60757</id>
+    <lines>12-15</lines>
+    <body>Refactor all blueprint views to use ListView for getting the list of objects from db using model. Also, make sure list.html template is made generic to allow all other views to use it. Feel free to add more puzzles since there are a lot of views.</body>
+    <file>timeless/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2019-02-18T12:13:15Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/429" closed="2019-03-09T18:37:17+00:00">429</issue>
+        <ticket>309</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>309-e0f3db47</id>
+        <lines>16-20</lines>
+        <body>Refactor all blueprint views to use ListView for getting the list of objects from db using model. Also, make sure list.html template is made generic to allow all other views to use it. Feel free to add more puzzles since there are a lot of views. Already refactored views: TableListView. Check in issues to see if some view is not being refactored in other issue.</body>
+        <file>timeless/views.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-02-26T23:01:31Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/430" closed="2019-03-11T09:10:45+00:00">430</issue>
+        <ticket>309</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>309-2a02cf1f</id>
+        <lines>11-15</lines>
+        <body>Add mock authentication to TableListView. Currently TabeListView test is not working because it requires an authenticated user with permissions to show list tables. it is currently showing login screen. Add an mocked authenticated user so we can run the test, the remove skip annotation from it.</body>
+        <file>timeless/restaurants/tables/views.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-02-26T23:01:31Z</time>
+        <children>
+          <puzzle alive="true">
+            <issue href="https://github.com/timelesslounge/timelessis/issues/528">528</issue>
+            <ticket>430</ticket>
+            <estimate>30</estimate>
+            <role>DEV</role>
+            <id>430-7da3dbd1</id>
+            <lines>11-15</lines>
+            <body>Fix TableListView problem of returning empty list. TableListView is returning an empty list when it should return valid values. Test below is valid, it calls TableListViews with an authenticated user but it isn't retrieving the tables. Fix the TableListView class and then uncomment the test below.</body>
+            <file>tests/view/tables/test_tables.py</file>
+            <author>Paulo Lobo</author>
+            <email>pauloeduardolobo@gmail.com</email>
+            <time>2019-03-08T18:00:40Z</time>
+            <children/>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/310" closed="2019-02-26T20:07:03+00:00">310</issue>
+    <ticket>173</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>173-407b679d</id>
+    <lines>16-17</lines>
+    <body>Once CreateView is implemented, refactor all blueprint views to use it for validating the form and storing the record in the database.</body>
+    <file>timeless/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2019-02-18T12:13:15Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/311" closed="2019-03-05T11:13:22+00:00">311</issue>
+    <ticket>173</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>173-825cf970</id>
+    <lines>18-20</lines>
+    <body>Once UpdateView is implemented, refactor all blueprint views to use it for validating the form and updating the record in the database. Reuse SingleObjectMixin to provide simple solution to fetch by id.</body>
+    <file>timeless/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2019-02-18T12:13:15Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/442">442</issue>
+        <ticket>311</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>311-824efe7f</id>
+        <lines>15-17</lines>
+        <body>CreateView is not working as intended and is not saving Items. Find and fix the problem and then uncomment the def test_create(client) method.</body>
+        <file>tests/view/items/test_items.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-02-28T12:02:09Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/443">443</issue>
+        <ticket>311</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>311-e8daa63c</id>
+        <lines>8-10</lines>
+        <body>Once CreateView is implemented, refactor all blueprint views to use it for validating the form and storing the record in the database. Views already implemented: ItemCreateView</body>
+        <file>timeless/views.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-02-27T21:31:58Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/475">475</issue>
+        <ticket>311</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>311-014faf56</id>
+        <lines>11-14</lines>
+        <body>Once UpdateView is implemented, refactor all blueprint views to use it for validating the form and updating the record in the database. Reuse SingleObjectMixin to provide simple solution to fetch by id. Views already implemented: ItemCreateView</body>
+        <file>timeless/views.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-03-01T12:00:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/312" closed="2019-02-27T21:17:21+00:00">312</issue>
+    <ticket>173</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>173-ed27940d</id>
+    <lines>21-23</lines>
+    <body>Once DeleteView is implemented, refactor all blueprint views to use it for validating the form and deleting the record in the database. Reuse SingleObjectMixin to provide simple solution to fetch by id.</body>
+    <file>timeless/views.py</file>
+    <author>Boris Kuzmic</author>
+    <email>boris.kuzmic@ericsson.com</email>
+    <time>2019-02-18T12:13:15Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/437">437</issue>
+        <ticket>312</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>312-1cb7fb5f</id>
+        <lines>72-74</lines>
+        <body>Refactor all deleting views to use `views.DeleteView` and the method they were registered to bluprints. See `.register` method in `GenericView`, use it. Also uncomment all tests related to these views.</body>
+        <file>timeless/restaurants/table_shapes/views.py</file>
+        <author>Vadim Ryazanov</author>
+        <email>vadimvoronezh@yandex.ru</email>
+        <time>2019-02-26T18:25:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/328">328</issue>
+    <ticket>28</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>28-98750bdb</id>
+    <lines>69-74</lines>
+    <body>Implement actual fetching of reservations. We need to return a JSON list, filtered by reservations based on location and date. We also need to password protect this API, and filter those belonging to the specific company ID. Let's implement the serialization and deserialization of JSON based on this API: https://flask-marshmallow.readthedocs.io/en/latest/</body>
+    <file>timeless/reservations/views.py</file>
+    <author>Carlos Miranda</author>
+    <email>carlosmiranda@users.noreply.github.com</email>
+    <time>2019-02-20T07:05:48Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/385" closed="2019-03-08T09:05:09+00:00">385</issue>
+    <ticket>399</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>399-f11dbfdc</id>
+    <lines>72-75</lines>
+    <body>Implement tests for this method. Tests should include more cases. Currently we are testing not logged in while visiting activate. Tests for a logged in activation needed.</body>
+    <file>timeless/auth/views.py</file>
+    <author>rultor</author>
+    <email>me@rultor.com</email>
+    <time>2019-02-23T21:16:20Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/timelesslounge/timelessis/issues/485" closed="2019-03-11T19:52:40+00:00">485</issue>
+        <ticket>385</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>385-76f7ffb3</id>
+        <lines>27-29</lines>
+        <body>Inject user into session in the test below. Test is broken because we do not set user in session and then auth/views.py does not redirect to correct page. Fix this behavior and uncomment this test.</body>
+        <file>tests/test_auth.py</file>
+        <author>Paulo Lobo</author>
+        <email>pauloeduardolobo@gmail.com</email>
+        <time>2019-03-06T01:02:14Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/532" closed="2019-03-15T10:31:10+00:00">532</issue>
+    <ticket>514</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>514-f9121ced</id>
+    <lines>24-24</lines>
+    <body>React Frontend tests should be also executed in CI. The command is "cd frontend &amp;&amp; npm test". Coverage should be also reported, maybe this another puzzle.</body>
+    <file>.rultor.yml</file>
+    <author>Paul Vincent Beigang</author>
+    <email>pbeigang@gmail.com</email>
+    <time>2019-03-09T21:50:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/timelesslounge/timelessis/issues/545">545</issue>
+    <ticket>533</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>533-c19b236d</id>
+    <lines>27-27</lines>
+    <body>Report coverage for React tests in Rultor to make changes in coverage immediately visible adding more words just to meet a not optimal pdd config, see https://github.com/timelesslounge/timelessis/issues/544</body>
+    <file>.rultor.yml</file>
+    <author>Emiliano Della Casa</author>
+    <email>emiliano.dellacasa@gmail.com</email>
+    <time>2019-03-15T10:30:43Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" date="2020-11-11T07:51:51+00:00" version="0.30.21">
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/28" closed="2020-07-28T12:05:19+00:00">28</issue>
+    <ticket>25</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>25-55626d2f</id>
+    <lines>38-40</lines>
+    <body>Make sure to extract the username and email from the principal's attributes, according to the provider (Github, Gitlab etc). At the moment, it assumes only Github as provider.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/LoginProducer.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-22T18:11:43Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-web/issues/37">37</issue>
+    <ticket>33</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>33-a55c46c3</id>
+    <lines>40-43</lines>
+    <body>Design the front-end part, similarly to how we already read and display the public repos. Don't forget to add a tooltip advising the user to go to Github Settings and grant Org Access if they do not see all the repos.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/Repositories.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-07-26T20:05:56Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-web/issues/42">42</issue>
+    <ticket>40</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>40-0cb240ae</id>
+    <lines>43-44</lines>
+    <body>Write unit tests for LoginProducer covering login cases for Github and Gitlab providers.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/LoginProducer.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-07-28T11:16:20Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-web/issues/47">47</issue>
+    <ticket>45</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>45-edb1347b</id>
+    <lines>45-47</lines>
+    <body>At the moment only the "amihaiemil" user has the admin role. Everyone who is an admin in the Github or GitLab self-xdsd Organization, should have the admin role.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/LoginProducer.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-10T13:59:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-web/issues/48">48</issue>
+    <ticket>43</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>43-2688a758</id>
+    <lines>40-42</lines>
+    <body>Update the getPublicRepos.js function to fetch the github/gitlab repos according to the "provider" attribute returned the from "/api/users/self" endpoint.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/Users.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-10T14:15:45Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/58" closed="2020-08-24T16:24:01+00:00">58</issue>
+    <ticket>56</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>56-0fd0090b</id>
+    <lines>44-48</lines>
+    <body>A project can be owned by a single Self user, but if the repo belongs to an Organization, it can have multiple administrators. Add the ``owned`` flag to JsonProject and modify the project(...) method to search in all of Self's projects, not only in the ones owned by the User.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ProjectsApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-23T15:06:54Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-web/issues/61" closed="2020-08-25T13:06:42+00:00">61</issue>
+        <ticket>58</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>58-d7319092</id>
+        <lines>44-46</lines>
+        <body>Unify the projects endpoint to work for all providers. Some small changes in method project(...), in Spring's routing and project.html are needed.</body>
+        <file>src/main/java/com/selfxdsd/selfweb/api/ProjectsApi.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-08-24T14:55:11Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/59" closed="2020-08-25T15:53:41+00:00">59</issue>
+    <ticket>56</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>56-61e8dc73</id>
+    <lines>49-51</lines>
+    <body>Implement and test the Contracts tab of the project page. It should list all contributors/contracts and offer forms to register a new contributor/contract.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ProjectsApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-08-23T15:17:33Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/69" closed="2020-09-01T11:48:36+00:00">69</issue>
+    <ticket>70</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>70-0420f9d9</id>
+    <lines>49-51</lines>
+    <body>Implement and test the Contracts tab of the project page. Start implementing the JavaScript interactor withProjectsAPI contracts endpoints GET and POST.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ProjectsApi.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-08-28T09:26:42Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-web/issues/67" closed="2020-08-28T14:55:51+00:00">67</issue>
+        <ticket>69</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>69-36cf5403</id>
+        <lines>45-47</lines>
+        <body>Implement and test the Contracts tab of the project page. Provide registration form endpoint for adding contributor contract to project.</body>
+        <file>src/main/java/com/selfxdsd/selfweb/api/ProjectsApi.java</file>
+        <author>cristianpela</author>
+        <email>cristypela05@gmail.com</email>
+        <time>2020-08-25T12:52:02Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/75" closed="2020-09-05T18:24:52+00:00">75</issue>
+    <ticket>73</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>73-21b27e48</id>
+    <lines>49-51</lines>
+    <body>Let's move the /contracts methods to their own API class, called ContractsApi. The method paths should remain the same.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ProjectsApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-04T13:39:54Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-web/issues/86">86</issue>
+    <ticket>84</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>84-8b067e21</id>
+    <lines>47-48</lines>
+    <body>Start implementing ContributorsApi method contributors GET. This will list all contributors.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ContractsApi.java</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-05T16:31:38Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-web/issues/91">91</issue>
+    <ticket>89</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>89-c20954fc</id>
+    <lines>39-43</lines>
+    <body>Implement the Contributor Dashboard HTML page. If the /contributor endpoint returns NO CONTENT, we should simply display a message saying "You are not a contributor in any project...". If the /contributor returns data, we should display the Contracts, links to the Tasks etc.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ContributorApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-11T14:08:21Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-web/issues/100" closed="2020-09-25T08:09:01+00:00">100</issue>
+        <ticket>91</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>91-67621134</id>
+        <lines>238-240</lines>
+        <body>The Stripe refreshUrl and returnUrl are hardcoded to localhost at the moment. They should be configurable via environment variables stripe.refresh.url and stripe.return.url respectively.</body>
+        <file>src/main/java/com/selfxdsd/selfweb/api/PayoutMethodsApi.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-09-18T15:44:32Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/92" closed="2020-09-15T12:52:05+00:00">92</issue>
+    <ticket>89</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>89-ce51b155</id>
+    <lines>15-20</lines>
+    <body>Remove the project attribute from the JsonContract. When we are displaying a Contract we are either on the Project Overview page of the PO or on the Contributor Dashboard of the Contributor. The PO already has the wallet and all the project info on their page and the Contributor should not see more info other than the Project name which is already on the Contract.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/output/JsonContract.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-11T14:08:21Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/104" closed="2020-09-29T18:18:35+00:00">104</issue>
+    <ticket>103</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>103-573d7d5f</id>
+    <lines>14-16</lines>
+    <body>Provide autocomplete feature for username field by using Github api username search and a jquery-autocomplete plugin (or other) for rendering.</body>
+    <file>src/main/resources/public/js/getAndAddContracts.js</file>
+    <author>cristianpela</author>
+    <email>cristypela05@gmail.com</email>
+    <time>2020-09-21T10:05:10Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/109" closed="2020-09-26T19:05:25+00:00">109</issue>
+    <ticket>85</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>85-5f3aab94</id>
+    <lines>8-10</lines>
+    <body>Implement a "Swag" card on the Project Overview tab, to give the user various options of displaying the Self badge (HTML, Markdown etc).</body>
+    <file>src/main/resources/templates/project.html</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-09-26T16:56:44Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/135" closed="2020-10-11T14:42:16+00:00">135</issue>
+    <ticket>123</ticket>
+    <estimate>40</estimate>
+    <role>DEV</role>
+    <id>123-cb1a3cb5</id>
+    <lines>45-48</lines>
+    <body>As soon as we have this logic implemented in the core, we should offer an endpoint for setting up a project's Stripe wallet. Then, also the front-end will need to be modified, to offer a button (form) which will access this endpoint.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ProjectsApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-07T11:41:59Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/self-xdsd/self-web/issues/137">137</issue>
+        <ticket>135</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>135-6e71764e</id>
+        <lines>46-47</lines>
+        <body>Add an endpoint and front-end code for a Wallet's activation.</body>
+        <file>src/main/java/com/selfxdsd/selfweb/api/WalletsApi.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-10-11T14:35:04Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="true">
+        <issue href="https://github.com/self-xdsd/self-web/issues/138">138</issue>
+        <ticket>135</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>135-163bde02</id>
+        <lines>48-50</lines>
+        <body>Once the PaymentMethod logic is implemented in the core, we should add a form in the Real Wallet widget, where the User will add payment methods.</body>
+        <file>src/main/java/com/selfxdsd/selfweb/api/WalletsApi.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-10-11T14:35:04Z</time>
+        <children/>
+      </puzzle>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-web/issues/139" closed="2020-11-10T16:52:44+00:00">139</issue>
+        <ticket>135</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>135-26d24fff</id>
+        <lines>51-53</lines>
+        <body>Once the Wallet.updateCash(...) method is implemented in the core, we should allow the User to update the Limit of their real wallet.</body>
+        <file>src/main/java/com/selfxdsd/selfweb/api/WalletsApi.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-10-11T14:35:04Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-web/issues/144">144</issue>
+    <ticket>142</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>142-5e8cb6d3</id>
+    <lines>49-50</lines>
+    <body>As soon as we have this logic implemented in the core, provide a proper implementation for methods updateContract(...) here.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ContractsApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-17T15:21:58Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/149" closed="2020-10-30T14:52:08+00:00">149</issue>
+    <ticket>142</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>142-78fcf4aa</id>
+    <lines>53-56</lines>
+    <body>As soon as we have this logic implemented in the core, provide a proper implementation for methods markContractForRemoval(...) here. Don't forget to also specify the "markedForRemoval" attribute to JsonContract.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ContractsApi.java</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-22T08:20:47Z</time>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/self-xdsd/self-web/issues/155">155</issue>
+        <ticket>149</ticket>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <id>149-d94ca8ab</id>
+        <lines>53-54</lines>
+        <body>Implement the 'Restore Contract' functionality for a Project Contract,as soon as we have it available in self-core.</body>
+        <file>src/main/java/com/selfxdsd/selfweb/api/ContractsApi.java</file>
+        <author>@amihaiemil</author>
+        <email>amihaiemil@gmail.com</email>
+        <time>2020-10-30T09:44:01Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/151" closed="2020-10-30T14:58:50+00:00">151</issue>
+    <ticket>142</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>142-1525c079</id>
+    <lines>49-51</lines>
+    <body>As soon as we have this logic implemented in the core, provide a proper implementation for methods markContractForRemoval(...) here.</body>
+    <file>src/main/java/com/selfxdsd/selfweb/api/ContributorApi.java</file>
+    <author>amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-10-23T07:14:18Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/self-xdsd/self-web/issues/162" closed="2020-11-05T14:39:46+00:00">162</issue>
+    <ticket>152</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>152-911b3e7d</id>
+    <lines>44-45</lines>
+    <body>Continue writing unit tests for the json output classes. We can start with output class JsonContract.</body>
+    <file>src/test/java/com/selfxdsd/selfweb/api/output/JsonProjectTestCase.java</file>
+    <author>Mihai</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-11-03T17:00:29Z</time>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/self-xdsd/self-web/issues/166" closed="2020-11-11T07:51:43+00:00">166</issue>
+        <ticket>162</ticket>
+        <estimate>60</estimate>
+        <role>DEV</role>
+        <id>162-cfb8e2aa</id>
+        <lines>39-40</lines>
+        <body>Continue writing unit tests for the JSON output classes. We can continue with class JsonWallet.</body>
+        <file>src/test/java/com/selfxdsd/selfweb/api/output/JsonContractTestCase.java</file>
+        <author>Lumi3011</author>
+        <email>lumi.3011@yahoo.ro</email>
+        <time>2020-11-05T14:02:19Z</time>
+        <children>
+          <puzzle alive="true">
+            <ticket>166</ticket>
+            <estimate>60</estimate>
+            <role>DEV</role>
+            <id>166-208d6a22</id>
+            <lines>36-37</lines>
+            <body>Continue writing unit tests for the JSON output classes. We can continue with class JsonInvoicedTask.</body>
+            <file>src/test/java/com/selfxdsd/selfweb/api/output/JsonWalletTestCase.java</file>
+            <author>Lumi3011</author>
+            <email>lumi.3011@yahoo.ro</email>
+            <time>2020-11-10T17:49:32Z</time>
+            <children/>
+            <issue href="https://github.com/self-xdsd/self-web/issues/173">173</issue>
+          </puzzle>
+        </children>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/self-xdsd/self-web/issues/170">170</issue>
+    <ticket>169</ticket>
+    <estimate>60</estimate>
+    <role>DEV</role>
+    <id>169-cede6e8a</id>
+    <lines>246-247</lines>
+    <body>Once the Wallet.updateCash(...) endpoint is available on backend, replace the frontend update limit cash simulating network call with a real one.</body>
+    <file>src/main/resources/public/js/getProject.js</file>
+    <author>@amihaiemil</author>
+    <email>amihaiemil@gmail.com</email>
+    <time>2020-11-09T09:25:44Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

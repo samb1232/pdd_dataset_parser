@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.0pdd.com/puzzles.xsd" date="2026-04-03T11:39:42+00:00" version="BUILD">
+  <puzzle alive="false">
+    <issue href="https://github.com/objectionary/hone-maven-plugin/issues/466" closed="2026-04-03T11:39:42+00:00">466</issue>
+    <ticket>440</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>440-a03adb51</id>
+    <lines>29-35</lines>
+    <body>build a top-level statistics file for a modular project. Currently, each module contains its own hone-statistics.csv file. We need to aggregate these files into a single one at the top level of the project. This will allow us to have a comprehensive view of the statistics for the entire project in one place. The aggregated file should contain all the entries from the individual module files. When this task is completed, uncomment the code below and make sure it works correctly.</body>
+    <file>src/it/modular/verify.groovy</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2026-04-02T12:40:59Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/objectionary/hone-maven-plugin/issues/467">467</issue>
+    <ticket>440</ticket>
+    <estimate>90</estimate>
+    <role>DEV</role>
+    <id>440-b458157c</id>
+    <lines>34-42</lines>
+    <body>enable 'grep-in' tests. The following tests are disabled because they fail on Rultor: &lt;a href="https://github.com/objectionary/hone-maven-plugin/pull/458"&gt;PR&lt;/a&gt; However, all the tests pass. We should find a reason why the following tests fail on specific environment and fix them: - {@link OptimizeMojoTest#skipsOptimizationDueGrepInOption} - {@link OptimizeMojoTest#doesNotSkipOptimizationDueGrepInOption} When this tests are fixed, remove @Disabled annotation.</body>
+    <file>src/test/java/org/eolang/hone/OptimizeMojoTest.java</file>
+    <author>@volodya-lombrozo</author>
+    <email>volodya.lombrozo@gmail.com</email>
+    <time>2026-04-02T12:40:59Z</time>
+    <children/>
+  </puzzle>
+</puzzles>

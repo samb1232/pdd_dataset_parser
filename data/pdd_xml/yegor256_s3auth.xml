@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/puzzles.xsl" type="text/xsl"?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.0pdd.com/puzzles.xsd" version="BUILD" date="2026-03-13T20:42:14+00:00">
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/s3auth/issues/112" closed="2018-03-25T12:53:03+00:00">112</issue>
+    <id>34-91a7c8a0</id>
+    <ticket>34</ticket>
+    <file>s3auth-hosts/src/main/java/com/s3auth/hosts/SyslogHosts.java</file>
+    <lines>46-58</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>SyslogHosts should add syslog capabilities to the operations of its underlying Hosts instance. The way that I imagine that this will be done is that {@link SyslogHosts#find(String)}) should create instances of Host, in turn {@link Host#fetch(java.net.URI, Range)} will create instances of {@link Resource} that sends messages to the syslog host when {@link Resource#writeTo(java.io.OutputStream)} is invoked. I'm making a few assumptions about what remains to be done here, namely: 1) The Host and Resource decorator objects will probably be inner classes within Hosts or find, or even anonymous inner classes - whatever seems best, and 2) the underlying Hosts' close() and domains() operations will be unchanged, and thus I made simple implementations that directly delegate to the underlying instance. Go ahead and change any of the above if the initial design considerations are incorrect.</body>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>112-4379cc4c</id>
+        <ticket>112</ticket>
+        <file>s3auth-rest/src/main/webapp/xsl/index.xsl</file>
+        <lines>117-120</lines>
+        <estimate>30</estimate>
+        <role>DEV</role>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T09:07:29Z</time>
+        <body>SyslogHosts has been implemented, but the syslog field is still not visible to the user. Let's make it visible. Let's also update Domain.Validator to ensure that the user input is correct.</body>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/s3auth/issues/351">351</issue>
+    <id>33-9ff485f7</id>
+    <ticket>33</ticket>
+    <file>s3auth-relay/src/test/java/com/s3auth/relay/MainTest.java</file>
+    <lines>51-52</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>Test doesn't work since AWS Dynamo config is not available in runtime. We should find a way to mock it properly.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>48-1047c13d</id>
+    <ticket>48</ticket>
+    <file>s3auth-hosts/src/test/java/com/s3auth/hosts/DefaultDynamoTest.java</file>
+    <lines>59-61</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>This test doesn't work because @Cacheable doesn't allow cache flushing. Should be implemented in JCABI: https://github.com/yegor256/jcabi/issues/163</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/s3auth/issues/90" closed="2018-03-25T12:53:04+00:00">90</issue>
+    <id>1-f2c33b38</id>
+    <ticket>1</ticket>
+    <file>s3auth-hosts/src/main/java/com/s3auth/hosts/DefaultDynamo.java</file>
+    <lines>64-64</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>Would be nice to migrate to jcabi-dynamo</body>
+    <children>
+      <puzzle alive="false">
+        <issue href="https://github.com/yegor256/s3auth/issues/352" closed="2023-11-08T03:58:27+00:00">352</issue>
+        <id>90-43f9c549</id>
+        <ticket>90</ticket>
+        <file>s3auth-hosts/src/test/java/com/s3auth/hosts/DefaultDynamoTest.java</file>
+        <lines>61-64</lines>
+        <estimate>30</estimate>
+        <body>This test creates a mock region with a H2Data backend which has table columns with characters unsupported by the h2 database. Issue #7 in jcabi-dynamo should fix this. Don't forget to remove the @Ignore annotation from this test.</body>
+        <role>IMP</role>
+        <author>pinaf</author>
+        <email>felipe.pina@gmail.com</email>
+        <time>2015-01-20T01:59:02Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>61-70b549cd</id>
+    <ticket>61</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/HttpThread.java</file>
+    <lines>190-194</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>We should be able to fetch the list of versions of a given resource. The request should contain the query "all-versions". That is, for example, requesting "http://maven.s3auth.com/index.html?all-versions" should return the list of all versions of the requested object.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>133-d8e15b67</id>
+    <ticket>133</ticket>
+    <file>s3auth-hosts/src/test/java/com/s3auth/hosts/DirectoryListingTest.java</file>
+    <lines>97-100</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>Better to use XPath for this. However, I wasn't able to get it to work because of XHTML namespace issues. Let's fix it. Let's also address the same issue with hasCommonPrefix below and {@link DefaultHostTest#showsDirectoryListing()}.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>101-1cb64a78</id>
+    <ticket>101</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/HttpThread.java</file>
+    <lines>118-121</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>Let's handle GZIP HTTP compression. We should parse the request's Accept-Encoding and Content-Type headers, and use GZIP compression if appropriate. If we are returning compressed input, we should wrap the resource in a GzipResource instance.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/s3auth/issues/185" closed="2018-03-25T12:53:05+00:00">185</issue>
+    <id>173-8d71c922</id>
+    <ticket>173</ticket>
+    <file>s3auth-hosts/src/main/java/com/s3auth/hosts/DefaultResource.java</file>
+    <lines>57-64</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>Due to the large cost of having very many small CloudWatch requests, we changed the implementation of DefaultResource so that it now retains information to a local H2 database instead of directly making CloudWatch API requests. However, we still don't have a way to post it to CloudWatch. Let's create a way to do this, such as a cron job that runs every hour. It should post aggregated traffic metrics to Amazon CloudWatch per domain, and also perform cleanup of old data after it manages to post the information.</body>
+    <children>
+      <puzzle alive="false">
+        <issue>unknown</issue>
+        <id>185-1d178b38</id>
+        <ticket>185</ticket>
+        <file>s3auth-hosts/pom.xml</file>
+        <lines>102-108</lines>
+        <estimate>30</estimate>
+        <author>unknown</author>
+        <email>unknown@0pdd.com</email>
+        <time>2016-12-14T09:07:29Z</time>
+        <body>jcabi-manifests version here should be managed by the parent. Version 1.0.2 fixes some multithreading bugs that causes the build to fail. The reason why we're specifying it here is because the parent is still referencing the buggy version. Let's remove the version here when the parent has been updated. Let's also update the pom.xml files in s3auth-relay and s3auth-rest folders.</body>
+        <role>IMP</role>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>173-e3a77fb4</id>
+    <ticket>173</ticket>
+    <file>s3auth-hosts/src/main/java/com/s3auth/hosts/DefaultHost.java</file>
+    <lines>352-355</lines>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>We should be caching the results of this method for a short period somehow, or at least prevent unnecessary repeated requests to Amazon CloudWatch API. This is so that we can improve performance and reduce access costs.</body>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/s3auth/issues/191" closed="2018-03-25T12:53:06+00:00">191</issue>
+    <id>8-5eb4ae33</id>
+    <ticket>8</ticket>
+    <file>s3auth-relay/src/test/java/com/s3auth/relay/HttpFacadeTest.java</file>
+    <lines>515-518</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>For some reason this test is not passing in Travis and Rultor, even with the jcabi-ssl-maven-plugin. It does work on my local machine. It fails with javax.net.ssl.SSLHandshakeException with message: Received fatal alert: handshake_failure. Let's investigate and fix.</body>
+    <role>IMP</role>
+    <children>
+      <puzzle alive="true">
+        <issue href="https://github.com/yegor256/s3auth/issues/353">353</issue>
+        <id>191-7e266bd1</id>
+        <ticket>191</ticket>
+        <file>s3auth-relay/src/test/java/com/s3auth/relay/HttpFacadeTest.java</file>
+        <lines>523-526</lines>
+        <estimate>30</estimate>
+        <body>The test fails to retrieve the expected content over SSL. The response body is empty while it should be "secured". Test fails on line 570. Let's fix it and unignore the test.</body>
+        <role>IMP</role>
+        <author>Artem Nakonechny</author>
+        <email>wentwog@gmail.com</email>
+        <time>2015-02-04T17:22:55Z</time>
+        <children/>
+      </puzzle>
+    </children>
+  </puzzle>
+  <puzzle alive="false">
+    <issue>unknown</issue>
+    <id>198-0764d06e</id>
+    <ticket>198</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/HttpException.java</file>
+    <lines>86-87</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>1) Don't lose cause stacktrace 2) cause.getMessage can be null, so it can produce ConstraintViolationException instead of HttpException</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/s3auth/issues/354" closed="2023-11-09T03:37:46+00:00">354</issue>
+    <id>200-e1abb509</id>
+    <ticket>200</ticket>
+    <file>s3auth-rest/src/test/casperjs/RendersHomePage.js</file>
+    <lines>33-33</lines>
+    <estimate>30</estimate>
+    <author>unknown</author>
+    <email>unknown@0pdd.com</email>
+    <time>2016-12-14T09:07:29Z</time>
+    <body>Migrate old tests from rexsl/scripts to casperjs</body>
+    <role>IMP</role>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/s3auth/issues/355">355</issue>
+    <id>213-2f9b789a</id>
+    <ticket>213</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/FtpFacade.java</file>
+    <lines>65-66</lines>
+    <estimate>30</estimate>
+    <body>Implement TLS secure port listening in a manner analogous to HttpFacade.</body>
+    <role>IMP</role>
+    <author>pinaf</author>
+    <email>felipe.pina@gmail.com</email>
+    <time>2015-01-24T20:50:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/s3auth/issues/356">356</issue>
+    <id>213-d22cf12f</id>
+    <ticket>213</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/FtpResponse.java</file>
+    <lines>55-57</lines>
+    <estimate>30</estimate>
+    <body>Implement methods 'withCode', 'withText', 'send' as above. Also, implement 'asString' and unignore test 'constructsCorrectly' in FtpResponseTest.</body>
+    <role>IMP</role>
+    <author>pinaf</author>
+    <email>felipe.pina@gmail.com</email>
+    <time>2015-01-24T20:50:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/s3auth/issues/357">357</issue>
+    <id>213-5796b8fa</id>
+    <ticket>213</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/FtpThread.java</file>
+    <lines>52-53</lines>
+    <estimate>30</estimate>
+    <body>Implement authentication based on the USER and PASS commands.</body>
+    <role>IMP</role>
+    <author>pinaf</author>
+    <email>felipe.pina@gmail.com</email>
+    <time>2015-01-24T20:50:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/s3auth/issues/358" closed="2026-03-13T19:25:34+00:00">358</issue>
+    <id>213-6939d515</id>
+    <ticket>213</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/FtpThread.java</file>
+    <lines>54-57</lines>
+    <estimate>30</estimate>
+    <body>Implement relay functionality to fetch resource upon receival of the RETR command with valid authorization. Return an error in case of other commands (unsupported for now). Remove unnecessary asserts ffor fields 'sockets' and 'hosts' in method 'dispatch'.</body>
+    <role>IMP</role>
+    <author>pinaf</author>
+    <email>felipe.pina@gmail.com</email>
+    <time>2015-01-24T20:50:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/s3auth/issues/359">359</issue>
+    <id>213-721856fe</id>
+    <ticket>213</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/HttpFacade.java</file>
+    <lines>66-69</lines>
+    <estimate>60</estimate>
+    <body>Create new a class Facade with all protocol-neutral code (such as socket handling, socket queue, etc). Then convert {@link com .s3auth.relay.HttpFacade} and {@link com.s3auth.relay.FtpFacade} so they use the new Facade class in order to avoid code duplication.</body>
+    <role>IMP</role>
+    <author>pinaf</author>
+    <email>felipe.pina@gmail.com</email>
+    <time>2015-01-24T18:05:11Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/s3auth/issues/360">360</issue>
+    <id>213-af390358</id>
+    <ticket>213</ticket>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/Main.java</file>
+    <lines>67-68</lines>
+    <estimate>30</estimate>
+    <body>Create a FtpFacade in order to provide a FTP gateway. Also unignore test 'connectDisconnect' in FtpFacadeTest.</body>
+    <role>IMP</role>
+    <author>pinaf</author>
+    <email>felipe.pina@gmail.com</email>
+    <time>2015-01-24T20:50:51Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="false">
+    <issue href="https://github.com/yegor256/s3auth/issues/371" closed="2022-12-06T00:02:52+00:00">371</issue>
+    <ticket>317</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>317-34dbec36</id>
+    <lines>32-34</lines>
+    <body>Need to fix other build errors in order to upgrade to jcabi-parent v0.49.3. There is an error due to the use of deprecated APIs, errors due to classpath issues during test runtime, and others.</body>
+    <file>pom.xml</file>
+    <author>George Aristy</author>
+    <email>george.aristy@gmail.com</email>
+    <time>2018-04-14T14:27:40Z</time>
+    <children/>
+  </puzzle>
+  <puzzle alive="true">
+    <issue href="https://github.com/yegor256/s3auth/issues/565">565</issue>
+    <ticket>213</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>213-ec25c60e</id>
+    <lines>25-28</lines>
+    <body>Implement relay functionality to fetch resource upon receival of the RETR command with valid authorization. Return an error in case of other commands (unsupported for now). Remove unnecessary asserts for fields 'sockets' and 'hosts' in method 'dispatch'.</body>
+    <file>s3auth-relay/src/main/java/com/s3auth/relay/FtpThread.java</file>
+    <author>@yegor256</author>
+    <email>yegor256@gmail.com</email>
+    <time>2026-03-13T16:54:29Z</time>
+    <children/>
+  </puzzle>
+</puzzles>
